@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-507
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 507
+  date: 06/28/2020
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Building GitHub-Style 'Hovercards' with Stimulus and HTML-Over-The-Wire
+    url: https://rubyweekly.com/link/90768/web
+    type: News
+  - title: 'Factory Bot 6.0: A Library for Setting Up Ruby Objects as Test Data'
+    url: https://rubyweekly.com/link/90769/web
+    type: News
+  - title: Try Redis 6.0 on RedisGreen
+    url: https://rubyweekly.com/link/90774/web
+    type: News
+  - title: Rails 6.0.3.2 Released
+    url: https://rubyweekly.com/link/90775/web
+    type: News
+  - title: An Introduction to Web Scraping with Ruby
+    url: https://rubyweekly.com/link/90776/web
+    type: News
+  - title: The AWS SDK for Ruby v2 End of Life Dates Announced
+    url: https://rubyweekly.com/link/90778/web
+    type: News
+  - title: Senior Software Engineer, Ruby (US, Remote)
+    url: https://rubyweekly.com/link/90781/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://rubyweekly.com/link/90782/web
+    type: News
+  - title: Postgres Indexes for ActiveRecord Join Tables in Rails Apps
+    url: https://rubyweekly.com/link/90784/web
+    type: News
+  - title: A Look at Ruby 2.7's Enumerable#filter_map
+    url: https://rubyweekly.com/link/90785/web
+    type: News
+  - title: Why & How to Host your Rails 6 App with AWS Elastic Beanstalk and RDS
+    url: https://rubyweekly.com/link/90786/web
+    type: News
+  - title: Considering Rails Multitenancy in 2020
+    url: https://rubyweekly.com/link/90787/web
+    type: News
+  - title: Graceful Request Retries in Ruby Applications
+    url: https://rubyweekly.com/link/90789/web
+    type: News
+  - title: Build an App with Active Record + CockroachDB
+    url: https://rubyweekly.com/link/90790/web
+    type: News
+  - title: Rails App Code Coverage with SimpleCov and RailsBytes
+    url: https://rubyweekly.com/link/90792/web
+    type: News
+  - title: Github Actions for Security Checking Rails PRs
+    url: https://rubyweekly.com/link/90794/web
+    type: News
+  - title: Rails Architecture Tips From Route Helpers
+    url: https://rubyweekly.com/link/90795/web
+    type: News
+  - title: 'Comma: A CSV Generation Extension for Ruby Objects'
+    url: https://rubyweekly.com/link/90796/web
+    type: News
+  - title: 'RubyMine 2020.2 EAP4: Improved Completion, Support for Git Installed in WSL2, and More'
+    url: https://rubyweekly.com/link/90798/web
+    type: News
+  - title: We Help Customers Speed Up Postgres Queries By 1000x. Learn How
+    url: https://rubyweekly.com/link/90799/web
+    type: News
+  - title: 'EBNF: An EBNF Parser and Generic Parser Generator'
+    url: https://rubyweekly.com/link/90800/web
+    type: News
+  - title: 'rails-k8s-demo: Dockerized Rails + Sidekiq + ActionCable PostgreSQL/Redis/Puma App'
+    url: https://rubyweekly.com/link/90801/web
+    type: News
+  - title: Jekyll 4.1.1 Released
+    url: https://rubyweekly.com/link/90855/web
+    type: News
