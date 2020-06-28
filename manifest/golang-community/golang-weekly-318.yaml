@@ -1,0 +1,86 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-318
+  namespace: golang-community
+spec:
+  name: Golang Weekly 318
+  date: 06/28/2020
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'fgprof: A Sampling Profiler for Go'
+    url: https://golangweekly.com/link/90876/web
+    type: News
+  - title: 'binclude: Another Way to Include Static Files into Go Binaries'
+    url: https://golangweekly.com/link/90879/web
+    type: News
+  - title: Remote Instructor-Lead Go, Docker, Kubernetes, & Python Training
+    url: https://golangweekly.com/link/90884/web
+    type: News
+  - title: 'GoPlus: A ''Go+'' Language for Data Science'
+    url: https://golangweekly.com/link/90885/web
+    type: News
+  - title: Sourcegraph's Route to Performance Improvements with Go
+    url: https://golangweekly.com/link/90886/web
+    type: News
+  - title: Sr. Software Engineer at CrowdStrike (Remote)
+    url: https://golangweekly.com/link/90887/web
+    type: News
+  - title: Golang Developer at X-Team (Remote)
+    url: https://golangweekly.com/link/90888/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://golangweekly.com/link/90889/web
+    type: News
+  - title: Bitesize Go Syntax Screencasts with Bill Kennedy
+    url: https://golangweekly.com/link/90890/web
+    type: News
+  - title: Why You Should Be Using errgroup.WithContext() in Your Go Server Handlers
+    url: https://golangweekly.com/link/90895/web
+    type: News
+  - title: How to Create Your Own Terraform Plugin Provider
+    url: https://golangweekly.com/link/90896/web
+    type: News
+  - title: Proactively Monitor the Performance of Your Golang Apps End-To-End
+    url: https://golangweekly.com/link/90897/web
+    type: News
+  - title: In Go, The Compiler Needs to Know The Types of Things When Copying Values
+    url: https://golangweekly.com/link/90898/web
+    type: News
+  - title: How to Handle Signals to Gracefully Shutdown an HTTP Server
+    url: https://golangweekly.com/link/90899/web
+    type: News
+  - title: DigitalOcean's 'How To Code in Go' eBook
+    url: https://golangweekly.com/link/90900/web
+    type: News
+  - title: Experimenting with Error Handling via Generics
+    url: https://golangweekly.com/link/90901/web
+    type: News
+  - title: Playing with Go Schedulers on a Dual-Core RISC-V
+    url: https://golangweekly.com/link/90902/web
+    type: News
+  - title: 'Worldwide: A GameBoy Color Emulator Written in Go'
+    url: https://golangweekly.com/link/90903/web
+    type: News
+  - title: 'Compress: Optimized Compression Packages for Go'
+    url: https://golangweekly.com/link/90904/web
+    type: News
+  - title: 'Beta Launch: Code Performance Profiling - Find & Fix Bottlenecks'
+    url: https://golangweekly.com/link/90905/web
+    type: News
+  - title: 'Survey: A Library for Building Interactive Prompts'
+    url: https://golangweekly.com/link/90906/web
+    type: News
+  - title: 'go-imap 1.0.5: An IMAP4 Library for Clients and Servers'
+    url: https://golangweekly.com/link/90907/web
+    type: News
+  - title: 'grpc-go 1.30: The Go Language Implementation of gRPC'
+    url: https://golangweekly.com/link/90908/web
+    type: News
+  - title: 'tcardgen: Generate A Twitter ''Card'' (OGP) Image for Your Hugo Posts'
+    url: https://golangweekly.com/link/90909/web
+    type: News
