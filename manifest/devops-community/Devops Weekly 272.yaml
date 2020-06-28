@@ -1,4 +1,4 @@
-apiversion: community.io/v1alpha1
+apiVersion: community.io/v1alpha1
 kind: Weekly
 metadata:
   name: Devops Weekly 272
