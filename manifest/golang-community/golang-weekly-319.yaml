@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-319
+  namespace: golang-community
+spec:
+  name: Golang Weekly 319
+  date: 07/05/2020
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Building a High Performance JSON Parser
+    url: https://golangweekly.com/link/91338/web
+    type: News
+  - title: Go is 'Boring'... And That’s Fantastic
+    url: https://golangweekly.com/link/91339/web
+    type: News
+  - title: Get Instant Debug Data with eBPF
+    url: https://golangweekly.com/link/91340/web
+    type: News
+  - title: Go in Production at Pace.dev
+    url: https://golangweekly.com/link/91341/web
+    type: News
+  - title: Golang Developer at X-Team (Remote)
+    url: https://golangweekly.com/link/91346/web
+    type: News
+  - title: Sr. Software Engineer at CrowdStrike (Remote)
+    url: https://golangweekly.com/link/91347/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://golangweekly.com/link/91348/web
+    type: News
+  - title: Writing An SNI Proxy in 115 Lines of Go
+    url: https://golangweekly.com/link/91349/web
+    type: News
+  - title: A Step-by-Step Guide to Go Internationalization (i18n)
+    url: https://golangweekly.com/link/91350/web
+    type: News
+  - title: What Are The Limits of Go Channels, and Just How Fast Are They?
+    url: https://golangweekly.com/link/91351/web
+    type: News
+  - title: The Go Security Checklist
+    url: https://golangweekly.com/link/91352/web
+    type: News
+  - title: Using GitHub Actions and Hugo Deploy to Deploy a Static Site to AWS
+    url: https://golangweekly.com/link/91353/web
+    type: News
+  - title: Why You Should Write Interfaces Per Package
+    url: https://golangweekly.com/link/91355/web
+    type: News
+  - title: Reproducing Java's Stream Implementation with Go Generics
+    url: https://golangweekly.com/link/91356/web
+    type: News
+  - title: 'memplot: Quickly Generate PNG Plots of Process Memory Usage'
+    url: https://golangweekly.com/link/91357/web
+    type: News
+  - title: gopls 0.4.2 Released
+    url: https://golangweekly.com/link/91358/web
+    type: News
+  - title: 'Pirsch: Server-Side Tracking Without Cookies in Go'
+    url: https://golangweekly.com/link/91359/web
+    type: News
+  - title: Optimize Applications and Analyze Golang Stack Traces with Datadog APM
+    url: https://golangweekly.com/link/91360/web
+    type: News
+  - title: 'Casbin 2.8: An Authorization Library That Supports Multiple Access Control Models'
+    url: https://golangweekly.com/link/91361/web
+    type: News
+  - title: 'calendarheatmap: A GitHub Activity-Style Calendar Heatmap in Plain Go'
+    url: https://golangweekly.com/link/91362/web
+    type: News
+  - title: 'Trubka: A CLI Tool for Working with Kafka'
+    url: https://golangweekly.com/link/91363/web
+    type: News
