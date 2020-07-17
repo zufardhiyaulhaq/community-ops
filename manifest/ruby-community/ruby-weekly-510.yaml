@@ -1,0 +1,89 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-510
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 510
+  date: 07/17/2020
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Introduction to AWS Simple Workflow Service (SWF)
+    url: https://rubyweekly.com/link/91971/web
+    type: News
+  - title: 'System of a Test: Proper Browser Testing in Rails'
+    url: https://rubyweekly.com/link/91972/web
+    type: News
+  - title: Scout APM - A Developer’s Best Friend
+    url: https://rubyweekly.com/link/91949/web
+    type: News
+  - title: 'fast_jsonparser: The ''Fastest'' JSON Parser for Ruby'
+    url: https://rubyweekly.com/link/91973/web
+    type: News
+  - title: Removing SHA1 Passwords From RubyGems.org
+    url: https://rubyweekly.com/link/91976/web
+    type: News
+  - title: Backend Engineer - Marketing Engineering (Rails, Python) (f/m/d), Berlin, Germany
+    url: https://rubyweekly.com/link/91950/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://rubyweekly.com/link/91951/web
+    type: News
+  - title: Generating Melodies with Markov Chains
+    url: https://rubyweekly.com/link/91981/web
+    type: News
+  - title: Defining Gem Dependencies in Single File Ruby Scripts
+    url: https://rubyweekly.com/link/91983/web
+    type: News
+  - title: Rails 6.1 Adds Support for where with a Comparison Operator
+    url: https://rubyweekly.com/link/91984/web
+    type: News
+  - title: Letting Change and Uncertainty Advance Your Software Architecture
+    url: https://rubyweekly.com/link/91953/web
+    type: News
+  - title: Building a Toy Lexer in Ruby
+    url: https://rubyweekly.com/link/91985/web
+    type: News
+  - title: Using Action Mailbox in Rails 6 to Receive Mail
+    url: https://rubyweekly.com/link/91986/web
+    type: News
+  - title: Sharing Code with Ruby and Rails
+    url: https://rubyweekly.com/link/91987/web
+    type: News
+  - title: Loading Ruby Scripts from the JVM Classpath with JRuby
+    url: https://rubyweekly.com/link/91988/web
+    type: News
+  - title: Job Searching and Hiring Advice During the Pandemic
+    url: https://rubyweekly.com/link/91989/web
+    type: News
+  - title: Tips for Painless Rails Upgrades
+    url: https://rubyweekly.com/link/91990/web
+    type: News
+  - title: 'Squib: A Ruby DSL for Prototyping Card and Board Games'
+    url: https://rubyweekly.com/link/91991/web
+    type: News
+  - title: 'Pragmatic Tokenizer: A Tokenizer to Split (Natural Language) Strings Into Tokens'
+    url: https://rubyweekly.com/link/91992/web
+    type: News
+  - title: 'JetBrains RubyMine: Intelligent Ruby & Rails IDE'
+    url: https://rubyweekly.com/link/92000/web
+    type: News
+  - title: 'bmg: A Ruby Relational Algebra'
+    url: https://rubyweekly.com/link/91993/web
+    type: News
+  - title: 'Restforce 5.0: A Ruby Client for the Salesforce REST API'
+    url: https://rubyweekly.com/link/91994/web
+    type: News
+  - title: 'Grape 1.4: An Opinionated Framework for Creating REST-like APIs'
+    url: https://rubyweekly.com/link/91996/web
+    type: News
+  - title: 'MultiJSON: A Generic Swappable Backend for JSON Handling'
+    url: https://rubyweekly.com/link/91997/web
+    type: News
+  - title: 'Clearance 2.2: E-mail and Password-Based Rails Authentication'
+    url: https://rubyweekly.com/link/91998/web
+    type: News
