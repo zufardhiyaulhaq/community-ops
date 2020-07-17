@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-347
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 347
+  date: 07/17/2020
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Bree: A Powerful Node Job Scheduler with Workers and Cron Support'
+    url: https://nodeweekly.com/link/92023/web
+    type: News
+  - title: Creating Tiny Desktop Apps with Tauri and Vue.js
+    url: https://nodeweekly.com/link/92004/web
+    type: News
+  - title: Scout APM Now Available for Node.js
+    url: https://nodeweekly.com/link/92007/web
+    type: News
+  - title: An Update on the Future of the Hapi Web Services Framework
+    url: https://nodeweekly.com/link/92006/web
+    type: News
+  - title: How To Set Up a Node App for Production on Ubuntu
+    url: https://nodeweekly.com/link/92026/web
+    type: News
+  - title: Doing Basic Sentiment Analysis of Restaurant Reviews from Node
+    url: https://nodeweekly.com/link/92011/web
+    type: News
+  - title: Node.js Developer at X-Team (Remote)
+    url: https://nodeweekly.com/link/92008/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://nodeweekly.com/link/92009/web
+    type: News
+  - title: 'Hukum: Display GitHub Action Progress in the Terminal'
+    url: https://nodeweekly.com/link/92012/web
+    type: News
+  - title: 'Super Expressive: Build Regexes in (Almost) Natural Language'
+    url: https://nodeweekly.com/link/92013/web
+    type: News
+  - title: LogDNA <3 Node.js
+    url: https://nodeweekly.com/link/92014/web
+    type: News
+  - title: 'wait-on: A CLI and Node Library to Wait for Ports, Files, Sockets, etc.'
+    url: https://nodeweekly.com/link/92015/web
+    type: News
+  - title: 'node-libcurl 2.2: libcurl Bindings for Node'
+    url: https://nodeweekly.com/link/92016/web
+    type: News
+  - title: 'Haredo: A Node Client Library for RabbitMQ'
+    url: https://nodeweekly.com/link/92018/web
+    type: News
+  - title: 'xmlbuilder2: An XML Builder Library'
+    url: https://nodeweekly.com/link/92021/web
+    type: News
+  - title: 10 Great Dev Tools Used by CircleCI's Engineers
+    url: https://nodeweekly.com/link/92020/web
+    type: News
+  - title: 'Jaxcore Bumblebee: A JavaScript Voice Application Framework'
+    url: https://nodeweekly.com/link/92027/web
+    type: News
+  - title: 'node-pg-migrate: Node Powered Database Migration Management for Postgres'
+    url: https://nodeweekly.com/link/92022/web
+    type: News
