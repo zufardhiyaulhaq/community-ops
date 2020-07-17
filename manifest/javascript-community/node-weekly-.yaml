@@ -1,0 +1,14 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-
+  namespace: javascript-community
+spec:
+  name: 'Node Weekly '
+  date: 07/17/2020
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - javascript
+  articles: []
