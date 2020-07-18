@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-275
+  namespace: devops-community
+spec:
+  name: Devops Weekly 275
+  date: 07/18/2020
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: HAProxy 2.2 Released
+    url: https://weekly.statuscode.com/link/91838/web
+    type: News
+  - title: Google Cloud Introduces 'Confidential VMs'
+    url: https://weekly.statuscode.com/link/91840/web
+    type: News
+  - title: Remote Instructor-Lead Go, Docker, Kubernetes, & Python Training
+    url: https://weekly.statuscode.com/link/91842/web
+    type: News
+  - title: Rust Code in Linux Kernel Looks (More) Likely...
+    url: https://weekly.statuscode.com/link/91843/web
+    type: News
+  - title: Introducing the GitHub Availability Report
+    url: https://weekly.statuscode.com/link/91845/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://weekly.statuscode.com/link/91854/web
+    type: News
+  - title: Understanding and Decoding a JPEG Image Using Python
+    url: https://weekly.statuscode.com/link/91856/web
+    type: News
+  - title: '''We can''t send email more than 500 miles..'''
+    url: https://weekly.statuscode.com/link/91857/web
+    type: News
+  - title: 'Timescale Cloud: Hosted, High-Performance PostgreSQL ✨'
+    url: https://weekly.statuscode.com/link/91859/web
+    type: News
+  - title: 'Ask HN: How Can I Quickly Trim My AWS Bill?'
+    url: https://weekly.statuscode.com/link/91860/web
+    type: News
+  - title: The Most Remarkable Legacy System I Have Seen
+    url: https://weekly.statuscode.com/link/91862/web
+    type: News
+  - title: Building Serverless Web Apps in Python
+    url: https://weekly.statuscode.com/link/91863/web
+    type: News
+  - title: You've Only Added Two Lines.. Why Did That Take Two Days?
+    url: https://weekly.statuscode.com/link/91865/web
+    type: News
+  - title: Rust is Surprisingly Good as a Server Language
+    url: https://weekly.statuscode.com/link/91866/web
+    type: News
+  - title: '''13% of My Website Visitors Block Google Analytics'''
+    url: https://weekly.statuscode.com/link/91867/web
+    type: News
+  - title: 'SQLPad 5.0: A Web-Based SQL Editor to Run In Your Private Cloud'
+    url: https://weekly.statuscode.com/link/91868/web
+    type: News
+  - title: 'Hukum: Display GitHub Action Progress in the Terminal'
+    url: https://weekly.statuscode.com/link/91869/web
+    type: News
+  - title: 'Teleport 4.3: A Modern Replacement for OpenSSH'
+    url: https://weekly.statuscode.com/link/91870/web
+    type: News
+  - title: 'Stream Chat: The Most Feature-Rich, Scalable & High-Speed Chat Solution'
+    url: https://weekly.statuscode.com/link/91871/web
+    type: News
+  - title: Headless WordPress with Gatsby Cloud
+    url: https://weekly.statuscode.com/link/91872/web
+    type: News
+  - title: 'Wikimedia FontCDN: A Privacy First Search and Proxy for Google Web Fonts'
+    url: https://weekly.statuscode.com/link/91873/web
+    type: News
+  - title: 'StarCLI: A CLI Tool for Finding Trending Projects on GitHub by Stars'
+    url: https://weekly.statuscode.com/link/91875/web
+    type: News
+  - title: 'Facebook Releases Retrie: A Haskell Refactoring Tool'
+    url: https://weekly.statuscode.com/link/91876/web
+    type: News
