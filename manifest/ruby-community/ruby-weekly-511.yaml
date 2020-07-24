@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-511
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 511
+  date: 07/24/2020
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: GitLab on Its Migration from Unicorn to Puma
+    url: https://rubyweekly.com/link/92298/web
+    type: News
+  - title: Announcing the 2021 Fukuoka Ruby Award
+    url: https://rubyweekly.com/link/92299/web
+    type: News
+  - title: Redis 6.0 on RedisGreen
+    url: https://rubyweekly.com/link/92300/web
+    type: News
+  - title: Mastering Roda, a Free Online E-book
+    url: https://rubyweekly.com/link/92301/web
+    type: News
+  - title: Adding Method Overloading to Ruby
+    url: https://rubyweekly.com/link/92303/web
+    type: News
+  - title: 'GoodJob: A New Postgres-Based, Multithreaded, ActiveJob Backend for Rails'
+    url: https://rubyweekly.com/link/92304/web
+    type: News
+  - title: Backend Engineer - Marketing Engineering (Rails, Python) (f/m/d), Berlin, Germany
+    url: https://rubyweekly.com/link/92310/web
+    type: News
+  - title: One Application, Hundreds of Hiring Managers
+    url: https://rubyweekly.com/link/92311/web
+    type: News
+  - title: An Introduction to Stimulus.js
+    url: https://rubyweekly.com/link/92313/web
+    type: News
+  - title: Why Doesn't Webpacker Use My Test Config When I Run Rails Tests?
+    url: https://rubyweekly.com/link/92314/web
+    type: News
+  - title: Making RSpec Tests More Robust
+    url: https://rubyweekly.com/link/92315/web
+    type: News
+  - title: Best-Practices on How to Speed Up Your Postgres Queries. Free eBook
+    url: https://rubyweekly.com/link/92316/web
+    type: News
+  - title: 'Cable Ready: For Those Who Like Action Cable But Hate Writing JavaScript'
+    url: https://rubyweekly.com/link/92317/web
+    type: News
+  - title: Don't @ Me! Instance Variable Performance in Ruby
+    url: https://rubyweekly.com/link/92318/web
+    type: News
+  - title: Rails 6.1 Allows Enums Attributes to Configure a Default Value
+    url: https://rubyweekly.com/link/92319/web
+    type: News
+  - title: Comparing Version Numbers in Ruby
+    url: https://rubyweekly.com/link/92320/web
+    type: News
+  - title: Discussing JetBrains and the RubyMine IDE
+    url: https://rubyweekly.com/link/92321/web
+    type: News
+  - title: 'TTY::Prompt 0.22.0: Powerful Interactive Command Line Prompts'
+    url: https://rubyweekly.com/link/92322/web
+    type: News
+  - title: 'Versionaire: An Immutable, Thread-Safe, Semantic Version Type'
+    url: https://rubyweekly.com/link/92323/web
+    type: News
+  - title: "Faster CI/CD for All Your Software Projects - Try Now \U0001F680"
+    url: https://rubyweekly.com/link/92324/web
+    type: News
+  - title: 'Egis: A Handy Ruby Interface for AWS Athena'
+    url: https://rubyweekly.com/link/92325/web
+    type: News
+  - title: 'Futurism: Lazy-Load Rails Partials via CableReady'
+    url: https://rubyweekly.com/link/92326/web
+    type: News
+  - title: 'Truemail 1.8.0: A Configurable Plain Ruby Email Validator'
+    url: https://rubyweekly.com/link/92327/web
+    type: News
