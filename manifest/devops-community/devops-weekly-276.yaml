@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-276
+  namespace: devops-community
+spec:
+  name: Devops Weekly 276
+  date: 07/25/2020
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: A Chat with Brian Kernighan of Unix, C, AWK, AMPL, and Go Fame
+    url: https://weekly.statuscode.com/link/92239/web
+    type: News
+  - title: Why OpenAI's GPT-3 May Be A Big Deal
+    url: https://weekly.statuscode.com/link/92241/web
+    type: News
+  - title: Security Engineer’s First 90 Days Checklist
+    url: https://weekly.statuscode.com/link/92245/web
+    type: News
+  - title: IaaS Pricing Patterns and Trends 2020
+    url: https://weekly.statuscode.com/link/92246/web
+    type: News
+  - title: One Application, Hundreds of Hiring Managers
+    url: https://weekly.statuscode.com/link/92254/web
+    type: News
+  - title: Essays on Programming I Think About A Lot
+    url: https://weekly.statuscode.com/link/92256/web
+    type: News
+  - title: Serverless Rendering with Cloudflare Workers
+    url: https://weekly.statuscode.com/link/92257/web
+    type: News
+  - title: A Crash Course on Using AWS CDK for Data Work
+    url: https://weekly.statuscode.com/link/92258/web
+    type: News
+  - title: 'The Docker Handbook: A Practical Docker Intro'
+    url: https://weekly.statuscode.com/link/92259/web
+    type: News
+  - title: How to Make a Parallelized Cron Job in AWS, for The Laziest Programmers
+    url: https://weekly.statuscode.com/link/92260/web
+    type: News
+  - title: Faster CI/CD for All Your Software Projects - Try Buildkite ✅
+    url: https://weekly.statuscode.com/link/92261/web
+    type: News
+  - title: Could Predictive Database Queries Replace Machine Learning Models?
+    url: https://weekly.statuscode.com/link/92262/web
+    type: News
+  - title: How SHA-2 / (SHA-256) Works Step-By-Step
+    url: https://weekly.statuscode.com/link/92263/web
+    type: News
+  - title: Implementing Cosine in C From Scratch
+    url: https://weekly.statuscode.com/link/92264/web
+    type: News
+  - title: Kelsey Hightower on His Very Personal Kubernetes Journey
+    url: https://weekly.statuscode.com/link/92265/web
+    type: News
+  - title: How Vercel Frees Frontend Developers from Backend Burden
+    url: https://weekly.statuscode.com/link/92266/web
+    type: News
+  - title: 'Semgrep: Lightweight Static Analysis for Many Languages'
+    url: https://weekly.statuscode.com/link/92267/web
+    type: News
+  - title: 'Gitify: GitHub Notifications on Your Menu Bar'
+    url: https://weekly.statuscode.com/link/92269/web
+    type: News
+  - title: Download FusionAuth and Get a Free T-Shirt. It's Free to Get Started
+    url: https://weekly.statuscode.com/link/92270/web
+    type: News
+  - title: 'FastoNoSQL: A Cross-Platform Redis, Memcached, SSDB, LevelDB, RocksDB, UnQLite, LMDB, etc. Client'
+    url: https://weekly.statuscode.com/link/92271/web
+    type: News
+  - title: 'Procmon: A Linux ''Reimagining'' of the Classic Procmon Tool from Windows'
+    url: https://weekly.statuscode.com/link/92272/web
+    type: News
+  - title: The Ultimate Oldschool PC Font Pack 2.0
+    url: https://weekly.statuscode.com/link/92273/web
+    type: News
