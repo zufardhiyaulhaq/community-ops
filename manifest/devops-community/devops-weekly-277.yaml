@@ -1,0 +1,92 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-277
+  namespace: devops-community
+spec:
+  name: Devops Weekly 277
+  date: 08/01/2020
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: Some SQL Tricks of an Application DBA
+    url: https://weekly.statuscode.com/link/92619/web
+    type: News
+  - title: The Official, Public GitHub Roadmap
+    url: https://weekly.statuscode.com/link/92620/web
+    type: News
+  - title: Remote Instructor-Led Go, Docker, Kubernetes, & Python Training
+    url: https://weekly.statuscode.com/link/92622/web
+    type: News
+  - title: Cloudflare Unveils 'Workers Unbound'
+    url: https://weekly.statuscode.com/link/92623/web
+    type: News
+  - title: The AWS Bill Heard Around The World
+    url: https://weekly.statuscode.com/link/92626/web
+    type: News
+  - title: Amazon Fraud Detector Now Generally Available
+    url: https://weekly.statuscode.com/link/92627/web
+    type: News
+  - title: One Application, Hundreds of Hiring Managers
+    url: https://weekly.statuscode.com/link/92635/web
+    type: News
+  - title: Whose Bug Is It Anyway?
+    url: https://weekly.statuscode.com/link/92637/web
+    type: News
+  - title: Analyzing 1.1 Billion Taxi Rides using OmniSciDB on a MacBook Pro
+    url: https://weekly.statuscode.com/link/92638/web
+    type: News
+  - title: 'TinyPilot: Building a KVM Over IP for Under $100'
+    url: https://weekly.statuscode.com/link/92641/web
+    type: News
+  - title: Advice to Myself When Starting Out as a Software Developer
+    url: https://weekly.statuscode.com/link/92642/web
+    type: News
+  - title: 'LogDNA <3 DevOps: Manage Logs on Your Terms'
+    url: https://weekly.statuscode.com/link/92643/web
+    type: News
+  - title: Introducing Domain-Oriented Microservice Architecture
+    url: https://weekly.statuscode.com/link/92644/web
+    type: News
+  - title: Basic Ideas for Scaling Relational SQL Databases
+    url: https://weekly.statuscode.com/link/92645/web
+    type: News
+  - title: 'Flash Game History: How Flash Games Shaped The Video Game Industry'
+    url: https://weekly.statuscode.com/link/92646/web
+    type: News
+  - title: 'Ask HN: Former Software Engineers, What Are You Doing Now?'
+    url: https://weekly.statuscode.com/link/92647/web
+    type: News
+  - title: The Futility of “I Told You So!” in Software Engineering Teams
+    url: https://weekly.statuscode.com/link/92648/web
+    type: News
+  - title: Porting a macOS Clojure Dev Setup to Windows WSL2
+    url: https://weekly.statuscode.com/link/92649/web
+    type: News
+  - title: Some Best Practices for When Running Your Own Small Mail Server
+    url: https://weekly.statuscode.com/link/92650/web
+    type: News
+  - title: 'Git 2.28: A Look at What''s New'
+    url: https://weekly.statuscode.com/link/92651/web
+    type: News
+  - title: The Regular Expression Visualizer, Simulator and Cross-Compiler Tool
+    url: https://weekly.statuscode.com/link/92652/web
+    type: News
+  - title: Docker Releases Plugin for Simplified Deployments into AWS ECS and Fargate
+    url: https://weekly.statuscode.com/link/92653/web
+    type: News
+  - title: 'Stream Chat: The Most Feature-Rich, Scalable & High-Speed Chat Solution'
+    url: https://weekly.statuscode.com/link/92654/web
+    type: News
+  - title: 'TextDB: A Simple Way to Share Small Amounts of Data'
+    url: https://weekly.statuscode.com/link/92655/web
+    type: News
+  - title: An Intel 8080 Assembler and Online Simulator
+    url: https://weekly.statuscode.com/link/92656/web
+    type: News
+  - title: 'Evergreen: A Distributed Continuous Integration System from MongoDB'
+    url: https://weekly.statuscode.com/link/92657/web
+    type: News
