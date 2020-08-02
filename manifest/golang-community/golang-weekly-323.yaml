@@ -1,0 +1,89 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-323
+  namespace: golang-community
+spec:
+  name: Golang Weekly 323
+  date: 08/02/2020
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Go 1.15 Release Candidate 1 Released
+    url: https://golangweekly.com/link/92798/web
+    type: News
+  - title: Different Approaches to HTTP Routing in Go
+    url: https://golangweekly.com/link/92802/web
+    type: News
+  - title: Redis 6.0 on RedisGreen
+    url: https://golangweekly.com/link/92803/web
+    type: News
+  - title: The Latest on Generics with Robert Griesemer and Ian Lance Taylor
+    url: https://golangweekly.com/link/92804/web
+    type: News
+  - title: What’s New in GoLand 2020.2, a Popular Go IDE
+    url: https://golangweekly.com/link/92805/web
+    type: News
+  - title: 'Generics Part 01: Basic Syntax'
+    url: https://golangweekly.com/link/92829/web
+    type: News
+  - title: Software Engineer - Want to Build a Platform Ecosystem in Go?
+    url: https://golangweekly.com/link/92806/web
+    type: News
+  - title: Stream Provides APIs for Building Activity Feeds and Chat
+    url: https://golangweekly.com/link/92807/web
+    type: News
+  - title: One Application, Hundreds of Hiring Managers
+    url: https://golangweekly.com/link/92808/web
+    type: News
+  - title: Let's Build A Full-Text Search Engine
+    url: https://golangweekly.com/link/92809/web
+    type: News
+  - title: How Code Generation Wrote Our API and CLI
+    url: https://golangweekly.com/link/92810/web
+    type: News
+  - title: A Quick Introduction to Delve, the Go Debugger
+    url: https://golangweekly.com/link/92812/web
+    type: News
+  - title: Letting Change and Uncertainty Advance Your Software Architecture
+    url: https://golangweekly.com/link/92814/web
+    type: News
+  - title: 'Working with Audio From Scratch in Go: Stereo Panning'
+    url: https://golangweekly.com/link/92815/web
+    type: News
+  - title: Making a Testable Cobra CLI App
+    url: https://golangweekly.com/link/92816/web
+    type: News
+  - title: How to Deploy a Private GoDoc Server on Google Kubernetes Engine
+    url: https://golangweekly.com/link/92817/web
+    type: News
+  - title: How Tests Make Your Code Inherently Better
+    url: https://golangweekly.com/link/92819/web
+    type: News
+  - title: 'Reform: A ''Better ORM'' for database/sql'
+    url: https://golangweekly.com/link/92820/web
+    type: News
+  - title: 'Delve 1.5 Released: A Popular Go Debugger'
+    url: https://golangweekly.com/link/92813/web
+    type: News
+  - title: 'Commandeer 0.5: Automatically Sets Up Command Line Flags'
+    url: https://golangweekly.com/link/92821/web
+    type: News
+  - title: Automated Code Reviews for Go, including Gosec, Directly from Your Git Workflow
+    url: https://golangweekly.com/link/92822/web
+    type: News
+  - title: MongoDB Go Driver 1.4 Released
+    url: https://golangweekly.com/link/92823/web
+    type: News
+  - title: 'LazyDocker: A Terminal-Based UI for Working with Docker'
+    url: https://golangweekly.com/link/92825/web
+    type: News
+  - title: 'Monstache 6.7: A Daemon That Syncs MongoDB to Elasticsearch in Realtime'
+    url: https://golangweekly.com/link/92827/web
+    type: News
+  - title: errgroup with Goroutine Worker Limits
+    url: https://golangweekly.com/link/92828/web
+    type: News
