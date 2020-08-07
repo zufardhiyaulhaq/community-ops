@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-513
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 513
+  date: 08/07/2020
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'Noticed: Notifications for Rails Apps'
+    url: https://rubyweekly.com/link/93029/web
+    type: News
+  - title: Types in Ruby 3, RBS, and Sorbet
+    url: https://rubyweekly.com/link/93031/web
+    type: News
+  - title: 'Scout APM: Get Back to Building Great Products'
+    url: https://rubyweekly.com/link/93035/web
+    type: News
+  - title: The Active Job Style Guide
+    url: https://rubyweekly.com/link/93036/web
+    type: News
+  - title: 'Prawn 2.3.0: The PDF Writing Library for Ruby'
+    url: https://rubyweekly.com/link/93037/web
+    type: News
+  - title: TrueCoach Is Hiring a Senior Backend Engineer
+    url: https://rubyweekly.com/link/93041/web
+    type: News
+  - title: One Application, Hundreds of Hiring Managers
+    url: https://rubyweekly.com/link/93042/web
+    type: News
+  - title: How to Test Ruby Code That Depends on External APIs
+    url: https://rubyweekly.com/link/93044/web
+    type: News
+  - title: A Visual Guide to Webpacker
+    url: https://rubyweekly.com/link/93045/web
+    type: News
+  - title: Troubleshooting Encoding Errors in Ruby
+    url: https://rubyweekly.com/link/93046/web
+    type: News
+  - title: 'Idiosyncratic Ruby: Assignments In-Style'
+    url: https://rubyweekly.com/link/93047/web
+    type: News
+  - title: How to Improve ActiveRecord Performance with Subquery Caching
+    url: https://rubyweekly.com/link/93048/web
+    type: News
+  - title: Enhanced Shell Scripting with Ruby
+    url: https://rubyweekly.com/link/93049/web
+    type: News
+  - title: A Rubyist's Look at the Apple Silicon Developer Transition Kit
+    url: https://rubyweekly.com/link/93050/web
+    type: News
+  - title: Discussing Rails Deployment using Docker and Kubernetes with Cameron Dutro
+    url: https://rubyweekly.com/link/93051/web
+    type: News
+  - title: 'Path Tracer: Accelerated Path Tracing in Pure Ruby'
+    url: https://rubyweekly.com/link/93053/web
+    type: News
+  - title: 'Ancestry: Organize An Active Record Model Into a Tree Structure'
+    url: https://rubyweekly.com/link/93054/web
+    type: News
+  - title: Troubleshoot Ruby App Issues Fast with Datadog’s End-To-End Tracing
+    url: https://rubyweekly.com/link/93055/web
+    type: News
+  - title: JRuby 9.2.13.0 Released
+    url: https://rubyweekly.com/link/93056/web
+    type: News
+  - title: 'ValueSemantics: A Gem for Making Value Classes, with Lightweight Validation and Coercion'
+    url: https://rubyweekly.com/link/93057/web
+    type: News
+  - title: 'ROTP: The Ruby One Time Password Library'
+    url: https://rubyweekly.com/link/93058/web
+    type: News
+  - title: 'Brakeman 4.9.0: A Security Vulnerability Scanner for Rails Apps'
+    url: https://rubyweekly.com/link/93059/web
+    type: News
+  - title: 'Chartkick 3.4: Beautiful JavaScript Charts in One Line of Ruby'
+    url: https://rubyweekly.com/link/93061/web
+    type: News
