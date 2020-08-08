@@ -1,0 +1,89 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-278
+  namespace: devops-community
+spec:
+  name: Devops Weekly 278
+  date: 08/08/2020
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: How Dropbox Migrated From Nginx to Envoy
+    url: https://weekly.statuscode.com/link/92902/web
+    type: News
+  - title: Apple Tells Devs to Use IPv6 As It's '1.4 Times Faster' Than IPv4
+    url: https://weekly.statuscode.com/link/92940/web
+    type: News
+  - title: Security Engineer’s First 90 Days Checklist
+    url: https://weekly.statuscode.com/link/92904/web
+    type: News
+  - title: Using a Game Engine (Godot) to Create Advanced GUIs
+    url: https://weekly.statuscode.com/link/92900/web
+    type: News
+  - title: Tech Sector Feeling COVID-19’s Economic Pain
+    url: https://weekly.statuscode.com/link/92944/web
+    type: News
+  - title: Speculation in JavaScriptCore (or How Modern JS Engines Run Fast)
+    url: https://weekly.statuscode.com/link/92905/web
+    type: News
+  - title: One Application, Hundreds of Hiring Managers
+    url: https://weekly.statuscode.com/link/92913/web
+    type: News
+  - title: A SQL Style Guide
+    url: https://weekly.statuscode.com/link/92915/web
+    type: News
+  - title: Ten Modern Layouts in One Line of CSS
+    url: https://weekly.statuscode.com/link/92916/web
+    type: News
+  - title: Getting Started with Contributing to Open Source
+    url: https://weekly.statuscode.com/link/92917/web
+    type: News
+  - title: 'CYPEX: A New Low Code Application Development Tool for PostgreSQL'
+    url: https://weekly.statuscode.com/link/92918/web
+    type: News
+  - title: Migrating a 40TB SQL Server Database
+    url: https://weekly.statuscode.com/link/92919/web
+    type: News
+  - title: Eliminating Cold Starts with Cloudflare Workers
+    url: https://weekly.statuscode.com/link/92921/web
+    type: News
+  - title: A Massive Memory Leak
+    url: https://weekly.statuscode.com/link/92922/web
+    type: News
+  - title: Comparing Go and Rust for Writing a CLI Tool
+    url: https://weekly.statuscode.com/link/92924/web
+    type: News
+  - title: Changes to SameSite Cookie Behavior – A Call to Action for Web Developers
+    url: https://weekly.statuscode.com/link/93027/web
+    type: News
+  - title: What I Learned from Doing 60+ Technical Interviews in 30 Days
+    url: https://weekly.statuscode.com/link/92926/web
+    type: News
+  - title: 5 Arguments to Make Managers Care About Technical Debt
+    url: https://weekly.statuscode.com/link/92946/web
+    type: News
+  - title: A Calculator to See If Serverless is Cheaper For Your Use Case
+    url: https://weekly.statuscode.com/link/92927/web
+    type: News
+  - title: MongoDB 4.4 Released
+    url: https://weekly.statuscode.com/link/92929/web
+    type: News
+  - title: Compromised Password? FusionAuth Now Offers Password Breach Detection
+    url: https://weekly.statuscode.com/link/92930/web
+    type: News
+  - title: 'WordSafety: Check a Name for Unwanted Meanings in Other Languages'
+    url: https://weekly.statuscode.com/link/92931/web
+    type: News
+  - title: 'GOMP (Git COMPare): A Tool for Comparing Branches'
+    url: https://weekly.statuscode.com/link/92932/web
+    type: News
+  - title: 'SIMD Everywhere: Implementations of SIMD Instruction Sets for Systems Which Don''t Natively Support Them'
+    url: https://weekly.statuscode.com/link/92933/web
+    type: News
+  - title: 'JSON Schema Store: Schemas for All Commonly Known JSON File Formats'
+    url: https://weekly.statuscode.com/link/92934/web
+    type: News
