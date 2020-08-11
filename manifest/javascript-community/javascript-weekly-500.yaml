@@ -1,0 +1,92 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-500
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 500
+  date: 08/11/2020
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: '1Keys: How I Made a Piano in Only 1KB of JavaScript'
+    url: https://javascriptweekly.com/link/93168/web
+    type: News
+  - title: Announcing the New TypeScript Website
+    url: https://javascriptweekly.com/link/93173/web
+    type: News
+  - title: Get a Free T-Shirt. It Doesn’t Cost Anything to Get Started
+    url: https://javascriptweekly.com/link/93175/web
+    type: News
+  - title: A Roadmap for the Future of Angular
+    url: https://javascriptweekly.com/link/93176/web
+    type: News
+  - title: You May Finally Use JSHint for 'Evil'(!)
+    url: https://javascriptweekly.com/link/93178/web
+    type: News
+  - title: Backend Engineering Position in Beautiful Norway
+    url: https://javascriptweekly.com/link/93184/web
+    type: News
+  - title: JavaScript Developer at X-Team (Remote)
+    url: https://javascriptweekly.com/link/93185/web
+    type: News
+  - title: One Application, Hundreds of Hiring Managers
+    url: https://javascriptweekly.com/link/93186/web
+    type: News
+  - title: How Different Versions of Your Site Can Be 'Running' At The Same Time
+    url: https://javascriptweekly.com/link/93187/web
+    type: News
+  - title: Let's Debug a Node Application
+    url: https://javascriptweekly.com/link/93188/web
+    type: News
+  - title: 3 Common Mistakes When Using Promises
+    url: https://javascriptweekly.com/link/93189/web
+    type: News
+  - title: Stream Chat API & JavaScript SDK for Custom Chat Apps
+    url: https://javascriptweekly.com/link/93190/web
+    type: News
+  - title: Matching Accented Letters in Regular Expressions
+    url: https://javascriptweekly.com/link/93191/web
+    type: News
+  - title: Setting Up Redux For Use in a Real-World Application
+    url: https://javascriptweekly.com/link/93192/web
+    type: News
+  - title: Reviewing The 'Worst Piece of Code Ever'
+    url: https://javascriptweekly.com/link/93193/web
+    type: News
+  - title: Get an Instant GraphQL API with Hasura to Build Fullstack Apps, Fast
+    url: https://javascriptweekly.com/link/93194/web
+    type: News
+  - title: The 10 Best Angular Tips Selected by The Community
+    url: https://javascriptweekly.com/link/93195/web
+    type: News
+  - title: 'Node Modules at ''War'': Why CommonJS and ES Modules Can’t Get Along'
+    url: https://javascriptweekly.com/link/93196/web
+    type: News
+  - title: Four Ways to Combine Strings in JavaScript
+    url: https://javascriptweekly.com/link/93211/web
+    type: News
+  - title: 'GPU.js: GPU Accelerated JavaScript'
+    url: https://javascriptweekly.com/link/93197/web
+    type: News
+  - title: 'Moveable: A Library to Make Elements Easier to Manipulate'
+    url: https://javascriptweekly.com/link/93199/web
+    type: News
+  - title: A Much Faster Way to Debug Code Than with Breakpoints or console.log
+    url: https://javascriptweekly.com/link/93201/web
+    type: News
+  - title: 'react-digraph 7.0: A Library for Creating Directed Graph Editors'
+    url: https://javascriptweekly.com/link/93212/web
+    type: News
+  - title: 'JSchallenger: Learn JavaScript by Solving Coding Exercises'
+    url: https://javascriptweekly.com/link/93202/web
+    type: News
+  - title: 'JSON Schema Store: Schemas for All Commonly Known JSON File Formats'
+    url: https://javascriptweekly.com/link/93203/web
+    type: News
+  - title: 'WordSafety: Check a Name for Unwanted Meanings in Other Languages'
+    url: https://javascriptweekly.com/link/93204/web
+    type: News
