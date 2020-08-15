@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-279
+  namespace: devops-community
+spec:
+  name: Devops Weekly 279
+  date: 08/15/2020
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: Building Single Page Applications Using Rust
+    url: https://weekly.statuscode.com/link/93297/web
+    type: News
+  - title: Changing World, Changing Mozilla (But Laying Off 250 Employees)
+    url: https://weekly.statuscode.com/link/93300/web
+    type: News
+  - title: Remote Instructor-Led Go, Docker, Kubernetes, & Python Training
+    url: https://weekly.statuscode.com/link/93302/web
+    type: News
+  - title: '1Keys: How I Made a Piano in Only 1KB of JavaScript'
+    url: https://weekly.statuscode.com/link/93303/web
+    type: News
+  - title: Things You Want to Do in Git and How to Do Them
+    url: https://weekly.statuscode.com/link/93314/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://weekly.statuscode.com/link/93312/web
+    type: News
+  - title: What Every Developer Should Know About Database Consistency
+    url: https://weekly.statuscode.com/link/93315/web
+    type: News
+  - title: Resigning from AWS on Ethical Grounds with Tim Bray
+    url: https://weekly.statuscode.com/link/93316/web
+    type: News
+  - title: Faster CI/CD for All Your Software Projects - Try Buildkite ✅
+    url: https://weekly.statuscode.com/link/93334/web
+    type: News
+  - title: '"I want to have an AWS region where everything breaks with high frequency."'
+    url: https://weekly.statuscode.com/link/93318/web
+    type: News
+  - title: Why the C Language Will Never Stop You from Making Mistakes
+    url: https://weekly.statuscode.com/link/93319/web
+    type: News
+  - title: Never Use A Dependency That You Could Replace with An Afternoon of Programming?
+    url: https://weekly.statuscode.com/link/93320/web
+    type: News
+  - title: Twiddling with Linux's TCP Extensions and Settings
+    url: https://weekly.statuscode.com/link/93335/web
+    type: News
+  - title: Writing Reactive Microservices for the JVM
+    url: https://weekly.statuscode.com/link/93321/web
+    type: News
+  - title: The Information Catastrophe
+    url: https://weekly.statuscode.com/link/93322/web
+    type: News
+  - title: Systems Monitoring with Prometheus and Grafana
+    url: https://weekly.statuscode.com/link/93323/web
+    type: News
+  - title: That Coworker Who Never Stops Refactoring..
+    url: https://weekly.statuscode.com/link/93324/web
+    type: News
+  - title: When Feature Flags Do And Don’t Make Sense
+    url: https://weekly.statuscode.com/link/93325/web
+    type: News
+  - title: 'Pysa: Open Source Static Analysis for Python Code'
+    url: https://weekly.statuscode.com/link/93326/web
+    type: News
+  - title: The First PHP 8 Beta is Here
+    url: https://weekly.statuscode.com/link/93327/web
+    type: News
+  - title: 'Stream Chat: The Most Feature-Rich, Scalable & High-Speed Chat Solution'
+    url: https://weekly.statuscode.com/link/93328/web
+    type: News
+  - title: 'Bevy: A Data-Driven Game Engine and App Framework in Rust'
+    url: https://weekly.statuscode.com/link/93329/web
+    type: News
