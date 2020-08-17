@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-351
+  namespace: node-community
+spec:
+  name: Node Weekly 351
+  date: 08/17/2020
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Node and the Struggles of Being an EventTarget
+    url: https://nodeweekly.com/link/93441/web
+    type: News
+  - title: Node v14.8.0 (Current) Released with Top Level Await Support
+    url: https://nodeweekly.com/link/93442/web
+    type: News
+  - title: Find, Fix, and Prevent Misconfigs in AWS, K8s, and Terraform
+    url: https://nodeweekly.com/link/93444/web
+    type: News
+  - title: Take the Node.js Promise Reject Use Case Survey
+    url: https://nodeweekly.com/link/93445/web
+    type: News
+  - title: Scheduling Cron Jobs with node-cron
+    url: https://nodeweekly.com/link/93447/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://nodeweekly.com/link/93449/web
+    type: News
+  - title: How to Debug Node Segmentation Faults
+    url: https://nodeweekly.com/link/93451/web
+    type: News
+  - title: How to Stream File Downloads with Got
+    url: https://nodeweekly.com/link/93452/web
+    type: News
+  - title: The Node.js Security Handbook
+    url: https://nodeweekly.com/link/93454/web
+    type: News
+  - title: Using Node Modules in Deno
+    url: https://nodeweekly.com/link/93455/web
+    type: News
+  - title: Shifting from Express.js to Azure Functions
+    url: https://nodeweekly.com/link/93456/web
+    type: News
+  - title: Async Generators and Async Iteration in Node.js
+    url: https://nodeweekly.com/link/93457/web
+    type: News
+  - title: 'Postgraphile: Quickly Get a GraphQL API for Your Postgres Database'
+    url: https://nodeweekly.com/link/93458/web
+    type: News
+  - title: 'Kleur 4.1: Fast ANSI Color Formatting for Terminal Text'
+    url: https://nodeweekly.com/link/93459/web
+    type: News
+  - title: JavaScript Developers Can Access Your Legacy C/C++ Code. Let’s Talk
+    url: https://nodeweekly.com/link/93462/web
+    type: News
+  - title: 'Middy 1.2: A ''Stylish'' Node Middleware Engine for AWS Lambda'
+    url: https://nodeweekly.com/link/93463/web
+    type: News
+  - title: 'Hackathon Starter: A Boilerplate for Node Web Apps'
+    url: https://nodeweekly.com/link/93464/web
+    type: News
+  - title: 'setup-node: Set Up Your GitHub Actions Workflow with Specific Versions of Node'
+    url: https://nodeweekly.com/link/93465/web
+    type: News
+  - title: 'MQTT.js: An MQTT Client for Node and the Browser'
+    url: https://nodeweekly.com/link/93466/web
+    type: News
+  - title: 'crypto-hash: A Hashing Module Using the Native Crypto API in Node and Browser'
+    url: https://nodeweekly.com/link/93468/web
+    type: News
