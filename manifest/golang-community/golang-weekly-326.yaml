@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-326
+  namespace: golang-community
+spec:
+  name: Golang Weekly 326
+  date: 08/23/2020
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'Errors 2.0: Go Errors, But With Network Portability and More'
+    url: https://golangweekly.com/link/94007/web
+    type: News
+  - title: Digging Into context.Context
+    url: https://golangweekly.com/link/93921/web
+    type: News
+  - title: Remote Instructor-Led Go, Docker, Kubernetes, & Python Training
+    url: https://golangweekly.com/link/93922/web
+    type: News
+  - title: 'ent: An Entity Framework / ORM for Go from Facebook'
+    url: https://golangweekly.com/link/93923/web
+    type: News
+  - title: 'Task 3.0: A Task Runner / make Alternative Written in Go'
+    url: https://golangweekly.com/link/93924/web
+    type: News
+  - title: Get Tech Interviews This Week
+    url: https://golangweekly.com/link/93926/web
+    type: News
+  - title: Stream Provides APIs for Building Activity Feeds and Chat
+    url: https://golangweekly.com/link/93927/web
+    type: News
+  - title: Golang Developer at X-Team (Remote)
+    url: https://golangweekly.com/link/93928/web
+    type: News
+  - title: Implementing traceroute in Go
+    url: https://golangweekly.com/link/93929/web
+    type: News
+  - title: Building a Telegram Bot with Apache Kafka and ksqlDB
+    url: https://golangweekly.com/link/93930/web
+    type: News
+  - title: Using askgit to Query Git Repositories with SQL
+    url: https://golangweekly.com/link/93931/web
+    type: News
+  - title: Upgrading CockroachDB from Dep to Go Modules
+    url: https://golangweekly.com/link/93933/web
+    type: News
+  - title: Porting a Go and Rust CLI Tool to D
+    url: https://golangweekly.com/link/93934/web
+    type: News
+  - title: Swimming in Datalakes with Go
+    url: https://golangweekly.com/link/93937/web
+    type: News
+  - title: 'Signal Context: Create Go Contexts That Cancel on Signals'
+    url: https://golangweekly.com/link/93938/web
+    type: News
+  - title: Badge Generation Tool for pkg.go.dev
+    url: https://golangweekly.com/link/93939/web
+    type: News
+  - title: 'miti: A Musical Instrument Textual Interface'
+    url: https://golangweekly.com/link/93941/web
+    type: News
+  - title: 'Logging in Go: Choosing a System and Using it'
+    url: https://golangweekly.com/link/93940/web
+    type: News
+  - title: 'Nali: An Offline Tool for Querying IP Geographic Information'
+    url: https://golangweekly.com/link/93942/web
+    type: News
+  - title: 'Pomerium: An Identity-Aware Secure Access Proxy'
+    url: https://golangweekly.com/link/93943/web
+    type: News
+  - title: 'Gate: A High Performance Minecraft Proxy Server'
+    url: https://golangweekly.com/link/93945/web
+    type: News
+  - title: 'Guora: A Self-Hosted Quora-like Webapp Written in Go'
+    url: https://golangweekly.com/link/93946/web
+    type: News
+  - title: 'Piccolo: An Othello (a.k.a. Reversi) AI Written in Go'
+    url: https://golangweekly.com/link/93947/web
+    type: News
