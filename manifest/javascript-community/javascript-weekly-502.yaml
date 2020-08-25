@@ -1,0 +1,86 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-502
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 502
+  date: 08/25/2020
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: TypeScript 4.0 Released
+    url: https://javascriptweekly.com/link/93967/web
+    type: News
+  - title: Metaprogramming with Proxies
+    url: https://javascriptweekly.com/link/93969/web
+    type: News
+  - title: The Definitive Introduction to Svelte with Rich Harris
+    url: https://javascriptweekly.com/link/93971/web
+    type: News
+  - title: npm v7 Now in Beta
+    url: https://javascriptweekly.com/link/93972/web
+    type: News
+  - title: 'ts-migrate: A Tool for Migrating to TypeScript at Scale'
+    url: https://javascriptweekly.com/link/93973/web
+    type: News
+  - title: React JS Developer (Remote)
+    url: https://javascriptweekly.com/link/93980/web
+    type: News
+  - title: JavaScript Developer at X-Team (Remote)
+    url: https://javascriptweekly.com/link/93981/web
+    type: News
+  - title: Get Tech Interviews This Week
+    url: https://javascriptweekly.com/link/93982/web
+    type: News
+  - title: Let's Build a Multiplayer Battleship Game
+    url: https://javascriptweekly.com/link/93983/web
+    type: News
+  - title: Build a Confirmation Modal in React with State Machines
+    url: https://javascriptweekly.com/link/93984/web
+    type: News
+  - title: Stream Chat API & JavaScript SDK for Custom Chat Apps
+    url: https://javascriptweekly.com/link/93985/web
+    type: News
+  - title: Modern Ways of End-to-End Testing with Cypress
+    url: https://javascriptweekly.com/link/93986/web
+    type: News
+  - title: Understanding Destructuring, Rest Parameters, and Spread Syntax
+    url: https://javascriptweekly.com/link/93988/web
+    type: News
+  - title: An Overview of Higher Order Functions in JavaScript
+    url: https://javascriptweekly.com/link/93990/web
+    type: News
+  - title: An In-Depth Explanation of Promise.all and Comparison With Promise.allSettled
+    url: https://javascriptweekly.com/link/93991/web
+    type: News
+  - title: Decreasing Bundle Sizes with ES Modules in Angular 10
+    url: https://javascriptweekly.com/link/93992/web
+    type: News
+  - title: 'React 17’s Best New Feature: Gradual Upgrades'
+    url: https://javascriptweekly.com/link/93993/web
+    type: News
+  - title: Six Angular Security Best Practices
+    url: https://javascriptweekly.com/link/93995/web
+    type: News
+  - title: 'Cypress 5.0: Fast and Reliable Testing for Anything That Runs in a Browser'
+    url: https://javascriptweekly.com/link/93996/web
+    type: News
+  - title: 'Embla: An Extensible Low Level Carousel for the Web'
+    url: https://javascriptweekly.com/link/93999/web
+    type: News
+  - title: A Much Faster Way to Debug Code Than with Breakpoints or console.log
+    url: https://javascriptweekly.com/link/94001/web
+    type: News
+  - title: 'BootBot: A Facebook Messenger Bot Framework'
+    url: https://javascriptweekly.com/link/94002/web
+    type: News
+  - title: 'Elder.js: A Svelte-Focused Framework and Static Site Generator'
+    url: https://javascriptweekly.com/link/94004/web
+    type: News
+  - title: 'ImmortalDB: A Resilient Key-Value Store for the Browser'
+    url: https://javascriptweekly.com/link/94005/web
+    type: News
