@@ -1,0 +1,89 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-516
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 516
+  date: 08/28/2020
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: The Story of Upgrading GitHub to Ruby 2.7
+    url: https://rubyweekly.com/link/94164/web
+    type: News
+  - title: The Shopify Ruby Style Guide
+    url: https://rubyweekly.com/link/94165/web
+    type: News
+  - title: Troubleshoot Ruby App Errors and Latency with Datadog APM
+    url: https://rubyweekly.com/link/94166/web
+    type: News
+  - title: How Shopify Reduced Storefront Response Times with a Rewrite
+    url: https://rubyweekly.com/link/94167/web
+    type: News
+  - title: 'The Great Rubykon Benchmark 2020: CRuby vs JRuby vs TruffleRuby'
+    url: https://rubyweekly.com/link/94168/web
+    type: News
+  - title: The NoRuKo Virtual Ruby Conference Videos
+    url: https://rubyweekly.com/link/94169/web
+    type: News
+  - title: Ruby on Rails Engineer at Five Good Friends (Remote in Australia)
+    url: https://rubyweekly.com/link/94173/web
+    type: News
+  - title: Sr. Engineer @ Dutchie, Remote
+    url: https://rubyweekly.com/link/94174/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://rubyweekly.com/link/94175/web
+    type: News
+  - title: 'Peter''s Adventures in Ruby: Garbage Collection in Ruby'
+    url: https://rubyweekly.com/link/94177/web
+    type: News
+  - title: Mortal and Immortal Symbols in Ruby
+    url: https://rubyweekly.com/link/94178/web
+    type: News
+  - title: How to Use Bootstrap and jQuery in Rails 6 with Webpacker
+    url: https://rubyweekly.com/link/94179/web
+    type: News
+  - title: Understanding Selection Sort with Ruby
+    url: https://rubyweekly.com/link/94180/web
+    type: News
+  - title: Ruby Trickery from 2018
+    url: https://rubyweekly.com/link/94181/web
+    type: News
+  - title: 'DHH: ''Rewrite Your Software'''
+    url: https://rubyweekly.com/link/94182/web
+    type: News
+  - title: The Basics of Ruby 2.7's 'Beginless Range'
+    url: https://rubyweekly.com/link/94183/web
+    type: News
+  - title: Best-Practices on How to Speed Up Your Postgres Queries. Free eBook
+    url: https://rubyweekly.com/link/94184/web
+    type: News
+  - title: Understanding Ruby Blocks
+    url: https://rubyweekly.com/link/94185/web
+    type: News
+  - title: Turning a Rails-based REST API to GraphQL using Hasura Actions
+    url: https://rubyweekly.com/link/94186/web
+    type: News
+  - title: 'ActiveRecord::Events: Manage Timestamps in Active Record Models'
+    url: https://rubyweekly.com/link/94188/web
+    type: News
+  - title: 'u-attributes: Create ''Immutable'' Objects with No Setters, Just Getters'
+    url: https://rubyweekly.com/link/94189/web
+    type: News
+  - title: 'Racecar: A Simple Framework for Kafka Consumers'
+    url: https://rubyweekly.com/link/94190/web
+    type: News
+  - title: 'Rainbow: A Gem for Colorizing Printed Text on ANSI Terminals'
+    url: https://rubyweekly.com/link/94191/web
+    type: News
+  - title: Faster CI/CD for All Your Software Projects - Try Buildkite ✅
+    url: https://rubyweekly.com/link/94198/web
+    type: News
+  - title: 'HTTP Headers Verifier: A Way to Verify HTTP Headers'
+    url: https://rubyweekly.com/link/94192/web
+    type: News
