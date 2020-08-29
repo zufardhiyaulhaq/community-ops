@@ -1,0 +1,86 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-281
+  namespace: devops-community
+spec:
+  name: Devops Weekly 281
+  date: 08/29/2020
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: An Illustrated Guide to How NAT Traversal Works
+    url: https://weekly.statuscode.com/link/94070/web
+    type: News
+  - title: AWS Previews AWS Controllers for Kubernetes (ACK)
+    url: https://weekly.statuscode.com/link/94071/web
+    type: News
+  - title: Remote Instructor-Led Go, Docker, Kubernetes, & Python Training
+    url: https://weekly.statuscode.com/link/94072/web
+    type: News
+  - title: 'Ask HN: How to Do Cross Platform GUI?'
+    url: https://weekly.statuscode.com/link/94073/web
+    type: News
+  - title: 'Scaling Docker to Serve Millions More Developers: Network Egress'
+    url: https://weekly.statuscode.com/link/94074/web
+    type: News
+  - title: Azure Cosmos DB Serverless Now in Preview
+    url: https://weekly.statuscode.com/link/94076/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://weekly.statuscode.com/link/94082/web
+    type: News
+  - title: '''Lightweight'' Serverless on DigitalOcean with Terraform and faasd'
+    url: https://weekly.statuscode.com/link/94084/web
+    type: News
+  - title: Writing an SSDP Directory in Elixir
+    url: https://weekly.statuscode.com/link/94085/web
+    type: News
+  - title: Sending SPF- and DMARC-Passing Mail As Any Gmail or G Suite Customer
+    url: https://weekly.statuscode.com/link/94086/web
+    type: News
+  - title: SaaS CTO Security Checklist
+    url: https://weekly.statuscode.com/link/94087/web
+    type: News
+  - title: 'How to Contact Google SRE: Dropping a Shell in Cloud SQL'
+    url: https://weekly.statuscode.com/link/94088/web
+    type: News
+  - title: Reverse Engineering GTA V's Stunt Jump System
+    url: https://weekly.statuscode.com/link/94089/web
+    type: News
+  - title: 'The Power of Serverless: Taking Visual Regression Tests From 20 Minutes to 10 Seconds'
+    url: https://weekly.statuscode.com/link/94090/web
+    type: News
+  - title: 'RIP.com: Here''s What Happens to Your Domains When You Die'
+    url: https://weekly.statuscode.com/link/94091/web
+    type: News
+  - title: 'Pelias: A Modular, Stand-Alone Coarse Geocoder'
+    url: https://weekly.statuscode.com/link/94092/web
+    type: News
+  - title: 'HyScale: An Application Centric Abstraction Framework over Kubernetes'
+    url: https://weekly.statuscode.com/link/94094/web
+    type: News
+  - title: AWS Lambda Now Supports Kafka (MSK) as an Event Source
+    url: https://weekly.statuscode.com/link/94095/web
+    type: News
+  - title: 'DNJS: A JavaScript Subset for Configuration Languages'
+    url: https://weekly.statuscode.com/link/94096/web
+    type: News
+  - title: Will It CORS?
+    url: https://weekly.statuscode.com/link/94099/web
+    type: News
+  - title: A Big List of HTTP Static Server One-Liners
+    url: https://weekly.statuscode.com/link/94100/web
+    type: News
+  - title: Macros and Utilities to Write 'Shell Script-Like Tasks' with Rust
+    url: https://weekly.statuscode.com/link/94101/web
+    type: News
+  - title: 'Nali: An Offline Tool for Querying IP Geographic Information'
+    url: https://weekly.statuscode.com/link/94102/web
+    type: News
+  - title: 'MyPaas: Run Your Own PaaS using Docker and Traefik'
+    url: https://weekly.statuscode.com/link/94103/web
+    type: News
