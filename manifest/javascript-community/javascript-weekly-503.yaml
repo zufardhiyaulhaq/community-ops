@@ -1,0 +1,98 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-503
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 503
+  date: 09/01/2020
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'ztext.js: A 3D Typography Effect for the Web'
+    url: https://javascriptweekly.com/link/94326/web
+    type: News
+  - title: 'D3 6.0: The Data-Driven Document Library'
+    url: https://javascriptweekly.com/link/94327/web
+    type: News
+  - title: Scout APM - A Developer’s Best Friend
+    url: https://javascriptweekly.com/link/94330/web
+    type: News
+  - title: 'Danfo.js: A Pandas-like Library for JavaScript'
+    url: https://javascriptweekly.com/link/94366/web
+    type: News
+  - title: Electron 10.0.0 Released
+    url: https://javascriptweekly.com/link/94332/web
+    type: News
+  - title: 'Debug Visualizer 2.0: Visualize Data Structures Live in VS Code'
+    url: https://javascriptweekly.com/link/94334/web
+    type: News
+  - title: Sr. Engineer @ Dutchie, Remote
+    url: https://javascriptweekly.com/link/94336/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://javascriptweekly.com/link/94337/web
+    type: News
+  - title: 'Minimal React: Getting Started with the Frontend Library'
+    url: https://javascriptweekly.com/link/94362/web
+    type: News
+  - title: 'A Leap of Faith: Committing to Open Source'
+    url: https://javascriptweekly.com/link/94331/web
+    type: News
+  - title: Faster CI/CD for All Your Software Projects - Try Buildkite ✅
+    url: https://javascriptweekly.com/link/94341/web
+    type: News
+  - title: 'The Headless: Guides to Learning Puppeteer and Playwright'
+    url: https://javascriptweekly.com/link/94338/web
+    type: News
+  - title: How To Build Your Own Comment System Using Firebase
+    url: https://javascriptweekly.com/link/94363/web
+    type: News
+  - title: A Guide to Six Commonly Used React Component Libraries
+    url: https://javascriptweekly.com/link/94343/web
+    type: News
+  - title: Don't Trust Default Timeouts
+    url: https://javascriptweekly.com/link/94370/web
+    type: News
+  - title: 'Guide: Get Started with OpenTelemetry in Node.js'
+    url: https://javascriptweekly.com/link/94353/web
+    type: News
+  - title: 'Deno Built-in Tools: An Overview and Usage Guide'
+    url: https://javascriptweekly.com/link/94342/web
+    type: News
+  - title: How I Contributed to Angular Components
+    url: https://javascriptweekly.com/link/94365/web
+    type: News
+  - title: 'fastest-levenshtein: Performance Oriented Levenshtein Distance Implementation'
+    url: https://javascriptweekly.com/link/94345/web
+    type: News
+  - title: Yarn 2.2 (The Package Manager and npm Alternative) Released
+    url: https://javascriptweekly.com/link/94371/web
+    type: News
+  - title: 'Light Date ⏰: Fast and Lightweight Date Formatting for Node and Browser'
+    url: https://javascriptweekly.com/link/94344/web
+    type: News
+  - title: 'Barebackups: Super-Simple Database Backups'
+    url: https://javascriptweekly.com/link/94346/web
+    type: News
+  - title: 'Carbonium: A 1KB Library for Easy DOM Manipulation'
+    url: https://javascriptweekly.com/link/94347/web
+    type: News
+  - title: 'DNJS: A JavaScript Subset for Configuration Languages'
+    url: https://javascriptweekly.com/link/94348/web
+    type: News
+  - title: 'FullCalendar: A Full Sized JavaScript Calendar Control'
+    url: https://javascriptweekly.com/link/94351/web
+    type: News
+  - title: 'file-type: Detect The File Type of a Buffer, Uint8Array, or ArrayBuffer'
+    url: https://javascriptweekly.com/link/94354/web
+    type: News
+  - title: 'React-PDF: Display PDFs in a React App As Easily As If They Were Images'
+    url: https://javascriptweekly.com/link/94355/web
+    type: News
+  - title: Meteor 1.11 Released
+    url: https://javascriptweekly.com/link/94373/web
+    type: News
