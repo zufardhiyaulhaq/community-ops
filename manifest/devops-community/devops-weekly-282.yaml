@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-282
+  namespace: devops-community
+spec:
+  name: Devops Weekly 282
+  date: 09/05/2020
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: 'htop 3.0 Released: The Interactive Process Viewer'
+    url: https://weekly.statuscode.com/link/94430/web
+    type: News
+  - title: 'Bottlerocket: A Linux Distribution from Amazon Built to Run Containers'
+    url: https://weekly.statuscode.com/link/94433/web
+    type: News
+  - title: '⏰ Live Webinar: 5 PostgreSQL Functions for Monitoring & Analytics >>'
+    url: https://weekly.statuscode.com/link/94434/web
+    type: News
+  - title: The Life of a Data Byte
+    url: https://weekly.statuscode.com/link/94435/web
+    type: News
+  - title: API Gateway HTTP APIs Adds Integration with Five AWS Services
+    url: https://weekly.statuscode.com/link/94436/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://weekly.statuscode.com/link/94441/web
+    type: News
+  - title: Make Your Kubernetes Services Faster by Removing CPU Limits
+    url: https://weekly.statuscode.com/link/94443/web
+    type: News
+  - title: How To Make Fewer Basic Mistakes When Programming
+    url: https://weekly.statuscode.com/link/94444/web
+    type: News
+  - title: Exposing a SOAP Service as a REST API - The Serverless Way
+    url: https://weekly.statuscode.com/link/94447/web
+    type: News
+  - title: 'Stream Chat: The Most Feature-Rich, Scalable & High-Speed Chat Solution'
+    url: https://weekly.statuscode.com/link/94448/web
+    type: News
+  - title: 10 Lesser-Known Web APIs You May Want to Use
+    url: https://weekly.statuscode.com/link/94449/web
+    type: News
+  - title: The Inner Workings of Oracle Development
+    url: https://weekly.statuscode.com/link/94450/web
+    type: News
+  - title: 13 Lessons Learned From Taking 8 AWS Certification Tests in 4 Weeks
+    url: https://weekly.statuscode.com/link/94452/web
+    type: News
+  - title: 'A Clean Start for The Web: Daydreaming A Post-HTML Utopia'
+    url: https://weekly.statuscode.com/link/94453/web
+    type: News
+  - title: '''Very Short Functions Are A Code Smell''?'
+    url: https://weekly.statuscode.com/link/94454/web
+    type: News
+  - title: 'A Leap of Faith: Committing to Open Source'
+    url: https://weekly.statuscode.com/link/94455/web
+    type: News
+  - title: Why I Actively Discourage Online Tooling like jwt.io and Online JSON Validators
+    url: https://weekly.statuscode.com/link/94456/web
+    type: News
+  - title: 'Graphtage: A Semantic Diff Utility and Library for Tree-Like Files'
+    url: https://weekly.statuscode.com/link/94457/web
+    type: News
+  - title: 'JetBrains Mono: A Free and Open Source Typeface for Developers'
+    url: https://weekly.statuscode.com/link/94458/web
+    type: News
+  - title: The Security-As-Code Platform for Developers
+    url: https://weekly.statuscode.com/link/94459/web
+    type: News
+  - title: 'Dot Browser: A Firefox-Based Privacy-Conscious Web Browser'
+    url: https://weekly.statuscode.com/link/94460/web
+    type: News
+  - title: 'asroute: Interpret Traceroute Output to Show Names of ASNs Traversed'
+    url: https://weekly.statuscode.com/link/94461/web
+    type: News
+  - title: 'Debug Visualizer 2.0: Visualize Data Structures Live in VS Code'
+    url: https://weekly.statuscode.com/link/94463/web
+    type: News
