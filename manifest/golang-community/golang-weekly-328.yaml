@@ -1,0 +1,92 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-328
+  namespace: golang-community
+spec:
+  name: Golang Weekly 328
+  date: 09/06/2020
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'GORM 2.0 Released: A ''Fantastic ORM'' for Go'
+    url: https://golangweekly.com/link/94636/web
+    type: News
+  - title: An Update on the Proposal for Embedding Files in Go Binaries
+    url: https://golangweekly.com/link/94639/web
+    type: News
+  - title: Remote Instructor-Led Go, Docker, Kubernetes, & Python Training
+    url: https://golangweekly.com/link/94640/web
+    type: News
+  - title: Some Examples of Using Generics by the Go Team
+    url: https://golangweekly.com/link/94641/web
+    type: News
+  - title: Even in Go, Concurrency Is Still Not Easy (With An Example)
+    url: https://golangweekly.com/link/94642/web
+    type: News
+  - title: Go 1.15.1 and 1.14.8 Released
+    url: https://golangweekly.com/link/94643/web
+    type: News
+  - title: Stream Provides APIs for Building Activity Feeds and Chat
+    url: https://golangweekly.com/link/94646/web
+    type: News
+  - title: Golang Developer at X-Team (Remote)
+    url: https://golangweekly.com/link/94647/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://golangweekly.com/link/94648/web
+    type: News
+  - title: 'Hugo Modules: Everything You Need to Know'
+    url: https://golangweekly.com/link/94649/web
+    type: News
+  - title: Introducing Clean Architecture by Refactoring a Go Project
+    url: https://golangweekly.com/link/94650/web
+    type: News
+  - title: An Introduction to the Go Client for Elasticsearch
+    url: https://golangweekly.com/link/94652/web
+    type: News
+  - title: Discovering Alloc Size Classes in Go
+    url: https://golangweekly.com/link/94654/web
+    type: News
+  - title: Bitmovin Live IBC Edition - Focused on Innovative Ways to Reduce Costs
+    url: https://golangweekly.com/link/94655/web
+    type: News
+  - title: Turn a Go REST API to GraphQL using Hasura Actions
+    url: https://golangweekly.com/link/94656/web
+    type: News
+  - title: 'Echelon: Hierarchical Progress Bars in Terminal on Overdrive'
+    url: https://golangweekly.com/link/94657/web
+    type: News
+  - title: Apache Pulsar Go Client Library
+    url: https://golangweekly.com/link/94658/web
+    type: News
+  - title: Get Instant Insights into Golang App Performance with Distributed Tracing
+    url: https://golangweekly.com/link/94660/web
+    type: News
+  - title: 'gomplate: A Flexible CLI Tool for Template Rendering'
+    url: https://golangweekly.com/link/94661/web
+    type: News
+  - title: 'gookit/color: Terminal Color Rendering Tool Library'
+    url: https://golangweekly.com/link/94662/web
+    type: News
+  - title: 'db: A Productive Data Access Layer for Different Data Sources'
+    url: https://golangweekly.com/link/94663/web
+    type: News
+  - title: 'pgzip 1.2.5: Parallel gzip Compression and Decompression'
+    url: https://golangweekly.com/link/94665/web
+    type: News
+  - title: 'Go Stripe: The Official Library for the Stripe API'
+    url: https://golangweekly.com/link/94666/web
+    type: News
+  - title: 'Zap 1.16: Fast, Structured, Leveled Logging in Go'
+    url: https://golangweekly.com/link/94668/web
+    type: News
+  - title: 'httpx 1.0: A Multi-Purpose HTTP Toolkit for Probing Servers'
+    url: https://golangweekly.com/link/94669/web
+    type: News
+  - title: A Music Video Coded with Go
+    url: https://golangweekly.com/link/94671/web
+    type: News
