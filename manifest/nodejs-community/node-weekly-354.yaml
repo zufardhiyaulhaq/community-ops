@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-354
+  namespace: node-community
+spec:
+  name: Node Weekly 354
+  date: 09/07/2020
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Making WAVs: Understanding, Parsing, and Creating Wave Files'
+    url: https://nodeweekly.com/link/94583/web
+    type: News
+  - title: 'Danfo.js: A Pandas-Like Library for Data Processing'
+    url: https://nodeweekly.com/link/94584/web
+    type: News
+  - title: Scout APM Now Available for Node.js
+    url: https://nodeweekly.com/link/94588/web
+    type: News
+  - title: 'Commander 6.1: Node Command-Line Interfaces Made Easy'
+    url: https://nodeweekly.com/link/94589/web
+    type: News
+  - title: Yarn 2.2 Package Manager Released
+    url: https://nodeweekly.com/link/94590/web
+    type: News
+  - title: Node v14.9.0 (Current) Released
+    url: https://nodeweekly.com/link/94592/web
+    type: News
+  - title: Node.js Developer at X-Team (Remote)
+    url: https://nodeweekly.com/link/94593/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://nodeweekly.com/link/94594/web
+    type: News
+  - title: How to Build a Low-Latency Serverless GraphQL API on AWS with Node, AppSync, Lambda, and DynamoDB
+    url: https://nodeweekly.com/link/94596/web
+    type: News
+  - title: Adding an Auto-Generated Admin Panel to Koa Apps
+    url: https://nodeweekly.com/link/94597/web
+    type: News
+  - title: The Node.js Security Handbook
+    url: https://nodeweekly.com/link/94600/web
+    type: News
+  - title: 'What''s New in Mongoose 5.10: Optimistic Concurrency'
+    url: https://nodeweekly.com/link/94601/web
+    type: News
+  - title: How To Build a Twitch Chat Bot with Node
+    url: https://nodeweekly.com/link/94603/web
+    type: News
+  - title: The Expressway to Fastify with Matteo Collina
+    url: https://nodeweekly.com/link/94604/web
+    type: News
+  - title: Why I Actively Discourage Online Tooling like jwt.io and Online JSON Validators
+    url: https://nodeweekly.com/link/94606/web
+    type: News
+  - title: 'np: A Better npm publish'
+    url: https://nodeweekly.com/link/94607/web
+    type: News
+  - title: 'Caterpillar 6.4: The ''Ultimate'' Logging System'
+    url: https://nodeweekly.com/link/94608/web
+    type: News
+  - title: Log Management for Modern Engineering Teams
+    url: https://nodeweekly.com/link/94609/web
+    type: News
+  - title: 'Grant 5.4: OAuth Proxy for Express, Koa, Hapi, and Fastify'
+    url: https://nodeweekly.com/link/94610/web
+    type: News
+  - title: 'Mongoose Execution Time: A Plugin for Measuring and Logging Query Execution Time'
+    url: https://nodeweekly.com/link/94611/web
+    type: News
+  - title: 'file-type: Detect The File Type of a Buffer, Uint8Array, or ArrayBuffer'
+    url: https://nodeweekly.com/link/94612/web
+    type: News
+  - title: 'EVT: EventEmitter''s Typesafe Replacement'
+    url: https://nodeweekly.com/link/94613/web
+    type: News
