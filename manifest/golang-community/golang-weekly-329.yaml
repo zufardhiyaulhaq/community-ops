@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-329
+  namespace: golang-community
+spec:
+  name: Golang Weekly 329
+  date: 09/13/2020
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Discussing Fuzzing in Go
+    url: https://golangweekly.com/link/95036/web
+    type: News
+  - title: Do Go Modules Have a 'v2+ Problem'?
+    url: https://golangweekly.com/link/95038/web
+    type: News
+  - title: Log Management for Modern Engineering Teams
+    url: https://golangweekly.com/link/95040/web
+    type: News
+  - title: 'Goyave 3.0: An Elegant Go Web Framework'
+    url: https://golangweekly.com/link/95064/web
+    type: News
+  - title: 'gofeed 1.1: A Parser for RSS, Atom, and JSON Feeds'
+    url: https://golangweekly.com/link/95041/web
+    type: News
+  - title: Caddy and CertMagic Under New Ownership
+    url: https://golangweekly.com/link/95043/web
+    type: News
+  - title: Sr. Software Engineer at CrowdStrike (Remote)
+    url: https://golangweekly.com/link/95046/web
+    type: News
+  - title: Senior Software Engineer at Even (Anywhere)
+    url: https://golangweekly.com/link/95047/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://golangweekly.com/link/95048/web
+    type: News
+  - title: The Within Go Repo Layout
+    url: https://golangweekly.com/link/95049/web
+    type: News
+  - title: The Official Go Modules Documentation
+    url: https://golangweekly.com/link/95042/web
+    type: News
+  - title: How I Packaged a Go Program for Windows and Linux
+    url: https://golangweekly.com/link/95050/web
+    type: News
+  - title: IBC Live - Series of Events Focused on Innovative Ways to Reduce Costs
+    url: https://golangweekly.com/link/95052/web
+    type: News
+  - title: Optimizing a Code Intelligence Indexer
+    url: https://golangweekly.com/link/95051/web
+    type: News
+  - title: A Gentle Introduction to Web Services with Go
+    url: https://golangweekly.com/link/95053/web
+    type: News
+  - title: 'Kiwi 1.0: A Minimalistic In-Memory Key/Value Store'
+    url: https://golangweekly.com/link/95054/web
+    type: News
+  - title: 'Gold: An Experimental Go Local Docs Server/Generator'
+    url: https://golangweekly.com/link/95055/web
+    type: News
+  - title: 'fastrand64-go: Pool Backed Library for Random uint64 Generation'
+    url: https://golangweekly.com/link/95057/web
+    type: News
+  - title: 'go-diff: A Unified Diff Parser and Printer for Go'
+    url: https://golangweekly.com/link/95059/web
+    type: News
