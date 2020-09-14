@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-355
+  namespace: node-community
+spec:
+  name: Node Weekly 355
+  date: 09/14/2020
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Undici: An HTTP/1.1 Client, Written From Scratch for Node'
+    url: https://nodeweekly.com/link/94954/web
+    type: News
+  - title: 'Node Resiliency Concepts: Recovery and Self-Healing'
+    url: https://nodeweekly.com/link/94956/web
+    type: News
+  - title: "New Course: \U0001F427 Complete Intro to Linux and the Command-Line"
+    url: https://nodeweekly.com/link/94957/web
+    type: News
+  - title: Node v14.10.0 (Current) Released
+    url: https://nodeweekly.com/link/94958/web
+    type: News
+  - title: September 2020 Security Releases Due Next Week
+    url: https://nodeweekly.com/link/94960/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://nodeweekly.com/link/94961/web
+    type: News
+  - title: Surviving a Heatwave Using Google Cloud Functions
+    url: https://nodeweekly.com/link/94963/web
+    type: News
+  - title: Reading and Writing CSV Files with node-csv
+    url: https://nodeweekly.com/link/94964/web
+    type: News
+  - title: Find, Fix, and Prevent Misconfigs in AWS, K8s, Terraform, and More
+    url: https://nodeweekly.com/link/94965/web
+    type: News
+  - title: 5 Best Practices for Building a Modern API with Express
+    url: https://nodeweekly.com/link/94966/web
+    type: News
+  - title: Machine Learning for JavaScript Devs in 10 Minutes
+    url: https://nodeweekly.com/link/94967/web
+    type: News
+  - title: 'What''s New in Mongoose 5.10: Global Subdocument Configuration'
+    url: https://nodeweekly.com/link/94968/web
+    type: News
+  - title: npm v7.0.0 Beta 10 Released
+    url: https://nodeweekly.com/link/94969/web
+    type: News
+  - title: 'ngrok for VSCode: Public URLs for Local Dev Servers'
+    url: https://nodeweekly.com/link/94970/web
+    type: News
+  - title: 'MikroORM 4: A TypeScript ORM for Node'
+    url: https://nodeweekly.com/link/94972/web
+    type: News
+  - title: Optimize Node.js Performance with Datadog APM and Distributed Tracing
+    url: https://nodeweekly.com/link/94974/web
+    type: News
+  - title: 'FixCache: A GitHub App That Keeps Track of Bug-Prone Files From Commit History'
+    url: https://nodeweekly.com/link/94975/web
+    type: News
+  - title: 'Admin Bro: An Admin Panel for Node Apps'
+    url: https://nodeweekly.com/link/94977/web
+    type: News
+  - title: 'Neon: Rust Bindings for Writing Safe and Fast Native Node Modules'
+    url: https://nodeweekly.com/link/94978/web
+    type: News
