@@ -1,0 +1,86 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-519
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 519
+  date: 09/18/2020
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: The Life-Changing Magic of Tidying Ruby Object Allocations
+    url: https://rubyweekly.com/link/95295/web
+    type: News
+  - title: 'RubyJard: Just Another Ruby Debugger'
+    url: https://rubyweekly.com/link/95296/web
+    type: News
+  - title: We’ve Helped 100s of Customers Speed-Up Postgres Queries by 1000x. Learn How
+    url: https://rubyweekly.com/link/95298/web
+    type: News
+  - title: 30 Talks from RubyKaigi Takeout 2020
+    url: https://rubyweekly.com/link/95299/web
+    type: News
+  - title: Discussing Ruby 3.0 JIT and Its Performance Benefits
+    url: https://rubyweekly.com/link/95306/web
+    type: News
+  - title: Principal Engineer (SF/Remote)
+    url: https://rubyweekly.com/link/95307/web
+    type: News
+  - title: Fullstack Ruby on Rails Developer (Full Remote)
+    url: https://rubyweekly.com/link/95308/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://rubyweekly.com/link/95309/web
+    type: News
+  - title: Contributing to the Thor Project
+    url: https://rubyweekly.com/link/95311/web
+    type: News
+  - title: Zero-Downtime Migrations in Rails
+    url: https://rubyweekly.com/link/95313/web
+    type: News
+  - title: Another Reason to Avoid constantize in Rails
+    url: https://rubyweekly.com/link/95314/web
+    type: News
+  - title: ⌛ TimescaleDB for Ruby Developers Quickstart
+    url: https://rubyweekly.com/link/95315/web
+    type: News
+  - title: Creating an SMS Reminder Service with Ruby and a Raspberry Pi
+    url: https://rubyweekly.com/link/95316/web
+    type: News
+  - title: 'Rails Concerns: To Concern Or Not To Concern'
+    url: https://rubyweekly.com/link/95317/web
+    type: News
+  - title: Using Multiple Databases in Rails 6 to Log Access Requests
+    url: https://rubyweekly.com/link/95318/web
+    type: News
+  - title: Rails Adds Support for Adding a Default Value to Rich Text Areas
+    url: https://rubyweekly.com/link/95319/web
+    type: News
+  - title: A Gentle Introduction to Web Services with Go
+    url: https://rubyweekly.com/link/95320/web
+    type: News
+  - title: What's New in Sidekiq, 2020 Edition
+    url: https://rubyweekly.com/link/95321/web
+    type: News
+  - title: 'Klipse: A Javacript Plugin for Embedding Interactive Code Snippets in Blog Posts'
+    url: https://rubyweekly.com/link/95322/web
+    type: News
+  - title: 'rack-mini-profiler 2.1: A Profiler for Rack Apps in Dev or Production'
+    url: https://rubyweekly.com/link/95324/web
+    type: News
+  - title: Become a Ruby Guru with RubyMine
+    url: https://rubyweekly.com/link/95325/web
+    type: News
+  - title: 'ValidEmail2: ActiveModel Validation for Email'
+    url: https://rubyweekly.com/link/95326/web
+    type: News
+  - title: Ruby Next 0.10.0 Brings in Some Ruby 3.0 Features to Ruby 2
+    url: https://rubyweekly.com/link/95327/web
+    type: News
+  - title: 'Circuitry: Decouple Apps Using SNS Fanout with SQS Processing'
+    url: https://rubyweekly.com/link/95328/web
+    type: News
