@@ -1,0 +1,89 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-330
+  namespace: golang-community
+spec:
+  name: Golang Weekly 330
+  date: 09/20/2020
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'GitHub CLI 1.0: Take GitHub to the Terminal'
+    url: https://golangweekly.com/link/95427/web
+    type: News
+  - title: Debugging Go in Production Using eBPF
+    url: https://golangweekly.com/link/95429/web
+    type: News
+  - title: 'Sqreen: App Security for Golang Web Apps (Free Trial)'
+    url: https://golangweekly.com/link/95430/web
+    type: News
+  - title: 'go-bluetooth: A Cross-Platform Bluetooth API for Go'
+    url: https://golangweekly.com/link/95431/web
+    type: News
+  - title: 'Introducing Pebble: A RocksDB Inspired Key-Value Store Written in Go'
+    url: https://golangweekly.com/link/95433/web
+    type: News
+  - title: Go's Major Versioning 'Sucks' (From a Fanboy)
+    url: https://golangweekly.com/link/95434/web
+    type: News
+  - title: Stream Provides APIs for Building Activity Feeds and Chat
+    url: https://golangweekly.com/link/95435/web
+    type: News
+  - title: Golang Developer at X-Team (Remote)
+    url: https://golangweekly.com/link/95436/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://golangweekly.com/link/95437/web
+    type: News
+  - title: Doing Cool Stuff With Go’s AST Package
+    url: https://golangweekly.com/link/95438/web
+    type: News
+  - title: Writing Multi-Package Analysis Tools for Go
+    url: https://golangweekly.com/link/95439/web
+    type: News
+  - title: Running Go Code on iOS and Android
+    url: https://golangweekly.com/link/95440/web
+    type: News
+  - title: "Try the Fastest, Most Secure Way to Test and Build Software Today \U0001F680"
+    url: https://golangweekly.com/link/95441/web
+    type: News
+  - title: 'The Go Client for Elasticsearch: Configuration and Customization'
+    url: https://golangweekly.com/link/95442/web
+    type: News
+  - title: When The Go Garbage Collector Will Panic Over Bad Pointer Values
+    url: https://golangweekly.com/link/95443/web
+    type: News
+  - title: 'modgv: Convert go mod graph Output Into Graphviz Graphs'
+    url: https://golangweekly.com/link/95444/web
+    type: News
+  - title: A Database for Every Go REPL on Repl.it
+    url: https://golangweekly.com/link/95445/web
+    type: News
+  - title: 'gopls v0.5.0 Released: Go''s Language Server'
+    url: https://golangweekly.com/link/95447/web
+    type: News
+  - title: 'YARR: Yet Another RSS Reader'
+    url: https://golangweekly.com/link/95448/web
+    type: News
+  - title: 'Yaegi 0.9: Yet Another Elegant Go Interpreter'
+    url: https://golangweekly.com/link/95449/web
+    type: News
+  - title: 'Bitmovin Encoder 2020 Roadmap: Dolby Vision & Atmos, VVC and More'
+    url: https://golangweekly.com/link/95450/web
+    type: News
+  - title: 'Datatable: A Go In-Memory Table'
+    url: https://golangweekly.com/link/95451/web
+    type: News
+  - title: 'Leaf: A General Purpose Reloader for All Projects'
+    url: https://golangweekly.com/link/95454/web
+    type: News
+  - title: '2048: A Cli Implementation of the 2048 Game in Go'
+    url: https://golangweekly.com/link/95455/web
+    type: News
+  - title: 'go-immutable-radix 1.3: An Immutable Radix Tree Implementation'
+    url: https://golangweekly.com/link/95456/web
+    type: News
