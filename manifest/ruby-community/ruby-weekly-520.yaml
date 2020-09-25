@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-520
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 520
+  date: 09/25/2020
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'Triage with Me: 11 Issues and 2 PRs in 1.5 Hours'
+    url: https://rubyweekly.com/link/95669/web
+    type: News
+  - title: 'Under Deconstruction: The State of Shopify’s Monolith'
+    url: https://rubyweekly.com/link/95670/web
+    type: News
+  - title: "Reduce Test Time Without Sacrificing Security \U0001F680"
+    url: https://rubyweekly.com/link/95671/web
+    type: News
+  - title: 'Puma 5: We Made Puma Faster With Sleep Sort'
+    url: https://rubyweekly.com/link/95673/web
+    type: News
+  - title: Russ Hanneman from Silicon Valley Loves StimulusReflex 3.3
+    url: https://rubyweekly.com/link/95674/web
+    type: News
+  - title: Senior Software Engineer (SF/Remote)
+    url: https://rubyweekly.com/link/95678/web
+    type: News
+  - title: Staff Engineer (SF)
+    url: https://rubyweekly.com/link/95679/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://rubyweekly.com/link/95680/web
+    type: News
+  - title: Writing a Ractor Base Job Scheduler
+    url: https://rubyweekly.com/link/95682/web
+    type: News
+  - title: Interacting with NFC on a Raspberry Pi from Ruby with Taptag
+    url: https://rubyweekly.com/link/95683/web
+    type: News
+  - title: Be Ahead of the Curve — Upgrade Your Rails Application
+    url: https://rubyweekly.com/link/95684/web
+    type: News
+  - title: Tracking a PaperTrail Version from a Single Request with Correlation UUIDs
+    url: https://rubyweekly.com/link/95685/web
+    type: News
+  - title: Modern Rails Flash Messages
+    url: https://rubyweekly.com/link/95687/web
+    type: News
+  - title: The defined? Keyword in Ruby
+    url: https://rubyweekly.com/link/95688/web
+    type: News
+  - title: Automating Rails Server Provisioning and Deployment with Ansible and Capistrano
+    url: https://rubyweekly.com/link/95689/web
+    type: News
+  - title: Writing Good Test Descriptions
+    url: https://rubyweekly.com/link/95690/web
+    type: News
+  - title: 'Browser 5.0: A Browser Detection Library'
+    url: https://rubyweekly.com/link/95691/web
+    type: News
+  - title: 'Rubyspeed: Compile Basic Ruby Functions to C'
+    url: https://rubyweekly.com/link/95692/web
+    type: News
+  - title: Quickly Resolve Ruby App Issues in Datadog with Distributed Tracing
+    url: https://rubyweekly.com/link/95694/web
+    type: News
+  - title: 'Packwerk: Enforce Boundaries for More Modular Rails Apps'
+    url: https://rubyweekly.com/link/95695/web
+    type: News
+  - title: 'Down 5.2: Streaming HTTP Downloads using net/http, http.rb or wget'
+    url: https://rubyweekly.com/link/95696/web
+    type: News
+  - title: 'Stripe::Rails 2.0: A Rails Engine for Integrating with Stripe'
+    url: https://rubyweekly.com/link/95697/web
+    type: News
