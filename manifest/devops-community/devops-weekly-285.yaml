@@ -1,0 +1,92 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-285
+  namespace: devops-community
+spec:
+  name: Devops Weekly 285
+  date: 09/26/2020
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: The Era of Visual Studio Code?
+    url: https://weekly.statuscode.com/link/95587/web
+    type: News
+  - title: 'GitHub CLI 1.0: Take GitHub to the Terminal'
+    url: https://weekly.statuscode.com/link/95588/web
+    type: News
+  - title: Remote Instructor-Led Go, Docker, Kubernetes, Terraform, & Python Training
+    url: https://weekly.statuscode.com/link/95589/web
+    type: News
+  - title: Unveiling Swift for Windows
+    url: https://weekly.statuscode.com/link/95590/web
+    type: News
+  - title: GitHub's Default Branch Name Changing from 'master' to 'main'
+    url: https://weekly.statuscode.com/link/95592/web
+    type: News
+  - title: A Picture of Java in 2020
+    url: https://weekly.statuscode.com/link/95593/web
+    type: News
+  - title: Devops Engineer (Full time / Full Remote)
+    url: https://weekly.statuscode.com/link/95598/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://weekly.statuscode.com/link/95599/web
+    type: News
+  - title: How to Visualize Data Structures in VS Code
+    url: https://weekly.statuscode.com/link/95601/web
+    type: News
+  - title: How Do I Remove The First 300 Million Lines of a 700GB Text File with Only 1TB  Disk Space?
+    url: https://weekly.statuscode.com/link/95602/web
+    type: News
+  - title: 'Under Deconstruction: The State of Shopify’s Monolith'
+    url: https://weekly.statuscode.com/link/95604/web
+    type: News
+  - title: 'Ask HN: How Do I Learn to Write Better Code?'
+    url: https://weekly.statuscode.com/link/95605/web
+    type: News
+  - title: The Security-As-Code Platform for Developers
+    url: https://weekly.statuscode.com/link/95627/web
+    type: News
+  - title: Sending Discord Notifications using CloudWatch Alarms, SNS and AWS Lambda
+    url: https://weekly.statuscode.com/link/95607/web
+    type: News
+  - title: Hacking Ethernet Out of Fibre Channel Cards
+    url: https://weekly.statuscode.com/link/95608/web
+    type: News
+  - title: No, Moving Your SSH Port Isn't 'Security by Obscurity'
+    url: https://weekly.statuscode.com/link/95609/web
+    type: News
+  - title: Discussing Twitter Search with Nico Tonozzi
+    url: https://weekly.statuscode.com/link/95610/web
+    type: News
+  - title: How I Bypassed Cloudflare's SQL Injection Filter
+    url: https://weekly.statuscode.com/link/95611/web
+    type: News
+  - title: 'Git Internals: Learn by Building Your Own Git (in Python)'
+    url: https://weekly.statuscode.com/link/95612/web
+    type: News
+  - title: 'Blacklight: A Real-Time Website Privacy Inspector'
+    url: https://weekly.statuscode.com/link/95613/web
+    type: News
+  - title: PostgreSQL 13 Release Candidate 1 Released
+    url: https://weekly.statuscode.com/link/95614/web
+    type: News
+  - title: 'libcu++: NVIDIA''s C++ Standard Library for Your Entire System'
+    url: https://weekly.statuscode.com/link/95616/web
+    type: News
+  - title: Start Protecting Your Web Apps, APIs, and Microservices for Free
+    url: https://weekly.statuscode.com/link/95617/web
+    type: News
+  - title: A Battleships Game, Implemented with Postgres
+    url: https://weekly.statuscode.com/link/95618/web
+    type: News
+  - title: A Database for Every REPL on Repl.it
+    url: https://weekly.statuscode.com/link/95620/web
+    type: News
+  - title: 'DuckDB: An Embeddable SQL OLAP Database System'
+    url: https://weekly.statuscode.com/link/95622/web
+    type: News
