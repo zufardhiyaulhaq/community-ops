@@ -1,0 +1,89 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-331
+  namespace: golang-community
+spec:
+  name: Golang Weekly 331
+  date: 09/27/2020
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'TamaGo: Bare Metal Go for ARM SoCs'
+    url: https://golangweekly.com/link/95782/web
+    type: News
+  - title: So How Will Go Implement Generics?
+    url: https://golangweekly.com/link/95784/web
+    type: News
+  - title: "Reduce Test Time Without Sacrificing Security \U0001F680"
+    url: https://golangweekly.com/link/95823/web
+    type: News
+  - title: TinyGo Gains Initial Support for the ESP32 and ESP8266
+    url: https://golangweekly.com/link/95788/web
+    type: News
+  - title: The Go Time Podcast Chats with Brad Fitzpatrick
+    url: https://golangweekly.com/link/95789/web
+    type: News
+  - title: Stream Provides APIs for Building Activity Feeds and Chat
+    url: https://golangweekly.com/link/95794/web
+    type: News
+  - title: Sr. Software Engineer at CrowdStrike (Remote)
+    url: https://golangweekly.com/link/95795/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://golangweekly.com/link/95796/web
+    type: News
+  - title: Hacking Ethernet Out of Fibre Channel Cards with Go
+    url: https://golangweekly.com/link/95797/web
+    type: News
+  - title: Optimizing PGX Allocations in Go with Pprof
+    url: https://golangweekly.com/link/95798/web
+    type: News
+  - title: Running Go in the Browser with WASM and Web Workers
+    url: https://golangweekly.com/link/95800/web
+    type: News
+  - title: 'In-Process Caching in Go: Scaling lakeFS to 100k Requests/Second'
+    url: https://golangweekly.com/link/95801/web
+    type: News
+  - title: Fan Out, Fan In While Maintaining Order
+    url: https://golangweekly.com/link/95802/web
+    type: News
+  - title: '''Go Is Not Ready for Enterprise Systems Yet and Here’s Why'''
+    url: https://golangweekly.com/link/95803/web
+    type: News
+  - title: 'go-diagrams: Create Beautiful System Diagrams with Go'
+    url: https://golangweekly.com/link/95804/web
+    type: News
+  - title: 'goconst: Find Repeated Strings That Could Be Replaced by a Constant'
+    url: https://golangweekly.com/link/95807/web
+    type: News
+  - title: Troubleshoot Golang App Performance with Datadog APM
+    url: https://golangweekly.com/link/95809/web
+    type: News
+  - title: 'Ali: Generate HTTP Loads and Plot The Results in Real-Time'
+    url: https://golangweekly.com/link/95810/web
+    type: News
+  - title: 'logo-ls: Modern ls Command with VS Code-Like File ''Icons'' and Git Integrations'
+    url: https://golangweekly.com/link/95811/web
+    type: News
+  - title: 'Twirp 7.1: A Simple RPC Framework with Protobuf Service Definitions'
+    url: https://golangweekly.com/link/95812/web
+    type: News
+  - title: 'Mouthful: A Self Hosted Go Powered Alternative to Disqus'
+    url: https://golangweekly.com/link/95813/web
+    type: News
+  - title: 'Siegfried: Signature-Based File Format Identification'
+    url: https://golangweekly.com/link/95815/web
+    type: News
+  - title: Automated App Security for Go Web Apps.
+    url: https://golangweekly.com/link/95817/web
+    type: News
+  - title: 'Dbmate: A Lightweight, Framework-Agnostic Database Migration Tool'
+    url: https://golangweekly.com/link/95818/web
+    type: News
+  - title: 'msfs2020-go: Connect to Microsoft Flight Simulator 2020 From Go'
+    url: https://golangweekly.com/link/95819/web
+    type: News
