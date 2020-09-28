@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-357
+  namespace: node-community
+spec:
+  name: Node Weekly 357
+  date: 09/28/2020
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 11 Top Node ORMs, Query Builders and Database Libraries in 2020
+    url: https://nodeweekly.com/link/95701/web
+    type: News
+  - title: The Default Behavior of Unhandled Rejections to Change
+    url: https://nodeweekly.com/link/95702/web
+    type: News
+  - title: Scout APM - A Developer’s Best Friend
+    url: https://nodeweekly.com/link/95703/web
+    type: News
+  - title: Node 15.0 Release Candidate Zero
+    url: https://nodeweekly.com/link/95704/web
+    type: News
+  - title: 'tinyhttp 0.4: A Lightweight and Modular Express-Like Web Framework'
+    url: https://nodeweekly.com/link/95723/web
+    type: News
+  - title: Node v14.12.0 (Current) Released
+    url: https://nodeweekly.com/link/95705/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://nodeweekly.com/link/95706/web
+    type: News
+  - title: Pretty JSON.stringify() Output in JavaScript
+    url: https://nodeweekly.com/link/95708/web
+    type: News
+  - title: VS Code Tips for Power Users
+    url: https://nodeweekly.com/link/95709/web
+    type: News
+  - title: 'When the Bits Hit the Fan: AppSignal'
+    url: https://nodeweekly.com/link/95714/web
+    type: News
+  - title: 'From PM2 to Docker: Handling Automatic Restarts'
+    url: https://nodeweekly.com/link/95710/web
+    type: News
+  - title: 'Shoulders: Quickly View A List of Your Dependencies'' Open Issues'
+    url: https://nodeweekly.com/link/95711/web
+    type: News
+  - title: 'Kafka.js 1.14.0: A Modern Apache Kafka Client'
+    url: https://nodeweekly.com/link/95712/web
+    type: News
+  - title: 'hot-shots: A Node Client for StatsD, DogStatsD, and Telegraf'
+    url: https://nodeweekly.com/link/95715/web
+    type: News
+  - title: Serverless Headless CMS - OpenSource, Powered by React & Node
+    url: https://nodeweekly.com/link/95720/web
+    type: News
+  - title: 'ffmpeg.wasm: FFmpeg for Browser and Node, Powered by WebAssembly'
+    url: https://nodeweekly.com/link/95716/web
+    type: News
+  - title: 'Graffiti: A Minimalistic GraphQL Framework'
+    url: https://nodeweekly.com/link/95717/web
+    type: News
+  - title: 'react-nil: A React ''Null Renderer'''
+    url: https://nodeweekly.com/link/95718/web
+    type: News
