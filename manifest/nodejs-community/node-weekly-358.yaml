@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-358
+  namespace: node-community
+spec:
+  name: Node Weekly 358
+  date: 10/05/2020
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Exploring Node.js Async Hooks
+    url: https://nodeweekly.com/link/96089/web
+    type: News
+  - title: Node v14.13.0 (Current) Released
+    url: https://nodeweekly.com/link/96090/web
+    type: News
+  - title: 'The Diagnose: How Support Works at AppSignal'
+    url: https://nodeweekly.com/link/96092/web
+    type: News
+  - title: 'SuperTest 5.0: Super-Agent Driven Library for Testing Node HTTP Servers'
+    url: https://nodeweekly.com/link/96093/web
+    type: News
+  - title: V8 Release 8.6
+    url: https://nodeweekly.com/link/96094/web
+    type: News
+  - title: 'Fastify 3.5.0: The Fast and Low Overhead Web Framework'
+    url: https://nodeweekly.com/link/96111/web
+    type: News
+  - title: Node.js Developer at X-Team (Remote)
+    url: https://nodeweekly.com/link/96097/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://nodeweekly.com/link/96098/web
+    type: News
+  - title: 5 TILs about Node Fundamentals from the Node Design Patterns Book
+    url: https://nodeweekly.com/link/96100/web
+    type: News
+  - title: Building a Node App with CockroachDB and Sequelize
+    url: https://nodeweekly.com/link/96102/web
+    type: News
+  - title: 'Scout APM: Pinpoint & Fix Performance Issues Fast. Start Now for Free'
+    url: https://nodeweekly.com/link/96104/web
+    type: News
+  - title: Getting Started with Eleventy, the Static Site Generator
+    url: https://nodeweekly.com/link/96105/web
+    type: News
+  - title: How to Fix Postgres Performance Issues with PG Extras
+    url: https://nodeweekly.com/link/96107/web
+    type: News
+  - title: 'twitter-api-client: Node Client Library for the Twitter API'
+    url: https://nodeweekly.com/link/96109/web
+    type: News
+  - title: 'DashDash: A Light and Explicit CLI Option Parsing Library'
+    url: https://nodeweekly.com/link/96120/web
+    type: News
+  - title: npm v7.0.0 Beta 13 Released
+    url: https://nodeweekly.com/link/96110/web
+    type: News
+  - title: Build Code and Ship In App Messaging in a Few Hours
+    url: https://nodeweekly.com/link/96113/web
+    type: News
+  - title: 'pm2 4.5 Released: The Node Production Process Manager'
+    url: https://nodeweekly.com/link/96114/web
+    type: News
+  - title: 'node-poppler: Asynchronous Wrapper for the Poppler PDF Rendering Library'
+    url: https://nodeweekly.com/link/96115/web
+    type: News
+  - title: 'npkill: Easily Remove Old or Heavy node_modules Folders'
+    url: https://nodeweekly.com/link/96121/web
+    type: News
