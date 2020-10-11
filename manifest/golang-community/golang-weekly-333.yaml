@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-333
+  namespace: golang-community
+spec:
+  name: Golang Weekly 333
+  date: 10/11/2020
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Embedding Python in Go
+    url: https://golangweekly.com/link/96531/web
+    type: News
+  - title: Finding Goroutine Bugs with TLA+
+    url: https://golangweekly.com/link/96559/web
+    type: News
+  - title: Remote Instructor-Led Go, Docker, Kubernetes, Terraform, & Python Training
+    url: https://golangweekly.com/link/96533/web
+    type: News
+  - title: 'Prisma Client Go: Auto-Generated and Type-Safe Database Client'
+    url: https://golangweekly.com/link/96534/web
+    type: News
+  - title: Increasing http.Server Boilerplate
+    url: https://golangweekly.com/link/96532/web
+    type: News
+  - title: Sr. Software Engineer at CrowdStrike (Remote)
+    url: https://golangweekly.com/link/96538/web
+    type: News
+  - title: Golang Developer at X-Team (Remote)
+    url: https://golangweekly.com/link/96539/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://golangweekly.com/link/96540/web
+    type: News
+  - title: Go, WebAssembly, HTTP Requests and Promises
+    url: https://golangweekly.com/link/96541/web
+    type: News
+  - title: Automating Go Integration Tests with Docker
+    url: https://golangweekly.com/link/96542/web
+    type: News
+  - title: Creating PowerPoint Slides From Templates
+    url: https://golangweekly.com/link/96543/web
+    type: News
+  - title: Environment Variables in Golang
+    url: https://golangweekly.com/link/96563/web
+    type: News
+  - title: Correlating Logs
+    url: https://golangweekly.com/link/96544/web
+    type: News
+  - title: Some Basic and Common Uses of Regular Expressions in Go
+    url: https://golangweekly.com/link/96545/web
+    type: News
+  - title: Polymorphism in Limbo and Go 2
+    url: https://golangweekly.com/link/96558/web
+    type: News
+  - title: 'Bit: An Experimental, Modern CLI for Git'
+    url: https://golangweekly.com/link/96546/web
+    type: News
+  - title: 'Hetty: A HTTP Toolkit for Security Research'
+    url: https://golangweekly.com/link/96547/web
+    type: News
+  - title: 'pospop: High Performance Positional Population Counting'
+    url: https://golangweekly.com/link/96548/web
+    type: News
+  - title: Getting Started with OpenTelemetry and Distributed Tracing in Go
+    url: https://golangweekly.com/link/96549/web
+    type: News
+  - title: 'Elsa: A Minimal, Secure Runtime for JavaScript and TypeScript Written in Go'
+    url: https://golangweekly.com/link/96550/web
+    type: News
+  - title: 'MTProto: A Fully-Native Go Implementation of the Telegram API'
+    url: https://golangweekly.com/link/96553/web
+    type: News
+  - title: HAProxy Configuration Parser
+    url: https://golangweekly.com/link/96554/web
+    type: News
+  - title: ksqlDB Go Library 0.04
+    url: https://golangweekly.com/link/96556/web
+    type: News
