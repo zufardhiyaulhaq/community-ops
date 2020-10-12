@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-359
+  namespace: node-community
+spec:
+  name: Node Weekly 359
+  date: 10/12/2020
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Node v14.13.1 (Current) Released
+    url: https://nodeweekly.com/link/96467/web
+    type: News
+  - title: Async Generator Functions and WebSockets in Node
+    url: https://nodeweekly.com/link/96455/web
+    type: News
+  - title: Launching AppSignal Monitoring for Node.js 1.0
+    url: https://nodeweekly.com/link/96447/web
+    type: News
+  - title: Building Scalable GraphQL APIs on AWS with CDK, TypeScript, AppSync, DynamoDB, and Lambda
+    url: https://nodeweekly.com/link/96457/web
+    type: News
+  - title: Comparing the Type Safety of 8 TypeScript ORMs and Database Libraries
+    url: https://nodeweekly.com/link/96465/web
+    type: News
+  - title: Could a Web of Trust for npm Work?
+    url: https://nodeweekly.com/link/96469/web
+    type: News
+  - title: Senior Node Engineer
+    url: https://nodeweekly.com/link/96450/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://nodeweekly.com/link/96451/web
+    type: News
+  - title: 'meta-fetcher: A Tiny URL Meta-Data Fetcher (Scraper) for Node'
+    url: https://nodeweekly.com/link/96459/web
+    type: News
+  - title: Hazelcast Node.js Client 4.0 Released
+    url: https://nodeweekly.com/link/96461/web
+    type: News
+  - title: Full-Featured API That Lets You Build Beautiful Video for Your Node App
+    url: https://nodeweekly.com/link/96453/web
+    type: News
+  - title: 'Camaro: A High Performance XML to JSON Converter'
+    url: https://nodeweekly.com/link/96462/web
+    type: News
+  - title: 'Nock: HTTP Server Mocking and Expectations Library'
+    url: https://nodeweekly.com/link/96464/web
+    type: News
+  - title: 'consistent-shading: A Luminance Shading Library'
+    url: https://nodeweekly.com/link/96454/web
+    type: News
+  - title: Getting Started with OpenTelemetry and Distributed Tracing in Node.js
+    url: https://nodeweekly.com/link/96449/web
+    type: News
+  - title: 'Spotify-api.js: A Node Wrapper for the Spotify API'
+    url: https://nodeweekly.com/link/96470/web
+    type: News
+  - title: 'Node Multithreading: What Are Worker Threads & Why Do They Matter?'
+    url: https://nodeweekly.com/link/96475/web
+    type: News
