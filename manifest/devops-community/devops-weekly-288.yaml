@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-288
+  namespace: devops-community
+spec:
+  name: Devops Weekly 288
+  date: 10/17/2020
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: 'JuliaMono: A New Typeface for Developers'
+    url: https://weekly.statuscode.com/link/96739/web
+    type: News
+  - title: Rust After The Honeymoon
+    url: https://weekly.statuscode.com/link/96790/web
+    type: News
+  - title: Remote Instructor-Led Go, Docker, Kubernetes, Terraform, & Python Training
+    url: https://weekly.statuscode.com/link/96741/web
+    type: News
+  - title: Amazon Pays $108 Million for Amateur Radio (AMPRnet) IP Addresses
+    url: https://weekly.statuscode.com/link/96791/web
+    type: News
+  - title: Chrome Is Deploying HTTP/3 and IETF QUIC
+    url: https://weekly.statuscode.com/link/96742/web
+    type: News
+  - title: Google Cloud Run Now Supports HTTP/gRPC Server Streaming
+    url: https://weekly.statuscode.com/link/96744/web
+    type: News
+  - title: Lead DevOps or SRE
+    url: https://weekly.statuscode.com/link/96751/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://weekly.statuscode.com/link/96752/web
+    type: News
+  - title: Loading CSV Files at the Speed Limit of NVMe Storage
+    url: https://weekly.statuscode.com/link/96754/web
+    type: News
+  - title: Open Source Licensing and Why Plausible is Going AGPL
+    url: https://weekly.statuscode.com/link/96755/web
+    type: News
+  - title: 'Raft Is So Fetch: The Raft Consensus Algorithm Explained Through Mean Girls'
+    url: https://weekly.statuscode.com/link/96757/web
+    type: News
+  - title: Getting Started with OpenTelemetry and Distributed Tracing in Go
+    url: https://weekly.statuscode.com/link/96794/web
+    type: News
+  - title: Experiment with Exchanging UDP Messages in the Browser
+    url: https://weekly.statuscode.com/link/96759/web
+    type: News
+  - title: Computer Scientists Break Traveling Salesperson Record
+    url: https://weekly.statuscode.com/link/96760/web
+    type: News
+  - title: Kubernetes in 30 Minutes
+    url: https://weekly.statuscode.com/link/96761/web
+    type: News
+  - title: 'Visidata 2.0: A Terminal Spreadsheet Multitool for Discovering and Arranging Data'
+    url: https://weekly.statuscode.com/link/96774/web
+    type: News
+  - title: 'Bit: An Experimental, Modern CLI for Git'
+    url: https://weekly.statuscode.com/link/96776/web
+    type: News
+  - title: Reduce MTTR By Linking Infrastructure Dashboards Directly To Logs
+    url: https://weekly.statuscode.com/link/96777/web
+    type: News
+  - title: Introducing AWS Lambda Extensions (in Preview)
+    url: https://weekly.statuscode.com/link/96778/web
+    type: News
+  - title: Announcing the NGINX Core Collection for Ansible
+    url: https://weekly.statuscode.com/link/96779/web
+    type: News
+  - title: Introducing NGINX Service Mesh (NSM)
+    url: https://weekly.statuscode.com/link/96780/web
+    type: News
+  - title: 'Blades: A ''Blazing Fast'' Simple Static Site Generator Built with Rust'
+    url: https://weekly.statuscode.com/link/96781/web
+    type: News
