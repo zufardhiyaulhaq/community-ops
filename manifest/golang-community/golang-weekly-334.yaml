@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-334
+  namespace: golang-community
+spec:
+  name: Golang Weekly 334
+  date: 10/18/2020
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'Bubble Tea: A Powerful Elm-Inspired TUI Framework'
+    url: https://golangweekly.com/link/96929/web
+    type: News
+  - title: Introducing Your Team to Go
+    url: https://golangweekly.com/link/96932/web
+    type: News
+  - title: Redis 6.0 on RedisGreen
+    url: https://golangweekly.com/link/96933/web
+    type: News
+  - title: Proposal to Convert Slices to Array Pointers Accepted
+    url: https://golangweekly.com/link/96934/web
+    type: News
+  - title: 'Benthos: A Stream Processor for ''Mundane Tasks'''
+    url: https://golangweekly.com/link/96936/web
+    type: News
+  - title: Sr. Software Engineer at CrowdStrike (Remote)
+    url: https://golangweekly.com/link/96941/web
+    type: News
+  - title: Golang Developer at X-Team (Remote)
+    url: https://golangweekly.com/link/96942/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://golangweekly.com/link/96943/web
+    type: News
+  - title: Building a Mapping Language in Go with Parser Combinators
+    url: https://golangweekly.com/link/96944/web
+    type: News
+  - title: A Web-Based Breakout Game Written in Pure Go
+    url: https://golangweekly.com/link/96945/web
+    type: News
+  - title: Reach Your Go App Users Anywhere with Video That Streams Beautifully, Everywhere
+    url: https://golangweekly.com/link/96948/web
+    type: News
+  - title: Structuring and Testing HTTP Handlers in Go
+    url: https://golangweekly.com/link/96965/web
+    type: News
+  - title: How to Customize Go's HTTP Client
+    url: https://golangweekly.com/link/96949/web
+    type: News
+  - title: 'Cobra 1.1: A Framework for Building Modern CLI Apps'
+    url: https://golangweekly.com/link/96950/web
+    type: News
+  - title: 'Gohalt: A General Purpose Throttling Library'
+    url: https://golangweekly.com/link/96952/web
+    type: News
+  - title: 'go-password-validator: Password Strength Validator'
+    url: https://golangweekly.com/link/96953/web
+    type: News
+  - title: New Relic Is Free Now. So We’ve Got That Going for Us, Which Is Nice
+    url: https://golangweekly.com/link/96954/web
+    type: News
+  - title: 'Fiber: An Express.js Inspired Web Framework'
+    url: https://golangweekly.com/link/96955/web
+    type: News
+  - title: 'SFTPGo 1.1: A Full Featured SFTP Server Built in Go'
+    url: https://golangweekly.com/link/96957/web
+    type: News
+  - title: 'JuliaMono: A New Typeface for Scientific and Technical Users'
+    url: https://golangweekly.com/link/96964/web
+    type: News
