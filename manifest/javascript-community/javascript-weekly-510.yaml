@@ -1,0 +1,92 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-510
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 510
+  date: 10/20/2020
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: webpack 5 Released
+    url: https://javascriptweekly.com/link/97043/web
+    type: News
+  - title: npm 7.0 Released
+    url: https://javascriptweekly.com/link/96999/web
+    type: News
+  - title: Monitor Frontend Performance With User-Centric Metrics
+    url: https://javascriptweekly.com/link/97003/web
+    type: News
+  - title: Rust Meets the Web - A Clash of Programming Paradigms?
+    url: https://javascriptweekly.com/link/97047/web
+    type: News
+  - title: Babel 7.12.0 Released with TypeScript 4.1 Beta Support and More
+    url: https://javascriptweekly.com/link/97004/web
+    type: News
+  - title: Senior Software Engineer, Front-End (Fully Remote/UK)
+    url: https://javascriptweekly.com/link/97011/web
+    type: News
+  - title: Front End JavaScript Product Engineer (Remote within Australia)
+    url: https://javascriptweekly.com/link/97012/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://javascriptweekly.com/link/97013/web
+    type: News
+  - title: Create TypeScript Declarations from JavaScript and JSDoc
+    url: https://javascriptweekly.com/link/97014/web
+    type: News
+  - title: Microsoft's Node.js for Beginners Series
+    url: https://javascriptweekly.com/link/97007/web
+    type: News
+  - title: Don't Copy Paste Into A Shell – Here's Why
+    url: https://javascriptweekly.com/link/97039/web
+    type: News
+  - title: Build an Authenticated JAMstack App with Next.js, Airtable, Tailwind CSS, and Auth0
+    url: https://javascriptweekly.com/link/97015/web
+    type: News
+  - title: Passwordless Authentication with Next.js, Prisma, and Next-Auth
+    url: https://javascriptweekly.com/link/97018/web
+    type: News
+  - title: Setting Up Automatic Deployment with GitHub Actions
+    url: https://javascriptweekly.com/link/97017/web
+    type: News
+  - title: Testing Non-Exported Functions
+    url: https://javascriptweekly.com/link/97019/web
+    type: News
+  - title: A Webpack 5 Headache
+    url: https://javascriptweekly.com/link/97020/web
+    type: News
+  - title: How to Make a First Contribution to an Open Source Project
+    url: https://javascriptweekly.com/link/97021/web
+    type: News
+  - title: 'Detect GPU: Determine What Tier of Graphics Performance Users Have'
+    url: https://javascriptweekly.com/link/97023/web
+    type: News
+  - title: 'Wallaby.js: 15x Faster JavaScript/Jest Testing and Debugging'
+    url: https://javascriptweekly.com/link/97025/web
+    type: News
+  - title: 'essentia.js: Music and Audio Signal Analysis and Processing'
+    url: https://javascriptweekly.com/link/97050/web
+    type: News
+  - title: 'Day.js: A 2KB Immutable Date Library Alternative to Moment.js'
+    url: https://javascriptweekly.com/link/97026/web
+    type: News
+  - title: 'VueTailwind: Responsive HTML Components Made with Vue and Tailwind'
+    url: https://javascriptweekly.com/link/97031/web
+    type: News
+  - title: 'Human Interval: Human Readable Time Distance Parser'
+    url: https://javascriptweekly.com/link/97032/web
+    type: News
+  - title: 'Introducing Repluggable: Solving The Dependency Model Challenge with Micro Frontends & Contracts'
+    url: https://javascriptweekly.com/link/97027/web
+    type: News
+  - title: 'dragmove.js: A Tiny Library to Make DOM Elements Draggable'
+    url: https://javascriptweekly.com/link/97033/web
+    type: News
+  - title: 'Bueno: A Tiny, Composable Validation Library in TypeScript'
+    url: https://javascriptweekly.com/link/97035/web
+    type: News
