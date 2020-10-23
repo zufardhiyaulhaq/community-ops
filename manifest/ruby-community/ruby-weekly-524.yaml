@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-524
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 524
+  date: 10/23/2020
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'RuboCop 1.0: The Ruby Static Code Analyzer'
+    url: https://rubyweekly.com/link/97201/web
+    type: News
+  - title: 'Three Ruby Performance Myths: GC and Concurrency'
+    url: https://rubyweekly.com/link/97203/web
+    type: News
+  - title: Redis 6.0 on RedisGreen
+    url: https://rubyweekly.com/link/97204/web
+    type: News
+  - title: 'Waypoint: A Build and Deploy Workflow System from Hashicorp'
+    url: https://rubyweekly.com/link/97205/web
+    type: News
+  - title: Read-Only Mode For Better Rails Downtime
+    url: https://rubyweekly.com/link/97212/web
+    type: News
+  - title: Controlling Superclass Argument Pass-Through
+    url: https://rubyweekly.com/link/97213/web
+    type: News
+  - title: Explaining the Magic Behind Popular Ruby Code
+    url: https://rubyweekly.com/link/97214/web
+    type: News
+  - title: How We Estimate the Size of a Rails App
+    url: https://rubyweekly.com/link/97215/web
+    type: News
+  - title: 'Beyond CI: Continuous Rails Upgrade Integration'
+    url: https://rubyweekly.com/link/97216/web
+    type: News
+  - title: GitHub Interviews Robby Russell
+    url: https://rubyweekly.com/link/97217/web
+    type: News
+  - title: Rails, Ansible and AWS with Axel Kee
+    url: https://rubyweekly.com/link/97219/web
+    type: News
+  - title: Scaling Wootric’s Rails Monolith
+    url: https://rubyweekly.com/link/97220/web
+    type: News
+  - title: 'Beautifying Ruby Code with #then'
+    url: https://rubyweekly.com/link/97221/web
+    type: News
+  - title: Better Git Diff Output for Ruby, Python, Elixir, Go, and More
+    url: https://rubyweekly.com/link/97223/web
+    type: News
+  - title: 'Standard 0.8: A Ruby Style Guide, Linter and Automatic Code Fixer'
+    url: https://rubyweekly.com/link/97224/web
+    type: News
+  - title: "Congrats to Matz & Team on Ruby 3x2.7. New Relic \U0001F499 Ruby"
+    url: https://rubyweekly.com/link/97226/web
+    type: News
+  - title: 'retest: A Simple Command Line Tool to Watch File Changes'
+    url: https://rubyweekly.com/link/97227/web
+    type: News
+  - title: 'reCAPTCHA 5.6: ReCaptcha Helpers for Ruby Apps'
+    url: https://rubyweekly.com/link/97228/web
+    type: News
+  - title: Senior Ruby on Rails Engineer
+    url: https://rubyweekly.com/link/97208/web
+    type: News
+  - title: Mux Is Hiring Across the Board to Build the Future of Online Video
+    url: https://rubyweekly.com/link/97209/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://rubyweekly.com/link/97210/web
+    type: News
