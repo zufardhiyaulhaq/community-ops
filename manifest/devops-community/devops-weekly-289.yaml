@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-289
+  namespace: devops-community
+spec:
+  name: Devops Weekly 289
+  date: 10/24/2020
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: 'Waypoint: A Build and Deploy Workflow System from Hashicorp'
+    url: https://weekly.statuscode.com/link/97176/web
+    type: News
+  - title: Rust Meets the Web - A Clash of Programming Paradigms?
+    url: https://weekly.statuscode.com/link/97130/web
+    type: News
+  - title: CYPEX - Building PostgreSQL Applications Faster Than Ever
+    url: https://weekly.statuscode.com/link/97131/web
+    type: News
+  - title: Apple Bringing Face ID and Touch ID to the Web
+    url: https://weekly.statuscode.com/link/97132/web
+    type: News
+  - title: Bot Attack Trends for 2020 So Far
+    url: https://weekly.statuscode.com/link/97133/web
+    type: News
+  - title: Senior Software Engineer in Healthtech (Remote & Async Team)
+    url: https://weekly.statuscode.com/link/97145/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://weekly.statuscode.com/link/97146/web
+    type: News
+  - title: 'PySDR: A Guide to SDR and DSP using Python'
+    url: https://weekly.statuscode.com/link/97148/web
+    type: News
+  - title: Managing Technical Quality in a Codebase
+    url: https://weekly.statuscode.com/link/97150/web
+    type: News
+  - title: Why Not to Copy Paste Code Into A Shell
+    url: https://weekly.statuscode.com/link/97151/web
+    type: News
+  - title: 'Growing Pains: The Story of Transforming Our Build System from the Ground Up'
+    url: https://weekly.statuscode.com/link/97152/web
+    type: News
+  - title: No, C++ Still Isn't Cutting It
+    url: https://weekly.statuscode.com/link/97153/web
+    type: News
+  - title: The Tyranny of Metrics
+    url: https://weekly.statuscode.com/link/97154/web
+    type: News
+  - title: Why mmap Is Faster Than System Calls
+    url: https://weekly.statuscode.com/link/97155/web
+    type: News
+  - title: '''This Page is a Truly Naked, Brutalist HTML Quine'''
+    url: https://weekly.statuscode.com/link/97156/web
+    type: News
+  - title: Taking a Service from Fargate to Lambda
+    url: https://weekly.statuscode.com/link/97157/web
+    type: News
+  - title: 'Oct 22: Achieving Zero Downtime - Cindy Sridharan'
+    url: https://weekly.statuscode.com/link/97158/web
+    type: News
+  - title: 'Pure sh Bible: Pure POSIX sh Alternatives to Common Tasks'
+    url: https://weekly.statuscode.com/link/97167/web
+    type: News
+  - title: 'An Introduction to Temporal: Open Source Workflows as Code'
+    url: https://weekly.statuscode.com/link/97135/web
+    type: News
+  - title: 'CrowdSec: An Agent to Detect and Respond to Bad Behavior'
+    url: https://weekly.statuscode.com/link/97168/web
+    type: News
+  - title: 'Bunkerized-NGINX: A ''Secure by Default'' NGINX Docker Image'
+    url: https://weekly.statuscode.com/link/97169/web
+    type: News
