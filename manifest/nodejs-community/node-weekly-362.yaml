@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-362
+  namespace: node-community
+spec:
+  name: Node Weekly 362
+  date: 10/30/2020
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Introducing the Public npm Roadmap
+    url: https://nodeweekly.com/link/97695/web
+    type: News
+  - title: Node 14 Becomes LTS; v14.15.0 Released
+    url: https://nodeweekly.com/link/97728/web
+    type: News
+  - title: Redis 6.0 on RedisGreen
+    url: https://nodeweekly.com/link/97648/web
+    type: News
+  - title: Next.js 10 Released
+    url: https://nodeweekly.com/link/97699/web
+    type: News
+  - title: Running Node on iOS and iPadOS via iSH
+    url: https://nodeweekly.com/link/97706/web
+    type: News
+  - title: How to Use Sharp for Image Processing
+    url: https://nodeweekly.com/link/97708/web
+    type: News
+  - title: Getting Started with OpenTelemetry in Node.js
+    url: https://nodeweekly.com/link/97656/web
+    type: News
+  - title: A Quick Introduction to Elasticsearch for Node Developers
+    url: https://nodeweekly.com/link/97711/web
+    type: News
+  - title: "SpeedScope: \U0001F52C An Interactive Web-Based Viewer for Performance Profiles"
+    url: https://nodeweekly.com/link/97714/web
+    type: News
+  - title: 'JSDB 1.0: An In-Memory, Streaming Write-on-Update Node.js Database'
+    url: https://nodeweekly.com/link/97703/web
+    type: News
+  - title: 'Wallaby.js: The Fastest JavaScript and TypeScript Test Runner'
+    url: https://nodeweekly.com/link/97658/web
+    type: News
+  - title: 'node-sass: Node Bindings to libsass'
+    url: https://nodeweekly.com/link/97717/web
+    type: News
+  - title: 'WebdriverIO 6.7: Browser and Mobile Automation Test Framework for Node'
+    url: https://nodeweekly.com/link/97719/web
+    type: News
+  - title: 'mediasource: MediaSource API as a Node Writable Stream.'
+    url: https://nodeweekly.com/link/97720/web
+    type: News
+  - title: Mux Is Hiring Across the Board to Build the Future of Online Video
+    url: https://nodeweekly.com/link/97726/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://nodeweekly.com/link/97654/web
+    type: News
