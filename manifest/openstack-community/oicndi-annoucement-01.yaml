@@ -1,0 +1,14 @@
+apiVersion: community.io/v1alpha1
+kind: Announcement
+metadata:
+  name: oicndi-annoucement-01
+  namespace: openstack-community
+spec:
+  title: "Open Infrastructure & Cloud Native Day Indonesia 2020"
+  community: OpenStack Indonesia Community
+  message: >-
+    Ayo bergabung dengan Open Infrastructure & Cloud Native Day Indonesia 2020! Acara kolaborasi antara OpenStack Indonesia, Cloud Native Indonesia, Open Networking Indonesia, GimpscapeID dan berbagai mitra komunitas yang aktif bergabung. Yuk segera daftar dan jadilah bagian dari konferensi keren ini!
+  image: https://www.openstack.id/wp-content/uploads/2020/10/register-oicndi20-16102023-1.jpg
+  tags:
+    - announcement
+    - oicndi
