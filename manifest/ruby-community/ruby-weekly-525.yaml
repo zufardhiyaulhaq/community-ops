@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-525
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 525
+  date: 10/30/2020
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Examining a Proposal to Add Software Transactional Memory (STM) to Ruby
+    url: https://rubyweekly.com/link/97660/web
+    type: News
+  - title: What's the Best EC2 Instance Type for Rails Apps?
+    url: https://rubyweekly.com/link/97663/web
+    type: News
+  - title: Deploy Rails Apps with Cloud 66
+    url: https://rubyweekly.com/link/97664/web
+    type: News
+  - title: Squash N+1 Queries Early with n_plus_one_control Test Matchers
+    url: https://rubyweekly.com/link/97665/web
+    type: News
+  - title: How to Quit Your Job and Leave Your Code in Good Hands
+    url: https://rubyweekly.com/link/97667/web
+    type: News
+  - title: Counting Things in Active Record
+    url: https://rubyweekly.com/link/97669/web
+    type: News
+  - title: How to Check Where a Method is Defined
+    url: https://rubyweekly.com/link/97670/web
+    type: News
+  - title: The Arguments Forwarding Shorthand in Ruby 2.7
+    url: https://rubyweekly.com/link/97671/web
+    type: News
+  - title: '12 Years Ago We Released Our First Agent: The Ruby Agent'
+    url: https://rubyweekly.com/link/97672/web
+    type: News
+  - title: How I Set Up a Rails Application for Testing
+    url: https://rubyweekly.com/link/97673/web
+    type: News
+  - title: Ruby on Rails Senior Software Engineer
+    url: https://rubyweekly.com/link/97676/web
+    type: News
+  - title: Senior Software Engineer (React + Rails) [Remote]
+    url: https://rubyweekly.com/link/97677/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://rubyweekly.com/link/97678/web
+    type: News
+  - title: 'Humanize: A Library to Make Your Numbers More ''Fancy'''
+    url: https://rubyweekly.com/link/97680/web
+    type: News
+  - title: 'Single Cov: Actionable Code Coverage'
+    url: https://rubyweekly.com/link/97681/web
+    type: News
+  - title: Seamlessly Integrate Video into Your Ruby App
+    url: https://rubyweekly.com/link/97682/web
+    type: News
+  - title: 'Rodauth 2.5: Ruby''s ''Most Advanced'' Auth Framework'
+    url: https://rubyweekly.com/link/97683/web
+    type: News
+  - title: 'jb: Simple, Fast JSON API Template Engine for Rails'
+    url: https://rubyweekly.com/link/97685/web
+    type: News
+  - title: 'Re:VIEW 5.0: A Ruby Powered Flexible Document Format/Conversion System'
+    url: https://rubyweekly.com/link/97686/web
+    type: News
