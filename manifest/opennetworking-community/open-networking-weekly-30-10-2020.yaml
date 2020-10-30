@@ -1,10 +1,10 @@
 apiVersion: community.io/v1alpha1
 kind: Weekly
 metadata:
-  name: opennetworking-weekly-30-10-2020
+  name: open-networking-weekly-30-10-2020
   namespace: opennetworking-community
 spec:
-  name: OpenNetworking Weekly 30-10-2020
+  name: Open Networking Weekly 30-10-2020
   date: 10/30/2020
   image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
   community: Open Networking Indonesia Community
