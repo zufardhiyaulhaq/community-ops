@@ -1,0 +1,50 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: opennetworking-weekly-30-10-2020
+  namespace: opennetworking-community
+spec:
+  name: OpenNetworking Weekly 30-10-2020
+  date: 10/30/2020
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: ONF announces first certified products, launch of ONF Marketplace
+    url: https://www.fiercetelecom.com/telecom/onf-announces-first-certified-products-launch-onf-marketplace
+    type: Open Networking News
+  - title: ONF clarifies role of SD-RAN in O-RAN Alliance
+    url: https://www.lightreading.com/open-ran/onf-clarifies-role-of-sd-ran-in-o-ran-alliance-/d/d-id/764630?itc=lrnewsletter_lrdaily&utm_source=lrnewsletter_lrdaily&utm_medium=email&utm_campaign=10142020
+    type: Open Networking News
+  - title: Telefónica Deutschland leverages Blue Planet for network automation
+    url: https://www.lightwaveonline.com/network-automation/article/14183880/telefnica-deutschland-leverages-blue-planet-for-network-automation
+    type: Open Networking News
+  - title: ONF Sets Out to Build 5G Open RAN Controller
+    url: https://www.eetimes.com/onf-sets-out-to-build-5g-open-ran-controller/#
+    type: Open Networking News
+  - title: Analysis of Open Network Foundation new 5G SD-RAN™ Project
+    url: https://techblog.comsoc.org/2020/08/25/28948/
+    type: Open Networking News
+  - title: A Good Step Toward Open RAN and 5G
+    url: https://blog.cimicorp.com/?p=4268
+    type: Open Networking News
+  - title: ONF’S New SD-RAN Project Boost Open RAN
+    url: https://www.650group.com/blog/onfs-new-sd-ran-project-boosts-open-ran
+    type: Open Networking News
+  - title: ONF Launches 5G SD-RAN Project
+    url: https://www.convergedigest.com/2020/08/onf-launches-5g-sd-ran-project.html
+    type: Open Networking News
+  - title: Open and Disaggregated Broadband Access – a Winning Strategy, Available Now
+    url: https://www.thefastmode.com/expert-opinion/17679-open-and-disaggregated-broadband-access-a-winning-strategy-available-now
+    type: Open Networking News
+  - title: Radisys Expands Access Portfolio with ONF-based Software-defined PON Distribution
+    url: https://www.thefastmode.com/technology-solutions/17159-radisys-expands-access-portfolio-with-onf-based-software-defined-pon-distribution
+    type: Open Networking News
+  - title: Radisys bows new PON platform for fiber rollouts of all sizes
+    url: https://www.fiercetelecom.com/telecom/radisys-bows-new-pon-platform-for-fiber-rollouts-all-sizes
+    type: Open Networking News
+  - title: Open Networking Foundation announces new Continuous Certification Program
+    url: https://cloud7.news/cloud/open-networking-foundation-announces-new-continuous-certification-program/
+    type: Open Networking News
