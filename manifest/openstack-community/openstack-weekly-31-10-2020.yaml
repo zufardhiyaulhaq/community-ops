@@ -1,0 +1,44 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-31-10-2020
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 31-10-2020
+  date: 10/31/2020
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: Virtual Open Infrastructure Summit Recap
+    url: https://superuser.openstack.org/articles/virtual-open-infrastructure-summit-recap/
+    type: OpenStack Super User News
+  - title: SK Telecom 5GX Cloud Labs wins the 2020 Superuser Awards
+    url: https://superuser.openstack.org/articles/sk-telecom-5gx-labs-wins-the-2020-superuser-awards/
+    type: OpenStack Super User News
+  - title: '#OpenInfraSummit Track: Security'
+    url: https://superuser.openstack.org/articles/openinfrasummit-track-security/
+    type: OpenStack Super User News
+  - title: '#OpenInfraSummit Track: Private & Hybrid Cloud'
+    url: https://superuser.openstack.org/articles/openinfrasummit-track-private-hybrid-cloud/
+    type: OpenStack Super User News
+  - title: '#OpenInfraSummit Track: Public Cloud'
+    url: https://superuser.openstack.org/articles/openinfrasummit-track-public-cloud/
+    type: OpenStack Super User News
+  - title: '#OpenInfraSummit Track: Container Infrastructure'
+    url: https://superuser.openstack.org/articles/openinfrasummit-track-container-infrastructure/
+    type: OpenStack Super User News
+  - title: '#OpenInfraSummit Track: CI/CD'
+    url: https://superuser.openstack.org/articles/openinfrasummit-track-ci-cd/
+    type: OpenStack Super User News
+  - title: 'OpenStack 10 Years: A Revolution for Telco'
+    url: https://superuser.openstack.org/articles/openstack-10-years-a-revolution-for-telco/
+    type: OpenStack Super User News
+  - title: '#OpenInfraSummit Track: 5G, NFV & Edge'
+    url: https://superuser.openstack.org/articles/openinfrasummit-track-5g-nfv-edge/
+    type: OpenStack Super User News
+  - title: '#OpenInfraSummit Track: AI / Machine Learning, HPC'
+    url: https://superuser.openstack.org/articles/openinfrasummit-track-ai-machine-learning-hpc/
+    type: OpenStack Super User News
