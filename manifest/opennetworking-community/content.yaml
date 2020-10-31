@@ -50,56 +50,56 @@ content:
 - title: Community Member Profile – Rohan Agrawal
   url: https://opennetworking.org/uncategorized/community-member-profile-rohan-agrawal/
   kind: Open Networking Blog
-  isDelivered: true
+  isDelivered: false
 - title: Brebner Appointed as P4 Architecture Working Group Co-Chair
   url: https://opennetworking.org/news-and-events/blog/brebner-appointed-as-p4-architecture-working-group-co-chair/
   kind: Open Networking Blog
-  isDelivered: true
+  isDelivered: false
 - title: ONF Commits to Supporting O-RAN ALLIANCE
   url: https://opennetworking.org/uncategorized/onf-commits-to-supporting-o-ran-alliance/
   kind: Open Networking Blog
-  isDelivered: true
+  isDelivered: false
 - title: Community Highlights – September 2020
   url: https://opennetworking.org/uncategorized/community-highlights-september-2020-2/
   kind: Open Networking Blog
-  isDelivered: true
+  isDelivered: false
 - title: P4 TST Elections
   url: https://opennetworking.org/uncategorized/p4-tst-elections/
   kind: Open Networking Blog
-  isDelivered: true
+  isDelivered: false
 - title: Stratum 20.09 Released
   url: https://opennetworking.org/uncategorized/stratum-20-09-released/
   kind: Open Networking Blog
-  isDelivered: true
+  isDelivered: false
 - title: VOLTHA 2.5 Released
   url: https://opennetworking.org/news-and-events/blog/voltha-2-5-released/
   kind: Open Networking Blog
-  isDelivered: true
+  isDelivered: false
 - title: 2020 OMEC/COMAC Community Award Recipients Announced
   url: https://opennetworking.org/news-and-events/blog/2020-omec-comac-community-award-recipients-announced/
   kind: Open Networking Blog
-  isDelivered: true
+  isDelivered: false
 - title: Community Member Profile – Muhammad Jamshed
   url: https://opennetworking.org/uncategorized/community-member-profile-muhammad-jamshed/
   kind: Open Networking Blog
-  isDelivered: true
+  isDelivered: false
 - title: 5G Transformation with Open Source Spotlight Wrap-Up
   url: https://opennetworking.org/news-and-events/blog/5g-transformation-with-open-source-spotlight-wrap-up/
   kind: Open Networking Blog
-  isDelivered: true
+  isDelivered: false
 - title: 'ConQuest: flow-level queue analysis in P4'
   url: https://opennetworking.org/p4/conquest-flow-level-queue-analysis-in-p4/
   kind: Open Networking Blog
-  isDelivered: true
+  isDelivered: false
 - title: Community Highlights – August 2020
   url: https://opennetworking.org/uncategorized/community-highlights-august-2020/
   kind: Open Networking Blog
-  isDelivered: true
+  isDelivered: false
 - title: 3rd P4 Workshop in Europe (EuroP4)
   url: https://opennetworking.org/events/3rd-p4-workshop-in-europe-europ4/
   kind: Open Networking Event
-  isDelivered: true
+  isDelivered: false
 - title: 5G Connected Edge Cloud for Industry 4.0 Transformation
   url: https://opennetworking.org/events/spotlight-industry-transformation/
   kind: Open Networking Event
-  isDelivered: true
+  isDelivered: false
