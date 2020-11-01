@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-336
+  namespace: golang-community
+spec:
+  name: Golang Weekly 336
+  date: 11/01/2020
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Discussing GitHub's Go-Powered CLI
+    url: https://golangweekly.com/link/97794/web
+    type: News
+  - title: 'Ebiten 2.0 Released: Easy 2D Game Development in Go'
+    url: https://golangweekly.com/link/97797/web
+    type: News
+  - title: Remote Instructor-Led Go, Docker, Kubernetes, Terraform, & Python Training
+    url: https://golangweekly.com/link/97799/web
+    type: News
+  - title: Final Piece of File Embedding Support Committed to Go
+    url: https://golangweekly.com/link/97800/web
+    type: News
+  - title: 'go-echarts: An ''Adorable'' Charts Library'
+    url: https://golangweekly.com/link/97802/web
+    type: News
+  - title: Mux Is Hiring Across the Board to Build the Future of Online Video
+    url: https://golangweekly.com/link/97803/web
+    type: News
+  - title: Enjoy Building Scalable Infrastructure in Go? Stream Is Hiring
+    url: https://golangweekly.com/link/97804/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://golangweekly.com/link/97805/web
+    type: News
+  - title: Acceptance Testing Containerized Go Services Using 'aceptadora'
+    url: https://golangweekly.com/link/97806/web
+    type: News
+  - title: Asynchronous Sorting in Go
+    url: https://golangweekly.com/link/97808/web
+    type: News
+  - title: Building a Go Web API with the New Digital Ocean App Platform
+    url: https://golangweekly.com/link/97809/web
+    type: News
+  - title: Getting Started with OpenTelemetry and Distributed Tracing in Go
+    url: https://golangweekly.com/link/97810/web
+    type: News
+  - title: Getting Started with Cloud Spanner in Go
+    url: https://golangweekly.com/link/97811/web
+    type: News
+  - title: Creating Your Own GitHub Action with Go
+    url: https://golangweekly.com/link/97814/web
+    type: News
+  - title: Is My Interface Too Big?
+    url: https://golangweekly.com/link/97815/web
+    type: News
+  - title: 'Gamut 1.0: Generate and Manage Color Palettes and Schemes'
+    url: https://golangweekly.com/link/97816/web
+    type: News
+  - title: 'dowork: A General Purpose Task Queueing System'
+    url: https://golangweekly.com/link/97817/web
+    type: News
+  - title: 'gopls 0.5.2: The Go Programming Language Server (for Editors)'
+    url: https://golangweekly.com/link/97818/web
+    type: News
+  - title: Reduce MTTR By Linking Infrastructure Dashboards Directly To Logs
+    url: https://golangweekly.com/link/97819/web
+    type: News
+  - title: 'soup: A Beautiful Soup Inspired Web Scraper'
+    url: https://golangweekly.com/link/97820/web
+    type: News
+  - title: 'Harmony: A Go Module for Using Discord''s API'
+    url: https://golangweekly.com/link/97822/web
+    type: News
+  - title: 'go-ora: A Pure Go Oracle Database Client'
+    url: https://golangweekly.com/link/97824/web
+    type: News
+  - title: 'GLab: A Custom GitLab CLI Tool Written in Go'
+    url: https://golangweekly.com/link/97825/web
+    type: News
