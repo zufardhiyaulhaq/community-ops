@@ -106,8 +106,8 @@ content:
 - title: Open Infrastructure & Cloud Native Day Indonesia 2020
   url: https://opennetworking.org/events/open-infrastructure-cloud-native-day-indonesia-2020/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
 - title: Telecom TV – Open RAN Summit
   url: https://opennetworking.org/events/telecom-tv-open-ran-summit/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
