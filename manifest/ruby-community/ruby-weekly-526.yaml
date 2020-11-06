@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-526
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 526
+  date: 11/06/2020
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Rails 6.1 RC1 Now Available
+    url: https://rubyweekly.com/link/98098/web
+    type: News
+  - title: 'RubyConf 2020: This Time It''s Virtual'
+    url: https://rubyweekly.com/link/98099/web
+    type: News
+  - title: 'ButterCMS Melts into Your Ruby App. #1 Rated Headless CMS'
+    url: https://rubyweekly.com/link/98101/web
+    type: News
+  - title: Pattern Matching No Longer Experimental
+    url: https://rubyweekly.com/link/98102/web
+    type: News
+  - title: Taking VS Code From Editor to IDE
+    url: https://rubyweekly.com/link/98104/web
+    type: News
+  - title: How to Migrate Your JavaScript From Sprockets to Webpacker
+    url: https://rubyweekly.com/link/98105/web
+    type: News
+  - title: How to Create a Ruby CLI App and Distribute It Via Homebrew
+    url: https://rubyweekly.com/link/98106/web
+    type: News
+  - title: Ready for Rails 6.1? Our Stay Up to Date Service Can Help
+    url: https://rubyweekly.com/link/98108/web
+    type: News
+  - title: The Performance Impact of Using Rails View Partials
+    url: https://rubyweekly.com/link/98109/web
+    type: News
+  - title: A List of Rails Shims
+    url: https://rubyweekly.com/link/98110/web
+    type: News
+  - title: SQL, Arel and the 'Dark Side' of ActiveRecord
+    url: https://rubyweekly.com/link/98111/web
+    type: News
+  - title: Senior Ruby on Rails Developer (Remote/EU)
+    url: https://rubyweekly.com/link/98118/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://rubyweekly.com/link/98119/web
+    type: News
+  - title: 'Terminal Table 2.0: An ASCII Table Generator'
+    url: https://rubyweekly.com/link/98121/web
+    type: News
+  - title: 'Termplot: A Simple Terminal Plotting Tool for Streaming Data'
+    url: https://rubyweekly.com/link/98123/web
+    type: News
+  - title: Seamlessly Integrate Video into Your Ruby App
+    url: https://rubyweekly.com/link/98124/web
+    type: News
+  - title: 'CrawlerDetect: Gem to Detect Bots and Crawlers via the User Agent'
+    url: https://rubyweekly.com/link/98125/web
+    type: News
