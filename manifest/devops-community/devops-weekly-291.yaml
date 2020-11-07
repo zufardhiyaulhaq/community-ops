@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-291
+  namespace: devops-community
+spec:
+  name: Devops Weekly 291
+  date: 11/07/2020
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: How the Famous 'Fast Inverse Square Root' Code Works
+    url: https://weekly.statuscode.com/link/98032/web
+    type: News
+  - title: AWS Teases Solution to Docker Hub's Rate Limits
+    url: https://weekly.statuscode.com/link/98033/web
+    type: News
+  - title: Remote Instructor-Led Go, Docker, Kubernetes, Terraform, & Python Training
+    url: https://weekly.statuscode.com/link/98035/web
+    type: News
+  - title: '''Widespread Injection Vulnerabilities'' in GitHub Actions?'
+    url: https://weekly.statuscode.com/link/98036/web
+    type: News
+  - title: 'Raspberry Pi 400: A New Budget Desktop PC'
+    url: https://weekly.statuscode.com/link/98038/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://weekly.statuscode.com/link/98047/web
+    type: News
+  - title: Moving BBC Online to the Cloud
+    url: https://weekly.statuscode.com/link/98049/web
+    type: News
+  - title: 'Edsger Dijkstra: A Man Who Carried Computer Science on His Shoulders'
+    url: https://weekly.statuscode.com/link/98050/web
+    type: News
+  - title: What's So Great About Go?
+    url: https://weekly.statuscode.com/link/98051/web
+    type: News
+  - title: OpenTelemetry 101 Technical Guide
+    url: https://weekly.statuscode.com/link/98052/web
+    type: News
+  - title: 'Unwrap the SERVFAIL: Experiments with Extended DNS Errors'
+    url: https://weekly.statuscode.com/link/98053/web
+    type: News
+  - title: 'Machine Learning Attack Series: Image Scaling Attacks'
+    url: https://weekly.statuscode.com/link/98054/web
+    type: News
+  - title: Learnings From Two Years of Kubernetes in Production
+    url: https://weekly.statuscode.com/link/98055/web
+    type: News
+  - title: Keeping Netflix Reliable Using Prioritized Load Shedding
+    url: https://weekly.statuscode.com/link/98056/web
+    type: News
+  - title: 'DevOps Automation: Tools and Best Practices for Continuous Integration and Delivery'
+    url: https://weekly.statuscode.com/link/98057/web
+    type: News
+  - title: Reduce MTTR by Linking Dashboards Directly to Your Logs
+    url: https://weekly.statuscode.com/link/98058/web
+    type: News
+  - title: 'On Fast Programming Languages: C, C++, Rust, and Assembly'
+    url: https://weekly.statuscode.com/link/98059/web
+    type: News
+  - title: 'TimescaleDB 2.0: A Petabyte-Scale Relational Database for Time-Series Datasets'
+    url: https://weekly.statuscode.com/link/98063/web
+    type: News
+  - title: 'GLab: A Custom GitLab CLI Tool Written in Go'
+    url: https://weekly.statuscode.com/link/98065/web
+    type: News
+  - title: 'Qovery Engine: Deploy Your Apps on Cloud Providers in Seconds'
+    url: https://weekly.statuscode.com/link/98066/web
+    type: News
