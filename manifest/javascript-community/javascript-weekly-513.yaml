@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-513
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 513
+  date: 11/10/2020
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: What's the Deal with Svelte and SvelteKit?
+    url: https://javascriptweekly.com/link/98238/web
+    type: News
+  - title: 'WTFJS: A List of Funny and Tricky JavaScript Examples'
+    url: https://javascriptweekly.com/link/98241/web
+    type: News
+  - title: Vue 3 Is Out! Jump into Vue 3 Quickly in This New Course by Sarah Drasner
+    url: https://javascriptweekly.com/link/98240/web
+    type: News
+  - title: New, Core 'Redux Fundamentals' Tutorial
+    url: https://javascriptweekly.com/link/98242/web
+    type: News
+  - title: Node v15.1.0 (Current) Released
+    url: https://javascriptweekly.com/link/98283/web
+    type: News
+  - title: An Introduction to Data Visualization with ApexCharts
+    url: https://javascriptweekly.com/link/98247/web
+    type: News
+  - title: Clickjacking Attacks and How to Prevent Them
+    url: https://javascriptweekly.com/link/98249/web
+    type: News
+  - title: ES Modules in Depth
+    url: https://javascriptweekly.com/link/98250/web
+    type: News
+  - title: Stream Chat API & JavaScript SDK for Custom Chat Apps
+    url: https://javascriptweekly.com/link/98251/web
+    type: News
+  - title: An Introduction to FFmpeg.wasm, a WebAssembly / JS Port of FFmpeg
+    url: https://javascriptweekly.com/link/98252/web
+    type: News
+  - title: The JavaScript Self-Profiling API
+    url: https://javascriptweekly.com/link/98254/web
+    type: News
+  - title: Build a 'Remaining Character Count' Component with Alpine.js
+    url: https://javascriptweekly.com/link/98281/web
+    type: News
+  - title: 'SpaceTime: A Lightweight Timezone Library'
+    url: https://javascriptweekly.com/link/98261/web
+    type: News
+  - title: 'Socket.io 3.0 Released: A Realtime Framework for Node and Browser'
+    url: https://javascriptweekly.com/link/98263/web
+    type: News
+  - title: Square Terminal API
+    url: https://javascriptweekly.com/link/98264/web
+    type: News
+  - title: 'Dojo3D: A Library for Simple 3D Interactive Story Telling'
+    url: https://javascriptweekly.com/link/98265/web
+    type: News
+  - title: 'gron: Make JSON Greppable'
+    url: https://javascriptweekly.com/link/98267/web
+    type: News
+  - title: 'Graphery SVG: A Library for SVG Creation and Management'
+    url: https://javascriptweekly.com/link/98275/web
+    type: News
+  - title: 'SpanTree: Adds Tree-Based File Navigation to GitLab'
+    url: https://javascriptweekly.com/link/98268/web
+    type: News
+  - title: Measure What Matters to Users, Browsers Don't Have Feelings
+    url: https://javascriptweekly.com/link/98271/web
+    type: News
+  - title: 'Marked: A Fast Markdown Parser and Compiler'
+    url: https://javascriptweekly.com/link/98269/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://javascriptweekly.com/link/98246/web
+    type: News
