@@ -114,8 +114,8 @@ content:
 - title: Community Highlights – October 2020
   url: https://opennetworking.org/uncategorized/community-highlights-october-2020/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: How P4 Benefits the Router for Academia, Research, and Education (RARE) Project
   url: https://opennetworking.org/news-and-events/blog/how-p4-benefits-the-router-for-academia-research-and-education-rare-project/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
