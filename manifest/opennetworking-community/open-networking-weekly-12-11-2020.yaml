@@ -1,0 +1,20 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-12-11-2020
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 12-11-2020
+  date: 11/12/2020
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Community Highlights – October 2020
+    url: https://opennetworking.org/uncategorized/community-highlights-october-2020/
+    type: Open Networking Blog
+  - title: How P4 Benefits the Router for Academia, Research, and Education (RARE) Project
+    url: https://opennetworking.org/news-and-events/blog/how-p4-benefits-the-router-for-academia-research-and-education-rare-project/
+    type: Open Networking Blog
