@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-364
+  namespace: node-community
+spec:
+  name: Node Weekly 364
+  date: 11/16/2020
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Socket.io 3.0 Released: Realtime Bidirectional Communications Framework for Node and Browser'
+    url: https://nodeweekly.com/link/98492/web
+    type: News
+  - title: Node v15.2.0 (Current) Released
+    url: https://nodeweekly.com/link/98493/web
+    type: News
+  - title: Vue 3 Is Out! Jump into Vue 3 Quickly in This New Course by Sarah Drasner
+    url: https://nodeweekly.com/link/98496/web
+    type: News
+  - title: Using GitHub Actions to Securely Publish npm Packages
+    url: https://nodeweekly.com/link/98497/web
+    type: News
+  - title: npm v7.0.9 Released
+    url: https://nodeweekly.com/link/98498/web
+    type: News
+  - title: 3x Smaller AWS Lambda Artifacts by Removing Junk From node_modules
+    url: https://nodeweekly.com/link/98499/web
+    type: News
+  - title: npm Clients Aiming to Be Better Than The Original
+    url: https://nodeweekly.com/link/98501/web
+    type: News
+  - title: An Introduction to Using Firebase Functions with Node
+    url: https://nodeweekly.com/link/98516/web
+    type: News
+  - title: What’s the Best Way to Protect Your Content from Piracy? Learn Here
+    url: https://nodeweekly.com/link/98502/web
+    type: News
+  - title: Web Scraping That 'Just Works' with OpenFaaS with Puppeteer
+    url: https://nodeweekly.com/link/98503/web
+    type: News
+  - title: 'nvm 0.37.0: A Script to Manage Multiple Node Versions'
+    url: https://nodeweekly.com/link/98507/web
+    type: News
+  - title: 'Bent: Functional HTTP Client with async/await Support'
+    url: https://nodeweekly.com/link/98520/web
+    type: News
+  - title: 'Crunchy Bridge: More Postgres Power, Less Administration'
+    url: https://nodeweekly.com/link/98508/web
+    type: News
+  - title: 'Sir: A Local Filesystem ''git-Diffable'' JSON Database'
+    url: https://nodeweekly.com/link/98509/web
+    type: News
+  - title: 'n8n.io: Open Source Workflow Automation System'
+    url: https://nodeweekly.com/link/98512/web
+    type: News
+  - title: 'Repo Roster: Shout-Out Supporters in Your GitHub README File'
+    url: https://nodeweekly.com/link/98523/web
+    type: News
+  - title: Node.js Developer at X-Team (Remote)
+    url: https://nodeweekly.com/link/98513/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://nodeweekly.com/link/98514/web
+    type: News
