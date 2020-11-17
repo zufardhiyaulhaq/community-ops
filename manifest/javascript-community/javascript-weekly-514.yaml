@@ -1,0 +1,92 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-514
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 514
+  date: 11/17/2020
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 10 Insights From Adopting TypeScript At Scale
+    url: https://javascriptweekly.com/link/98615/web
+    type: News
+  - title: A Way to Look Up JavaScript Operators
+    url: https://javascriptweekly.com/link/98616/web
+    type: News
+  - title: The Most Complete Spreadsheet Solution for JavaScript Apps
+    url: https://javascriptweekly.com/link/98617/web
+    type: News
+  - title: Angular 11 Released
+    url: https://javascriptweekly.com/link/98618/web
+    type: News
+  - title: 'Babylon.js 4.2 Released: Powerful 3D Rendering Engine'
+    url: https://javascriptweekly.com/link/98620/web
+    type: News
+  - title: '''No More Free Work from Marak'''
+    url: https://javascriptweekly.com/link/98624/web
+    type: News
+  - title: Rethinking the JavaScript Pipeline Operator
+    url: https://javascriptweekly.com/link/98631/web
+    type: News
+  - title: Understanding Modules and import and export Statements
+    url: https://javascriptweekly.com/link/98632/web
+    type: News
+  - title: Is Your JavaScript Testing Stack Holding You Back?
+    url: https://javascriptweekly.com/link/98633/web
+    type: News
+  - title: Things I Don’t Like About Vue.js (as a React Engineer)
+    url: https://javascriptweekly.com/link/98634/web
+    type: News
+  - title: 'Back to Basics: Event Delegation'
+    url: https://javascriptweekly.com/link/98636/web
+    type: News
+  - title: Using Vue as a Node.js Static Site Generator
+    url: https://javascriptweekly.com/link/98662/web
+    type: News
+  - title: 'Live Workshop: Getting Started with OpenTelemetry in Node.js'
+    url: https://javascriptweekly.com/link/98638/web
+    type: News
+  - title: 'Mermaid: Markdown-''ish'' Syntax for Generating Flowcharts, Sequence Diagrams, and More'
+    url: https://javascriptweekly.com/link/98643/web
+    type: News
+  - title: 'jsdiff: A JavaScript Text Diffing Implementation'
+    url: https://javascriptweekly.com/link/98644/web
+    type: News
+  - title: 'core-js 3.7.0: A Modular Standard Library and Polyfills for JS'
+    url: https://javascriptweekly.com/link/98646/web
+    type: News
+  - title: CodeFix - Automatically Clean Up Technical Debt
+    url: https://javascriptweekly.com/link/98648/web
+    type: News
+  - title: 'React Frontload 2.0: Simple Full-Stack Data Loading for React'
+    url: https://javascriptweekly.com/link/98649/web
+    type: News
+  - title: Running Vue.js in a Web Worker?
+    url: https://javascriptweekly.com/link/98650/web
+    type: News
+  - title: 'Dexie.js: A Minimalistic IndexedDB Wrapper'
+    url: https://javascriptweekly.com/link/98651/web
+    type: News
+  - title: Microsoft Edge Tools for VS Code
+    url: https://javascriptweekly.com/link/98652/web
+    type: News
+  - title: 'ShareDB 1.5: Realtime Database Backend Based on Operational Transformation'
+    url: https://javascriptweekly.com/link/98653/web
+    type: News
+  - title: Senior / Intermediate Full Stack Developers (Sydney or Brisbane)
+    url: https://javascriptweekly.com/link/98659/web
+    type: News
+  - title: JavaScript Developer at X-Team (Remote)
+    url: https://javascriptweekly.com/link/98654/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://javascriptweekly.com/link/98655/web
+    type: News
+  - title: 'The File System Access API: Simplifying Access to Local Files'
+    url: https://javascriptweekly.com/link/98656/web
+    type: News
