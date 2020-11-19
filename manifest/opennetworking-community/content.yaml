@@ -119,3 +119,15 @@ content:
   url: https://opennetworking.org/news-and-events/blog/how-p4-benefits-the-router-for-academia-research-and-education-rare-project/
   kind: Open Networking Blog
   isDelivered: true
+- title: Community Member Profile – Michal Sewera
+  url: https://opennetworking.org/uncategorized/community-member-profile-michal-sewera/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: The Need for Standardization in a Thriving Network Ecosystem
+  url: https://opennetworking.org/uncategorized/the-need-for-standardization-in-a-thriving-network-ecosystem/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: GNTC 2020 – SDN/NFVSummit
+  url: https://opennetworking.org/events/gntc-2020-sdn-nfvsummit/
+  kind: Open Networking Event
+  isDelivered: false
