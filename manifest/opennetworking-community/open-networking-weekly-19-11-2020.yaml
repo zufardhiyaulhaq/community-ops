@@ -1,0 +1,23 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-19-11-2020
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 19-11-2020
+  date: 11/19/2020
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Community Member Profile – Michal Sewera
+    url: https://opennetworking.org/uncategorized/community-member-profile-michal-sewera/
+    type: Open Networking Blog
+  - title: The Need for Standardization in a Thriving Network Ecosystem
+    url: https://opennetworking.org/uncategorized/the-need-for-standardization-in-a-thriving-network-ecosystem/
+    type: Open Networking Blog
+  - title: GNTC 2020 – SDN/NFVSummit
+    url: https://opennetworking.org/events/gntc-2020-sdn-nfvsummit/
+    type: Open Networking Event
