@@ -122,12 +122,12 @@ content:
 - title: Community Member Profile – Michal Sewera
   url: https://opennetworking.org/uncategorized/community-member-profile-michal-sewera/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: The Need for Standardization in a Thriving Network Ecosystem
   url: https://opennetworking.org/uncategorized/the-need-for-standardization-in-a-thriving-network-ecosystem/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: GNTC 2020 – SDN/NFVSummit
   url: https://opennetworking.org/events/gntc-2020-sdn-nfvsummit/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
