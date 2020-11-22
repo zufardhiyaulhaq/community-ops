@@ -1,0 +1,86 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-339
+  namespace: golang-community
+spec:
+  name: Golang Weekly 339
+  date: 11/22/2020
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'Go Standard Library Benchmarks: Intel i5 vs Apple''s M1'
+    url: https://golangweekly.com/link/98971/web
+    type: News
+  - title: The Pros of Conds
+    url: https://golangweekly.com/link/98972/web
+    type: News
+  - title: Support for Geospatial Data - Written in Go
+    url: https://golangweekly.com/link/98973/web
+    type: News
+  - title: 'Thread: "Let''s See How The New M1 Chips Do On Go Benchmarks!"'
+    url: https://golangweekly.com/link/98974/web
+    type: News
+  - title: Go’s Recurring Security Problem
+    url: https://golangweekly.com/link/98976/web
+    type: News
+  - title: Mux Is Hiring Across the Board to Help Build the Stripe for Video
+    url: https://golangweekly.com/link/98982/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://golangweekly.com/link/98983/web
+    type: News
+  - title: Writing a Postgres Foreign Data Wrapper for Clickhouse in Go
+    url: https://golangweekly.com/link/98984/web
+    type: News
+  - title: Using 'Dot Imports' in Views
+    url: https://golangweekly.com/link/98986/web
+    type: News
+  - title: Good and Bad Practices - A Limiting Perspective?
+    url: https://golangweekly.com/link/98987/web
+    type: News
+  - title: Storing Telegraf Telemetry in New Relic One
+    url: https://golangweekly.com/link/98988/web
+    type: News
+  - title: An Introduction to AWS Lambda Functions in Go
+    url: https://golangweekly.com/link/98989/web
+    type: News
+  - title: Refactoring for Better Testability
+    url: https://golangweekly.com/link/98990/web
+    type: News
+  - title: How to Build Your Own Serverless Subscriber List with Go and AWS
+    url: https://golangweekly.com/link/98991/web
+    type: News
+  - title: 'Go Constants and JSON: To Iota and Back'
+    url: https://golangweekly.com/link/98993/web
+    type: News
+  - title: Checking If The Pi Is Done
+    url: https://golangweekly.com/link/98994/web
+    type: News
+  - title: 'go-getter: Download Things from Various Sources with a URL'
+    url: https://golangweekly.com/link/98996/web
+    type: News
+  - title: 'Peer Calls: Group Peer-to-Peer Video Call System'
+    url: https://golangweekly.com/link/98997/web
+    type: News
+  - title: 'eBPF: A Pure Go eBPF Library'
+    url: https://golangweekly.com/link/98999/web
+    type: News
+  - title: 'Live Workshop: Getting Started with OpenTelemetry in Go'
+    url: https://golangweekly.com/link/99001/web
+    type: News
+  - title: 'p5: An Initial Port of Processing to Go'
+    url: https://golangweekly.com/link/99002/web
+    type: News
+  - title: 'Fleets: Automatically Delete Tweets, Retweets, and Likes'
+    url: https://golangweekly.com/link/99004/web
+    type: News
+  - title: 'gdriver: Download Large Files From Google Drive'
+    url: https://golangweekly.com/link/99006/web
+    type: News
+  - title: 'h2go: Apache H2 Go SQL Driver'
+    url: https://golangweekly.com/link/99007/web
+    type: News
