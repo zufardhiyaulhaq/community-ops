@@ -662,4 +662,4 @@ content:
 - title: Running Percona Kubernetes Operator for Percona XtraDB Cluster with Kata Containers
   url: https://superuser.openstack.org/articles/running-percona-kubernetes-operator-for-percona-xtradb-cluster-with-kata-containers/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
