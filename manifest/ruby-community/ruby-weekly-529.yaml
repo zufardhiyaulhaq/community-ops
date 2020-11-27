@@ -1,0 +1,89 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-529
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 529
+  date: 11/27/2020
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Static Typing for Ruby and Adopting Sorbet at Scale
+    url: https://rubyweekly.com/link/99251/web
+    type: News
+  - title: Moving My Serverless Project to Ruby on Rails
+    url: https://rubyweekly.com/link/99254/web
+    type: News
+  - title: Unlock The Secret Powers of the New Relic Ruby Agent
+    url: https://rubyweekly.com/link/99255/web
+    type: News
+  - title: How Fast Are Ractors?
+    url: https://rubyweekly.com/link/99256/web
+    type: News
+  - title: Hunting Down the Ruby 'Inplace' Bug
+    url: https://rubyweekly.com/link/99260/web
+    type: News
+  - title: 'Matestack: Rails Views ''Reimagined'''
+    url: https://rubyweekly.com/link/99261/web
+    type: News
+  - title: A Rubyist's Apple M1 Review
+    url: https://rubyweekly.com/link/99263/web
+    type: News
+  - title: Symbol#to_proc Explained, The Short Version
+    url: https://rubyweekly.com/link/99264/web
+    type: News
+  - title: Running Ruby on RISC-V
+    url: https://rubyweekly.com/link/99265/web
+    type: News
+  - title: 'Engine Yard: The Ruby on Rails DevOps Experts'
+    url: https://rubyweekly.com/link/99266/web
+    type: News
+  - title: Error Handling with Monads
+    url: https://rubyweekly.com/link/99267/web
+    type: News
+  - title: How to Introduce Composite Primary Keys in Rails
+    url: https://rubyweekly.com/link/99268/web
+    type: News
+  - title: Adding Authentication in Rails 6 with Rodauth
+    url: https://rubyweekly.com/link/99269/web
+    type: News
+  - title: Why GitHub's CLI Team Switched From Ruby to Go
+    url: https://rubyweekly.com/link/99270/web
+    type: News
+  - title: Using Cloudfront CDN to Reduce Asset Delivery Time From 30 Seconds to 3 Seconds
+    url: https://rubyweekly.com/link/99271/web
+    type: News
+  - title: Senior Ruby Backend Developer (m/f/d)
+    url: https://rubyweekly.com/link/99273/web
+    type: News
+  - title: Senior Ruby Developer (Fully Remote / FR)
+    url: https://rubyweekly.com/link/99274/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://rubyweekly.com/link/99275/web
+    type: News
+  - title: 'lib-ruby-parser: A Ruby Parser Written in Rust'
+    url: https://rubyweekly.com/link/99277/web
+    type: News
+  - title: Spreadsheet Architect v4.1.0 Released
+    url: https://rubyweekly.com/link/99279/web
+    type: News
+  - title: Scout APM - A Ruby Developer’s Best Friend. Try Free for 14 Days
+    url: https://rubyweekly.com/link/99280/web
+    type: News
+  - title: 'ractor-tvar: Software Transactional Memory Implementation for Ractor and Thread on Ruby 3'
+    url: https://rubyweekly.com/link/99281/web
+    type: News
+  - title: 'Blazer 2.3.0: A Ruby-Powered Business Intelligence Tool'
+    url: https://rubyweekly.com/link/99282/web
+    type: News
+  - title: 'acts_as_tenant 0.5.0: Easy Multi-Tenancy for Rails in a Shared Database Setup'
+    url: https://rubyweekly.com/link/99283/web
+    type: News
+  - title: 'Rubyist: Powerful iOS Automation for Ruby Enthusiasts?'
+    url: https://rubyweekly.com/link/99284/web
+    type: News
