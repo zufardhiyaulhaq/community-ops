@@ -1,0 +1,89 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-294
+  namespace: devops-community
+spec:
+  name: Devops Weekly 294
+  date: 11/28/2020
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: How An Analytics Service Faced a Malicious, Targeted DDoS Attack Head On
+    url: https://weekly.statuscode.com/link/99075/web
+    type: News
+  - title: The Birth of UNIX with Brian Kernighan
+    url: https://weekly.statuscode.com/link/99077/web
+    type: News
+  - title: How To Protect Your APIs Against Top Threats
+    url: https://weekly.statuscode.com/link/99079/web
+    type: News
+  - title: A Tale of Going from JavaScript to WebAssembly
+    url: https://weekly.statuscode.com/link/99080/web
+    type: News
+  - title: The Macro Problem with Microservices
+    url: https://weekly.statuscode.com/link/99081/web
+    type: News
+  - title: The curl Web Infrastructure
+    url: https://weekly.statuscode.com/link/99089/web
+    type: News
+  - title: Today I Learnt.. eBPF is Awesome
+    url: https://weekly.statuscode.com/link/99091/web
+    type: News
+  - title: '''Everything You Know About MongoDB is Wrong'''
+    url: https://weekly.statuscode.com/link/99093/web
+    type: News
+  - title: 10 GitHub Security Best Practices
+    url: https://weekly.statuscode.com/link/99094/web
+    type: News
+  - title: Use a Docker Container as a Development Environment with VS Code
+    url: https://weekly.statuscode.com/link/99095/web
+    type: News
+  - title: How Do Spotify Codes Work?
+    url: https://weekly.statuscode.com/link/99096/web
+    type: News
+  - title: '''Why I Left IBM to Work on CockroachDB'''
+    url: https://weekly.statuscode.com/link/99097/web
+    type: News
+  - title: Even Faster Bash Startup
+    url: https://weekly.statuscode.com/link/99098/web
+    type: News
+  - title: What Was It Like to Be a Software Engineer at NeXT?
+    url: https://weekly.statuscode.com/link/99099/web
+    type: News
+  - title: 'Live Workshop: Getting Started with OpenTelemetry in Go'
+    url: https://weekly.statuscode.com/link/99100/web
+    type: News
+  - title: Build a Flask Microservice with OpenFaaS
+    url: https://weekly.statuscode.com/link/99101/web
+    type: News
+  - title: 'Getting to the Core: Benchmarking Cloudflare’s Latest Server Hardware'
+    url: https://weekly.statuscode.com/link/99102/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://weekly.statuscode.com/link/99107/web
+    type: News
+  - title: 'Dev Fonts: Live Preview Fonts Aimed at Developers'
+    url: https://weekly.statuscode.com/link/99109/web
+    type: News
+  - title: Announcing Modules for AWS CloudFormation
+    url: https://weekly.statuscode.com/link/99110/web
+    type: News
+  - title: Tailwind CSS v2.0 Released
+    url: https://weekly.statuscode.com/link/99111/web
+    type: News
+  - title: 'Alacritty 0.6.0: Cross-Platform, GPU-Accelerated Terminal Emulator'
+    url: https://weekly.statuscode.com/link/99112/web
+    type: News
+  - title: 'Docker-Mailserver: A Full Email Server Stack on Docker'
+    url: https://weekly.statuscode.com/link/99113/web
+    type: News
+  - title: '7777: Your Remote AWS Database on Local Port 7777'
+    url: https://weekly.statuscode.com/link/99114/web
+    type: News
+  - title: Booting a PC from a Vinyl Record
+    url: https://weekly.statuscode.com/link/99116/web
+    type: News
