@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-03-12-2020
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 03-12-2020
+  date: 12/03/2020
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Community Highlights – November 2020
+    url: https://opennetworking.org/uncategorized/community-highlights-november-2020-2/
+    type: Open Networking Blog
