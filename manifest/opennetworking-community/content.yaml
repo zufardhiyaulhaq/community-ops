@@ -131,3 +131,7 @@ content:
   url: https://opennetworking.org/events/gntc-2020-sdn-nfvsummit/
   kind: Open Networking Event
   isDelivered: true
+- title: Community Highlights – November 2020
+  url: https://opennetworking.org/uncategorized/community-highlights-november-2020-2/
+  kind: Open Networking Blog
+  isDelivered: false
