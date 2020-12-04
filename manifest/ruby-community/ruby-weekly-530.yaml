@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-530
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 530
+  date: 12/04/2020
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: The 2020 Ruby Advent Calendar 2020
+    url: https://rubyweekly.com/link/99612/web
+    type: News
+  - title: Squash 'Unexpected end' Errors with syntax_search
+    url: https://rubyweekly.com/link/99613/web
+    type: News
+  - title: 'Free eBook: How to Get a 3x Performance Improvement on Your Postgres Database'
+    url: https://rubyweekly.com/link/99614/web
+    type: News
+  - title: How 1.5 is the Midpoint Between 0 and Infinity in Ruby
+    url: https://rubyweekly.com/link/99615/web
+    type: News
+  - title: 'Rails 6.1 RC2: Horizontal Sharding, Multi-DB Improvements, Strict Loading, and More'
+    url: https://rubyweekly.com/link/99616/web
+    type: News
+  - title: RubyMine 2020.3 Released
+    url: https://rubyweekly.com/link/99617/web
+    type: News
+  - title: Senior Full-Stack Engineer (Remote - Americas)
+    url: https://rubyweekly.com/link/99618/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://rubyweekly.com/link/99619/web
+    type: News
+  - title: Why You Shouldn’t Inherit From Ruby’s Core Classes (and What to Do Instead)
+    url: https://rubyweekly.com/link/99621/web
+    type: News
+  - title: Building a Multi-Tenant Rails App with Subdomains
+    url: https://rubyweekly.com/link/99622/web
+    type: News
+  - title: Enumerable#tally
+    url: https://rubyweekly.com/link/99623/web
+    type: News
+  - title: Running Rails 6.0? Ready for 6.1? Our Stay Up to Date Service Can Help
+    url: https://rubyweekly.com/link/99639/web
+    type: News
+  - title: How to Call Shell Commands From Ruby
+    url: https://rubyweekly.com/link/99625/web
+    type: News
+  - title: Migrating Classic Slack Ruby Bots to Granular Permissions
+    url: https://rubyweekly.com/link/99626/web
+    type: News
+  - title: Automatically Run Migrations When Pushing to Heroku
+    url: https://rubyweekly.com/link/99627/web
+    type: News
+  - title: 'trueMail 2.2: A Ruby Email Validator and Verifier'
+    url: https://rubyweekly.com/link/99629/web
+    type: News
+  - title: 'Lockbox 0.6: Modern Encryption for Rails'
+    url: https://rubyweekly.com/link/99632/web
+    type: News
+  - title: Video for Your Ruby App That Streams Beautifully, Everywhere
+    url: https://rubyweekly.com/link/99633/web
+    type: News
+  - title: 'Rutie: A Tie Between Ruby and Rust'
+    url: https://rubyweekly.com/link/99634/web
+    type: News
