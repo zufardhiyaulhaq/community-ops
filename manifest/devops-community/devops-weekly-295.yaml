@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-295
+  namespace: devops-community
+spec:
+  name: Devops Weekly 295
+  date: 12/05/2020
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: AWS re:Invent
+    url: https://weekly.statuscode.com/link/99562/web
+    type: News
+  - title: Remote Instructor-Led Go, Docker, Kubernetes, Terraform, & Python Training
+    url: https://weekly.statuscode.com/link/99572/web
+    type: News
+  - title: PHP 8.0 Released
+    url: https://weekly.statuscode.com/link/99573/web
+    type: News
+  - title: 'The Advent of Code 2020: 25 Days of Code Challenges'
+    url: https://weekly.statuscode.com/link/99574/web
+    type: News
+  - title: AWS Unveils Mac-Powered EC2 Instances
+    url: https://weekly.statuscode.com/link/99576/web
+    type: News
+  - title: Nerd Alert for re:Invent—Twitch After Party Dec. 3 at 4pm PST
+    url: https://weekly.statuscode.com/link/99580/web
+    type: News
+  - title: Why Scientists Are Turning to Rust
+    url: https://weekly.statuscode.com/link/99586/web
+    type: News
+  - title: How Medium Counts Followers
+    url: https://weekly.statuscode.com/link/99587/web
+    type: News
+  - title: How Many Registers Does An x86-64 CPU Have?
+    url: https://weekly.statuscode.com/link/99588/web
+    type: News
+  - title: 'Read Only Data Aggregation in a Microservices Environment: A Real Life Use Case'
+    url: https://weekly.statuscode.com/link/99589/web
+    type: News
+  - title: A Complete State Machine Made with HTML Checkboxes and CSS
+    url: https://weekly.statuscode.com/link/99590/web
+    type: News
+  - title: Self-Hosting Still Pays Off For This Tech Blog
+    url: https://weekly.statuscode.com/link/99591/web
+    type: News
+  - title: Mining Your CLI History for Good git Aliases
+    url: https://weekly.statuscode.com/link/99592/web
+    type: News
+  - title: ARM and Lock-Free Programming
+    url: https://weekly.statuscode.com/link/99593/web
+    type: News
+  - title: 1.5 Is the Midpoint Between 0 and Infinity in Ruby
+    url: https://weekly.statuscode.com/link/99594/web
+    type: News
+  - title: The Tech Stack of a One-Man SaaS
+    url: https://weekly.statuscode.com/link/99595/web
+    type: News
+  - title: Self-Hosting Google Fonts (and Why to Do So)
+    url: https://weekly.statuscode.com/link/99596/web
+    type: News
+  - title: Homebrew 2.6.0 Released
+    url: https://weekly.statuscode.com/link/99599/web
+    type: News
+  - title: 'Bref 1.0: Serverless PHP on AWS Lambda'
+    url: https://weekly.statuscode.com/link/99600/web
+    type: News
+  - title: 'Ethr: A Network Performance Measurement Tool for TCP, UDP and HTTP'
+    url: https://weekly.statuscode.com/link/99603/web
+    type: News
+  - title: 'CloudQuery: Transforms Your Cloud Infrastructure into SQL Queryable Tables'
+    url: https://weekly.statuscode.com/link/99604/web
+    type: News
+  - title: 'Oasis: A Small Statically-Linked Linux System'
+    url: https://weekly.statuscode.com/link/99605/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://weekly.statuscode.com/link/99606/web
+    type: News
