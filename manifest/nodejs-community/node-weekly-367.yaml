@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-367
+  namespace: node-community
+spec:
+  name: Node Weekly 367
+  date: 12/07/2020
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: AWS Lambda Adds Container Image Support
+    url: https://nodeweekly.com/link/99641/web
+    type: News
+  - title: 'csv-parser 3.0: A Streaming CSV Parser Aimed at Maximum Speed'
+    url: https://nodeweekly.com/link/99642/web
+    type: News
+  - title: Redis 6.0 on RedisGreen
+    url: https://nodeweekly.com/link/99643/web
+    type: News
+  - title: 'npm 7: This Is What I Call An Update!'
+    url: https://nodeweekly.com/link/99644/web
+    type: News
+  - title: Measuring Web Page Performance with Puppeteer or Playwright
+    url: https://nodeweekly.com/link/99650/web
+    type: News
+  - title: Mining Your CLI History for Good git Aliases
+    url: https://nodeweekly.com/link/99651/web
+    type: News
+  - title: How to Deploy a Node App to AWS Fargate with Auto-Scaling
+    url: https://nodeweekly.com/link/99652/web
+    type: News
+  - title: 5 Ways Organizations Can Lean into Failure and Transform It into Success
+    url: https://nodeweekly.com/link/99653/web
+    type: News
+  - title: How to Understand the reduce Function in Five Examples
+    url: https://nodeweekly.com/link/99654/web
+    type: News
+  - title: Malicious npm Packages Caught Installing Remote Access Trojans
+    url: https://nodeweekly.com/link/99655/web
+    type: News
+  - title: DuckDB Gets a Node.js API
+    url: https://nodeweekly.com/link/99658/web
+    type: News
+  - title: 'auth.js 3.0: GitHub API Authentication Library for Node and Browser'
+    url: https://nodeweekly.com/link/99661/web
+    type: News
+  - title: 'pg-mem: An Experimental In-Memory Postgres Instance for Tests'
+    url: https://nodeweekly.com/link/99662/web
+    type: News
+  - title: Full-Featured API That Lets You Build Beautiful Video for Your Node App
+    url: https://nodeweekly.com/link/99664/web
+    type: News
+  - title: 'Serverless-Postgres: Manage Postgres Connections at Serverless Scale in Node.js'
+    url: https://nodeweekly.com/link/99665/web
+    type: News
+  - title: Node.js Developer at X-Team (Remote)
+    url: https://nodeweekly.com/link/99670/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://nodeweekly.com/link/99671/web
+    type: News
