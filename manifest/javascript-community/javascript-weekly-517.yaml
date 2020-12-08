@@ -1,0 +1,89 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-517
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 517
+  date: 12/08/2020
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'WMR: A Tiny All-in-One Development Tool for Modern Web Apps'
+    url: https://javascriptweekly.com/link/99821/web
+    type: News
+  - title: What People in Tech Had to Say About JavaScript When It Debuted in 1995
+    url: https://javascriptweekly.com/link/99813/web
+    type: News
+  - title: 'New Course: Production-Grade TypeScript'
+    url: https://javascriptweekly.com/link/99787/web
+    type: News
+  - title: Vue vs. Svelte with Evan You and Rich Harris
+    url: https://javascriptweekly.com/link/99823/web
+    type: News
+  - title: Dynamically Generating Social Share Images Serverlessly
+    url: https://javascriptweekly.com/link/99791/web
+    type: News
+  - title: Puppeteer vs Selenium vs Playwright, A Browser Automation Speed Comparison
+    url: https://javascriptweekly.com/link/99792/web
+    type: News
+  - title: AngularJS Security Fundamentals
+    url: https://javascriptweekly.com/link/99793/web
+    type: News
+  - title: Lots of Ways to Use Math.random() in JavaScript
+    url: https://javascriptweekly.com/link/99832/web
+    type: News
+  - title: Building a Svelte Static Website with Smooth Page Transitions
+    url: https://javascriptweekly.com/link/99794/web
+    type: News
+  - title: How to Understand the reduce Function in 5 Examples
+    url: https://javascriptweekly.com/link/99795/web
+    type: News
+  - title: Converting an Old jQuery Plugin to Vanilla JS
+    url: https://javascriptweekly.com/link/99796/web
+    type: News
+  - title: 'Introducing Repluggable: Solving The Dependency Model Challenge with Micro Frontends & Contracts'
+    url: https://javascriptweekly.com/link/99798/web
+    type: News
+  - title: Reading John Resig's 'Pro JavaScript Techniques' 14 Years Later
+    url: https://javascriptweekly.com/link/99799/web
+    type: News
+  - title: 'JSON Formatter Live: A Minimalist JSON Formatter & Minifier, Installable as a PWA'
+    url: https://javascriptweekly.com/link/99802/web
+    type: News
+  - title: 'JSONEditor: A Component for Viewing and Editing JSON'
+    url: https://javascriptweekly.com/link/99803/web
+    type: News
+  - title: Stream Chat React Native v2.0.0 Released
+    url: https://javascriptweekly.com/link/99805/web
+    type: News
+  - title: 'JsDiff: A Visual Comparison of JavaScript Library Metrics'
+    url: https://javascriptweekly.com/link/99834/web
+    type: News
+  - title: Over 100 JavaScript Algorithms and Data Structures Demonstrated
+    url: https://javascriptweekly.com/link/99835/web
+    type: News
+  - title: 'Mannequin.js: A Library to Render and Manipulate a Mannequin Figure'
+    url: https://javascriptweekly.com/link/99836/web
+    type: News
+  - title: 'Compressor.js: Client-Side Image Compressor'
+    url: https://javascriptweekly.com/link/99818/web
+    type: News
+  - title: 'noUiSlider: Lightweight Range Slider with Full Multi-Touch Support'
+    url: https://javascriptweekly.com/link/99838/web
+    type: News
+  - title: 'auth.js 3.0: GitHub API Authentication Library for Node and Browser'
+    url: https://javascriptweekly.com/link/99806/web
+    type: News
+  - title: Software Developer (Austin, TX)
+    url: https://javascriptweekly.com/link/99820/web
+    type: News
+  - title: JavaScript Developer at X-Team (Remote)
+    url: https://javascriptweekly.com/link/99808/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://javascriptweekly.com/link/99809/web
+    type: News
