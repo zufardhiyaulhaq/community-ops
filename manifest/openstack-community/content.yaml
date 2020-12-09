@@ -667,3 +667,7 @@ content:
   url: https://superuser.openstack.org/articles/embarking-on-a-new-venture-creating-a-private-cloud-with-openstack-for-under-1700/
   kind: OpenStack Super User News
   isDelivered: true
+- title: 'OpenStack in Production and Integration with Ceph: A European Weather Cloud User Story'
+  url: https://superuser.openstack.org/articles/openstack-in-production-and-integration-with-ceph-a-european-weather-cloud-user-story/
+  kind: OpenStack Super User News
+  isDelivered: false
