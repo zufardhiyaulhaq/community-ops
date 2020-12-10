@@ -135,3 +135,19 @@ content:
   url: https://opennetworking.org/uncategorized/community-highlights-november-2020-2/
   kind: Open Networking Blog
   isDelivered: true
+- title: Cornell partners in $30M grant to build better networks
+  url: https://news.cornell.edu/stories/2020/12/cornell-partners-30m-grant-build-better-networks
+  kind: Open Networking News
+  isDelivered: false
+- title: ONF’s Aether project gets its wings with $30 million 5G DARPA research project
+  url: https://www.fiercetelecom.com/telecom/onf-s-aether-project-gets-its-wings-30m-5g-darpa-project
+  kind: Open Networking News
+  isDelivered: false
+- title: ONF’s Aether Cast For $30M 5G Defense Research Project
+  url: https://www.sdxcentral.com/articles/news/onfs-aether-cast-for-30m-5g-defense-research-project/2020/12/?hit=5b5fcdce-b256-4bcb-9910-a5b378eb4f16&utm_medium=push&utm_source=onesignal
+  kind: Open Networking News
+  isDelivered: false
+- title: Community Member Profile – Himanshu Purohit
+  url: https://opennetworking.org/uncategorized/community-member-profile-himanshu-purohit/
+  kind: Open Networking Blog
+  isDelivered: false
