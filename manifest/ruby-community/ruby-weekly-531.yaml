@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-531
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 531
+  date: 12/11/2020
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Rails 6.1 Released
+    url: https://rubyweekly.com/link/100053/web
+    type: News
+  - title: Ruby 3.0.0 Preview 2 Released
+    url: https://rubyweekly.com/link/100057/web
+    type: News
+  - title: How Does Honeybadger Compare to Your Current Error Tracker?
+    url: https://rubyweekly.com/link/100058/web
+    type: News
+  - title: Announcing Stimulus 2.0
+    url: https://rubyweekly.com/link/100059/web
+    type: News
+  - title: Introducing New Features for the aws-sdk-rails Gem
+    url: https://rubyweekly.com/link/100066/web
+    type: News
+  - title: Software Developer (Austin, TX)
+    url: https://rubyweekly.com/link/100068/web
+    type: News
+  - title: Rails Developer at Agent Pronto (Remote-USA)
+    url: https://rubyweekly.com/link/100069/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://rubyweekly.com/link/100070/web
+    type: News
+  - title: Is Ruby 3 Actually Three Times Faster?
+    url: https://rubyweekly.com/link/100072/web
+    type: News
+  - title: How to Create a AWS Lambda Layer of Your Gem Dependencies
+    url: https://rubyweekly.com/link/100073/web
+    type: News
+  - title: Why You Should Never Use sudo to Install Ruby Gems
+    url: https://rubyweekly.com/link/100074/web
+    type: News
+  - title: Changing the Game at AWS re:Invent with AnneMunition Dec. 15, 3pm PST
+    url: https://rubyweekly.com/link/100075/web
+    type: News
+  - title: Diagnosing Performance Issues in Rails Applications
+    url: https://rubyweekly.com/link/100076/web
+    type: News
+  - title: A Chat with dev.to's Site Reliability Engineer
+    url: https://rubyweekly.com/link/100077/web
+    type: News
+  - title: Organizations and Layers of Abstraction
+    url: https://rubyweekly.com/link/100079/web
+    type: News
+  - title: Fixing a Ruby 2.7 Compilation Error on macOS Big Sur
+    url: https://rubyweekly.com/link/100080/web
+    type: News
+  - title: 'TTY::Reader 0.9.0: Methods for Processing Keyboard Input'
+    url: https://rubyweekly.com/link/100082/web
+    type: News
+  - title: JRuby 9.2.14.0 Released
+    url: https://rubyweekly.com/link/100083/web
+    type: News
+  - title: More Postgres, Less Administration
+    url: https://rubyweekly.com/link/100084/web
+    type: News
+  - title: RubyGems 3.2.0 Released (plus 3.1.5, 3.0.9 and 2.7.11)
+    url: https://rubyweekly.com/link/100085/web
+    type: News
+  - title: 'ruby-install 0.8.0: A Way to Install All the Rubies'
+    url: https://rubyweekly.com/link/100087/web
+    type: News
+  - title: 'curses 1.4.0: Ruby Bindings for curses, ncurses, and PDCurses'
+    url: https://rubyweekly.com/link/100088/web
+    type: News
+  - title: '3llo: An Interactive CLI App for Trello'
+    url: https://rubyweekly.com/link/100089/web
+    type: News
