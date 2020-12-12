@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-296
+  namespace: devops-community
+spec:
+  name: Devops Weekly 296
+  date: 12/12/2020
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: How to Make Your Code Reviewer 'Fall in Love with You'
+    url: https://weekly.statuscode.com/link/99971/web
+    type: News
+  - title: The Latest GitHub News from GitHub Universe
+    url: https://weekly.statuscode.com/link/100009/web
+    type: News
+  - title: Remote Instructor-Led Go, Docker, Kubernetes, Terraform, & Python Training
+    url: https://weekly.statuscode.com/link/99972/web
+    type: News
+  - title: 'Don''t Panic: Kubernetes and Docker'
+    url: https://weekly.statuscode.com/link/99976/web
+    type: News
+  - title: Command Line Interface Development Guidelines
+    url: https://weekly.statuscode.com/link/99978/web
+    type: News
+  - title: Cloudflare Releases Free Web Analytics for All
+    url: https://weekly.statuscode.com/link/99973/web
+    type: News
+  - title: At re:Invent Today, Dec. 9, 1pm PT—Nerd Talk with Lew Cirne
+    url: https://weekly.statuscode.com/link/99982/web
+    type: News
+  - title: Linked Lists, Pointer Tricks and Good Taste
+    url: https://weekly.statuscode.com/link/99983/web
+    type: News
+  - title: Measuring Web Page Performance with Puppeteer or Playwright
+    url: https://weekly.statuscode.com/link/99984/web
+    type: News
+  - title: Progressively Deliver New Image Formats with CSS and Cloudflare Workers
+    url: https://weekly.statuscode.com/link/99985/web
+    type: News
+  - title: Puppeteer vs Selenium vs Playwright, A Browser Automation Speed Comparison
+    url: https://weekly.statuscode.com/link/99986/web
+    type: News
+  - title: Scaling Datastores at Slack with Vitess
+    url: https://weekly.statuscode.com/link/99987/web
+    type: News
+  - title: Porting a 100% Local App to the Web
+    url: https://weekly.statuscode.com/link/99989/web
+    type: News
+  - title: 'The Sounds of Silence: Lessons From an API Outage'
+    url: https://weekly.statuscode.com/link/99990/web
+    type: News
+  - title: How to Add Apple Watch Authentication to sudo
+    url: https://weekly.statuscode.com/link/99991/web
+    type: News
+  - title: Identifying Code Churn with AskGit SQL
+    url: https://weekly.statuscode.com/link/99992/web
+    type: News
+  - title: Qt 6.0 Released
+    url: https://weekly.statuscode.com/link/99998/web
+    type: News
+  - title: SQLite 3.34.0 Released
+    url: https://weekly.statuscode.com/link/99999/web
+    type: News
+  - title: Build Low Code PostgreSQL Apps with CYPEX - Easy and Quick
+    url: https://weekly.statuscode.com/link/100002/web
+    type: News
+  - title: 'WMR: A Tiny All-in-One Development Tool for Modern Web Apps'
+    url: https://weekly.statuscode.com/link/100003/web
+    type: News
+  - title: 'rga: ripgrep But Also Search in PDFs, Office Documents, and More'
+    url: https://weekly.statuscode.com/link/100004/web
+    type: News
+  - title: 'Fable 3.0: A F# to JavaScript Compiler'
+    url: https://weekly.statuscode.com/link/100006/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://weekly.statuscode.com/link/100007/web
+    type: News
