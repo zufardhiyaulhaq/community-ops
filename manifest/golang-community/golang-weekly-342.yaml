@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-342
+  namespace: golang-community
+spec:
+  name: Golang Weekly 342
+  date: 12/13/2020
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Using Bitmasks for Nicer APIs
+    url: https://golangweekly.com/link/100173/web
+    type: News
+  - title: How to Build a Serverless App using Go and Azure Functions
+    url: https://golangweekly.com/link/100174/web
+    type: News
+  - title: Redis 6.0 on RedisGreen
+    url: https://golangweekly.com/link/100175/web
+    type: News
+  - title: What to Expect When You’re NOT Expecting
+    url: https://golangweekly.com/link/100176/web
+    type: News
+  - title: Benchmarking the Hugo Static Site Generator on Apple's M1
+    url: https://golangweekly.com/link/100177/web
+    type: News
+  - title: Writing Apache Spark UDFs in Go
+    url: https://golangweekly.com/link/100180/web
+    type: News
+  - title: Deploying a Hugo Site to AWS Lightsail Containers
+    url: https://golangweekly.com/link/100181/web
+    type: News
+  - title: How to Build and Push Docker Images with Go
+    url: https://golangweekly.com/link/100183/web
+    type: News
+  - title: Build a Single-Page App with Go and Vue
+    url: https://golangweekly.com/link/100184/web
+    type: News
+  - title: How to Handle Missing Fields From a Struct?
+    url: https://golangweekly.com/link/100185/web
+    type: News
+  - title: Integration Testing for AWS Lambda in Go with Docker Compose
+    url: https://golangweekly.com/link/100186/web
+    type: News
+  - title: Join the AWS Lambda Team (Seattle, Washington)
+    url: https://golangweekly.com/link/100188/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://golangweekly.com/link/100189/web
+    type: News
+  - title: 'gosnmp: A Simple Network Management Protocol Library'
+    url: https://golangweekly.com/link/100190/web
+    type: News
+  - title: 'Gnomock: Test Without Mocks by Using Ephemeral Docker Containers'
+    url: https://golangweekly.com/link/100191/web
+    type: News
+  - title: Automate Invoicing With Golang Using UniPDF
+    url: https://golangweekly.com/link/100192/web
+    type: News
+  - title: 'phpgrep 1.0: Syntax-Aware grep for PHP Code'
+    url: https://golangweekly.com/link/100193/web
+    type: News
+  - title: 'jsondiff: JSON Diffing Library Based on RFC 6902 (JSON Patch)'
+    url: https://golangweekly.com/link/100194/web
+    type: News
+  - title: 'OmniParser: A Go ETL System'
+    url: https://golangweekly.com/link/100196/web
+    type: News
+  - title: 'basiclander: A Lunar Lander Clone for the Terminal'
+    url: https://golangweekly.com/link/100198/web
+    type: News
+  - title: 'GoCrest: Hamcrest-like Matchers for Go'
+    url: https://golangweekly.com/link/100200/web
+    type: News
+  - title: 'go-zero 1.1: A Web and RPC Framework'
+    url: https://golangweekly.com/link/100201/web
+    type: News
