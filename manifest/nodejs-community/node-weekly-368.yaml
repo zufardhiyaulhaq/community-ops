@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-368
+  namespace: node-community
+spec:
+  name: Node Weekly 368
+  date: 12/14/2020
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: An Introduction to Event Loop Utilization
+    url: https://nodeweekly.com/link/100098/web
+    type: News
+  - title: Node v15.4.0 (Current) Released
+    url: https://nodeweekly.com/link/100099/web
+    type: News
+  - title: Build Code and Ship In App Messaging in a Few Hours
+    url: https://nodeweekly.com/link/100104/web
+    type: News
+  - title: How to Handle Request Validation in Your Express API
+    url: https://nodeweekly.com/link/100105/web
+    type: News
+  - title: npm v7.1.0 Released with Two Small New Features
+    url: https://nodeweekly.com/link/100106/web
+    type: News
+  - title: Serverless Node.js You Can Run Anywhere
+    url: https://nodeweekly.com/link/100107/web
+    type: News
+  - title: Automatically Generating Social Share Images Serverlessly
+    url: https://nodeweekly.com/link/100109/web
+    type: News
+  - title: Puppeteer vs Selenium vs Playwright, A Browser Automation Speed Comparison
+    url: https://nodeweekly.com/link/100110/web
+    type: News
+  - title: 10 React Security Best Practices
+    url: https://nodeweekly.com/link/100111/web
+    type: News
+  - title: How to Make Your Code Reviewer 'Fall in Love with You'
+    url: https://nodeweekly.com/link/100112/web
+    type: News
+  - title: 'cfonts: Striking Text Banners for the Terminal'
+    url: https://nodeweekly.com/link/100119/web
+    type: News
+  - title: Nodesource Brings arm64 Support to its Node Binary Distributions
+    url: https://nodeweekly.com/link/100118/web
+    type: News
+  - title: 'htmlparser2 6.0.0: A Forgiving HTML and XML Parser'
+    url: https://nodeweekly.com/link/100120/web
+    type: News
+  - title: 'Node.js + Express: An OpenTelemetry Deep Dive'
+    url: https://nodeweekly.com/link/100122/web
+    type: News
+  - title: 'node-oracledb 5.1: An Oracle Database Driver for Node'
+    url: https://nodeweekly.com/link/100123/web
+    type: News
+  - title: 'pg-listen: Postgres LISTEN and NOTIFY for Node.js'
+    url: https://nodeweekly.com/link/100125/web
+    type: News
+  - title: Principal NodeJS Software Engineer (Remote)
+    url: https://nodeweekly.com/link/100128/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://nodeweekly.com/link/100129/web
+    type: News
