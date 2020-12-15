@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-518
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 518
+  date: 12/15/2020
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: The 'Import on Interaction' Pattern
+    url: https://javascriptweekly.com/link/100226/web
+    type: News
+  - title: The JavaScript Christmas Advent Calendar 2020
+    url: https://javascriptweekly.com/link/100227/web
+    type: News
+  - title: 'The Easiest Way to Monitor Node: Automatic Instrumentation'
+    url: https://javascriptweekly.com/link/100231/web
+    type: News
+  - title: Get Ready to Up Your (Google) Apps Script
+    url: https://javascriptweekly.com/link/100232/web
+    type: News
+  - title: 'Deno 1.6 Released: You Can Now Build Executables'
+    url: https://javascriptweekly.com/link/100233/web
+    type: News
+  - title: 'A Deep Dive Into Rome: Linting, Compiling, and Bundling'
+    url: https://javascriptweekly.com/link/100249/web
+    type: News
+  - title: How to Create a 'Client-Serverless' JAMstack App with Netlify, Gatsby and Fauna
+    url: https://javascriptweekly.com/link/100250/web
+    type: News
+  - title: Breakpoints and console.log Is the Past, Time Travel Is the Future
+    url: https://javascriptweekly.com/link/100251/web
+    type: News
+  - title: Sticky Table Headers with React Hooks
+    url: https://javascriptweekly.com/link/100252/web
+    type: News
+  - title: '''No One Ever Got Fired for Choosing React'''
+    url: https://javascriptweekly.com/link/100254/web
+    type: News
+  - title: How to Create a Favicon That Changes Automatically
+    url: https://javascriptweekly.com/link/100257/web
+    type: News
+  - title: 'Node.js + Express: An OpenTelemetry Deep Dive'
+    url: https://javascriptweekly.com/link/100258/web
+    type: News
+  - title: A Chat with RedwoodJS's Tom Preston-Werner
+    url: https://javascriptweekly.com/link/100259/web
+    type: News
+  - title: From Callback Hell to Callback Heaven
+    url: https://javascriptweekly.com/link/100261/web
+    type: News
+  - title: The 'Async Disposer' Pattern in JavaScript
+    url: https://javascriptweekly.com/link/100262/web
+    type: News
+  - title: 'Electron React Boilerplate 2.0: A Foundation for Scalable Cross-Platform Apps'
+    url: https://javascriptweekly.com/link/100264/web
+    type: News
+  - title: 'htmlparser2 6.0.0: A Forgiving HTML and XML Parser'
+    url: https://javascriptweekly.com/link/100265/web
+    type: News
+  - title: Announcing Prisma Migrate Preview - Simplified Database Migrations
+    url: https://javascriptweekly.com/link/100267/web
+    type: News
+  - title: 'SiriWave: The Apple Siri Waveform Replicated in Pure JavaScript'
+    url: https://javascriptweekly.com/link/100268/web
+    type: News
+  - title: 'eslint-config-prettier 7.0: Turns Off ESLint Rules That Might Conflict with Prettier'
+    url: https://javascriptweekly.com/link/100269/web
+    type: News
+  - title: Software Developer (Austin, TX)
+    url: https://javascriptweekly.com/link/100272/web
+    type: News
+  - title: Senior Web Developer (Node/ReactJS) - Remote
+    url: https://javascriptweekly.com/link/100273/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://javascriptweekly.com/link/100275/web
+    type: News
