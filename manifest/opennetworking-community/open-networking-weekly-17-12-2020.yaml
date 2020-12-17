@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-17-12-2020
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 17-12-2020
+  date: 12/17/2020
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Draft SEBA Reference Design v2.0  Adds BNG Disaggregation, Scaling and New Services for Broadband Access Networks
+    url: https://opennetworking.org/news-and-events/blog/draft-seba-reference-design-v2-0-adds-bng-disaggregation-scaling-and-new-services-for-broadband-access-networks/
+    type: Open Networking Blog
