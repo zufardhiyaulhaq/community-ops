@@ -151,3 +151,7 @@ content:
   url: https://opennetworking.org/uncategorized/community-member-profile-himanshu-purohit/
   kind: Open Networking Blog
   isDelivered: true
+- title: Draft SEBA Reference Design v2.0  Adds BNG Disaggregation, Scaling and New Services for Broadband Access Networks
+  url: https://opennetworking.org/news-and-events/blog/draft-seba-reference-design-v2-0-adds-bng-disaggregation-scaling-and-new-services-for-broadband-access-networks/
+  kind: Open Networking Blog
+  isDelivered: false
