@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-532
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 532
+  date: 12/18/2020
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: When Should You NOT Use Rails?
+    url: https://rubyweekly.com/link/100484/web
+    type: News
+  - title: ▶️ Taking VS Code From Editor to IDE
+    url: https://rubyweekly.com/link/100485/web
+    type: News
+  - title: JetBrains RubyMine 2020.3 Has Been Released
+    url: https://rubyweekly.com/link/100486/web
+    type: News
+  - title: Effectively Using Materialized Views in Rails
+    url: https://rubyweekly.com/link/100487/web
+    type: News
+  - title: A Proposal for 'Endless' Method Definitions.. That Made It!
+    url: https://rubyweekly.com/link/100490/web
+    type: News
+  - title: How to Dockerize a Rails Application
+    url: https://rubyweekly.com/link/100492/web
+    type: News
+  - title: Digging Into Ruby 2.7's Changes
+    url: https://rubyweekly.com/link/100493/web
+    type: News
+  - title: Wondering How You Should Optimize a Particular Postgres Query?
+    url: https://rubyweekly.com/link/100524/web
+    type: News
+  - title: Lambda Containers with Rails; A Perfect Match!
+    url: https://rubyweekly.com/link/100501/web
+    type: News
+  - title: 'Ferrum: Headless Chrome Ruby API'
+    url: https://rubyweekly.com/link/100511/web
+    type: News
+  - title: 'Noticed: Notifications for Rails Apps'
+    url: https://rubyweekly.com/link/100512/web
+    type: News
+  - title: 'TruffleRuby: High Performance GraalVM-Powered Ruby'
+    url: https://rubyweekly.com/link/100514/web
+    type: News
+  - title: Start 2021 Off Right, Finally Upgrade Your Rails Application with FastRuby.io
+    url: https://rubyweekly.com/link/100516/web
+    type: News
+  - title: 'SuperDiff: View Differences Between Complex Data Structures in RSpec'
+    url: https://rubyweekly.com/link/100517/web
+    type: News
+  - title: 'Super Bombinhas: A Ruby-Powered Platform Game'
+    url: https://rubyweekly.com/link/100518/web
+    type: News
+  - title: Software Developer (Austin, TX)
+    url: https://rubyweekly.com/link/100520/web
+    type: News
+  - title: Rails Engineer - Top Consultancy (Fully Remote / India)
+    url: https://rubyweekly.com/link/100521/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://rubyweekly.com/link/100522/web
+    type: News
