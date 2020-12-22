@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-519
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 519
+  date: 12/22/2020
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'JavaScriptLandia: The OpenJS Foundation''s ''Individual Supporter Program'''
+    url: https://javascriptweekly.com/link/100630/web
+    type: News
+  - title: A Growing Collection of 100+ Node.js Best Practices
+    url: https://javascriptweekly.com/link/100632/web
+    type: News
+  - title: 10 React Security Best Practices
+    url: https://javascriptweekly.com/link/100635/web
+    type: News
+  - title: 'JSitor: Another JavaScript, HTML and CSS Online Editor/Sandbox'
+    url: https://javascriptweekly.com/link/100636/web
+    type: News
+  - title: Styling console.log() Output Formatting with CSS
+    url: https://javascriptweekly.com/link/100651/web
+    type: News
+  - title: What Is GraphQL?
+    url: https://javascriptweekly.com/link/100659/web
+    type: News
+  - title: Improve Serverless Observability With AWS Lambda Extensions Integration
+    url: https://javascriptweekly.com/link/100652/web
+    type: News
+  - title: Using Airtable as a Database to Store Realtime Messages
+    url: https://javascriptweekly.com/link/100661/web
+    type: News
+  - title: An Engineering Leader’s Guide to OpenTelemetry
+    url: https://javascriptweekly.com/link/100660/web
+    type: News
+  - title: Things I Wished More Developers Knew About Databases
+    url: https://javascriptweekly.com/link/100675/web
+    type: News
+  - title: 'Moiva.io: A JavaScript Library Comparison Tool'
+    url: https://javascriptweekly.com/link/100664/web
+    type: News
+  - title: AWS SDK for JavaScript Version 3 Now Generally Available
+    url: https://javascriptweekly.com/link/100678/web
+    type: News
+  - title: Stream Chat React Native v2.0.0 Released
+    url: https://javascriptweekly.com/link/100667/web
+    type: News
+  - title: 'JSweet 3.0: A Java to JavaScript Transpiler'
+    url: https://javascriptweekly.com/link/100666/web
+    type: News
+  - title: 'tiny-swiper: An ''Ingenious'' JavaScript Carousel'
+    url: https://javascriptweekly.com/link/100668/web
+    type: News
+  - title: 'Dynamoose 2.5.0: A Modeling Tool for Amazon''s DynamoDB'
+    url: https://javascriptweekly.com/link/100670/web
+    type: News
+  - title: Full Stack Senior JavaScript/Node.js Developer - Video Platform
+    url: https://javascriptweekly.com/link/100672/web
+    type: News
+  - title: JavaScript Developer at X-Team (Remote)
+    url: https://javascriptweekly.com/link/100673/web
+    type: News
+  - title: Find a Job Through Vettery
+    url: https://javascriptweekly.com/link/100674/web
+    type: News
