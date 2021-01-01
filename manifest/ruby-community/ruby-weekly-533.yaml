@@ -1,0 +1,59 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-533
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 533
+  date: 01/01/2021
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: The Official Ruby 3.0 Release Post
+    url: https://rubyweekly.com/link/100683/web
+    type: News
+  - title: The Epic Ruby 3.0 Changelog
+    url: https://rubyweekly.com/link/100688/web
+    type: News
+  - title: A List of Ruby 3 Features
+    url: https://rubyweekly.com/link/100690/web
+    type: News
+  - title: Ruby 3.0.0 Now Available on Heroku
+    url: https://rubyweekly.com/link/100691/web
+    type: News
+  - title: Ruby 3.0 JIT and Beyond
+    url: https://rubyweekly.com/link/100692/web
+    type: News
+  - title: Climbing Steep Hills, or Adopting Ruby 3 Types with RBS
+    url: https://rubyweekly.com/link/100693/web
+    type: News
+  - title: Using Ruby 3.0 to Solve Advent of Code Problems
+    url: https://rubyweekly.com/link/100694/web
+    type: News
+  - title: 'Writing a Ractor-Based Web Server: Part II'
+    url: https://rubyweekly.com/link/100696/web
+    type: News
+  - title: Ruby 3.0 and the New FiberScheduler Interface
+    url: https://rubyweekly.com/link/100698/web
+    type: News
+  - title: Benchmarking Ruby 2.4 to 3.0 with 3 Real World Libraries
+    url: https://rubyweekly.com/link/100700/web
+    type: News
+  - title: 'Sord: Convert YARD Docs to Sorbet RBI and Ruby 3/Steep RBS Files'
+    url: https://rubyweekly.com/link/100701/web
+    type: News
+  - title: 'Ruby Next: Transpile Modern Ruby Code to Run on Ruby 2.5 or mruby'
+    url: https://rubyweekly.com/link/100702/web
+    type: News
+  - title: 'rubyapi.org: Another Way to Search and Explore Core Ruby Docs'
+    url: https://rubyweekly.com/link/100704/web
+    type: News
+  - title: 'RuboCop 1.7: The Ruby Static Code Analyzer and Formatter'
+    url: https://rubyweekly.com/link/100705/web
+    type: News
+  - title: The 2020 Ruby Advent Calendar
+    url: https://rubyweekly.com/link/100707/web
+    type: News
