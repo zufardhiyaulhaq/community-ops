@@ -674,4 +674,4 @@ content:
 - title: Digital Sovereignty – Why Open Infrastructure Matters
   url: https://superuser.openstack.org/articles/digital-sovereignty-why-open-infrastructure-matters/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
