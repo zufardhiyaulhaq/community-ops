@@ -671,3 +671,7 @@ content:
   url: https://superuser.openstack.org/articles/openstack-in-production-and-integration-with-ceph-a-european-weather-cloud-user-story/
   kind: OpenStack Super User News
   isDelivered: true
+- title: Digital Sovereignty – Why Open Infrastructure Matters
+  url: https://superuser.openstack.org/articles/digital-sovereignty-why-open-infrastructure-matters/
+  kind: OpenStack Super User News
+  isDelivered: false
