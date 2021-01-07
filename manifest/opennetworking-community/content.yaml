@@ -162,8 +162,8 @@ content:
 - title: Stratum 20.12 Released
   url: https://opennetworking.org/news-and-events/blog/stratum-20-12-released/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: ONF Year-End Wrap up
   url: https://opennetworking.org/news-and-events/blog/onf-year-end-wrap-up/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
