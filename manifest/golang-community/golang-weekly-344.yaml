@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-344
+  namespace: golang-community
+spec:
+  name: Golang Weekly 344
+  date: 01/10/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: A Few Bytes Here, A Few There, Pretty Soon You’re Talking Real Memory
+    url: https://golangweekly.com/link/101012/web
+    type: News
+  - title: Debugging Code Generation in Go
+    url: https://golangweekly.com/link/101013/web
+    type: News
+  - title: Learn How to Move Fast from Code to Kubernetes
+    url: https://golangweekly.com/link/101014/web
+    type: News
+  - title: 'Ebiten UI: A UI Engine and Widget Library for Ebiten'
+    url: https://golangweekly.com/link/101015/web
+    type: News
+  - title: Go Modules Are Soon Going to Be The Only Future
+    url: https://golangweekly.com/link/101017/web
+    type: News
+  - title: How to Structure a Go Command-Line Project
+    url: https://golangweekly.com/link/101022/web
+    type: News
+  - title: A Go 1.16 Embedded File(s) Tutorial
+    url: https://golangweekly.com/link/101023/web
+    type: News
+  - title: The Elegance of Go's Error Handling
+    url: https://golangweekly.com/link/101024/web
+    type: News
+  - title: When cmd.Run Fails Without /dev/null
+    url: https://golangweekly.com/link/101025/web
+    type: News
+  - title: An Engineering Leader’s Guide to OpenTelemetry
+    url: https://golangweekly.com/link/101026/web
+    type: News
+  - title: Learn Go in (About) 5 Minutes
+    url: https://golangweekly.com/link/101027/web
+    type: News
+  - title: Introducing WTF Dial (Again)
+    url: https://golangweekly.com/link/101028/web
+    type: News
+  - title: 'go2cs: A Go to C# Converter'
+    url: https://golangweekly.com/link/101032/web
+    type: News
+  - title: 'Excelize 2.3.2: A Library for Reading and Writing Excel Files'
+    url: https://golangweekly.com/link/101034/web
+    type: News
+  - title: Measure the Health and Performance of Your Golang Applications with Datadog APM
+    url: https://golangweekly.com/link/101035/web
+    type: News
+  - title: 'Oto: Low-Level Library to Play Sound on Multiple Platforms'
+    url: https://golangweekly.com/link/101036/web
+    type: News
+  - title: Enjoy Building Scalable Infrastructure in Go? Stream Is Hiring
+    url: https://golangweekly.com/link/101040/web
+    type: News
+  - title: Golang Developer at X-Team (Remote)
+    url: https://golangweekly.com/link/101041/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://golangweekly.com/link/101042/web
+    type: News
