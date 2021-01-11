@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-370
+  namespace: node-community
+spec:
+  name: Node Weekly 370
+  date: 01/11/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'napi-rs: A Minimal Library for Building Node Addons in Rust'
+    url: https://nodeweekly.com/link/100902/web
+    type: News
+  - title: The January 2021 Node Security Releases
+    url: https://nodeweekly.com/link/100907/web
+    type: News
+  - title: Spend Less Time Debugging and More Time Building
+    url: https://nodeweekly.com/link/100912/web
+    type: News
+  - title: 'Meow: A Straightforward CLI App Helper'
+    url: https://nodeweekly.com/link/100913/web
+    type: News
+  - title: npm 7.3.0 (and 7.2.0) Released
+    url: https://nodeweekly.com/link/100914/web
+    type: News
+  - title: Full Stack Senior JavaScript/Node.js Developer - Video Platform
+    url: https://nodeweekly.com/link/100943/web
+    type: News
+  - title: Find Your Next Job Through Vettery
+    url: https://nodeweekly.com/link/100917/web
+    type: News
+  - title: Experimenting Producing AVIF Images from Node
+    url: https://nodeweekly.com/link/100918/web
+    type: News
+  - title: The Four 'Creational' Design Patterns in Node.js You Should Know
+    url: https://nodeweekly.com/link/100921/web
+    type: News
+  - title: How We Built Scalable Spatial Indexing in CockroachDB
+    url: https://nodeweekly.com/link/100922/web
+    type: News
+  - title: Comparing Emilua to Node.js
+    url: https://nodeweekly.com/link/100923/web
+    type: News
+  - title: How to Cache an API Endpoint with Redis in Node
+    url: https://nodeweekly.com/link/100926/web
+    type: News
+  - title: 'Pino 6.9.0: A Fast ''Very Low Overhead'' JSON Logger'
+    url: https://nodeweekly.com/link/100927/web
+    type: News
+  - title: 'CandyMail: Node-Powered Email Automation System'
+    url: https://nodeweekly.com/link/100928/web
+    type: News
+  - title: 'Dynamoose 2.5.0: A Modeling Tool for Amazon''s DynamoDB'
+    url: https://nodeweekly.com/link/100930/web
+    type: News
+  - title: 'np 7.2.0: A Better npm publish'
+    url: https://nodeweekly.com/link/100932/web
+    type: News
+  - title: Video for Your Node App That Streams Beautifully, Everywhere
+    url: https://nodeweekly.com/link/100933/web
+    type: News
+  - title: Google Cloud Vision API Node.js Client v2.2.0
+    url: https://nodeweekly.com/link/100934/web
+    type: News
+  - title: 'pigpio 3.3.0: Fast GPIO, PWM, Servo Control, and More on the Raspberry Pi'
+    url: https://nodeweekly.com/link/100936/web
+    type: News
+  - title: 'fkill-cli 6.1.0: A Cross-Platform Way to Kill Processes'
+    url: https://nodeweekly.com/link/100937/web
+    type: News
+  - title: 'node-ble 1.4: A Pure Node.js Bluetooth Low Energy (BLE) Library'
+    url: https://nodeweekly.com/link/100938/web
+    type: News
+  - title: 'OpenMTP: An Advanced Android File Transfer Application for macOS'
+    url: https://nodeweekly.com/link/100939/web
+    type: News
+  - title: A Port of Google's V8 Engine to RISC-V
+    url: https://nodeweekly.com/link/100941/web
+    type: News
