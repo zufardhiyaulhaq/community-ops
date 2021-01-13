@@ -678,4 +678,4 @@ content:
 - title: 'Scaling Bare Metal Provisioning with Nova and Ironic at CERN:  Challenges & Solutions'
   url: https://superuser.openstack.org/articles/scaling-bare-metal-provisioning-with-nova-and-ironic-at-cern-challenges-solutions/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
