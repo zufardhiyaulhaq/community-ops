@@ -675,3 +675,7 @@ content:
   url: https://superuser.openstack.org/articles/digital-sovereignty-why-open-infrastructure-matters/
   kind: OpenStack Super User News
   isDelivered: true
+- title: 'Scaling Bare Metal Provisioning with Nova and Ironic at CERN:  Challenges & Solutions'
+  url: https://superuser.openstack.org/articles/scaling-bare-metal-provisioning-with-nova-and-ironic-at-cern-challenges-solutions/
+  kind: OpenStack Super User News
+  isDelivered: false
