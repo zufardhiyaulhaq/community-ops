@@ -170,4 +170,4 @@ content:
 - title: Mobile World Congress 2021 Barcelona
   url: https://opennetworking.org/events/mobile-world-congress-2021-barcelona/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
