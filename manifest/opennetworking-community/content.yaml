@@ -167,3 +167,7 @@ content:
   url: https://opennetworking.org/news-and-events/blog/onf-year-end-wrap-up/
   kind: Open Networking Blog
   isDelivered: true
+- title: Mobile World Congress 2021 Barcelona
+  url: https://opennetworking.org/events/mobile-world-congress-2021-barcelona/
+  kind: Open Networking Event
+  isDelivered: false
