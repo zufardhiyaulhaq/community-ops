@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-299
+  namespace: devops-community
+spec:
+  name: Devops Weekly 299
+  date: 01/16/2021
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: What I've Learned in 45 Years in the Software Industry
+    url: https://weekly.statuscode.com/link/101181/web
+    type: News
+  - title: My ISP Is Killing My Idle SSH Sessions. Yours Might Be Too
+    url: https://weekly.statuscode.com/link/101184/web
+    type: News
+  - title: Adopt Progressive Delivery. Reduce Your Risk. Empower Your Teams
+    url: https://weekly.statuscode.com/link/101186/web
+    type: News
+  - title: 'Merge Chance: Will Your Pull Request Get Merged?'
+    url: https://weekly.statuscode.com/link/101187/web
+    type: News
+  - title: Reverse Engineering the 'Source Code' of the BioNTech/Pfizer SARS-CoV-2 Vaccine
+    url: https://weekly.statuscode.com/link/101190/web
+    type: News
+  - title: Learn Go in (About) 5 Minutes
+    url: https://weekly.statuscode.com/link/101197/web
+    type: News
+  - title: I Received First-Ever Donation on my Open Source Project And..
+    url: https://weekly.statuscode.com/link/101200/web
+    type: News
+  - title: Stealing Private YouTube Videos, One Frame at a Time
+    url: https://weekly.statuscode.com/link/101201/web
+    type: News
+  - title: An Engineering Leader’s Guide to OpenTelemetry
+    url: https://weekly.statuscode.com/link/101202/web
+    type: News
+  - title: Using Checksums to Verify Syncing 100M Database Records
+    url: https://weekly.statuscode.com/link/101203/web
+    type: News
+  - title: Working with WebSockets on AWS
+    url: https://weekly.statuscode.com/link/101204/web
+    type: News
+  - title: Implementing mTLS and Securing Apache Kafka at Zendesk
+    url: https://weekly.statuscode.com/link/101205/web
+    type: News
+  - title: Build Your Own Text Editor
+    url: https://weekly.statuscode.com/link/101206/web
+    type: News
+  - title: Preparing for a Facebook Senior Software Engineer Interview
+    url: https://weekly.statuscode.com/link/101207/web
+    type: News
+  - title: 'gping: Ping, but with a Line Chart'
+    url: https://weekly.statuscode.com/link/101210/web
+    type: News
+  - title: 'Squoosh: Browser Based Image Compressor from Google'
+    url: https://weekly.statuscode.com/link/101211/web
+    type: News
+  - title: Finally, a Headless CMS That Writers Don't Need Training to Use
+    url: https://weekly.statuscode.com/link/101212/web
+    type: News
+  - title: Getting Started with Buildah for Building OCI Container Images
+    url: https://weekly.statuscode.com/link/101213/web
+    type: News
+  - title: 'Theseus OS: A Modern Experimental OS Written From Scratch in Rust'
+    url: https://weekly.statuscode.com/link/101214/web
+    type: News
+  - title: 'napi-rs: A Minimal Library for Building Node Addons in Rust'
+    url: https://weekly.statuscode.com/link/101215/web
+    type: News
+  - title: 'AWS Workshops: Workshops Created by Amazon Web Services'
+    url: https://weekly.statuscode.com/link/101219/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://weekly.statuscode.com/link/101220/web
+    type: News
