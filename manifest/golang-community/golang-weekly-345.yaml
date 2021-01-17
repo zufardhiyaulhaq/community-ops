@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-345
+  namespace: golang-community
+spec:
+  name: Golang Weekly 345
+  date: 01/17/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: A Proposal for Adding Generics to Go
+    url: https://golangweekly.com/link/101402/web
+    type: News
+  - title: 'GTA: A Way to Detect Packages Deviating from Upstream'
+    url: https://golangweekly.com/link/101405/web
+    type: News
+  - title: Video for Your Go App That Streams Beautifully, Everywhere
+    url: https://golangweekly.com/link/101406/web
+    type: News
+  - title: 'GoFakeIt 6.0.0: A Random Fake Data Generator'
+    url: https://golangweekly.com/link/101407/web
+    type: News
+  - title: 'Bleve 2.0: Full-Text Search and Indexing for Go'
+    url: https://golangweekly.com/link/101410/web
+    type: News
+  - title: 'GoLand: Running go fmt on Save, Yes or No?'
+    url: https://golangweekly.com/link/101413/web
+    type: News
+  - title: Making SQLite Faster in Go
+    url: https://golangweekly.com/link/101414/web
+    type: News
+  - title: Why Are My Go Executable Files So Large?
+    url: https://golangweekly.com/link/101415/web
+    type: News
+  - title: Discovering and Exploring mmap using Go
+    url: https://golangweekly.com/link/101416/web
+    type: News
+  - title: Building DigitalOcean's API Gateway
+    url: https://golangweekly.com/link/101417/web
+    type: News
+  - title: De-obfuscating Go Functions
+    url: https://golangweekly.com/link/101418/web
+    type: News
+  - title: Dissecting OpenTelemetry Go Tracing
+    url: https://golangweekly.com/link/101419/web
+    type: News
+  - title: 'Going Places: How I Used Go for Every Part of an IoT System'
+    url: https://golangweekly.com/link/101420/web
+    type: News
+  - title: A Go Slice Tricks Cheat Sheet
+    url: https://golangweekly.com/link/101421/web
+    type: News
+  - title: 'Resty 2.4: Simple HTTP and REST Client Library for Go'
+    url: https://golangweekly.com/link/101423/web
+    type: News
+  - title: 'TestFixtures: Ruby on Rails-Like Test Fixtures for Go'
+    url: https://golangweekly.com/link/101426/web
+    type: News
+  - title: Accelerate Release Cycles and Deploy Every 6 Hours, Not Every 6 Weeks
+    url: https://golangweekly.com/link/101427/web
+    type: News
+  - title: 'gocache: A Complete Library With Multiple Ways of Managing Your Caches'
+    url: https://golangweekly.com/link/101428/web
+    type: News
+  - title: 'Counterfeiter: A Tool for Generating Self-Contained, Type-Safe Test Doubles'
+    url: https://golangweekly.com/link/101429/web
+    type: News
+  - title: Senior Software Engineer (Go) - 100% Remote, UK/EU Only
+    url: https://golangweekly.com/link/101432/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://golangweekly.com/link/101433/web
+    type: News
