@@ -1,0 +1,95 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-521
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 521
+  date: 01/19/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: The State of JS 2020 Survey Results
+    url: https://javascriptweekly.com/link/101438/web
+    type: News
+  - title: Announcing TypeScript 4.2 Beta
+    url: https://javascriptweekly.com/link/101445/web
+    type: News
+  - title: ⭐️ Professional JavaScript Learning Path
+    url: https://javascriptweekly.com/link/101446/web
+    type: News
+  - title: 'Snowpack v3.0: Reimagining Web Development with ESM'
+    url: https://javascriptweekly.com/link/101447/web
+    type: News
+  - title: Node Package Maintainers, Get Ready For ES Modules
+    url: https://javascriptweekly.com/link/101450/web
+    type: News
+  - title: 'Advanced Promise Patterns: Promise Memoization'
+    url: https://javascriptweekly.com/link/101451/web
+    type: News
+  - title: 'Building FPGA Hardware Using TypeScript: Driving an RGB LED Panel'
+    url: https://javascriptweekly.com/link/101452/web
+    type: News
+  - title: How to Implement An Exponential Backoff Retry Strategy
+    url: https://javascriptweekly.com/link/101453/web
+    type: News
+  - title: The Effortless Backend for JavaScript Applications with GraphQL
+    url: https://javascriptweekly.com/link/101454/web
+    type: News
+  - title: 10 Best Practices to Containerize Node Webapps with Docker
+    url: https://javascriptweekly.com/link/101455/web
+    type: News
+  - title: The navigator.clipboard API
+    url: https://javascriptweekly.com/link/101456/web
+    type: News
+  - title: Working with WebSockets on AWS
+    url: https://javascriptweekly.com/link/101457/web
+    type: News
+  - title: Building Your Own E-commerce System in 25 Days
+    url: https://javascriptweekly.com/link/101458/web
+    type: News
+  - title: 'OpenTelemetry and Observability: Achieving Full System Visibility'
+    url: https://javascriptweekly.com/link/101459/web
+    type: News
+  - title: Deploying a Serverless Jamstack Site with RedwoodJS, Fauna, and Vercel
+    url: https://javascriptweekly.com/link/101460/web
+    type: News
+  - title: Publishing a Vue.js 3 Component on npm
+    url: https://javascriptweekly.com/link/101464/web
+    type: News
+  - title: 'Altair: A Feature-Rich Cross Platform GraphQL GUI Client'
+    url: https://javascriptweekly.com/link/101465/web
+    type: News
+  - title: 'Merge Chance: Will Your Pull Request Get Merged?'
+    url: https://javascriptweekly.com/link/101466/web
+    type: News
+  - title: Cheerful, Collaborative Project Management
+    url: https://javascriptweekly.com/link/101469/web
+    type: News
+  - title: 'Compiled: Build Time Atomic CSS-in-JS'
+    url: https://javascriptweekly.com/link/101470/web
+    type: News
+  - title: 'svelte-dnd-action: An Action-Based Drag and Drop Container for Svelte'
+    url: https://javascriptweekly.com/link/101472/web
+    type: News
+  - title: 'Handtrack.js: Realtime Hand Detection in the Browser'
+    url: https://javascriptweekly.com/link/101473/web
+    type: News
+  - title: 'vno: A Vue / Deno Love Story?'
+    url: https://javascriptweekly.com/link/101475/web
+    type: News
+  - title: Announcing Scala.js 1.4.0
+    url: https://javascriptweekly.com/link/101476/web
+    type: News
+  - title: Senior JavaScript Engineer - Platform Engineering (Berlin, DE)
+    url: https://javascriptweekly.com/link/101477/web
+    type: News
+  - title: Senior Frontend Developer (m/f/d)
+    url: https://javascriptweekly.com/link/101478/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://javascriptweekly.com/link/101479/web
+    type: News
