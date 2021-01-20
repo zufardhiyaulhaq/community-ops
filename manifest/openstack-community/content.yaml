@@ -679,3 +679,7 @@ content:
   url: https://superuser.openstack.org/articles/scaling-bare-metal-provisioning-with-nova-and-ironic-at-cern-challenges-solutions/
   kind: OpenStack Super User News
   isDelivered: true
+- title: Enhancement of New Heterogeneous Accelerators Based on Cyborg
+  url: https://superuser.openstack.org/articles/enhancement-of-new-heterogeneous-accelerators-based-on-cyborg/
+  kind: OpenStack Super User News
+  isDelivered: false
