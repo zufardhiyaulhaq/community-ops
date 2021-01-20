@@ -682,4 +682,4 @@ content:
 - title: Enhancement of New Heterogeneous Accelerators Based on Cyborg
   url: https://superuser.openstack.org/articles/enhancement-of-new-heterogeneous-accelerators-based-on-cyborg/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
