@@ -1,0 +1,29 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-21-01-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 21-01-2021
+  date: 01/21/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Deutsche Telekom switches on its disaggregated broadband network
+    url: https://www.telecomtv.com/content/open-networking/deutsche-telekom-switches-on-its-disaggregated-broadband-network-40635/
+    type: Open Networking News
+  - title: Deutsche Telecom’s Access 4.0 FTTH platform goes live in Stuttgart
+    url: https://www.fiercetelecom.com/telecom/deutsche-telecom-s-access-4-0-ftth-platform-goes-live-stuttgart?mkt_tok=eyJpIjoiTkdJeVpURTVNRGRpTWpCbSIsInQiOiJwV0dZYkIySTJSY1V2b1FwNVh6MmdETlMwWEJDbEZ4VWxOZDd4TG9aWFkycXJvbDJxc280ZEhhMlZSQmErVGNCVVMzU3dxQmpJN1ZEXC
+    type: Open Networking News
+  - title: Stratum Overview & v20.12 Techinar
+    url: https://opennetworking.org/events/stratum-overview-and-v20-12-techinar/
+    type: Open Networking Event
+  - title: VOLTHA v2.6 Techinar
+    url: https://opennetworking.org/events/seba-rd-v2-0-voltha-v2-6-techinar/
+    type: Open Networking Event
+  - title: SD-RAN v1.0 Techinar
+    url: https://opennetworking.org/events/sd-ran-v1-0-techinar/
+    type: Open Networking Event
