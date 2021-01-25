@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-372
+  namespace: node-community
+spec:
+  name: Node Weekly 372
+  date: 01/25/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Node v15.6.0 (Current) Released
+    url: https://nodeweekly.com/link/101709/web
+    type: News
+  - title: Google Cloud Functions Adds Node.js 14 Support
+    url: https://nodeweekly.com/link/101711/web
+    type: News
+  - title: "Complete Node.js Learning Path \U0001F6A2"
+    url: https://nodeweekly.com/link/101712/web
+    type: News
+  - title: An Introduction to Node's crypto Module
+    url: https://nodeweekly.com/link/101713/web
+    type: News
+  - title: Securing Your GitHub Project
+    url: https://nodeweekly.com/link/101714/web
+    type: News
+  - title: How to Build a Node API for the Ethereum Blockchain
+    url: https://nodeweekly.com/link/101715/web
+    type: News
+  - title: Apple Best Self App - Senior Backend Engineer/NodeJS (Remote)
+    url: https://nodeweekly.com/link/101716/web
+    type: News
+  - title: Find a Job Through Hired
+    url: https://nodeweekly.com/link/101717/web
+    type: News
+  - title: How to Control Hue Lights with JavaScript
+    url: https://nodeweekly.com/link/101718/web
+    type: News
+  - title: Some Language-Agnostic Guidelines on Naming Variables
+    url: https://nodeweekly.com/link/101719/web
+    type: News
+  - title: Using Polymorphic Data Validation with Nest.js and Mongoose
+    url: https://nodeweekly.com/link/101720/web
+    type: News
+  - title: 'OpenTelemetry and Observability: Achieving Full System Visibility'
+    url: https://nodeweekly.com/link/101721/web
+    type: News
+  - title: How to Recursively Create Directories from Node
+    url: https://nodeweekly.com/link/101722/web
+    type: News
+  - title: How To Migrate From WordPress To The Eleventy Static Site Generator
+    url: https://nodeweekly.com/link/101723/web
+    type: News
+  - title: 'Gluegun 4.6.0: A Toolkit for Building Node-Powered CLIs'
+    url: https://nodeweekly.com/link/101725/web
+    type: News
+  - title: 'Sequelize 6.4.0: Easy-to-Use Multi SQL Dialect ORM'
+    url: https://nodeweekly.com/link/101726/web
+    type: News
+  - title: Fast and Reliable Feature Management for the Modern Enterprise
+    url: https://nodeweekly.com/link/101727/web
+    type: News
+  - title: 'JZZ 1.2.0: A MIDI Library for Node and the Browser'
+    url: https://nodeweekly.com/link/101728/web
+    type: News
+  - title: 'AutoCannon 7.0: A Fast HTTP/1.1 Benchmarking Tool'
+    url: https://nodeweekly.com/link/101729/web
+    type: News
+  - title: npm 7.4.2 Released
+    url: https://nodeweekly.com/link/101731/web
+    type: News
+  - title: 'Spotter: An Alfred/Spotlight-Style Launcher App'
+    url: https://nodeweekly.com/link/101732/web
+    type: News
