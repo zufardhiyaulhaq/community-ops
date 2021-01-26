@@ -1,0 +1,95 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-522
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 522
+  date: 01/26/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: The JavaScript 'Rising Stars' of 2020
+    url: https://javascriptweekly.com/link/101830/web
+    type: News
+  - title: 'EStimator.dev: The Modern JavaScript Savings Calculator'
+    url: https://javascriptweekly.com/link/101835/web
+    type: News
+  - title: 'Spreadsheet Viewer: Render XLSX Files In the Browser'
+    url: https://javascriptweekly.com/link/101837/web
+    type: News
+  - title: 'JerryScript: A Ultra-Lightweight JS Engine for the Internet of Things'
+    url: https://javascriptweekly.com/link/101839/web
+    type: News
+  - title: How I Build JavaScript Apps in 2021
+    url: https://javascriptweekly.com/link/101838/web
+    type: News
+  - title: Some Language-Agnostic Guidelines on Naming Variables
+    url: https://javascriptweekly.com/link/101845/web
+    type: News
+  - title: 13 JavaScript One-Liners That’ll Make You Look Like a Pro
+    url: https://javascriptweekly.com/link/101846/web
+    type: News
+  - title: Running Rust in WebAssembly in a Pool of Concurrent Web Workers in JavaScript
+    url: https://javascriptweekly.com/link/101847/web
+    type: News
+  - title: Breakpoints and console.log Is the Past, Time Travel Is the Future
+    url: https://javascriptweekly.com/link/101848/web
+    type: News
+  - title: Capturing Hacker News Mentions with Node and MongoDB
+    url: https://javascriptweekly.com/link/101849/web
+    type: News
+  - title: Async Loops and Why They Fail
+    url: https://javascriptweekly.com/link/101875/web
+    type: News
+  - title: 10 JavaScript Clean Code Examples
+    url: https://javascriptweekly.com/link/101851/web
+    type: News
+  - title: Creating Comic Book Speech Bubbles with SVG and JavaScript
+    url: https://javascriptweekly.com/link/101853/web
+    type: News
+  - title: Drawing 2D Metaballs with WebGL2
+    url: https://javascriptweekly.com/link/101854/web
+    type: News
+  - title: Learn to Do File Uploads from the Client-Side Without Managing Storage
+    url: https://javascriptweekly.com/link/101856/web
+    type: News
+  - title: Tips For Your Next JavaScript Interview
+    url: https://javascriptweekly.com/link/101857/web
+    type: News
+  - title: 'Sortable 1.13.0: Create and Reorder Lists with Drag-and-Drop'
+    url: https://javascriptweekly.com/link/101859/web
+    type: News
+  - title: 'Forgo: A Tiny UI Runtime for Modern Web Apps'
+    url: https://javascriptweekly.com/link/101861/web
+    type: News
+  - title: 'Boa v0.11: An Experimental JS Lexer, Parser and Compiler'
+    url: https://javascriptweekly.com/link/101862/web
+    type: News
+  - title: Scout APM - Leading Edge Performance Monitoring Starting at $39/Month
+    url: https://javascriptweekly.com/link/101863/web
+    type: News
+  - title: 'jsPDF 2.3: Client-Side PDF Generation for Everyone'
+    url: https://javascriptweekly.com/link/101864/web
+    type: News
+  - title: 'Focus Rings: A Centralized System for Displaying and Stylizing Focus Indicators'
+    url: https://javascriptweekly.com/link/101866/web
+    type: News
+  - title: 'JZZ 1.2.0: A MIDI Library for Node and the Browser'
+    url: https://javascriptweekly.com/link/101867/web
+    type: News
+  - title: '@vueuse/sound: A Vue Composable for Playing Sound Effects'
+    url: https://javascriptweekly.com/link/101868/web
+    type: News
+  - title: Software Engineer, Full-Stack (Fully Remote/US)
+    url: https://javascriptweekly.com/link/101871/web
+    type: News
+  - title: Find a Job Through Hired
+    url: https://javascriptweekly.com/link/101872/web
+    type: News
+  - title: 'CodeCopy: A Browser Extension That Adds ''Copy to Clipboard'' Buttons on Every Code Block'
+    url: https://javascriptweekly.com/link/101873/web
+    type: News
