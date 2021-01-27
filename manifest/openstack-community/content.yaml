@@ -686,8 +686,8 @@ content:
 - title: Auto-scaling in Viettel Networks Without OpenStack Telemetry
   url: https://superuser.openstack.org/articles/auto-scaling-in-viettel-networks-without-openstack-telemetry/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: 'New in OpenInfra: VEXXHOST’s Public Cloud Revamp Includes a Lot More Than the New Data Center in Amsterdam'
   url: https://superuser.openstack.org/articles/new-in-openinfra-vexxhosts-public-cloud-revamp-includes-a-lot-more-than-the-new-data-center-in-amsterdam/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
