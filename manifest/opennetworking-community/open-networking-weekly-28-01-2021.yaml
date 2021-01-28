@@ -1,0 +1,26 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-28-01-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 28-01-2021
+  date: 01/28/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Deutsche Telekom’s Access 4.0 platform goes live
+    url: https://www.telekom.com/en/media/media-information/archive/deutsche-telekom-s-access-4-0-platform-goes-live-615974
+    type: Open Networking News
+  - title: Princeton partners on $30 million grant to advance internet infrastructure
+    url: https://www.princeton.edu/news/2021/01/14/princeton-partners-30-million-grant-advance-internet-infrastructure
+    type: Open Networking News
+  - title: 'Community Member Profile: Andres Madero'
+    url: https://opennetworking.org/news-and-events/blog/community-member-profile-andres-madero/
+    type: Open Networking Blog
+  - title: VOLTHA v2.6 Techinar
+    url: https://opennetworking.org/events/voltha-v2-6-techinar/
+    type: Open Networking Event
