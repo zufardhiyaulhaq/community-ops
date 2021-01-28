@@ -191,3 +191,19 @@ content:
   url: https://opennetworking.org/events/sd-ran-v1-0-techinar/
   kind: Open Networking Event
   isDelivered: true
+- title: Deutsche Telekom’s Access 4.0 platform goes live
+  url: https://www.telekom.com/en/media/media-information/archive/deutsche-telekom-s-access-4-0-platform-goes-live-615974
+  kind: Open Networking News
+  isDelivered: false
+- title: Princeton partners on $30 million grant to advance internet infrastructure
+  url: https://www.princeton.edu/news/2021/01/14/princeton-partners-30-million-grant-advance-internet-infrastructure
+  kind: Open Networking News
+  isDelivered: false
+- title: 'Community Member Profile: Andres Madero'
+  url: https://opennetworking.org/news-and-events/blog/community-member-profile-andres-madero/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: VOLTHA v2.6 Techinar
+  url: https://opennetworking.org/events/voltha-v2-6-techinar/
+  kind: Open Networking Event
+  isDelivered: false
