@@ -84,3 +84,5 @@ spec:
   - title: 'ml.js 5.3: Machine Learning Tools in JavaScript'
     url: https://javascriptweekly.com/link/96612/web
     type: News
+status:
+  send: true

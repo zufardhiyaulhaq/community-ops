@@ -69,3 +69,5 @@ spec:
   - title: 'OpenStruct 0.3.0: A Hash-Like Object Data Structure'
     url: https://rubyweekly.com/link/96063/web
     type: News
+status:
+  send: true

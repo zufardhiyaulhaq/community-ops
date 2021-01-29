@@ -84,3 +84,5 @@ spec:
   - title: Find a Job Through Hired
     url: https://rubyweekly.com/link/101700/web
     type: News
+status:
+  send: true

@@ -69,3 +69,5 @@ spec:
   - title: 'Rutie: A Tie Between Ruby and Rust'
     url: https://rubyweekly.com/link/99634/web
     type: News
+status:
+  send: true

@@ -72,3 +72,5 @@ spec:
   - title: 'JuliaMono: A New Typeface for Scientific and Technical Users'
     url: https://golangweekly.com/link/96964/web
     type: News
+status:
+  send: true

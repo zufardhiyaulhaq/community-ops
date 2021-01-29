@@ -66,3 +66,5 @@ spec:
   - title: Find a Job Through Vettery
     url: https://rubyweekly.com/link/100522/web
     type: News
+status:
+  send: true

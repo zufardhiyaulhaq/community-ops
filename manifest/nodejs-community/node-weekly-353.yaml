@@ -72,3 +72,5 @@ spec:
   - title: 'graphql-api-monitor: A Tool for Monitoring Changes to GraphQL APIs'
     url: https://nodeweekly.com/link/94229/web
     type: News
+status:
+  send: true

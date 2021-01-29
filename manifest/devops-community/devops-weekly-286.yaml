@@ -78,3 +78,5 @@ spec:
   - title: 'Siegfried: Signature-Based File Format Identification'
     url: https://weekly.statuscode.com/link/95996/web
     type: News
+status:
+  send: true

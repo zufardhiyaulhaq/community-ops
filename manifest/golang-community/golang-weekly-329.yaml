@@ -69,3 +69,5 @@ spec:
   - title: 'go-diff: A Unified Diff Parser and Printer for Go'
     url: https://golangweekly.com/link/95059/web
     type: News
+status:
+  send: true

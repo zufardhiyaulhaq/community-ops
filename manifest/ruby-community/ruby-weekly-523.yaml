@@ -84,3 +84,5 @@ spec:
   - title: 'Departure.rb: Safe, Non-Blocking Migrations for MySQL on Rails'
     url: https://rubyweekly.com/link/96847/web
     type: News
+status:
+  send: true

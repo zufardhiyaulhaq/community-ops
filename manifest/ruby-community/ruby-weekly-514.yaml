@@ -87,3 +87,5 @@ spec:
   - title: 'Refinery CMS Blog 4.0: A Blogging Engine for Refinery CMS'
     url: https://rubyweekly.com/link/93433/web
     type: News
+status:
+  send: true

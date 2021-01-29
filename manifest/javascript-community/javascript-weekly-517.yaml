@@ -87,3 +87,5 @@ spec:
   - title: Find a Job Through Vettery
     url: https://javascriptweekly.com/link/99809/web
     type: News
+status:
+  send: true

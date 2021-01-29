@@ -81,3 +81,5 @@ spec:
   - title: 'GLab: A Custom GitLab CLI Tool Written in Go'
     url: https://golangweekly.com/link/97825/web
     type: News
+status:
+  send: true

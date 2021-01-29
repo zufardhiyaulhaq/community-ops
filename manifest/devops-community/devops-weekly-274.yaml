@@ -108,3 +108,5 @@ spec:
   - title: 'Guietta: A Novel Library for Building Simple Python GUIs'
     url: https://weekly.statuscode.com/link/91415/web
     type: News
+status:
+  send: true

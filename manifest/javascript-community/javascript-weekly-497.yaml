@@ -93,3 +93,5 @@ spec:
   - title: 'WebGazer.js: Webcam Eye Tracking in the Browser'
     url: https://javascriptweekly.com/link/92133/web
     type: News
+status:
+  send: true

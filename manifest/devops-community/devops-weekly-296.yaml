@@ -81,3 +81,5 @@ spec:
   - title: Find Your Next Job Through Vettery
     url: https://weekly.statuscode.com/link/100007/web
     type: News
+status:
+  send: true

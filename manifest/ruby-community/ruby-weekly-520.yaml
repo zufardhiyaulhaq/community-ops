@@ -78,3 +78,5 @@ spec:
   - title: 'Stripe::Rails 2.0: A Rails Engine for Integrating with Stripe'
     url: https://rubyweekly.com/link/95697/web
     type: News
+status:
+  send: true

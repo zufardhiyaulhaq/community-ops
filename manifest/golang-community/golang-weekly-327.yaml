@@ -81,3 +81,5 @@ spec:
   - title: 'progressbar 3.4: A Basic Thread-Safe Progress Bar'
     url: https://golangweekly.com/link/94302/web
     type: News
+status:
+  send: true

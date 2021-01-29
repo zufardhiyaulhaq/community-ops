@@ -81,3 +81,5 @@ spec:
   - title: ksqlDB Go Library 0.04
     url: https://golangweekly.com/link/96556/web
     type: News
+status:
+  send: true

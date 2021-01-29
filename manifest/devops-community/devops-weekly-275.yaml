@@ -81,3 +81,5 @@ spec:
   - title: 'Facebook Releases Retrie: A Haskell Refactoring Tool'
     url: https://weekly.statuscode.com/link/91876/web
     type: News
+status:
+  send: true

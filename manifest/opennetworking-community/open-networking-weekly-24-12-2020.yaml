@@ -15,3 +15,5 @@ spec:
   - title: VOLTHA 2.6 Released
     url: https://opennetworking.org/news-and-events/blog/voltha-2-6-released/
     type: Open Networking Blog
+status:
+  send: true

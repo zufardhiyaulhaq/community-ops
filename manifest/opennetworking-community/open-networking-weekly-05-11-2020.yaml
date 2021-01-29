@@ -18,3 +18,5 @@ spec:
   - title: Telecom TV – Open RAN Summit
     url: https://opennetworking.org/events/telecom-tv-open-ran-summit/
     type: Open Networking Event
+status:
+  send: true

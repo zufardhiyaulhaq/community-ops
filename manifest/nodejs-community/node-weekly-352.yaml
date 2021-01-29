@@ -78,3 +78,5 @@ spec:
   - title: 'Alibaba Midway Serverless v1.0: Node.js Serverless Tooling'
     url: https://nodeweekly.com/link/93871/web
     type: News
+status:
+  send: true

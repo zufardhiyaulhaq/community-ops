@@ -87,3 +87,5 @@ spec:
   - title: 'ts-sql: A SQL ''Database'' Implemented Purely in TypeScript Type Annotations'
     url: https://javascriptweekly.com/link/95868/web
     type: News
+status:
+  send: true

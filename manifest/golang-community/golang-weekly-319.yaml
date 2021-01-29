@@ -75,3 +75,5 @@ spec:
   - title: 'Trubka: A CLI Tool for Working with Kafka'
     url: https://golangweekly.com/link/91363/web
     type: News
+status:
+  send: true

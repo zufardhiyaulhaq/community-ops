@@ -81,3 +81,5 @@ spec:
   - title: 'Piccolo: An Othello (a.k.a. Reversi) AI Written in Go'
     url: https://golangweekly.com/link/93947/web
     type: News
+status:
+  send: true

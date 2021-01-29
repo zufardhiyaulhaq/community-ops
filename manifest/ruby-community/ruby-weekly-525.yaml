@@ -69,3 +69,5 @@ spec:
   - title: 'Re:VIEW 5.0: A Ruby Powered Flexible Document Format/Conversion System'
     url: https://rubyweekly.com/link/97686/web
     type: News
+status:
+  send: true

@@ -75,3 +75,5 @@ spec:
   - title: 'Turf.js: Geospatial Analysis for Browsers and Node.js'
     url: https://nodeweekly.com/link/101332/web
     type: News
+status:
+  send: true

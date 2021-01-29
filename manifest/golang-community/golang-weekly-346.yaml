@@ -75,3 +75,5 @@ spec:
   - title: 'termenv: Advanced ANSI Style and Color Support for Terminal Apps'
     url: https://golangweekly.com/link/101776/web
     type: News
+status:
+  send: true

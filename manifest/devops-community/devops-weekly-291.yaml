@@ -72,3 +72,5 @@ spec:
   - title: 'Qovery Engine: Deploy Your Apps on Cloud Providers in Seconds'
     url: https://weekly.statuscode.com/link/98066/web
     type: News
+status:
+  send: true

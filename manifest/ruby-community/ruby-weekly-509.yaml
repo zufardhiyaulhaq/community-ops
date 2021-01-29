@@ -75,3 +75,5 @@ spec:
   - title: A Ruby Interface to the Google Pay™ for Passes API
     url: https://rubyweekly.com/link/91604/web
     type: News
+status:
+  send: true

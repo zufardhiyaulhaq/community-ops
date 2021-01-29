@@ -90,3 +90,5 @@ spec:
   - title: 'The File System Access API: Simplifying Access to Local Files'
     url: https://javascriptweekly.com/link/98656/web
     type: News
+status:
+  send: true

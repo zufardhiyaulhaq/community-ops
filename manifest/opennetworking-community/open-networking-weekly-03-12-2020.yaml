@@ -15,3 +15,5 @@ spec:
   - title: Community Highlights – November 2020
     url: https://opennetworking.org/uncategorized/community-highlights-november-2020-2/
     type: Open Networking Blog
+status:
+  send: true

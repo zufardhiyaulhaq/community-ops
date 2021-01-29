@@ -63,3 +63,5 @@ spec:
   - title: 'CrawlerDetect: Gem to Detect Bots and Crawlers via the User Agent'
     url: https://rubyweekly.com/link/98125/web
     type: News
+status:
+  send: true

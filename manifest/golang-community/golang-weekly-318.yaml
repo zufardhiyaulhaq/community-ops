@@ -84,3 +84,5 @@ spec:
   - title: 'tcardgen: Generate A Twitter ''Card'' (OGP) Image for Your Hugo Posts'
     url: https://golangweekly.com/link/90909/web
     type: News
+status:
+  send: true

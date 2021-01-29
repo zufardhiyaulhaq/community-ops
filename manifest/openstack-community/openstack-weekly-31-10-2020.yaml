@@ -42,3 +42,5 @@ spec:
   - title: '#OpenInfraSummit Track: AI / Machine Learning, HPC'
     url: https://superuser.openstack.org/articles/openinfrasummit-track-ai-machine-learning-hpc/
     type: OpenStack Super User News
+status:
+  send: true

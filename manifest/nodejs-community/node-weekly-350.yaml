@@ -66,3 +66,5 @@ spec:
   - title: 'Node-Chromium: Package That Downloads and Provides Chromium for Your Project'
     url: https://nodeweekly.com/link/93109/web
     type: News
+status:
+  send: true

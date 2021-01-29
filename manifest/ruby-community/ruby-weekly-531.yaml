@@ -81,3 +81,5 @@ spec:
   - title: '3llo: An Interactive CLI App for Trello'
     url: https://rubyweekly.com/link/100089/web
     type: News
+status:
+  send: true

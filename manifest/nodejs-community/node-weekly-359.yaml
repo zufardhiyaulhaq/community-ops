@@ -63,3 +63,5 @@ spec:
   - title: 'Node Multithreading: What Are Worker Threads & Why Do They Matter?'
     url: https://nodeweekly.com/link/96475/web
     type: News
+status:
+  send: true

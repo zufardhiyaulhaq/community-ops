@@ -93,3 +93,5 @@ spec:
   - title: 'Gemini 4: A ''Currently Playing'' Viewer for Spotify'
     url: https://javascriptweekly.com/link/95516/web
     type: News
+status:
+  send: true

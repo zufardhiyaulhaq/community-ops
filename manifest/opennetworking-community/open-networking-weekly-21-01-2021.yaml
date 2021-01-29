@@ -27,3 +27,5 @@ spec:
   - title: SD-RAN v1.0 Techinar
     url: https://opennetworking.org/events/sd-ran-v1-0-techinar/
     type: Open Networking Event
+status:
+  send: true

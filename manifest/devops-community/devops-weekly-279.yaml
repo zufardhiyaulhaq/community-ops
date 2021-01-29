@@ -78,3 +78,5 @@ spec:
   - title: 'Bevy: A Data-Driven Game Engine and App Framework in Rust'
     url: https://weekly.statuscode.com/link/93329/web
     type: News
+status:
+  send: true

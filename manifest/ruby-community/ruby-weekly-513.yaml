@@ -81,3 +81,5 @@ spec:
   - title: 'Chartkick 3.4: Beautiful JavaScript Charts in One Line of Ruby'
     url: https://rubyweekly.com/link/93061/web
     type: News
+status:
+  send: true

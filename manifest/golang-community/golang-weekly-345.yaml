@@ -75,3 +75,5 @@ spec:
   - title: Find Your Next Job Through Hired
     url: https://golangweekly.com/link/101433/web
     type: News
+status:
+  send: true

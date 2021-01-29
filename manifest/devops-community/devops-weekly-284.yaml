@@ -93,3 +93,5 @@ spec:
   - title: 'Chronograf: Integrated Monitoring and Alerting'
     url: https://weekly.statuscode.com/link/95245/web
     type: News
+status:
+  send: true

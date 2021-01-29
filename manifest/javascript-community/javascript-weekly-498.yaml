@@ -81,3 +81,5 @@ spec:
   - title: 'Handsontable: A Mature Data Grid That Feels Like a Spreadsheet'
     url: https://javascriptweekly.com/link/92481/web
     type: News
+status:
+  send: true

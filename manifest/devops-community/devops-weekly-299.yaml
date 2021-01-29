@@ -78,3 +78,5 @@ spec:
   - title: Find Your Next Job Through Hired
     url: https://weekly.statuscode.com/link/101220/web
     type: News
+status:
+  send: true

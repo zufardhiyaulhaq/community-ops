@@ -60,3 +60,5 @@ spec:
   - title: Find Your Next Job Through Vettery
     url: https://nodeweekly.com/link/97654/web
     type: News
+status:
+  send: true

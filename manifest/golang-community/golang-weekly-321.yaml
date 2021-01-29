@@ -84,3 +84,5 @@ spec:
   - title: 'go-tagexpr: An Interesting Way to Add Tag Expressions to Structs'
     url: https://golangweekly.com/link/92099/web
     type: News
+status:
+  send: true

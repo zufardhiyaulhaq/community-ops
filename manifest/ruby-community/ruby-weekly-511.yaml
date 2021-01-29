@@ -81,3 +81,5 @@ spec:
   - title: 'Truemail 1.8.0: A Configurable Plain Ruby Email Validator'
     url: https://rubyweekly.com/link/92327/web
     type: News
+status:
+  send: true

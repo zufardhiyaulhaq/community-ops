@@ -96,3 +96,5 @@ spec:
   - title: 'NgRx 10 Released: Reactive State for Angular'
     url: https://javascriptweekly.com/link/94752/web
     type: News
+status:
+  send: true

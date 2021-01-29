@@ -81,3 +81,5 @@ spec:
   - title: 'ngrok for VSCode: Public URLs for Local Dev Servers'
     url: https://rubyweekly.com/link/94949/web
     type: News
+status:
+  send: true

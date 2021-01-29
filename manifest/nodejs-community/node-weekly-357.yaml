@@ -66,3 +66,5 @@ spec:
   - title: 'react-nil: A React ''Null Renderer'''
     url: https://nodeweekly.com/link/95718/web
     type: News
+status:
+  send: true

@@ -81,3 +81,5 @@ spec:
   - title: 'q5xjs: A Small and Fast Alternative Implementation of p5.js'
     url: https://javascriptweekly.com/link/96248/web
     type: News
+status:
+  send: true

@@ -57,3 +57,5 @@ spec:
   - title: The 2020 Ruby Advent Calendar
     url: https://rubyweekly.com/link/100707/web
     type: News
+status:
+  send: true

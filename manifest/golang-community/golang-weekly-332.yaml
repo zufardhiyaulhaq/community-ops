@@ -66,3 +66,5 @@ spec:
   - title: 'Jitterbug: Tickers with Random Jitter'
     url: https://golangweekly.com/link/96198/web
     type: News
+status:
+  send: true

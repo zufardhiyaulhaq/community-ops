@@ -93,3 +93,5 @@ spec:
   - title: 'CodeCopy: A Browser Extension That Adds ''Copy to Clipboard'' Buttons on Every Code Block'
     url: https://javascriptweekly.com/link/101873/web
     type: News
+status:
+  send: true

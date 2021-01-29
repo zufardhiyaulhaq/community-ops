@@ -78,3 +78,5 @@ spec:
   - title: 'awesome-nodejs-security: A Curated List of Node.js Security Resources'
     url: https://nodeweekly.com/link/91221/web
     type: News
+status:
+  send: true

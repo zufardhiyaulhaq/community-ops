@@ -87,3 +87,5 @@ spec:
   - title: The Easiest Flappy Bird Tutorial Ever?
     url: https://javascriptweekly.com/link/91767/web
     type: News
+status:
+  send: true

@@ -78,3 +78,5 @@ spec:
   - title: Find Your Next Job Through Hired
     url: https://rubyweekly.com/link/102079/web
     type: News
+status:
+  send: true

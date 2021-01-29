@@ -15,3 +15,5 @@ spec:
   - title: Draft SEBA Reference Design v2.0  Adds BNG Disaggregation, Scaling and New Services for Broadband Access Networks
     url: https://opennetworking.org/news-and-events/blog/draft-seba-reference-design-v2-0-adds-bng-disaggregation-scaling-and-new-services-for-broadband-access-networks/
     type: Open Networking Blog
+status:
+  send: true

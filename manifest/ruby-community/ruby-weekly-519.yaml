@@ -84,3 +84,5 @@ spec:
   - title: 'Circuitry: Decouple Apps Using SNS Fanout with SQS Processing'
     url: https://rubyweekly.com/link/95328/web
     type: News
+status:
+  send: true

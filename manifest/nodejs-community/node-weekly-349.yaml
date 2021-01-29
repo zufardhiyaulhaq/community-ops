@@ -69,3 +69,5 @@ spec:
   - title: 'Hexo 5.0: A Node Powered Blog Framework'
     url: https://nodeweekly.com/link/92748/web
     type: News
+status:
+  send: true

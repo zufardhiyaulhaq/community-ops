@@ -54,3 +54,5 @@ spec:
   - title: 'Project Fonos: An Open-Source Alternative to Twilio'
     url: https://nodeweekly.com/link/97279/web
     type: News
+status:
+  send: true

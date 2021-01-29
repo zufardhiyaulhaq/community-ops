@@ -66,3 +66,5 @@ spec:
   - title: 'gomodifytags 1.11.0: A Go Tool to Modify struct Field Tags'
     url: https://golangweekly.com/link/97377/web
     type: News
+status:
+  send: true

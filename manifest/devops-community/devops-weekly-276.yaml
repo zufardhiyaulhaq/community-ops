@@ -78,3 +78,5 @@ spec:
   - title: The Ultimate Oldschool PC Font Pack 2.0
     url: https://weekly.statuscode.com/link/92273/web
     type: News
+status:
+  send: true

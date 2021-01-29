@@ -90,3 +90,5 @@ spec:
   - title: A Music Video Coded with Go
     url: https://golangweekly.com/link/94671/web
     type: News
+status:
+  send: true

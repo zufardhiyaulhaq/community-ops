@@ -75,3 +75,5 @@ spec:
   - title: 'Spotter: An Alfred/Spotlight-Style Launcher App'
     url: https://nodeweekly.com/link/101732/web
     type: News
+status:
+  send: true

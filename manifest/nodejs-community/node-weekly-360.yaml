@@ -60,3 +60,5 @@ spec:
   - title: 'dotenv-linter: A Lightning-Fast Linter for .env Files'
     url: https://nodeweekly.com/link/96879/web
     type: News
+status:
+  send: true

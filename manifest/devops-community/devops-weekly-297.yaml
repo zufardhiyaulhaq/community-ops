@@ -69,3 +69,5 @@ spec:
   - title: Find a Job Through Vettery
     url: https://weekly.statuscode.com/link/100477/web
     type: News
+status:
+  send: true

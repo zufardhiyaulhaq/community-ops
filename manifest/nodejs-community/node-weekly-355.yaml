@@ -69,3 +69,5 @@ spec:
   - title: 'Neon: Rust Bindings for Writing Safe and Fast Native Node Modules'
     url: https://nodeweekly.com/link/94978/web
     type: News
+status:
+  send: true

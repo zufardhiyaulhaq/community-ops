@@ -90,3 +90,5 @@ spec:
   - title: 'WordSafety: Check a Name for Unwanted Meanings in Other Languages'
     url: https://javascriptweekly.com/link/93204/web
     type: News
+status:
+  send: true

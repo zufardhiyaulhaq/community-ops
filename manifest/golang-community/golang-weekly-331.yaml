@@ -87,3 +87,5 @@ spec:
   - title: 'msfs2020-go: Connect to Microsoft Flight Simulator 2020 From Go'
     url: https://golangweekly.com/link/95819/web
     type: News
+status:
+  send: true

@@ -90,3 +90,5 @@ spec:
   - title: 'Bueno: A Tiny, Composable Validation Library in TypeScript'
     url: https://javascriptweekly.com/link/97035/web
     type: News
+status:
+  send: true

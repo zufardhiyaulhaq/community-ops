@@ -24,3 +24,5 @@ spec:
   - title: Community Member Profile – Himanshu Purohit
     url: https://opennetworking.org/uncategorized/community-member-profile-himanshu-purohit/
     type: Open Networking Blog
+status:
+  send: true

@@ -93,3 +93,5 @@ spec:
   - title: 'KubeDOOM: Kill Kubernetes Pods by Playing DOOM'
     url: https://weekly.statuscode.com/link/96377/web
     type: News
+status:
+  send: true

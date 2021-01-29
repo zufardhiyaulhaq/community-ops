@@ -87,3 +87,5 @@ spec:
   - title: 'activestorage-horcrux: Share Uploads Across Multiple Storage Services'
     url: https://rubyweekly.com/link/93800/web
     type: News
+status:
+  send: true

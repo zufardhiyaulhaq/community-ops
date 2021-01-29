@@ -81,3 +81,5 @@ spec:
   - title: 'gitqlite: Query Git Repositories with SQL'
     url: https://golangweekly.com/link/91678/web
     type: News
+status:
+  send: true

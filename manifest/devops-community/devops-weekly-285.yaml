@@ -90,3 +90,5 @@ spec:
   - title: 'DuckDB: An Embeddable SQL OLAP Database System'
     url: https://weekly.statuscode.com/link/95622/web
     type: News
+status:
+  send: true

@@ -84,3 +84,5 @@ spec:
   - title: 'MyPaas: Run Your Own PaaS using Docker and Traefik'
     url: https://weekly.statuscode.com/link/94103/web
     type: News
+status:
+  send: true

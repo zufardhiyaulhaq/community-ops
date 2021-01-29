@@ -84,3 +84,5 @@ spec:
   - title: Find Your Next Job Through Vettery
     url: https://rubyweekly.com/link/100896/web
     type: News
+status:
+  send: true

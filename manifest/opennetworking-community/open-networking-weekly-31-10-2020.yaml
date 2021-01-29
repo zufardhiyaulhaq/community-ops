@@ -54,3 +54,5 @@ spec:
   - title: 5G Connected Edge Cloud for Industry 4.0 Transformation
     url: https://opennetworking.org/events/spotlight-industry-transformation/
     type: Open Networking Event
+status:
+  send: true

@@ -75,3 +75,5 @@ spec:
   - title: 'go-sqlbuilder: A Flexible SQL String Builder Library'
     url: https://golangweekly.com/link/98229/web
     type: News
+status:
+  send: true

@@ -24,3 +24,5 @@ spec:
   - title: VOLTHA v2.6 Techinar
     url: https://opennetworking.org/events/voltha-v2-6-techinar/
     type: Open Networking Event
+status:
+  send: true

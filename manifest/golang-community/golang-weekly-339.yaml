@@ -84,3 +84,5 @@ spec:
   - title: 'h2go: Apache H2 Go SQL Driver'
     url: https://golangweekly.com/link/99007/web
     type: News
+status:
+  send: true

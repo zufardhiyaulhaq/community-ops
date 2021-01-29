@@ -84,3 +84,5 @@ spec:
   - title: 'ImmortalDB: A Resilient Key-Value Store for the Browser'
     url: https://javascriptweekly.com/link/94005/web
     type: News
+status:
+  send: true

@@ -87,3 +87,5 @@ spec:
   - title: 'Clearance 2.2: E-mail and Password-Based Rails Authentication'
     url: https://rubyweekly.com/link/91998/web
     type: News
+status:
+  send: true

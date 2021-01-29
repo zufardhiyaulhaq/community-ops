@@ -78,3 +78,5 @@ spec:
   - title: 'ProgressBar: A Progress Bar for Your Terminal Apps'
     url: https://rubyweekly.com/link/98869/web
     type: News
+status:
+  send: true

@@ -87,3 +87,5 @@ spec:
   - title: Booting a PC from a Vinyl Record
     url: https://weekly.statuscode.com/link/99116/web
     type: News
+status:
+  send: true

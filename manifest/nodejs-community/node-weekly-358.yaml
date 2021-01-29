@@ -72,3 +72,5 @@ spec:
   - title: 'npkill: Easily Remove Old or Heavy node_modules Folders'
     url: https://nodeweekly.com/link/96121/web
     type: News
+status:
+  send: true

@@ -93,3 +93,5 @@ spec:
   - title: 'Bridgetown v0.18: A Ruby Static Site Generator'
     url: https://rubyweekly.com/link/98486/web
     type: News
+status:
+  send: true

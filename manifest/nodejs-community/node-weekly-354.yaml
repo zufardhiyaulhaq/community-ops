@@ -78,3 +78,5 @@ spec:
   - title: 'EVT: EventEmitter''s Typesafe Replacement'
     url: https://nodeweekly.com/link/94613/web
     type: News
+status:
+  send: true

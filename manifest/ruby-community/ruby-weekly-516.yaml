@@ -87,3 +87,5 @@ spec:
   - title: 'HTTP Headers Verifier: A Way to Verify HTTP Headers'
     url: https://rubyweekly.com/link/94192/web
     type: News
+status:
+  send: true

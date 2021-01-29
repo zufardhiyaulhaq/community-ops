@@ -69,3 +69,5 @@ spec:
   - title: 'WriteFreely: Distraction-Free Writing for the Web'
     url: https://golangweekly.com/link/98569/web
     type: News
+status:
+  send: true

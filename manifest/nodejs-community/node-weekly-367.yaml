@@ -63,3 +63,5 @@ spec:
   - title: Find a Job Through Vettery
     url: https://nodeweekly.com/link/99671/web
     type: News
+status:
+  send: true

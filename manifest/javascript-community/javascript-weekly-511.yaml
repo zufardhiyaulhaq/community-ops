@@ -75,3 +75,5 @@ spec:
   - title: 73 Awesome NPM Packages for Productivity
     url: https://javascriptweekly.com/link/97433/web
     type: News
+status:
+  send: true

@@ -81,3 +81,5 @@ spec:
   - title: A Port of Google's V8 Engine to RISC-V
     url: https://nodeweekly.com/link/100941/web
     type: News
+status:
+  send: true

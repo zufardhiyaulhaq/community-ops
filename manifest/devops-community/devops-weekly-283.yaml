@@ -93,3 +93,5 @@ spec:
   - title: 'k8syaml: A Kubernetes YAML Generator'
     url: https://weekly.statuscode.com/link/94909/web
     type: News
+status:
+  send: true

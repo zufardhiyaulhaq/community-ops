@@ -81,3 +81,5 @@ spec:
   - title: Jekyll 4.1.1 Released
     url: https://rubyweekly.com/link/90855/web
     type: News
+status:
+  send: true

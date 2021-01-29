@@ -18,3 +18,5 @@ spec:
   - title: ONF Year-End Wrap up
     url: https://opennetworking.org/news-and-events/blog/onf-year-end-wrap-up/
     type: Open Networking Blog
+status:
+  send: true

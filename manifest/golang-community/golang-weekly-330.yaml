@@ -87,3 +87,5 @@ spec:
   - title: 'go-immutable-radix 1.3: An Immutable Radix Tree Implementation'
     url: https://golangweekly.com/link/95456/web
     type: News
+status:
+  send: true

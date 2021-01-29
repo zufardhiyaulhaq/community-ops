@@ -15,3 +15,5 @@ spec:
   - title: Mobile World Congress 2021 Barcelona
     url: https://opennetworking.org/events/mobile-world-congress-2021-barcelona/
     type: Open Networking Event
+status:
+  send: true

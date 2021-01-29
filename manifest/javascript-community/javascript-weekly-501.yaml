@@ -81,3 +81,5 @@ spec:
   - title: 'babel-plugin-native-error-extend: Babel Plugin for Native Error Extending'
     url: https://javascriptweekly.com/link/93601/web
     type: News
+status:
+  send: true

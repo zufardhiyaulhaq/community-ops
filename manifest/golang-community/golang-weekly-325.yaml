@@ -84,3 +84,5 @@ spec:
   - title: 'Sarama: A Go Client Library for Apache Kafka 0.8+'
     url: https://golangweekly.com/link/93539/web
     type: News
+status:
+  send: true

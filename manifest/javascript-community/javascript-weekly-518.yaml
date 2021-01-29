@@ -81,3 +81,5 @@ spec:
   - title: Find Your Next Job Through Vettery
     url: https://javascriptweekly.com/link/100275/web
     type: News
+status:
+  send: true

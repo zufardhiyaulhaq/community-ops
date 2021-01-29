@@ -75,3 +75,5 @@ spec:
   - title: ' OVH continues expansion into Australia with Public Cloud launch '
     url: https://www.openstack.org/news/view/415/ovh-continues-expansion-into-australia-with-public-cloud-launch
     type: OpenStack News
+status:
+  send: true

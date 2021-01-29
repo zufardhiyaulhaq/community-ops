@@ -84,3 +84,5 @@ spec:
   - title: 'NSFW-Filter: A Browser Extension That Blocks NSFW Images Locally'
     url: https://javascriptweekly.com/link/92874/web
     type: News
+status:
+  send: true

@@ -90,3 +90,5 @@ spec:
   - title: 'Evergreen: A Distributed Continuous Integration System from MongoDB'
     url: https://weekly.statuscode.com/link/92657/web
     type: News
+status:
+  send: true

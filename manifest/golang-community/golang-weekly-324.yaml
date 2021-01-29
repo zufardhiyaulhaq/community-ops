@@ -84,3 +84,5 @@ spec:
   - title: 'go-mysql-server: An Extensible MySQL Server Implementation in Go'
     url: https://golangweekly.com/link/93229/web
     type: News
+status:
+  send: true

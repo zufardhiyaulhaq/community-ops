@@ -90,3 +90,5 @@ spec:
   - title: 'vSSH: Go Library to Execute Commands Over SSH at Scale'
     url: https://weekly.statuscode.com/link/90639/web
     type: News
+status:
+  send: true

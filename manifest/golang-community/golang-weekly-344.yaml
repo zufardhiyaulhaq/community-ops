@@ -69,3 +69,5 @@ spec:
   - title: Find Your Next Job Through Vettery
     url: https://golangweekly.com/link/101042/web
     type: News
+status:
+  send: true

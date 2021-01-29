@@ -84,3 +84,5 @@ spec:
   - title: 'ParallelTests 3.2: More Cores Equals Faster Tests'
     url: https://rubyweekly.com/link/94563/web
     type: News
+status:
+  send: true

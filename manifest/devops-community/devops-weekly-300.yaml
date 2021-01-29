@@ -87,3 +87,5 @@ spec:
   - title: 'Tejotron: A Virtual Breadboard and 6502 in the Browser'
     url: https://weekly.statuscode.com/link/101602/web
     type: News
+status:
+  send: true

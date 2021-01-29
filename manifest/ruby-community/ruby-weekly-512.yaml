@@ -72,3 +72,5 @@ spec:
   - title: 'dyndnsd.rb 3.0: A Small, Extensible DynDNS Server Powered by Rack'
     url: https://rubyweekly.com/link/92726/web
     type: News
+status:
+  send: true

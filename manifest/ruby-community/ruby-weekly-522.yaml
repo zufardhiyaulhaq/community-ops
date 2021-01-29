@@ -81,3 +81,5 @@ spec:
   - title: 'Rubyzip: A Library for Working with .zip Files'
     url: https://rubyweekly.com/link/96442/web
     type: News
+status:
+  send: true

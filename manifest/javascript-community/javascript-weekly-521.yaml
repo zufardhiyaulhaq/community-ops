@@ -93,3 +93,5 @@ spec:
   - title: Find Your Next Job Through Hired
     url: https://javascriptweekly.com/link/101479/web
     type: News
+status:
+  send: true

@@ -72,3 +72,5 @@ spec:
   - title: 'crypto-hash: A Hashing Module Using the Native Crypto API in Node and Browser'
     url: https://nodeweekly.com/link/93468/web
     type: News
+status:
+  send: true

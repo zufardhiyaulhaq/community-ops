@@ -84,3 +84,5 @@ spec:
   - title: 'quine-relay: An ''Uroboros'' Program with 100+ Programming Languages'
     url: https://weekly.statuscode.com/link/98711/web
     type: News
+status:
+  send: true

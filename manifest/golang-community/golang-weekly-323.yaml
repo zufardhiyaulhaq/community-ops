@@ -87,3 +87,5 @@ spec:
   - title: errgroup with Goroutine Worker Limits
     url: https://golangweekly.com/link/92828/web
     type: News
+status:
+  send: true

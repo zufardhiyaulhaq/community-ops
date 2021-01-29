@@ -66,3 +66,5 @@ spec:
   - title: The Braintree Node.js Library 3.0
     url: https://nodeweekly.com/link/95356/web
     type: News
+status:
+  send: true

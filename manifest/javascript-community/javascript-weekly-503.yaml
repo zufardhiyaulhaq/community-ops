@@ -96,3 +96,5 @@ spec:
   - title: Meteor 1.11 Released
     url: https://javascriptweekly.com/link/94373/web
     type: News
+status:
+  send: true

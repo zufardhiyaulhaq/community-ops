@@ -84,3 +84,5 @@ spec:
   - title: 'AWS App2Container: A New Containerizing Tool for Java & .NET Apps'
     url: https://weekly.statuscode.com/link/91101/web
     type: News
+status:
+  send: true

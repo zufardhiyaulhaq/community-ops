@@ -66,3 +66,5 @@ spec:
   - title: 'fluff: Fast Web Fuzzer Written in Go'
     url: https://golangweekly.com/link/92445/web
     type: News
+status:
+  send: true

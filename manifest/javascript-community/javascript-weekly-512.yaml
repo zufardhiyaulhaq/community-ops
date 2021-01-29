@@ -84,3 +84,5 @@ spec:
   - title: 'sql.js 1.4: A Library to Run SQLite on the Web'
     url: https://javascriptweekly.com/link/97878/web
     type: News
+status:
+  send: true

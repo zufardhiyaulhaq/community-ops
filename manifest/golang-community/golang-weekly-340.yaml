@@ -78,3 +78,5 @@ spec:
   - title: 'CloudQuery: Transforms Your Cloud Infrastructure into SQL Queryable Tables'
     url: https://golangweekly.com/link/99366/web
     type: News
+status:
+  send: true

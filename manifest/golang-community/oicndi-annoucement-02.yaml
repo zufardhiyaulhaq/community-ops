@@ -12,3 +12,5 @@ spec:
   tags:
     - announcement
     - oicndi
+status:
+  send: true

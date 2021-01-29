@@ -72,3 +72,5 @@ spec:
   - title: 'Gitify: GitHub Notifications on Your Desktop'
     url: https://nodeweekly.com/link/92359/web
     type: News
+status:
+  send: true

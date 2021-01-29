@@ -81,3 +81,5 @@ spec:
   - title: 'sqs_clipboard: Use AWS SQS as a Clipboard to Copy and Paste Across Different Systems'
     url: https://golangweekly.com/link/99784/web
     type: News
+status:
+  send: true

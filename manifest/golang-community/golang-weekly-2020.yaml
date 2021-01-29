@@ -72,3 +72,5 @@ spec:
   - title: Find a Job Through Vettery
     url: https://golangweekly.com/link/100606/web
     type: News
+status:
+  send: true

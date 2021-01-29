@@ -81,3 +81,5 @@ spec:
   - title: JRuby 9.2.12.0 Released
     url: https://rubyweekly.com/link/91192/web
     type: News
+status:
+  send: true

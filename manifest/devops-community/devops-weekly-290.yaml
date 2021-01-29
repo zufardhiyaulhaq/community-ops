@@ -84,3 +84,5 @@ spec:
   - title: Notes for People Learning Natural Language Processing (NLP) with Python and NTLK
     url: https://weekly.statuscode.com/link/97579/web
     type: News
+status:
+  send: true

@@ -84,3 +84,5 @@ spec:
   - title: 'nb: A Command Line Note-Taking, Bookmarking, Archiving, and Knowledge Base App'
     url: https://weekly.statuscode.com/link/98385/web
     type: News
+status:
+  send: true

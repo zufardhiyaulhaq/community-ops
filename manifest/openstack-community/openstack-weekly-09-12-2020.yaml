@@ -15,3 +15,5 @@ spec:
   - title: 'OpenStack in Production and Integration with Ceph: A European Weather Cloud User Story'
     url: https://superuser.openstack.org/articles/openstack-in-production-and-integration-with-ceph-a-european-weather-cloud-user-story/
     type: OpenStack Super User News
+status:
+  send: true

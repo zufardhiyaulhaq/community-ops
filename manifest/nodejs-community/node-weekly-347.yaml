@@ -66,3 +66,5 @@ spec:
   - title: 'node-pg-migrate: Node Powered Database Migration Management for Postgres'
     url: https://nodeweekly.com/link/92022/web
     type: News
+status:
+  send: true

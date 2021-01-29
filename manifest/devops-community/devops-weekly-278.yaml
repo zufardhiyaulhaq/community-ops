@@ -87,3 +87,5 @@ spec:
   - title: 'JSON Schema Store: Schemas for All Commonly Known JSON File Formats'
     url: https://weekly.statuscode.com/link/92934/web
     type: News
+status:
+  send: true

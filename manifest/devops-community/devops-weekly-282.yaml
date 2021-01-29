@@ -81,3 +81,5 @@ spec:
   - title: 'Debug Visualizer 2.0: Visualize Data Structures Live in VS Code'
     url: https://weekly.statuscode.com/link/94463/web
     type: News
+status:
+  send: true

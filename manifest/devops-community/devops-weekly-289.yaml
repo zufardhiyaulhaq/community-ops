@@ -75,3 +75,5 @@ spec:
   - title: 'Bunkerized-NGINX: A ''Secure by Default'' NGINX Docker Image'
     url: https://weekly.statuscode.com/link/97169/web
     type: News
+status:
+  send: true

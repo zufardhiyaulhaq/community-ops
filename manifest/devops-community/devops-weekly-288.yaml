@@ -78,3 +78,5 @@ spec:
   - title: 'Blades: A ''Blazing Fast'' Simple Static Site Generator Built with Rust'
     url: https://weekly.statuscode.com/link/96781/web
     type: News
+status:
+  send: true

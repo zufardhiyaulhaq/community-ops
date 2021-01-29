@@ -87,3 +87,5 @@ spec:
   - title: 'Rubyist: Powerful iOS Automation for Ruby Enthusiasts?'
     url: https://rubyweekly.com/link/99284/web
     type: News
+status:
+  send: true

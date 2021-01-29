@@ -48,3 +48,5 @@ spec:
   - title: Open Networking Foundation announces new Continuous Certification Program
     url: https://cloud7.news/cloud/open-networking-foundation-announces-new-continuous-certification-program/
     type: Open Networking News
+status:
+  send: true

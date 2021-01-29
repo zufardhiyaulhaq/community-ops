@@ -84,3 +84,5 @@ spec:
   - title: 'Pomerium: An Identity-Aware Secure Access Proxy'
     url: https://weekly.statuscode.com/link/93667/web
     type: News
+status:
+  send: true

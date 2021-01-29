@@ -87,3 +87,5 @@ spec:
   - title: 'Tweakpane: A Compact GUI for Fine-Tuning Parameters and Monitoring Values'
     url: https://javascriptweekly.com/link/95109/web
     type: News
+status:
+  send: true
