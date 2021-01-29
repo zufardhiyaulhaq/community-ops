@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-25-11-2020
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 25-11-2020
+  date: 11/25/2020
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: Running Percona Kubernetes Operator for Percona XtraDB Cluster with Kata Containers
+    url: https://superuser.openstack.org/articles/running-percona-kubernetes-operator-for-percona-xtradb-cluster-with-kata-containers/
+    type: OpenStack Super User News
