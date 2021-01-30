@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-#248
+  namespace: kubernetes-community
+spec:
+  name: 'kubeweekly #248'
+  date: 01/30/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Kubernetes Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: 'Maintainer Spotlight: Kevin Wang of KubeEdge and Volcano'
+    url: https://www.cncf.io/blog/2021/01/25/maintainer-spotlight-kevin-wang-of-kubeedge-and-volcano/
+    type: The headlines
+  - title: Operator integration testing for Operator Lifecycle Manager
+    url: https://developers.redhat.com/blog/2021/01/18/operator-integration-testing-for-operator-lifecycle-manager/
+    type: The technical
+  - title: Kubernetes and GitOps with Flux CD V2.0
+    url: https://raynix.info/archives/3769
+    type: The technical
+  - title: Kubernetes at scale using Rancher Fleet
+    url: https://youtu.be/ekpYuynQQ1I
+    type: The technical
+  - title: Database Migrations Using Screwdriver and Kubernetes
+    url: https://www.verizonmedia.com/technology/blog/database-migrations-using-screwdriver-kubernetes?
+    type: The technical
+  - title: 'Firecracker: start a VM in less than a second'
+    url: https://jvns.ca/blog/2021/01/23/firecracker--start-a-vm-in-less-than-a-second/
+    type: The technical
+  - title: Scaling Kubernetes to 7,500 Nodes
+    url: https://openai.com/blog/scaling-kubernetes-to-7500-nodes/
+    type: The technical
+  - title: Docker security scanning cheat sheet 2021
+    url: https://snyk.io/blog/docker-security-scanning-cheatsheet-2021/
+    type: The technical
+  - title: How to unit-test your helm charts with Golang
+    url: https://blog.heyal.co.uk/unit-testing-helm-charts
+    type: The technical
+  - title: Create Kubernetes federated clusters on AWS
+    url: https://particule.io/en/blog/aws-federated-eks/ 
+    type: The technical
+  - title: Self-Service Velero Backups with Kyverno
+    url: https://nirmata.com/2021/01/24/self-service-velero-backups-with-kyverno/ 
+    type: The technical
+  - title: 'CNCF Live webinar: Kubernetes 1.20 '
+    url: https://community.cncf.io/events/details/cncf-cncf-online-programs-presents-cncf-live-webinar-kubernetes-120/
+    type: 'ICYMI: CNCF online programs this week'
+  - title: Cloud Native Infrastructure in the Data Center with Cluster API & Tinkerbell (CAPT) (livestream)
+    url: https://community.cncf.io/events/details/cncf-cncf-online-programs-presents-this-week-in-cloud-native-cloud-native-infrastructure-in-the-data-center-with-cluster-api-tinkerbell-capt/
+    type: 'ICYMI: CNCF online programs this week'
+  - title: Siri, Storage, and Solutions, with Josh Bernstein
+    url: https://kubernetespodcast.com/episode/135-siri-storage-and-solutions/
+    type: The editorial
+  - title: Nvidia Views Kubernetes as Key to GPU Accelerated AI Scale
+    url: https://www.sdxcentral.com/articles/news/nvidia-views-kubernetes-as-key-to-gpu-accelerated-ai-scale/2021/01/
+    type: The editorial
+  - title: Closed Box Monitoring, the Artist Formerly Known as Black Box Monitoring
+    url: https://www.openshift.com/blog/closed-box-monitoring-the-artist-formerly-known-as-black-box-monitoring
+    type: The editorial
+  - title: Announcing Vitess 9
+    url: https://www.cncf.io/blog/2021/01/26/announcing-vitess-9/ 
+    type: The editorial
+  - title: 'Mentorship Spotlight: CommunityBridge Mentee with Keptn'
+    url: https://www.cncf.io/blog/2021/01/28/communitybridge-mentee-with-keptn/ 
+    type: The editorial
+  - title: '# 63 – From Prometheus to Thanos with Simon Pasquier (in French)'
+    url: https://electro-monkeys.fr/?p=571 
+    type: The editorial
+  - title: What is GitOps?
+    url: https://www.youtube.com/watch?v=hLs4fkhcUmE&feature=youtu.be
+    type: The editorial
+  - title: 'The Cloud Native Landscape: The Application Definition and Development Layer'
+    url: https://thenewstack.io/the-cloud-native-landscape-the-application-definition-and-development-layer/
+    type: The editorial
+  - title: Kubernetes Begins Year With A Bang — And You Can Expect More
+    url: https://news.crunchbase.com/news/kubernetes-begins-year-with-a-bang-and-you-can-expect-more/ 
+    type: The editorial
+  - title: Linkerd User Survey 2021- Take the survey
+    url: https://docs.google.com/forms/d/e/1FAIpQLSfofwKQDOrAN9E9Vg1041623A3-8nmEAxlAbvXw-S9r3QnT9g/viewform 
+    type: The editorial
