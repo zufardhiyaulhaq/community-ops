@@ -694,8 +694,8 @@ content:
 - title: 'Inside Open Infrastructure: The latest from the OpenInfra Foundation'
   url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: Magma Developers Conference Agenda Highlights Community Development Momentum and Production Use Cases
   url: https://superuser.openstack.org/articles/magma-developers-conference-agenda-highlights-community-development-momentum-and-production-use-cases/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
