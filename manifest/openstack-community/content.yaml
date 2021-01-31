@@ -691,3 +691,11 @@ content:
   url: https://superuser.openstack.org/articles/new-in-openinfra-vexxhosts-public-cloud-revamp-includes-a-lot-more-than-the-new-data-center-in-amsterdam/
   kind: OpenStack Super User News
   isDelivered: true
+- title: 'Inside Open Infrastructure: The latest from the OpenInfra Foundation'
+  url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: Magma Developers Conference Agenda Highlights Community Development Momentum and Production Use Cases
+  url: https://superuser.openstack.org/articles/magma-developers-conference-agenda-highlights-community-development-momentum-and-production-use-cases/
+  kind: OpenStack Super User News
+  isDelivered: false
