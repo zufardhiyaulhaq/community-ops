@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-347
+  namespace: golang-community
+spec:
+  name: Golang Weekly 347
+  date: 01/31/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Go 1.16 Release Candidate 1 Released
+    url: https://golangweekly.com/link/102161/web
+    type: News
+  - title: 'Building REST Servers in Go: A Series'
+    url: https://golangweekly.com/link/102163/web
+    type: News
+  - title: Combining GoLang, REST, NoSQL and Serverless
+    url: https://golangweekly.com/link/102166/web
+    type: News
+  - title: A Tour of Go 1.16's io/fs Package
+    url: https://golangweekly.com/link/102167/web
+    type: News
+  - title: 'LearnGo: A Large Collection of Go Examples, Exercises, and Quizzes'
+    url: https://golangweekly.com/link/102168/web
+    type: News
+  - title: 'Featherweight Go: Understanding Generics in Go'
+    url: https://golangweekly.com/link/102175/web
+    type: News
+  - title: How to Integrate with GitHub 'The Right Way' with GitHub Apps
+    url: https://golangweekly.com/link/102176/web
+    type: News
+  - title: 'Feb 16: Managing Software Development in a High‑Compliance Environment'
+    url: https://golangweekly.com/link/102177/web
+    type: News
+  - title: An Introduction to Go Debugging with Delve
+    url: https://golangweekly.com/link/102178/web
+    type: News
+  - title: Real-World SQL in Go
+    url: https://golangweekly.com/link/102180/web
+    type: News
+  - title: Working with Embed in Go 1.16
+    url: https://golangweekly.com/link/102181/web
+    type: News
+  - title: 'Goful: A Console UI Orthodox File Manager'
+    url: https://golangweekly.com/link/102183/web
+    type: News
+  - title: 'go-reddit 2.0: A Library for Using the Reddit API'
+    url: https://golangweekly.com/link/102185/web
+    type: News
+  - title: Project Management Without All the Management
+    url: https://golangweekly.com/link/102186/web
+    type: News
+  - title: 'JuiceFS: A Distributed POSIX File System Built on top of Redis and Object Storage'
+    url: https://golangweekly.com/link/102187/web
+    type: News
+  - title: 'Wire 0.5.0: Compile-Time Dependency Injection for Go'
+    url: https://golangweekly.com/link/102188/web
+    type: News
+  - title: 'Introducing go-financial: A Native Go Port of numpy-financial'
+    url: https://golangweekly.com/link/102190/web
+    type: News
+  - title: 'Maddy: A Composable All-in-One Mail Server'
+    url: https://golangweekly.com/link/102191/web
+    type: News
+  - title: 'Vitess 9: Database Clustering System for Horizontal Scaling of MySQL'
+    url: https://golangweekly.com/link/102192/web
+    type: News
+  - title: Senior Software Engineer (Remote, Germany)
+    url: https://golangweekly.com/link/102196/web
+    type: News
+  - title: Golang Developer at X-Team (Remote)
+    url: https://golangweekly.com/link/102194/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://golangweekly.com/link/102195/web
+    type: News
