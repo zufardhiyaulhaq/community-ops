@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-373
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 373
+  date: 02/01/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: It's Time to Take the Node.js 2021 User Survey
+    url: https://nodeweekly.com/link/102102/web
+    type: News
+  - title: 'parse-xml 3.0: A Fast, Compliant XML Parser'
+    url: https://nodeweekly.com/link/102105/web
+    type: News
+  - title: Track Redis Memory Use with RedisGreen
+    url: https://nodeweekly.com/link/102107/web
+    type: News
+  - title: Cypress vs Selenium vs Playwright vs Puppeteer Speed Comparison
+    url: https://nodeweekly.com/link/102108/web
+    type: News
+  - title: Node v15.7.0 (Current) Released
+    url: https://nodeweekly.com/link/102110/web
+    type: News
+  - title: Deno 1.7 Released
+    url: https://nodeweekly.com/link/102114/web
+    type: News
+  - title: Node.js Developer at X-Team (Remote)
+    url: https://nodeweekly.com/link/102115/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://nodeweekly.com/link/102116/web
+    type: News
+  - title: Practical Aspect Oriented Programming in JavaScript
+    url: https://nodeweekly.com/link/102117/web
+    type: News
+  - title: Capturing Hacker News Mentions with Node and MongoDB
+    url: https://nodeweekly.com/link/102119/web
+    type: News
+  - title: Testing Sails Applications with Mocha and SuperTest
+    url: https://nodeweekly.com/link/102121/web
+    type: News
+  - title: The Ultimate Guide to Cardinality for Observability
+    url: https://nodeweekly.com/link/102123/web
+    type: News
+  - title: Migrating Puppeteer to TypeScript
+    url: https://nodeweekly.com/link/102124/web
+    type: News
+  - title: A Possible LFR and RCE Vulnerability If Using Express with Handlebars via hbs?
+    url: https://nodeweekly.com/link/102125/web
+    type: News
+  - title: 'Docker for Node.js Developers: 5 Things You Need to Know'
+    url: https://nodeweekly.com/link/102126/web
+    type: News
+  - title: 'napi-nim: How to Write Native Node Extensions in Nim'
+    url: https://nodeweekly.com/link/102128/web
+    type: News
+  - title: A Flappy Bird Clone using Raylib
+    url: https://nodeweekly.com/link/102130/web
+    type: News
+  - title: Video for Your Node App That Streams Beautifully, Everywhere
+    url: https://nodeweekly.com/link/102132/web
+    type: News
+  - title: 'Middy 2.0 Now in Alpha: Node Middleware for AWS Lambda'
+    url: https://nodeweekly.com/link/102133/web
+    type: News
+  - title: 'string-similarity: Finds Degree of Similarity Between Two Strings'
+    url: https://nodeweekly.com/link/102135/web
+    type: News
+  - title: 'Opus 0.4: Native Opus Bindings for Node'
+    url: https://nodeweekly.com/link/102137/web
+    type: News
+  - title: 'Trilium Notes: A Knowledge Base App Built on Express.js'
+    url: https://nodeweekly.com/link/102138/web
+    type: News
