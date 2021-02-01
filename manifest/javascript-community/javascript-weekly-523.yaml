@@ -1,0 +1,92 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-523
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 523
+  date: 02/01/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: TOAST UI Chart 4.0 Released
+    url: https://javascriptweekly.com/link/102298/web
+    type: News
+  - title: undefined vs. null Revisited
+    url: https://javascriptweekly.com/link/102250/web
+    type: News
+  - title: Combining React, GraphQL, NoSQL and Serverless
+    url: https://javascriptweekly.com/link/102251/web
+    type: News
+  - title: Deno 1.7 Released
+    url: https://javascriptweekly.com/link/102252/web
+    type: News
+  - title: Cypress vs Selenium vs Playwright vs Puppeteer Speed Comparison
+    url: https://javascriptweekly.com/link/102253/web
+    type: News
+  - title: 10 Bad TypeScript Habits to Break This Year
+    url: https://javascriptweekly.com/link/102255/web
+    type: News
+  - title: JavaScript Developer at X-Team (Remote)
+    url: https://javascriptweekly.com/link/102259/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://javascriptweekly.com/link/102260/web
+    type: News
+  - title: A Walkthrough of Migrating MaxRozen.com from Gatsby to Next.js
+    url: https://javascriptweekly.com/link/102261/web
+    type: News
+  - title: Get Started with Modding Factorio using TypeScript
+    url: https://javascriptweekly.com/link/102262/web
+    type: News
+  - title: Creating Custom RxJS Operators
+    url: https://javascriptweekly.com/link/102265/web
+    type: News
+  - title: An Introduction to the Rollup.js Bundler
+    url: https://javascriptweekly.com/link/102266/web
+    type: News
+  - title: A Big List of HTTP Static Server One-Liners
+    url: https://javascriptweekly.com/link/102268/web
+    type: News
+  - title: The Ultimate Guide to Cardinality for Observability
+    url: https://javascriptweekly.com/link/102269/web
+    type: News
+  - title: Rendering Colorful Twisted Spheres with Three.js
+    url: https://javascriptweekly.com/link/102270/web
+    type: News
+  - title: Getting Started with Netlify Functions for Angular
+    url: https://javascriptweekly.com/link/102271/web
+    type: News
+  - title: 'RunJS: A JavaScript ''Scratchpad'' Desktop Tool'
+    url: https://javascriptweekly.com/link/102275/web
+    type: News
+  - title: 'react-editor-js: Unofficial Editor.js Component for React'
+    url: https://javascriptweekly.com/link/102276/web
+    type: News
+  - title: Fast and Reliable Feature Management for the Modern Enterprise
+    url: https://javascriptweekly.com/link/102279/web
+    type: News
+  - title: 'Source Map Visualization: Upload and View JavaScript/CSS Source Map Data'
+    url: https://javascriptweekly.com/link/102280/web
+    type: News
+  - title: CKEditor 5 v25.0.0 Released
+    url: https://javascriptweekly.com/link/102281/web
+    type: News
+  - title: 'vue-easytable 2.0: A Flexible Vue 2.x Table Component'
+    url: https://javascriptweekly.com/link/102283/web
+    type: News
+  - title: 'Cheval 2.0: ''Copy to The Clipboard'' using JavaScript Without Writing JS'
+    url: https://javascriptweekly.com/link/102287/web
+    type: News
+  - title: 'post-me: Communicate with Web Workers and Other Windows'
+    url: https://javascriptweekly.com/link/102288/web
+    type: News
+  - title: Scout APM - Leading Edge Performance Monitoring Starting at $39/Month
+    url: https://javascriptweekly.com/link/102289/web
+    type: News
+  - title: 'vue-content-loader 2.0: SVG-based ''Loading Placeholder'' Component'
+    url: https://javascriptweekly.com/link/102290/web
+    type: News
