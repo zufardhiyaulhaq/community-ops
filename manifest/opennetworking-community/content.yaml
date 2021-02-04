@@ -210,16 +210,16 @@ content:
 - title: Turkish GSM giant makes global move in network tech
   url: https://www.yenisafak.com/en/news/turkish-gsm-giant-makes-global-move-in-network-tech-3559690
   kind: Open Networking News
-  isDelivered: false
+  isDelivered: true
 - title: 'A world first: Open Source SEBA technology with Türk Telekom in Turkey'
   url: https://medya.turktelekom.com.tr/dunyada-bir-ilk-acik-kaynak-seba-teknolojisi-turk-telekom-ile-turkiyede/
   kind: Open Networking News
-  isDelivered: false
+  isDelivered: true
 - title: Community Highlights – January 2021
   url: https://opennetworking.org/news-and-events/blog/community-highlights-january-2021/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: Deutsche Telekom Announces Access 4.0 in Production, Leveraging ONF’s VOLTHA Open Source Software Stack and SEBA Reference Design
   url: https://opennetworking.org/news-and-events/blog/deutsche-telekom-announces-access-4-0-in-production-leveraging-onfs-voltha-open-source-software-stack-and-seba-reference-design/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
