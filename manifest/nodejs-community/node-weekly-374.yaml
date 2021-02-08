@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-374
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 374
+  date: 02/08/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: npm 7 Now 'Generally Available'
+    url: https://nodeweekly.com/link/102474/web
+    type: News
+  - title: Node 14.x Runtime Now Available in AWS Lambda
+    url: https://nodeweekly.com/link/102478/web
+    type: News
+  - title: Troubleshoot Node.js App Performance with Datadog APM
+    url: https://nodeweekly.com/link/102481/web
+    type: News
+  - title: Node v15.8.0 (Current) Released
+    url: https://nodeweekly.com/link/102482/web
+    type: News
+  - title: 'Awesome Node: Over 600 Curated Node Packages, Resources and Links'
+    url: https://nodeweekly.com/link/102485/web
+    type: News
+  - title: Node(Source) By the Numbers 2020
+    url: https://nodeweekly.com/link/102486/web
+    type: News
+  - title: Node.js Developer at X-Team (Remote)
+    url: https://nodeweekly.com/link/102509/web
+    type: News
+  - title: Find a Job Through Hired
+    url: https://nodeweekly.com/link/102487/web
+    type: News
+  - title: Don't Use Functions As Callbacks Unless They're Designed for It
+    url: https://nodeweekly.com/link/102488/web
+    type: News
+  - title: 'Experimenting with Remote Debugging: Node.js Runtime Code Injection'
+    url: https://nodeweekly.com/link/102489/web
+    type: News
+  - title: The Ultimate Guide to Cardinality for Observability
+    url: https://nodeweekly.com/link/102490/web
+    type: News
+  - title: Using Vue 3 with Electron to Build a Desktop App
+    url: https://nodeweekly.com/link/102491/web
+    type: News
+  - title: Zero-Downtime Deploys with DigitalOcean, GitHub, and Docker
+    url: https://nodeweekly.com/link/102492/web
+    type: News
+  - title: 'Miss Piggy: A Test Runner for Puppeteer'
+    url: https://nodeweekly.com/link/102496/web
+    type: News
+  - title: 'Envalid 7.0: Environment Variable Validation'
+    url: https://nodeweekly.com/link/102497/web
+    type: News
+  - title: 'Release Please 10.0: A Release Automation Tool from Google'
+    url: https://nodeweekly.com/link/102499/web
+    type: News
+  - title: 'Scout APM: A Node Developer’s Best Friend. Try Free for 14 Days'
+    url: https://nodeweekly.com/link/102502/web
+    type: News
+  - title: 'Introducing Sqlcommenter: An Open Source ORM Auto-Instrumentation Library'
+    url: https://nodeweekly.com/link/102503/web
+    type: News
+  - title: 'eslint-config-auto: Automatically Configure ESLint Based on Project Dependencies'
+    url: https://nodeweekly.com/link/102505/web
+    type: News
+  - title: 'pg-boss 5.1.0: Postgres + Node Job Queueing System'
+    url: https://nodeweekly.com/link/102506/web
+    type: News
+  - title: 'pg-anonymizer: Anonymized Data Dumping from Postgres'
+    url: https://nodeweekly.com/link/102507/web
+    type: News
