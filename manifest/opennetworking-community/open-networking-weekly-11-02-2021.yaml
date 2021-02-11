@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-11-02-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 11-02-2021
+  date: 02/11/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Türk Telekom Announces Production Broadband Network Based on ONF’s  SEBA Reference Design and Using VOLTHA and ONOS Open Source Platforms
+    url: https://opennetworking.org/news-and-events/blog/turk-telekom-announces-production-broadband-network-based-on-onfs-seba-reference-design-and-using-voltha-and-onos-open-source-platforms/
+    type: Open Networking Blog
