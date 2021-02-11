@@ -223,3 +223,7 @@ content:
   url: https://opennetworking.org/news-and-events/blog/deutsche-telekom-announces-access-4-0-in-production-leveraging-onfs-voltha-open-source-software-stack-and-seba-reference-design/
   kind: Open Networking Blog
   isDelivered: true
+- title: Türk Telekom Announces Production Broadband Network Based on ONF’s  SEBA Reference Design and Using VOLTHA and ONOS Open Source Platforms
+  url: https://opennetworking.org/news-and-events/blog/turk-telekom-announces-production-broadband-network-based-on-onfs-seba-reference-design-and-using-voltha-and-onos-open-source-platforms/
+  kind: Open Networking Blog
+  isDelivered: false
