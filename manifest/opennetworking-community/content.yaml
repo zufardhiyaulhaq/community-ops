@@ -226,4 +226,4 @@ content:
 - title: Türk Telekom Announces Production Broadband Network Based on ONF’s  SEBA Reference Design and Using VOLTHA and ONOS Open Source Platforms
   url: https://opennetworking.org/news-and-events/blog/turk-telekom-announces-production-broadband-network-based-on-onfs-seba-reference-design-and-using-voltha-and-onos-open-source-platforms/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
