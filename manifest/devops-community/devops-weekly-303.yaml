@@ -1,0 +1,86 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-303
+  namespace: devops-community
+spec:
+  name: Devops Weekly 303
+  date: 02/13/2021
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: The Rust Foundation Says 'Hello World!'
+    url: https://weekly.statuscode.com/link/102761/web
+    type: News
+  - title: Achieving 11M IOPS and 66 GB/s IO on a Single Workstation
+    url: https://weekly.statuscode.com/link/102762/web
+    type: News
+  - title: Fast, Reliable Feature Management for the Modern Enterprise
+    url: https://weekly.statuscode.com/link/102763/web
+    type: News
+  - title: How a Researcher Hacked Over 35 Tech Firms in Novel Supply Chain Attack
+    url: https://weekly.statuscode.com/link/102764/web
+    type: News
+  - title: How Chromium Reduced Root DNS Traffic by 40%+
+    url: https://weekly.statuscode.com/link/102842/web
+    type: News
+  - title: Why Your Project Needs an ARCHITECTURE.md File
+    url: https://weekly.statuscode.com/link/102771/web
+    type: News
+  - title: 'From First Principles: Why Scala?'
+    url: https://weekly.statuscode.com/link/102773/web
+    type: News
+  - title: The Missing Guide to AWS API Gateway Access Logs
+    url: https://weekly.statuscode.com/link/102774/web
+    type: News
+  - title: Why Every Developer Needs to Be a Generalist
+    url: https://weekly.statuscode.com/link/102775/web
+    type: News
+  - title: Learning to Code and Write Games for the Nintendo Game Boy
+    url: https://weekly.statuscode.com/link/102776/web
+    type: News
+  - title: An Atonement of nano
+    url: https://weekly.statuscode.com/link/102778/web
+    type: News
+  - title: Using macOS APIs and Building macOS apps with Go
+    url: https://weekly.statuscode.com/link/102780/web
+    type: News
+  - title: The Journey to Raspberry Silicon
+    url: https://weekly.statuscode.com/link/102782/web
+    type: News
+  - title: A POSIX Threads Programming Tutorial
+    url: https://weekly.statuscode.com/link/102784/web
+    type: News
+  - title: 'github1s: One Second to Browse any GitHub Repo with VS Code'
+    url: https://weekly.statuscode.com/link/102790/web
+    type: News
+  - title: Amazon EC2 Instance Comparison Tool
+    url: https://weekly.statuscode.com/link/102792/web
+    type: News
+  - title: 'Feb 16: Managing Software Development in a High-Compliance Environment'
+    url: https://weekly.statuscode.com/link/102794/web
+    type: News
+  - title: 'Haxe 4.2.0 Released: The Cross Platform, Multi-Targeted Language'
+    url: https://weekly.statuscode.com/link/102795/web
+    type: News
+  - title: Homebrew 3.0.0 Released
+    url: https://weekly.statuscode.com/link/102796/web
+    type: News
+  - title: 'yq: A Portable Command-Line YAML Processor'
+    url: https://weekly.statuscode.com/link/102797/web
+    type: News
+  - title: 'Colorpedia: A Command-Line Tool for Looking Up Colors and Palettes'
+    url: https://weekly.statuscode.com/link/102800/web
+    type: News
+  - title: 'Bref 1.2: Serverless PHP Made Simple'
+    url: https://weekly.statuscode.com/link/102801/web
+    type: News
+  - title: 'NGINX Proxy Manager 2.8.0: A Docker Container for Managing NGINX Proxy Hosts with A Simple Interface'
+    url: https://weekly.statuscode.com/link/102803/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://weekly.statuscode.com/link/102804/web
+    type: News
