@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-349
+  namespace: golang-community
+spec:
+  name: Golang Weekly 349
+  date: 02/14/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: The Generics Proposal is Now Really, Truly Accepted
+    url: https://golangweekly.com/link/103039/web
+    type: News
+  - title: 'Indecent (Language) Proposals: A Discussion'
+    url: https://golangweekly.com/link/103040/web
+    type: News
+  - title: Video for Your Go App
+    url: https://golangweekly.com/link/103041/web
+    type: News
+  - title: Why I Built Litestream, a Streaming Replication System for SQLite
+    url: https://golangweekly.com/link/103042/web
+    type: News
+  - title: Building REST Servers in Go using OpenAPI and Swagger
+    url: https://golangweekly.com/link/103044/web
+    type: News
+  - title: 'Go Internals: Invariance and Memory Layout of Slices'
+    url: https://golangweekly.com/link/103049/web
+    type: News
+  - title: 'Repository Secure by Design: How to Sleep Better Without Fear of Security Vulnerabilities'
+    url: https://golangweekly.com/link/103050/web
+    type: News
+  - title: Build a Go App with CockroachDB & GORM
+    url: https://golangweekly.com/link/103051/web
+    type: News
+  - title: Getting Started with libp2p
+    url: https://golangweekly.com/link/103052/web
+    type: News
+  - title: Testing Anti-Patterns in Go
+    url: https://golangweekly.com/link/103054/web
+    type: News
+  - title: Why Your Project Needs an ARCHITECTURE.md File
+    url: https://golangweekly.com/link/103055/web
+    type: News
+  - title: rqlite 5.10.0 Released
+    url: https://golangweekly.com/link/103058/web
+    type: News
+  - title: 'v8go 0.5: Execute JavaScript from Go'
+    url: https://golangweekly.com/link/103066/web
+    type: News
+  - title: 'Wasmer Go 1.0: A WebAssembly Runtime for Go'
+    url: https://golangweekly.com/link/103059/web
+    type: News
+  - title: The Three Essentials for Achieving Full-Stack Observability
+    url: https://golangweekly.com/link/103062/web
+    type: News
+  - title: 'copyist: A Way to Mock Your SQL Database in Go Tests'
+    url: https://golangweekly.com/link/103061/web
+    type: News
+  - title: 'Solr-Go 0.2 Released: A Solr Client for Go'
+    url: https://golangweekly.com/link/103063/web
+    type: News
+  - title: 'Fiber 2.5.0: An Express.js Inspired Web Framework'
+    url: https://golangweekly.com/link/103065/web
+    type: News
+  - title: 'Resty 2.5: Simple HTTP and REST Client Library for Go'
+    url: https://golangweekly.com/link/103069/web
+    type: News
+  - title: Senior Software Engineer (Go) - 100% Remote, UK/EU Only
+    url: https://golangweekly.com/link/103070/web
+    type: News
+  - title: Golang Developer at X-Team (Remote)
+    url: https://golangweekly.com/link/103071/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://golangweekly.com/link/103072/web
+    type: News
