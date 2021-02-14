@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-250
+  namespace: kubernetes-community
+spec:
+  name: kubeweekly 250
+  date: 02/14/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Last chance to register for KubeCon + CloudNativeCon Europe 2021 – Virtual for $10!
+    url: https://www.cvent.com/d/hjqknn/4W?ct=63aa65b5-fc54-41a0-b155-32d905d16277&RefID=kw020421
+    type: The headlines
+  - title: Cloud Native Rust Day
+    url: https://events.linuxfoundation.org/cloud-native-rust-day/
+    type: The headlines
+  - title: Cloud Native Security Day Europe
+    url: https://events.linuxfoundation.org/cloud-native-security-day-europe/
+    type: The headlines
+  - title: Cloud Native Wasm Day
+    url: https://events.linuxfoundation.org/cloud-native-wasm-day/
+    type: The headlines
+  - title: FluentCon Cloud Native Logging day with Fluent Bit & Fluentd
+    url: https://events.linuxfoundation.org/fluentcon/
+    type: The headlines
+  - title: Kubernetes AI Day
+    url: https://events.linuxfoundation.org/kubernetes-ai-day/
+    type: The headlines
+  - title: Kubernetes on Edge Day
+    url: https://events.linuxfoundation.org/kubernetes-on-edge-day/
+    type: The headlines
+  - title: ServiceMeshCon Europe
+    url: https://events.linuxfoundation.org/servicemeshcon-europe/
+    type: The headlines
+  - title: Getting started with Kubernetes audit logs and Falco
+    url: https://sysdig.com/blog/kubernetes-audit-log-falco/
+    type: The technical
+  - title: Building container images in Go
+    url: https://ahmet.im/blog/building-container-images-in-go/
+    type: The technical
+  - title: 'Cloud Development Environments: Using Skaffold and Telepresence on Kubernetes for fast dev loops'
+    url: https://blog.getambassador.io/super-fast-inner-development-loops-for-kubernetes-with-skaffold-and-telepresence-1cd3e42ba665 
+    type: The technical
+  - title: Achieving Cloud Native Security and Compliance with Teleport
+    url: https://www.infracloud.io/blogs/achieving-cloud-native-security-compliance-teleport/
+    type: The technical
+  - title: Kubernetes Liveness Probes – Examples & Common Pitfalls
+    url: https://loft.sh/blog/kubernetes-liveness-probes-examples-common-pitfalls/index-1/
+    type: The technical
+  - title: Let’s Learn Harvester
+    url: https://youtu.be/87_ODymEGC0
+    type: The technical
+  - title: How to Manage Kubernetes Application Lifecycle Using Carvel
+    url: https://community.cncf.io/events/details/cncf-cncf-online-programs-presents-cncf-live-webinar-how-to-manage-kubernetes-application-lifecycle-using-carvel/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_HBVKRXAD06_CpuwK_EwXMGM-hEpOtjwyOkwa6ITw9rv9WMi3Iea2ZUlAh39jPBswmTSEI#/
+    type: 'ICYMI: CNCF online programs this week'
+  - title: Debugging Kubernetes On The Fly
+    url: https://community.cncf.io/events/details/cncf-cncf-online-programs-presents-cncf-on-demand-webinar-debugging-kubernetes-on-the-fly/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_HBVKRXAD06_CpuwK_EwXMGM-hEpOtjwyOkwa6ITw9rv9WMi3Iea2ZUlAh39jPBswmTSEI#/
+    type: 'ICYMI: CNCF online programs this week'
+  - title: The State of Cloud Native Application Security survey—2021
+    url: https://snyk.co/StateofCNAS
+    type: The editorial
+  - title: 'Garden: The Configure-Once Kubernetes Platform for Seamless Dev/Prod'
+    url: https://thenewstack.io/garden-the-configure-once-kubernetes-platform-for-seamless-dev-prod-integration/ 
+    type: The editorial
