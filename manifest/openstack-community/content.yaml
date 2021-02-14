@@ -702,12 +702,12 @@ content:
 - title: '2020 Annual Report: OpenInfra Community Highlights'
   url: https://superuser.openstack.org/articles/2020-annual-report-openinfra-community-highlights/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: Enhancement of Kubernetes Controller Pattern in Python with CRD
   url: https://superuser.openstack.org/articles/enhancement-of-kubernetes-controller-pattern-in-python-with-crd/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: '2020 Annual Report: OpenInfra Collaboration'
   url: https://superuser.openstack.org/articles/2020-annual-report-openinfra-collaboration/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
