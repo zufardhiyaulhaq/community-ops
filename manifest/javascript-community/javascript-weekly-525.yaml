@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-525
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 525
+  date: 02/15/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: JavaScript's Creator Brendan Eich Shares The Full Story of JavaScript
+    url: https://javascriptweekly.com/link/103077/web
+    type: News
+  - title: 'Marko 5: eBay''s UI Library Grows Up'
+    url: https://javascriptweekly.com/link/103079/web
+    type: News
+  - title: Locate Front-End Issues Like JavaScript or Network Errors Instantly
+    url: https://javascriptweekly.com/link/103081/web
+    type: News
+  - title: 'Remotion: Create Videos and Motion Graphics with React'
+    url: https://javascriptweekly.com/link/103112/web
+    type: News
+  - title: 'Mass Function Overloading: Why and How?'
+    url: https://javascriptweekly.com/link/103117/web
+    type: News
+  - title: JavaScript Developer at X-Team (Remote)
+    url: https://javascriptweekly.com/link/103085/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://javascriptweekly.com/link/103086/web
+    type: News
+  - title: Sharing Data Between CSS and JavaScript with Custom Properties
+    url: https://javascriptweekly.com/link/103087/web
+    type: News
+  - title: Generators in JavaScript and How to Use Them
+    url: https://javascriptweekly.com/link/103089/web
+    type: News
+  - title: Faster CI/CD for All Your Software Projects Using Buildkite
+    url: https://javascriptweekly.com/link/103101/web
+    type: News
+  - title: How to Generate a Presigned URL in Modular AWS SDK for JavaScript
+    url: https://javascriptweekly.com/link/103088/web
+    type: News
+  - title: Seven Interview Questions on JavaScript Closures
+    url: https://javascriptweekly.com/link/103092/web
+    type: News
+  - title: 'Accessing Hardware Devices on the Web: A Roundup of APIs'
+    url: https://javascriptweekly.com/link/103124/web
+    type: News
+  - title: How Ruby on Rails' Creator is Taking on JavaScript Frameworks with Hotwire
+    url: https://javascriptweekly.com/link/103094/web
+    type: News
+  - title: Build Interactive Messaging with Stream, MML, Node, & React
+    url: https://javascriptweekly.com/link/103091/web
+    type: News
+  - title: Syntax.fm Covers Deno
+    url: https://javascriptweekly.com/link/103120/web
+    type: News
+  - title: WebdriverIO v7 Released
+    url: https://javascriptweekly.com/link/103126/web
+    type: News
+  - title: 'GoldenLayout: A Multi-Window Layout Manager for Webapps'
+    url: https://javascriptweekly.com/link/103097/web
+    type: News
+  - title: 'Ember Table 3.0: Powerful Table Control for Ember Apps'
+    url: https://javascriptweekly.com/link/103102/web
+    type: News
+  - title: Managing Your Tasks Shouldn't Be a Task
+    url: https://javascriptweekly.com/link/103100/web
+    type: News
+  - title: 'Mineflayer 3.0: Let''s Build Minecraft Bots in JavaScript'
+    url: https://javascriptweekly.com/link/103104/web
+    type: News
+  - title: 'run-parallel 1.2: Run an Array of Functions in Parallel'
+    url: https://javascriptweekly.com/link/103107/web
+    type: News
