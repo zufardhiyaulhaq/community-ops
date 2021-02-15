@@ -2,7 +2,7 @@ apiVersion: community.io/v1alpha1
 kind: Weekly
 metadata:
   name: node-weekly-374
-  namespace: nodejs-community
+  namespace: node-community
 spec:
   name: Node Weekly 374
   date: 02/08/2021
