@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-375
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 375
+  date: 02/15/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: How to Generate Thumbnails using AWS Lambda from Videos Uploaded to S3
+    url: https://nodeweekly.com/link/102902/web
+    type: News
+  - title: 'systeminformation: A System Information Library for Node'
+    url: https://nodeweekly.com/link/102903/web
+    type: News
+  - title: 'Node.js Garbage Collection: Heap Statistics Magic Dashboard'
+    url: https://nodeweekly.com/link/102904/web
+    type: News
+  - title: Node v14.15.5, v12.20.2 and v10.23.3 (LTS) Released
+    url: https://nodeweekly.com/link/102905/web
+    type: News
+  - title: How a Researcher Hacked Over 35 Tech Firms in Novel Supply Chain Attack
+    url: https://nodeweekly.com/link/102908/web
+    type: News
+  - title: Node.js Developer at X-Team (Remote)
+    url: https://nodeweekly.com/link/102910/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://nodeweekly.com/link/102911/web
+    type: News
+  - title: Catching Up with the Package Lockfile Changes in npm v7
+    url: https://nodeweekly.com/link/102912/web
+    type: News
+  - title: 'An Intro to KafkaJS: A Modern Kafka Client for Node'
+    url: https://nodeweekly.com/link/102914/web
+    type: News
+  - title: Combining Node, REST, NoSQL & Serverless | Try Astra DBaaS, Free to 5GB
+    url: https://nodeweekly.com/link/102916/web
+    type: News
+  - title: How to Create a Custom GitHub Action with Node
+    url: https://nodeweekly.com/link/102917/web
+    type: News
+  - title: Right Sizing PM2 Clusters
+    url: https://nodeweekly.com/link/102919/web
+    type: News
+  - title: 'SQL Formatter: A Pretty Printer for SQL Queries'
+    url: https://nodeweekly.com/link/102921/web
+    type: News
+  - title: 'Purest 4.0: A REST API Client Library'
+    url: https://nodeweekly.com/link/102923/web
+    type: News
+  - title: Maximize Speed, Control, and Security for Continuous Deployment with Buildkite
+    url: https://nodeweekly.com/link/102924/web
+    type: News
+  - title: 'capture-website 1.3: Capture Screenshots of Websites'
+    url: https://nodeweekly.com/link/102925/web
+    type: News
+  - title: 'allserver: Multi-Protocol Simple RPC Server and Client'
+    url: https://nodeweekly.com/link/102926/web
+    type: News
+  - title: 'saml2-js 2.1.0: Security Assertion Markup Language (SAML) Made Easier'
+    url: https://nodeweekly.com/link/102927/web
+    type: News
+  - title: 'Mercurius 7.0: Implement GraphQL Servers and Gateways with Fastify'
+    url: https://nodeweekly.com/link/102928/web
+    type: News
+  - title: 'Marked 2.0: A Fast Markdown Parser and Compiler'
+    url: https://nodeweekly.com/link/102929/web
+    type: News
