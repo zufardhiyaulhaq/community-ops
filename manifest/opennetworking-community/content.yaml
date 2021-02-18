@@ -230,8 +230,8 @@ content:
 - title: Upcoming 2021 Ambassador A-team Elections
   url: https://opennetworking.org/news-and-events/blog/upcoming-2021-ambassador-a-team-elections/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: O-RAN Open Summit
   url: https://opennetworking.org/events/o-ran-open-summit/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
