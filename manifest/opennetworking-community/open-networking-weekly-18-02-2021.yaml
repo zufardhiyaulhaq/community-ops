@@ -1,0 +1,20 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-18-02-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 18-02-2021
+  date: 02/18/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Upcoming 2021 Ambassador A-team Elections
+    url: https://opennetworking.org/news-and-events/blog/upcoming-2021-ambassador-a-team-elections/
+    type: Open Networking Blog
+  - title: O-RAN Open Summit
+    url: https://opennetworking.org/events/o-ran-open-summit/
+    type: Open Networking Event
