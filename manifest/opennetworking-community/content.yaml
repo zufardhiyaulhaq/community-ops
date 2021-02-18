@@ -227,3 +227,11 @@ content:
   url: https://opennetworking.org/news-and-events/blog/turk-telekom-announces-production-broadband-network-based-on-onfs-seba-reference-design-and-using-voltha-and-onos-open-source-platforms/
   kind: Open Networking Blog
   isDelivered: true
+- title: Upcoming 2021 Ambassador A-team Elections
+  url: https://opennetworking.org/news-and-events/blog/upcoming-2021-ambassador-a-team-elections/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: O-RAN Open Summit
+  url: https://opennetworking.org/events/o-ran-open-summit/
+  kind: Open Networking Event
+  isDelivered: false
