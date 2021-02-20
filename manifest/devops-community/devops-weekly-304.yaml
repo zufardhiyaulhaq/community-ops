@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-304
+  namespace: devops-community
+spec:
+  name: Devops Weekly 304
+  date: 02/20/2021
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: How Let's Encrypt is Preparing to Issue 200 Million Certificates in 24 Hours
+    url: https://weekly.statuscode.com/link/103243/web
+    type: News
+  - title: Go 1.16 Released
+    url: https://weekly.statuscode.com/link/103244/web
+    type: News
+  - title: Remote Instructor-Led Go, Docker, Kubernetes, Terraform, & Python Training
+    url: https://weekly.statuscode.com/link/103246/web
+    type: News
+  - title: A Deep Dive Into AWS Lambda Security and Function Isolation
+    url: https://weekly.statuscode.com/link/103247/web
+    type: News
+  - title: 'Dapr 1.0: A Portable, Event-Driven, Runtime for Distributed Apps'
+    url: https://weekly.statuscode.com/link/103248/web
+    type: News
+  - title: My Philosophy on Alerting
+    url: https://weekly.statuscode.com/link/103255/web
+    type: News
+  - title: The Top 15 AWS Architecture Blog Posts of 2020
+    url: https://weekly.statuscode.com/link/103256/web
+    type: News
+  - title: Java's Quirks and Wrong (?) Defaults with Brian Goetz
+    url: https://weekly.statuscode.com/link/103257/web
+    type: News
+  - title: 4 Steps for Kafka Rebalance - Notes From the Field
+    url: https://weekly.statuscode.com/link/103258/web
+    type: News
+  - title: A Compiled List of Kubernetes Failure Stories
+    url: https://weekly.statuscode.com/link/103259/web
+    type: News
+  - title: How to Generate Thumbnails using AWS Lambda from Videos Uploaded to S3
+    url: https://weekly.statuscode.com/link/103260/web
+    type: News
+  - title: Alex Ellis' Experiences Publishing 'Serverless For Everyone Else'
+    url: https://weekly.statuscode.com/link/103261/web
+    type: News
+  - title: How To Set Up Continuous Archiving and Perform Point-In-Time-Recovery with Postgres 12 on Ubuntu 20.04
+    url: https://weekly.statuscode.com/link/103262/web
+    type: News
+  - title: The Types of Errors That Every Streaming Organization Can Encounter
+    url: https://weekly.statuscode.com/link/103263/web
+    type: News
+  - title: Running Nomad (the Workload Orchestrator) on a Home Server
+    url: https://weekly.statuscode.com/link/103280/web
+    type: News
+  - title: Understanding SQL JOIN
+    url: https://weekly.statuscode.com/link/103264/web
+    type: News
+  - title: How We Use Kubernetes At Asana
+    url: https://weekly.statuscode.com/link/103265/web
+    type: News
+  - title: 'Typesense: An Open Source, Typo-Tolerant Search Engine'
+    url: https://weekly.statuscode.com/link/103267/web
+    type: News
+  - title: 'Endgame: An AWS Pentesting Tool from Salesforce'
+    url: https://weekly.statuscode.com/link/103270/web
+    type: News
+  - title: 'Adminer: A Database Manager in a Single PHP File'
+    url: https://weekly.statuscode.com/link/103272/web
+    type: News
+  - title: 'Online GIF Tools: A Variety of Browser-Based GIF Editing Tools'
+    url: https://weekly.statuscode.com/link/103275/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://weekly.statuscode.com/link/103277/web
+    type: News
