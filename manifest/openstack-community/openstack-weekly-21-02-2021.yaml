@@ -1,0 +1,23 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-21-02-2021
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 21-02-2021
+  date: 02/21/2021
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: '2020 Annual Report: OpenInfra Foundation Working Groups'
+    url: https://superuser.openstack.org/articles/2020-annual-report-openinfra-foundation-working-groups/
+    type: OpenStack Super User News
+  - title: You Know Nothing, Jon Snow! OpenStack Troubleshooting From a Beginner’s Perspective
+    url: https://superuser.openstack.org/articles/you-know-nothing-jon-snow-openstack-troubleshooting-from-a-beginners-perspective/
+    type: OpenStack Super User News
+  - title: '2020 Annual Report: OpenInfra Event Highlights'
+    url: https://superuser.openstack.org/articles/2020-annual-report-openinfra-event-highlights/
+    type: OpenStack Super User News
