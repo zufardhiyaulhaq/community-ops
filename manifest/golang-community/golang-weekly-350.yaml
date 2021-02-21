@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-350
+  namespace: golang-community
+spec:
+  name: Golang Weekly 350
+  date: 02/21/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Go 1.16 Released
+    url: https://golangweekly.com/link/103407/web
+    type: News
+  - title: 'A Go Security Cheatsheet: 8 Security Best Practices'
+    url: https://golangweekly.com/link/103409/web
+    type: News
+  - title: Remote Instructor-Led Go, Docker, Kubernetes, Terraform, & Python Training
+    url: https://golangweekly.com/link/103410/web
+    type: News
+  - title: Block Profiling in Go
+    url: https://golangweekly.com/link/103411/web
+    type: News
+  - title: New Module Changes in Go 1.16
+    url: https://golangweekly.com/link/103437/web
+    type: News
+  - title: Generic Functions on Slices with Go Type Parameters
+    url: https://golangweekly.com/link/103415/web
+    type: News
+  - title: Compiling a Gameboy Advance ROM with TinyGo
+    url: https://golangweekly.com/link/103417/web
+    type: News
+  - title: A (Maybe) Unexpected Usage of the -count Flag in Go Tests
+    url: https://golangweekly.com/link/103419/web
+    type: News
+  - title: Why Upgrade from Dep to Go Modules
+    url: https://golangweekly.com/link/103420/web
+    type: News
+  - title: Preventing SQL Injections in Go (and Other Vulnerabilities)
+    url: https://golangweekly.com/link/103421/web
+    type: News
+  - title: 'How Buffer Pool Works: An Implementation in Go'
+    url: https://golangweekly.com/link/103422/web
+    type: News
+  - title: '''My Go Mistakes'''
+    url: https://golangweekly.com/link/103423/web
+    type: News
+  - title: Go 1.16's embed Package Explained in 5 Minutes
+    url: https://golangweekly.com/link/103412/web
+    type: News
+  - title: Leveraging the Go Type System
+    url: https://golangweekly.com/link/103424/web
+    type: News
+  - title: 'EGo: A Way to Build ''Confidential'' Go Apps for Intel SGX Enclaves'
+    url: https://golangweekly.com/link/103425/web
+    type: News
+  - title: 'Logrus 1.8: A Feature Rich Structured Logger'
+    url: https://golangweekly.com/link/103427/web
+    type: News
+  - title: 'OpenTelemetry + Go: All You Need to Know - March 3'
+    url: https://golangweekly.com/link/103428/web
+    type: News
+  - title: 'pgCenter: Command Line Tool for Observing and Troubleshooting Postgres'
+    url: https://golangweekly.com/link/103429/web
+    type: News
+  - title: 'Dapr 1.0: A Portable, Event-Driven, Runtime for Distributed Apps'
+    url: https://golangweekly.com/link/103430/web
+    type: News
+  - title: 'textnote: Simple Tool for Daily Note-Taking from the Command Line'
+    url: https://golangweekly.com/link/103433/web
+    type: News
+  - title: Sr Back-End Software Engineer at Mode (Remote)
+    url: https://golangweekly.com/link/103434/web
+    type: News
+  - title: Sr. Software Engineer at CrowdStrike (Remote)
+    url: https://golangweekly.com/link/103473/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://golangweekly.com/link/103436/web
+    type: News
