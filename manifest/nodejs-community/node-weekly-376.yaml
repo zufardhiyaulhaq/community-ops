@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-376
+  namespace: node-community
+spec:
+  name: Node Weekly 376
+  date: 02/22/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Avoiding npm Substitution Attacks
+    url: https://nodeweekly.com/link/103362/web
+    type: News
+  - title: An Interview with Ryan Dahl, the Creator of Node.js and Deno
+    url: https://nodeweekly.com/link/103364/web
+    type: News
+  - title: Seamlessly Integrate Video into Your Node App
+    url: https://nodeweekly.com/link/103367/web
+    type: News
+  - title: WebdriverIO v7 Released
+    url: https://nodeweekly.com/link/103369/web
+    type: News
+  - title: Node v15.9.0 (Current) Released
+    url: https://nodeweekly.com/link/103372/web
+    type: News
+  - title: Backend Developer - Remote or in Beautiful Norway
+    url: https://nodeweekly.com/link/103378/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://nodeweekly.com/link/103380/web
+    type: News
+  - title: 'Serverless TypeScript: A Complete Setup for AWS SAM Lambdas'
+    url: https://nodeweekly.com/link/103382/web
+    type: News
+  - title: '“Computer! Tea, Earl Grey, Hot”: Offline Voice Recognition with Node'
+    url: https://nodeweekly.com/link/103384/web
+    type: News
+  - title: Fast and Reliable Feature Management for the Modern Enterprise
+    url: https://nodeweekly.com/link/103387/web
+    type: News
+  - title: V8's Route to Faster JavaScript Method Calls
+    url: https://nodeweekly.com/link/103389/web
+    type: News
+  - title: 'Metascraper: A Library to Scrape Metadata from Web Content'
+    url: https://nodeweekly.com/link/103401/web
+    type: News
+  - title: 'JSON Schema to TS: Infer TypeScript Types From JSON Schemas'
+    url: https://nodeweekly.com/link/103393/web
+    type: News
+  - title: How to Use WebSockets With Your Vue.js Projects
+    url: https://nodeweekly.com/link/103403/web
+    type: News
+  - title: Fast, Cheerful, Collaborative Project Management
+    url: https://nodeweekly.com/link/103392/web
+    type: News
+  - title: A Node.js Driver for youtube-dl
+    url: https://nodeweekly.com/link/103404/web
+    type: News
+  - title: 'Commander 7.1: Node Command-Line Interfaces Made Easy'
+    url: https://nodeweekly.com/link/103394/web
+    type: News
+  - title: 'SVGO 2.0: A Node-Based SVG Optimizer'
+    url: https://nodeweekly.com/link/103395/web
+    type: News
