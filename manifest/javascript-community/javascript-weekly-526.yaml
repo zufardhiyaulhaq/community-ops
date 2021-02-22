@@ -1,0 +1,95 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-526
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 526
+  date: 02/22/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Announcing Vite 2.0
+    url: https://javascriptweekly.com/link/103548/web
+    type: News
+  - title: V8's Super Fast super Property Access
+    url: https://javascriptweekly.com/link/103555/web
+    type: News
+  - title: 'Frontity: Bringing React to WordPress'
+    url: https://javascriptweekly.com/link/103498/web
+    type: News
+  - title: An Interview with Ryan Dahl, the Creator of Node.js and Deno
+    url: https://javascriptweekly.com/link/103500/web
+    type: News
+  - title: V8's Route to Faster JavaScript Method Calls
+    url: https://javascriptweekly.com/link/103499/web
+    type: News
+  - title: 'Opal 1.1: A Ruby to JavaScript Compiler'
+    url: https://javascriptweekly.com/link/103502/web
+    type: News
+  - title: Senior/Lead React Developer (Remote)
+    url: https://javascriptweekly.com/link/103515/web
+    type: News
+  - title: Senior Web Developer (Node/ReactJS) - Remote
+    url: https://javascriptweekly.com/link/103516/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://javascriptweekly.com/link/103518/web
+    type: News
+  - title: How to 'Listify' a JavaScript Array
+    url: https://javascriptweekly.com/link/103519/web
+    type: News
+  - title: Avoiding npm Substitution Attacks
+    url: https://javascriptweekly.com/link/103520/web
+    type: News
+  - title: Introducing SPOTcon 2021! Get Your Free Early Bird Ticket Today
+    url: https://javascriptweekly.com/link/103521/web
+    type: News
+  - title: 'Learn Snowpack: A High-Performance Frontend Build Tool'
+    url: https://javascriptweekly.com/link/103522/web
+    type: News
+  - title: How to Publish an Angular, React, Svelte, or Vue App with Azure Static Web Apps
+    url: https://javascriptweekly.com/link/103524/web
+    type: News
+  - title: 'Serverless TypeScript: A Complete Setup for AWS SAM Lambdas'
+    url: https://javascriptweekly.com/link/103526/web
+    type: News
+  - title: The Ultimate Guide to Cardinality for Observability
+    url: https://javascriptweekly.com/link/103527/web
+    type: News
+  - title: How to Use WebSockets With Your Vue.js Projects
+    url: https://javascriptweekly.com/link/103528/web
+    type: News
+  - title: 'a11y-dialog: Accessible, Lightweight Dialog Windows'
+    url: https://javascriptweekly.com/link/103531/web
+    type: News
+  - title: 'Metascraper: A Library to Scrape Metadata from Web Content'
+    url: https://javascriptweekly.com/link/103533/web
+    type: News
+  - title: 'fullPage.js: Create Fullscreen Scrolling Sites'
+    url: https://javascriptweekly.com/link/103534/web
+    type: News
+  - title: Breakpoints and console.log Is the Past, Time Travel Is the Future
+    url: https://javascriptweekly.com/link/103536/web
+    type: News
+  - title: 'Neutralino 1.8: Portable, Lightweight Desktop App Framework'
+    url: https://javascriptweekly.com/link/103504/web
+    type: News
+  - title: 'ExcellentExport.js: Export Table Data to Excel or CSV'
+    url: https://javascriptweekly.com/link/103537/web
+    type: News
+  - title: 'OrgChart: A jQuery Plugin for Rendering Org Charts'
+    url: https://javascriptweekly.com/link/103538/web
+    type: News
+  - title: 'fast-check: Property Based Testing for JavaScript and TypeScript'
+    url: https://javascriptweekly.com/link/103553/web
+    type: News
+  - title: 'disableautofill.js: Disable Form Auto-Fill and Auto-Complete Functions'
+    url: https://javascriptweekly.com/link/103540/web
+    type: News
+  - title: 'SVGJAR: An Easy Way to Add SVG Images to Ember Apps'
+    url: https://javascriptweekly.com/link/103541/web
+    type: News
