@@ -235,3 +235,19 @@ content:
   url: https://opennetworking.org/events/o-ran-open-summit/
   kind: Open Networking Event
   isDelivered: true
+- title: ONF’s First Ever Event in Tunisia – A Step Toward Building the ONF Community in Africa
+  url: https://opennetworking.org/news-and-events/blog/onfs-first-ever-event-in-tunisia-a-step-toward-building-the-onf-community-in-africa/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: 'Community Member Profile: David Gengenbach'
+  url: https://opennetworking.org/news-and-events/blog/community-member-profile-david-gengenbach/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: 2021 APRICOT
+  url: https://opennetworking.org/events/2021-apricot/
+  kind: Open Networking Event
+  isDelivered: false
+- title: 2021 P4 Workshop
+  url: https://opennetworking.org/events/2021-p4-workshop/
+  kind: Open Networking Event
+  isDelivered: false
