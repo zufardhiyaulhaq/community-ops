@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-541
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 541
+  date: 02/26/2021
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: The Hidden Gems of Ruby's irb
+    url: https://rubyweekly.com/link/103692/web
+    type: News
+  - title: 'Opal 1.1: A Ruby to JavaScript Compiler'
+    url: https://rubyweekly.com/link/103693/web
+    type: News
+  - title: Redis 6.2 Now Available on RedisGreen
+    url: https://rubyweekly.com/link/103695/web
+    type: News
+  - title: 'Rails Design Patterns: The Big Picture'
+    url: https://rubyweekly.com/link/103696/web
+    type: News
+  - title: 'CarrierWave 2.2: File Uploads for Rails, Sinatra and Other Ruby Web Frameworks'
+    url: https://rubyweekly.com/link/103699/web
+    type: News
+  - title: Integrating Ruby and C++ using MRuby and CMake
+    url: https://rubyweekly.com/link/103701/web
+    type: News
+  - title: Senior Ruby on Rails Engineer (Remote)
+    url: https://rubyweekly.com/link/103702/web
+    type: News
+  - title: Ruby/Rails Developer (Remote Friendly) in Beautiful Norway
+    url: https://rubyweekly.com/link/103703/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://rubyweekly.com/link/103704/web
+    type: News
+  - title: Why to Not Use the macOS System Version of Ruby
+    url: https://rubyweekly.com/link/103705/web
+    type: News
+  - title: Building a Redis-Based Rate Limiter
+    url: https://rubyweekly.com/link/103706/web
+    type: News
+  - title: Creating an iOS Share Extension for a Turbo Rails App
+    url: https://rubyweekly.com/link/103707/web
+    type: News
+  - title: Complete Peace of Mind Rails Hosting
+    url: https://rubyweekly.com/link/103708/web
+    type: News
+  - title: 'Code Loaders in Ruby: Understanding Zeitwerk'
+    url: https://rubyweekly.com/link/103709/web
+    type: News
+  - title: Querying PaperTrail Object Changes in JSON
+    url: https://rubyweekly.com/link/103710/web
+    type: News
+  - title: Simplifying Tests by Extracting Side-Effects
+    url: https://rubyweekly.com/link/103712/web
+    type: News
+  - title: Search and Debug Gems with bundle open
+    url: https://rubyweekly.com/link/103713/web
+    type: News
+  - title: 'ParallelTests 3.5: More Cores Equals Faster Tests'
+    url: https://rubyweekly.com/link/103714/web
+    type: News
+  - title: 'Page Title Helper 5.0: Internationalized and DRY Page Titles and Headings for Rails'
+    url: https://rubyweekly.com/link/103715/web
+    type: News
+  - title: 'Rswag 2.4: Seamlessly Adds a Swagger to Rails-Based APIs'
+    url: https://rubyweekly.com/link/103717/web
+    type: News
+  - title: Scout APM - Leading Edge Performance Monitoring Starting at $39/Month
+    url: https://rubyweekly.com/link/103718/web
+    type: News
+  - title: 'Tree-Sitter: A Parser Generator Tool and Incremental Parsing Library'
+    url: https://rubyweekly.com/link/103719/web
+    type: News
+  - title: 'ActiveRecord-Import 1.0.8: Bulk Data Insertion with ActiveRecord'
+    url: https://rubyweekly.com/link/103721/web
+    type: News
