@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-252
+  namespace: kubernetes-community
+spec:
+  name: kubeweekly 252
+  date: 02/27/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: CNCF Provides Insights into Secrets Management Tools with Latest End User Technology Radar
+    url: https://www.cncf.io/announcements/2021/02/23/cncf-provides-insights-into-secrets-management-tools-with-latest-end-user-technology-radar/
+    type: The headlines
+  - title: Kubernetes admission controllers in 5 minutes
+    url: https://sysdig.com/blog/kubernetes-admission-controllers/
+    type: The technical
+  - title: How we minimized the overhead of Kubernetes in our job system
+    url: https://www.datadoghq.com/blog/engineering/moving-a-jobsystem-to-kubernetes/
+    type: The technical
+  - title: How we use Kubernetes at Asana
+    url: https://blog.asana.com/2021/02/kubernetes-at-asana/
+    type: The technical
+  - title: Cutting build time in half with Docker’s Buildx Kubernetes Driver
+    url: https://releaseapp.io/blog/cutting-build-time-in-half-docker-buildx-kubernetes
+    type: The technical
+  - title: Comparing Kubernetes operators for PostgreSQL
+    url: https://blog.flant.com/comparing-kubernetes-operators-for-postgresql/ 
+    type: The technical
+  - title: Horizontal pod autoscaling 
+    url: https://www.giantswarm.io/blog/horizontal-autoscaling-in-kubernetes
+    type: The technical
+  - title: Sysdig contributes Falco’s kernel module, eBPF probe, and libraries to the CNCF
+    url: https://sysdig.com/blog/sysdig-contributes-falco-kernel-ebpf-cncf/
+    type: The technical
+  - title: Manage Envoy Proxy using go-control-plane
+    url: https://www.infracloud.io/blogs/manage-envoy-proxy-go-control-plane/
+    type: The technical
+  - title: The road to adopting Kubernetes in development
+    url: https://www.witodelnat.eu/blog/2021/local-kubernetes-development
+    type: The technical
+  - title: 'Cloud development environments: Using Skaffold and Telepresence on Kubernetes for fast dev loops'
+    url: https://blog.getambassador.io/super-fast-inner-development-loops-for-kubernetes-with-skaffold-and-telepresence-1cd3e42ba665
+    type: The technical
+  - title: CNCF End User Technology Radar, February 2021 – Secrets Management
+    url: https://community.cncf.io/e/mbjks7/
+    type: 'ICYMI: CNCF online programs this week'
+  - title: The Container Security checklist
+    url: https://community.cncf.io/e/m848je/
+    type: 'ICYMI: CNCF online programs this week'
+  - title: Fluent Bit updates and Stream Processing
+    url: https://community.cncf.io/e/m2s97h/
+    type: 'ICYMI: CNCF online programs this week'
+  - title: 'The smallest Kubernetes Cluster: scaling down to the edge'
+    url: https://www.kubermatic.com/blog/the-smallest-kubernetes-cluster-scaling-down-to-the-edge/ 
+    type: The editorial
+  - title: Our take on internet access for virtual machines
+    url: https://www.giantswarm.io/blog/our-take-on-internet-access-for-virtual-machines-giant-swarm 
+    type: The editorial
+  - title: 'Introducing GKE Autopilot: a revolution in managed Kubernetes'
+    url: https://cloud.google.com/blog/products/containers-kubernetes/introducing-gke-autopilot
+    type: The editorial
+  - title: 'VIDEO: Is Kubernetes right for us? '
+    url: https://www.youtube.com/watch?v=iya4UZPWp8Q
+    type: The editorial
