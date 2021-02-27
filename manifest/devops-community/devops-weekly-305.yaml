@@ -1,0 +1,92 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-305
+  namespace: devops-community
+spec:
+  name: Devops Weekly 305
+  date: 02/27/2021
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: How Uber is Evolving Schemaless into a Distributed SQL Database
+    url: https://weekly.statuscode.com/link/103648/web
+    type: News
+  - title: 'free-for.dev: A Bumper List of Stuff That''s ''Free'' for Developers'
+    url: https://weekly.statuscode.com/link/103650/web
+    type: News
+  - title: "\U0001F4CA Guide to Grafana 101"
+    url: https://weekly.statuscode.com/link/103651/web
+    type: News
+  - title: Using Postgres to Do a Regex-Based Search Over 10,000 GitHub Repositories
+    url: https://weekly.statuscode.com/link/103652/web
+    type: News
+  - title: Firefox 86 Introduces 'Total Cookie Protection'
+    url: https://weekly.statuscode.com/link/103654/web
+    type: News
+  - title: 'Looks Good To Me: Making Code Reviews Better for Remote-First Teams'
+    url: https://weekly.statuscode.com/link/103660/web
+    type: News
+  - title: 10 Software Engineering Laws Everybody Loves to Ignore
+    url: https://weekly.statuscode.com/link/103661/web
+    type: News
+  - title: 'Synthetic Data: Generating Realistic User Timestamps in SQL'
+    url: https://weekly.statuscode.com/link/103662/web
+    type: News
+  - title: Research Software Code Is Likely to Remain a Tangled Mess
+    url: https://weekly.statuscode.com/link/103663/web
+    type: News
+  - title: An Engineering Leader’s Guide to OpenTelemetry
+    url: https://weekly.statuscode.com/link/103664/web
+    type: News
+  - title: Modernizing from PostgreSQL to Serverless with Fauna
+    url: https://weekly.statuscode.com/link/103665/web
+    type: News
+  - title: How to Secure API Routes for Jamstack Sites
+    url: https://weekly.statuscode.com/link/103666/web
+    type: News
+  - title: Building Your First AWS Lambda Function in VS Code
+    url: https://weekly.statuscode.com/link/103667/web
+    type: News
+  - title: zsh Tricks to Blow your Mind
+    url: https://weekly.statuscode.com/link/103668/web
+    type: News
+  - title: How Linode Went from Hardware to Live GPUs in Six Weeks
+    url: https://weekly.statuscode.com/link/103669/web
+    type: News
+  - title: How to Build Container Images with Amazon EKS on Fargate
+    url: https://weekly.statuscode.com/link/103670/web
+    type: News
+  - title: 'Tauri: A New Framework for Building Desktop Apps with a Web Frontend'
+    url: https://weekly.statuscode.com/link/103672/web
+    type: News
+  - title: 'Rhit: A Nginx Log Explorer'
+    url: https://weekly.statuscode.com/link/103674/web
+    type: News
+  - title: Effortlessly Optimize & Resize Images in AWS S3 with ImageKit
+    url: https://weekly.statuscode.com/link/103675/web
+    type: News
+  - title: 'Tree-Sitter: A Parser Generator Tool and Incremental Parsing Library'
+    url: https://weekly.statuscode.com/link/103676/web
+    type: News
+  - title: Announcing TypeScript 4.2
+    url: https://weekly.statuscode.com/link/103678/web
+    type: News
+  - title: 'ZWS: A URL Shortener Based on Invisible Spaces'
+    url: https://weekly.statuscode.com/link/103679/web
+    type: News
+  - title: Serverless Legacy Modernization with AWS Lambda + Cobol
+    url: https://weekly.statuscode.com/link/103681/web
+    type: News
+  - title: 'glci: Test Your Gitlab CI Pipelines Changes Locally using Docker'
+    url: https://weekly.statuscode.com/link/103683/web
+    type: News
+  - title: Full Stack Developer (Ruby)
+    url: https://weekly.statuscode.com/link/103687/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://weekly.statuscode.com/link/103684/web
+    type: News
