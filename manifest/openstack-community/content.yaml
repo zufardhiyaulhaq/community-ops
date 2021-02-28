@@ -723,3 +723,7 @@ content:
   url: https://superuser.openstack.org/articles/2020-annual-report-openinfra-event-highlights/
   kind: OpenStack Super User News
   isDelivered: true
+- title: The Progress for Cloud Computing on Arm Architecture
+  url: https://superuser.openstack.org/articles/the-progress-for-cloud-computing-on-arm-architecture/
+  kind: OpenStack Super User News
+  isDelivered: false
