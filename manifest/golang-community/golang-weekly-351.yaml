@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-351
+  namespace: golang-community
+spec:
+  name: Golang Weekly 351
+  date: 02/28/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: '''Go is not an easy language.'''
+    url: https://golangweekly.com/link/103788/web
+    type: News
+  - title: A Proposal to Add Fuzzing to the Go Standard Library
+    url: https://golangweekly.com/link/103790/web
+    type: News
+  - title: Combining GoLang, REST, NoSQL and Serverless
+    url: https://golangweekly.com/link/103792/web
+    type: News
+  - title: Contexts and Structs
+    url: https://golangweekly.com/link/103793/web
+    type: News
+  - title: A Rundown of What's New in Go 1.16
+    url: https://golangweekly.com/link/103794/web
+    type: News
+  - title: The Life of an HTTP Request in a Go Server
+    url: https://golangweekly.com/link/103796/web
+    type: News
+  - title: Injecting Values into Variables at Build Time
+    url: https://golangweekly.com/link/103797/web
+    type: News
+  - title: Visualize Golang Performance End-To-End with Datadog APM
+    url: https://golangweekly.com/link/103799/web
+    type: News
+  - title: Writing a Simple TCP Server Using Kqueue
+    url: https://golangweekly.com/link/103800/web
+    type: News
+  - title: Building Solid Go GraphQL Applications Quickly
+    url: https://golangweekly.com/link/103801/web
+    type: News
+  - title: Context and Variables in the Hugo Static Site Generator
+    url: https://golangweekly.com/link/103802/web
+    type: News
+  - title: Rapidly Developing Go Microservices on Kubernetes with Telepresence
+    url: https://golangweekly.com/link/103803/web
+    type: News
+  - title: Why a Team is Switching From C# to Go for Backend Development
+    url: https://golangweekly.com/link/103805/web
+    type: News
+  - title: 'Dither: A Fast and ''Correct'' Image Dithering Library'
+    url: https://golangweekly.com/link/103806/web
+    type: News
+  - title: 'GoMock 1.5.0: A Mocking Framework for Go'
+    url: https://golangweekly.com/link/103807/web
+    type: News
+  - title: Video for Your Go App That Streams Beautifully, Everywhere
+    url: https://golangweekly.com/link/103808/web
+    type: News
+  - title: 'Redigo: A Go Client for Redis'
+    url: https://golangweekly.com/link/103809/web
+    type: News
+  - title: 'go-ipfs 0.8.0: An IPFS Implementation for Go'
+    url: https://golangweekly.com/link/103810/web
+    type: News
+  - title: 'Sloc, Cloc and Code (scc) 3.0: A Fast Accurate ''Code Counter'''
+    url: https://golangweekly.com/link/103812/web
+    type: News
+  - title: Sr. Software Engineer at CrowdStrike (Remote)
+    url: https://golangweekly.com/link/103814/web
+    type: News
+  - title: Senior Software Engineer (Go) - 100% Remote, UK/EU Only
+    url: https://golangweekly.com/link/103815/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://golangweekly.com/link/103816/web
+    type: News
