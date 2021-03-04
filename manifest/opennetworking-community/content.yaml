@@ -251,3 +251,27 @@ content:
   url: https://opennetworking.org/events/2021-p4-workshop/
   kind: Open Networking Event
   isDelivered: true
+- title: AirHop Communications Joins the Open Networking Foundation to Collaborate on 5G Near-Real-Time RAN Intelligent Controller
+  url: https://opennetworking.org/news-and-events/latest-news/airhop-communications-joins-the-open-networking-foundation-to-collaborate-on-5g-near-real-time-ran-intelligent-controller/
+  kind: Open Networking News
+  isDelivered: false
+- title: Community Highlights – February 2021
+  url: https://opennetworking.org/uncategorized/community-highlights-february-2021/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: 'OpenFlow: Catalyst that Kickstarted the SDN Transformation'
+  url: https://opennetworking.org/news-and-events/blog/openflow-catalyst-that-kickstarted-the-sdn-transformation/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: Keeping up with Aether
+  url: https://opennetworking.org/news-and-events/blog/keeping-up-with-aether/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: 'Open RAN: A Surrogate for 5G Dominance'
+  url: https://opennetworking.org/events/open-ran-a-surrogate-for-5g-dominance/
+  kind: Open Networking Event
+  isDelivered: false
+- title: SEBA RD v2.0 Techinar
+  url: https://opennetworking.org/events/seba-rd-v2-0-techinar/
+  kind: Open Networking Event
+  isDelivered: false
