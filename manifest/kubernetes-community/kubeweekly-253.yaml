@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-253
+  namespace: kubernetes-community
+spec:
+  name: kubeweekly 253
+  date: 03/06/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Schedule for KubeCon + CloudNativeCon Europe 2021 – Virtual is now available! 
+    url: https://www.cncf.io/announcements/2021/03/03/cloud-native-computing-foundation-shares-schedule-for-kubecon-cloudnativecon-europe-2021-virtual/?utm_content=156233756&utm_medium=social&utm_source=twitter&hss_channel=tw-3286770860
+    type: The headlines
+  - title: Top Kubernetes Health Metrics You Must Monitor
+    url: https://logiq.ai/top-kubernetes-health-metrics-you-must-monitor/ 
+    type: The technical
+  - title: Troubleshooting Services on Google Kubernetes Engine by Example
+    url: https://cloud.google.com/blog/products/operations/troubleshooting-services-on-google-kubernetes-engine
+    type: The technical
+  - title: Protocol Detection and Opaque Ports in Linkerd
+    url: https://linkerd.io/2021/02/23/protocol-detection-and-opaque-ports-in-linkerd/
+    type: The technical
+  - title: Integrating Backpressure into the Infrastructure
+    url: https://www.nearform.com/blog/integrating-backpressure-into-the-infrastructure/
+    type: The technical
+  - title: Multi-Cluster Monitoring with Thanos
+    url: https://particule.io/en/blog/thanos-monitoring/
+    type: The technical
+  - title: Securing Istio Workloads with mTLS Using Cert-Manager
+    url: https://www.jetstack.io/blog/cert-manager-istio-integration/
+    type: The technical
+  - title: Understanding the Kubernetes Event Horizon
+    url: https://www.weave.works/blog/understanding-kubernetes-events
+    type: The technical
+  - title: Introduction to Litmus Chaos | Rawkode Live
+    url: https://youtu.be/VHlO4KDy7z8
+    type: The technical
+  - title: Canary Deployments using Ketch
+    url: https://youtu.be/SblO7d1TaEk
+    type: The technical
+  - title: How to Manage Multi-Cluster Kubernetes with Operators
+    url: https://www.kubermatic.com/blog/how-to-manage-multi-cluster-kubernetes-with-operators/
+    type: The technical
+  - title: 'Getting Started With Kubernetes: Clusters and Nodes'
+    url: https://www.pulumi.com/blog/getting-started-with-k8s-part1/
+    type: The technical
+  - title: Migrating Jenkins Freestyle Job to Multibranch Pipeline
+    url: https://www.infracloud.io/blogs/jenkins-freestyle-pipeline-migration/
+    type: The technical
+  - title: Rethinking your Company’s Cloud Security in the Shadow of the SolarWinds Attack
+    url: https://community.cncf.io/e/m263nj/
+    type: 'ICYMI: CNCF online programs this week'
+  - title: Demystifying Kubernetes Network Policy
+    url: https://community.cncf.io/e/m8ekdv/
+    type: 'ICYMI: CNCF online programs this week'
+  - title: 'In the Clouds: DevSec + SecOps w/ Kirsten Newcomer'
+    url: https://youtu.be/mC1-HQ7iLe4
+    type: The editorial
+  - title: How I Became a Kubernetes Maintainer in 4 hours a Week
+    url: https://opensource.com/article/21/2/kubernetes-maintainer
+    type: The editorial
+  - title: 7 Reasons to Adopt a Kubernetes Native Backup Solution
+    url: https://blog.kasten.io/7-reasons-to-adopt-a-kubernetes-native-backup-solution
+    type: The editorial
+  - title: How Fidelity Investments Built its Multi-cloud Strategy with Cloud Native Technologies
+    url: https://www.cncf.io/case-studies/fidelityinvestments/
+    type: The editorial
