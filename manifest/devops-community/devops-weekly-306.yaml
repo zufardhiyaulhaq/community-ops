@@ -1,0 +1,86 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-306
+  namespace: devops-community
+spec:
+  name: Devops Weekly 306
+  date: 03/06/2021
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: Splitting the Ping
+    url: https://weekly.statuscode.com/link/103911/web
+    type: News
+  - title: How A Developer Cut GTA Online Loading Times by 70%
+    url: https://weekly.statuscode.com/link/103913/web
+    type: News
+  - title: The Definitive Guide to Feature Management
+    url: https://weekly.statuscode.com/link/103914/web
+    type: News
+  - title: This Code Does Not Exist?
+    url: https://weekly.statuscode.com/link/103915/web
+    type: News
+  - title: The Hijacking of Perl.com
+    url: https://weekly.statuscode.com/link/103916/web
+    type: News
+  - title: A Look at the Internet Archive's Infrastructure
+    url: https://weekly.statuscode.com/link/103921/web
+    type: News
+  - title: 'VPS Showdown: DigitalOcean vs. Lightsail vs. Linode vs. UpCloud vs. Vultr'
+    url: https://weekly.statuscode.com/link/103923/web
+    type: News
+  - title: 'The Little Bug That Couldn''t: Securing OpenSSL'
+    url: https://weekly.statuscode.com/link/103924/web
+    type: News
+  - title: Why Is It So Hard to See Code From 5 Minutes Ago?
+    url: https://weekly.statuscode.com/link/103925/web
+    type: News
+  - title: 'Publicis Sapient: Focus on Content First - Deliver Sites Fast'
+    url: https://weekly.statuscode.com/link/103926/web
+    type: News
+  - title: Do Developers Still Want Swag?
+    url: https://weekly.statuscode.com/link/103927/web
+    type: News
+  - title: Why a Team is Switching From C# to Go for Backend Development
+    url: https://weekly.statuscode.com/link/103928/web
+    type: News
+  - title: Scaling up a Serverless Web Crawler and Search Engine
+    url: https://weekly.statuscode.com/link/103929/web
+    type: News
+  - title: How to Read Assembly Language
+    url: https://weekly.statuscode.com/link/103930/web
+    type: News
+  - title: 5 Principles for Building Scalable Apps
+    url: https://weekly.statuscode.com/link/103931/web
+    type: News
+  - title: Top 10 Wackiest x86/64 Assembly Language Instructions
+    url: https://weekly.statuscode.com/link/103932/web
+    type: News
+  - title: How to Use a Machine Learning Model from a Google Sheet using BigQuery ML
+    url: https://weekly.statuscode.com/link/103933/web
+    type: News
+  - title: 'AWS Cost Allocation Guide: Tagging Best Practices'
+    url: https://weekly.statuscode.com/link/103934/web
+    type: News
+  - title: A Vim Guide for Advanced Users
+    url: https://weekly.statuscode.com/link/103935/web
+    type: News
+  - title: 'GNU poke 1.0: An Extensible Editor for Structured Binary Data'
+    url: https://weekly.statuscode.com/link/103937/web
+    type: News
+  - title: 'Cosmopolitan: Fast Portable Static Native Textmode Containers'
+    url: https://weekly.statuscode.com/link/103939/web
+    type: News
+  - title: Windows Terminal Preview 1.7 Release
+    url: https://weekly.statuscode.com/link/103941/web
+    type: News
+  - title: 'bash_unit: A bash Unit Testing Framework'
+    url: https://weekly.statuscode.com/link/103942/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://weekly.statuscode.com/link/103946/web
+    type: News
