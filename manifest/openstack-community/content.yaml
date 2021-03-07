@@ -730,12 +730,12 @@ content:
 - title: 'Inside Open Infrastructure: The latest from the OpenInfra Foundation'
   url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation-2/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: Open Infrastructure Foundation Silver Member Establishes a New Foothold in Private Cloud
   url: https://superuser.openstack.org/articles/open-infrastructure-foundation-silver-member-establishes-a-new-foothold-in-private-cloud/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: Connecting Tribal Nations and Rural Towns with Magma
   url: https://superuser.openstack.org/articles/connecting-tribal-nations-and-rural-towns-with-magma/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
