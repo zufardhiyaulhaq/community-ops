@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-352
+  namespace: golang-community
+spec:
+  name: Golang Weekly 352
+  date: 03/07/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Creating a Self Contained Blog Server with Go 1.16
+    url: https://golangweekly.com/link/104247/web
+    type: News
+  - title: An Introduction to Generics
+    url: https://golangweekly.com/link/104250/web
+    type: News
+  - title: Redis 6.2 Now Available on RedisGreen
+    url: https://golangweekly.com/link/104249/web
+    type: News
+  - title: A Practical Understanding of Scheduler Semantics
+    url: https://golangweekly.com/link/104252/web
+    type: News
+  - title: Lift-Off for Wasmer Go Embedding 1.0
+    url: https://golangweekly.com/link/104253/web
+    type: News
+  - title: Sr. Software Engineer at CrowdStrike (Remote)
+    url: https://golangweekly.com/link/104255/web
+    type: News
+  - title: Golang Developer at X-Team (Remote)
+    url: https://golangweekly.com/link/104256/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://golangweekly.com/link/104257/web
+    type: News
+  - title: Putting Text on an Image with Go
+    url: https://golangweekly.com/link/104258/web
+    type: News
+  - title: Finding 'Evil' Go Packages
+    url: https://golangweekly.com/link/104260/web
+    type: News
+  - title: The Definitive Guide to Feature Management
+    url: https://golangweekly.com/link/104261/web
+    type: News
+  - title: Take Your First Steps with Go with Microsoft
+    url: https://golangweekly.com/link/104262/web
+    type: News
+  - title: Using Delve to Debug Go Programs on Red Hat Enterprise Linux
+    url: https://golangweekly.com/link/104263/web
+    type: News
+  - title: A Few Go JSON Gotchas That Annoyed Me But I Have Learned to Deal With
+    url: https://golangweekly.com/link/104264/web
+    type: News
+  - title: 'generativeart: Go Code for Creating Generative Art'
+    url: https://golangweekly.com/link/104265/web
+    type: News
+  - title: 'gosec 2.7: A Go Code Security Checker'
+    url: https://golangweekly.com/link/104267/web
+    type: News
+  - title: 'Inlets 3.0: Expose Your Local Endpoints to the Internet'
+    url: https://golangweekly.com/link/104268/web
+    type: News
+  - title: A Better Way to Build Internal Tools
+    url: https://golangweekly.com/link/104270/web
+    type: News
+  - title: 'sqlc 1.7.0: Generate Type Safe Go From SQL'
+    url: https://golangweekly.com/link/104271/web
+    type: News
+  - title: 'sq: A General ''Swiss-Army'' Tool for Data'
+    url: https://golangweekly.com/link/104273/web
+    type: News
+  - title: 'lungoDB: A MongoDB-Compatible Embeddable Database for Go'
+    url: https://golangweekly.com/link/104277/web
+    type: News
+  - title: 'RoadRunner 2.0: A High Performance PHP Application Server'
+    url: https://golangweekly.com/link/104278/web
+    type: News
+  - title: 'Song2: Fast Gaussian Blur in Go'
+    url: https://golangweekly.com/link/104280/web
+    type: News
