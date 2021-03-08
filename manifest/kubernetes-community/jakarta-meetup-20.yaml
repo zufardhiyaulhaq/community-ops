@@ -5,7 +5,7 @@ metadata:
   namespace: kubernetes-community
 spec:
   name: "Kubernetes Cloud Native Jakarta Online Meetup #20"
-  date: "March 8, 2021"
+  date: "March 11, 2021"
   time: "19.00"
   place: "Online"
   city: "Jakarta"
