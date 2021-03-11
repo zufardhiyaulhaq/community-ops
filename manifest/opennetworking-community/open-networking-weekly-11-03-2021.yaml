@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-11-03-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 11-03-2021
+  date: 03/11/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Enabling a New Era of Smart Enterprises
+    url: https://vmblog.com/archive/2021/03/05/enabling-a-new-era-of-smart-enterprises.aspx#.YEK4PV1Kith
+    type: Open Networking News
