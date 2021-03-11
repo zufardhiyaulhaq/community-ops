@@ -275,3 +275,7 @@ content:
   url: https://opennetworking.org/events/seba-rd-v2-0-techinar/
   kind: Open Networking Event
   isDelivered: true
+- title: Enabling a New Era of Smart Enterprises
+  url: https://vmblog.com/archive/2021/03/05/enabling-a-new-era-of-smart-enterprises.aspx#.YEK4PV1Kith
+  kind: Open Networking News
+  isDelivered: false
