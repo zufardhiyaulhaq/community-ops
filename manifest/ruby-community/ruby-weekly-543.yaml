@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-543
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 543
+  date: 03/12/2021
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'A Post Ruby 3.0 Interview with Matz: "Do Not Fight Developer Instincts"'
+    url: https://rubyweekly.com/link/104484/web
+    type: News
+  - title: Building a Business on Rails (with Mike Perham)
+    url: https://rubyweekly.com/link/104485/web
+    type: News
+  - title: Ship Your Updates 2x Faster
+    url: https://rubyweekly.com/link/104489/web
+    type: News
+  - title: One Dev's Ruby and Rails Stack for Side Projects in 2021
+    url: https://rubyweekly.com/link/104490/web
+    type: News
+  - title: Announcing Standard Ruby 1.0 (Again)
+    url: https://rubyweekly.com/link/104491/web
+    type: News
+  - title: The RailsConf 2021 Program Unveiled
+    url: https://rubyweekly.com/link/104492/web
+    type: News
+  - title: Ruby Engineer (Remote, EU Time Zones)
+    url: https://rubyweekly.com/link/104495/web
+    type: News
+  - title: Ruby on Rails Team Lead (Remote)
+    url: https://rubyweekly.com/link/104496/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://rubyweekly.com/link/104497/web
+    type: News
+  - title: 'Ruby Garbage Collection Deep Dive: Generational Garbage Collection'
+    url: https://rubyweekly.com/link/104498/web
+    type: News
+  - title: Ruby Tokenization with Flex
+    url: https://rubyweekly.com/link/104499/web
+    type: News
+  - title: Turn Off The Bits of Rails You Don't Use
+    url: https://rubyweekly.com/link/104501/web
+    type: News
+  - title: Learn About Ractors by Building a Mini Sidekiq
+    url: https://rubyweekly.com/link/104502/web
+    type: News
+  - title: 'Free eBook: Efficient Search in Rails with Postgres'
+    url: https://rubyweekly.com/link/104504/web
+    type: News
+  - title: Recording Real Requests with WebMock
+    url: https://rubyweekly.com/link/104505/web
+    type: News
+  - title: 'Extending Ruby Classes: include, extend and prepend Explained'
+    url: https://rubyweekly.com/link/104507/web
+    type: News
+  - title: Demystifying Webpack and Webpacker with Paweł Dąbrowski
+    url: https://rubyweekly.com/link/104508/web
+    type: News
+  - title: 'Climate Control 1.0: Modify your ENV..ironment'
+    url: https://rubyweekly.com/link/104509/web
+    type: News
+  - title: Square APIs + Ruby = Powerful eCommerce Apps ✨ Try in the API Explorer
+    url: https://rubyweekly.com/link/104510/web
+    type: News
+  - title: 'Prosopite: Rails N+1 Query Auto-detection with Zero False Positives'
+    url: https://rubyweekly.com/link/104511/web
+    type: News
+  - title: 'ToD 3.0: Time of Day and Time Shifting Types for Ruby'
+    url: https://rubyweekly.com/link/104512/web
+    type: News
+  - title: 'Amazing Print 1.3: Pretty Print Your Ruby Objects with Style'
+    url: https://rubyweekly.com/link/104513/web
+    type: News
+  - title: 'ruby-vips 2.1.0: Ruby Extension for the libvips Image Processing Library'
+    url: https://rubyweekly.com/link/104514/web
+    type: News
