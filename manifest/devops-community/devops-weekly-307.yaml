@@ -1,0 +1,101 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-307
+  namespace: devops-community
+spec:
+  name: Devops Weekly 307
+  date: 03/13/2021
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: 'Announcing Flutter 2: Google''s Dart-Based Cross Platform App Framework'
+    url: https://weekly.statuscode.com/link/104356/web
+    type: News
+  - title: git clone Vulnerability Announced
+    url: https://weekly.statuscode.com/link/104358/web
+    type: News
+  - title: Remote Instructor-Led Go, Docker, Kubernetes, Terraform, & Python Training
+    url: https://weekly.statuscode.com/link/104360/web
+    type: News
+  - title: Netflix Explains Its Cosmos Platform
+    url: https://weekly.statuscode.com/link/104361/web
+    type: News
+  - title: 'Citus 10 Released: Distributed ''Superpowers'' for PostgreSQL'
+    url: https://weekly.statuscode.com/link/104362/web
+    type: News
+  - title: Google Cloud Introduces GKE Autopilot
+    url: https://weekly.statuscode.com/link/104363/web
+    type: News
+  - title: 'Wanted: Curious Software Engineers with ❤'
+    url: https://weekly.statuscode.com/link/104371/web
+    type: News
+  - title: Find Software Engineering Jobs with Hired
+    url: https://weekly.statuscode.com/link/104372/web
+    type: News
+  - title: Dropbox's Journey from a Python Monolith to a Managed Platform with 'Atlas'
+    url: https://weekly.statuscode.com/link/104373/web
+    type: News
+  - title: A Story of Bitsquatting Windows.com
+    url: https://weekly.statuscode.com/link/104374/web
+    type: News
+  - title: Staying Out of TTL Hell
+    url: https://weekly.statuscode.com/link/104375/web
+    type: News
+  - title: Building a High-Scale Chat Server on Google Cloud Run
+    url: https://weekly.statuscode.com/link/104376/web
+    type: News
+  - title: Navigate Your Code Like It's 2021
+    url: https://weekly.statuscode.com/link/104377/web
+    type: News
+  - title: Save the Date. O11yfest Is Coming on May 17-18, 2021
+    url: https://weekly.statuscode.com/link/104378/web
+    type: News
+  - title: How to Create Your First Netlify Serverless Function
+    url: https://weekly.statuscode.com/link/104379/web
+    type: News
+  - title: Developing with Rust on Windows
+    url: https://weekly.statuscode.com/link/104380/web
+    type: News
+  - title: What Happens Inside a 100-Hop IPv6 Wireless Mesh Network?
+    url: https://weekly.statuscode.com/link/104381/web
+    type: News
+  - title: 'Ask HN: Can You Switch to a Programming Career Despite Nearing 40?'
+    url: https://weekly.statuscode.com/link/104382/web
+    type: News
+  - title: Four Things You Didn’t Know You Could Do with GitHub Actions
+    url: https://weekly.statuscode.com/link/104383/web
+    type: News
+  - title: 'Serverless Stack (SST): Live Dev Environment for AWS Lambda'
+    url: https://weekly.statuscode.com/link/104385/web
+    type: News
+  - title: 'Google Cloud Memorystore: It''s Managed memcached'
+    url: https://weekly.statuscode.com/link/104388/web
+    type: News
+  - title: Optimize Images Within Your Existing Infrastructure with ImageKit.io
+    url: https://weekly.statuscode.com/link/104404/web
+    type: News
+  - title: Google Cloud Products in Four Words or Less (2021 Edition)
+    url: https://weekly.statuscode.com/link/104391/web
+    type: News
+  - title: 'Inlets 3.0: Expose Your Local Endpoints to the Internet'
+    url: https://weekly.statuscode.com/link/104392/web
+    type: News
+  - title: 'whereami: Uses WiFi Signals and ML to Predict Where You Are'
+    url: https://weekly.statuscode.com/link/104394/web
+    type: News
+  - title: 'Lunatic: An Erlang-Inspired Runtime for WebAssembly'
+    url: https://weekly.statuscode.com/link/104395/web
+    type: News
+  - title: The Most Expensive Version of Conway's Game of Life
+    url: https://weekly.statuscode.com/link/104398/web
+    type: News
+  - title: 'yacv: Yet Another Compiler Visualizer'
+    url: https://weekly.statuscode.com/link/104400/web
+    type: News
+  - title: 'RoadRunner 2.0: A High Performance PHP Application Server'
+    url: https://weekly.statuscode.com/link/104402/web
+    type: News
