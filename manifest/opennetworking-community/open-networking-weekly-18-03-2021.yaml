@@ -1,0 +1,29 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-18-03-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 18-03-2021
+  date: 03/18/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: How Open Source technology is driving the Radio Access Network (RAN)
+    url: https://www.capacitymedia.com/articles/3828009/how-open-source-technology-is-driving-the-radio-access-network-ran
+    type: Open Networking News
+  - title: Türk Telekom deploys disaggregated fixed broadband in two areas
+    url: https://mobileeurope.co.uk/press-wire/15479-tuerk-telekom-deploys-disaggregated-fixed-broadband-in-two-provinces
+    type: Open Networking News
+  - title: 'Community Member Profile: ADTRAN Team –  Holger Hildebrandt, Michael Pagenkopf, Torsten Thieme'
+    url: https://opennetworking.org/news-and-events/blog/community-member-profile-adtran-team-holger-hildebrandt-michael-pagenkopf-torsten-thieme/
+    type: Open Networking Blog
+  - title: Aether – Rapidly Deploying New Edge Sites Around the World
+    url: https://opennetworking.org/news-and-events/blog/aether-rapidly-deploying-new-edge-sites-around-the-world/
+    type: Open Networking Blog
+  - title: Telecom Regulatory Authority of Bahrain – Telco Open Infrastructure Towards Digitalization
+    url: https://opennetworking.org/events/telecom-regulatory-authority-of-bahrain-telco-open-infrastructure-towards-digitalization/
+    type: Open Networking Event
