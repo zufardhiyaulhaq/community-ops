@@ -282,20 +282,20 @@ content:
 - title: How Open Source technology is driving the Radio Access Network (RAN)
   url: https://www.capacitymedia.com/articles/3828009/how-open-source-technology-is-driving-the-radio-access-network-ran
   kind: Open Networking News
-  isDelivered: false
+  isDelivered: true
 - title: Türk Telekom deploys disaggregated fixed broadband in two areas
   url: https://mobileeurope.co.uk/press-wire/15479-tuerk-telekom-deploys-disaggregated-fixed-broadband-in-two-provinces
   kind: Open Networking News
-  isDelivered: false
+  isDelivered: true
 - title: 'Community Member Profile: ADTRAN Team –  Holger Hildebrandt, Michael Pagenkopf, Torsten Thieme'
   url: https://opennetworking.org/news-and-events/blog/community-member-profile-adtran-team-holger-hildebrandt-michael-pagenkopf-torsten-thieme/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: Aether – Rapidly Deploying New Edge Sites Around the World
   url: https://opennetworking.org/news-and-events/blog/aether-rapidly-deploying-new-edge-sites-around-the-world/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: Telecom Regulatory Authority of Bahrain – Telco Open Infrastructure Towards Digitalization
   url: https://opennetworking.org/events/telecom-regulatory-authority-of-bahrain-telco-open-infrastructure-towards-digitalization/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
