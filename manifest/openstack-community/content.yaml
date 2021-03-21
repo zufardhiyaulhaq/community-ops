@@ -742,4 +742,4 @@ content:
 - title: Run Your Kubernetes Cluster on OpenStack in Production
   url: https://superuser.openstack.org/articles/run-your-kubernetes-cluster-on-openstack-in-production/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
