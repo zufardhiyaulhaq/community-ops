@@ -739,3 +739,7 @@ content:
   url: https://superuser.openstack.org/articles/connecting-tribal-nations-and-rural-towns-with-magma/
   kind: OpenStack Super User News
   isDelivered: true
+- title: Run Your Kubernetes Cluster on OpenStack in Production
+  url: https://superuser.openstack.org/articles/run-your-kubernetes-cluster-on-openstack-in-production/
+  kind: OpenStack Super User News
+  isDelivered: false
