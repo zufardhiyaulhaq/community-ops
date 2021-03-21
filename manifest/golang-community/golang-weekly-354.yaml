@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-354
+  namespace: golang-community
+spec:
+  name: Golang Weekly 354
+  date: 03/21/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'Rust vs. Go: Why They’re Better Together'
+    url: https://golangweekly.com/link/105001/web
+    type: News
+  - title: 'REST Servers in Go: Middleware'
+    url: https://golangweekly.com/link/105003/web
+    type: News
+  - title: Learn How to Move Fast from Code to Kubernetes
+    url: https://golangweekly.com/link/105005/web
+    type: News
+  - title: Automatically Detecting and Fixing Concurrency Bugs in Go Software Systems
+    url: https://golangweekly.com/link/105006/web
+    type: News
+  - title: Getting Started with eBPF and Go
+    url: https://golangweekly.com/link/105008/web
+    type: News
+  - title: Writing Slower Go Programs
+    url: https://golangweekly.com/link/105010/web
+    type: News
+  - title: Mage is My Favorite Make
+    url: https://golangweekly.com/link/105011/web
+    type: News
+  - title: Teaching Go Programs to Love JSON and YAML
+    url: https://golangweekly.com/link/105012/web
+    type: News
+  - title: 'Observy McObservface Ep. 13: Driving Community and Open Source'
+    url: https://golangweekly.com/link/105013/web
+    type: News
+  - title: Go App Monitoring with Prometheus
+    url: https://golangweekly.com/link/105014/web
+    type: News
+  - title: Discussing go:embed with Carl Johnson and Wayne Ashley Berry
+    url: https://golangweekly.com/link/105016/web
+    type: News
+  - title: 'GChalk: Terminal String Styling for Go ''Done Right'''
+    url: https://golangweekly.com/link/105017/web
+    type: News
+  - title: 'SQLBoiler 4.5: Generate a Go ORM Tailored to Your Database Schema'
+    url: https://golangweekly.com/link/105019/web
+    type: News
+  - title: The Definitive Guide to Feature Management
+    url: https://golangweekly.com/link/105020/web
+    type: News
+  - title: 'goverter: Generate Type-Safe Go Converters by Simply Defining an Interface'
+    url: https://golangweekly.com/link/105021/web
+    type: News
+  - title: 'Glow: Render Markdown on the Terminal'
+    url: https://golangweekly.com/link/105022/web
+    type: News
+  - title: Go Client for the Unsplash API
+    url: https://golangweekly.com/link/105023/web
+    type: News
+  - title: 'Dynamo: An Expressive DynamoDB Library'
+    url: https://golangweekly.com/link/105025/web
+    type: News
+  - title: Senior Software Engineer (Go) - 100% Remote, UK/EU Only
+    url: https://golangweekly.com/link/105026/web
+    type: News
+  - title: Sr. Software Engineer at CrowdStrike (Remote)
+    url: https://golangweekly.com/link/105028/web
+    type: News
+  - title: Find Golang Engineering Jobs with Hired
+    url: https://golangweekly.com/link/105030/web
+    type: News
