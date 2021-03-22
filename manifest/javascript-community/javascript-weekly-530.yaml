@@ -1,0 +1,86 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-530
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 530
+  date: 03/22/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Rethinking JavaScript's Ternary Operator
+    url: https://javascriptweekly.com/link/105045/web
+    type: News
+  - title: Comparing Svelte and React
+    url: https://javascriptweekly.com/link/105046/web
+    type: News
+  - title: Learn Dynamic Image Resizing Without Using an Image Processing Server
+    url: https://javascriptweekly.com/link/105037/web
+    type: News
+  - title: Ember.js in 2021 – A Beacon of Productivity?
+    url: https://javascriptweekly.com/link/105047/web
+    type: News
+  - title: V8 Release v9.0
+    url: https://javascriptweekly.com/link/105048/web
+    type: News
+  - title: Using Deno and the Slack API to Pick Contest Winners
+    url: https://javascriptweekly.com/link/105058/web
+    type: News
+  - title: Seven Ways to Debug Jest Tests at the Terminal
+    url: https://javascriptweekly.com/link/105059/web
+    type: News
+  - title: A Tip to Familiarize Yourself with New JS Codebases
+    url: https://javascriptweekly.com/link/105060/web
+    type: News
+  - title: Best Practices for Building Better Angular Forms
+    url: https://javascriptweekly.com/link/105038/web
+    type: News
+  - title: Object Plus Array Is Not Zero
+    url: https://javascriptweekly.com/link/105061/web
+    type: News
+  - title: Non-Blocking I/O and How Node Uses It (in Friendly Terms)
+    url: https://javascriptweekly.com/link/105062/web
+    type: News
+  - title: How to Generate an RSS Feed for Your Blog
+    url: https://javascriptweekly.com/link/105063/web
+    type: News
+  - title: An Engineering Leader’s Guide to OpenTelemetry
+    url: https://javascriptweekly.com/link/105041/web
+    type: News
+  - title: Tropical Particles Rain Animation with Three.js
+    url: https://javascriptweekly.com/link/105064/web
+    type: News
+  - title: 'React95 3.7: Windows 95-Style UI Components for React'
+    url: https://javascriptweekly.com/link/105066/web
+    type: News
+  - title: 'Lite YouTube Embed: A Faster Youtube Embed'
+    url: https://javascriptweekly.com/link/105068/web
+    type: News
+  - title: 'Clio: A Functional Language That Compiles to JS'
+    url: https://javascriptweekly.com/link/105070/web
+    type: News
+  - title: The Definitive Guide to Feature Management
+    url: https://javascriptweekly.com/link/105040/web
+    type: News
+  - title: 'jsonld.js: A JSON-LD Processor and API Implementation'
+    url: https://javascriptweekly.com/link/105071/web
+    type: News
+  - title: 'sql.js 1.5: A Library to Run SQLite on the Web'
+    url: https://javascriptweekly.com/link/105072/web
+    type: News
+  - title: 'Spectacle 7: A React and JSX-Based Presentation Library'
+    url: https://javascriptweekly.com/link/105074/web
+    type: News
+  - title: 'Wanted: Curious Software Engineers with ❤'
+    url: https://javascriptweekly.com/link/105042/web
+    type: News
+  - title: Wynter Is Looking for Developers to Join Its Research Panel
+    url: https://javascriptweekly.com/link/105043/web
+    type: News
+  - title: Find Your Next Job Through Hired
+    url: https://javascriptweekly.com/link/105044/web
+    type: News
