@@ -302,8 +302,8 @@ content:
 - title: QuComm Joins the Open Networking Foundation to Collaborate on SD-RAN Project
   url: https://qucomm.eu/qucomm-onf/
   kind: Open Networking News
-  isDelivered: false
+  isDelivered: true
 - title: Community Highlights – February 2021
   url: https://opennetworking.org/news-and-events/blog/community-highlights-february-2021/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
