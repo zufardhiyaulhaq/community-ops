@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-309
+  namespace: devops-community
+spec:
+  name: Devops Weekly 309
+  date: 03/27/2021
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: Crystal 1.0 Released
+    url: https://weekly.statuscode.com/link/105102/web
+    type: News
+  - title: Linus Torvalds on Where Rust Will Fit Into Linux
+    url: https://weekly.statuscode.com/link/105103/web
+    type: News
+  - title: ⏰ How to Set Up Alerts in Grafana
+    url: https://weekly.statuscode.com/link/105104/web
+    type: News
+  - title: How GitHub Found and Fixed a Rare Race Condition in Its Session Handling
+    url: https://weekly.statuscode.com/link/105105/web
+    type: News
+  - title: 'Amazon S3 Object Lambda: Process Data During Retrieval'
+    url: https://weekly.statuscode.com/link/105106/web
+    type: News
+  - title: Software Engineer at Carbon Five
+    url: https://weekly.statuscode.com/link/105114/web
+    type: News
+  - title: Find Software Engineering Jobs with Hired
+    url: https://weekly.statuscode.com/link/105115/web
+    type: News
+  - title: An Illustrated Guide to Ethernet and IP Networking 101
+    url: https://weekly.statuscode.com/link/105116/web
+    type: News
+  - title: '''Retrocoding'' The World''s Smallest Windows App in x86 ASM'
+    url: https://weekly.statuscode.com/link/105117/web
+    type: News
+  - title: Encoding Workflows Best Practices Webinar - Moderated by Dan Rayburn
+    url: https://weekly.statuscode.com/link/105118/web
+    type: News
+  - title: 'A Performance Comparison: Counting Words in Python, Go, C++, C, AWK, Forth, and Rust'
+    url: https://weekly.statuscode.com/link/105119/web
+    type: News
+  - title: Speeding Up SQL Queries by Orders of Magnitude with UNION
+    url: https://weekly.statuscode.com/link/105120/web
+    type: News
+  - title: How the Web Audio API Gets Used for Browser Fingerprinting
+    url: https://weekly.statuscode.com/link/105121/web
+    type: News
+  - title: Is Scala a 'Maintenance Nightmare?'
+    url: https://weekly.statuscode.com/link/105122/web
+    type: News
+  - title: Observability Won’t Replace Monitoring (Because It Shouldn’t)
+    url: https://weekly.statuscode.com/link/105123/web
+    type: News
+  - title: '''The ColdFusion Monolith Allows My Team To Move Fast And Deploy Often'''
+    url: https://weekly.statuscode.com/link/105124/web
+    type: News
+  - title: 'pg_query 2.0: The Easiest Way to Parse (and Deparse!) Postgres Queries'
+    url: https://weekly.statuscode.com/link/105128/web
+    type: News
+  - title: 'CodeTour: VS Code Extension to Record and Playback Guided Tours of Codebases'
+    url: https://weekly.statuscode.com/link/105132/web
+    type: News
+  - title: Comparing AWS and Azure Services to Google Cloud
+    url: https://weekly.statuscode.com/link/105134/web
+    type: News
+  - title: Why I Use exa Instead of ls on Linux
+    url: https://weekly.statuscode.com/link/105135/web
+    type: News
+  - title: 'vim-gh-line: Vim Plugin to Open The Link of Current Line on GitHub'
+    url: https://weekly.statuscode.com/link/105136/web
+    type: News
