@@ -1,0 +1,104 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-256
+  namespace: kubernetes-community
+spec:
+  name: kubeweekly 256
+  date: 03/27/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: 'KubeCon + CloudNativeCon Europe 2021 – Virtual: Co-located event schedules now available!'
+    url: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/program/colocated-events/
+    type: The headlines
+  - title: Cloud Native Rust Day
+    url: https://events.linuxfoundation.org/cloud-native-rust-day/program/schedule/
+    type: The headlines
+  - title: Cloud Native Security Day Europe
+    url: https://events.linuxfoundation.org/cloud-native-security-day-europe/program/schedule/
+    type: The headlines
+  - title: Cloud Native Wasm Day
+    url: https://events.linuxfoundation.org/cloud-native-wasm-day/program/schedule/
+    type: The headlines
+  - title: Crossplane Community Day Europe
+    url: https://events.linuxfoundation.org/crossplane-community-day-europe/program/schedule/
+    type: The headlines
+  - title: 'FluentCon: Cloud Native Logging day with Fluent Bit & Fluentd'
+    url: https://events.linuxfoundation.org/fluentcon/program/schedule/
+    type: The headlines
+  - title: Kubernetes AI Day
+    url: https://events.linuxfoundation.org/kubernetes-ai-day/program/schedule/
+    type: The headlines
+  - title: Kubernetes on Edge Day
+    url: https://events.linuxfoundation.org/kubernetes-on-edge-day/program/schedule/
+    type: The headlines
+  - title: Magma Day
+    url: https://events.linuxfoundation.org/magma-day/program/schedule/
+    type: The headlines
+  - title: PromCon Online 2021
+    url: https://promcon.io/2021-online/schedule/
+    type: The headlines
+  - title: ServiceMeshCon Europe
+    url: https://events.linuxfoundation.org/servicemeshcon-europe/program/schedule/
+    type: The headlines
+  - title: Modern continuous delivery on Kubernetes for developers
+    url: https://dev.to/gabrieltanner/modern-continuous-delivery-on-kubernetes-for-developers-5chf
+    type: The technical
+  - title: 'Kubernetes Ingress Tutorial: Day 32 of #100DaysOfKubernetes'
+    url: https://www.youtube.com/watch?v=13y1tWEK2ZY
+    type: The technical
+  - title: Scaling microservices on Kubernetes
+    url: https://thenewstack.io/scaling-microservices-on-kubernetes/
+    type: The technical
+  - title: Prometheus monitoring for Kubernetes 
+    url: https://www.youtube.com/watch?v=llwxJ0VdYWY
+    type: The technical
+  - title: Announcing Alpha OpenTelemetry access logging support in Envoy
+    url: https://blog.envoyproxy.io/envoy-support-for-opentelemetry-access-logging-e4b08160d32c
+    type: The technical
+  - title: QuarkContainer/Quark
+    url: https://github.com/QuarkContainer/Quark
+    type: The technical
+  - title: Automating SRE from “Hello World” to Enterprise Scale with Keptn
+    url: https://community.cncf.io/e/mjxjru/
+    type: 'ICYMI: CNCF online programs this week'
+  - title: Flux is Incubating + the road ahead
+    url: https://community.cncf.io/e/mmvjwh/
+    type: 'ICYMI: CNCF online programs this week'
+  - title: Securing access to your Kubernetes applications – Using Dex for authentication and role based access control (RBAC) for authorization
+    url: https://community.cncf.io/e/m8bd9k/
+    type: 'ICYMI: CNCF online programs this week'
+  - title: Scaling monitoring at Databricks from Prometheus to M3
+    url: https://community.cncf.io/e/m2tkqe/
+    type: 'ICYMI: CNCF online programs this week'
+  - title: Why your APIs should fly first class
+    url: https://community.cncf.io/e/m2tkqe/
+    type: 'ICYMI: CNCF online programs this week'
+  - title: Cloud Native Live: Crossplane – GitOps-based Infrastructure as Code through Kubernetes API
+    url: https://community.cncf.io/e/mmqjgv/
+    type: 'ICYMI: CNCF online programs this week'
+  - title: Replicated, with Grant Miller
+    url: https://kubernetespodcast.com/episode/143-replicated/
+    type: The editorial
+  - title: 10 predictions for cloud native in 2021 – Keynote, The DevOps Conference
+    url: https://www.oicheryl.com/2021/03/23/10-predictions-for-cloud-native-in-2021-the-devops-conference/
+    type: The editorial
+  - title: Take the CNCF Kubernetes at the Edge microsurvey
+    url: https://www.surveymonkey.com/r/XB33V3F
+    type: The editorial
+  - title: Take the FinOps (CFM) for Kubernetes CNCF microsurvey
+    url: https://www.surveymonkey.co.uk/r/5CDCF2G 
+    type: The editorial
+  - title: Take the CNCF Diversity microsurvey
+    url: https://www.surveymonkey.co.uk/r/MLKSKFS
+    type: The editorial
+  - title: 'Cloud Native Security Day: Protecting our cloud native world, one container at a time'
+    url: https://www.cncf.io/blog/2021/03/24/cloud-native-security-day-protecting-our-cloud-native-world-one-container-at-a-time/
+    type: The editorial
+  - title: CNCF TOC votes to move Flux from Sandbox to Incubation
+    url: https://www.cncf.io/blog/2021/03/11/cncf-toc-votes-to-move-flux-from-sandbox-to-incubation/
+    type: The editorial
