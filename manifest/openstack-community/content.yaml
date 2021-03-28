@@ -746,4 +746,4 @@ content:
 - title: The Challenges and Opportunities of Bringing Open Source Infrastructure to a Wider Market
   url: https://superuser.openstack.org/articles/the-challenges-and-opportunities-of-bringing-open-source-infrastructure-to-a-wider-market/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
