@@ -743,3 +743,7 @@ content:
   url: https://superuser.openstack.org/articles/run-your-kubernetes-cluster-on-openstack-in-production/
   kind: OpenStack Super User News
   isDelivered: true
+- title: The Challenges and Opportunities of Bringing Open Source Infrastructure to a Wider Market
+  url: https://superuser.openstack.org/articles/the-challenges-and-opportunities-of-bringing-open-source-infrastructure-to-a-wider-market/
+  kind: OpenStack Super User News
+  isDelivered: false
