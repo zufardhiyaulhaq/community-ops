@@ -1,0 +1,89 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-546
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 546
+  date: 04/06/2021
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'A Rubyist''s Walk Along the C-side: Hello World!'
+    url: https://rubyweekly.com/link/105618/web
+    type: News
+  - title: Rails 5.2.5, 6.0.3.6 and 6.1.3.1 Released
+    url: https://rubyweekly.com/link/105619/web
+    type: News
+  - title: Long Term Support for Ruby on Rails 4.2, 3.2 and 2.3 - with Support for Ruby 2.7
+    url: https://rubyweekly.com/link/105621/web
+    type: News
+  - title: An Interview with David Heinemeier Hansson
+    url: https://rubyweekly.com/link/105622/web
+    type: News
+  - title: Rails 7 to Allow Run Queries on a Background Thread Pool
+    url: https://rubyweekly.com/link/105624/web
+    type: News
+  - title: Senior Backend Engineer
+    url: https://rubyweekly.com/link/105630/web
+    type: News
+  - title: Senior Software Engineer (US - Remote-Friendly)
+    url: https://rubyweekly.com/link/105632/web
+    type: News
+  - title: Find Ruby Jobs with Hired
+    url: https://rubyweekly.com/link/105633/web
+    type: News
+  - title: Using CockroachDB with Rails
+    url: https://rubyweekly.com/link/105634/web
+    type: News
+  - title: Building a Ruby Web App with and without Rails' Libraries
+    url: https://rubyweekly.com/link/105635/web
+    type: News
+  - title: Which Is Fastest? ERB vs. HAML vs. Slim
+    url: https://rubyweekly.com/link/105636/web
+    type: News
+  - title: 'JetBrains RubyMine: A Cross-Platform Ruby & Rails IDE'
+    url: https://rubyweekly.com/link/105637/web
+    type: News
+  - title: Lazy-Loading Content with Turbo Frames and Skeleton Loader
+    url: https://rubyweekly.com/link/105638/web
+    type: News
+  - title: Anything I Want With Sequel and Postgres
+    url: https://rubyweekly.com/link/105639/web
+    type: News
+  - title: Timecop vs Rails TimeHelpers
+    url: https://rubyweekly.com/link/105640/web
+    type: News
+  - title: Why Write Rails View Tests
+    url: https://rubyweekly.com/link/105641/web
+    type: News
+  - title: How I Code Without Service Objects
+    url: https://rubyweekly.com/link/105642/web
+    type: News
+  - title: Verifying JWTs with JWKS in Ruby
+    url: https://rubyweekly.com/link/105643/web
+    type: News
+  - title: 'Marcel 1.0: Find the MIME Type of Files from Their Contents and/or Filename'
+    url: https://rubyweekly.com/link/105644/web
+    type: News
+  - title: 'http-clients-benchmark: Benchmarks of Well-known Ruby HTTP Clients'
+    url: https://rubyweekly.com/link/105645/web
+    type: News
+  - title: Complete Peace of Mind Rails Hosting
+    url: https://rubyweekly.com/link/105646/web
+    type: News
+  - title: 'SimpleDiscussion 1.3: A Simple, Extensible Rails Forum'
+    url: https://rubyweekly.com/link/105647/web
+    type: News
+  - title: 'pwned: A Ruby Wrapper for the Pwned Passwords API'
+    url: https://rubyweekly.com/link/105649/web
+    type: News
+  - title: 'devise-two-factor: Barebones Two-Factor (TOTP) Authentication with Devise'
+    url: https://rubyweekly.com/link/105650/web
+    type: News
+  - title: 'Torch.rb 0.6.0: Deep Learning for Ruby'
+    url: https://rubyweekly.com/link/105651/web
+    type: News
