@@ -750,4 +750,4 @@ content:
 - title: NTT and KDDI Challenges for Sustainable Infrastructure Transformation
   url: https://superuser.openstack.org/articles/ntt-and-kddi-challenges-for-sustainable-infrastructure-transformation/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
