@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-257
+  namespace: kubernetes-community
+spec:
+  name: kubeweekly 257
+  date: 04/06/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: 'etcd Project Journey Report: Individual project contributors increase by 67% after joining CNCF'
+    url: 'https://www.cncf.io/blog/2021/03/30/etcd-project-journey-report-individual-project-contributors-increase-by-67-after-joining-cncf/ '
+    type: The headlines
+  - title: etcd Project Journey Report
+    url: https://www.cncf.io/cncf-etcd-project-journey-report/
+    type: The headlines
+  - title: 'Cloud lateral movement: Breaking in through a vulnerable container'
+    url: https://sysdig.com/blog/lateral-movement-cloud-containers/
+    type: The technical
+  - title: Kubernetes Lab on Baremetal
+    url: https://www.marcolancini.it/2021/blog-kubernetes-lab-baremetal/
+    type: The technical
+  - title: The worst so-called “best practice” for Docker
+    url: https://pythonspeed.com/articles/security-updates-in-docker/
+    type: The technical
+  - title: Get Updated With Outdated
+    url: https://www.replicated.com/blog/get-updated-with-outdated/
+    type: The technical
+  - title: Linkerd – Service Mesh for Kubernetes (quick intro)
+    url: https://youtu.be/QGZO2V_N3ts
+    type: The technical
+  - title: Benchmarking and Evaluating Your Kubernetes Storage with Kubestr
+    url: https://blog.kasten.io/benchmarking-kubernetes-storage-with-kubestr
+    type: The technical
+  - title: How to replace Docker with Podman on a Mac
+    url: https://www.redhat.com/sysadmin/replace-docker-podman-macos
+    type: The technical
+  - title: A Kubernetes Service Mesh Comparison
+    url: https://www.toptal.com/kubernetes/service-mesh-comparison
+    type: The technical
+  - title: Awesome Kubernetes (K8s) Security
+    url: https://github.com/magnologan/awesome-k8s-security
+    type: The technical
+  - title: Anthos on Bare Metal and Akri — Managing Leaf Devices on Edge Kubernetes Clusters from Cloud
+    url: https://itnext.io/anthos-on-bare-metal-and-akri-managing-leaf-devices-on-edge-kubernetes-clusters-from-cloud-222ff17dd7b8
+    type: The technical
+  - title: 'Introducing Kubestr: a New Way to Explore your Kubernetes Storage Options'
+    url: https://community.cncf.io/e/m659ad/
+    type: 'ICYMI: CNCF online programs this week'
+  - title: Application life-cycle orchestration with Keptn
+    url: https://community.cncf.io/e/mbndw5/
+    type: 'ICYMI: CNCF online programs this week'
+  - title: What’s Next for Sigstore?
+    url: https://blog.sigstore.dev/whats-next-for-sigstore-1969e7321f75
+    type: The editorial
+  - title: Weaveworks (part 1), with Alexis Richardson
+    url: https://kubernetespodcast.com/episode/144-weaveworks-part-1/
+    type: The editorial
+  - title: How a memo from Jeff Bezos catalyzed Kong’s quest to connect APIs for the enterprise
+    url: https://siliconangle.com/2021/03/24/how-a-memo-from-jeff-bezos-catalyzed-kongs-quest-to-connect-apis-for-the-enterprise-cubeoncloudawsstartups/
+    type: The editorial
+  - title: Flux April 2021 update
+    url: https://fluxcd.io/blog/2021/03/april-2021-update/
+    type: The editorial
+  - title: Kubernetes Community days Bangalore CFP extended to 15th April!
+    url: https://kcd.smapply.io/prog/kcd_bengaluru/ 
+    type: The editorial
+  - title: 'Kubernetes at Edge, FinOps and Kubernetes, and Diversity: Share your thoughts with CNCF microsurveys'
+    url: https://www.cncf.io/blog/2021/04/01/kubernetes-at-edge-finops-and-kubernetes-and-diversity-share-your-thoughts-with-cncf-microsurveys/ 
+    type: The editorial
+  - title: 'Istio for Beginners: Day 33 of #100DaysOfKubernetes​'
+    url: https://youtu.be/-X9babxSxK4
+    type: The editorial
