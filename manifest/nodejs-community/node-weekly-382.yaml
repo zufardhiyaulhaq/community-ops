@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-382
+  namespace: node-community
+spec:
+  name: Node Weekly 382
+  date: 04/06/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: How to Migrate Your App from Express to Fastify
+    url: https://nodeweekly.com/link/105658/web
+    type: News
+  - title: April 2021 Security Releases Coming Next Week
+    url: https://nodeweekly.com/link/105660/web
+    type: News
+  - title: How to Model JSON to Get the Most Out of Your Document Database
+    url: https://nodeweekly.com/link/105661/web
+    type: News
+  - title: 'Middy 2.0: Node Middleware Engine for AWS Lambda'
+    url: https://nodeweekly.com/link/105662/web
+    type: News
+  - title: Node v15.13.0 (Current) Released
+    url: https://nodeweekly.com/link/105665/web
+    type: News
+  - title: Node v12.22.0 (LTS) Released
+    url: https://nodeweekly.com/link/105666/web
+    type: News
+  - title: Node.js Developer at X-Team (Remote)
+    url: https://nodeweekly.com/link/105687/web
+    type: News
+  - title: Find Software Engineering Jobs with Hired
+    url: https://nodeweekly.com/link/105667/web
+    type: News
+  - title: A Deep Dive into the Eleventy Static Site Generator
+    url: https://nodeweekly.com/link/105668/web
+    type: News
+  - title: Examples of Go(lang) Compared to Node.js
+    url: https://nodeweekly.com/link/105670/web
+    type: News
+  - title: How the Popular netmask Package Was Vunerable to Octal Input Data
+    url: https://nodeweekly.com/link/105672/web
+    type: News
+  - title: 'Video: Configure NGINX as a Reverse Proxy with Node.js'
+    url: https://nodeweekly.com/link/105673/web
+    type: News
+  - title: Managing Multiple Threads In Node
+    url: https://nodeweekly.com/link/105674/web
+    type: News
+  - title: How To Deploy Your Node App on AWS with NGINX and SSL
+    url: https://nodeweekly.com/link/105675/web
+    type: News
+  - title: 'What''s New in Mongoose 5.12: Populate Transform'
+    url: https://nodeweekly.com/link/105676/web
+    type: News
+  - title: 'eslint-plugin-clean-regex: ESLint Plugin for Better Regular Expressions'
+    url: https://nodeweekly.com/link/105677/web
+    type: News
+  - title: 'Faker.js 5.5: Generate Realistic Fake Data in Node and Browser'
+    url: https://nodeweekly.com/link/105678/web
+    type: News
+  - title: 'Husky 6.0: Git Hooks Made Easier'
+    url: https://nodeweekly.com/link/105681/web
+    type: News
+  - title: See Your Microservices, Build Your Node.js Apps Faster
+    url: https://nodeweekly.com/link/105683/web
+    type: News
+  - title: 'Node Redis 3.1.0: A High Performance Redis Client Library'
+    url: https://nodeweekly.com/link/105684/web
+    type: News
+  - title: 'Prray: A ''Promisified'' Array'
+    url: https://nodeweekly.com/link/105685/web
+    type: News
+  - title: 'Worker 0.10.0: A High Performance Node + Postgres Job Queue'
+    url: https://nodeweekly.com/link/105686/web
+    type: News
