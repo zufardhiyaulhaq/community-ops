@@ -310,28 +310,28 @@ content:
 - title: A new Stanford initiative aims to ensure 5G networks are reliable and secure
   url: https://news.stanford.edu/2021/03/24/new-initiative-aims-keep-5g-networks-reliable-secure/
   kind: Open Networking News
-  isDelivered: false
+  isDelivered: true
 - title: Enabling a New Era of Industrial IoT with Free-Use Wireless Spectrum
   url: https://iiot-world.com/industrial-iot/connected-industry/enabling-a-new-era-of-industrial-iot-with-free-use-wireless-spectrum/
   kind: Open Networking News
-  isDelivered: false
+  isDelivered: true
 - title: 'TAPI: Successfully Tested In Multi-Vendor, Multi-Operator Event hosted at Telefonica Madrid Lab'
   url: https://opennetworking.org/news-and-events/blog/tapi-successfully-tested-in-multi-vendor-multi-operator-event-hosted-at-telefonica-madrid-lab/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: Andrea Campanella and Andres Madero elected as ONF Ambassador Program A-team Members
   url: https://opennetworking.org/news-and-events/blog/andrea-campanella-and-andres-madero-elected-as-onf-ambassador-program-a-team-members/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: China Cloud Network Conference 2021
   url: https://opennetworking.org/events/china-cloud-network-conference-2021/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
 - title: VOLTHA v2.7 Techinar
   url: https://opennetworking.org/events/voltha-v2-7-techinar/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
 - title: ONUG Spring 2021
   url: https://opennetworking.org/events/onug-spring-2021/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
