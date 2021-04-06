@@ -747,3 +747,7 @@ content:
   url: https://superuser.openstack.org/articles/the-challenges-and-opportunities-of-bringing-open-source-infrastructure-to-a-wider-market/
   kind: OpenStack Super User News
   isDelivered: true
+- title: NTT and KDDI Challenges for Sustainable Infrastructure Transformation
+  url: https://superuser.openstack.org/articles/ntt-and-kddi-challenges-for-sustainable-infrastructure-transformation/
+  kind: OpenStack Super User News
+  isDelivered: false
