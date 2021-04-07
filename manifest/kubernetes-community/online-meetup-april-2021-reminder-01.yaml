@@ -1,0 +1,26 @@
+apiVersion: community.io/v1alpha1
+kind: Meetup
+metadata:
+  name: online-meetup-april-2021-reminder-01
+  namespace: kubernetes-community
+spec:
+  name: "Kubernetes Cloud Native Online Meetup April 2021"
+  date: "April 8, 2021"
+  time: "19.00"
+  place: "Online"
+  city: "Indonesia"
+  sponsor: "Nutanix"
+  registration_url: "bit.ly/k8scloudnativeOnlineApril2021"
+  image: "https://raw.githubusercontent.com/cloudnative-id/artwork/master/poster/online/8-April-2021.png"
+  tags:
+    - meetup
+    - cncf
+  speakers:
+    - name: "Alief Darul Ikhsan"
+      position: "Cloud Engineer"
+      company: "Btech"
+      title: "Kubernetes Service & Networking Basic"
+    - name: "Arief Pribadi"
+      position: "Technical Director"
+      company: "Nutanix Indonesia"
+      title: "Database as a Service in Cloud Native"
