@@ -1,0 +1,23 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-08-04-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 08-04-2021
+  date: 04/08/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: RIMEDO Labs joins the ONF to collaborate on the O-RAN compliant RIC
+    url: https://www.rimedolabs.com/blog/rimedo-labs-joins-the-onf-sd-ran/
+    type: Open Networking News
+  - title: Community Highlights – March 2021
+    url: https://opennetworking.org/uncategorized/community-highlights-march-2021/
+    type: Open Networking Blog
+  - title: Stratum 21.03 Released
+    url: https://opennetworking.org/news-and-events/blog/stratum-21-03-released/
+    type: Open Networking Blog
