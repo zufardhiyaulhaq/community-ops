@@ -338,12 +338,12 @@ content:
 - title: RIMEDO Labs joins the ONF to collaborate on the O-RAN compliant RIC
   url: https://www.rimedolabs.com/blog/rimedo-labs-joins-the-onf-sd-ran/
   kind: Open Networking News
-  isDelivered: false
+  isDelivered: true
 - title: Community Highlights – March 2021
   url: https://opennetworking.org/uncategorized/community-highlights-march-2021/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: Stratum 21.03 Released
   url: https://opennetworking.org/news-and-events/blog/stratum-21-03-released/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
