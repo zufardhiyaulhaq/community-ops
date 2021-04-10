@@ -1,0 +1,89 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-311
+  namespace: devops-community
+spec:
+  name: Devops Weekly 311
+  date: 04/10/2021
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: US Supreme Court Sides with Developers in Google v. Oracle
+    url: https://weekly.statuscode.com/link/105967/web
+    type: News
+  - title: The Systems Involved in Building a Fast Web Analytics Service
+    url: https://weekly.statuscode.com/link/105931/web
+    type: News
+  - title: "Prom-Migrator: The Universal Prometheus Data Migration Tool \U0001F525"
+    url: https://weekly.statuscode.com/link/105933/web
+    type: News
+  - title: Breaking GitHub Private Pages for $35k
+    url: https://weekly.statuscode.com/link/105934/web
+    type: News
+  - title: 'One Year of Graviton2 at Honeycomb: A Retrospective'
+    url: https://weekly.statuscode.com/link/105935/web
+    type: News
+  - title: Team Lead @ Nebulab (Remote)
+    url: https://weekly.statuscode.com/link/105941/web
+    type: News
+  - title: Remote Developer and Engineer Positions @ Kinsta
+    url: https://weekly.statuscode.com/link/105942/web
+    type: News
+  - title: What Problems Do People Solve with strace?
+    url: https://weekly.statuscode.com/link/105943/web
+    type: News
+  - title: What Are CORS Proxies, and When Are They Safe?
+    url: https://weekly.statuscode.com/link/105945/web
+    type: News
+  - title: 'Understanding Kubernetes: Modernizing Your Cloud Infrastructure'
+    url: https://weekly.statuscode.com/link/105947/web
+    type: News
+  - title: Five Ways to Prevent Code Injection in JavaScript and Node
+    url: https://weekly.statuscode.com/link/105948/web
+    type: News
+  - title: All C++20 Core Language Features with Examples
+    url: https://weekly.statuscode.com/link/105949/web
+    type: News
+  - title: 'Learning a New Codebase: Hacking on NGINX'
+    url: https://weekly.statuscode.com/link/105950/web
+    type: News
+  - title: 'Kubernetes Single Sign On: A Detailed Guide'
+    url: https://weekly.statuscode.com/link/105952/web
+    type: News
+  - title: How We Handle Incidents at Getaround
+    url: https://weekly.statuscode.com/link/105953/web
+    type: News
+  - title: 'Balancing Act: The Current Limits of AWS Network Load Balancers'
+    url: https://weekly.statuscode.com/link/105954/web
+    type: News
+  - title: 'Introducing Bramble: A Federated GraphQL Gateway Implemented in Go'
+    url: https://weekly.statuscode.com/link/105955/web
+    type: News
+  - title: 'ngx_waf 5.0: A Web Application Firewall Module for NGINX'
+    url: https://weekly.statuscode.com/link/105957/web
+    type: News
+  - title: 'PostgREST: Serve a RESTful API from a Postgres Database'
+    url: https://weekly.statuscode.com/link/105958/web
+    type: News
+  - title: NativeScript 8.0 Released
+    url: https://weekly.statuscode.com/link/105959/web
+    type: News
+  - title: 'fselect: Find Files with SQL-Like Queries'
+    url: https://weekly.statuscode.com/link/105960/web
+    type: News
+  - title: Observability Won’t Replace Monitoring (Because It Shouldn’t)
+    url: https://weekly.statuscode.com/link/105961/web
+    type: News
+  - title: 'xplr: A Hackable, Minimal, Fast TUI File Explorer'
+    url: https://weekly.statuscode.com/link/105962/web
+    type: News
+  - title: 'Condition: A 64KB WebGL ''Demo'''
+    url: https://weekly.statuscode.com/link/105963/web
+    type: News
+  - title: 'ctop: A top-Like Interface for Container Metrics'
+    url: https://weekly.statuscode.com/link/105966/web
+    type: News
