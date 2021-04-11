@@ -754,4 +754,4 @@ content:
 - title: 'Students of OpenInfra: Shubham Mishra | The University of Delhi'
   url: https://superuser.openstack.org/articles/students-of-openinfra-shubham-mishra-the-university-of-delhi/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
