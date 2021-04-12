@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-383
+  namespace: node-community
+spec:
+  name: Node Weekly 383
+  date: 04/12/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: April 2021 Security Releases Out Now
+    url: https://nodeweekly.com/link/106023/web
+    type: News
+  - title: Get Visibility into Your Node Apps with End-To-End Traces
+    url: https://nodeweekly.com/link/106029/web
+    type: News
+  - title: 'NodeCSV 5.50: A Full Featured CSV Parser with a Simple API'
+    url: https://nodeweekly.com/link/106030/web
+    type: News
+  - title: Five Ways to Prevent Code Injection in JavaScript and Node
+    url: https://nodeweekly.com/link/106032/web
+    type: News
+  - title: A Look at Class static Initializer Blocks in V8 9.1
+    url: https://nodeweekly.com/link/106033/web
+    type: News
+  - title: Find Software Engineering Jobs with Hired
+    url: https://nodeweekly.com/link/106034/web
+    type: News
+  - title: Node.js Developer at X-Team (Remote)
+    url: https://nodeweekly.com/link/106060/web
+    type: News
+  - title: Sending Tuples from Node to Rust (and Back)
+    url: https://nodeweekly.com/link/106035/web
+    type: News
+  - title: Using Top-Level await in Node Modules
+    url: https://nodeweekly.com/link/106036/web
+    type: News
+  - title: Observability Won’t Replace Monitoring (Because It Shouldn’t)
+    url: https://nodeweekly.com/link/106038/web
+    type: News
+  - title: Node Development with Docker and Docker Compose
+    url: https://nodeweekly.com/link/106039/web
+    type: News
+  - title: Deploying Packages with GitHub Actions
+    url: https://nodeweekly.com/link/106040/web
+    type: News
+  - title: Getting Started with Apache Kafka in Node.js
+    url: https://nodeweekly.com/link/106041/web
+    type: News
+  - title: 'active-win: Get Metadata About the Active Window'
+    url: https://nodeweekly.com/link/106043/web
+    type: News
+  - title: 'iohook: Global Keyboard and Mouse Listener'
+    url: https://nodeweekly.com/link/106044/web
+    type: News
+  - title: '[New] AI Security Scanning for WebStorm - Try the Free Security Plugin'
+    url: https://nodeweekly.com/link/106046/web
+    type: News
+  - title: 'StrongSoap 3.2: A SOAP Driver for Node'
+    url: https://nodeweekly.com/link/106047/web
+    type: News
+  - title: 'PM2 WebUI: An Open-Source Alternative to PM2 Plus'
+    url: https://nodeweekly.com/link/106049/web
+    type: News
+  - title: 'it-to-stream 1.0: Convert Streaming Iterables to Node Streams'
+    url: https://nodeweekly.com/link/106051/web
+    type: News
+  - title: 'Tail: A Zero Dependency Module for Tailing a File'
+    url: https://nodeweekly.com/link/106052/web
+    type: News
+  - title: 'p-queue: A Promise Queue with Concurrency Control'
+    url: https://nodeweekly.com/link/106053/web
+    type: News
