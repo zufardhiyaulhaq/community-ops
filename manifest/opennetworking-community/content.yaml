@@ -347,3 +347,23 @@ content:
   url: https://opennetworking.org/news-and-events/blog/stratum-21-03-released/
   kind: Open Networking Blog
   isDelivered: true
+- title: Amdocs Joins Open Networking Foundation to Accelerate Intelligent Automation Technologies for Next Generation Mobile and Hybrid Networks
+  url: https://www.amdocs.com/media-room/amdocs-joins-open-networking-foundation-accelerate-intelligent-automation-technologies
+  kind: Open Networking News
+  isDelivered: false
+- title: 'Community Member Profile: David Bainbridge'
+  url: https://opennetworking.org/news-and-events/blog/community-member-profile-david-bainbridge/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: 'Aether: Automated CI/CD Systems Increase Reliability and Operational Efficiencies'
+  url: https://opennetworking.org/news-and-events/blog/aether-automated-ci-cd-systems-increase-reliability-and-operational-efficiencies/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: VOLTHA v2.7 Released
+  url: https://opennetworking.org/news-and-events/blog/voltha-v2-7-released/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: Working with ONF to Transform Mobile and Broadband Networks in LATAM
+  url: https://opennetworking.org/events/working-with-onf-to-transform-mobile-and-broadband-networks-in-latam-2/
+  kind: Open Networking Event
+  isDelivered: false
