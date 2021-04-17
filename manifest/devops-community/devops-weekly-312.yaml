@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-312
+  namespace: devops-community
+spec:
+  name: Devops Weekly 312
+  date: 04/17/2021
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: 'Introducing OpenSearch: AWS''s Fork of Elasticsearch and Kibana'
+    url: https://weekly.statuscode.com/link/106282/web
+    type: News
+  - title: '''Nobody Cares About the Operating System Anymore'''
+    url: https://weekly.statuscode.com/link/106284/web
+    type: News
+  - title: '[Guide] The Truth About Developer Productivity Metrics'
+    url: https://weekly.statuscode.com/link/106285/web
+    type: News
+  - title: Deno 1.9 Released
+    url: https://weekly.statuscode.com/link/106286/web
+    type: News
+  - title: How GitHub Scaled Its API with a Replicated Redis-Powered Rate Limiter
+    url: https://weekly.statuscode.com/link/106289/web
+    type: News
+  - title: Creating Security Decision Trees with Graphviz
+    url: https://weekly.statuscode.com/link/106296/web
+    type: News
+  - title: Is Amazon RDS for PostgreSQL or Amazon Aurora PostgreSQL a Better Choice for Me?
+    url: https://weekly.statuscode.com/link/106297/web
+    type: News
+  - title: All-Star Lineup at PulumiUP - Grab Your Spot
+    url: https://weekly.statuscode.com/link/106298/web
+    type: News
+  - title: How to Password Protect a Site with Cloudflare Workers
+    url: https://weekly.statuscode.com/link/106299/web
+    type: News
+  - title: The Healing Power of JavaScript
+    url: https://weekly.statuscode.com/link/106300/web
+    type: News
+  - title: '''Go is a Great Programming Language'''
+    url: https://weekly.statuscode.com/link/106301/web
+    type: News
+  - title: The Fundamentals of Docker Image Tags
+    url: https://weekly.statuscode.com/link/106302/web
+    type: News
+  - title: Commits Are Snapshots, Not Diffs
+    url: https://weekly.statuscode.com/link/106303/web
+    type: News
+  - title: 'Ledokku: A Web UI for All Things Dokku'
+    url: https://weekly.statuscode.com/link/106307/web
+    type: News
+  - title: 'SQLean: All the ''Missing'' SQLite Functions'
+    url: https://weekly.statuscode.com/link/106309/web
+    type: News
+  - title: Book a Demo. Ship Fast. Rest Easy. LaunchDarkly
+    url: https://weekly.statuscode.com/link/106310/web
+    type: News
+  - title: 'Electron Boilerplate 9.0: A Boilerplate for Building Electron Apps'
+    url: https://weekly.statuscode.com/link/106311/web
+    type: News
