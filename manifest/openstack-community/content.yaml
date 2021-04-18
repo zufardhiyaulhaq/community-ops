@@ -755,3 +755,15 @@ content:
   url: https://superuser.openstack.org/articles/students-of-openinfra-shubham-mishra-the-university-of-delhi/
   kind: OpenStack Super User News
   isDelivered: true
+- title: OpenStack Multi-Arch SIG Making Progress Addressing Hardware Diversification Requirements
+  url: https://superuser.openstack.org/articles/openstack-multi-arch-sig-making-progress-addressing-hardware-diversification-requirements/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: 'Inside Open Infrastructure: The Latest from the OpenInfra Foundation'
+  url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation-3/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: 'Students of OpenInfra: Shubham Tatvamasi | The University of Delhi'
+  url: https://superuser.openstack.org/articles/students-of-openinfra-shubham-tatvamasi-the-university-of-delhi/
+  kind: OpenStack Super User News
+  isDelivered: false
