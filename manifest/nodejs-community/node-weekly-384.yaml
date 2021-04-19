@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-384
+  namespace: node-community
+spec:
+  name: Node Weekly 384
+  date: 04/19/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: A Simple Start to ES Modules in Node.js
+    url: https://nodeweekly.com/link/106392/web
+    type: News
+  - title: What About Bundling Yarn 1.x with Node.js? Maybe!
+    url: https://nodeweekly.com/link/106393/web
+    type: News
+  - title: Spend Less Time Debugging and More Time Building with Scout
+    url: https://nodeweekly.com/link/106394/web
+    type: News
+  - title: Deno 1.9 Released
+    url: https://nodeweekly.com/link/106395/web
+    type: News
+  - title: 5 Hours on Node DevOps with Docker
+    url: https://nodeweekly.com/link/106399/web
+    type: News
+  - title: Building a Video Streaming App with Nuxt.js, Node and Express
+    url: https://nodeweekly.com/link/106400/web
+    type: News
+  - title: 'Report: See Why Developers Spend 34% of Their Time on Internal Apps'
+    url: https://nodeweekly.com/link/106401/web
+    type: News
+  - title: How to Send Tweets with a JavaScript GitHub Action
+    url: https://nodeweekly.com/link/106402/web
+    type: News
+  - title: Scraping the Web with Playwright from Node
+    url: https://nodeweekly.com/link/106403/web
+    type: News
+  - title: Mastering Postgres Transactions with Knex.js and Objection.js
+    url: https://nodeweekly.com/link/106404/web
+    type: News
+  - title: 'WikiJs: A Wikipedia Interface for Node.js'
+    url: https://nodeweekly.com/link/106405/web
+    type: News
+  - title: 'fast-folder-size 1.2.0: Calculate the Total Size of a Directory'
+    url: https://nodeweekly.com/link/106406/web
+    type: News
+  - title: Find, Fix, and Prevent Cloud Misconfigs with Bridgecrew
+    url: https://nodeweekly.com/link/106407/web
+    type: News
+  - title: 'Electron Boilerplate 9.0: A Boilerplate for Building Electron Apps'
+    url: https://nodeweekly.com/link/106408/web
+    type: News
+  - title: 'tslog 3.2: ''Beautiful'' Logging for Node with TypeScript Support'
+    url: https://nodeweekly.com/link/106409/web
+    type: News
+  - title: 'JS-YAML: A Fast YAML 1.2 Parser and Dumper'
+    url: https://nodeweekly.com/link/106410/web
+    type: News
