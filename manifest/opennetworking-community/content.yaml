@@ -370,8 +370,8 @@ content:
 - title: SD-RAN v1.1 Techinar
   url: https://opennetworking.org/events/sd-ran-v1-1-techinar/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
 - title: SDN/NFV Korea
   url: https://opennetworking.org/events/sdn-nfv-korea/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
