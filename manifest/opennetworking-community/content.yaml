@@ -367,3 +367,11 @@ content:
   url: https://opennetworking.org/events/working-with-onf-to-transform-mobile-and-broadband-networks-in-latam-2/
   kind: Open Networking Event
   isDelivered: true
+- title: SD-RAN v1.1 Techinar
+  url: https://opennetworking.org/events/sd-ran-v1-1-techinar/
+  kind: Open Networking Event
+  isDelivered: false
+- title: SDN/NFV Korea
+  url: https://opennetworking.org/events/sdn-nfv-korea/
+  kind: Open Networking Event
+  isDelivered: false
