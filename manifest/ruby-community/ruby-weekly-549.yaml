@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-549
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 549
+  date: 04/23/2021
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Why Our Puma Workers Constantly Hung, and How We Fixed It by Discovering a Bug of Ruby 2.5.8 and 2.6.6
+    url: https://rubyweekly.com/link/106785/web
+    type: News
+  - title: Bundler 2.2.3+ and the Deployment of Ruby Apps
+    url: https://rubyweekly.com/link/106757/web
+    type: News
+  - title: On Heroku? Try Autoscaling the Rails Way
+    url: https://rubyweekly.com/link/106749/web
+    type: News
+  - title: 'Solidus v3.0 Released: A Rails-Based Ecommerce Platform'
+    url: https://rubyweekly.com/link/106751/web
+    type: News
+  - title: How to Build An App, Get Acquired by GitHub, Buy An App Back From GitHub and Then Sell It Again
+    url: https://rubyweekly.com/link/106755/web
+    type: News
+  - title: A VCR + WebMock "Hello World" Tutorial
+    url: https://rubyweekly.com/link/106760/web
+    type: News
+  - title: How to Protect Access to Rack Apps Mounted in Rails
+    url: https://rubyweekly.com/link/106761/web
+    type: News
+  - title: Bitfields, Explained Like I'm 5
+    url: https://rubyweekly.com/link/106762/web
+    type: News
+  - title: 'Free eBook: Efficient Search in Rails with Postgres'
+    url: https://rubyweekly.com/link/106763/web
+    type: News
+  - title: Ruby 3.1 to Allow Accumulation of Enumerable#tally Results
+    url: https://rubyweekly.com/link/106764/web
+    type: News
+  - title: Listing the Contents of a Remote ZIP Archive, Without Downloading the Entire File
+    url: https://rubyweekly.com/link/106788/web
+    type: News
+  - title: Rails 7 Enables Scoping to Apply to All Queries
+    url: https://rubyweekly.com/link/106765/web
+    type: News
+  - title: The Future of Web Software Is HTML-over-WebSockets
+    url: https://rubyweekly.com/link/106766/web
+    type: News
+  - title: How and When to Use case Statements
+    url: https://rubyweekly.com/link/106767/web
+    type: News
+  - title: 'rgeo 2.3.0 Released: A Geospatial Data Library'
+    url: https://rubyweekly.com/link/106773/web
+    type: News
+  - title: FastRuby.io Guides You on How to Prepare Your Rails Application for an Upgrade
+    url: https://rubyweekly.com/link/106784/web
+    type: News
+  - title: 'Reform 2.6.0: Form Objects Decoupled From Models'
+    url: https://rubyweekly.com/link/106776/web
+    type: News
