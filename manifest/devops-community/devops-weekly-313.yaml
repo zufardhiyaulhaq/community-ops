@@ -1,0 +1,59 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-313
+  namespace: devops-community
+spec:
+  name: Devops Weekly 313
+  date: 04/24/2021
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: How Often Do People Actually Copy and Paste from Stack Overflow?
+    url: https://weekly.statuscode.com/link/106655/web
+    type: News
+  - title: Open Source Goes to Mars
+    url: https://weekly.statuscode.com/link/106656/web
+    type: News
+  - title: Book a Demo. Ship Fast. Rest Easy. LaunchDarkly
+    url: https://weekly.statuscode.com/link/106658/web
+    type: News
+  - title: Cloudflare Workers Unbound Now Generally Available
+    url: https://weekly.statuscode.com/link/106659/web
+    type: News
+  - title: 'Tiny Container Challenge: Building a 6KB Containerized HTTP Server'
+    url: https://weekly.statuscode.com/link/106671/web
+    type: News
+  - title: Faster Python with Go Shared Objects
+    url: https://weekly.statuscode.com/link/106672/web
+    type: News
+  - title: Hunting Down The Stuck BGP Routes
+    url: https://weekly.statuscode.com/link/106673/web
+    type: News
+  - title: 'How to Scale Prometheus (Hint: It’s Not Prometheus)'
+    url: https://weekly.statuscode.com/link/106696/web
+    type: News
+  - title: Porting DOOM to Fastly's Serverless Edge Platform
+    url: https://weekly.statuscode.com/link/106675/web
+    type: News
+  - title: '''Thanks for the Bonus, I Quit!'''
+    url: https://weekly.statuscode.com/link/106676/web
+    type: News
+  - title: 'grep.app: Search Code Across a Half Million GitHub Repos'
+    url: https://weekly.statuscode.com/link/106680/web
+    type: News
+  - title: 'GitLeaks 7.4: Check Git Repos and History for Secrets and Keys'
+    url: https://weekly.statuscode.com/link/106681/web
+    type: News
+  - title: Too Much Code for Bazel Monorepo? Try Going Virtual
+    url: https://weekly.statuscode.com/link/106682/web
+    type: News
+  - title: 'Netdata: An Open Source, Real-Time Performance Monitoring System'
+    url: https://weekly.statuscode.com/link/106692/web
+    type: News
+  - title: 'aws-eks-base: Boilerplate for a Basic AWS Infrastructure with EKS Cluster'
+    url: https://weekly.statuscode.com/link/106693/web
+    type: News
