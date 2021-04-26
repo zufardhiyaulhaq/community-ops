@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-385
+  namespace: node-community
+spec:
+  name: Node Weekly 385
+  date: 04/26/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Node.js 16 Available Now
+    url: https://nodeweekly.com/link/106793/web
+    type: News
+  - title: Nail the Fundamentals of Web Performance
+    url: https://nodeweekly.com/link/106797/web
+    type: News
+  - title: Prisma ORM Toolkit Now 'Ready For Production'
+    url: https://nodeweekly.com/link/106798/web
+    type: News
+  - title: Web Performance Recipes with Puppeteer
+    url: https://nodeweekly.com/link/106802/web
+    type: News
+  - title: Three Services Where You Can Deploy a Node App for Free
+    url: https://nodeweekly.com/link/106803/web
+    type: News
+  - title: Break Away From the App Dev Status Quo with AWS & OutSystems
+    url: https://nodeweekly.com/link/106804/web
+    type: News
+  - title: How to Convert HTML to an Image with Puppeteer from Node
+    url: https://nodeweekly.com/link/106805/web
+    type: News
+  - title: 'Mongoose Internals: Schemas, Schema Options, and Models'
+    url: https://nodeweekly.com/link/106806/web
+    type: News
+  - title: Work with GitHub Actions in Your Terminal with GitHub CLI
+    url: https://nodeweekly.com/link/106808/web
+    type: News
+  - title: 'Volta 1.0.4: The JavaScript Tool Installer and Launcher'
+    url: https://nodeweekly.com/link/106810/web
+    type: News
+  - title: 'terminal-link 3.0: Create Clickable Links in the Terminal'
+    url: https://nodeweekly.com/link/106811/web
+    type: News
+  - title: Book a Demo. Ship Fast. Rest Easy. LaunchDarkly
+    url: https://nodeweekly.com/link/106813/web
+    type: News
+  - title: 'dbgr: A New Lightweight ''Debugger'' for Node'
+    url: https://nodeweekly.com/link/106814/web
+    type: News
+  - title: Pure C++ Node.js Bindings for RocksDB 5.0
+    url: https://nodeweekly.com/link/106815/web
+    type: News
