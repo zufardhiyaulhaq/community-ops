@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-535
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 535
+  date: 04/26/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Starting a TypeScript Project in 2021
+    url: https://javascriptweekly.com/link/106948/web
+    type: News
+  - title: Node.js 16 Released
+    url: https://javascriptweekly.com/link/106949/web
+    type: News
+  - title: 'ButterCMS Melts into Your React App. #1 Rated Headless CMS'
+    url: https://javascriptweekly.com/link/106952/web
+    type: News
+  - title: Solving a Mystery Behavior of parseInt()
+    url: https://javascriptweekly.com/link/106968/web
+    type: News
+  - title: How Josh Comeau Builds His Blog
+    url: https://javascriptweekly.com/link/106964/web
+    type: News
+  - title: How to Convert HTML to an Image with Puppeteer from Node
+    url: https://javascriptweekly.com/link/106970/web
+    type: News
+  - title: Breakpoints and console.log Is the Past, Time Travel Is the Future
+    url: https://javascriptweekly.com/link/106969/web
+    type: News
+  - title: Debugging JavaScript Efficiently with Chrome DevTools
+    url: https://javascriptweekly.com/link/106971/web
+    type: News
+  - title: Five Key Lessons React Tutorials Don't Teach
+    url: https://javascriptweekly.com/link/106972/web
+    type: News
+  - title: Web Performance Recipes with Puppeteer
+    url: https://javascriptweekly.com/link/106953/web
+    type: News
+  - title: Book a Demo. Ship Fast. Rest Easy. LaunchDarkly
+    url: https://javascriptweekly.com/link/106981/web
+    type: News
+  - title: How to Streamline Angular Reactivity
+    url: https://javascriptweekly.com/link/106988/web
+    type: News
+  - title: 'Sucrase: A Super-Fast Babel Alternative'
+    url: https://javascriptweekly.com/link/106976/web
+    type: News
+  - title: Prisma ORM Toolkit Now 'Ready For Production'
+    url: https://javascriptweekly.com/link/106975/web
+    type: News
+  - title: 'Pulumi Infrastructure as Code: Any Cloud, Familiar Languages'
+    url: https://javascriptweekly.com/link/106979/web
+    type: News
+  - title: 'WinBox: An HTML5 ''Window Manager'' for the Web'
+    url: https://javascriptweekly.com/link/106990/web
+    type: News
+  - title: 'Volta 1.0.4: The JavaScript Tool Installer and Launcher'
+    url: https://javascriptweekly.com/link/106980/web
+    type: News
+  - title: 'Inkline: A Customizable Vue.js UI/UX Library'
+    url: https://javascriptweekly.com/link/106985/web
+    type: News
+  - title: 'js-image-carver: Content-Aware Image Resizer and Object Remover'
+    url: https://javascriptweekly.com/link/106986/web
+    type: News
