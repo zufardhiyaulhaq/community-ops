@@ -375,3 +375,11 @@ content:
   url: https://opennetworking.org/events/sdn-nfv-korea/
   kind: Open Networking Event
   isDelivered: true
+- title: 'Access 4.0: A valuable lesson in network transformation'
+  url: http://www.gazettabyte.com/home/2021/4/27/access-40-a-valuable-lesson-in-network-transformation.html
+  kind: Open Networking News
+  isDelivered: false
+- title: Announcing the Release of SD-RAN v1.1
+  url: https://opennetworking.org/news-and-events/blog/announcing-the-release-of-sd-ran-v1-1/
+  kind: Open Networking Blog
+  isDelivered: false
