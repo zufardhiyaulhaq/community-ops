@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-550
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 550
+  date: 04/30/2021
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: The Best Ruby HTTP Clients for 2021?
+    url: https://rubyweekly.com/link/107189/web
+    type: News
+  - title: (Some of) What's Cooking in Rails 7
+    url: https://rubyweekly.com/link/107190/web
+    type: News
+  - title: 'ButterCMS Melts into Your Rails App. #1 Rated Headless CMS'
+    url: https://rubyweekly.com/link/107191/web
+    type: News
+  - title: Building a Component Library in Rails with Storybook
+    url: https://rubyweekly.com/link/107192/web
+    type: News
+  - title: Basecamp's Employee Speech Policy Controversy
+    url: https://rubyweekly.com/link/107193/web
+    type: News
+  - title: Understanding Insertion Sort in Ruby
+    url: https://rubyweekly.com/link/107205/web
+    type: News
+  - title: Linting Ruby Code
+    url: https://rubyweekly.com/link/107206/web
+    type: News
+  - title: Build Your Next Admin Panel with Just a Few Lines of Code
+    url: https://rubyweekly.com/link/107207/web
+    type: News
+  - title: A Tour of the Sidekiq API
+    url: https://rubyweekly.com/link/107208/web
+    type: News
+  - title: Creating Custom Postgres Data Types in Rails
+    url: https://rubyweekly.com/link/107209/web
+    type: News
+  - title: Benchmarking Ruby 3 with PDF Generation
+    url: https://rubyweekly.com/link/107210/web
+    type: News
+  - title: Discussing Ruby Garbage Collection with Jemma Issroff
+    url: https://rubyweekly.com/link/107211/web
+    type: News
+  - title: 'Heroku Security: Securing Your Heroku Application'
+    url: https://rubyweekly.com/link/107212/web
+    type: News
+  - title: 'yake: A Rake-like DSL for Writing AWS Lambda Handlers'
+    url: https://rubyweekly.com/link/107221/web
+    type: News
+  - title: 'trueMail 2.4.0: A Framework Agnostic Plain Ruby Email Validator/Verifier'
+    url: https://rubyweekly.com/link/107222/web
+    type: News
+  - title: Complete Peace of Mind Rails Hosting
+    url: https://rubyweekly.com/link/107224/web
+    type: News
+  - title: 'Vessel: Fast High-Level Web Crawling Ruby Framework'
+    url: https://rubyweekly.com/link/107225/web
+    type: News
+  - title: 'git curate: Peruse and Delete git Branches Ergonomically'
+    url: https://rubyweekly.com/link/107226/web
+    type: News
