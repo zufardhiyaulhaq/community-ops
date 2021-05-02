@@ -767,3 +767,7 @@ content:
   url: https://superuser.openstack.org/articles/students-of-openinfra-shubham-tatvamasi-the-university-of-delhi/
   kind: OpenStack Super User News
   isDelivered: true
+- title: 'Introducing OpenInfra Live: A Weekly, Interactive Webinar Series'
+  url: https://superuser.openstack.org/articles/introducing-openinfra-live-a-weekly-interactive-webinar-series/
+  kind: OpenStack Super User News
+  isDelivered: false
