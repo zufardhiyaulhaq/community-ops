@@ -770,4 +770,4 @@ content:
 - title: 'Introducing OpenInfra Live: A Weekly, Interactive Webinar Series'
   url: https://superuser.openstack.org/articles/introducing-openinfra-live-a-weekly-interactive-webinar-series/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
