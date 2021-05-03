@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-386
+  namespace: node-community
+spec:
+  name: Node Weekly 386
+  date: 05/03/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: How to Use ECMAScript Modules in Node
+    url: https://nodeweekly.com/link/107157/web
+    type: News
+  - title: What's Next? The Future of Node.js
+    url: https://nodeweekly.com/link/107160/web
+    type: News
+  - title: Optimize Node.js Application Performance Metrics in Real-Time
+    url: https://nodeweekly.com/link/107161/web
+    type: News
+  - title: Do You Use Node for Scripting Instead of bash?
+    url: https://nodeweekly.com/link/107162/web
+    type: News
+  - title: 'tinyhttp 1.3: A Tiny Web Framework as a Replacement for Express'
+    url: https://nodeweekly.com/link/107163/web
+    type: News
+  - title: My Favorite Microservice Design Patterns for Node
+    url: https://nodeweekly.com/link/107168/web
+    type: News
+  - title: How to Find Unused npm Dependencies
+    url: https://nodeweekly.com/link/107169/web
+    type: News
+  - title: Observability Won’t Replace Monitoring (Because It Shouldn’t)
+    url: https://nodeweekly.com/link/107170/web
+    type: News
+  - title: Building a Realtime Chat App with React, Node.js, and Socket.io
+    url: https://nodeweekly.com/link/107171/web
+    type: News
+  - title: You Need To See These ES12 (ECMAScript 2021) Features
+    url: https://nodeweekly.com/link/107172/web
+    type: News
+  - title: 'Foal: A TypeScript-Based All-Inclusive Web Framework for Node'
+    url: https://nodeweekly.com/link/107178/web
+    type: News
+  - title: 'ioredis 4.27: A Performance Focused Redis Client for Node'
+    url: https://nodeweekly.com/link/107180/web
+    type: News
+  - title: A Node Wrapper for the Tesseract OCR API
+    url: https://nodeweekly.com/link/107181/web
+    type: News
+  - title: Book a Demo. Ship Fast. Rest Easy. LaunchDarkly
+    url: https://nodeweekly.com/link/107183/web
+    type: News
+  - title: 'functions-differ: Deploy Only the Firebase Functions That Changed'
+    url: https://nodeweekly.com/link/107184/web
+    type: News
+  - title: 'snakecase-keys: Convert an Object''s Keys to snake_case'
+    url: https://nodeweekly.com/link/107185/web
+    type: News
