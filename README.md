@@ -1,3 +1,3 @@
 # community-ops
 
-GitOps repository for Indonesian tech community.
+GitOps repository for Indonesian technology community.
