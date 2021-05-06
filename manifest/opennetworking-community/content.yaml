@@ -386,8 +386,8 @@ content:
 - title: Community Highlights – April 2021
   url: https://opennetworking.org/news-and-events/blog/community-highlights-april-2021/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: Community Highlights – March 2021
   url: https://opennetworking.org/news-and-events/blog/community-highlights-march-2021/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
