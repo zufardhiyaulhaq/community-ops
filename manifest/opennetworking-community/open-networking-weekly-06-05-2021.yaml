@@ -1,0 +1,20 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-06-05-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 06-05-2021
+  date: 05/06/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Community Highlights – April 2021
+    url: https://opennetworking.org/news-and-events/blog/community-highlights-april-2021/
+    type: Open Networking Blog
+  - title: Community Highlights – March 2021
+    url: https://opennetworking.org/news-and-events/blog/community-highlights-march-2021/
+    type: Open Networking Blog
