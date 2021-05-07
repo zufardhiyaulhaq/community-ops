@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-551
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 551
+  date: 05/07/2021
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: The Effects of the Last Week on Rails
+    url: https://rubyweekly.com/link/107519/web
+    type: News
+  - title: Announcing Hanami v2.0.0.alpha2
+    url: https://rubyweekly.com/link/107524/web
+    type: News
+  - title: 'ButterCMS Melts into Your Ruby App. #1 Rated Headless CMS'
+    url: https://rubyweekly.com/link/107526/web
+    type: News
+  - title: 'Devise 4.8: The Rails + Warden Authentication System'
+    url: https://rubyweekly.com/link/107527/web
+    type: News
+  - title: Animated Graphics with Ruby and Voronoi Partitions
+    url: https://rubyweekly.com/link/107530/web
+    type: News
+  - title: A Day in the Life of a Ruby Object
+    url: https://rubyweekly.com/link/107548/web
+    type: News
+  - title: Containerizing Rails Applications
+    url: https://rubyweekly.com/link/107550/web
+    type: News
+  - title: Using Angular with Rails 5
+    url: https://rubyweekly.com/link/107556/web
+    type: News
+  - title: Quickly Exploring Data with uniq and tally
+    url: https://rubyweekly.com/link/107552/web
+    type: News
+  - title: Behind the Scenes of Rails UJS
+    url: https://rubyweekly.com/link/107554/web
+    type: News
+  - title: Rails 6.1's invert_where Method
+    url: https://rubyweekly.com/link/107558/web
+    type: News
+  - title: 'StimulusReflex Patterns: Ready to Level Up Your StimulusReflex Game?'
+    url: https://rubyweekly.com/link/107560/web
+    type: News
+  - title: 'jsonb_accessor: Typed jsonb Backed Fields to Your ActiveRecord Models'
+    url: https://rubyweekly.com/link/107566/web
+    type: News
+  - title: 'MiniSql: A Minimal, Safe SQL Executor for Postgres'
+    url: https://rubyweekly.com/link/107568/web
+    type: News
+  - title: Application Dependencies Outdated? We Can Help
+    url: https://rubyweekly.com/link/107574/web
+    type: News
+  - title: 'daemons 1.4: A Way to Daemonize Existing Ruby Code'
+    url: https://rubyweekly.com/link/107570/web
+    type: News
+  - title: 'xsv: Fast, Lightweight XLSX (Excel) Parser for Ruby'
+    url: https://rubyweekly.com/link/107576/web
+    type: News
+  - title: 'Pygments.rb: A Ruby Wrapper for the Pygments Syntax Highlighter'
+    url: https://rubyweekly.com/link/107578/web
+    type: News
+  - title: 'Scientist 1.6: A Ruby Library for Carefully Refactoring Critical Paths'
+    url: https://rubyweekly.com/link/107584/web
+    type: News
+  - title: 'Licensed 3.0: Cache and Verify the Licenses of Dependencies'
+    url: https://rubyweekly.com/link/107586/web
+    type: News
+  - title: 'Hurl.it: An Online Tool for Making Custom HTTP Requests (is Back)'
+    url: https://rubyweekly.com/link/107588/web
+    type: News
