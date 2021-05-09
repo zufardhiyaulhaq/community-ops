@@ -774,12 +774,12 @@ content:
 - title: The Future of the Network Depends on Open Infrastructure
   url: https://superuser.openstack.org/articles/the-future-of-the-network-depends-on-open-infrastructure/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: Project Teams Gathering (PTG) Recap | OpenInfra Live
   url: https://superuser.openstack.org/articles/project-teams-gathering-ptg-recap-openinfra-live/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: 'Students of OpenInfra: Adarsh Kumar Yadav | The University of Delhi'
   url: https://superuser.openstack.org/articles/students-of-openinfra-adarsh-kumar-yadav-the-university-of-delhi/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
