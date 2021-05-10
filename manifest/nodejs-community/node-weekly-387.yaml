@@ -1,0 +1,53 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-387
+  namespace: node-community
+spec:
+  name: Node Weekly 387
+  date: 05/10/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Sindre Tears Off the CommonJS Bandaid, Moves Exclusively to ES Modules
+    url: https://nodeweekly.com/link/107595/web
+    type: News
+  - title: Dependency Managers Don’t Manage Your Dependencies
+    url: https://nodeweekly.com/link/107621/web
+    type: News
+  - title: Document Database. SQL Queries. In-Memory Speed
+    url: https://nodeweekly.com/link/107597/web
+    type: News
+  - title: Node 16.1 (Current) Released
+    url: https://nodeweekly.com/link/107598/web
+    type: News
+  - title: Build a SaaS Platform with Stripe
+    url: https://nodeweekly.com/link/107600/web
+    type: News
+  - title: Avoiding the Pitfalls of Iteration-Based Development
+    url: https://nodeweekly.com/link/107605/web
+    type: News
+  - title: 'terminal-image 2.0: Display Images in the Terminal'
+    url: https://nodeweekly.com/link/107611/web
+    type: News
+  - title: 'node-dev 7.0: Zero-Conf Node Process Restarting'
+    url: https://nodeweekly.com/link/107622/web
+    type: News
+  - title: 'Dotenv 9.0: Load Environment Variables From .env in Node'
+    url: https://nodeweekly.com/link/107623/web
+    type: News
+  - title: 'How to Scale Prometheus (Hint: It’s Not Prometheus)'
+    url: https://nodeweekly.com/link/107613/web
+    type: News
+  - title: 'sitemap.js 7.0: Sitemap Generation Library and CLI Tool'
+    url: https://nodeweekly.com/link/107624/web
+    type: News
+  - title: The Braintree Node.js Library 3.4
+    url: https://nodeweekly.com/link/107614/web
+    type: News
+  - title: 'MapSCII: A Text-Based World Map Renderer for the Console'
+    url: https://nodeweekly.com/link/107620/web
+    type: News
