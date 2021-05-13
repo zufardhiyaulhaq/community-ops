@@ -391,3 +391,15 @@ content:
   url: https://opennetworking.org/news-and-events/blog/community-highlights-march-2021/
   kind: Open Networking Blog
   isDelivered: true
+- title: 'Community Member Profile: Ivan Eroshkin'
+  url: https://opennetworking.org/news-and-events/blog/community-member-profile-ivan-eroshkin/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: 'Flightplan: Dataplane Disaggregation and Placement for P4 Programs'
+  url: https://opennetworking.org/news-and-events/blog/flightplan-dataplane-disaggregation-and-placement-for-p4-programs/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: The State of Broadband Summit
+  url: https://opennetworking.org/events/the-state-of-broadband-summit/
+  kind: Open Networking Event
+  isDelivered: false
