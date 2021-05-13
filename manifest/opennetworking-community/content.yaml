@@ -394,12 +394,12 @@ content:
 - title: 'Community Member Profile: Ivan Eroshkin'
   url: https://opennetworking.org/news-and-events/blog/community-member-profile-ivan-eroshkin/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: 'Flightplan: Dataplane Disaggregation and Placement for P4 Programs'
   url: https://opennetworking.org/news-and-events/blog/flightplan-dataplane-disaggregation-and-placement-for-p4-programs/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: The State of Broadband Summit
   url: https://opennetworking.org/events/the-state-of-broadband-summit/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
