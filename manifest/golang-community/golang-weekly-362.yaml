@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-362
+  namespace: golang-community
+spec:
+  name: Golang Weekly 362
+  date: 05/16/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Thoughts on How to Structure Go Code
+    url: https://golangweekly.com/link/108073/web
+    type: News
+  - title: Reflecting on Half a Million Lines of Go
+    url: https://golangweekly.com/link/108074/web
+    type: News
+  - title: Remote Instructor-Led Go, Docker, Kubernetes & Python Training
+    url: https://golangweekly.com/link/108076/web
+    type: News
+  - title: 'pprof++: A Go Profiler with Hardware Performance Monitoring'
+    url: https://golangweekly.com/link/108077/web
+    type: News
+  - title: A Go Modules Cheat Sheet
+    url: https://golangweekly.com/link/108079/web
+    type: News
+  - title: 'REST Servers in Go: Authentication'
+    url: https://golangweekly.com/link/108080/web
+    type: News
+  - title: How to Do Enums in Go
+    url: https://golangweekly.com/link/108081/web
+    type: News
+  - title: Observability Won’t Replace Monitoring (Because It Shouldn’t)
+    url: https://golangweekly.com/link/108082/web
+    type: News
+  - title: printf vs Delve for Debugging Go Tests
+    url: https://golangweekly.com/link/108083/web
+    type: News
+  - title: 'Bloom 3.0: A Package for Implementing Bloom Filters'
+    url: https://golangweekly.com/link/108085/web
+    type: News
+  - title: 'Echo 4.3: A High Performance, Minimalist Web Framework'
+    url: https://golangweekly.com/link/108087/web
+    type: News
+  - title: '[Free Download] Guide to Effective Feature Management'
+    url: https://golangweekly.com/link/108088/web
+    type: News
+  - title: 'Heimdall 7.0: An Enhanced HTTP Client for Go'
+    url: https://golangweekly.com/link/108089/web
+    type: News
+  - title: 'EliasDB: A Graph-Based Database Written in Go'
+    url: https://golangweekly.com/link/108090/web
+    type: News
+  - title: 'v8go 0.6.0: Execute JavaScript from Go(lang)'
+    url: https://golangweekly.com/link/108091/web
+    type: News
+  - title: 'Mangadesk: A Terminal Client for MangaDex'
+    url: https://golangweekly.com/link/108093/web
+    type: News
+  - title: 'Secure: HTTP Middleware for Some ''Quick Security Wins'''
+    url: https://golangweekly.com/link/108094/web
+    type: News
