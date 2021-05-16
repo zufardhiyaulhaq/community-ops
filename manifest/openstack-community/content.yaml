@@ -786,8 +786,8 @@ content:
 - title: Open Edge Infrastructure Conundrums and Solutions | OpenInfra Live
   url: https://superuser.openstack.org/articles/open-edge-infrastructure-conundrums-and-solutions-openinfra-live/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: 'Students of OpenInfra: Parth Yadav | The University of Delhi'
   url: https://superuser.openstack.org/articles/students-of-openinfra-parth-yadav-the-university-of-delhi/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
