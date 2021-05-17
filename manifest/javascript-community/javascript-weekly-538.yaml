@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-538
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 538
+  date: 05/17/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Angular 12 Released
+    url: https://javascriptweekly.com/link/108151/web
+    type: News
+  - title: '''Babel Is Used by Millions, So Why Are We Running Out of Money?'''
+    url: https://javascriptweekly.com/link/108153/web
+    type: News
+  - title: How to Pay Down Tech Debt in JavaScript Apps
+    url: https://javascriptweekly.com/link/108103/web
+    type: News
+  - title: Deno 1.10 Released
+    url: https://javascriptweekly.com/link/108104/web
+    type: News
+  - title: Announcing TypeScript 4.3 Release Candidate
+    url: https://javascriptweekly.com/link/108107/web
+    type: News
+  - title: Lessons on Writing JavaScript and React from ClojureScript
+    url: https://javascriptweekly.com/link/108141/web
+    type: News
+  - title: Performance-Testing the Google I/O Site
+    url: https://javascriptweekly.com/link/108143/web
+    type: News
+  - title: '[Free Download] Guide to Effective Feature Management'
+    url: https://javascriptweekly.com/link/108121/web
+    type: News
+  - title: Why JWT Should Not Be Your Default for Sessions
+    url: https://javascriptweekly.com/link/108156/web
+    type: News
+  - title: 'mo.js 1: A Motion Graphics Toolbelt for the Web'
+    url: https://javascriptweekly.com/link/108144/web
+    type: News
+  - title: 'Elder.js: An ''SEO-First'' Svelte-Based Framework'
+    url: https://javascriptweekly.com/link/108124/web
+    type: News
+  - title: An Angular Data Grid That Makes Life Easy Does Exist. Give It a Try
+    url: https://javascriptweekly.com/link/108126/web
+    type: News
+  - title: 'Prettier 2.3: The Opinionated Code Formatter'
+    url: https://javascriptweekly.com/link/108128/web
+    type: News
+  - title: 'Spearmint: A Simpler Way to Test Your React App'
+    url: https://javascriptweekly.com/link/108146/web
+    type: News
+  - title: Free Chat & Activity Feed APIs for Qualifying Teams
+    url: https://javascriptweekly.com/link/108130/web
+    type: News
+  - title: 'Eva.js: A Front-End Game Engine for Creating Interactive Projects'
+    url: https://javascriptweekly.com/link/108147/web
+    type: News
