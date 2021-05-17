@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-388
+  namespace: node-community
+spec:
+  name: Node Weekly 388
+  date: 05/17/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Node v14.17.0 (LTS) Released
+    url: https://nodeweekly.com/link/107948/web
+    type: News
+  - title: Redis 6.2 on RedisGreen
+    url: https://nodeweekly.com/link/107950/web
+    type: News
+  - title: 'zx: A Tool for Writing Better Shell Scripts'
+    url: https://nodeweekly.com/link/107951/web
+    type: News
+  - title: Why JWT Should Not Be Your Default for Sessions
+    url: https://nodeweekly.com/link/107954/web
+    type: News
+  - title: The Node.js Docker Cheatsheet
+    url: https://nodeweekly.com/link/107955/web
+    type: News
+  - title: How to Implement a Simple Task Queue in Node
+    url: https://nodeweekly.com/link/107957/web
+    type: News
+  - title: '[Free Download] Guide to Effective Feature Management'
+    url: https://nodeweekly.com/link/107958/web
+    type: News
+  - title: Have You Tried Deno Yet?
+    url: https://nodeweekly.com/link/107959/web
+    type: News
+  - title: 'a12n-server: A ''Ready-to-Launch'' User and Authentication System'
+    url: https://nodeweekly.com/link/107967/web
+    type: News
+  - title: 'ShellJS: Portable Unix Shell Commands for Node'
+    url: https://nodeweekly.com/link/107968/web
+    type: News
+  - title: Useful Tools for Parsing and Annotating PDFs in Node
+    url: https://nodeweekly.com/link/107970/web
+    type: News
+  - title: Observability Won’t Replace Monitoring (Because It Shouldn’t)
+    url: https://nodeweekly.com/link/107971/web
+    type: News
+  - title: 'Meow 10.0: A Straightforward CLI App Helper'
+    url: https://nodeweekly.com/link/107972/web
+    type: News
+  - title: 'node-mssql 7.0: A Microsoft SQL Server Client for Node'
+    url: https://nodeweekly.com/link/107973/web
+    type: News
