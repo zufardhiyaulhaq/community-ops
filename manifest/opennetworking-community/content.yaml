@@ -403,3 +403,7 @@ content:
   url: https://opennetworking.org/events/the-state-of-broadband-summit/
   kind: Open Networking Event
   isDelivered: true
+- title: Wiwynn Receives Open Network Foundation Aether Certification on Expanded Edge Server Ecosystem
+  url: https://www.wiwynn.com/press/wiwynn-receives-open-network-foundation-aether-certification-on-expanded-edge-server-ecosystem/
+  kind: Open Networking News
+  isDelivered: false
