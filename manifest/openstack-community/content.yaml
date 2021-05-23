@@ -791,3 +791,7 @@ content:
   url: https://superuser.openstack.org/articles/students-of-openinfra-parth-yadav-the-university-of-delhi/
   kind: OpenStack Super User News
   isDelivered: true
+- title: Upgrades in Large Scale OpenStack Infrastructure | OpenInfra Live Episode 6
+  url: https://superuser.openstack.org/articles/upgrades-in-large-scale-openstack-infrastructure-openinfra-live-episode-6/
+  kind: OpenStack Super User News
+  isDelivered: false
