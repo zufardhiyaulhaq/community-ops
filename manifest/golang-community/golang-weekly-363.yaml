@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-363
+  namespace: golang-community
+spec:
+  name: Golang Weekly 363
+  date: 05/23/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'ListMonk 1.0: A Self-Hosted Newsletter and Mailing List Manager'
+    url: https://golangweekly.com/link/108402/web
+    type: News
+  - title: TinyGo 0.18.0 Released
+    url: https://golangweekly.com/link/108409/web
+    type: News
+  - title: Redis 6.2 on RedisGreen
+    url: https://golangweekly.com/link/108405/web
+    type: News
+  - title: godocs.io Six Months Later
+    url: https://golangweekly.com/link/108406/web
+    type: News
+  - title: Discussing Encore and Frameworks with André Eriksson
+    url: https://golangweekly.com/link/108411/web
+    type: News
+  - title: A Book Review of 'Learning Go'
+    url: https://golangweekly.com/link/108417/web
+    type: News
+  - title: A Guide to Dates and Times in Go
+    url: https://golangweekly.com/link/108404/web
+    type: News
+  - title: Scalable Spatial Data & Indexing Built in Go
+    url: https://golangweekly.com/link/108418/web
+    type: News
+  - title: Discovering Goroutine Leaks with Semgrep
+    url: https://golangweekly.com/link/108419/web
+    type: News
+  - title: 'go-feature-flag: A Simple and Complete Feature Flag Solution'
+    url: https://golangweekly.com/link/108422/web
+    type: News
+  - title: 'Authority 2.0: Role Based Access Control (RBAC) with Database Persistence'
+    url: https://golangweekly.com/link/108423/web
+    type: News
+  - title: Avoiding Integer Overflows with Zero Downtime at Buildkite
+    url: https://golangweekly.com/link/108424/web
+    type: News
+  - title: 'go-notion: Go Client for the New Notion API'
+    url: https://golangweekly.com/link/108425/web
+    type: News
+  - title: 'Gopher2600: An Atari VCS Emulator'
+    url: https://golangweekly.com/link/108427/web
+    type: News
+  - title: 'Magia: A Game Boy Advance Emulator Written in Go'
+    url: https://golangweekly.com/link/108428/web
+    type: News
+  - title: 'go-mysql 1.2.0: A Pure Go Library for the MySQL Network Protocol'
+    url: https://golangweekly.com/link/108429/web
+    type: News
