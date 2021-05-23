@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-23-05-2021
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 23-05-2021
+  date: 05/23/2021
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: Upgrades in Large Scale OpenStack Infrastructure | OpenInfra Live Episode 6
+    url: https://superuser.openstack.org/articles/upgrades-in-large-scale-openstack-infrastructure-openinfra-live-episode-6/
+    type: OpenStack Super User News
