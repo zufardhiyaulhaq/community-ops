@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-539
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 539
+  date: 05/24/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'DOM Events: A Way to Visualize and Experiment with the DOM Event System'
+    url: https://javascriptweekly.com/link/108484/web
+    type: News
+  - title: 'Introducing WebContainers: Run Node.js Natively in the Browser'
+    url: https://javascriptweekly.com/link/108517/web
+    type: News
+  - title: 'New & Updated Course: Complete Intro to React v6 with Brian Holt'
+    url: https://javascriptweekly.com/link/108483/web
+    type: News
+  - title: 'Parcel 2 Beta 3: A Wild Rust Appears!'
+    url: https://javascriptweekly.com/link/108518/web
+    type: News
+  - title: 2D Optics Demos in JavaScript
+    url: https://javascriptweekly.com/link/108493/web
+    type: News
+  - title: A Complete Beginner's Guide to Next.js
+    url: https://javascriptweekly.com/link/108494/web
+    type: News
+  - title: Breakpoints and console.log Is the Past, Time Travel Is the Future
+    url: https://javascriptweekly.com/link/108495/web
+    type: News
+  - title: How to Create Reusable Web Components with Lit and Vue
+    url: https://javascriptweekly.com/link/108496/web
+    type: News
+  - title: 'Tree-Shaking: A Reference Guide'
+    url: https://javascriptweekly.com/link/108498/web
+    type: News
+  - title: Embedding Google Forms in a Static Site Without iFrames
+    url: https://javascriptweekly.com/link/108499/web
+    type: News
+  - title: '''TypeScript is Testing'''
+    url: https://javascriptweekly.com/link/108501/web
+    type: News
+  - title: Provision Infrastructure with JavaScript and Pulumi
+    url: https://javascriptweekly.com/link/108528/web
+    type: News
+  - title: 'Frontend Development in 2021: A Complete Guide'
+    url: https://javascriptweekly.com/link/108502/web
+    type: News
+  - title: 'Typehole: VS Code Tool to Automatically Generate TypeScript Types and Interfaces'
+    url: https://javascriptweekly.com/link/108508/web
+    type: News
+  - title: Sublime Text 4 Released
+    url: https://javascriptweekly.com/link/108521/web
+    type: News
+  - title: '[New] Free JavaScript Code Quality & Security Scanner - Real‑Time Scan'
+    url: https://javascriptweekly.com/link/108509/web
+    type: News
+  - title: A Boilerplate for SSR’d Vite, React 17, and TypeScript 4.3
+    url: https://javascriptweekly.com/link/108522/web
+    type: News
+  - title: 'lightGallery: A Well Presented, Modular JS Image and Video Lightbox Gallery'
+    url: https://javascriptweekly.com/link/108523/web
+    type: News
+  - title: 'Vuestic UI 1.0: A Vue.js 3.0 UI Framework'
+    url: https://javascriptweekly.com/link/108526/web
+    type: News
+  - title: 'ReacType 7.0: A Visual Prototyping Tool for React Developers'
+    url: https://javascriptweekly.com/link/108510/web
+    type: News
+  - title: 'Trombone.js: Yep, It''s a Trombone..'
+    url: https://javascriptweekly.com/link/108514/web
+    type: News
