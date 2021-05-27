@@ -407,3 +407,15 @@ content:
   url: https://www.wiwynn.com/press/wiwynn-receives-open-network-foundation-aether-certification-on-expanded-edge-server-ecosystem/
   kind: Open Networking News
   isDelivered: true
+- title: PINS Is Next Step in Software Revolution of Data Center Networking
+  url: https://opennetworking.org/news-and-events/blog/pins-is-next-step-in-software-revolution-of-data-center-networking/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: 'Future Internet at Terabit Speeds: SCION in P4'
+  url: https://opennetworking.org/news-and-events/blog/future-internet-at-terabit-speeds-scion-in-p4/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: BCN2021 LATAM Summit
+  url: https://opennetworking.org/events/bcn2021-latam-summit/
+  kind: Open Networking Event
+  isDelivered: false
