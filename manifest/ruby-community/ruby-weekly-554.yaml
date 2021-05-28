@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-554
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 554
+  date: 05/28/2021
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Ruby 3 JIT Can Make Rails Faster
+    url: https://rubyweekly.com/link/108737/web
+    type: News
+  - title: 'ObjectTracer 1.0: Tracks Objects and Records Their Activities'
+    url: https://rubyweekly.com/link/108740/web
+    type: News
+  - title: 'Free eBook: Efficient Search in Rails with Postgres'
+    url: https://rubyweekly.com/link/108742/web
+    type: News
+  - title: A Journey to Sorbet Stability
+    url: https://rubyweekly.com/link/108752/web
+    type: News
+  - title: Understanding Ruby Method Lookup
+    url: https://rubyweekly.com/link/108754/web
+    type: News
+  - title: How and Why to Dockerize Your Rails App's Database
+    url: https://rubyweekly.com/link/108755/web
+    type: News
+  - title: Finally Upgrade From Your Unsupported Rails Version
+    url: https://rubyweekly.com/link/108756/web
+    type: News
+  - title: Using Postgres Row-Level Security in Rails
+    url: https://rubyweekly.com/link/108757/web
+    type: News
+  - title: ActiveRecord's new Takes a Block, Kid
+    url: https://rubyweekly.com/link/108758/web
+    type: News
+  - title: Tracking Opened Emails in Rails
+    url: https://rubyweekly.com/link/108759/web
+    type: News
+  - title: A Chat with Chris Oliver, Creator of GoRails
+    url: https://rubyweekly.com/link/108760/web
+    type: News
+  - title: The RailsConf 2021 Story with Marty Haught and Evan Phoenix
+    url: https://rubyweekly.com/link/108762/web
+    type: News
+  - title: 'httplog 1.5.0: Log Outgoing HTTP Requests in Ruby'
+    url: https://rubyweekly.com/link/108767/web
+    type: News
+  - title: 'Dentaku: Math and Logic Formula Parser and Evaluator'
+    url: https://rubyweekly.com/link/108768/web
+    type: News
+  - title: "Too Much Work on Your Hands? Get More Done Faster \U0001F4AARails ❤️ Avo"
+    url: https://rubyweekly.com/link/108769/web
+    type: News
+  - title: 'Rpush 6.0: A Push Notification Service for Ruby'
+    url: https://rubyweekly.com/link/108770/web
+    type: News
+  - title: 'Extralite: An Extra-Lightweight Gem for Working with SQLite3'
+    url: https://rubyweekly.com/link/108771/web
+    type: News
+  - title: 'Gruff Graphs 0.13.0: A Graphing Library for Ruby'
+    url: https://rubyweekly.com/link/108772/web
+    type: News
