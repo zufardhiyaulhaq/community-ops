@@ -798,4 +798,4 @@ content:
 - title: Large Scale Open Source CI Featuring Zuul | OpenInfra Live Episode 7
   url: https://superuser.openstack.org/articles/large-scale-open-source-ci-featuring-zuul-openinfra-live-episode-7/
   kind: OpenStack Super User News
-  isDelivered: true
+  isDelivered: false
