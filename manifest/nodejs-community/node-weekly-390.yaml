@@ -1,0 +1,47 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-390
+  namespace: node-community
+spec:
+  name: Node Weekly 390
+  date: 05/31/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: How To Create Your First Flow in Node-RED
+    url: https://nodeweekly.com/link/108680/web
+    type: News
+  - title: 'Introducing WebContainers: Running Node.js Natively in the Browser'
+    url: https://nodeweekly.com/link/108682/web
+    type: News
+  - title: 'New & Updated Course: Complete Intro to React v6 with Brian Holt'
+    url: https://nodeweekly.com/link/108683/web
+    type: News
+  - title: 'Vendure v1.0: An Open Source, Node.js E-commerce Framework'
+    url: https://nodeweekly.com/link/108716/web
+    type: News
+  - title: Snyk to Take On Responsibility for Node Ecosystem Vulnerability Disclosure Program
+    url: https://nodeweekly.com/link/108695/web
+    type: News
+  - title: Plaid’s Internal Tooling Dilemma
+    url: https://nodeweekly.com/link/108698/web
+    type: News
+  - title: A Deep Dive into Rust for Node Developers
+    url: https://nodeweekly.com/link/108694/web
+    type: News
+  - title: 'ts-node 10.0: TypeScript Execution and REPL for Node'
+    url: https://nodeweekly.com/link/108706/web
+    type: News
+  - title: 'milliparsec: A Small, Dependency Free Body Parsing Library'
+    url: https://nodeweekly.com/link/108708/web
+    type: News
+  - title: '[New] Free JavaScript Code Quality & Security Scanner - Real‑Time Scan'
+    url: https://nodeweekly.com/link/108710/web
+    type: News
+  - title: 'node-notifier 10.0: Cross Platform Native Notifications from Node'
+    url: https://nodeweekly.com/link/108711/web
+    type: News
