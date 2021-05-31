@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-540
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 540
+  date: 05/31/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Sparkplug: V8''s Non-Optimizing JavaScript Compiler'
+    url: https://javascriptweekly.com/link/108885/web
+    type: News
+  - title: Locate Front-End Issues Like JavaScript or Network Errors Instantly
+    url: https://javascriptweekly.com/link/108865/web
+    type: News
+  - title: TypeScript 4.3 Released
+    url: https://javascriptweekly.com/link/108866/web
+    type: News
+  - title: Jest 27 Released, Complete with Some New Defaults
+    url: https://javascriptweekly.com/link/108887/web
+    type: News
+  - title: How To Create Your First Flow in Node-RED
+    url: https://javascriptweekly.com/link/108873/web
+    type: News
+  - title: A Thorough Analysis of CSS-in-JS
+    url: https://javascriptweekly.com/link/108896/web
+    type: News
+  - title: Build a Node.js App with CockroachDB and the Node.js pg Driver
+    url: https://javascriptweekly.com/link/108876/web
+    type: News
+  - title: Building a Rich WYSIWYG Text Editor From Scratch
+    url: https://javascriptweekly.com/link/108897/web
+    type: News
+  - title: The Modern Guide to React State Patterns
+    url: https://javascriptweekly.com/link/108875/web
+    type: News
+  - title: New Standards to Access User Device Hardware from JavaScript
+    url: https://javascriptweekly.com/link/108899/web
+    type: News
+  - title: Using Pinia, an Alternative Vue.js Store
+    url: https://javascriptweekly.com/link/108900/web
+    type: News
+  - title: '[Free Download] Guide to Effective Feature Management'
+    url: https://javascriptweekly.com/link/108879/web
+    type: News
+  - title: Get Started with React by Building a 'Whac-a-Mole' Game
+    url: https://javascriptweekly.com/link/108877/web
+    type: News
+  - title: Where's The Best Place to Host a Next.js Site?
+    url: https://javascriptweekly.com/link/108881/web
+    type: News
+  - title: 'Boring Avatars: React Library to Generate Custom Avatars'
+    url: https://javascriptweekly.com/link/108904/web
+    type: News
+  - title: 'CandyGraph: A Fast, Flexible 2D Plotting Library'
+    url: https://javascriptweekly.com/link/108915/web
+    type: News
+  - title: Drag-n-Drop Email Editor for React, Angular and Vue
+    url: https://javascriptweekly.com/link/108883/web
+    type: News
+  - title: 'threads.js: Web Workers Meet Worker Threads'
+    url: https://javascriptweekly.com/link/108908/web
+    type: News
+  - title: 'NocoDB: An Open Source Airtable-a-Like'
+    url: https://javascriptweekly.com/link/108911/web
+    type: News
