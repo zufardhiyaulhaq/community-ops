@@ -1,0 +1,20 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-06-06-2021
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 06-06-2021
+  date: 06/06/2021
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: OpenInfra Leadership Tackles Questions Live | OpenInfra Live Episode 8
+    url: https://superuser.openstack.org/articles/openinfra-leadership-tackles-questions-live-openinfra-live-episode-8/
+    type: OpenStack Super User News
+  - title: 'Students of OpenInfra: Dylan Zapzalka | North Dakota State University'
+    url: https://superuser.openstack.org/articles/students-of-openinfra-dylan-zapzalka-north-dakota-state-university/
+    type: OpenStack Super User News
