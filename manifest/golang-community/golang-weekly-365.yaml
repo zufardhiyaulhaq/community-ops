@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-365
+  namespace: golang-community
+spec:
+  name: Golang Weekly 365
+  date: 06/06/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Fuzzing is 'Beta Ready'
+    url: https://golangweekly.com/link/109177/web
+    type: News
+  - title: Go 1.16.5 and 1.15.13 Released
+    url: https://golangweekly.com/link/109179/web
+    type: News
+  - title: Optimize Your Golang App Performance Fast with Datadog APM
+    url: https://golangweekly.com/link/109181/web
+    type: News
+  - title: A Guide to Linting Go Programs
+    url: https://golangweekly.com/link/109182/web
+    type: News
+  - title: Go Performance Tools Cheat Sheet
+    url: https://golangweekly.com/link/109184/web
+    type: News
+  - title: Building Your Own Ngrok in 130 Lines
+    url: https://golangweekly.com/link/109185/web
+    type: News
+  - title: Why Tracing Might Replace (Almost) All Logging
+    url: https://golangweekly.com/link/109186/web
+    type: News
+  - title: Creating Go Bindings for Ethereum Smart Contracts
+    url: https://golangweekly.com/link/109187/web
+    type: News
+  - title: 'gopatch: Refactoring and Code Transformation Tool for Go'
+    url: https://golangweekly.com/link/109188/web
+    type: News
+  - title: 'Gock 1.1: HTTP Traffic Mocking and Testing Made Easy'
+    url: https://golangweekly.com/link/109189/web
+    type: News
+  - title: '[Free Download] Guide to Effective Feature Management'
+    url: https://golangweekly.com/link/109191/web
+    type: News
+  - title: 'Ristretto: A High Performance Memory-Bound Go Cache'
+    url: https://golangweekly.com/link/109192/web
+    type: News
+  - title: 'quiwi: A QUIC Implementation in Go'
+    url: https://golangweekly.com/link/109194/web
+    type: News
+  - title: A TinyGo Plugin for the GoLand IDE
+    url: https://golangweekly.com/link/109196/web
+    type: News
