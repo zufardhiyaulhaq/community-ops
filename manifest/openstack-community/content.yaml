@@ -799,3 +799,11 @@ content:
   url: https://superuser.openstack.org/articles/large-scale-open-source-ci-featuring-zuul-openinfra-live-episode-7/
   kind: OpenStack Super User News
   isDelivered: true
+- title: OpenInfra Leadership Tackles Questions Live | OpenInfra Live Episode 8
+  url: https://superuser.openstack.org/articles/openinfra-leadership-tackles-questions-live-openinfra-live-episode-8/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: 'Students of OpenInfra: Dylan Zapzalka | North Dakota State University'
+  url: https://superuser.openstack.org/articles/students-of-openinfra-dylan-zapzalka-north-dakota-state-university/
+  kind: OpenStack Super User News
+  isDelivered: false
