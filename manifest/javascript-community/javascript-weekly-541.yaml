@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-541
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 541
+  date: 06/07/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Making JavaScript Run Fast on WebAssembly
+    url: https://javascriptweekly.com/link/109207/web
+    type: News
+  - title: Svelte for the Experienced React Dev
+    url: https://javascriptweekly.com/link/109208/web
+    type: News
+  - title: Couchbase Is the SQL-Friendly, NoSQL JSON Document Database
+    url: https://javascriptweekly.com/link/109210/web
+    type: News
+  - title: The History of Angular with Misko Hevery
+    url: https://javascriptweekly.com/link/109211/web
+    type: News
+  - title: Getting Started with webpack
+    url: https://javascriptweekly.com/link/109225/web
+    type: News
+  - title: State Management in Vue 3 Applications with Vuex
+    url: https://javascriptweekly.com/link/109227/web
+    type: News
+  - title: An Introduction to WebAssembly for JavaScript Developers
+    url: https://javascriptweekly.com/link/109228/web
+    type: News
+  - title: The Modern Guide to OAuth
+    url: https://javascriptweekly.com/link/109229/web
+    type: News
+  - title: An Introduction to Trigonometry with CSS and JavaScript
+    url: https://javascriptweekly.com/link/109230/web
+    type: News
+  - title: A Chat with TC39 Delegate Daniel Ehrenberg
+    url: https://javascriptweekly.com/link/109231/web
+    type: News
+  - title: How to Use Pivot Tables with SpreadJS
+    url: https://javascriptweekly.com/link/109233/web
+    type: News
+  - title: 'D3Funnel 2.0: A Library for Rendering Funnel Charts using D3.js'
+    url: https://javascriptweekly.com/link/109238/web
+    type: News
+  - title: 'Jsonmatic: Transform CSV Data into JSON'
+    url: https://javascriptweekly.com/link/109239/web
+    type: News
+  - title: Breakpoints and console.log Is the Past, Time Travel Is the Future
+    url: https://javascriptweekly.com/link/109240/web
+    type: News
+  - title: 'ts-audio: Work with AudioContext More Easily'
+    url: https://javascriptweekly.com/link/109241/web
+    type: News
+  - title: 'PLV8 3.0: V8 JavaScript, But for Postgres'
+    url: https://javascriptweekly.com/link/109243/web
+    type: News
+  - title: 'Handsontable 9.0: A Mature Data Grid That Feels Like a Spreadsheet'
+    url: https://javascriptweekly.com/link/109244/web
+    type: News
+  - title: 'Svelte-Motion: Animation Library for Svelte based on Framer Motion'
+    url: https://javascriptweekly.com/link/109247/web
+    type: News
+  - title: '[Free Download] Guide to Effective Feature Management'
+    url: https://javascriptweekly.com/link/109248/web
+    type: News
