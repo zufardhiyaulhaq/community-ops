@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-391
+  namespace: node-community
+spec:
+  name: Node Weekly 391
+  date: 06/07/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Electron 13.0 Released
+    url: https://nodeweekly.com/link/109080/web
+    type: News
+  - title: Node v16.3.0 (Current) Released
+    url: https://nodeweekly.com/link/109082/web
+    type: News
+  - title: Couchbase Is the SQL-Friendly, NoSQL JSON Document Database
+    url: https://nodeweekly.com/link/109084/web
+    type: News
+  - title: Writing Custom REPLs in Node
+    url: https://nodeweekly.com/link/109085/web
+    type: News
+  - title: 'Head-to-Head: Monolith vs. Microservices'
+    url: https://nodeweekly.com/link/109090/web
+    type: News
+  - title: On the Diverse And Fantastical Shapes of Testing
+    url: https://nodeweekly.com/link/109091/web
+    type: News
+  - title: 'How We Debugged And Fixed EMFILE: too many files open on AWS Lambda'
+    url: https://nodeweekly.com/link/109093/web
+    type: News
+  - title: How to Create a Monorepo for Multiple Node Packages
+    url: https://nodeweekly.com/link/109094/web
+    type: News
+  - title: How to Build a Realtime Chat App in 10 Minutes
+    url: https://nodeweekly.com/link/109096/web
+    type: News
+  - title: 'NocoDB: An Open Source Airtable-a-Like'
+    url: https://nodeweekly.com/link/109102/web
+    type: News
+  - title: 'awesome-nodejs-security: A Curated List of Node.js Security Resources'
+    url: https://nodeweekly.com/link/109103/web
+    type: News
+  - title: Why Tracing Might Replace (Almost) All Logging
+    url: https://nodeweekly.com/link/109106/web
+    type: News
+  - title: 'Execa 5.1: A Better child_process'
+    url: https://nodeweekly.com/link/109119/web
+    type: News
+  - title: 'Forever 4.0: Ensure a Script Runs Continuously'
+    url: https://nodeweekly.com/link/109107/web
+    type: News
