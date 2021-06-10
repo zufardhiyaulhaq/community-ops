@@ -422,16 +422,16 @@ content:
 - title: Project Pronto wants to make 5G networks more reliable and secure
   url: https://opennetworking.org/news-and-events/latest-news/project-pronto-wants-to-make-5g-networks-more-reliable-and-secure/
   kind: Open Networking News
-  isDelivered: false
+  isDelivered: true
 - title: 2021 P4 Workshop Wrap up Blog
   url: https://opennetworking.org/news-and-events/blog/2021-p4-workshop-wrap-up-blog/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: Announcing 2021 P4 Workshop Novel Use Award Winners
   url: https://opennetworking.org/news-and-events/blog/announcing-2021-p4-workshop-novel-use-award-winners/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: Community Highlights – May 2021
   url: https://opennetworking.org/news-and-events/blog/community-highlights-may-2021-2/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
