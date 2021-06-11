@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-556
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 556
+  date: 06/11/2021
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'Matz''s Euruko Keynote: Beyond Ruby 3.0'
+    url: https://rubyweekly.com/link/109434/web
+    type: News
+  - title: A Review of Ruby Installers and Ruby Switchers
+    url: https://rubyweekly.com/link/109436/web
+    type: News
+  - title: Are You Listening to FounderQuest Yet?
+    url: https://rubyweekly.com/link/109437/web
+    type: News
+  - title: Performance, Stress, and Load Tests in Rails
+    url: https://rubyweekly.com/link/109438/web
+    type: News
+  - title: An Update from the Maintainer of Prawn
+    url: https://rubyweekly.com/link/109439/web
+    type: News
+  - title: 'Building a New Programming Language In Ruby: The Interpreter'
+    url: https://rubyweekly.com/link/109441/web
+    type: News
+  - title: Removing Assets Dependencies from Rails Apps for Runtime
+    url: https://rubyweekly.com/link/109442/web
+    type: News
+  - title: Can Active Storage Serve Images for the Modern Web?
+    url: https://rubyweekly.com/link/109443/web
+    type: News
+  - title: Ten Rails Tips and Tricks
+    url: https://rubyweekly.com/link/109444/web
+    type: News
+  - title: 'Rux 1.0: A JSX-Inspired Way to Render View Components in Ruby'
+    url: https://rubyweekly.com/link/109447/web
+    type: News
+  - title: 'ZipTricks: Compact ZIP File Writing/Reading Library'
+    url: https://rubyweekly.com/link/109449/web
+    type: News
+  - title: Autoscale Your Heroku App For Free, Forever
+    url: https://rubyweekly.com/link/109450/web
+    type: News
+  - title: 'SearchKick 4.5: Intelligent Search Made Easy with Elasticsearch'
+    url: https://rubyweekly.com/link/109451/web
+    type: News
+  - title: 'Pagy 4.8: A Popular Pagination Gem'
+    url: https://rubyweekly.com/link/109452/web
+    type: News
+  - title: "\U0001F951 30+ Releases Later, Avo Admin Gets Better Everyday.Rails ❤️ Avo"
+    url: https://rubyweekly.com/link/109453/web
+    type: News
+  - title: 'CSV 3.2.0: CSV Reading and Writing Library'
+    url: https://rubyweekly.com/link/109454/web
+    type: News
+  - title: JRuby 9.2.18.0 Released
+    url: https://rubyweekly.com/link/109455/web
+    type: News
+  - title: 'childprocess 4.1: Cross-Platform Library for Managing Child Processes'
+    url: https://rubyweekly.com/link/109456/web
+    type: News
