@@ -810,16 +810,16 @@ content:
 - title: ' Sardina Systems announces it has joined the Global Equinix Partner Program '
   url: https://www.openstack.org/news/view/468/sardina-systems-announces-it-has-joined-the-global-equinix-partner-program
   kind: OpenStack News
-  isDelivered: true
+  isDelivered: false
 - title: Experts Discuss Tradeoffs, Frequency, and more around Upgrades of Large Scale OpenStack Deployments | OpenInfra Live Recap
   url: https://superuser.openstack.org/articles/experts-discuss-tradeoffs-frequency-and-more-around-upgrades-of-large-scale-openstack-deployments-openinfra-live-recap/
   kind: OpenStack Super User News
-  isDelivered: true
+  isDelivered: false
 - title: 'Students of OpenInfra: Ashley Rodriguez | Boston University'
   url: https://superuser.openstack.org/articles/students-of-openinfra-ashley-rodriguez-boston-university/
   kind: OpenStack Super User News
-  isDelivered: true
+  isDelivered: false
 - title: 'Inside Open Infrastructure: The Latest from the OpenInfra Foundation'
   url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation-4/
   kind: OpenStack Super User News
-  isDelivered: true
+  isDelivered: false
