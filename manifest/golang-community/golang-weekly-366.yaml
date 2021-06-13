@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-366
+  namespace: golang-community
+spec:
+  name: Golang Weekly 366
+  date: 06/13/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Using Go in Unusual Ways
+    url: https://golangweekly.com/link/109570/web
+    type: News
+  - title: Go 1.17 Beta 1 Released
+    url: https://golangweekly.com/link/109571/web
+    type: News
+  - title: The Ultimate Guide to Going from Zero to 100 Deploys a Day
+    url: https://golangweekly.com/link/109574/web
+    type: News
+  - title: gopls v0.7.0 Released
+    url: https://golangweekly.com/link/109575/web
+    type: News
+  - title: 'CodePerfect 95: A New IDE for Go Developers'
+    url: https://golangweekly.com/link/109576/web
+    type: News
+  - title: 'REST Servers in Go: Part 7 - GraphQL'
+    url: https://golangweekly.com/link/109578/web
+    type: News
+  - title: Build a Tray/GUI Desktop Application in Go 1.16
+    url: https://golangweekly.com/link/109579/web
+    type: News
+  - title: Tracing Go with eBPF
+    url: https://golangweekly.com/link/109582/web
+    type: News
+  - title: Visualize the Health and Performance of Your Golang Apps with Datadog
+    url: https://golangweekly.com/link/109583/web
+    type: News
+  - title: How to Use go:embed in Go 1.16
+    url: https://golangweekly.com/link/109584/web
+    type: News
+  - title: 'rqlite 6.0: The Evolution of a Distributed Database Design'
+    url: https://golangweekly.com/link/109585/web
+    type: News
+  - title: 'ConnPool: A Connection Pool for the net.Conn Interface'
+    url: https://golangweekly.com/link/109586/web
+    type: News
+  - title: 'Geziyor: A Fast Web Crawling and Scraping Framework for Go'
+    url: https://golangweekly.com/link/109587/web
+    type: News
+  - title: 'go-hashlru: Simple Thread-Safe, Fixed Size LRU'
+    url: https://golangweekly.com/link/109588/web
+    type: News
+  - title: Automate Code Standard Enforcement with Lightweight Static Analysis
+    url: https://golangweekly.com/link/109590/web
+    type: News
+  - title: 'XLSX: A Library for Reading and Writing XLSX (Excel) Files'
+    url: https://golangweekly.com/link/109591/web
+    type: News
+  - title: 'Worldwide: A GameBoy Color Emulator Written in Go'
+    url: https://golangweekly.com/link/109592/web
+    type: News
+  - title: 'Dbmate: A Lightweight, Framework-Agnostic Database Migration Tool'
+    url: https://golangweekly.com/link/109593/web
+    type: News
+  - title: 'ListMonk 1.1: Self-Hosted Newsletter and Mailing List Manager'
+    url: https://golangweekly.com/link/109594/web
+    type: News
