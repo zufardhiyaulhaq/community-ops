@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-542
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 542
+  date: 06/14/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Introducing Astro: Ship (Even) Less JavaScript'
+    url: https://javascriptweekly.com/link/109648/web
+    type: News
+  - title: The Plan for React 18
+    url: https://javascriptweekly.com/link/109604/web
+    type: News
+  - title: Learn to Build Scalable React Apps
+    url: https://javascriptweekly.com/link/109611/web
+    type: News
+  - title: Introducing Chrome's New Memory Inspector
+    url: https://javascriptweekly.com/link/109612/web
+    type: News
+  - title: Vue.js 3.1.0 (Pluto) Released
+    url: https://javascriptweekly.com/link/109613/web
+    type: News
+  - title: Implementing Private Fields for JavaScript
+    url: https://javascriptweekly.com/link/109624/web
+    type: News
+  - title: Creating a Serverless Function to Scrape Web Page Metadata
+    url: https://javascriptweekly.com/link/109625/web
+    type: News
+  - title: '[Free Download] Guide to Effective Feature Management'
+    url: https://javascriptweekly.com/link/109627/web
+    type: News
+  - title: "Exploring Deno Land \U0001F995 with Ryan Dahl"
+    url: https://javascriptweekly.com/link/109628/web
+    type: News
+  - title: Managing Shared State in Vue 3
+    url: https://javascriptweekly.com/link/109653/web
+    type: News
+  - title: 'Rust from a JavaScript Perspective: A Tongue-in-Cheek Tour'
+    url: https://javascriptweekly.com/link/109654/web
+    type: News
+  - title: Why Tracing Might Replace (Almost) All Logging
+    url: https://javascriptweekly.com/link/109630/web
+    type: News
+  - title: 'Handsfree.JS: Bring Face, Hand or Pose Tracking to Your Frontend Apps'
+    url: https://javascriptweekly.com/link/109634/web
+    type: News
+  - title: 'Mocha 9.0 Released: The Popular JavaScript Test Framework'
+    url: https://javascriptweekly.com/link/109636/web
+    type: News
+  - title: 'Flicking 4.0: A Carousel Component with 30M Daily Users'
+    url: https://javascriptweekly.com/link/109638/web
+    type: News
+  - title: '[New] Free JavaScript Code Quality & Security Scanner - Real‑Time Scan'
+    url: https://javascriptweekly.com/link/109639/web
+    type: News
+  - title: 'FlexSearch.js 0.7.0: A Full Text Search Library with No Dependencies'
+    url: https://javascriptweekly.com/link/109640/web
+    type: News
+  - title: 'PM2 5.0 Released: The Production Process Manager'
+    url: https://javascriptweekly.com/link/109641/web
+    type: News
+  - title: 'Naive UI: A Vue 3 Component Library'
+    url: https://javascriptweekly.com/link/109643/web
+    type: News
+  - title: 'RxJChess: A Chess Game Built on React, Redux and RxJS'
+    url: https://javascriptweekly.com/link/109646/web
+    type: News
