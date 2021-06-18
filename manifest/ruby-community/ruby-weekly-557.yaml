@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-557
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 557
+  date: 06/18/2021
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: '"GitHub Processes 2.8 Billion API Requests Per Day".. with Ruby'
+    url: https://rubyweekly.com/link/109809/web
+    type: News
+  - title: 'ActiveAnalytics: First-Party, Privacy-Focused Traffic Analytics for Rails Apps'
+    url: https://rubyweekly.com/link/109811/web
+    type: News
+  - title: The Ultimate Button Component
+    url: https://rubyweekly.com/link/109812/web
+    type: News
+  - title: 'A Rubyist''s Walk Along the C-Side: Primitive Data Types'
+    url: https://rubyweekly.com/link/109813/web
+    type: News
+  - title: Discussing Speedy Performance with Nate Berkopec
+    url: https://rubyweekly.com/link/109814/web
+    type: News
+  - title: How to Create Custom Elements with Web Components
+    url: https://rubyweekly.com/link/109825/web
+    type: News
+  - title: Adding TypeScript to Your Existing Rails App
+    url: https://rubyweekly.com/link/109826/web
+    type: News
+  - title: How to Build Scalable Ruby Apps with CockroachDB & Ruby PG Driver
+    url: https://rubyweekly.com/link/109827/web
+    type: News
+  - title: 'Building Large Features: A Process for Branches, Requests and Reviews'
+    url: https://rubyweekly.com/link/109828/web
+    type: News
+  - title: Building Your Own Rails Form Builders
+    url: https://rubyweekly.com/link/109829/web
+    type: News
+  - title: Decoding Ruby's Magical Syntax with Justin Gordon
+    url: https://rubyweekly.com/link/109832/web
+    type: News
+  - title: Dave Thomas on Testing Past, Present, and Future
+    url: https://rubyweekly.com/link/109833/web
+    type: News
+  - title: 'Countries 4.0: Useful Info about Countries Packaged into a Gem'
+    url: https://rubyweekly.com/link/109834/web
+    type: News
+  - title: Seven Days of Football/Soccer Related Ruby Gems
+    url: https://rubyweekly.com/link/109835/web
+    type: News
+  - title: Uptime Monitoring Is Now Available in AppSignal
+    url: https://rubyweekly.com/link/109836/web
+    type: News
+  - title: 'Committee 4.4: Rack Middleware to Build Services with JSON Schema'
+    url: https://rubyweekly.com/link/109837/web
+    type: News
+  - title: 'Shrine 3.4: The File Attachment Toolkit for Ruby Webapps'
+    url: https://rubyweekly.com/link/109838/web
+    type: News
+  - title: 'Textbringer 1.1: An Emacs-Like Text Editor Written in Ruby'
+    url: https://rubyweekly.com/link/109840/web
+    type: News
