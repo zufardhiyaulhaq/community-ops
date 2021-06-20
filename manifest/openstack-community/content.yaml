@@ -826,8 +826,8 @@ content:
 - title: How to Start Contributing Upstream to OpenInfra | OpenInfra Live Recap
   url: https://superuser.openstack.org/articles/how-to-start-contributing-upstream-to-openinfra-openinfra-live-recap/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: 'Students of OpenInfra: Archana Kumari | Accurate Institute of Management and Technology'
   url: https://superuser.openstack.org/articles/students-of-openinfra-archana-kumari-accurate-institute-of-management-and-technology/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
