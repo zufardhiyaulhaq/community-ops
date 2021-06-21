@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-543
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 543
+  date: 06/21/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Benchmarking JavaScript Memory Usage
+    url: https://javascriptweekly.com/link/110012/web
+    type: News
+  - title: Dr. Axel Explains Three ECMAScript Proposals
+    url: https://javascriptweekly.com/link/110013/web
+    type: News
+  - title: Take Control of Your Core Web Vitals with Raygun
+    url: https://javascriptweekly.com/link/109971/web
+    type: News
+  - title: Next.js 11 Released
+    url: https://javascriptweekly.com/link/109972/web
+    type: News
+  - title: Deno 1.11 Released
+    url: https://javascriptweekly.com/link/109974/web
+    type: News
+  - title: What You Need to Know About React 18
+    url: https://javascriptweekly.com/link/109988/web
+    type: News
+  - title: 'When CSS Isn’t Enough: JavaScript Requirements For Accessible Components'
+    url: https://javascriptweekly.com/link/109990/web
+    type: News
+  - title: Infrastructure as Code using JavaScript and Pulumi
+    url: https://javascriptweekly.com/link/109991/web
+    type: News
+  - title: Examples of New Browser APIs to Detect JS Performance Problems in Production
+    url: https://javascriptweekly.com/link/109992/web
+    type: News
+  - title: Embedding Vue.js Apps in Go(lang)
+    url: https://javascriptweekly.com/link/109993/web
+    type: News
+  - title: A Visual Guide to Node.js Streams
+    url: https://javascriptweekly.com/link/109994/web
+    type: News
+  - title: Drawing Graphics with the CSS Paint API
+    url: https://javascriptweekly.com/link/110020/web
+    type: News
+  - title: 5 Reasons Not to Write Your JavaScript Data Grid from Scratch
+    url: https://javascriptweekly.com/link/109995/web
+    type: News
+  - title: 'MathJax 3.2.0: Beautiful Math Rendering in All Browsers'
+    url: https://javascriptweekly.com/link/109999/web
+    type: News
+  - title: 'Viewer.js 1.10: A Flexible JavaScript Image Viewer'
+    url: https://javascriptweekly.com/link/110002/web
+    type: News
+  - title: Breakpoints and console.log Is the Past, Time Travel Is the Future
+    url: https://javascriptweekly.com/link/110004/web
+    type: News
+  - title: Remote Repositories Extension for Visual Studio Code
+    url: https://javascriptweekly.com/link/110021/web
+    type: News
+  - title: 'Undici 4.0: An HTTP Client, Written from Scratch for Node'
+    url: https://javascriptweekly.com/link/110005/web
+    type: News
+  - title: A Pathfinding Algorithm Visualizer
+    url: https://javascriptweekly.com/link/110009/web
+    type: News
