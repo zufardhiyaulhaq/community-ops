@@ -439,3 +439,15 @@ content:
   url: https://opennetworking.org/news-and-events/blog/community-member-profile-khenaidoo-khen-nursimulu/
   kind: Open Networking Blog
   isDelivered: true
+- title: APS Networks® launches three TIP OpenBNG programmable switches to boost the disaggregated telco broadband market
+  url: https://www.aps-networks.com/press/aps-networks-launches-three-tip-openbng-programmable-switches/
+  kind: Open Networking News
+  isDelivered: false
+- title: SD-Core Techinar
+  url: https://opennetworking.org/events/sd-core-techinar/
+  kind: Open Networking Event
+  isDelivered: false
+- title: SD-Fabric Techinar
+  url: https://opennetworking.org/events/sd-fabric-techinar/
+  kind: Open Networking Event
+  isDelivered: false
