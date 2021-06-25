@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-558
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 558
+  date: 06/25/2021
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'Rhizome: A JIT for Ruby, Implemented in Pure Ruby'
+    url: https://rubyweekly.com/link/110185/web
+    type: News
+  - title: 'Implicit to Explicit: Decoding Ruby''s Magical Syntax'
+    url: https://rubyweekly.com/link/110186/web
+    type: News
+  - title: Spend Less Time Debugging and More Time Building with Scout
+    url: https://rubyweekly.com/link/110187/web
+    type: News
+  - title: 'Custom ''Cops'' for RuboCop: An Emergency Service for Your Ruby Code'
+    url: https://rubyweekly.com/link/110191/web
+    type: News
+  - title: The Debut of The Ruby on Rails Podcast
+    url: https://rubyweekly.com/link/110192/web
+    type: News
+  - title: A Story of Rails Encryption
+    url: https://rubyweekly.com/link/110193/web
+    type: News
+  - title: 'Rails Security Threats: Authentication'
+    url: https://rubyweekly.com/link/110194/web
+    type: News
+  - title: How to Determine Production Server Specs with Nate Berkopec
+    url: https://rubyweekly.com/link/110195/web
+    type: News
+  - title: Complete Peace of Mind Rails Hosting
+    url: https://rubyweekly.com/link/110197/web
+    type: News
+  - title: A GitHub Workflow For Automated Gem Releases
+    url: https://rubyweekly.com/link/110198/web
+    type: News
+  - title: Using Tags with Sidekiq Jobs
+    url: https://rubyweekly.com/link/110200/web
+    type: News
+  - title: 'Speeding up Rails 7 Controller Actions with #load_async'
+    url: https://rubyweekly.com/link/110201/web
+    type: News
+  - title: 'd3-rails 7.0: Bringing D3.js to Rails'
+    url: https://rubyweekly.com/link/110207/web
+    type: News
+  - title: 'Heya 0.5.0: A Campaign Mailer for Rails Apps'
+    url: https://rubyweekly.com/link/110210/web
+    type: News
+  - title: 'Semantic Logger: A Logging Framework for Ruby and Rails'
+    url: https://rubyweekly.com/link/110211/web
+    type: News
+  - title: Application Dependencies Outdated? We Can Help
+    url: https://rubyweekly.com/link/110213/web
+    type: News
+  - title: 'InvoicePrinter: Super Simple PDF Invoicing'
+    url: https://rubyweekly.com/link/110214/web
+    type: News
