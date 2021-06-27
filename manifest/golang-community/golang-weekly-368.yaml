@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-368
+  namespace: golang-community
+spec:
+  name: Golang Weekly 368
+  date: 06/27/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'Lingua 1.0: A Natural Language Detection Library'
+    url: https://golangweekly.com/link/110286/web
+    type: News
+  - title: The Go Collective on Stack Overflow
+    url: https://golangweekly.com/link/110287/web
+    type: News
+  - title: 'Forrester New Wave: Feature Management & Experimentation'
+    url: https://golangweekly.com/link/110288/web
+    type: News
+  - title: Reducing Memory Allocations in Go
+    url: https://golangweekly.com/link/110291/web
+    type: News
+  - title: Go 1.17 is Deprecating the Traditional Use of go get
+    url: https://golangweekly.com/link/110292/web
+    type: News
+  - title: '''I Wrote A Book About Go'' .. and Here''s Why'
+    url: https://golangweekly.com/link/110293/web
+    type: News
+  - title: How to Correctly Use Basic Authentication in Go
+    url: https://golangweekly.com/link/110296/web
+    type: News
+  - title: Giving TDD a Go
+    url: https://golangweekly.com/link/110297/web
+    type: News
+  - title: Why Tracing Might Replace (Almost) All Logging
+    url: https://golangweekly.com/link/110298/web
+    type: News
+  - title: How to Create Custom Handlers for Azure Functions in Go
+    url: https://golangweekly.com/link/110299/web
+    type: News
+  - title: Scalable Event Streaming with Redis and Go
+    url: https://golangweekly.com/link/110300/web
+    type: News
+  - title: 'Survey: A Library for Building Interactive Prompts'
+    url: https://golangweekly.com/link/110301/web
+    type: News
+  - title: 'yamyams: Framework for Replacing Kubernetes YAML with Raw Go'
+    url: https://golangweekly.com/link/110302/web
+    type: News
+  - title: Search Your Code. ALL of It, Everywhere
+    url: https://golangweekly.com/link/110303/web
+    type: News
+  - title: 'Smocker: A Simple and Efficient HTTP Mock Server'
+    url: https://golangweekly.com/link/110304/web
+    type: News
+  - title: 'Musgo: Binary MUS Serialization with Validation Support'
+    url: https://golangweekly.com/link/110305/web
+    type: News
