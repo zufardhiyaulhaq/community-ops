@@ -834,4 +834,4 @@ content:
 - title: Open Source Job Openings (and How to Land Them) | OpenInfra Live Recap
   url: https://superuser.openstack.org/articles/open-source-job-openings-and-how-to-land-them-openinfra-live-recap/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
