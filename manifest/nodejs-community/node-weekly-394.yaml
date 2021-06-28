@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-394
+  namespace: node-community
+spec:
+  name: Node Weekly 394
+  date: 06/28/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'AdminJS 5.0: An Admin Panel for Node Apps'
+    url: https://nodeweekly.com/link/110221/web
+    type: News
+  - title: Node v16.4.0 (Current) Released
+    url: https://nodeweekly.com/link/110224/web
+    type: News
+  - title: Learn to Build Scalable React Apps
+    url: https://nodeweekly.com/link/110227/web
+    type: News
+  - title: ApostropheCMS 3.0 Released
+    url: https://nodeweekly.com/link/110251/web
+    type: News
+  - title: 28 (And Counting) Node CLI App Best Practices
+    url: https://nodeweekly.com/link/110228/web
+    type: News
+  - title: Vercel Raises $102M Series C Round
+    url: https://nodeweekly.com/link/110229/web
+    type: News
+  - title: How to Dynamically Import ES Modules
+    url: https://nodeweekly.com/link/110231/web
+    type: News
+  - title: 'Madge 5.0: Create Graphs From Your Module Dependencies'
+    url: https://nodeweekly.com/link/110236/web
+    type: News
+  - title: 'RunJS 2.0: A Desktop Playground for JavaScript and TypeScript'
+    url: https://nodeweekly.com/link/110237/web
+    type: News
+  - title: '[New] Free JavaScript Code Quality & Security Scanner - Real‑Time Scan'
+    url: https://nodeweekly.com/link/110238/web
+    type: News
+  - title: Remote Repositories Extension for Visual Studio Code
+    url: https://nodeweekly.com/link/110239/web
+    type: News
+  - title: 'Micromark 3.0: A Small Compliant Markdown Parser'
+    url: https://nodeweekly.com/link/110240/web
+    type: News
+  - title: 'Node Serialport: Access Serial Ports with JavaScript'
+    url: https://nodeweekly.com/link/110242/web
+    type: News
+  - title: 'node-httpreq: Another HTTP Client Library for Node'
+    url: https://nodeweekly.com/link/110244/web
+    type: News
+  - title: Uptime Monitoring Is Now Available in AppSignal
+    url: https://nodeweekly.com/link/110246/web
+    type: News
+  - title: 'dotenv-linter: A Lightning-Fast Linter for .env Files'
+    url: https://nodeweekly.com/link/110247/web
+    type: News
+  - title: 'libnpmexec 2.0: npm exec (npx) as a Programmatic API'
+    url: https://nodeweekly.com/link/110248/web
+    type: News
