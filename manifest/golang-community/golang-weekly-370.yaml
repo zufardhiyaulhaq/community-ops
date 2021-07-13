@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-370
+  namespace: golang-community
+spec:
+  name: Golang Weekly 370
+  date: 07/13/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Russ Cox on Hardware Memory Models
+    url: https://golangweekly.com/link/110949/web
+    type: News
+  - title: Discussing Fuzzing in the Standard Library
+    url: https://golangweekly.com/link/110951/web
+    type: News
+  - title: The Definitive Guide to Feature Management
+    url: https://golangweekly.com/link/110953/web
+    type: News
+  - title: Write a Time-Series Data Storage Engine from Scratch
+    url: https://golangweekly.com/link/110955/web
+    type: News
+  - title: Benchmarks in Go Can Be 'Surprising'
+    url: https://golangweekly.com/link/110954/web
+    type: News
+  - title: Go Training Class Material
+    url: https://golangweekly.com/link/110957/web
+    type: News
+  - title: There Are Many Ways To Safely Count
+    url: https://golangweekly.com/link/110958/web
+    type: News
+  - title: Several Handy Commands to Run in Go Projects
+    url: https://golangweekly.com/link/110959/web
+    type: News
+  - title: 'certmagic: Automatic HTTPS for Any Go Program'
+    url: https://golangweekly.com/link/110964/web
+    type: News
+  - title: 'Bluemonday: A Fast Go HTML Sanitizer'
+    url: https://golangweekly.com/link/110965/web
+    type: News
+  - title: Monitor Golang Apps’ Performance End-To-End with Datadog Distributed Tracing
+    url: https://golangweekly.com/link/110966/web
+    type: News
+  - title: 'Balerter: Script Based Alert Manager'
+    url: https://golangweekly.com/link/110967/web
+    type: News
+  - title: 'Kratos 2.0: A Go Framework for Microservices'
+    url: https://golangweekly.com/link/110968/web
+    type: News
+  - title: 'calendarheatmap: Generate GitHub Activity-Style Heatmaps in Plain Go'
+    url: https://golangweekly.com/link/110969/web
+    type: News
