@@ -207,3 +207,111 @@ content:
   url: https://opennetworking.org/events/voltha-v2-6-techinar/
   kind: Open Networking Event
   isDelivered: true
+- title: Radisys Introduces White Box Combo PON Optical Line Terminals for Next-Gen FTTX Networks
+  url: https://opennetworking.org/news-and-events/latest-news/radisys-introduces-white-box-combo-pon-optical-line-terminals-for-next-gen-fttx-networks/
+  kind: Open Networking News
+  isDelivered: false
+- title: CHUNGHWA TELECOM AND NETSIA COMPLETE SUCCESSFUL INTEGRATION OF NETSIA SEBA+ PLATFORM
+  url: https://opennetworking.org/news-and-events/latest-news/chunghwa-telecom-and-netsia-complete-successful-integration-of-netsia-seba-platform/
+  kind: Open Networking News
+  isDelivered: false
+- title: Introducing SD-Core and SD-Fabric for Private Mobile Networks
+  url: https://www.convergedigest.com/2021/06/introducing-sd-core-and-sd-fabric-for.html
+  kind: Open Networking News
+  isDelivered: false
+- title: ONF shines SD-Core on private 5G use cases
+  url: https://www.fiercewireless.com/tech/onf-shines-sd-core-private-5g-use-cases
+  kind: Open Networking News
+  isDelivered: false
+- title: ONF Exposes Three Branches of Private Network Project
+  url: https://www.sdxcentral.com/articles/news/onf-exposes-three-branches-of-private-network-project/2021/06/?hit=92aa3e48-9b28-46bf-bcdb-288ac7a854d8&utm_medium=push&utm_source=onesignal
+  kind: Open Networking News
+  isDelivered: false
+- title: APS Networks® launches three TIP OpenBNG programmable switches to boost the disaggregated telco broadband market
+  url: https://www.aps-networks.com/press/aps-networks-launches-three-tip-openbng-programmable-switches/
+  kind: Open Networking News
+  isDelivered: false
+- title: Wiwynn Receives Open Network Foundation Aether Certification on Expanded Edge Server Ecosystem
+  url: https://www.wiwynn.com/press/wiwynn-receives-open-network-foundation-aether-certification-on-expanded-edge-server-ecosystem/
+  kind: Open Networking News
+  isDelivered: false
+- title: 'Access 4.0: A valuable lesson in network transformation'
+  url: http://www.gazettabyte.com/home/2021/4/27/access-40-a-valuable-lesson-in-network-transformation.html
+  kind: Open Networking News
+  isDelivered: false
+- title: Project Pronto wants to make 5G networks more reliable and secure
+  url: https://opennetworking.org/news-and-events/latest-news/project-pronto-wants-to-make-5g-networks-more-reliable-and-secure/
+  kind: Open Networking News
+  isDelivered: false
+- title: Amdocs Joins Open Networking Foundation to Accelerate Intelligent Automation Technologies for Next Generation Mobile and Hybrid Networks
+  url: https://www.amdocs.com/media-room/amdocs-joins-open-networking-foundation-accelerate-intelligent-automation-technologies
+  kind: Open Networking News
+  isDelivered: false
+- title: RIMEDO Labs joins the ONF to collaborate on the O-RAN compliant RIC
+  url: https://www.rimedolabs.com/blog/rimedo-labs-joins-the-onf-sd-ran/
+  kind: Open Networking News
+  isDelivered: false
+- title: A new Stanford initiative aims to ensure 5G networks are reliable and secure
+  url: https://news.stanford.edu/2021/03/24/new-initiative-aims-keep-5g-networks-reliable-secure/
+  kind: Open Networking News
+  isDelivered: false
+- title: VOLTHA/SEBA Achieves Major Milestone
+  url: https://opennetworking.org/news-and-events/blog/voltha-seba-achieves-major-milestone/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: ONF Community Highlights – June 2021
+  url: https://opennetworking.org/news-and-events/blog/community-highlights-june-2021/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: Aether Edge Deployment Automation
+  url: https://opennetworking.org/news-and-events/blog/aether-edge-deployment-automation/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: 'Community Member Profile: Khenaidoo (Khen) Nursimulu'
+  url: https://opennetworking.org/news-and-events/blog/community-member-profile-khenaidoo-khen-nursimulu/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: 2021 P4 Workshop Wrap up Blog
+  url: https://opennetworking.org/news-and-events/blog/2021-p4-workshop-wrap-up-blog/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: Announcing 2021 P4 Workshop Novel Use Award Winners
+  url: https://opennetworking.org/news-and-events/blog/announcing-2021-p4-workshop-novel-use-award-winners/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: Community Highlights – May 2021
+  url: https://opennetworking.org/news-and-events/blog/community-highlights-may-2021-2/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: PINS Is Next Step in Software Revolution of Data Center Networking
+  url: https://opennetworking.org/news-and-events/blog/pins-is-next-step-in-software-revolution-of-data-center-networking/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: 'Future Internet at Terabit Speeds: SCION in P4'
+  url: https://opennetworking.org/news-and-events/blog/future-internet-at-terabit-speeds-scion-in-p4/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: 'Community Member Profile: Ivan Eroshkin'
+  url: https://opennetworking.org/news-and-events/blog/community-member-profile-ivan-eroshkin/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: Community Highlights – April 2021
+  url: https://opennetworking.org/news-and-events/blog/community-highlights-april-2021/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: Announcing the Release of SD-RAN v1.1
+  url: https://opennetworking.org/news-and-events/blog/announcing-the-release-of-sd-ran-v1-1/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: BCN2021 LATAM Summit
+  url: https://opennetworking.org/events/bcn2021-latam-summit/
+  kind: Open Networking Event
+  isDelivered: false
+- title: VOLTHA v2.8 Techinar
+  url: https://opennetworking.org/events/voltha-v2-8-techinar/
+  kind: Open Networking Event
+  isDelivered: false
+- title: Private 5G for Industry 4.0 Spotlight
+  url: https://opennetworking.org/events/private-5g-for-industry-4-0-spotlight/
+  kind: Open Networking Event
+  isDelivered: false
