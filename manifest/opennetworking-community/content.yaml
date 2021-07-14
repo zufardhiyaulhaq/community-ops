@@ -1,109 +1,209 @@
 content:
-- title: Radisys Introduces White Box Combo PON Optical Line Terminals for Next-Gen FTTX Networks
-  url: https://opennetworking.org/news-and-events/latest-news/radisys-introduces-white-box-combo-pon-optical-line-terminals-for-next-gen-fttx-networks/
+- title: ONF announces first certified products, launch of ONF Marketplace
+  url: https://www.fiercetelecom.com/telecom/onf-announces-first-certified-products-launch-onf-marketplace
   kind: Open Networking News
   isDelivered: true
-- title: CHUNGHWA TELECOM AND NETSIA COMPLETE SUCCESSFUL INTEGRATION OF NETSIA SEBA+ PLATFORM
-  url: https://opennetworking.org/news-and-events/latest-news/chunghwa-telecom-and-netsia-complete-successful-integration-of-netsia-seba-platform/
+- title: ONF clarifies role of SD-RAN in O-RAN Alliance
+  url: https://www.lightreading.com/open-ran/onf-clarifies-role-of-sd-ran-in-o-ran-alliance-/d/d-id/764630?itc=lrnewsletter_lrdaily&utm_source=lrnewsletter_lrdaily&utm_medium=email&utm_campaign=10142020
   kind: Open Networking News
   isDelivered: true
-- title: Introducing SD-Core and SD-Fabric for Private Mobile Networks
-  url: https://www.convergedigest.com/2021/06/introducing-sd-core-and-sd-fabric-for.html
+- title: Telefónica Deutschland leverages Blue Planet for network automation
+  url: https://www.lightwaveonline.com/network-automation/article/14183880/telefnica-deutschland-leverages-blue-planet-for-network-automation
   kind: Open Networking News
   isDelivered: true
-- title: ONF shines SD-Core on private 5G use cases
-  url: https://www.fiercewireless.com/tech/onf-shines-sd-core-private-5g-use-cases
+- title: ONF Sets Out to Build 5G Open RAN Controller
+  url: https://www.eetimes.com/onf-sets-out-to-build-5g-open-ran-controller/#
   kind: Open Networking News
   isDelivered: true
-- title: ONF Exposes Three Branches of Private Network Project
-  url: https://www.sdxcentral.com/articles/news/onf-exposes-three-branches-of-private-network-project/2021/06/?hit=92aa3e48-9b28-46bf-bcdb-288ac7a854d8&utm_medium=push&utm_source=onesignal
+- title: Analysis of Open Network Foundation new 5G SD-RAN™ Project
+  url: https://techblog.comsoc.org/2020/08/25/28948/
   kind: Open Networking News
   isDelivered: true
-- title: APS Networks® launches three TIP OpenBNG programmable switches to boost the disaggregated telco broadband market
-  url: https://www.aps-networks.com/press/aps-networks-launches-three-tip-openbng-programmable-switches/
+- title: A Good Step Toward Open RAN and 5G
+  url: https://blog.cimicorp.com/?p=4268
   kind: Open Networking News
   isDelivered: true
-- title: Wiwynn Receives Open Network Foundation Aether Certification on Expanded Edge Server Ecosystem
-  url: https://www.wiwynn.com/press/wiwynn-receives-open-network-foundation-aether-certification-on-expanded-edge-server-ecosystem/
+- title: ONF’S New SD-RAN Project Boost Open RAN
+  url: https://www.650group.com/blog/onfs-new-sd-ran-project-boosts-open-ran
   kind: Open Networking News
   isDelivered: true
-- title: 'Access 4.0: A valuable lesson in network transformation'
-  url: http://www.gazettabyte.com/home/2021/4/27/access-40-a-valuable-lesson-in-network-transformation.html
+- title: ONF Launches 5G SD-RAN Project
+  url: https://www.convergedigest.com/2020/08/onf-launches-5g-sd-ran-project.html
   kind: Open Networking News
   isDelivered: true
-- title: Project Pronto wants to make 5G networks more reliable and secure
-  url: https://opennetworking.org/news-and-events/latest-news/project-pronto-wants-to-make-5g-networks-more-reliable-and-secure/
+- title: Open and Disaggregated Broadband Access – a Winning Strategy, Available Now
+  url: https://www.thefastmode.com/expert-opinion/17679-open-and-disaggregated-broadband-access-a-winning-strategy-available-now
   kind: Open Networking News
   isDelivered: true
-- title: Amdocs Joins Open Networking Foundation to Accelerate Intelligent Automation Technologies for Next Generation Mobile and Hybrid Networks
-  url: https://www.amdocs.com/media-room/amdocs-joins-open-networking-foundation-accelerate-intelligent-automation-technologies
+- title: Radisys Expands Access Portfolio with ONF-based Software-defined PON Distribution
+  url: https://www.thefastmode.com/technology-solutions/17159-radisys-expands-access-portfolio-with-onf-based-software-defined-pon-distribution
   kind: Open Networking News
   isDelivered: true
-- title: RIMEDO Labs joins the ONF to collaborate on the O-RAN compliant RIC
-  url: https://www.rimedolabs.com/blog/rimedo-labs-joins-the-onf-sd-ran/
+- title: Radisys bows new PON platform for fiber rollouts of all sizes
+  url: https://www.fiercetelecom.com/telecom/radisys-bows-new-pon-platform-for-fiber-rollouts-all-sizes
   kind: Open Networking News
   isDelivered: true
-- title: A new Stanford initiative aims to ensure 5G networks are reliable and secure
-  url: https://news.stanford.edu/2021/03/24/new-initiative-aims-keep-5g-networks-reliable-secure/
+- title: Open Networking Foundation announces new Continuous Certification Program
+  url: https://cloud7.news/cloud/open-networking-foundation-announces-new-continuous-certification-program/
   kind: Open Networking News
   isDelivered: true
-- title: VOLTHA/SEBA Achieves Major Milestone
-  url: https://opennetworking.org/news-and-events/blog/voltha-seba-achieves-major-milestone/
+- title: Community Member Profile – Rohan Agrawal
+  url: https://opennetworking.org/uncategorized/community-member-profile-rohan-agrawal/
   kind: Open Networking Blog
   isDelivered: true
-- title: ONF Community Highlights – June 2021
-  url: https://opennetworking.org/news-and-events/blog/community-highlights-june-2021/
+- title: Brebner Appointed as P4 Architecture Working Group Co-Chair
+  url: https://opennetworking.org/news-and-events/blog/brebner-appointed-as-p4-architecture-working-group-co-chair/
   kind: Open Networking Blog
   isDelivered: true
-- title: Aether Edge Deployment Automation
-  url: https://opennetworking.org/news-and-events/blog/aether-edge-deployment-automation/
+- title: ONF Commits to Supporting O-RAN ALLIANCE
+  url: https://opennetworking.org/uncategorized/onf-commits-to-supporting-o-ran-alliance/
   kind: Open Networking Blog
   isDelivered: true
-- title: 'Community Member Profile: Khenaidoo (Khen) Nursimulu'
-  url: https://opennetworking.org/news-and-events/blog/community-member-profile-khenaidoo-khen-nursimulu/
+- title: Community Highlights – September 2020
+  url: https://opennetworking.org/uncategorized/community-highlights-september-2020-2/
   kind: Open Networking Blog
   isDelivered: true
-- title: 2021 P4 Workshop Wrap up Blog
-  url: https://opennetworking.org/news-and-events/blog/2021-p4-workshop-wrap-up-blog/
+- title: P4 TST Elections
+  url: https://opennetworking.org/uncategorized/p4-tst-elections/
   kind: Open Networking Blog
   isDelivered: true
-- title: Announcing 2021 P4 Workshop Novel Use Award Winners
-  url: https://opennetworking.org/news-and-events/blog/announcing-2021-p4-workshop-novel-use-award-winners/
+- title: Stratum 20.09 Released
+  url: https://opennetworking.org/uncategorized/stratum-20-09-released/
   kind: Open Networking Blog
   isDelivered: true
-- title: Community Highlights – May 2021
-  url: https://opennetworking.org/news-and-events/blog/community-highlights-may-2021-2/
+- title: VOLTHA 2.5 Released
+  url: https://opennetworking.org/news-and-events/blog/voltha-2-5-released/
   kind: Open Networking Blog
   isDelivered: true
-- title: PINS Is Next Step in Software Revolution of Data Center Networking
-  url: https://opennetworking.org/news-and-events/blog/pins-is-next-step-in-software-revolution-of-data-center-networking/
+- title: 2020 OMEC/COMAC Community Award Recipients Announced
+  url: https://opennetworking.org/news-and-events/blog/2020-omec-comac-community-award-recipients-announced/
   kind: Open Networking Blog
   isDelivered: true
-- title: 'Future Internet at Terabit Speeds: SCION in P4'
-  url: https://opennetworking.org/news-and-events/blog/future-internet-at-terabit-speeds-scion-in-p4/
+- title: Community Member Profile – Muhammad Jamshed
+  url: https://opennetworking.org/uncategorized/community-member-profile-muhammad-jamshed/
   kind: Open Networking Blog
   isDelivered: true
-- title: 'Community Member Profile: Ivan Eroshkin'
-  url: https://opennetworking.org/news-and-events/blog/community-member-profile-ivan-eroshkin/
+- title: 5G Transformation with Open Source Spotlight Wrap-Up
+  url: https://opennetworking.org/news-and-events/blog/5g-transformation-with-open-source-spotlight-wrap-up/
   kind: Open Networking Blog
   isDelivered: true
-- title: Community Highlights – April 2021
-  url: https://opennetworking.org/news-and-events/blog/community-highlights-april-2021/
+- title: 'ConQuest: flow-level queue analysis in P4'
+  url: https://opennetworking.org/p4/conquest-flow-level-queue-analysis-in-p4/
   kind: Open Networking Blog
   isDelivered: true
-- title: Announcing the Release of SD-RAN v1.1
-  url: https://opennetworking.org/news-and-events/blog/announcing-the-release-of-sd-ran-v1-1/
+- title: Community Highlights – August 2020
+  url: https://opennetworking.org/uncategorized/community-highlights-august-2020/
   kind: Open Networking Blog
   isDelivered: true
-- title: BCN2021 LATAM Summit
-  url: https://opennetworking.org/events/bcn2021-latam-summit/
+- title: 3rd P4 Workshop in Europe (EuroP4)
+  url: https://opennetworking.org/events/3rd-p4-workshop-in-europe-europ4/
   kind: Open Networking Event
   isDelivered: true
-- title: VOLTHA v2.8 Techinar
-  url: https://opennetworking.org/events/voltha-v2-8-techinar/
+- title: 5G Connected Edge Cloud for Industry 4.0 Transformation
+  url: https://opennetworking.org/events/spotlight-industry-transformation/
   kind: Open Networking Event
   isDelivered: true
-- title: Private 5G for Industry 4.0 Spotlight
-  url: https://opennetworking.org/events/private-5g-for-industry-4-0-spotlight/
+- title: Open Infrastructure & Cloud Native Day Indonesia 2020
+  url: https://opennetworking.org/events/open-infrastructure-cloud-native-day-indonesia-2020/
+  kind: Open Networking Event
+  isDelivered: true
+- title: Telecom TV – Open RAN Summit
+  url: https://opennetworking.org/events/telecom-tv-open-ran-summit/
+  kind: Open Networking Event
+  isDelivered: true
+- title: Community Highlights – October 2020
+  url: https://opennetworking.org/uncategorized/community-highlights-october-2020/
+  kind: Open Networking Blog
+  isDelivered: true
+- title: How P4 Benefits the Router for Academia, Research, and Education (RARE) Project
+  url: https://opennetworking.org/news-and-events/blog/how-p4-benefits-the-router-for-academia-research-and-education-rare-project/
+  kind: Open Networking Blog
+  isDelivered: true
+- title: Community Member Profile – Michal Sewera
+  url: https://opennetworking.org/uncategorized/community-member-profile-michal-sewera/
+  kind: Open Networking Blog
+  isDelivered: true
+- title: The Need for Standardization in a Thriving Network Ecosystem
+  url: https://opennetworking.org/uncategorized/the-need-for-standardization-in-a-thriving-network-ecosystem/
+  kind: Open Networking Blog
+  isDelivered: true
+- title: GNTC 2020 – SDN/NFVSummit
+  url: https://opennetworking.org/events/gntc-2020-sdn-nfvsummit/
+  kind: Open Networking Event
+  isDelivered: true
+- title: Community Highlights – November 2020
+  url: https://opennetworking.org/uncategorized/community-highlights-november-2020-2/
+  kind: Open Networking Blog
+  isDelivered: true
+- title: Cornell partners in $30M grant to build better networks
+  url: https://news.cornell.edu/stories/2020/12/cornell-partners-30m-grant-build-better-networks
+  kind: Open Networking News
+  isDelivered: true
+- title: ONF’s Aether project gets its wings with $30 million 5G DARPA research project
+  url: https://www.fiercetelecom.com/telecom/onf-s-aether-project-gets-its-wings-30m-5g-darpa-project
+  kind: Open Networking News
+  isDelivered: true
+- title: ONF’s Aether Cast For $30M 5G Defense Research Project
+  url: https://www.sdxcentral.com/articles/news/onfs-aether-cast-for-30m-5g-defense-research-project/2020/12/?hit=5b5fcdce-b256-4bcb-9910-a5b378eb4f16&utm_medium=push&utm_source=onesignal
+  kind: Open Networking News
+  isDelivered: true
+- title: Community Member Profile – Himanshu Purohit
+  url: https://opennetworking.org/uncategorized/community-member-profile-himanshu-purohit/
+  kind: Open Networking Blog
+  isDelivered: true
+- title: Draft SEBA Reference Design v2.0  Adds BNG Disaggregation, Scaling and New Services for Broadband Access Networks
+  url: https://opennetworking.org/news-and-events/blog/draft-seba-reference-design-v2-0-adds-bng-disaggregation-scaling-and-new-services-for-broadband-access-networks/
+  kind: Open Networking Blog
+  isDelivered: true
+- title: VOLTHA 2.6 Released
+  url: https://opennetworking.org/news-and-events/blog/voltha-2-6-released/
+  kind: Open Networking Blog
+  isDelivered: true
+- title: Stratum 20.12 Released
+  url: https://opennetworking.org/news-and-events/blog/stratum-20-12-released/
+  kind: Open Networking Blog
+  isDelivered: true
+- title: ONF Year-End Wrap up
+  url: https://opennetworking.org/news-and-events/blog/onf-year-end-wrap-up/
+  kind: Open Networking Blog
+  isDelivered: true
+- title: Mobile World Congress 2021 Barcelona
+  url: https://opennetworking.org/events/mobile-world-congress-2021-barcelona/
+  kind: Open Networking Event
+  isDelivered: true
+- title: Deutsche Telekom switches on its disaggregated broadband network
+  url: https://www.telecomtv.com/content/open-networking/deutsche-telekom-switches-on-its-disaggregated-broadband-network-40635/
+  kind: Open Networking News
+  isDelivered: true
+- title: Deutsche Telecom’s Access 4.0 FTTH platform goes live in Stuttgart
+  url: https://www.fiercetelecom.com/telecom/deutsche-telecom-s-access-4-0-ftth-platform-goes-live-stuttgart?mkt_tok=eyJpIjoiTkdJeVpURTVNRGRpTWpCbSIsInQiOiJwV0dZYkIySTJSY1V2b1FwNVh6MmdETlMwWEJDbEZ4VWxOZDd4TG9aWFkycXJvbDJxc280ZEhhMlZSQmErVGNCVVMzU3dxQmpJN1ZEXC
+  kind: Open Networking News
+  isDelivered: true
+- title: Stratum Overview & v20.12 Techinar
+  url: https://opennetworking.org/events/stratum-overview-and-v20-12-techinar/
+  kind: Open Networking Event
+  isDelivered: true
+- title: VOLTHA v2.6 Techinar
+  url: https://opennetworking.org/events/seba-rd-v2-0-voltha-v2-6-techinar/
+  kind: Open Networking Event
+  isDelivered: true
+- title: SD-RAN v1.0 Techinar
+  url: https://opennetworking.org/events/sd-ran-v1-0-techinar/
+  kind: Open Networking Event
+  isDelivered: true
+- title: Deutsche Telekom’s Access 4.0 platform goes live
+  url: https://www.telekom.com/en/media/media-information/archive/deutsche-telekom-s-access-4-0-platform-goes-live-615974
+  kind: Open Networking News
+  isDelivered: true
+- title: Princeton partners on $30 million grant to advance internet infrastructure
+  url: https://www.princeton.edu/news/2021/01/14/princeton-partners-30-million-grant-advance-internet-infrastructure
+  kind: Open Networking News
+  isDelivered: true
+- title: 'Community Member Profile: Andres Madero'
+  url: https://opennetworking.org/news-and-events/blog/community-member-profile-andres-madero/
+  kind: Open Networking Blog
+  isDelivered: true
+- title: VOLTHA v2.6 Techinar
+  url: https://opennetworking.org/events/voltha-v2-6-techinar/
   kind: Open Networking Event
   isDelivered: true
