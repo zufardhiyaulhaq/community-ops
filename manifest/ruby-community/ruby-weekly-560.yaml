@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-560
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 560
+  date: 07/14/2021
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Ruby 3.0.2 Released (plus 2.7.4 and 2.6.8)
+    url: https://rubyweekly.com/link/110831/web
+    type: News
+  - title: Introducing MemoWise, A New Way to Memoize Methods
+    url: https://rubyweekly.com/link/110834/web
+    type: News
+  - title: Analyze Your Ruby Apps’ Performance in Real Time with Datadog APM
+    url: https://rubyweekly.com/link/110835/web
+    type: News
+  - title: Understanding Factory Bot Syntax by Coding Your Own Factory Bot
+    url: https://rubyweekly.com/link/110836/web
+    type: News
+  - title: Submit a Talk to the RubyConf 2021 CFP
+    url: https://rubyweekly.com/link/110837/web
+    type: News
+  - title: The Shortest Path to Get Set Up with Automated Accessibility Testing in Rails
+    url: https://rubyweekly.com/link/110843/web
+    type: News
+  - title: Understanding How rbenv, RubyGems, and Bundler Work Together
+    url: https://rubyweekly.com/link/110844/web
+    type: News
+  - title: Tracking Events with Ahoy
+    url: https://rubyweekly.com/link/110845/web
+    type: News
+  - title: 'Crunchy Bridge: Fully Managed Cloud Postgres'
+    url: https://rubyweekly.com/link/110847/web
+    type: News
+  - title: Asynchronous Background Processing using AWS Lambda Extensions
+    url: https://rubyweekly.com/link/110864/web
+    type: News
+  - title: The Hanami Architecture Explained
+    url: https://rubyweekly.com/link/110848/web
+    type: News
+  - title: Under The Hood of the includes Method in Rails
+    url: https://rubyweekly.com/link/110849/web
+    type: News
+  - title: Neovim's Built-in LSP with Ruby and Rails
+    url: https://rubyweekly.com/link/110850/web
+    type: News
+  - title: Spearheading Static Site Generators with Ruby and Bridgetown
+    url: https://rubyweekly.com/link/110851/web
+    type: News
+  - title: 'Faraday 1.5: A Flexible HTTP Client Library'
+    url: https://rubyweekly.com/link/110855/web
+    type: News
+  - title: 'Fisk: A Pure Ruby x86-64 Assembler'
+    url: https://rubyweekly.com/link/110857/web
+    type: News
+  - title: 'Everything a Dev Needs to Build Video for Ruby: Powerful API and Analytics'
+    url: https://rubyweekly.com/link/110858/web
+    type: News
+  - title: Heroku Database Connection Calculator
+    url: https://rubyweekly.com/link/110859/web
+    type: News
+  - title: 'The Git Gem 1.9.0: A git Wrapper for Use from Ruby'
+    url: https://rubyweekly.com/link/110860/web
+    type: News
+  - title: 'WorkingHours 1.4: A Gem to Do Time Calculations with Working Hours'
+    url: https://rubyweekly.com/link/110861/web
+    type: News
+  - title: A Minimal Forward Proxy in 150 Lines of Code using Standard Libraries Only
+    url: https://rubyweekly.com/link/110862/web
+    type: News
