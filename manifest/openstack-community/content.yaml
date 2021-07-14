@@ -1,3 +1,4 @@
+
 content:
 - title: ' Sardina Systems is expanding its free deployment of FishOS OpenStack offering to all European countries on Coronavirus lockdown '
   url: https://www.openstack.org/news/view/449/sardina-systems-is-expanding-its-free-deployment-of-fishos-openstack-offering-to-all-european-countries-on-coronavirus-lockdown
@@ -619,43 +620,75 @@ content:
   url: https://www.openstack.org/news/view/225/sri-sathya-sai-institute-in-india-chooses-bright-technology
   kind: OpenStack News
   isDelivered: true
-- title: The Role of Open Source in Digital Sovereignty | OpenInfra Live Recap
-  url: https://superuser.openstack.org/articles/the-role-of-open-source-in-digital-sovereignty-openinfra-live-recap/
+- title: Virtual Open Infrastructure Summit Recap
+  url: https://superuser.openstack.org/articles/virtual-open-infrastructure-summit-recap/
   kind: OpenStack Super User News
   isDelivered: true
-- title: 'Inside Open Infrastructure: The Latest from the OpenInfra Foundation'
-  url: https://superuser.openstack.org/articles/news-inside-open-infrastructure-the-latest-from-the-openinfra-foundation/
+- title: SK Telecom 5GX Cloud Labs wins the 2020 Superuser Awards
+  url: https://superuser.openstack.org/articles/sk-telecom-5gx-labs-wins-the-2020-superuser-awards/
   kind: OpenStack Super User News
   isDelivered: true
-- title: Building the Intelligent Edge with Open Source Technologies | OpenInfra Live Recap
-  url: https://superuser.openstack.org/articles/building-the-intelligent-edge-with-open-source-technologies-openinfra-live-recap/
+- title: '#OpenInfraSummit Track: Security'
+  url: https://superuser.openstack.org/articles/openinfrasummit-track-security/
   kind: OpenStack Super User News
   isDelivered: true
-- title: Tangled Up in Edge – A Blog by the OpenInfra Edge Computing Group
-  url: https://superuser.openstack.org/articles/tangled-up-in-edge-a-blog-by-the-openinfra-edge-computing-group/
+- title: '#OpenInfraSummit Track: Private & Hybrid Cloud'
+  url: https://superuser.openstack.org/articles/openinfrasummit-track-private-hybrid-cloud/
   kind: OpenStack Super User News
   isDelivered: true
-- title: Open Source Job Openings (and How to Land Them) | OpenInfra Live Recap
-  url: https://superuser.openstack.org/articles/open-source-job-openings-and-how-to-land-them-openinfra-live-recap/
+- title: '#OpenInfraSummit Track: Public Cloud'
+  url: https://superuser.openstack.org/articles/openinfrasummit-track-public-cloud/
   kind: OpenStack Super User News
   isDelivered: true
-- title: How to Start Contributing Upstream to OpenInfra | OpenInfra Live Recap
-  url: https://superuser.openstack.org/articles/how-to-start-contributing-upstream-to-openinfra-openinfra-live-recap/
+- title: '#OpenInfraSummit Track: Container Infrastructure'
+  url: https://superuser.openstack.org/articles/openinfrasummit-track-container-infrastructure/
   kind: OpenStack Super User News
   isDelivered: true
-- title: 'Students of OpenInfra: Archana Kumari | Accurate Institute of Management and Technology'
-  url: https://superuser.openstack.org/articles/students-of-openinfra-archana-kumari-accurate-institute-of-management-and-technology/
+- title: '#OpenInfraSummit Track: CI/CD'
+  url: https://superuser.openstack.org/articles/openinfrasummit-track-ci-cd/
   kind: OpenStack Super User News
   isDelivered: true
-- title: Experts Discuss Tradeoffs, Frequency, and more around Upgrades of Large Scale OpenStack Deployments | OpenInfra Live Recap
-  url: https://superuser.openstack.org/articles/experts-discuss-tradeoffs-frequency-and-more-around-upgrades-of-large-scale-openstack-deployments-openinfra-live-recap/
+- title: 'OpenStack 10 Years: A Revolution for Telco'
+  url: https://superuser.openstack.org/articles/openstack-10-years-a-revolution-for-telco/
   kind: OpenStack Super User News
   isDelivered: true
-- title: 'Students of OpenInfra: Ashley Rodriguez | Boston University'
-  url: https://superuser.openstack.org/articles/students-of-openinfra-ashley-rodriguez-boston-university/
+- title: '#OpenInfraSummit Track: 5G, NFV & Edge'
+  url: https://superuser.openstack.org/articles/openinfrasummit-track-5g-nfv-edge/
   kind: OpenStack Super User News
   isDelivered: true
-- title: 'Inside Open Infrastructure: The Latest from the OpenInfra Foundation'
-  url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation-4/
+- title: '#OpenInfraSummit Track: AI / Machine Learning, HPC'
+  url: https://superuser.openstack.org/articles/openinfrasummit-track-ai-machine-learning-hpc/
+  kind: OpenStack Super User News
+  isDelivered: true
+- title: Running Percona Kubernetes Operator for Percona XtraDB Cluster with Kata Containers
+  url: https://superuser.openstack.org/articles/running-percona-kubernetes-operator-for-percona-xtradb-cluster-with-kata-containers/
+  kind: OpenStack Super User News
+  isDelivered: true
+- title: 'Embarking on a New Venture: Creating a Private Cloud with OpenStack for Under $1700'
+  url: https://superuser.openstack.org/articles/embarking-on-a-new-venture-creating-a-private-cloud-with-openstack-for-under-1700/
+  kind: OpenStack Super User News
+  isDelivered: true
+- title: 'OpenStack in Production and Integration with Ceph: A European Weather Cloud User Story'
+  url: https://superuser.openstack.org/articles/openstack-in-production-and-integration-with-ceph-a-european-weather-cloud-user-story/
+  kind: OpenStack Super User News
+  isDelivered: true
+- title: Digital Sovereignty – Why Open Infrastructure Matters
+  url: https://superuser.openstack.org/articles/digital-sovereignty-why-open-infrastructure-matters/
+  kind: OpenStack Super User News
+  isDelivered: true
+- title: 'Scaling Bare Metal Provisioning with Nova and Ironic at CERN:  Challenges & Solutions'
+  url: https://superuser.openstack.org/articles/scaling-bare-metal-provisioning-with-nova-and-ironic-at-cern-challenges-solutions/
+  kind: OpenStack Super User News
+  isDelivered: true
+- title: Enhancement of New Heterogeneous Accelerators Based on Cyborg
+  url: https://superuser.openstack.org/articles/enhancement-of-new-heterogeneous-accelerators-based-on-cyborg/
+  kind: OpenStack Super User News
+  isDelivered: true
+- title: Auto-scaling in Viettel Networks Without OpenStack Telemetry
+  url: https://superuser.openstack.org/articles/auto-scaling-in-viettel-networks-without-openstack-telemetry/
+  kind: OpenStack Super User News
+  isDelivered: true
+- title: 'New in OpenInfra: VEXXHOST’s Public Cloud Revamp Includes a Lot More Than the New Data Center in Amsterdam'
+  url: https://superuser.openstack.org/articles/new-in-openinfra-vexxhosts-public-cloud-revamp-includes-a-lot-more-than-the-new-data-center-in-amsterdam/
   kind: OpenStack Super User News
   isDelivered: true
