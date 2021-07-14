@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: devops-weekly-323
+  namespace: devops-community
+spec:
+  name: Devops Weekly 323
+  date: 07/14/2021
+  image: https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png
+  community: DevOps Indonesia Community
+  tags:
+  - weekly
+  - devops
+  articles:
+  - title: 'GitHub Copilot: An AI ''Pair Programmer'''
+    url: https://weekly.statuscode.com/link/110430/web
+    type: News
+  - title: Tributes Pour In For Near, The Developer Behind One Of The World's Best SNES Emulators
+    url: https://weekly.statuscode.com/link/110431/web
+    type: News
+  - title: Infrastructure as Code with Pulumi - Any Cloud, Any Language
+    url: https://weekly.statuscode.com/link/110435/web
+    type: News
+  - title: 'rfc.fyi: Search for RFCs, Fast'
+    url: https://weekly.statuscode.com/link/110436/web
+    type: News
+  - title: 'Ask HN: Do You Self-Host Your Database?'
+    url: https://weekly.statuscode.com/link/110443/web
+    type: News
+  - title: Building Apps on the Decentralized Web with Nader Dabit
+    url: https://weekly.statuscode.com/link/110444/web
+    type: News
+  - title: Change Data Capture at DeviantArt
+    url: https://weekly.statuscode.com/link/110445/web
+    type: News
+  - title: 'Hosted Monitoring: Evaluating InfluxDB Cloud and Grafana Cloud'
+    url: https://weekly.statuscode.com/link/110446/web
+    type: News
+  - title: Giving Your Web Publications 'LaTeX Style'
+    url: https://weekly.statuscode.com/link/110447/web
+    type: News
+  - title: Remote Repositories Extension for Visual Studio Code
+    url: https://weekly.statuscode.com/link/110449/web
+    type: News
+  - title: 'El Carro: A Way to Run Oracle Databases on Kubernetes'
+    url: https://weekly.statuscode.com/link/110450/web
+    type: News
+  - title: Why Tracing Might Replace (Almost) All Logging
+    url: https://weekly.statuscode.com/link/110451/web
+    type: News
+  - title: How I Hijacked The Top-Level Domain of a Sovereign State
+    url: https://weekly.statuscode.com/link/110454/web
+    type: News
+  - title: Security Headers Quick Reference
+    url: https://weekly.statuscode.com/link/110455/web
+    type: News
+  - title: curl vs wget
+    url: https://weekly.statuscode.com/link/110456/web
+    type: News
+  - title: How to Protect Domains That Don’t Send Email
+    url: https://weekly.statuscode.com/link/110457/web
+    type: News
+  - title: Create Animated GIF and WebP From Videos Using FFmpeg
+    url: https://weekly.statuscode.com/link/110458/web
+    type: News
+  - title: A Teenager's Guide to Avoiding Actual Work
+    url: https://weekly.statuscode.com/link/110459/web
+    type: News
+  - title: Making a 'Digital Clock' in Google Sheets
+    url: https://weekly.statuscode.com/link/110460/web
+    type: News
+  - title: A tcpdump Tutorial with Examples — 50 Ways to Isolate Traffic
+    url: https://weekly.statuscode.com/link/110461/web
+    type: News
+  - title: Search 1 Million Linux Kernel Commit Messages
+    url: https://weekly.statuscode.com/link/110462/web
+    type: News
+  - title: 'Crontab.guru: The cron Schedule Expression Editor'
+    url: https://weekly.statuscode.com/link/110464/web
+    type: News
+  - title: 'Slowfil.es: Deliberately Slow HTTP Resources for Testing'
+    url: https://weekly.statuscode.com/link/110467/web
+    type: News
