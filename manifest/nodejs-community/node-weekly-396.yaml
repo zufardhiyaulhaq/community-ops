@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-396
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 396
+  date: 07/14/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'npm audit: Broken by Design'
+    url: https://nodeweekly.com/link/110891/web
+    type: News
+  - title: TypeScript and Native ESM on Node.js
+    url: https://nodeweekly.com/link/110892/web
+    type: News
+  - title: Scale MySQL Globally in Minutes Without Code
+    url: https://nodeweekly.com/link/110893/web
+    type: News
+  - title: 'Building an API with Nest.js: A 39 Part Series'
+    url: https://nodeweekly.com/link/110894/web
+    type: News
+  - title: Node v16.4.2, v14.17.3, and v12.22.3 Released, But You Probably Don't Need Them
+    url: https://nodeweekly.com/link/110896/web
+    type: News
+  - title: Exploring the Possibilities of Node’s Virtual Machine Module
+    url: https://nodeweekly.com/link/110897/web
+    type: News
+  - title: Implementing Microservices in Node
+    url: https://nodeweekly.com/link/110898/web
+    type: News
+  - title: 'zx 2.0: A Tool for Writing Better Shell Scripts'
+    url: https://nodeweekly.com/link/110902/web
+    type: News
+  - title: 'fast-npm-search: A Super Fast npm Package Search'
+    url: https://nodeweekly.com/link/110903/web
+    type: News
+  - title: Run Faster and Safer Than Linux with Open Source Unikernels
+    url: https://nodeweekly.com/link/110904/web
+    type: News
+  - title: 'Opossum 6.2.0: A Circuit Breaker for Asynchronous Functions'
+    url: https://nodeweekly.com/link/110905/web
+    type: News
+  - title: 'Nest 8.0: A Mature Framework for Building Scalable Server-Side Apps'
+    url: https://nodeweekly.com/link/110907/web
+    type: News
+  - title: 'wait-on 6.0: A CLI and Node Library to Wait for Ports, Files, Sockets, etc.'
+    url: https://nodeweekly.com/link/110909/web
+    type: News
+  - title: Monitoring Template to Track Your Node.js Application Performance
+    url: https://nodeweekly.com/link/110910/web
+    type: News
+  - title: 'pg-anonymizer 0.4.0: Anonymized Data Dumping from Postgres'
+    url: https://nodeweekly.com/link/110911/web
+    type: News
+  - title: 'tiff 5.0: A TIFF Image Decoder Written Entirely in JavaScript'
+    url: https://nodeweekly.com/link/110912/web
+    type: News
