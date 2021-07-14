@@ -2,660 +2,660 @@ content:
 - title: ' Sardina Systems is expanding its free deployment of FishOS OpenStack offering to all European countries on Coronavirus lockdown '
   url: https://www.openstack.org/news/view/449/sardina-systems-is-expanding-its-free-deployment-of-fishos-openstack-offering-to-all-european-countries-on-coronavirus-lockdown
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Inspur Completes The World''s Largest Single-Cluster Test Based On OpenStack Rocky '
   url: https://www.openstack.org/news/view/437/inspur-completes-the-worlds-largest-singlecluster-test-based-on-openstack-rocky
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Sardina Systems is providing OpenStack Billing & Reporting Software to generate advanced reports for cloud environment '
   url: https://www.openstack.org/news/view/434/sardina-systems-is-providing-openstack-billing-reporting-software-to-generate-advanced-reports-for-cloud-environment
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' China UnionPay, China Railway, Walmart Among Open Infrastructure Users Sharing Open Source Best Practices, New Ideas at Shanghai Summit '
   url: https://www.openstack.org/news/view/433/china-unionpay-china-railway-walmart-among-open-infrastructure-users-sharing-open-source-best-practices-new-ideas-at-shanghai-summit
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack can create a massive impact in the HPC users life '
   url: https://www.openstack.org/news/view/432/openstack-can-create-a-massive-impact-in-the-hpc-users-life
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' FishOS OpenStack is now an approved solution of the UK Government’s G-Cloud 11 Framework '
   url: https://www.openstack.org/news/view/431/fishos-openstack-is-now-an-approved-solution-of-the-uk-governments-gcloud-11-framework
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Sweden''s largest media group chooses City Cloud to safeguard confidentiality of sources '
   url: https://www.openstack.org/news/view/430/swedens-largest-media-group-chooses-city-cloud-to-safeguard-confidentiality-of-sources
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Inspur and Intel share Rocky testing data at premiere of Open Infrastructure Summit '
   url: https://www.openstack.org/news/view/429/inspur-and-intel-share-rocky-testing-data-at-premiere-of-open-infrastructure-summit
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Construction giant Drake and Scull chooses City Cloud '
   url: https://www.openstack.org/news/view/428/construction-giant-drake-and-scull-chooses-city-cloud
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Ironic OpenStack Bare Metal Gains Momentum with Containerized Application Architectures '
   url: https://www.openstack.org/news/view/423/ironic-openstack-bare-metal-gains-momentum-with-containerized-application-architectures
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Cloud Lifecycle Automation Soars as Airship 1.0 Launches in Mile-High City '
   url: https://www.openstack.org/news/view/425/cloud-lifecycle-automation-soars-as-airship-10-launches-in-milehigh-city
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Kata Containers and Zuul Are First Pilot Projects Confirmed as Top-Level ‘Open Infrastructure Projects’ by the OpenStack Foundation Board '
   url: https://www.openstack.org/news/view/426/kata-containers-and-zuul-are-first-pilot-projects-confirmed-as-toplevel-open-infrastructure-projects-by-the-openstack-foundation-board
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' VEXXHOST Announces Kubernetes Enablement Offering '
   url: https://www.openstack.org/news/view/427/vexxhost-announces-kubernetes-enablement-offering
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' VEXXHOST Announces Deployment of OpenStack''s New Stein Release '
   url: https://www.openstack.org/news/view/422/vexxhost-announces-deployment-of-openstacks-new-stein-release
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack Stein Enhances Bare Metal and Network Management, While Launching Kubernetes Clusters Faster Than Ever '
   url: https://www.openstack.org/news/view/421/openstack-stein-enhances-bare-metal-and-network-management-while-launching-kubernetes-clusters-faster-than-ever
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Large Enterprises to Share Container Architecture from Production Deployments at Open Infrastructure Summit in Denver '
   url: https://www.openstack.org/news/view/420/large-enterprises-to-share-container-architecture-from-production-deployments-at-open-infrastructure-summit-in-denver
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack Foundation Announces First Open Infrastructure Summit in China '
   url: https://www.openstack.org/news/view/418/openstack-foundation-announces-first-open-infrastructure-summit-in-china
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Sardina Systems OpenStack running in the uniCORE Slovakia open source system enabling self-provisioned environments '
   url: https://www.openstack.org/news/view/417/sardina-systems-openstack-running-in-the-unicore-slovakia-open-source-system-enabling-selfprovisioned-environments
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Cloud&Heat Technologies Announces US Expansion Following Investment Round '
   url: https://www.openstack.org/news/view/416/cloudheat-technologies-announces-us-expansion-following-investment-round
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Agenda for Open Infrastructure Summit Denver Reveals How Users Combine Vast Array of Open Source Technologies for Advanced Applications '
   url: https://www.openstack.org/news/view/414/agenda-for-open-infrastructure-summit-denver-reveals-how-users-combine-vast-array-of-open-source-technologies-for-advanced-applications
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OVH continues expansion into Australia with Public Cloud launch '
   url: https://www.openstack.org/news/view/415/ovh-continues-expansion-into-australia-with-public-cloud-launch
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' City Network launches Object Storage with regulatory compliance '
   url: https://www.openstack.org/news/view/412/city-network-launches-object-storage-with-regulatory-compliance
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' A revolutionary Software-Defined Data Center solution? Datera + Sardina FishOS partnership is the answer '
   url: https://www.openstack.org/news/view/411/a-revolutionary-softwaredefined-data-center-solution-datera-sardina-fishos-partnership-is-the-answer
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' VEXXHOST Announces Enterprise-Grade GPU Instances to Expand High-Performance Cloud Computing Offering '
   url: https://www.openstack.org/news/view/409/vexxhost-announces-enterprisegrade-gpu-instances-to-expand-highperformance-cloud-computing-offering
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack Foundation Showcases New Features, Roadmaps and Use Cases of Open Infrastructure Pilot Projects at OpenStack Summit Berlin '
   url: https://www.openstack.org/news/view/406/openstack-foundation-showcases-new-features-roadmaps-and-use-cases-of-open-infrastructure-pilot-projects-at-openstack-summit-berlin
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack Foundation Board Expands Mission to Host New Open Source Projects as Part of Open Infrastructure Transformation '
   url: https://www.openstack.org/news/view/404/openstack-foundation-board-expands-mission-to-host-new-open-source-projects-as-part-of-open-infrastructure-transformation
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack Spotlights New and Growing Users, Strong Contributor Metrics at Berlin Summit '
   url: https://www.openstack.org/news/view/405/openstack-spotlights-new-and-growing-users-strong-contributor-metrics-at-berlin-summit
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' More security ex works: Open Telekom Cloud with new release '
   url: https://www.openstack.org/news/view/407/more-security-ex-works-open-telekom-cloud-with-new-release
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' ScaleUp and HKN Present de:stack – The IaaS Cloud for the German SME Market '
   url: https://www.openstack.org/news/view/403/scaleup-and-hkn-present-destack-the-iaas-cloud-for-the-german-sme-market
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Nexus Group chooses City Network '
   url: https://www.openstack.org/news/view/401/nexus-group-chooses-city-network
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Fleio billing 1.1 adds OpenStack Rocky support and domain name registration '
   url: https://www.openstack.org/news/view/400/fleio-billing-11-adds-openstack-rocky-support-and-domain-name-registration
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' City Network and Digital Identity company Blockchain HELIX announce a strategic partnership '
   url: https://www.openstack.org/news/view/399/city-network-and-digital-identity-company-blockchain-helix-announce-a-strategic-partnership
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' VEXXHOST leverages the power of Arm processors and OpenStack with new virtual machine architecture offering '
   url: https://www.openstack.org/news/view/398/vexxhost-leverages-the-power-of-arm-processors-and-openstack-with-new-virtual-machine-architecture-offering
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Fleio Announces OpenStack Billing & Control Panel Software,  Enabling Companies to Quickly Launch Public Cloud Services '
   url: https://www.openstack.org/news/view/397/fleio-announces-openstack-billing-control-panel-software-enabling-companies-to-quickly-launch-public-cloud-services
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Finance sector driving City Network’s expansion in Sweden '
   url: https://www.openstack.org/news/view/396/finance-sector-driving-city-networks-expansion-in-sweden
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack Bare Metal Clouds, Fast Forward Upgrades and Hardware Accelerators Take Center Stage in Latest Release, ‘Rocky’ '
   url: https://www.openstack.org/news/view/395/openstack-bare-metal-clouds-fast-forward-upgrades-and-hardware-accelerators-take-center-stage-in-latest-release-rocky
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Agenda for OpenStack Summit Berlin Is Now Live '
   url: https://www.openstack.org/news/view/394/agenda-for-openstack-summit-berlin-is-now-live
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack Summit Berlin Showcases Users, Momentum in Open Infrastructure, Cross-Community Collaboration '
   url: https://www.openstack.org/news/view/393/openstack-summit-berlin-showcases-users-momentum-in-open-infrastructure-crosscommunity-collaboration
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Open Infra Tech Days Event to Feature Hands-On Labs, Demos and Use Cases in Kubernetes, OpenStack and More '
   url: https://www.openstack.org/news/view/392/open-infra-tech-days-event-to-feature-handson-labs-demos-and-use-cases-in-kubernetes-openstack-and-more
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Giesecke+Devrient Mobile Security chooses City Network as its global cloud partner '
   url: https://www.openstack.org/news/view/391/gieseckedevrient-mobile-security-chooses-city-network-as-its-global-cloud-partner
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' EasyStack Completes Series C+ Round Financing and Announces Next Generation Cloud-Ready Hyper-Converged Infrastructure '
   url: https://www.openstack.org/news/view/390/easystack-completes-series-c-round-financing-and-announces-next-generation-cloudready-hyperconverged-infrastructure
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Storage Made Easy announces Open Source GDPR Rules Repository at OpenStack Vancouver '
   url: https://www.openstack.org/news/view/388/storage-made-easy-announces-open-source-gdpr-rules-repository-at-openstack-vancouver
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Inspur Releases InCloud OpenStack Version 5.5 at OpenStack Summit Vancouver '
   url: https://www.openstack.org/news/view/387/inspur-releases-incloud-openstack-version-55-at-openstack-summit-vancouver
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Kata Containers Project Releases 1.0 to Build Secure Container Infrastructure '
   url: https://www.openstack.org/news/view/382/kata-containers-project-releases-10-to-build-secure-container-infrastructure
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Canonical’s Managed OpenStack Cloud Adds Data Protection and Recovery Service with Trilio '
   url: https://www.openstack.org/news/view/389/canonicals-managed-openstack-cloud-adds-data-protection-and-recovery-service-with-trilio
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Red Hat and Juniper Networks Expand Collaboration to Provide a Simplified and More Secure Path to Multicloud '
   url: https://www.openstack.org/news/view/386/red-hat-and-juniper-networks-expand-collaboration-to-provide-a-simplified-and-more-secure-path-to-multicloud
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Fujitsu Deploys Juniper Networks’ AppFormix for Cloud Operations Management and Optimization '
   url: https://www.openstack.org/news/view/385/fujitsu-deploys-juniper-networks-appformix-for-cloud-operations-management-and-optimization
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack Foundation Publishes White Paper on Containers Integration, Highlights Cross-Community Accomplishments '
   url: https://www.openstack.org/news/view/384/openstack-foundation-publishes-white-paper-on-containers-integration-highlights-crosscommunity-accomplishments
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' VMware Integrated OpenStack Drives 5G Readiness and Fastest Path to Production OpenStack Deployment for Accelerating Digital Transformation '
   url: https://www.openstack.org/news/view/383/vmware-integrated-openstack-drives-5g-readiness-and-fastest-path-to-production-openstack-deployment-for-accelerating-digital-transformation
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Open Source CI/CD Platform Zuul Releases V3, Becomes an Independent Project '
   url: https://www.openstack.org/news/view/381/open-source-cicd-platform-zuul-releases-v3-becomes-an-independent-project
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' City Network launches container service in City Cloud, with Kubernetes in focus '
   url: https://www.openstack.org/news/view/380/city-network-launches-container-service-in-city-cloud-with-kubernetes-in-focus
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Cathay Pacific Takes Customer Experiences to New Heights with Red Hat’s Hybrid Cloud Technologies '
   url: https://www.openstack.org/news/view/378/cathay-pacific-takes-customer-experiences-to-new-heights-with-red-hats-hybrid-cloud-technologies
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack® Board Elects Tencent as Platinum Member of the Foundation '
   url: https://www.openstack.org/news/view/377/openstack-board-elects-tencent-as-platinum-member-of-the-foundation
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenDev CI/CD Schedule Now Live: Collaborative, Technical Event Focuses on Jenkins, Spinnaker, Zuul and More '
   url: https://www.openstack.org/news/view/376/opendev-cicd-schedule-now-live-collaborative-technical-event-focuses-on-jenkins-spinnaker-zuul-and-more
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' City Network launches OpenStack training program '
   url: https://www.openstack.org/news/view/375/city-network-launches-openstack-training-program
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Open Container Initiative Continues Momentum with New Members '
   url: https://www.openstack.org/news/view/373/open-container-initiative-continues-momentum-with-new-members
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Leading loans broker Lendo chooses City Network '
   url: https://www.openstack.org/news/view/372/leading-loans-broker-lendo-chooses-city-network
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' ZTE Next-Gen Cloud Platform TECS Leads the Telco Cloud Age '
   url: https://www.openstack.org/news/view/370/zte-nextgen-cloud-platform-tecs-leads-the-telco-cloud-age
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' T2Cloud Completed its B+ Round Financing, Speeding up the Industry Cloud Expansion. '
   url: https://www.openstack.org/news/view/369/t2cloud-completed-its-b-round-financing-speeding-up-the-industry-cloud-expansion
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Sardina Systems won DCD The Open Data Center Project Award 2017 with FishOS OpenStack '
   url: https://www.openstack.org/news/view/368/sardina-systems-won-dcd-the-open-data-center-project-award-2017-with-fishos-openstack
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Active Chinese Vendors in the OpenStack Community: ZTE’s Contributions Keep Growing '
   url: https://www.openstack.org/news/view/367/active-chinese-vendors-in-the-openstack-community-ztes-contributions-keep-growing
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Kata Containers Project Launches to Build Secure Container infrastructure '
   url: https://www.openstack.org/news/view/365/kata-containers-project-launches-to-build-secure-container-infrastructure
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Huawei Selected as an OpenStack Supplier for Vodafone Group '
   url: https://www.openstack.org/news/view/366/huawei-selected-as-an-openstack-supplier-for-vodafone-group
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' One of the largest banks in Sweden chooses City Network '
   url: https://www.openstack.org/news/view/363/one-of-the-largest-banks-in-sweden-chooses-city-network
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' ZTE：5G era needs the 3in1 cloud infrastructure '
   url: https://www.openstack.org/news/view/362/zte5g-era-needs-the-3in1-cloud-infrastructure
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' HPE and Rackspace Deliver Industry’s First Pay-as-You-Go OpenStack Private Cloud '
   url: https://www.openstack.org/news/view/364/hpe-and-rackspace-deliver-industrys-first-payasyougo-openstack-private-cloud
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' ZTE Releases the New-generation Cloud Platform TECS 6.0 at the OpenStack Summit Sydney '
   url: https://www.openstack.org/news/view/361/zte-releases-the-newgeneration-cloud-platform-tecs-60-at-the-openstack-summit-sydney
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' VirTool Networks Announces Major Update to OpenStack Troubleshooting Tool '
   url: https://www.openstack.org/news/view/355/virtool-networks-announces-major-update-to-openstack-troubleshooting-tool
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' VEXXHOST Adds OpenStack Consulting Service Backed by Years of Operational Experience '
   url: https://www.openstack.org/news/view/360/vexxhost-adds-openstack-consulting-service-backed-by-years-of-operational-experience
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack Adoption, Deployments Surge as Enterprises Increasingly Favor Multi-Cloud Strategies '
   url: https://www.openstack.org/news/view/357/openstack-adoption-deployments-surge-as-enterprises-increasingly-favor-multicloud-strategies
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack® Board Elects Tencent as Gold Member of the Foundation '
   url: https://www.openstack.org/news/view/358/openstack-board-elects-tencent-as-gold-member-of-the-foundation
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack Summit Sydney Spotlights Open Infrastructure Integration '
   url: https://www.openstack.org/news/view/359/openstack-summit-sydney-spotlights-open-infrastructure-integration
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' City Network launches global partner program '
   url: https://www.openstack.org/news/view/354/city-network-launches-global-partner-program
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' City Network shifts into high gear with hastexo acquisition '
   url: https://www.openstack.org/news/view/350/city-network-shifts-into-high-gear-with-hastexo-acquisition
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Partner Communications Selects Cloudify and VMware to Help Deliver an Open-vCPE and SD-WAN Solution in Record Time '
   url: https://www.openstack.org/news/view/348/partner-communications-selects-cloudify-and-vmware-to-help-deliver-an-openvcpe-and-sdwan-solution-in-record-time
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' VMware Offers Communications Service Providers the Fastest Path to OpenStack for Network Functions Virtualization '
   url: https://www.openstack.org/news/view/347/vmware-offers-communications-service-providers-the-fastest-path-to-openstack-for-network-functions-virtualization
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' VEXXHOST Now Running OpenStack Pike on its Public, Private & Hybrid Clouds '
   url: https://www.openstack.org/news/view/346/vexxhost-now-running-openstack-pike-on-its-public-private-hybrid-clouds
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' ETSI set to host second in its series of NFV Plugtests events '
   url: https://www.openstack.org/news/view/345/etsi-set-to-host-second-in-its-series-of-nfv-plugtests-events
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' ZeroStack Joins Remotely-Managed Private Cloud Marketplace '
   url: https://www.openstack.org/news/view/344/zerostack-joins-remotelymanaged-private-cloud-marketplace
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' World’s Largest Open Source Cloud Computing Summit  Coming to Berlin in 2018 '
   url: https://www.openstack.org/news/view/343/worlds-largest-open-source-cloud-computing-summit-coming-to-berlin-in-2018
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' A new reporting tool for OpenStack private cloud: BeanCounter '
   url: https://www.openstack.org/news/view/341/a-new-reporting-tool-for-openstack-private-cloud-beancounter
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Ormuco Launches Fully Managed Cloud Service in Finland in Collaboration with HPE and ALSO '
   url: https://www.openstack.org/news/view/342/ormuco-launches-fully-managed-cloud-service-in-finland-in-collaboration-with-hpe-and-also
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack Pike Delivers Composable Infrastructure Services and Improved Lifecycle Management '
   url: https://www.openstack.org/news/view/340/openstack-pike-delivers-composable-infrastructure-services-and-improved-lifecycle-management
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' World’s Largest Open Source Cloud Computing Summit to be Hosted in Sydney '
   url: https://www.openstack.org/news/view/339/worlds-largest-open-source-cloud-computing-summit-to-be-hosted-in-sydney
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' VEXXHOST Launches Cloud Load Balancer Service Powered by OpenStack '
   url: https://www.openstack.org/news/view/337/vexxhost-launches-cloud-load-balancer-service-powered-by-openstack
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Public cloud now available at the OVH datacenter in Warsaw '
   url: https://www.openstack.org/news/view/338/public-cloud-now-available-at-the-ovh-datacenter-in-warsaw
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Why are big players in finance adopting OpenStack? '
   url: https://www.openstack.org/news/view/336/why-are-big-players-in-finance-adopting-openstack
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Sony Interactive Entertainment America selects MarkoCloud '
   url: https://www.openstack.org/news/view/334/sony-interactive-entertainment-america-selects-markocloud
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Storage Made Easy announces storage provider support for Keystone v3 with OpenStack Swift '
   url: https://www.openstack.org/news/view/332/storage-made-easy-announces-storage-provider-support-for-keystone-v3-with-openstack-swift
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' With Four New Partners, China Mobile Opens NFV Testlab, Partners with Mirantis to Promote NFV Development '
   url: https://www.openstack.org/news/view/333/with-four-new-partners-china-mobile-opens-nfv-testlab-partners-with-mirantis-to-promote-nfv-development
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' EasyStack launches ESContainer, ready with OpenStack+K8S platform for the enterprise '
   url: https://www.openstack.org/news/view/331/easystack-launches-escontainer-ready-with-openstackk8s-platform-for-the-enterprise
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack Live: Progressive Demos Show How Composable Open Infrastructure Accelerates Innovation '
   url: https://www.openstack.org/news/view/330/openstack-live-progressive-demos-show-how-composable-open-infrastructure-accelerates-innovation
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Verizon unlocks the power of open source and virtualization with the addition of new whitebox options to its universal CPE offer '
   url: https://www.openstack.org/news/view/329/verizon-unlocks-the-power-of-open-source-and-virtualization-with-the-addition-of-new-whitebox-options-to-its-universal-cpe-offer
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Veritas Unveils New Software-Defined Storage for OpenStack '
   url: https://www.openstack.org/news/view/327/veritas-unveils-new-softwaredefined-storage-for-openstack
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' City Cloud joins Interxions Cloud Connect platform '
   url: https://www.openstack.org/news/view/326/city-cloud-joins-interxions-cloud-connect-platform
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Red Hat Drives Cloud Infrastructure Upgrades with Latest Version of Production-Ready OpenStack Platform '
   url: https://www.openstack.org/news/view/320/red-hat-drives-cloud-infrastructure-upgrades-with-latest-version-of-productionready-openstack-platform
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' 99Cloud launched Animbus®OS5.0CE–the 1st OpenStack distro based on Ocata release in China '
   url: https://www.openstack.org/news/view/322/99cloud-launched-animbusos50cethe-1st-openstack-distro-based-on-ocata-release-in-china
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Remotely Managed Private Cloud Emerges as Popular Model for Consuming OpenStack Infrastructure '
   url: https://www.openstack.org/news/view/323/remotely-managed-private-cloud-emerges-as-popular-model-for-consuming-openstack-infrastructure
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Rackspace and Dell EMC Team to Revolutionize Private Cloud '
   url: https://www.openstack.org/news/view/315/rackspace-and-dell-emc-team-to-revolutionize-private-cloud
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' SUSE Unveils SUSE OpenStack Cloud Monitoring to Simplify and Manage OpenStack Cloud Deployments '
   url: https://www.openstack.org/news/view/319/suse-unveils-suse-openstack-cloud-monitoring-to-simplify-and-manage-openstack-cloud-deployments
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' NetApp Releases Next-Generation Object Storage Software at OpenStack Summit Boston '
   url: https://www.openstack.org/news/view/314/netapp-releases-nextgeneration-object-storage-software-at-openstack-summit-boston
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Amadeus Transforms Travel Industry Services with Private Cloud Based on VMware Integrated OpenStack '
   url: https://www.openstack.org/news/view/317/amadeus-transforms-travel-industry-services-with-private-cloud-based-on-vmware-integrated-openstack
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' NEC contributes to successful trial of KDDI’s next generation platform '
   url: https://www.openstack.org/news/view/318/nec-contributes-to-successful-trial-of-kddis-next-generation-platform
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' vScaler Integrates with Datera to Provide Storage as-a-Service on Openstack '
   url: https://www.openstack.org/news/view/321/vscaler-integrates-with-datera-to-provide-storage-asaservice-on-openstack
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack® Board Elects China Unicom and FiberHome as Gold Members of the Foundation '
   url: https://www.openstack.org/news/view/325/openstack-board-elects-china-unicom-and-fiberhome-as-gold-members-of-the-foundation
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Fujitsu and Mirantis Sign Strategic Collaboration Agreement to Deliver Private Managed OpenStack Cloud '
   url: https://www.openstack.org/news/view/316/fujitsu-and-mirantis-sign-strategic-collaboration-agreement-to-deliver-private-managed-openstack-cloud
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack® Ocata Strengthens Core Infrastructure Services and Container Integration with 15th Release of Cloud Computing Software '
   url: https://www.openstack.org/news/view/302/openstack-ocata-strengthens-core-infrastructure-services-and-container-integration-with-15th-release-of-cloud-computing-software
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Sardina Systems Becomes a Corporate Sponsor of OpenStack Foundation '
   url: https://www.openstack.org/news/view/300/sardina-systems-becomes-a-corporate-sponsor-of-openstack-foundation
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack Community Elects 2017 Board of Directors '
   url: https://www.openstack.org/news/view/297/openstack-community-elects-2017-board-of-directors
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Mirantis Becomes First Vendor to Offer Support and Managed Services for OpenContrail SDN '
   url: https://www.openstack.org/news/view/296/mirantis-becomes-first-vendor-to-offer-support-and-managed-services-for-opencontrail-sdn
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' EasyStack raises $50M Series C round, setting new single round record in China open source '
   url: https://www.openstack.org/news/view/295/easystack-raises-50m-series-c-round-setting-new-single-round-record-in-china-open-source
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' The State Grid held “Cloud Computing & Smart Grid” Seminar '
   url: https://www.openstack.org/news/view/293/the-state-grid-held-cloud-computing-smart-grid-seminar
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' The State Grid win Practical Application Award with its OpenStack based cloud platform '
   url: https://www.openstack.org/news/view/289/the-state-grid-win-practical-application-award-with-its-openstack-based-cloud-platform
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Red Hat Improves Scalability, Simplifies Usability with Latest Version of Production-Ready OpenStack for Enterprise and Service Provider Clouds '
   url: https://www.openstack.org/news/view/290/red-hat-improves-scalability-simplifies-usability-with-latest-version-of-productionready-openstack-for-enterprise-and-service-provider-clouds
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OP5 Commits to Future: Joins OpenStack as Corporate Sponsor '
   url: https://www.openstack.org/news/view/288/op5-commits-to-future-joins-openstack-as-corporate-sponsor
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Automotive embedded electronics expert Vector delivers new service offering via City Cloud '
   url: https://www.openstack.org/news/view/285/automotive-embedded-electronics-expert-vector-delivers-new-service-offering-via-city-cloud
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' 99Cloud and China UnionPay build SDN based next generation OpenStack Cloud Platform for FSI in China '
   url: https://www.openstack.org/news/view/283/99cloud-and-china-unionpay-build-sdn-based-next-generation-openstack-cloud-platform-for-fsi-in-china
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Dynatrace presenta la primera solución empresarial capaz de monitorizar el rendimiento digital en entornos cloud OpenStack '
   url: https://www.openstack.org/news/view/282/dynatrace-presenta-la-primera-solucin-empresarial-capaz-de-monitorizar-el-rendimiento-digital-en-entornos-cloud-openstack
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Same App, Many Clouds: Live OpenStack Interoperability Challenge Highlights Application Portability '
   url: https://www.openstack.org/news/view/279/same-app-many-clouds-live-openstack-interoperability-challenge-highlights-application-portability
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Nuage Networks Introduces Ground-breaking eXperience Environment to Facilitate Continuous Integration and Development for DevOps '
   url: https://www.openstack.org/news/view/277/nuage-networks-introduces-groundbreaking-experience-environment-to-facilitate-continuous-integration-and-development-for-devops
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Nuage Networks Introduces Virtualized Services Platform (VSP) Integration Partner Program to Provide Greater Value to Customers '
   url: https://www.openstack.org/news/view/278/nuage-networks-introduces-virtualized-services-platform-vsp-integration-partner-program-to-provide-greater-value-to-customers
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack Summit Barcelona: Day One '
   url: https://www.openstack.org/news/view/281/openstack-summit-barcelona-day-one
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack® Foundation Welcomes Four New Gold Members from China and Europe '
   url: https://www.openstack.org/news/view/280/openstack-foundation-welcomes-four-new-gold-members-from-china-and-europe
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Certified OpenStack Administrator Exam Delivered to 500 Professionals '
   url: https://www.openstack.org/news/view/274/certified-openstack-administrator-exam-delivered-to-500-professionals
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack Gains Ground in the Enterprise With Business-Critical Workloads Across Diverse Industries: 451 Research '
   url: https://www.openstack.org/news/view/275/openstack-gains-ground-in-the-enterprise-with-businesscritical-workloads-across-diverse-industries-451-research
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Nuage Networks and NTT Data Intellilink Deliver First End-to-End SDN and SD-WAN Overlay Solution for Japanese Market '
   url: https://www.openstack.org/news/view/270/nuage-networks-and-ntt-data-intellilink-deliver-first-endtoend-sdn-and-sdwan-overlay-solution-for-japanese-market
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' City Network launches a City Cloud node in Tokyo '
   url: https://www.openstack.org/news/view/276/city-network-launches-a-city-cloud-node-in-tokyo
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Internap Supports OpenStack Community Development as an OSF Infrastructure Donor '
   url: https://www.openstack.org/news/view/269/internap-supports-openstack-community-development-as-an-osf-infrastructure-donor
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OW2 launches the “Try AppHub” campaign at OpenStack Summit to promote its self-service cloud-oriented deployment platform '
   url: https://www.openstack.org/news/view/272/ow2-launches-the-try-apphub-campaign-at-openstack-summit-to-promote-its-selfservice-cloudoriented-deployment-platform
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' DreamHost Becomes AppHub''s First Cloud Source Partner Offering Seamless Deployment of Open Source Software to OpenStack '
   url: https://www.openstack.org/news/view/271/dreamhost-becomes-apphubs-first-cloud-source-partner-offering-seamless-deployment-of-open-source-software-to-openstack
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Sureline Systems Announces OpenStack Support With SUREedge Migrator® 4.7.1 '
   url: https://www.openstack.org/news/view/266/sureline-systems-announces-openstack-support-with-sureedge-migrator-471
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Cloudbase Solutions and Enter Cloud Suite Announce Joint Project Aurora for OpenStack Horizon '
   url: https://www.openstack.org/news/view/268/cloudbase-solutions-and-enter-cloud-suite-announce-joint-project-aurora-for-openstack-horizon
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' vScaler Ltd. to showcase hybrid cloud platform at Openstack Summit 2016 '
   url: https://www.openstack.org/news/view/267/vscaler-ltd-to-showcase-hybrid-cloud-platform-at-openstack-summit-2016
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OW2 launches a campaign to attract open source software for free distribution on the AppHub marketplace '
   url: https://www.openstack.org/news/view/264/ow2-launches-a-campaign-to-attract-open-source-software-for-free-distribution-on-the-apphub-marketplace
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Cloud Enabled announces COA Exam Bundle with end to end experience '
   url: https://www.openstack.org/news/view/260/cloud-enabled-announces-coa-exam-bundle-with-end-to-end-experience
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Electronic Medical Records Wearable Wins First OpenStack App Hackathon in Latin America Para la traducción española, haga clic aquí.https://youtu.be/P4f8CB-6wHQ'
   url: https://www.openstack.org/news/view/254/electronic-medical-records-wearable-wins-first-openstack-app-hackathon-in-latin-america
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Snapdeal launches its own hybrid cloud – “Snapdeal Cirrus” '
   url: https://www.openstack.org/news/view/252/snapdeal-launches-its-own-hybrid-cloud-snapdeal-cirrus
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Tesora Collaborates with Red Hat to Deliver Certified OpenStack-based Database as a Service Platform '
   url: https://www.openstack.org/news/view/251/tesora-collaborates-with-red-hat-to-deliver-certified-openstackbased-database-as-a-service-platform
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Great interest in OpenStack Days Nordic '
   url: https://www.openstack.org/news/view/249/great-interest-in-openstack-days-nordic
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Survey reveals 81 percent of senior IT professionals are planning to move or are already moving to OpenStack private cloud '
   url: https://www.openstack.org/news/view/250/survey-reveals-81-percent-of-senior-it-professionals-are-planning-to-move-or-are-already-moving-to-openstack-private-cloud
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' QTS and Canonical Unveil Private, Fully Managed OpenStack Cloud '
   url: https://www.openstack.org/news/view/253/qts-and-canonical-unveil-private-fully-managed-openstack-cloud
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' SkyAtlas Announces Corporate Sponsorship of OpenStack Foundation '
   url: https://www.openstack.org/news/view/248/skyatlas-announces-corporate-sponsorship-of-openstack-foundation
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Midokura Announces Robust Overlay Connectivity for Multiple OpenStack Clouds. '
   url: https://www.openstack.org/news/view/247/midokura-announces-robust-overlay-connectivity-for-multiple-openstack-clouds
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Speakers Announced for OpenStack Days East Event in New York City, August 23-24 '
   url: https://www.openstack.org/news/view/246/speakers-announced-for-openstack-days-east-event-in-new-york-city-august-2324
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Mirantis Collaborates with Intel and Google to Enable OpenStack on Kubernetes '
   url: https://www.openstack.org/news/view/245/mirantis-collaborates-with-intel-and-google-to-enable-openstack-on-kubernetes
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' OpenStack Days-East Event Announces Featured Gartner Analyst Keynote '
   url: https://www.openstack.org/news/view/234/openstack-dayseast-event-announces-featured-gartner-analyst-keynote
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Cloudbase Solutions Announces Enterprise Cloud Migration as a Service '
   url: https://www.openstack.org/news/view/233/cloudbase-solutions-announces-enterprise-cloud-migration-as-a-service
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' CALLUP Announces Compliance with NFV Virtualization Architecture and OpenStack Open Source Cloud Platform '
   url: https://www.openstack.org/news/view/232/callup-announces-compliance-with-nfv-virtualization-architecture-and-openstack-open-source-cloud-platform
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Network Virtualization Market Leader Midokura Announces $20M in Series B Financing '
   url: https://www.openstack.org/news/view/231/network-virtualization-market-leader-midokura-announces-20m-in-series-b-financing
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Informology Joins Cloudbase Solutions’ Channel Partner Program '
   url: https://www.openstack.org/news/view/230/informology-joins-cloudbase-solutions-channel-partner-program
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Tesora Database as a Service Platform Adds More Commercial Databases, Enhances Production DBaaS Capabilities '
   url: https://www.openstack.org/news/view/229/tesora-database-as-a-service-platform-adds-more-commercial-databases-enhances-production-dbaas-capabilities
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Third Annual OpenStack Days Silicon Valley to Feature Keynotes from Staples, Volkswagen, SAP and Williams F1 Racing '
   url: https://www.openstack.org/news/view/228/third-annual-openstack-days-silicon-valley-to-feature-keynotes-from-staples-volkswagen-sap-and-williams-f1-racing
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Cloudbase Solutions Announces the Industry’s First Platform for Hyper-Converged OpenStack on Windows Nano Server 2016 '
   url: https://www.openstack.org/news/view/226/cloudbase-solutions-announces-the-industrys-first-platform-for-hyperconverged-openstack-on-windows-nano-server-2016
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Midokura’s Network Virtualization Technology Identified as Third-Party Network Driver of Choice for Large Scale OpenStack Clouds in Production '
   url: https://www.openstack.org/news/view/227/midokuras-network-virtualization-technology-identified-as-thirdparty-network-driver-of-choice-for-large-scale-openstack-clouds-in-production
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: ' Sri Sathya Sai Institute in India Chooses Bright Technology '
   url: https://www.openstack.org/news/view/225/sri-sathya-sai-institute-in-india-chooses-bright-technology
   kind: OpenStack News
-  isDelivered: false
+  isDelivered: true
 - title: The Role of Open Source in Digital Sovereignty | OpenInfra Live Recap
   url: https://superuser.openstack.org/articles/the-role-of-open-source-in-digital-sovereignty-openinfra-live-recap/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: 'Inside Open Infrastructure: The Latest from the OpenInfra Foundation'
   url: https://superuser.openstack.org/articles/news-inside-open-infrastructure-the-latest-from-the-openinfra-foundation/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: Building the Intelligent Edge with Open Source Technologies | OpenInfra Live Recap
   url: https://superuser.openstack.org/articles/building-the-intelligent-edge-with-open-source-technologies-openinfra-live-recap/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: Tangled Up in Edge – A Blog by the OpenInfra Edge Computing Group
   url: https://superuser.openstack.org/articles/tangled-up-in-edge-a-blog-by-the-openinfra-edge-computing-group/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: Open Source Job Openings (and How to Land Them) | OpenInfra Live Recap
   url: https://superuser.openstack.org/articles/open-source-job-openings-and-how-to-land-them-openinfra-live-recap/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: How to Start Contributing Upstream to OpenInfra | OpenInfra Live Recap
   url: https://superuser.openstack.org/articles/how-to-start-contributing-upstream-to-openinfra-openinfra-live-recap/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: 'Students of OpenInfra: Archana Kumari | Accurate Institute of Management and Technology'
   url: https://superuser.openstack.org/articles/students-of-openinfra-archana-kumari-accurate-institute-of-management-and-technology/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: Experts Discuss Tradeoffs, Frequency, and more around Upgrades of Large Scale OpenStack Deployments | OpenInfra Live Recap
   url: https://superuser.openstack.org/articles/experts-discuss-tradeoffs-frequency-and-more-around-upgrades-of-large-scale-openstack-deployments-openinfra-live-recap/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: 'Students of OpenInfra: Ashley Rodriguez | Boston University'
   url: https://superuser.openstack.org/articles/students-of-openinfra-ashley-rodriguez-boston-university/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: 'Inside Open Infrastructure: The Latest from the OpenInfra Foundation'
   url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation-4/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
