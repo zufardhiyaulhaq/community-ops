@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-546
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 546
+  date: 07/14/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: The State of Web Workers in 2021
+    url: https://javascriptweekly.com/link/110976/web
+    type: News
+  - title: How export default thing is Different to export { thing as default }
+    url: https://javascriptweekly.com/link/110980/web
+    type: News
+  - title: Uptime Monitoring Is Now Available in AppSignal
+    url: https://javascriptweekly.com/link/110981/web
+    type: News
+  - title: 'npm audit: Broken by Design'
+    url: https://javascriptweekly.com/link/110982/web
+    type: News
+  - title: A Look at Building with Astro
+    url: https://javascriptweekly.com/link/110983/web
+    type: News
+  - title: 'Elementary: React-Inspired Functional, Declarative Audio Applications'
+    url: https://javascriptweekly.com/link/110985/web
+    type: News
+  - title: TypeScript and Native ESM on Node.js
+    url: https://javascriptweekly.com/link/111001/web
+    type: News
+  - title: How to Use Promise.all()
+    url: https://javascriptweekly.com/link/111002/web
+    type: News
+  - title: 'Ultimate Guide to Building a UI Library: Building Robust Components'
+    url: https://javascriptweekly.com/link/111003/web
+    type: News
+  - title: When a Click is Not Just a Click
+    url: https://javascriptweekly.com/link/111005/web
+    type: News
+  - title: Using Deno Deploy to Release Super Fast Cloud Functions
+    url: https://javascriptweekly.com/link/111006/web
+    type: News
+  - title: Breaking Down Bulky Builds with Netlify and Next.js
+    url: https://javascriptweekly.com/link/111009/web
+    type: News
+  - title: The Ultimate Guide to Cardinality for Observability
+    url: https://javascriptweekly.com/link/111010/web
+    type: News
+  - title: 'html2canvas 1.0: A JavaScript HTML Renderer'
+    url: https://javascriptweekly.com/link/111013/web
+    type: News
+  - title: 'pdfmake: Client/Server Side PDF Generation in Pure JavaScript'
+    url: https://javascriptweekly.com/link/111015/web
+    type: News
+  - title: 'Fuzzball: Fuzzy String Matching Library'
+    url: https://javascriptweekly.com/link/111019/web
+    type: News
+  - title: Understanding and Preventing Common Security Vulnerabilities
+    url: https://javascriptweekly.com/link/111021/web
+    type: News
+  - title: 'Mantine 2.0: Full Featured React Component Library'
+    url: https://javascriptweekly.com/link/111022/web
+    type: News
+  - title: 'imask.js: A Vanilla JavaScript Input Mask'
+    url: https://javascriptweekly.com/link/111023/web
+    type: News
+  - title: 'TypeBox: JSON Schema Type Builder with Static Type Resolution for TypeScript'
+    url: https://javascriptweekly.com/link/111024/web
+    type: News
