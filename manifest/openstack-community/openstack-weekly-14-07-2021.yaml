@@ -1,0 +1,44 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-14-07-2021
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 14-07-2021
+  date: 07/14/2021
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: The Role of Open Source in Digital Sovereignty | OpenInfra Live Recap
+    url: https://superuser.openstack.org/articles/the-role-of-open-source-in-digital-sovereignty-openinfra-live-recap/
+    type: OpenStack Super User News
+  - title: 'Inside Open Infrastructure: The Latest from the OpenInfra Foundation'
+    url: https://superuser.openstack.org/articles/news-inside-open-infrastructure-the-latest-from-the-openinfra-foundation/
+    type: OpenStack Super User News
+  - title: Building the Intelligent Edge with Open Source Technologies | OpenInfra Live Recap
+    url: https://superuser.openstack.org/articles/building-the-intelligent-edge-with-open-source-technologies-openinfra-live-recap/
+    type: OpenStack Super User News
+  - title: Tangled Up in Edge – A Blog by the OpenInfra Edge Computing Group
+    url: https://superuser.openstack.org/articles/tangled-up-in-edge-a-blog-by-the-openinfra-edge-computing-group/
+    type: OpenStack Super User News
+  - title: Open Source Job Openings (and How to Land Them) | OpenInfra Live Recap
+    url: https://superuser.openstack.org/articles/open-source-job-openings-and-how-to-land-them-openinfra-live-recap/
+    type: OpenStack Super User News
+  - title: How to Start Contributing Upstream to OpenInfra | OpenInfra Live Recap
+    url: https://superuser.openstack.org/articles/how-to-start-contributing-upstream-to-openinfra-openinfra-live-recap/
+    type: OpenStack Super User News
+  - title: 'Students of OpenInfra: Archana Kumari | Accurate Institute of Management and Technology'
+    url: https://superuser.openstack.org/articles/students-of-openinfra-archana-kumari-accurate-institute-of-management-and-technology/
+    type: OpenStack Super User News
+  - title: Experts Discuss Tradeoffs, Frequency, and more around Upgrades of Large Scale OpenStack Deployments | OpenInfra Live Recap
+    url: https://superuser.openstack.org/articles/experts-discuss-tradeoffs-frequency-and-more-around-upgrades-of-large-scale-openstack-deployments-openinfra-live-recap/
+    type: OpenStack Super User News
+  - title: 'Students of OpenInfra: Ashley Rodriguez | Boston University'
+    url: https://superuser.openstack.org/articles/students-of-openinfra-ashley-rodriguez-boston-university/
+    type: OpenStack Super User News
+  - title: 'Inside Open Infrastructure: The Latest from the OpenInfra Foundation'
+    url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation-4/
+    type: OpenStack Super User News
