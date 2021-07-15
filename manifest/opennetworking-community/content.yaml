@@ -315,3 +315,11 @@ content:
   url: https://opennetworking.org/events/private-5g-for-industry-4-0-spotlight/
   kind: Open Networking Event
   isDelivered: true
+- title: Radisys Introduces White Box Combo PON Optical Line Terminals for Next-Gen FTTX Networks
+  url: https://hub.radisys.com/press-release/radisys-introduces-white-box-combo-pon-optical-line-terminals-for-next-gen-fttx-networks-2
+  kind: Open Networking News
+  isDelivered: false
+- title: 'Community Member Profile: Noa Zilberman'
+  url: https://opennetworking.org/news-and-events/blog/community-member-profile-noa-zilberman/
+  kind: Open Networking Blog
+  isDelivered: false
