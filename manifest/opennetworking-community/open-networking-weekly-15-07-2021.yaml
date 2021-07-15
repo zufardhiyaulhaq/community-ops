@@ -1,0 +1,20 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-15-07-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 15-07-2021
+  date: 07/15/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Radisys Introduces White Box Combo PON Optical Line Terminals for Next-Gen FTTX Networks
+    url: https://hub.radisys.com/press-release/radisys-introduces-white-box-combo-pon-optical-line-terminals-for-next-gen-fttx-networks-2
+    type: Open Networking News
+  - title: 'Community Member Profile: Noa Zilberman'
+    url: https://opennetworking.org/news-and-events/blog/community-member-profile-noa-zilberman/
+    type: Open Networking Blog
