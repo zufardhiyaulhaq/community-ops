@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-267
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 267
+  date: 07/15/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Kubernetes Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Improving the Kubernetes experience - eliminating toil and tribal knowledge
+    url: https://community.cncf.io/e/mg724r/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9W4-oZt8zRqm_bhPEXpBFWHzkc9-EbroOH8qy4xV-qNYfjui6BLeOD2P-q9btIfBr228tt
+    type: ICYMI
+  - title: How to share a Kubernetes cluster securely through Lens spaces
+    url: https://community.cncf.io/e/m8nbdj/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9W4-oZt8zRqm_bhPEXpBFWHzkc9-EbroOH8qy4xV-qNYfjui6BLeOD2P-q9btIfBr228tt
+    type: ICYMI
+  - title: Managing SREs to 90+ container talks a year with Jérôme Petazzoni
+    url: https://podcast.curiefense.io/14?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9W4-oZt8zRqm_bhPEXpBFWHzkc9-EbroOH8qy4xV-qNYfjui6BLeOD2P-q9btIfBr228tt
+    type: Editorial
+  - title: Flux July 2021 update
+    url: https://fluxcd.io/blog/2021/07/july-2021-update/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9W4-oZt8zRqm_bhPEXpBFWHzkc9-EbroOH8qy4xV-qNYfjui6BLeOD2P-q9btIfBr228tt
+    type: Editorial
+  - title: 'What end-users want out of Prometheus remote storage: A comparison of
+      M3 and Thanos'
+    url: https://chronosphere.io/learn/what-end-users-want-out-of-prometheus-remote-storage-a-comparison-of-m3-and-thanos/?utm_source=newsletter&utm_medium=cncf&utm_campaign=kube-weekly&_hsenc=p2ANqtz-9W4-oZt8zRqm_bhPEXpBFWHzkc9-EbroOH8qy4xV-qNYfjui6BLeOD2P-q9btIfBr228tt
+    type: Editorial
+  - title: 'FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes cost
+      monitoring is causing overspend'
+    url: https://www.cncf.io/blog/2021/06/29/finops-for-kubernetes-insufficient-or-nonexistent-kubernetes-cost-monitoring-is-causing-overspend/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9W4-oZt8zRqm_bhPEXpBFWHzkc9-EbroOH8qy4xV-qNYfjui6BLeOD2P-q9btIfBr228tt
+    type: Editorial
+  - title: From a newbie in software engineering to a graduated LFX-mentee
+    url: https://www.cncf.io/blog/2021/07/07/from-a-newbie-in-software-engineering-to-a-graduated-lfx-mentee/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9W4-oZt8zRqm_bhPEXpBFWHzkc9-EbroOH8qy4xV-qNYfjui6BLeOD2P-q9btIfBr228tt
+    type: Editorial
+  - title: The next generation of Kubernetes Native Postgres
+    url: https://blog.crunchydata.com/blog/the-next-generation-of-kubernetes-native-postgres?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9W4-oZt8zRqm_bhPEXpBFWHzkc9-EbroOH8qy4xV-qNYfjui6BLeOD2P-q9btIfBr228tt
+    type: Editorial
+  - title: RSVP
+    url: https://community.cncf.io/events/details/cncf-cloud-native-students-presents-getting-started-with-non-code-contributions/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9W4-oZt8zRqm_bhPEXpBFWHzkc9-EbroOH8qy4xV-qNYfjui6BLeOD2P-q9btIfBr228tt
+    type: Editorial
+  - title: submit your CFP
+    url: https://email.linuxfoundation.org/e2t/tc/VVq0gK1LdhcGW4848P98Nnv2JW7lBRbf4tMQpgN6rgBpG3lGmwV1-WJV7CgYbTW7NjNZJ5377M-W6y7Vm61qtRfTW2-svnS3tqd4nW5T8jBS5JPbksW70tFwk7xLdwLW5JjWSw5VCkHnN2YsQHHdfqYkW3PQKNr5F7BXdN20tv5YQnb8VW4cVR9c8B_fWtN4RhBh6PK6cVW95rr6M7L_tpZW1pqFqf35wp_gW5c2bB83wwFbJVrYJ0635BL7bW5QpQBR5y2JFlW8fd6QP76jdSxW2QtS2q8JGQTCW1kHqYv3cTgqbW1xv6kY6hbrDR3cSp1?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9W4-oZt8zRqm_bhPEXpBFWHzkc9-EbroOH8qy4xV-qNYfjui6BLeOD2P-q9btIfBr228tt
+    type: Editorial
+  - title: Take the CNCF Cloud Native Survey - Part 1
+    url: https://www.surveymonkey.com/r/GRBRJFH?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9W4-oZt8zRqm_bhPEXpBFWHzkc9-EbroOH8qy4xV-qNYfjui6BLeOD2P-q9btIfBr228tt
+    type: Editorial
+  - title: 'Containers in the cloud: What are your options?'
+    url: https://codersociety.com/blog/articles/container-workloads-aws-azure-gcp?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9W4-oZt8zRqm_bhPEXpBFWHzkc9-EbroOH8qy4xV-qNYfjui6BLeOD2P-q9btIfBr228tt
+    type: Technical
+  - title: Prometheus HA with Thanos Sidecar Or Receiver?
+    url: https://www.infracloud.io/blogs/prometheus-ha-thanos-sidecar-receiver/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9W4-oZt8zRqm_bhPEXpBFWHzkc9-EbroOH8qy4xV-qNYfjui6BLeOD2P-q9btIfBr228tt
+    type: Technical
+  - title: Evaluation of caching methodologies for Microservice-Based Architectures
+      in Kubernetes
+    url: https://elastisys.com/evaluation-of-caching-methodologies/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9W4-oZt8zRqm_bhPEXpBFWHzkc9-EbroOH8qy4xV-qNYfjui6BLeOD2P-q9btIfBr228tt
+    type: Technical
+  - title: Full Stack Kubernetes with Kong Ingress Controller
+    url: https://dzone.com/articles/kubernetes-full-stack-example-with-kong-ingress-co?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9W4-oZt8zRqm_bhPEXpBFWHzkc9-EbroOH8qy4xV-qNYfjui6BLeOD2P-q9btIfBr228tt
+    type: Technical
+  - title: 'KubeEdge: cloud native edge computing'
+    url: https://www.cncf.io/blog/2021/07/05/kubeedge-cloud-native-edge-computing/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9W4-oZt8zRqm_bhPEXpBFWHzkc9-EbroOH8qy4xV-qNYfjui6BLeOD2P-q9btIfBr228tt
+    type: Technical
+  - title: Everything useful I know about kubectl
+    url: https://www.atomiccommits.io/everything-useful-i-know-about-kubectl/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9W4-oZt8zRqm_bhPEXpBFWHzkc9-EbroOH8qy4xV-qNYfjui6BLeOD2P-q9btIfBr228tt
+    type: Technical
+  - title: How to use Podman inside of a container
+    url: https://www.redhat.com/sysadmin/podman-inside-container?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9W4-oZt8zRqm_bhPEXpBFWHzkc9-EbroOH8qy4xV-qNYfjui6BLeOD2P-q9btIfBr228tt
+    type: Technical
