@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 
-import os
 import sys
 import yaml
-import click
 import subprocess
 
 DEFAULT_CLUSTER_CONFIG="config.yaml"

@@ -7,4 +7,4 @@ release:
     name: sealed-secrets
     namespace: infrastructure
     version: 1.16.1
-    value: ./releases/sealed-secrets.yml
+    value: ./releases/sealed-secrets.yaml
