@@ -1,0 +1,13 @@
+cronSchedule: "0 8 * * 6"
+
+image:
+  repository: "zufardhiyaulhaq/kubernetesweekly"
+  tag: "v1.0.1"
+
+secret: "kubernetesweekly"
+
+weekly:
+  community: "Cloud Native Indonesia Community"
+  tags: "weekly,kubernetes"
+  namespace: "kubernetes-community"
+  image_url: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png"

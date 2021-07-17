@@ -8,3 +8,13 @@ release:
     namespace: infrastructure
     version: 1.16.1
     value: ./releases/sealed-secret.yaml
+
+  - chart:
+      name: zufardhiyaulhaq/kubernetesweekly
+      repository:
+        name: zufardhiyaulhaq
+        url: https://charts.zufardhiyaulhaq.com/
+    name: kubernetesweekly
+    namespace: kubernetes-community
+    version: 2.0.0
+    value: ./release/kubernetesweekly.yml
