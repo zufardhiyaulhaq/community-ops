@@ -17,4 +17,4 @@ release:
     name: kubernetesweekly
     namespace: kubernetes-community
     version: 2.0.0
-    value: ./release/kubernetesweekly.yml
+    value: ./releases/kubernetesweekly.yaml
