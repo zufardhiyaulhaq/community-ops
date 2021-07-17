@@ -1,0 +1,19 @@
+name: Master
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: deploy to cluster
+        uses: steebchen/kubectl@v2.0.0
+        with:
+          version: v1.19.10
+          config: ${{ secrets.KUBERNETES_CONFIG }}
+          command: apply -f argocd/ -R
