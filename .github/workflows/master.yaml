@@ -8,16 +8,13 @@ on:
 jobs:
   apply:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ['3.5', '3.6', '3.7.4', '3.8']
     steps:
       - name: Check out code
         uses: actions/checkout@v2
       - name: Setup python
         uses: actions/setup-python@v2
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: '3.8'
           architecture: x64
       - name: Install Python dependencies
         uses: py-actions/py-dependency-install@v2
