@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-371
+  namespace: golang-community
+spec:
+  name: Golang Weekly 371
+  date: 07/17/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Go 1.17 Release Candidate 1 Released
+    url: https://golangweekly.com/link/111219/web
+    type: News
+  - title: 'LiveKit: A Go Powered Server for Real Time Audio and Video'
+    url: https://golangweekly.com/link/111223/web
+    type: News
+  - title: Run Faster and Safer Than Linux with Open Source Unikernels
+    url: https://golangweekly.com/link/111225/web
+    type: News
+  - title: Updating the Go Memory Model
+    url: https://golangweekly.com/link/111226/web
+    type: News
+  - title: Discussing SIV and the 'V2+ Issue' with Peter Bourgon and Tim Heckman
+    url: https://golangweekly.com/link/111227/web
+    type: News
+  - title: How Hot Does It Get Inside a Car During a Heat Wave?
+    url: https://golangweekly.com/link/111229/web
+    type: News
+  - title: There Is No 'Extreme' Fast Way to Merge Slices in Go
+    url: https://golangweekly.com/link/111230/web
+    type: News
+  - title: Creating the Golfcart Programming Language
+    url: https://golangweekly.com/link/111231/web
+    type: News
+  - title: Extend Your Go App with Embedded WebAssembly Functions in WasmEdge
+    url: https://golangweekly.com/link/111232/web
+    type: News
+  - title: 'Testza: Full-Featured Test Framework for Go'
+    url: https://golangweekly.com/link/111233/web
+    type: News
+  - title: 'Multiple Progress Bar: Progress Bars for Go CLI Apps'
+    url: https://golangweekly.com/link/111234/web
+    type: News
+  - title: 'uuid 1.3.0: Package for UUIDs based on RFC 4122 and DCE 1.1'
+    url: https://golangweekly.com/link/111235/web
+    type: News
+  - title: Build Video for Your Go App with Just Two API Calls
+    url: https://golangweekly.com/link/111236/web
+    type: News
+  - title: 'Minimock: A Tool to Generate Mocks from Interface Declarations'
+    url: https://golangweekly.com/link/111237/web
+    type: News
+  - title: 'ws 1.1: Tiny WebSocket Library for Go'
+    url: https://golangweekly.com/link/111238/web
+    type: News
+  - title: 'Ergo: Erlang/OTP Ideas, But in Go'
+    url: https://golangweekly.com/link/111239/web
+    type: News
