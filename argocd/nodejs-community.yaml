@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: nodejs-community
+  name: weekly-nodejs-community
   namespace: argocd
 spec:
   project: default
@@ -12,6 +12,23 @@ spec:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
     path: manifest/nodejs-community/weekly
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: nodejs-community
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: announcement-nodejs-community
+  namespace: argocd
+spec:
+  project: default
+  syncPolicy:
+    automated: {}
+  source:
+    repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
+    targetRevision: HEAD
+    path: manifest/nodejs-community/announcement
   destination:
     server: https://kubernetes.default.svc
     namespace: nodejs-community

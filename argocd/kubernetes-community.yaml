@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: kubernetes-community
+  name: weekly-kubernetes-community
   namespace: argocd
 spec:
   project: default
@@ -12,6 +12,23 @@ spec:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
     path: manifest/kubernetes-community/weekly
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: kubernetes-community
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: announcement-kubernetes-community
+  namespace: argocd
+spec:
+  project: default
+  syncPolicy:
+    automated: {}
+  source:
+    repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
+    targetRevision: HEAD
+    path: manifest/kubernetes-community/announcement
   destination:
     server: https://kubernetes.default.svc
     namespace: kubernetes-community

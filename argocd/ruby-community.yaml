@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: ruby-community
+  name: weekly-ruby-community
   namespace: argocd
 spec:
   project: default
@@ -12,6 +12,23 @@ spec:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
     path: manifest/ruby-community/weekly
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: ruby-community
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: announcement-ruby-community
+  namespace: argocd
+spec:
+  project: default
+  syncPolicy:
+    automated: {}
+  source:
+    repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
+    targetRevision: HEAD
+    path: manifest/ruby-community/announcement
   destination:
     server: https://kubernetes.default.svc
     namespace: ruby-community
