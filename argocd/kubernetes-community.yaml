@@ -32,3 +32,20 @@ spec:
   destination:
     server: https://kubernetes.default.svc
     namespace: kubernetes-community
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: sealedsecret-kubernetes-community
+  namespace: argocd
+spec:
+  project: default
+  syncPolicy:
+    automated: {}
+  source:
+    repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
+    targetRevision: HEAD
+    path: manifest/kubernetes-community/sealedsecret
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: kubernetes-community
