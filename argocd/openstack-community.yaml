@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/openstack-community
+    path: manifest/openstack-community/weekly
   destination:
     server: https://kubernetes.default.svc
     namespace: openstack-community
