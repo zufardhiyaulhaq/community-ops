@@ -5,6 +5,9 @@ on:
     branches:
     - master
 
+env:
+  KUBECONFIG: /tmp/config
+
 jobs:
   apply:
     runs-on: ubuntu-latest
@@ -24,20 +27,19 @@ jobs:
         uses: azure/setup-helm@v1
         with:
           version: 'v3.3.1'
-      - uses: azure/setup-kubectl@v1
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v1
         with:
           version: 'v1.19.10'
-      # - name: deploy argocd manifest to cluster
-      #   uses: steebchen/kubectl@v2.0.0
-      #   with:
-      #     version: v1.19.10
-      #     config: ${{ secrets.KUBERNETES_CONFIG }}
-      #     command: apply -f argocd/ -R
-      - run: |
-          echo "$KUBERNETES_CONFIG" | base64 -d > /tmp/config
+      - name: Setup kubeconfig
+        run: |
+          echo "$KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
         shell: bash
         env:
           KUBERNETES_CONFIG: ${{ secrets.KUBERNETES_CONFIG }}
-      - name: deploy argocd manifest to cluster
+      - name: Deploy argocd applications
         run: |
-          kubectl --kubeconfig=/tmp/config apply -f argocd/ -R
+          kubectl apply -f argocd/ -R
+      - name: Deploy helm applications
+        run: |
+          make deploy
