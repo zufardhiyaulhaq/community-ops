@@ -734,4 +734,4 @@ content:
 - title: How OpenStack Large Clouds Manage their Spare Capacity | OpenInfra Live Recap
   url: https://superuser.openstack.org/articles/how-openstack-large-clouds-manage-their-spare-capacity-openinfra-live-recap/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
