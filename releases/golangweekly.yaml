@@ -1,0 +1,13 @@
+cronSchedule: "0 8 * * 0"
+
+image:
+  repository: "zufardhiyaulhaq/goweekly"
+  tag: "v1.0.0"
+
+secret: "golangweekly"
+
+weekly:
+  community: "Golang Indonesia Community"
+  tags: "weekly,golang"
+  namespace: "golang-community"
+  image_url: "https://trungtq.com/wp-content/uploads/2018/12/GO-3.png"

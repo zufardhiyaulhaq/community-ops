@@ -18,3 +18,13 @@ release:
     namespace: kubernetes-community
     version: 2.0.0
     value: ./releases/kubernetesweekly.yaml
+
+  - chart:
+      name: zufardhiyaulhaq/goweekly
+      repository:
+        name: zufardhiyaulhaq
+        url: https://charts.zufardhiyaulhaq.com/
+    name: golangweekly
+    namespace: golang-community
+    version: 1.0.0
+    value: ./releases/golangweekly.yaml
