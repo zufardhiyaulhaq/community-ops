@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-547
+  namespace: javascript-community
+spec:
+  name: JavaScript Weekly 547
+  date: 07/19/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: V8 v9.2 and the at Function
+    url: https://javascriptweekly.com/link/111255/web
+    type: News
+  - title: The Road to Ember 4.0
+    url: https://javascriptweekly.com/link/111285/web
+    type: News
+  - title: What If Your Project Management Tool Was Fast and Intuitive?
+    url: https://javascriptweekly.com/link/111243/web
+    type: News
+  - title: 'HTM 3.1.0: A JSX Alternative using Standard Tagged Templates'
+    url: https://javascriptweekly.com/link/111257/web
+    type: News
+  - title: Deno 1.12 Released
+    url: https://javascriptweekly.com/link/111254/web
+    type: News
+  - title: Building a Dynamic Header with Intersection Observer
+    url: https://javascriptweekly.com/link/111263/web
+    type: News
+  - title: How to Convert Arrays to Human-Readable Lists
+    url: https://javascriptweekly.com/link/111264/web
+    type: News
+  - title: 'Information Foraging: Tricks Great Developers Use to Find Solutions'
+    url: https://javascriptweekly.com/link/111283/web
+    type: News
+  - title: The Ultimate Guide to Browser-Side Storage
+    url: https://javascriptweekly.com/link/111288/web
+    type: News
+  - title: How To Migrate from jQuery to Next.js
+    url: https://javascriptweekly.com/link/111265/web
+    type: News
+  - title: A Checklist for Freelance React Developers
+    url: https://javascriptweekly.com/link/111266/web
+    type: News
+  - title: 'How Debugging is Changing: Cut Debugging Time with New Approaches to Tracking/Dealing with Errors'
+    url: https://javascriptweekly.com/link/111249/web
+    type: News
+  - title: 'FracturedJson: A Browser-Based JSON Formatter'
+    url: https://javascriptweekly.com/link/111270/web
+    type: News
+  - title: 'mem 9.0: Simple Memoization Library'
+    url: https://javascriptweekly.com/link/111271/web
+    type: News
+  - title: 'devcert: Development SSL/TLS Certificates Made Easy'
+    url: https://javascriptweekly.com/link/111272/web
+    type: News
+  - title: Monitor Lighthouse Scores and Core Web Vitals
+    url: https://javascriptweekly.com/link/111250/web
+    type: News
+  - title: 'new-tailwind-app: A Node-based CLI to Generate Boilerplate Code for Different Tailwind Apps'
+    url: https://javascriptweekly.com/link/111273/web
+    type: News
+  - title: 'Filesize.js 7.0: A Library to Create Human Readable File Size Strings'
+    url: https://javascriptweekly.com/link/111274/web
+    type: News
+  - title: 'LiveKit: A Go-Powered Server for Real Time Audio and Video'
+    url: https://javascriptweekly.com/link/111276/web
+    type: News
+  - title: 'React Virtual 2.8.0: Hooks for Virtualizing Scrollable Elements'
+    url: https://javascriptweekly.com/link/111277/web
+    type: News
