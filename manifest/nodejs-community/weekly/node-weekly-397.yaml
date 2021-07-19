@@ -1,0 +1,50 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-397
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 397
+  date: 07/19/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: A TypeScript Express Starter App
+    url: https://nodeweekly.com/link/111125/web
+    type: News
+  - title: Node v16.5.0 (Current) Released
+    url: https://nodeweekly.com/link/111126/web
+    type: News
+  - title: Uptime Monitoring Is Now Available in AppSignal
+    url: https://nodeweekly.com/link/111128/web
+    type: News
+  - title: Managing Node.js Docker Images in GitHub Packages with GitHub Actions
+    url: https://nodeweekly.com/link/111132/web
+    type: News
+  - title: How Does Node Load Its Built-In/Native Modules?
+    url: https://nodeweekly.com/link/111133/web
+    type: News
+  - title: The Ultimate Guide to Cardinality for Observability
+    url: https://nodeweekly.com/link/111134/web
+    type: News
+  - title: Using Redis with Node.js
+    url: https://nodeweekly.com/link/111135/web
+    type: News
+  - title: 'Fuzzball: Fuzzy String Matching Library'
+    url: https://nodeweekly.com/link/111137/web
+    type: News
+  - title: The Official MongoDB Node.js Driver v4.0
+    url: https://nodeweekly.com/link/111139/web
+    type: News
+  - title: 'Mock Service Worker: API Mocking Library for Browser and Node'
+    url: https://nodeweekly.com/link/111142/web
+    type: News
+  - title: Build Video for Your Node App That Just Works
+    url: https://nodeweekly.com/link/111144/web
+    type: News
+  - title: 'new-tailwind-app: A Node-based CLI to Generate Boilerplate Code for Different Tailwind Apps'
+    url: https://nodeweekly.com/link/111145/web
+    type: News
