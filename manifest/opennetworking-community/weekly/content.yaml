@@ -323,3 +323,23 @@ content:
   url: https://opennetworking.org/news-and-events/blog/community-member-profile-noa-zilberman/
   kind: Open Networking Blog
   isDelivered: true
+- title: CHUNGHWA TELECOM AND NETSIA COMPLETE SUCCESSFUL INTEGRATION OF NETSIA SEBA+ PLATFORM
+  url: https://www.netsia.com/chunghwa-telecom-and-netsia-complete-successful-integration-of-netsia-seba-platform/
+  kind: Open Networking News
+  isDelivered: false
+- title: Amdocs Joins Open Networking Foundation to Accelerate Intelligent Automation Technologies for Next Generation Mobile and Hybrid Networks
+  url: https://www.amdocs.com/news-press/amdocs-joins-open-networking-foundation-accelerate-intelligent-automation-technologies
+  kind: Open Networking News
+  isDelivered: false
+- title: Stratum Adds Multiple Enhancements for Intel Tofino
+  url: https://opennetworking.org/news-and-events/blog/stratum-adds-multiple-enhancements-for-intel-tofino/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: Stratum v21.06 Techinar
+  url: https://opennetworking.org/events/stratum-v21-06-techinar/
+  kind: Open Networking Event
+  isDelivered: false
+- title: OCP Global Summit
+  url: https://opennetworking.org/events/ocp-global-summit-2/
+  kind: Open Networking Event
+  isDelivered: false
