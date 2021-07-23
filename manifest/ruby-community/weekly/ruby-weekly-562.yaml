@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-562
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 562
+  date: 07/23/2021
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Benchmarking Your Ruby with time_up
+    url: https://rubyweekly.com/link/111430/web
+    type: News
+  - title: 'Fullstaq Ruby: A Production-Optimized CRuby Distribution'
+    url: https://rubyweekly.com/link/111431/web
+    type: News
+  - title: Try Scout’s New Error Monitoring Feature Add-On for Free
+    url: https://rubyweekly.com/link/111433/web
+    type: News
+  - title: Enjoy Some Talks from Euruko 2021
+    url: https://rubyweekly.com/link/111434/web
+    type: News
+  - title: Crystal 1.1 Released
+    url: https://rubyweekly.com/link/111440/web
+    type: News
+  - title: Building a Documentation Workflow in Rails
+    url: https://rubyweekly.com/link/111447/web
+    type: News
+  - title: How Release Uses Action Cable and Redux Toolkit
+    url: https://rubyweekly.com/link/111448/web
+    type: News
+  - title: Optimizing MemoWise Performance
+    url: https://rubyweekly.com/link/111449/web
+    type: News
+  - title: Serve Your Image Library on the Fly, Using a Simple Querystring API
+    url: https://rubyweekly.com/link/111451/web
+    type: News
+  - title: Validate CSV Input with ActiveModel::Validations
+    url: https://rubyweekly.com/link/111452/web
+    type: News
+  - title: Using VCR to Mock Your Requests
+    url: https://rubyweekly.com/link/111453/web
+    type: News
+  - title: Picking The Worst Year to Pitch for Euruko
+    url: https://rubyweekly.com/link/111455/web
+    type: News
+  - title: Building with Just What You Need Using Roda with Jeremy Evans
+    url: https://rubyweekly.com/link/111456/web
+    type: News
+  - title: 'Tangram: An Automated Machine Learning Framework'
+    url: https://rubyweekly.com/link/111459/web
+    type: News
+  - title: 'activerecord-cte: Brings Common Table Expressions Support to ActiveRecord'
+    url: https://rubyweekly.com/link/111461/web
+    type: News
+  - title: Has Your Rails 6.1 Prep Fallen Behind? FastRuby.io Can Help
+    url: https://rubyweekly.com/link/111462/web
+    type: News
+  - title: 'MailCatcher: A Simple SMTP Server with a Web UI to See Mails'
+    url: https://rubyweekly.com/link/111463/web
+    type: News
+  - title: 'Bridgetown 0.21.1: Ruby-Powered Static Site Generator'
+    url: https://rubyweekly.com/link/111464/web
+    type: News
+  - title: 'Listen 3.6.0: ''Listen'' to File Modifications and Know About Changes'
+    url: https://rubyweekly.com/link/111465/web
+    type: News
