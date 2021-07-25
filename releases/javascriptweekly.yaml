@@ -1,0 +1,14 @@
+
+cronSchedule: "0 8 * * 1"
+
+image:
+  repository: "zufardhiyaulhaq/javascriptweekly"
+  tag: "v1.0.0"
+
+secret: "javascriptweekly"
+
+weekly:
+  community: "JavaScript Indonesia Community"
+  tags: "weekly,nodejs"
+  namespace: "javascript-community"
+  image_url: "https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png"
