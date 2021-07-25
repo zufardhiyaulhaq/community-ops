@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-372
+  namespace: golang-community
+spec:
+  name: Golang Weekly 372
+  date: 07/25/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Go Now the 4th Most Popular Language on GitHub
+    url: https://golangweekly.com/link/111486/web
+    type: News
+  - title: 'Delve 1.7.0: A Popular Debugger for Go'
+    url: https://golangweekly.com/link/111487/web
+    type: News
+  - title: Advanced Engineering Go, Docker & K8’s Training
+    url: https://golangweekly.com/link/111489/web
+    type: News
+  - title: Accessing Postgres Databases in Go
+    url: https://golangweekly.com/link/111490/web
+    type: News
+  - title: An Interesting Go Memory Issue?
+    url: https://golangweekly.com/link/111510/web
+    type: News
+  - title: How Does sync.Map Work Internally?
+    url: https://golangweekly.com/link/111491/web
+    type: News
+  - title: Playing Mental Poker in Go
+    url: https://golangweekly.com/link/111492/web
+    type: News
+  - title: Go Related Findings in JetBrains' Developer Ecosystem Survey
+    url: https://golangweekly.com/link/111493/web
+    type: News
+  - title: Deploying a gRPC and gRPC Web API on Google Cloud Run
+    url: https://golangweekly.com/link/111500/web
+    type: News
+  - title: Wrapping Commands in Go
+    url: https://golangweekly.com/link/111501/web
+    type: News
+  - title: On Building Business Apps in Go
+    url: https://golangweekly.com/link/111502/web
+    type: News
+  - title: 'httpstat: Visualize HTTP Connection Statistics'
+    url: https://golangweekly.com/link/111503/web
+    type: News
+  - title: 'EggOS 0.2: A Go Unikernel Running on x86 Bare Metal'
+    url: https://golangweekly.com/link/111504/web
+    type: News
+  - title: Why Tracing Might Replace (Almost) All Logging
+    url: https://golangweekly.com/link/111505/web
+    type: News
+  - title: 'GoCV: Computer Vision in Go using OpenCV 4+'
+    url: https://golangweekly.com/link/111506/web
+    type: News
+  - title: 'askgit: Query Git Repositories with SQL'
+    url: https://golangweekly.com/link/111507/web
+    type: News
+  - title: 'go-yaml: YAML Encoding, Decoding and Querying for Go'
+    url: https://golangweekly.com/link/111508/web
+    type: News
