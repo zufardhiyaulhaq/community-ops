@@ -735,3 +735,15 @@ content:
   url: https://superuser.openstack.org/articles/how-openstack-large-clouds-manage-their-spare-capacity-openinfra-live-recap/
   kind: OpenStack Super User News
   isDelivered: true
+- title: Kata Containers Use Cases | OpenInfra Live Recap
+  url: https://superuser.openstack.org/articles/kata-containers-use-cases-openinfra-live-recap/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: Lenovo IT’s Active-Active Private Cloud Build-up Based on OpenStack
+  url: https://superuser.openstack.org/articles/lenovo-its-active-active-private-cloud-build-up-based-on-openstack/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: 'OpenInfra Foundation: Building the Next Decade of Open Infrastructure'
+  url: https://superuser.openstack.org/articles/openinfra-foundation-building-the-next-decade-of-open-infrastructure/
+  kind: OpenStack Super User News
+  isDelivered: false
