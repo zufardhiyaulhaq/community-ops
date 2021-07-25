@@ -1,0 +1,23 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-25-07-2021
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 25-07-2021
+  date: 07/25/2021
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: Kata Containers Use Cases | OpenInfra Live Recap
+    url: https://superuser.openstack.org/articles/kata-containers-use-cases-openinfra-live-recap/
+    type: OpenStack Super User News
+  - title: Lenovo IT’s Active-Active Private Cloud Build-up Based on OpenStack
+    url: https://superuser.openstack.org/articles/lenovo-its-active-active-private-cloud-build-up-based-on-openstack/
+    type: OpenStack Super User News
+  - title: 'OpenInfra Foundation: Building the Next Decade of Open Infrastructure'
+    url: https://superuser.openstack.org/articles/openinfra-foundation-building-the-next-decade-of-open-infrastructure/
+    type: OpenStack Super User News
