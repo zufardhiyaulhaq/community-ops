@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-548
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 548
+  date: 07/25/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: JetBrains' 2021 Developer Ecosystem Survey Results
+    url: https://javascriptweekly.com/link/111578/web
+    type: News
+  - title: Easier Browser Debugging with Developer Tools Integration in VS Code
+    url: https://javascriptweekly.com/link/111581/web
+    type: News
+  - title: Locate and Resolve JavaScript Errors Instantly with Datadog
+    url: https://javascriptweekly.com/link/111537/web
+    type: News
+  - title: 'Plate 1.0: A Plugin Framework for Building Rich Text Editors with Slate'
+    url: https://javascriptweekly.com/link/111538/web
+    type: News
+  - title: Node-RED 2.0 Released
+    url: https://javascriptweekly.com/link/111541/web
+    type: News
+  - title: Simple Monorepos via npm Workspaces and TypeScript Project References
+    url: https://javascriptweekly.com/link/111554/web
+    type: News
+  - title: Code Zelda in JavaScript with Kaboom.js
+    url: https://javascriptweekly.com/link/111555/web
+    type: News
+  - title: 5 Reasons Not to Write Your JavaScript Data Grid from Scratch
+    url: https://javascriptweekly.com/link/111556/web
+    type: News
+  - title: Trackball Rotation using Quaternions
+    url: https://javascriptweekly.com/link/111583/web
+    type: News
+  - title: then(f,f) vs then(f).catch(f)
+    url: https://javascriptweekly.com/link/111557/web
+    type: News
+  - title: Building a 'Typewriter Animation' That Handles Anything You Throw at It
+    url: https://javascriptweekly.com/link/111558/web
+    type: News
+  - title: '[Free Workshop] Building an IoT application with InfluxDB'
+    url: https://javascriptweekly.com/link/111560/web
+    type: News
+  - title: 'Dinero.js: A Library for Working with Monetary Values'
+    url: https://javascriptweekly.com/link/111564/web
+    type: News
+  - title: 'Abracadabra: JS and TS Refactoring Tool for VS Code'
+    url: https://javascriptweekly.com/link/111566/web
+    type: News
+  - title: 'Color: A Color Conversion and Manipulation Library'
+    url: https://javascriptweekly.com/link/111568/web
+    type: News
+  - title: Clubhouse.io -  We Put the Agile in Agile and the 'Can' in Kanban
+    url: https://javascriptweekly.com/link/111569/web
+    type: News
+  - title: 'Tangram: An Automated Machine Learning Framework'
+    url: https://javascriptweekly.com/link/111570/web
+    type: News
+  - title: 'Bulletproof React: An Architecture for React Apps'
+    url: https://javascriptweekly.com/link/111572/web
+    type: News
+  - title: 'Color Thief: Grab Color Palettes from Images'
+    url: https://javascriptweekly.com/link/111573/web
+    type: News
+  - title: 'FZF for JavaScript: Fuzzy Finding for the Browser'
+    url: https://javascriptweekly.com/link/111574/web
+    type: News
