@@ -1,0 +1,26 @@
+apiVersion: community.io/v1alpha1
+kind: Meetup
+metadata:
+  name: online-meetup-july-2021
+  namespace: kubernetes-community
+spec:
+  name: "Kubernetes Cloud Native Online Meetup July 2021"
+  date: "July 29, 2021"
+  time: "19.00"
+  place: "Online"
+  city: "Indonesia"
+  sponsor: "AWS"
+  registration_url: "bit.ly/k8scloudnativeindonesiaJuly2021"
+  image: "https://raw.githubusercontent.com/cloudnative-id/artwork/master/poster/indonesia/29-July-2021.png"
+  tags:
+    - meetup
+    - cncf
+  speakers:
+    - name: "Atwatan Malik Mahardi"
+      position: "Cloud Engineer"
+      company: "PT. Boer Technology"
+      title: "Minimize Kubernetes Vulnerability using OPA Gatekeeper"
+    - name: "Petra Novandi Barus"
+      position: "Senior Developer Advocate"
+      company: "Amazon Web Services Indonesia"
+      title: "Well-Architected Framework: Practices Building Secure and Efficient Cloud Applications"
