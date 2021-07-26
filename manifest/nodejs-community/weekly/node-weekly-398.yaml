@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-398
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 398
+  date: 07/26/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Node-RED 2.0 Released
+    url: https://nodeweekly.com/link/111380/web
+    type: News
+  - title: What Use Cases Exist for async_hooks?
+    url: https://nodeweekly.com/link/111382/web
+    type: News
+  - title: Fast Redis Hosting and Analytics
+    url: https://nodeweekly.com/link/111384/web
+    type: News
+  - title: 'devcert: Development SSL/TLS Certificates Made Easy'
+    url: https://nodeweekly.com/link/111385/web
+    type: News
+  - title: V8 Release v9.2
+    url: https://nodeweekly.com/link/111386/web
+    type: News
+  - title: How To Make a Raspberry Pi Night Vision Security Camera
+    url: https://nodeweekly.com/link/111388/web
+    type: News
+  - title: 'fnm: A Fast, Alternative Node.js Version Manager, Built in Rust'
+    url: https://nodeweekly.com/link/111390/web
+    type: News
+  - title: 'Unique Name Generator: Generate Unique and Memorable Name Strings'
+    url: https://nodeweekly.com/link/111391/web
+    type: News
+  - title: 'Bull: A Fast and Stable Redis-Based Queue for Node'
+    url: https://nodeweekly.com/link/111392/web
+    type: News
+  - title: 'Fauna: A Modern Serverless Data API for Node.js Apps, Learn More'
+    url: https://nodeweekly.com/link/111394/web
+    type: News
+  - title: 'ncc: Compile a Node Project Into a Single File'
+    url: https://nodeweekly.com/link/111395/web
+    type: News
+  - title: 'Mineflayer: A High Level API for Creating Minecraft Bots'
+    url: https://nodeweekly.com/link/111396/web
+    type: News
+  - title: 'IMAP API: Self Hosted Node App to Access IMAP Accounts via a REST API'
+    url: https://nodeweekly.com/link/111397/web
+    type: News
+  - title: 'Nativefier: Make Any Web Page a Desktop Application'
+    url: https://nodeweekly.com/link/111398/web
+    type: News
+  - title: The Definitive Guide to Feature Management
+    url: https://nodeweekly.com/link/111399/web
+    type: News
+  - title: 'Convict 6.2: A ''Featureful'' Configuration Management Library'
+    url: https://nodeweekly.com/link/111400/web
+    type: News
