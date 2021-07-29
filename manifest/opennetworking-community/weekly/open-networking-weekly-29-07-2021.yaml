@@ -1,0 +1,26 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-29-07-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 29-07-2021
+  date: 07/29/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Enabling a New Era of Industrial IoT with Free-Use Wireless Spectrum
+    url: https://iiot-world.com/industrial-iot/connected-industry/enabling-a-new-era-of-industrial-iot-with-free-use-wireless-spectrum/
+    type: Open Networking News
+  - title: 'Project Pronto: Celebrating Our One-Year Anniversary'
+    url: https://opennetworking.org/news-and-events/blog/project-pronto-celebrating-our-one-year-anniversary/
+    type: Open Networking Blog
+  - title: 'Aether: Test Automation Infrastructure'
+    url: https://opennetworking.org/news-and-events/blog/aether-test-automation-infrastructure/
+    type: Open Networking Blog
+  - title: ACM SIGCOMM 2021
+    url: https://opennetworking.org/events/acm-sigcomm-2021/
+    type: Open Networking Event
