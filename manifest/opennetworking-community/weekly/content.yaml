@@ -343,3 +343,19 @@ content:
   url: https://opennetworking.org/events/ocp-global-summit-2/
   kind: Open Networking Event
   isDelivered: true
+- title: Enabling a New Era of Industrial IoT with Free-Use Wireless Spectrum
+  url: https://iiot-world.com/industrial-iot/connected-industry/enabling-a-new-era-of-industrial-iot-with-free-use-wireless-spectrum/
+  kind: Open Networking News
+  isDelivered: false
+- title: 'Project Pronto: Celebrating Our One-Year Anniversary'
+  url: https://opennetworking.org/news-and-events/blog/project-pronto-celebrating-our-one-year-anniversary/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: 'Aether: Test Automation Infrastructure'
+  url: https://opennetworking.org/news-and-events/blog/aether-test-automation-infrastructure/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: ACM SIGCOMM 2021
+  url: https://opennetworking.org/events/acm-sigcomm-2021/
+  kind: Open Networking Event
+  isDelivered: false
