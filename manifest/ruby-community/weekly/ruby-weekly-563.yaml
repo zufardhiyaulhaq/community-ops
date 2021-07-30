@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-563
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 563
+  date: 07/30/2021
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'Rails Mini Profiler: Performance Profiling for Rails, Made Simple'
+    url: https://rubyweekly.com/link/111694/web
+    type: News
+  - title: Building an HTTP Server in Ruby 3 with Fibers and Ractors
+    url: https://rubyweekly.com/link/111696/web
+    type: News
+  - title: Learn, Grow and Empower Your Engineering Team
+    url: https://rubyweekly.com/link/111698/web
+    type: News
+  - title: RubyMine 2021.2 Released
+    url: https://rubyweekly.com/link/111699/web
+    type: News
+  - title: Making Rails Run Just a Few Tests Faster
+    url: https://rubyweekly.com/link/111700/web
+    type: News
+  - title: All You Need to Know About Netcat (nc)
+    url: https://rubyweekly.com/link/111708/web
+    type: News
+  - title: Webpack All the Assets?
+    url: https://rubyweekly.com/link/111709/web
+    type: News
+  - title: A Quick Way to Run a Ruby Script in Kubernetes
+    url: https://rubyweekly.com/link/111710/web
+    type: News
+  - title: 'Ruby Ractor Experiments: Safe Async Communication'
+    url: https://rubyweekly.com/link/111711/web
+    type: News
+  - title: 'Crunchy Bridge: Fully Managed Multi-Cloud Postgres'
+    url: https://rubyweekly.com/link/111733/web
+    type: News
+  - title: How to Ignore 'Bullet' in RSpec Tests
+    url: https://rubyweekly.com/link/111713/web
+    type: News
+  - title: Getting Partial AWS Account IDs for any Cloudfront Website with Ruby
+    url: https://rubyweekly.com/link/111715/web
+    type: News
+  - title: Rails 7 Adds Change Tracking Methods for belongs_to Associations
+    url: https://rubyweekly.com/link/111716/web
+    type: News
+  - title: Discussing Observability with Charity Majors
+    url: https://rubyweekly.com/link/111717/web
+    type: News
+  - title: 'GoodJob: Multithreaded, Postgres-Based, ActiveJob Backend for Rails'
+    url: https://rubyweekly.com/link/111718/web
+    type: News
+  - title: 'Ruby 2D: A Simple Cross Platform 2D App Library'
+    url: https://rubyweekly.com/link/111720/web
+    type: News
+  - title: 'JetBrains RubyMine: A Cross-Platform Ruby & Rails IDE'
+    url: https://rubyweekly.com/link/111734/web
+    type: News
+  - title: 'Potassium: A Suspenders-Inspired Rails Application Generator'
+    url: https://rubyweekly.com/link/111723/web
+    type: News
+  - title: 'RailsAdmin 2.2: An Engine That Provides a Backend Admin Interface'
+    url: https://rubyweekly.com/link/111724/web
+    type: News
+  - title: 'redis-rb 4.4: The Ruby Client Library for Redis'
+    url: https://rubyweekly.com/link/111726/web
+    type: News
