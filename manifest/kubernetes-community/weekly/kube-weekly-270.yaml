@@ -1,0 +1,70 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kube-weekly-270
+  namespace: kubernetes-community
+spec:
+  name: Kube Weekly 270
+  date: 07/31/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Building the Telegraf Kubernetes Operator
+    url: https://community.cncf.io/e/mr8gk5/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9owfYcxFNABto-bLlSnabw_bXhZ27G_eU8rl5waxOBKYy3-stfaTiry8Zqwcrp_5uUBekE
+    type: ICYMI
+  - title: Online Programs playlist
+    url: https://email.linuxfoundation.org/e2t/tc/VXdnZL4WXMGTW1z82tH1FdB6pW8JC1R54tf6NmN6crjpr3lGnpV1-WJV7CgHz2M3nvwMSQCSkW7BK_Xr3-l7FrW4VD97t5zs1gfW94KgBD3153ZxW6X6lnd7WclH6W7XLVcB8XPwpKW1c-4MG1zfkMvW6Y7_b813S8QcVwKdl_5vjw12N8gN3lNhghkyN8g7T0ZhQRrZW9j2nLF9hH3PXN9fKJJLx81ZkW9hyd1S57GTV4W7Jvh963DlprGVsQFCx6CPdPzF54-lxb-jMDW6chN3L8bDtj5W3PsT2W6T6TZtW665H7L85czqBW2ZrvC15gwJJ6N8n44sZFsNs3W71x-ny7yCNQmW1kMgys9htHz-W4YcdtN5BsdzWW8wnT5F7kk9nr37SX1?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9owfYcxFNABto-bLlSnabw_bXhZ27G_eU8rl5waxOBKYy3-stfaTiry8Zqwcrp_5uUBekE
+    type: ICYMI
+  - title: Opstrace, with Sebastien Pahl
+    url: https://kubernetespodcast.com/episode/156-opstrace/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9owfYcxFNABto-bLlSnabw_bXhZ27G_eU8rl5waxOBKYy3-stfaTiry8Zqwcrp_5uUBekE
+    type: Editorial
+  - title: Craig Box, Kubernetes Podcast from Google
+    url: https://blog.alexellis.io/the-internet-is-my-computer/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9owfYcxFNABto-bLlSnabw_bXhZ27G_eU8rl5waxOBKYy3-stfaTiry8Zqwcrp_5uUBekE
+    type: Editorial
+  - title: Cosign 1.0 is now GA
+    url: https://blog.sigstore.dev/cosign-1-0-e82f006f7bc4?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9owfYcxFNABto-bLlSnabw_bXhZ27G_eU8rl5waxOBKYy3-stfaTiry8Zqwcrp_5uUBekE
+    type: Editorial
+  - title: Dan Lorenc, Sigstore
+    url: https://blog.alexellis.io/the-internet-is-my-computer/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9owfYcxFNABto-bLlSnabw_bXhZ27G_eU8rl5waxOBKYy3-stfaTiry8Zqwcrp_5uUBekE
+    type: Editorial
+  - title: 'GKE best practices: Create a cost-optimized cluster in just a few clicks'
+    url: http://cloud.google.com/blog/products/containers-kubernetes/gke-setup-guide-automates-creation-of-cost-optimized-cluster?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9owfYcxFNABto-bLlSnabw_bXhZ27G_eU8rl5waxOBKYy3-stfaTiry8Zqwcrp_5uUBekE
+    type: Editorial
+  - title: Roman Arcea. Google Cloud
+    url: https://blog.alexellis.io/the-internet-is-my-computer/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9owfYcxFNABto-bLlSnabw_bXhZ27G_eU8rl5waxOBKYy3-stfaTiry8Zqwcrp_5uUBekE
+    type: Editorial
+  - title: How Riskfuel is using Inlets to build machine learning models at scale
+    url: https://inlets.dev/blog/2021/07/22/riskfuel.html?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9owfYcxFNABto-bLlSnabw_bXhZ27G_eU8rl5waxOBKYy3-stfaTiry8Zqwcrp_5uUBekE
+    type: Editorial
+  - title: Addison van den Hoeven, Riskfuel
+    url: https://blog.alexellis.io/the-internet-is-my-computer/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9owfYcxFNABto-bLlSnabw_bXhZ27G_eU8rl5waxOBKYy3-stfaTiry8Zqwcrp_5uUBekE
+    type: Editorial
+  - title: Announcing Vitess 11
+    url: https://www.cncf.io/blog/2021/07/29/announcing-vitess-11/?utm_content=174404268&utm_medium=social&utm_source=twitter&hss_channel=tw-3286770860&_hsenc=p2ANqtz-9owfYcxFNABto-bLlSnabw_bXhZ27G_eU8rl5waxOBKYy3-stfaTiry8Zqwcrp_5uUBekE
+    type: Editorial
+  - title: Alkin Tezuysal, Vitess maintainer
+    url: https://blog.alexellis.io/the-internet-is-my-computer/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9owfYcxFNABto-bLlSnabw_bXhZ27G_eU8rl5waxOBKYy3-stfaTiry8Zqwcrp_5uUBekE
+    type: Editorial
+  - title: https://www.surveymonkey.co.uk/r/Y3Q89RD 
+    url: https://www.surveymonkey.co.uk/r/Y3Q89RD?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9owfYcxFNABto-bLlSnabw_bXhZ27G_eU8rl5waxOBKYy3-stfaTiry8Zqwcrp_5uUBekE
+    type: Editorial
+  - title: 6 Ways to leverage Insomnia as a gRPC client
+    url: https://konghq.com/blog/insomnia-grpc/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9owfYcxFNABto-bLlSnabw_bXhZ27G_eU8rl5waxOBKYy3-stfaTiry8Zqwcrp_5uUBekE
+    type: Technical
+  - title: My Prometheus is overwhelmed! Help!
+    url: https://hackernoon.com/my-prometheus-is-overwhelmed-help-qi1937xj?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9owfYcxFNABto-bLlSnabw_bXhZ27G_eU8rl5waxOBKYy3-stfaTiry8Zqwcrp_5uUBekE
+    type: Technical
+  - title: Verify container image signatures in Kubernetes using Notary or Cosign
+      or both
+    url: https://medium.com/sse-blog/verify-container-image-signatures-in-kubernetes-using-notary-or-cosign-or-both-c25d9e79ec45?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9owfYcxFNABto-bLlSnabw_bXhZ27G_eU8rl5waxOBKYy3-stfaTiry8Zqwcrp_5uUBekE
+    type: Technical
+  - title: Debugging apps in Kubernetes with Bridge
+    url: https://www.thorsten-hans.com/debugging-apps-in-kubernetes-with-bridge/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9owfYcxFNABto-bLlSnabw_bXhZ27G_eU8rl5waxOBKYy3-stfaTiry8Zqwcrp_5uUBekE
+    type: Technical
+  - title: Announcing Deckhouse, the Kubernetes platform from Flant is now generally
+      available
+    url: https://blog.flant.com/deckhouse-kubernetes-platform/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9owfYcxFNABto-bLlSnabw_bXhZ27G_eU8rl5waxOBKYy3-stfaTiry8Zqwcrp_5uUBekE
+    type: Technical
