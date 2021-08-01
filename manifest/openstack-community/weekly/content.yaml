@@ -750,8 +750,8 @@ content:
 - title: Kubernetes and OpenStack Working Together | OpenInfra Live Recap
   url: https://superuser.openstack.org/articles/kubernetes-and-openstack-working-together-openinfra-live-recap/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: Incarta | An OpenStack Case Study
   url: https://superuser.openstack.org/articles/incarta-an-openstack-case-study/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
