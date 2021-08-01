@@ -1,0 +1,20 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-01-08-2021
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 01-08-2021
+  date: 08/01/2021
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: Kubernetes and OpenStack Working Together | OpenInfra Live Recap
+    url: https://superuser.openstack.org/articles/kubernetes-and-openstack-working-together-openinfra-live-recap/
+    type: OpenStack Super User News
+  - title: Incarta | An OpenStack Case Study
+    url: https://superuser.openstack.org/articles/incarta-an-openstack-case-study/
+    type: OpenStack Super User News
