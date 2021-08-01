@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-373
+  namespace: golang-community
+spec:
+  name: Golang Weekly 373
+  date: 08/01/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: GitHub Bringing Supply Chain Security Features to the Go Community
+    url: https://golangweekly.com/link/111796/web
+    type: News
+  - title: GoLand 2021.2 Released
+    url: https://golangweekly.com/link/111797/web
+    type: News
+  - title: Understanding and Preventing Common Security Vulnerabilities
+    url: https://golangweekly.com/link/111798/web
+    type: News
+  - title: How to Build a Go CRUD HTTP API with Ent
+    url: https://golangweekly.com/link/111799/web
+    type: News
+  - title: 'Let''s Do Some Data Science in Go: How Much To Tip?'
+    url: https://golangweekly.com/link/111801/web
+    type: News
+  - title: The Ultimate Go Notebook
+    url: https://golangweekly.com/link/111802/web
+    type: News
+  - title: How to Make Mistakes in Go
+    url: https://golangweekly.com/link/111804/web
+    type: News
+  - title: '''Packet Editing'' Games in Go'
+    url: https://golangweekly.com/link/111806/web
+    type: News
+  - title: 'carbon: A Simple, Semantic and Developer-Friendly Go Package for Datetime'
+    url: https://golangweekly.com/link/111809/web
+    type: News
+  - title: 'Gorse: An Open Source Recommender System'
+    url: https://golangweekly.com/link/111810/web
+    type: News
+  - title: 'Harmonica: A Simple Spring Animation Library'
+    url: https://golangweekly.com/link/111811/web
+    type: News
+  - title: 'goqu: An Expressive SQL Builder and Querying Library'
+    url: https://golangweekly.com/link/111813/web
+    type: News
+  - title: An Operations-Free Document Database with ACID Transactions
+    url: https://golangweekly.com/link/111814/web
+    type: News
+  - title: 'Health: A Simple and Flexible Health Check Library'
+    url: https://golangweekly.com/link/111815/web
+    type: News
+  - title: 'Micro: A Go-Powered Terminal-Based Text Editor'
+    url: https://golangweekly.com/link/111816/web
+    type: News
+  - title: 'aws-lambda-go: Libraries, Samples, and Tools for Go and AWS Lambda'
+    url: https://golangweekly.com/link/111817/web
+    type: News
+  - title: 'Concourse: A Container-Based Continuous ''Thing-Doer'''
+    url: https://golangweekly.com/link/111818/web
+    type: News
