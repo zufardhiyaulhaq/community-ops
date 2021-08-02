@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-399
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 399
+  date: 08/02/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Running CPU-Bound Tasks in Node with Worker Threads
+    url: https://nodeweekly.com/link/111736/web
+    type: News
+  - title: 'ws 8.0: Fast, Stable WebSocket Client and Server for Node'
+    url: https://nodeweekly.com/link/111738/web
+    type: News
+  - title: Upload, Manipulate & Optimize Images in Node.js with Ease
+    url: https://nodeweekly.com/link/111739/web
+    type: News
+  - title: Using Google Drive as a CMS
+    url: https://nodeweekly.com/link/111740/web
+    type: News
+  - title: Simple Monorepos via npm Workspaces and TypeScript Project References
+    url: https://nodeweekly.com/link/111741/web
+    type: News
+  - title: 'Microsoft Beachball: The ''Sunniest'' Semantic Version Bumper?'
+    url: https://nodeweekly.com/link/111742/web
+    type: News
+  - title: All You Need to Know About Netcat (nc)
+    url: https://nodeweekly.com/link/111745/web
+    type: News
+  - title: The Definitive Guide to Feature Management
+    url: https://nodeweekly.com/link/111746/web
+    type: News
+  - title: How to Migrate Your App from Express to Fastify
+    url: https://nodeweekly.com/link/111747/web
+    type: News
+  - title: 'xmlbuilder2 3.0: An XML Builder Library'
+    url: https://nodeweekly.com/link/111749/web
+    type: News
+  - title: 'Globby 12.0: User-Friendly Glob Matching'
+    url: https://nodeweekly.com/link/111750/web
+    type: News
+  - title: 'Junk 4.0: Filter Out OS ''Junk'' Files Like .DS_Store and thumbs.db'
+    url: https://nodeweekly.com/link/111751/web
+    type: News
+  - title: 'Insight: A Module to Help You Understand How Your Tool Is Being Used'
+    url: https://nodeweekly.com/link/111752/web
+    type: News
+  - title: Troubleshoot & Optimize Node App Performance with Datadog APM
+    url: https://nodeweekly.com/link/111753/web
+    type: News
+  - title: 'node-stream-zip 1.14.0: For Fast Reading of ZIP Archives'
+    url: https://nodeweekly.com/link/111754/web
+    type: News
+  - title: 'Flan: A Tool to Save, Load and Share Postgres Snapshots'
+    url: https://nodeweekly.com/link/111755/web
+    type: News
+  - title: 'ttf2woff: A TTF to WOFF Font Converter'
+    url: https://nodeweekly.com/link/111756/web
+    type: News
+  - title: 'c8 v7.8.0: Output Coverage Reports using Node''s Built in Coverage'
+    url: https://nodeweekly.com/link/111758/web
+    type: News
