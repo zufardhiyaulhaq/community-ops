@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-549
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 549
+  date: 08/02/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Using console.log() Debugging in Visual Studio Code
+    url: https://javascriptweekly.com/link/111828/web
+    type: News
+  - title: Node v16.6.0 (Current) Released
+    url: https://javascriptweekly.com/link/111829/web
+    type: News
+  - title: Learn the Fundamentals of Redux
+    url: https://javascriptweekly.com/link/111833/web
+    type: News
+  - title: 'Yarn 3.0: What''s New in the Alternative JavaScript Dependency Manager'
+    url: https://javascriptweekly.com/link/111834/web
+    type: News
+  - title: Drum Synthesis in JavaScript
+    url: https://javascriptweekly.com/link/111838/web
+    type: News
+  - title: How Do Chrome Extensions Impact Browser Performance?
+    url: https://javascriptweekly.com/link/111840/web
+    type: News
+  - title: Gatsby Serverless Functions and the International Space Station
+    url: https://javascriptweekly.com/link/111853/web
+    type: News
+  - title: 'JavaScript''s ''Forgotten'' Keyword: with'
+    url: https://javascriptweekly.com/link/111855/web
+    type: News
+  - title: How To Build an E-Commerce Site with Angular 11 & Commerce Layer
+    url: https://javascriptweekly.com/link/111856/web
+    type: News
+  - title: The Definitive Guide to Feature Management
+    url: https://javascriptweekly.com/link/111857/web
+    type: News
+  - title: NFC Comes to the Web
+    url: https://javascriptweekly.com/link/111858/web
+    type: News
+  - title: On WebView2 and Electron
+    url: https://javascriptweekly.com/link/111859/web
+    type: News
+  - title: Global vs. Local Styling in Next.js
+    url: https://javascriptweekly.com/link/111862/web
+    type: News
+  - title: 'Size Limit 5: A Performance Budgeting Tool for JavaScript'
+    url: https://javascriptweekly.com/link/111865/web
+    type: News
+  - title: Quickly See Logs in LogDNA
+    url: https://javascriptweekly.com/link/111866/web
+    type: News
+  - title: 'JSON Blob: Create, Edit, View, Format, and Share JSON Online'
+    url: https://javascriptweekly.com/link/111867/web
+    type: News
+  - title: 'JavaScript Cookie 3.0: A Simple API for Handling Browser Cookies'
+    url: https://javascriptweekly.com/link/111870/web
+    type: News
+  - title: 'React-Tracking 9.0: Declarative Tracking for React Apps'
+    url: https://javascriptweekly.com/link/111872/web
+    type: News
+  - title: 'Svelte Storm: An Interesting Open Source Svelte IDE'
+    url: https://javascriptweekly.com/link/111873/web
+    type: News
+  - title: Tried. Tested. Trusted. Studio 3T - Power Tools for MongoDB
+    url: https://javascriptweekly.com/link/111874/web
+    type: News
+  - title: 'Sift: MongoDB Style Queries for JavaScript Objects'
+    url: https://javascriptweekly.com/link/111875/web
+    type: News
