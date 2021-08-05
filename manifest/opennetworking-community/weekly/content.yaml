@@ -362,4 +362,4 @@ content:
 - title: ONF’s SD-RAN v1.2 – First Release Fully Integrated with Aether
   url: https://opennetworking.org/news-and-events/blog/onfs-sd-ran-v1-2-first-release-fully-integrated-with-aether/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
