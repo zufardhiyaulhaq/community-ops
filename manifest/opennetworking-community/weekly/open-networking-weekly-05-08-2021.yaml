@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-05-08-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 05-08-2021
+  date: 08/05/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: ONF’s SD-RAN v1.2 – First Release Fully Integrated with Aether
+    url: https://opennetworking.org/news-and-events/blog/onfs-sd-ran-v1-2-first-release-fully-integrated-with-aether/
+    type: Open Networking Blog
