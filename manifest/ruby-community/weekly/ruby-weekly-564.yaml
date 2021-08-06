@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-564
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 564
+  date: 08/06/2021
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'Sorbet Compiler: Stripe''s Experimental, Ahead-of-Time Compiler for Ruby'
+    url: https://rubyweekly.com/link/111979/web
+    type: News
+  - title: A Sneak Peek at Ruby's New Debugger
+    url: https://rubyweekly.com/link/111980/web
+    type: News
+  - title: Try Scout’s New Error Monitoring Feature Add-On for Free
+    url: https://rubyweekly.com/link/111981/web
+    type: News
+  - title: The 2022 Fukuoka Ruby Award Competition
+    url: https://rubyweekly.com/link/111982/web
+    type: News
+  - title: Matz's Talk at a Crystal Conference
+    url: https://rubyweekly.com/link/111983/web
+    type: News
+  - title: Ruby Support Added to Compiler Explorer
+    url: https://rubyweekly.com/link/111985/web
+    type: News
+  - title: An Introduction to Pattern Matching in Ruby
+    url: https://rubyweekly.com/link/111990/web
+    type: News
+  - title: Running Rails on the Google Cloud Run Environment
+    url: https://rubyweekly.com/link/111991/web
+    type: News
+  - title: 'Information Foraging: Tricks Great Developers Use to Find Solutions'
+    url: https://rubyweekly.com/link/112013/web
+    type: News
+  - title: Esoteric Ruby in MemoWise
+    url: https://rubyweekly.com/link/111993/web
+    type: News
+  - title: 'Using ActiveRecord''s #update_counters to Prevent Race Conditions'
+    url: https://rubyweekly.com/link/111994/web
+    type: News
+  - title: Deprecating Code in a Rails Application
+    url: https://rubyweekly.com/link/111995/web
+    type: News
+  - title: 'Free eBook: Effective Indexing in Postgres'
+    url: https://rubyweekly.com/link/111997/web
+    type: News
+  - title: Dynamic Select Fields in Rails with Hotwire
+    url: https://rubyweekly.com/link/111996/web
+    type: News
+  - title: Nokogiri 1.12.0 Released with New HTML5 Support
+    url: https://rubyweekly.com/link/112000/web
+    type: News
+  - title: Six Command Line Tools for Productive Programmers
+    url: https://rubyweekly.com/link/112003/web
+    type: News
+  - title: 'MemoWise 1.1: The Modern Choice for Ruby Memoization'
+    url: https://rubyweekly.com/link/112005/web
+    type: News
+  - title: 'Babosa: A Library for Creating Slugs'
+    url: https://rubyweekly.com/link/112006/web
+    type: News
+  - title: 'Puma 5.4 Released: A Rack Web Server Built for Concurrency'
+    url: https://rubyweekly.com/link/112008/web
+    type: News
+  - title: 'SearchFlip 3.5.0: Full-Featured Elasticsearch Client with Chainable DSL'
+    url: https://rubyweekly.com/link/112009/web
+    type: News
