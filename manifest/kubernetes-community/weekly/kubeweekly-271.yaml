@@ -1,0 +1,53 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-271
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 271
+  date: 08/07/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Humanising your cloud native platform
+    url: https://community.cncf.io/e/mg3n65/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_YmllS-Zd1lTcEkmtoDNm37qtAtIKPUr6hxVn_PNUoorxgiXDtKpLvVuDiIUcBcI2lxkUs
+    type: ICYMI
+  - title: Securing your continuous everything strategy
+    url: https://community.cncf.io/e/m6znt4/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_YmllS-Zd1lTcEkmtoDNm37qtAtIKPUr6hxVn_PNUoorxgiXDtKpLvVuDiIUcBcI2lxkUs
+    type: ICYMI
+  - title: Kubernetes clusters need persistent data
+    url: https://community.cncf.io/e/mnyusc/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_YmllS-Zd1lTcEkmtoDNm37qtAtIKPUr6hxVn_PNUoorxgiXDtKpLvVuDiIUcBcI2lxkUs
+    type: ICYMI
+  - title: Online Programs playlist
+    url: https://email.linuxfoundation.org/e2t/tc/VXdnZL4WXMGTW1z82tH1FdB6pW8JC1R54tf6NmN6crjpr3lGnpV1-WJV7CgHz2M3nvwMSQCSkW7BK_Xr3-l7FrW4VD97t5zs1gfW94KgBD3153ZxW6X6lnd7WclH6W7XLVcB8XPwpKW1c-4MG1zfkMvW6Y7_b813S8QcVwKdl_5vjw12N8gN3lNhghkyN8g7T0ZhQRrZW9j2nLF9hH3PXN9fKJJLx81ZkW9hyd1S57GTV4W7Jvh963DlprGVsQFCx6CPdPzF54-lxb-jMDW6chN3L8bDtj5W3PsT2W6T6TZtW665H7L85czqBW2ZrvC15gwJJ6N8n44sZFsNs3W71x-ny7yCNQmW1kMgys9htHz-W4YcdtN5BsdzWW8wnT5F7kk9nr37SX1?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_YmllS-Zd1lTcEkmtoDNm37qtAtIKPUr6hxVn_PNUoorxgiXDtKpLvVuDiIUcBcI2lxkUs
+    type: ICYMI
+  - title: NSA, CISA release Kubernetes hardening guidance
+    url: https://www.nsa.gov/News-Features/Feature-Stories/Article-View/Article/2716980/nsa-cisa-release-kubernetes-hardening-guidance/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_YmllS-Zd1lTcEkmtoDNm37qtAtIKPUr6hxVn_PNUoorxgiXDtKpLvVuDiIUcBcI2lxkUs
+    type: Editorial
+  - title: A guide to Kubernetes chargeback
+    url: https://blog.kubecost.com/blog/kubernetes-chargeback/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_YmllS-Zd1lTcEkmtoDNm37qtAtIKPUr6hxVn_PNUoorxgiXDtKpLvVuDiIUcBcI2lxkUs
+    type: Editorial
+  - title: Keeping KubeCon + CloudNativeCon Los Angeles 2021 safe for onsite attendees
+    url: https://www.cncf.io/blog/2021/08/04/keeping-kubecon-cloudnativecon-los-angeles-2021-safe-for-onsite-attendees/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_YmllS-Zd1lTcEkmtoDNm37qtAtIKPUr6hxVn_PNUoorxgiXDtKpLvVuDiIUcBcI2lxkUs
+    type: Editorial
+  - title: CNCF
+    url: https://blog.alexellis.io/the-internet-is-my-computer/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_YmllS-Zd1lTcEkmtoDNm37qtAtIKPUr6hxVn_PNUoorxgiXDtKpLvVuDiIUcBcI2lxkUs
+    type: Editorial
+  - title: Cloud Native Wasm Day North America hosted by CNCF
+    url: https://events.linuxfoundation.org/cloud-native-wasm-day-north-america/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_YmllS-Zd1lTcEkmtoDNm37qtAtIKPUr6hxVn_PNUoorxgiXDtKpLvVuDiIUcBcI2lxkUs
+    type: Editorial
+  - title: 'Two year update: Building an open source marketplace for Kubernetes'
+    url: https://blog.alexellis.io/kubernetes-marketplace-two-year-update/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_YmllS-Zd1lTcEkmtoDNm37qtAtIKPUr6hxVn_PNUoorxgiXDtKpLvVuDiIUcBcI2lxkUs
+    type: Technical
+  - title: Implementing traffic policies in Kubernetes
+    url: https://www.cncf.io/blog/2021/07/29/implementing-traffic-policies-in-kubernetes/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_YmllS-Zd1lTcEkmtoDNm37qtAtIKPUr6hxVn_PNUoorxgiXDtKpLvVuDiIUcBcI2lxkUs
+    type: Technical
+  - title: July 2021 Flux update
+    url: https://fluxcd.io/blog/2021/07/july-2021-update/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_YmllS-Zd1lTcEkmtoDNm37qtAtIKPUr6hxVn_PNUoorxgiXDtKpLvVuDiIUcBcI2lxkUs
+    type: Technical
+  - title: Encrypt your Kubernetes secrets with Mozilla SOPS
+    url: https://www.thorsten-hans.com/encrypt-your-kubernetes-secrets-with-mozilla-sops/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_YmllS-Zd1lTcEkmtoDNm37qtAtIKPUr6hxVn_PNUoorxgiXDtKpLvVuDiIUcBcI2lxkUs
+    type: Technical
