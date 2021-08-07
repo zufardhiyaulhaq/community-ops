@@ -1,0 +1,21 @@
+--- 
+apiVersion: community.io/v1alpha1
+kind: Announcement
+metadata: 
+  name: kcd-cfp-01
+  namespace: ruby-community
+spec: 
+  title: Call for Proposals Kubernetes Community Days 2021!
+  community: Ruby Indonesia Community
+  message: >-
+    Kubernetes Community Days Indonesia 2021 is an event bringing together the Cloud Native Community to learn, build networks, collaborate, and share about various Cloud Native projects. We invite you to share ideas and the work that you’ve been doing! more information at https://www.kubernetesdays.id. Get free swag if you are accepted!
+
+
+    Kubernetes Community Days Indonesia 2021 mempertemukan komunitas untuk belajar, membangun koneksi, berkolaborasi dan berbagi tentang banyak Cloud Native projects. Kami mengundang Anda untuk menjadi penyaji dan berbagi hal-hal seputar pekerjaan, ide, proyek mandiri yang Anda lakukan. Informasi lebih lanjut kunjungi https://www.kubernetesdays.id dan dapatkan eksklusif swag jika penyajian Anda diterima! Semoga beruntung.
+  image: https://raw.githubusercontent.com/cloudnative-id/kubernetes-community-days/master/artwork/cfp/KCD2021-CFPv1.png
+  tags: 
+    - announcement
+    - KCD2021
+    - cncf
+    - ruby
+    - CFP
