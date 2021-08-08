@@ -1,0 +1,8 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    name: javascript-community
+    istio-injection: disabled
+  name: javascript-community

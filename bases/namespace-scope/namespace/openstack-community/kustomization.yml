@@ -1,8 +1,8 @@
 resources:
-- argocd.yaml
+- openstack-community.yml
 - ../../limit-range
 - ../../serviceaccount
 - ../../sealedsecret/docker-registry
-namespace: argocd
+namespace: openstack-community
 commonLabels:
-  namespace: argocd
+  namespace: openstack-community

@@ -1,8 +1,8 @@
 resources:
-- argocd.yaml
+- default.yml
 - ../../limit-range
 - ../../serviceaccount
 - ../../sealedsecret/docker-registry
-namespace: argocd
+namespace: default
 commonLabels:
-  namespace: argocd
+  namespace: default

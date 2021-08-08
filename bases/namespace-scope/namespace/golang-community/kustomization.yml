@@ -1,8 +1,8 @@
 resources:
-- argocd.yaml
+- golang-community.yml
 - ../../limit-range
 - ../../serviceaccount
 - ../../sealedsecret/docker-registry
-namespace: argocd
+namespace: golang-community
 commonLabels:
-  namespace: argocd
+  namespace: golang-community

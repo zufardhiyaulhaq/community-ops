@@ -1,6 +1,28 @@
 resources:
-  - ../bases/namespace-scope/namespace/argocd/
-  - istio-system
+# namespaces
+- ../bases/namespace-scope/namespace/default/
+- ../bases/namespace-scope/namespace/serverless/
+
+- ../bases/namespace-scope/namespace/argocd/
+- istio-system
+- ../bases/namespace-scope/namespace/metallb-system/
+- ../bases/namespace-scope/namespace/infrastructure/
+
+- ../bases/namespace-scope/namespace/knative-serving/
+- ../bases/namespace-scope/namespace/knative-eventing/
+- ../bases/namespace-scope/namespace/knative-sources/
+
+- ../bases/namespace-scope/namespace/devops-community/
+- ../bases/namespace-scope/namespace/golang-community/
+- ../bases/namespace-scope/namespace/javascript-community/
+- ../bases/namespace-scope/namespace/kubernetes-community/
+- ../bases/namespace-scope/namespace/nodejs-community/
+- ../bases/namespace-scope/namespace/opennetworking-community/
+- ../bases/namespace-scope/namespace/openstack-community/
+- ../bases/namespace-scope/namespace/ruby-community/
+
+# cluster RBAC
+- ../bases/cluster-scope/rbac
 
 patches:
 - path: ../bases/namespace-scope/patches/limit-range/medium.yaml

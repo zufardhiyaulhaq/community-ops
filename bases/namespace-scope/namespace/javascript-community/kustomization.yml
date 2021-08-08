@@ -1,8 +1,8 @@
 resources:
-- argocd.yaml
+- javascript-community.yml
 - ../../limit-range
 - ../../serviceaccount
 - ../../sealedsecret/docker-registry
-namespace: argocd
+namespace: javascript-community
 commonLabels:
-  namespace: argocd
+  namespace: javascript-community

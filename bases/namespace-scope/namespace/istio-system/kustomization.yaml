@@ -1,6 +1,9 @@
 resources:
 - istio-system.yaml
 - ../../limit-range
+- ../../serviceaccount
+- ../../sealedsecret/docker-registry
+- ../../sealedsecret/istio
 namespace: istio-system
 commonLabels:
   namespace: istio-system

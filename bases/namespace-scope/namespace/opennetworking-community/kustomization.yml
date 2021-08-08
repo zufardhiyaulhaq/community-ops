@@ -1,8 +1,8 @@
 resources:
-- argocd.yaml
+- opennetworking-community.yml
 - ../../limit-range
 - ../../serviceaccount
 - ../../sealedsecret/docker-registry
-namespace: argocd
+namespace: opennetworking-community
 commonLabels:
-  namespace: argocd
+  namespace: opennetworking-community

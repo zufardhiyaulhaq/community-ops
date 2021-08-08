@@ -1,8 +1,8 @@
 resources:
-- argocd.yaml
+- metallb-system.yml
 - ../../limit-range
 - ../../serviceaccount
 - ../../sealedsecret/docker-registry
-namespace: argocd
+namespace: metallb-system
 commonLabels:
-  namespace: argocd
+  namespace: metallb-system

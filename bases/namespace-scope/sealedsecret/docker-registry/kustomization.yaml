@@ -1,0 +1,2 @@
+resources:
+- docker-registry.yaml
