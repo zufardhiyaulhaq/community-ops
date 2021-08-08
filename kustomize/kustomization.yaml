@@ -1,3 +1,10 @@
 resources:
   - ../bases/namespace-scope/namespace/argocd/
   - istio-system
+
+patches:
+- path: ../bases/namespace-scope/patches/limit-range/medium.yaml
+  target:
+    namespace: argocd
+    kind: LimitRange
+    labelSelector: "namespace=argocd"
