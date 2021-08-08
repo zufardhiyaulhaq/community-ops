@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-374
+  namespace: golang-community
+spec:
+  name: Golang Weekly 374
+  date: 08/08/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Go 10th Most Loved Language in Stack Overflow Survey
+    url: https://golangweekly.com/link/112161/web
+    type: News
+  - title: How Does Go Calculate len()?
+    url: https://golangweekly.com/link/112163/web
+    type: News
+  - title: Live Streaming for Go Apps
+    url: https://golangweekly.com/link/112164/web
+    type: News
+  - title: Go 1.16.7 and 1.15.15 Released
+    url: https://golangweekly.com/link/112194/web
+    type: News
+  - title: Opening Up the Go Time Opinion Box
+    url: https://golangweekly.com/link/112165/web
+    type: News
+  - title: Build a Highly Available Kubernetes Operator with Go
+    url: https://golangweekly.com/link/112166/web
+    type: News
+  - title: Fixing Common Problems with CORS and JavaScript (on a Go REST API)
+    url: https://golangweekly.com/link/112167/web
+    type: News
+  - title: Getting Started with Libsodium in Python and Go
+    url: https://golangweekly.com/link/112168/web
+    type: News
+  - title: Six Command Line Tools for Productive Programmers
+    url: https://golangweekly.com/link/112177/web
+    type: News
+  - title: Ent 0.9.0 Released with New Upsert API
+    url: https://golangweekly.com/link/112179/web
+    type: News
+  - title: 'gosec: A Go Code Security Checker'
+    url: https://golangweekly.com/link/112181/web
+    type: News
+  - title: Track Requests to Your Golang Apps End-To-End with Datadog APM
+    url: https://golangweekly.com/link/112182/web
+    type: News
+  - title: 'Virgo: A Graph-Based Configuration Language'
+    url: https://golangweekly.com/link/112183/web
+    type: News
+  - title: 'otpgen: Library to Generate TOTP/HOTP Codes'
+    url: https://golangweekly.com/link/112184/web
+    type: News
+  - title: 'termenv: Advanced ANSI Style and Color Support for Terminal Apps'
+    url: https://golangweekly.com/link/112185/web
+    type: News
+  - title: 'cxgo: Another Tool for Transpiling C to Go'
+    url: https://golangweekly.com/link/112186/web
+    type: News
