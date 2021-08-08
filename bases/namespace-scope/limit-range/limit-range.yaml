@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: default
+spec:
+  limits:
+  - default:
+      cpu: 250m
+      ephemeral-storage: 1Gi
+      memory: 512Mi
+    defaultRequest:
+      cpu: 50m
+      ephemeral-storage: 512Mi
+      memory: 64Mi
+    type: Container

@@ -1,0 +1,6 @@
+resources:
+- argocd.yaml
+- ../../limit-range
+namespace: argocd
+commonLabels:
+  namespace: argocd

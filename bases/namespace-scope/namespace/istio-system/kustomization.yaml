@@ -1,0 +1,6 @@
+resources:
+- istio-system.yaml
+- ../../limit-range
+namespace: istio-system
+commonLabels:
+  namespace: istio-system

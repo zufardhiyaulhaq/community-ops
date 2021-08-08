@@ -3,6 +3,7 @@
 from parser.configuration import ConfigurationParser
 from deployer.helm import HelmDeployer
 from deployer.shell import ShellDeployer
+from deployer.kustomize import KustomizeDeployer
 
 DEFAULT_CLUSTER_CONFIG = "config.yaml"
 
@@ -12,6 +13,9 @@ def main():
     configuration.validate()
 
     shell = ShellDeployer()
+    kustomize = KustomizeDeployer(shell)
+    kustomize.deploy()
+
     shell.execute(["kubectl", "apply", "-f", "manual_manifest/", "-R"])
 
     helm = HelmDeployer(configuration.get(), shell)

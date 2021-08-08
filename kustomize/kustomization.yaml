@@ -1,0 +1,3 @@
+resources:
+  - ../bases/namespace-scope/namespace/argocd/
+  - istio-system
