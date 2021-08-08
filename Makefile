@@ -1,3 +1,3 @@
 .PHONY: deploy
 deploy:
-	python3 ./scripts/deploy.py
+	python3 ./scripts/main.py
