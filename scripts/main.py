@@ -12,6 +12,7 @@ def main():
     configuration.validate()
 
     shell = ShellDeployer()
+    shell.execute(["kubectl", "apply", "-f", "manual_manifest/", "-R"])
 
     helm = HelmDeployer(configuration.get(), shell)
     helm.deploy()

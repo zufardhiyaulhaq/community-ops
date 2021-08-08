@@ -14,6 +14,7 @@ jobs:
     steps:
       - name: Check out code
         uses: actions/checkout@v2
+
       - name: Setup python
         uses: actions/setup-python@v2
         with:
@@ -23,6 +24,7 @@ jobs:
         uses: py-actions/py-dependency-install@v2
         with:
           path: "scripts/requirements.txt"
+
       - name: Setup helm
         uses: azure/setup-helm@v1
         with:
@@ -31,15 +33,16 @@ jobs:
         uses: azure/setup-kubectl@v1
         with:
           version: 'v1.19.10'
+      - name: Setup kustomize
+        uses: imranismail/setup-kustomize@v1
+  
       - name: Setup kubeconfig
         run: |
           echo "$KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
         shell: bash
         env:
           KUBERNETES_CONFIG: ${{ secrets.KUBERNETES_CONFIG }}
-      - name: Deploy argocd applications
-        run: |
-          kubectl apply -f argocd/ -R
-      - name: Deploy helm applications
+
+      - name: Deploy applications
         run: |
           make deploy
