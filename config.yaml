@@ -30,6 +30,26 @@ release:
     value: ./releases/infrastructure/cert-manager.yaml
 
   - chart:
+      name: kubernetes-dashboard/kubernetes-dashboard
+      repository:
+        name: kubernetes-dashboard
+        url: https://kubernetes.github.io/dashboard/
+    name: kubernetes-dashboard
+    namespace: infrastructure
+    version: 3.0.2
+    value: ./releases/infrastructure/kubernetes-dashboard.yaml
+
+  - chart:
+      name: zufardhiyaulhaq/ngrok-operator
+      repository:
+        name: zufardhiyaulhaq
+        url: https://charts.zufardhiyaulhaq.com/
+    name: ngrok-operator
+    namespace: infrastructure
+    version: 0.0.2
+    value: ./releases/infrastructure/ngrok-operator.yaml
+
+  - chart:
       name: zufardhiyaulhaq/kubernetesweekly
       repository:
         name: zufardhiyaulhaq
