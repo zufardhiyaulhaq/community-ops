@@ -1,0 +1,38 @@
+---
+admissionController: null
+annotations: {}
+crds:
+  enabled: true
+csi:
+  allowUnsupportedVersion: false
+  enableCephfsDriver: true
+  enableGrpcMetrics: true
+  enableOMAPGenerator: false
+  enableRbdDriver: true
+  forceCephFSKernelClient: true
+currentNamespaceOnly: false
+disableDeviceHotplug: false
+discoverDaemonUdev: null
+enableDiscoveryDaemon: false
+enableFlexDriver: false
+enableOBCWatchOperatorNamespace: true
+enableSelinuxRelabeling: true
+hostpathRequiresPrivileged: false
+image:
+  prefix: rook
+  pullPolicy: IfNotPresent
+  repository: rook/ceph
+  tag: v1.5.8
+logLevel: INFO
+nodeSelector: {}
+pspEnable: true
+rbacEnable: true
+resources:
+  limits:
+    cpu: 500m
+    memory: 256Mi
+  requests:
+    cpu: 50m
+    memory: 128Mi
+tolerations: []
+unreachableNodeTolerationSeconds: 5

@@ -7,7 +7,27 @@ release:
     name: sealed-secrets
     namespace: infrastructure
     version: 1.16.1
-    value: ./releases/sealed-secret.yaml
+    value: ./releases/infrastructure/sealed-secret.yaml
+
+  - chart:
+      name: rook-release/rook-ceph
+      repository:
+        name: rook-release
+        url: https://charts.rook.io/release
+    name: rook-ceph
+    namespace: infrastructure
+    version: 1.5.8
+    value: ./releases/infrastructure/rook-ceph.yaml
+
+  - chart:
+      name: jetstack/cert-manager
+      repository:
+        name: jetstack
+        url: https://charts.jetstack.io
+    name: cert-manager
+    namespace: infrastructure
+    version: 1.3.1
+    value: ./releases/infrastructure/cert-manager.yaml
 
   - chart:
       name: zufardhiyaulhaq/kubernetesweekly
@@ -17,7 +37,7 @@ release:
     name: kubernetesweekly
     namespace: kubernetes-community
     version: 2.0.0
-    value: ./releases/kubernetesweekly.yaml
+    value: ./releases/kubernetes-community/kubernetesweekly.yaml
 
   - chart:
       name: zufardhiyaulhaq/goweekly
@@ -27,7 +47,7 @@ release:
     name: golangweekly
     namespace: golang-community
     version: 1.0.0
-    value: ./releases/golangweekly.yaml
+    value: ./releases/golang-community/golangweekly.yaml
 
   - chart:
       name: zufardhiyaulhaq/javascriptweekly
@@ -37,4 +57,4 @@ release:
     name: javascriptweekly
     namespace: javascript-community
     version: 1.0.0
-    value: ./releases/javascriptweekly.yaml
+    value: ./releases/javascript-community/javascriptweekly.yaml
