@@ -7,11 +7,11 @@ class ShellDeployer():
         self.manifest_dir = manifest_dir
     
     def dryrun(self):
-        command = ["kubectl", "apply", "-f", self.manifest_dir, "-R"]
+        command = ["kubectl", "apply", "-f", self.manifest_dir, "-R", "--dry-run=server"]
         self.execute(command)
 
     def deploy(self):
-        command = ["kubectl", "apply", "-f", self.manifest_dir, "-R", "--dry-run"]
+        command = ["kubectl", "apply", "-f", self.manifest_dir, "-R"]
         self.execute(command)
 
     def execute(self, command):
