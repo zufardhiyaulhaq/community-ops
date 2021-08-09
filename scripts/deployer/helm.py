@@ -5,14 +5,14 @@ class HelmDeployer():
         self.configuration = configuration
         self.shell = shell
 
-    def deploy(self):
+    def deploy(self, dryrun=False):
         for release in self.configuration["release"]:
             self.install_repository(release)
 
         self.update_repository()
 
         for release in self.configuration["release"]:
-            self.deploy_release(release)
+            self.deploy_release(release, dryrun)
 
     def install_repository(self, release):
         name = release["chart"]["repository"]["name"]
@@ -29,7 +29,7 @@ class HelmDeployer():
         self.shell.execute(command)
 
 
-    def deploy_release(self, release):
+    def deploy_release(self, release, dryrun):
         chart_name = release["chart"]["name"]
         chart_version = release["version"]
         release_name = release["name"]
@@ -41,4 +41,10 @@ class HelmDeployer():
                   "--namespace", release_namespace,
                   "--version", chart_version,
                   "--values", release_value]
+        
+        if dryrun:
+            command.extend(["--output", "json", "--dry-run", "--skip-headers", "--skip-log-headers", "|", "jq", "'.info'"])
+            self.shell.execute_shell(' '.join(command))
+            return
+
         self.shell.execute(command)

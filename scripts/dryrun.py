@@ -13,8 +13,10 @@ def main():
     configuration.validate()
 
     shell = ShellDeployer(DEFAULT_CLUSTER_MANIFEST_DIR)
-    shell.dryrun()
+    shell.deploy(dryrun=True)
 
+    helm = HelmDeployer(configuration.get(), shell)
+    helm.deploy(dryrun=True)
 
 if __name__ == '__main__':
     main()
