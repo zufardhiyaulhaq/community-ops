@@ -1,0 +1,59 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-400
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 400
+  date: 08/09/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: NodeJs Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 40+ Node.js Integration Test Best Practices
+    url: https://nodeweekly.com/link/112037/web
+    type: News
+  - title: NestJS Explained in 100 Seconds
+    url: https://nodeweekly.com/link/112038/web
+    type: News
+  - title: Transfer Your JavaScript Skills to The Server-Side
+    url: https://nodeweekly.com/link/112040/web
+    type: News
+  - title: Node v16.6.x (Current) Released
+    url: https://nodeweekly.com/link/112041/web
+    type: News
+  - title: How to Use RabbitMQ and Node with Docker and Docker Compose
+    url: https://nodeweekly.com/link/112048/web
+    type: News
+  - title: 'Microservices Authentication Strategies: Theory to Practice'
+    url: https://nodeweekly.com/link/112049/web
+    type: News
+  - title: Understanding and Preventing Common Security Vulnerabilities
+    url: https://nodeweekly.com/link/112050/web
+    type: News
+  - title: How to Send Emails with Node using SendGrid
+    url: https://nodeweekly.com/link/112051/web
+    type: News
+  - title: 'A VPS Showdown: DigitalOcean vs. Lightsail vs. Linode vs. UpCloud vs. Vultr'
+    url: https://nodeweekly.com/link/112052/web
+    type: News
+  - title: 'Tempura: A Light, Crispy, and Delicious Template Engine'
+    url: https://nodeweekly.com/link/112053/web
+    type: News
+  - title: 'Typegoose 8.0: Define Mongoose Models using TypeScript Classes'
+    url: https://nodeweekly.com/link/112054/web
+    type: News
+  - title: 'Beyond onClick: Handling Events in React'
+    url: https://nodeweekly.com/link/112056/web
+    type: News
+  - title: 'pg-promise: Promise-Based Interface for PostgreSQL'
+    url: https://nodeweekly.com/link/112057/web
+    type: News
+  - title: 'Sift: Use MongoDB Style Queries on JavaScript Objects'
+    url: https://nodeweekly.com/link/112059/web
+    type: News
+  - title: 'AutoMapper 5.0: An Object-Object AutoMapper for TypeScript'
+    url: https://nodeweekly.com/link/112060/web
+    type: News

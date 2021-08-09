@@ -1,0 +1,78 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-550
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 550
+  date: 08/09/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Kid Pix as a JavaScript App
+    url: https://javascriptweekly.com/link/112104/web
+    type: News
+  - title: How To Build Resilient JavaScript UIs
+    url: https://javascriptweekly.com/link/112196/web
+    type: News
+  - title: We're Giving Away Free T-Shirts. Just Download FusionAuth
+    url: https://javascriptweekly.com/link/112097/web
+    type: News
+  - title: Wikimedia Selects Vue.js As Its New Frontend Framework
+    url: https://javascriptweekly.com/link/112107/web
+    type: News
+  - title: How MDN’s Autocomplete Search Works
+    url: https://javascriptweekly.com/link/112113/web
+    type: News
+  - title: How to Use Promise.allSettled()
+    url: https://javascriptweekly.com/link/112208/web
+    type: News
+  - title: Angular Data Grids Don’t Need to Be Hard. Check This One Out
+    url: https://javascriptweekly.com/link/112101/web
+    type: News
+  - title: 40+ Node.js Integration Test Best Practices
+    url: https://javascriptweekly.com/link/112117/web
+    type: News
+  - title: NestJS Explained in 100 Seconds
+    url: https://javascriptweekly.com/link/112119/web
+    type: News
+  - title: Rendering Magical Marbles with Three.js
+    url: https://javascriptweekly.com/link/112123/web
+    type: News
+  - title: 'Optional Chaining: The ?. Operator in TypeScript'
+    url: https://javascriptweekly.com/link/112209/web
+    type: News
+  - title: Auth Without Complexity
+    url: https://javascriptweekly.com/link/112103/web
+    type: News
+  - title: 'Meyda: A JavaScript Audio Feature Extraction Library'
+    url: https://javascriptweekly.com/link/112131/web
+    type: News
+  - title: 'txiki.js: A Small and Powerful JavaScript Runtime'
+    url: https://javascriptweekly.com/link/112133/web
+    type: News
+  - title: 'XRegExp 5.1: Extended JavaScript Regular Expressions'
+    url: https://javascriptweekly.com/link/112135/web
+    type: News
+  - title: 'Tesseract.js 2.1.5: Pure JavaScript OCR for 100+ Languages'
+    url: https://javascriptweekly.com/link/112139/web
+    type: News
+  - title: React Hot Toast 2.0
+    url: https://javascriptweekly.com/link/112143/web
+    type: News
+  - title: Why You Need Error Grouping - How to Minimize Noise, Pinpoint the Right
+      Errors, and Debug Better
+    url: https://javascriptweekly.com/link/112102/web
+    type: News
+  - title: 'React Joyride: Create Guided Tours in Your Apps'
+    url: https://javascriptweekly.com/link/112147/web
+    type: News
+  - title: 'AutoMapper 5.0: An Object-Object AutoMapper for TypeScript'
+    url: https://javascriptweekly.com/link/112150/web
+    type: News
+  - title: 'ts-audio 0.6.0: Work with AudioContext More Easily'
+    url: https://javascriptweekly.com/link/112212/web
+    type: News
