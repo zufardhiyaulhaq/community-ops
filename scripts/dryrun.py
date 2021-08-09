@@ -13,13 +13,7 @@ def main():
     configuration.validate()
 
     shell = ShellDeployer(DEFAULT_CLUSTER_MANIFEST_DIR)
-    kustomize = KustomizeDeployer(shell)
-    kustomize.deploy()
-
-    shell.deploy()
-
-    helm = HelmDeployer(configuration.get(), shell)
-    helm.deploy()
+    shell.dryrun()
 
 
 if __name__ == '__main__':

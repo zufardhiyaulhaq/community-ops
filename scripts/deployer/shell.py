@@ -3,8 +3,16 @@ import subprocess
 
 
 class ShellDeployer():
-    def __init__(self):
-        pass
+    def __init__(self, manifest_dir):
+        self.manifest_dir = manifest_dir
+    
+    def dryrun(self):
+        command = ["kubectl", "apply", "-f", self.manifest_dir, "-R"]
+        self.execute(command)
+
+    def deploy(self):
+        command = ["kubectl", "apply", "-f", self.manifest_dir, "-R", "--dry-run"]
+        self.execute(command)
 
     def execute(self, command):
         try:
