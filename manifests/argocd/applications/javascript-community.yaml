@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: weekly-openstack-community
+  name: weekly-javascript-community
   namespace: argocd
 spec:
   project: default
@@ -11,15 +11,15 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/openstack-community/weekly
+    path: argocd/javascript-community/weekly
   destination:
     server: https://kubernetes.default.svc
-    namespace: openstack-community
+    namespace: javascript-community
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: announcement-openstack-community
+  name: announcement-javascript-community
   namespace: argocd
 spec:
   project: default
@@ -28,15 +28,15 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/openstack-community/announcement
+    path: argocd/javascript-community/announcement
   destination:
     server: https://kubernetes.default.svc
-    namespace: openstack-community
+    namespace: javascript-community
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: sealedsecret-openstack-community
+  name: sealedsecret-javascript-community
   namespace: argocd
 spec:
   project: default
@@ -45,7 +45,7 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/openstack-community/sealedsecret
+    path: argocd/javascript-community/sealedsecret
   destination:
     server: https://kubernetes.default.svc
-    namespace: openstack-community
+    namespace: javascript-community

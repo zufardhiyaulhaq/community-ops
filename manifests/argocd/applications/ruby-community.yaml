@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: weekly-kubernetes-community
+  name: weekly-ruby-community
   namespace: argocd
 spec:
   project: default
@@ -11,15 +11,15 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/kubernetes-community/weekly
+    path: argocd/ruby-community/weekly
   destination:
     server: https://kubernetes.default.svc
-    namespace: kubernetes-community
+    namespace: ruby-community
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: announcement-kubernetes-community
+  name: announcement-ruby-community
   namespace: argocd
 spec:
   project: default
@@ -28,15 +28,15 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/kubernetes-community/announcement
+    path: argocd/ruby-community/announcement
   destination:
     server: https://kubernetes.default.svc
-    namespace: kubernetes-community
+    namespace: ruby-community
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: sealedsecret-kubernetes-community
+  name: sealedsecret-ruby-community
   namespace: argocd
 spec:
   project: default
@@ -45,24 +45,7 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/kubernetes-community/sealedsecret
+    path: argocd/ruby-community/sealedsecret
   destination:
     server: https://kubernetes.default.svc
-    namespace: kubernetes-community
----
-apiVersion: argoproj.io/v1alpha1
-kind: Application
-metadata:
-  name: meetup-kubernetes-community
-  namespace: argocd
-spec:
-  project: default
-  syncPolicy:
-    automated: {}
-  source:
-    repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
-    targetRevision: HEAD
-    path: manifest/kubernetes-community/meetup
-  destination:
-    server: https://kubernetes.default.svc
-    namespace: kubernetes-community
+    namespace: ruby-community

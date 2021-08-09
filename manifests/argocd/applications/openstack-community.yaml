@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: weekly-opennetworking-community
+  name: weekly-openstack-community
   namespace: argocd
 spec:
   project: default
@@ -11,15 +11,15 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/opennetworking-community/weekly
+    path: argocd/openstack-community/weekly
   destination:
     server: https://kubernetes.default.svc
-    namespace: opennetworking-community
+    namespace: openstack-community
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: announcement-opennetworking-community
+  name: announcement-openstack-community
   namespace: argocd
 spec:
   project: default
@@ -28,15 +28,15 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/opennetworking-community/announcement
+    path: argocd/openstack-community/announcement
   destination:
     server: https://kubernetes.default.svc
-    namespace: opennetworking-community
+    namespace: openstack-community
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: sealedsecret-opennetworking-community
+  name: sealedsecret-openstack-community
   namespace: argocd
 spec:
   project: default
@@ -45,7 +45,7 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/opennetworking-community/sealedsecret
+    path: argocd/openstack-community/sealedsecret
   destination:
     server: https://kubernetes.default.svc
-    namespace: opennetworking-community
+    namespace: openstack-community

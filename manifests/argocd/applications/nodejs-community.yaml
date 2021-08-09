@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: weekly-devops-community
+  name: weekly-nodejs-community
   namespace: argocd
 spec:
   project: default
@@ -11,15 +11,15 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/devops-community/weekly
+    path: argocd/nodejs-community/weekly
   destination:
     server: https://kubernetes.default.svc
-    namespace: devops-community
+    namespace: nodejs-community
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: announcement-devops-community
+  name: announcement-nodejs-community
   namespace: argocd
 spec:
   project: default
@@ -28,15 +28,15 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/devops-community/announcement
+    path: argocd/nodejs-community/announcement
   destination:
     server: https://kubernetes.default.svc
-    namespace: devops-community
+    namespace: nodejs-community
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: sealedsecret-devops-community
+  name: sealedsecret-nodejs-community
   namespace: argocd
 spec:
   project: default
@@ -45,7 +45,7 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/devops-community/sealedsecret
+    path: argocd/nodejs-community/sealedsecret
   destination:
     server: https://kubernetes.default.svc
-    namespace: devops-community
+    namespace: nodejs-community

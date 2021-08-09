@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: weekly-golang-community
+  name: weekly-kubernetes-community
   namespace: argocd
 spec:
   project: default
@@ -11,15 +11,15 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/golang-community/weekly
+    path: argocd/kubernetes-community/weekly
   destination:
     server: https://kubernetes.default.svc
-    namespace: golang-community
+    namespace: kubernetes-community
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: announcement-golang-community
+  name: announcement-kubernetes-community
   namespace: argocd
 spec:
   project: default
@@ -28,15 +28,15 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/golang-community/announcement
+    path: argocd/kubernetes-community/announcement
   destination:
     server: https://kubernetes.default.svc
-    namespace: golang-community
+    namespace: kubernetes-community
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: sealedsecret-golang-community
+  name: sealedsecret-kubernetes-community
   namespace: argocd
 spec:
   project: default
@@ -45,7 +45,24 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/golang-community/sealedsecret
+    path: argocd/kubernetes-community/sealedsecret
   destination:
     server: https://kubernetes.default.svc
-    namespace: golang-community
+    namespace: kubernetes-community
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: meetup-kubernetes-community
+  namespace: argocd
+spec:
+  project: default
+  syncPolicy:
+    automated: {}
+  source:
+    repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
+    targetRevision: HEAD
+    path: argocd/kubernetes-community/meetup
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: kubernetes-community

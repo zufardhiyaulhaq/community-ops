@@ -16,7 +16,7 @@ def main():
     kustomize = KustomizeDeployer(shell)
     kustomize.deploy()
 
-    shell.execute(["kubectl", "apply", "-f", "manual_manifest/", "-R"])
+    shell.execute(["kubectl", "apply", "-f", "manifests/", "-R"])
 
     helm = HelmDeployer(configuration.get(), shell)
     helm.deploy()

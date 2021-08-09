@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: weekly-ruby-community
+  name: weekly-golang-community
   namespace: argocd
 spec:
   project: default
@@ -11,15 +11,15 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/ruby-community/weekly
+    path: argocd/golang-community/weekly
   destination:
     server: https://kubernetes.default.svc
-    namespace: ruby-community
+    namespace: golang-community
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: announcement-ruby-community
+  name: announcement-golang-community
   namespace: argocd
 spec:
   project: default
@@ -28,15 +28,15 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/ruby-community/announcement
+    path: argocd/golang-community/announcement
   destination:
     server: https://kubernetes.default.svc
-    namespace: ruby-community
+    namespace: golang-community
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: sealedsecret-ruby-community
+  name: sealedsecret-golang-community
   namespace: argocd
 spec:
   project: default
@@ -45,7 +45,7 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/ruby-community/sealedsecret
+    path: argocd/golang-community/sealedsecret
   destination:
     server: https://kubernetes.default.svc
-    namespace: ruby-community
+    namespace: golang-community

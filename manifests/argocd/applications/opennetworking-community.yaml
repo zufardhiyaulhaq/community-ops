@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: weekly-nodejs-community
+  name: weekly-opennetworking-community
   namespace: argocd
 spec:
   project: default
@@ -11,15 +11,15 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/nodejs-community/weekly
+    path: argocd/opennetworking-community/weekly
   destination:
     server: https://kubernetes.default.svc
-    namespace: nodejs-community
+    namespace: opennetworking-community
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: announcement-nodejs-community
+  name: announcement-opennetworking-community
   namespace: argocd
 spec:
   project: default
@@ -28,15 +28,15 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/nodejs-community/announcement
+    path: argocd/opennetworking-community/announcement
   destination:
     server: https://kubernetes.default.svc
-    namespace: nodejs-community
+    namespace: opennetworking-community
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: sealedsecret-nodejs-community
+  name: sealedsecret-opennetworking-community
   namespace: argocd
 spec:
   project: default
@@ -45,7 +45,7 @@ spec:
   source:
     repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
     targetRevision: HEAD
-    path: manifest/nodejs-community/sealedsecret
+    path: argocd/opennetworking-community/sealedsecret
   destination:
     server: https://kubernetes.default.svc
-    namespace: nodejs-community
+    namespace: opennetworking-community
