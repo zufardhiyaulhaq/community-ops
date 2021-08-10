@@ -47,6 +47,10 @@ jobs:
         env:
           KUBERNETES_CONFIG: ${{ secrets.KUBERNETES_CONFIG }}
 
+      - name: Diff applications
+        run: |
+          make diff
+          
       - name: Deploy applications
         run: |
           make deploy
