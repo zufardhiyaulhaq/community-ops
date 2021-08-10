@@ -1,0 +1,270 @@
+apiVersion: install.istio.io/v1alpha3
+kind: IstioOperator
+spec:
+  hub: gcr.io/istio-release
+  components:
+    pilot:
+      enabled: true
+      k8s:
+        resources:
+          limits:
+            cpu: 256m
+            memory: 256Mi
+          requests:
+            cpu: 128m
+            memory: 128Mi
+        podDisruptionBudget:
+          minAvailable: 1
+        replicaCount: 2
+        hpaSpec:
+          maxReplicas: 3
+          minReplicas: 2
+    ingressGateways:
+    - enabled: false
+      name: istio-ingressgateway
+    - enabled: true
+      name: istio-public-gateway
+      label:
+        app: istio-public-gateway
+      k8s:
+        resources:
+          limits:
+            cpu: 256m
+            memory: 256Mi
+          requests:
+            cpu: 128m
+            memory: 128Mi
+        podDisruptionBudget:
+          minAvailable: 1
+        replicaCount: 2
+        hpaSpec:
+          maxReplicas: 3
+          minReplicas: 2
+        overlays:
+          - kind: Deployment
+            name: istio-public-gateway
+            patches:
+              - path: spec.template.spec.containers.[name:istio-proxy].lifecycle
+                value:
+                  preStop:
+                    exec:
+                      command:
+                        - /bin/sh
+                        - -c
+                        - sleep 10
+        service:
+          externalTrafficPolicy: Local
+          loadBalancerIP: 10.200.100.110
+          ports:
+          - port: 15021
+            targetPort: 15021
+            name: status-port
+          - port: 443
+            targetPort: 8443
+            name: https
+          - port: 80
+            targetPort: 8080
+            name: http2
+          - port: 15443
+            targetPort: 15443
+            name: tls
+    - enabled: true
+      name: istio-service-gateway
+      label:
+        app: istio-service-gateway
+      k8s:
+        resources:
+          limits:
+            cpu: 256m
+            memory: 256Mi
+          requests:
+            cpu: 128m
+            memory: 128Mi
+        podDisruptionBudget:
+          minAvailable: 1
+        replicaCount: 2
+        hpaSpec:
+          maxReplicas: 3
+          minReplicas: 2
+        overlays:
+          - kind: Deployment
+            name: istio-service-gateway
+            patches:
+              - path: spec.template.spec.containers.[name:istio-proxy].lifecycle
+                value:
+                  preStop:
+                    exec:
+                      command:
+                        - /bin/sh
+                        - -c
+                        - sleep 10
+        service:
+          type: ClusterIP
+          ports:
+          - port: 15021
+            targetPort: 15021
+            name: status-port
+          - port: 443
+            targetPort: 8443
+            name: https
+          - port: 80
+            targetPort: 8080
+            name: http2
+    - enabled: true
+      name: istio-knative-public-gateway
+      label:
+        app: istio-knative-public-gateway
+      k8s:
+        resources:
+          limits:
+            cpu: 256m
+            memory: 256Mi
+          requests:
+            cpu: 128m
+            memory: 128Mi
+        podDisruptionBudget:
+          minAvailable: 1
+        replicaCount: 2
+        hpaSpec:
+          maxReplicas: 3
+          minReplicas: 2
+        overlays:
+          - kind: Deployment
+            name: istio-knative-public-gateway
+            patches:
+              - path: spec.template.spec.containers.[name:istio-proxy].lifecycle
+                value:
+                  preStop:
+                    exec:
+                      command:
+                        - /bin/sh
+                        - -c
+                        - sleep 10
+        service:
+          externalTrafficPolicy: Local
+          loadBalancerIP: 10.200.100.120
+          ports:
+          - port: 15021
+            targetPort: 15021
+            name: status-port
+          - port: 443
+            targetPort: 8443
+            name: https
+          - port: 80
+            targetPort: 8080
+            name: http2
+          - port: 15443
+            targetPort: 15443
+            name: tls
+    - enabled: true
+      name: istio-knative-service-gateway
+      label:
+        app: istio-knative-service-gateway
+      k8s:
+        resources:
+          limits:
+            cpu: 256m
+            memory: 256Mi
+          requests:
+            cpu: 128m
+            memory: 128Mi
+        podDisruptionBudget:
+          minAvailable: 1
+        replicaCount: 2
+        hpaSpec:
+          maxReplicas: 3
+          minReplicas: 2
+        overlays:
+          - kind: Deployment
+            name: istio-knative-service-gateway
+            patches:
+              - path: spec.template.spec.containers.[name:istio-proxy].lifecycle
+                value:
+                  preStop:
+                    exec:
+                      command:
+                        - /bin/sh
+                        - -c
+                        - sleep 10
+        service:
+          type: ClusterIP
+          ports:
+          - port: 15021
+            targetPort: 15021
+            name: status-port
+          - port: 443
+            targetPort: 8443
+            name: https
+          - port: 80
+            targetPort: 8080
+            name: http2
+    - enabled: true
+      name: istio-eastwestgateway
+      label:
+        istio: eastwestgateway
+        app: istio-eastwestgateway
+        topology.istio.io/network: kubernetes-cluster-01
+      k8s:
+        env:
+          - name: ISTIO_META_ROUTER_MODE
+            value: "sni-dnat"
+          - name: ISTIO_META_REQUESTED_NETWORK_VIEW
+            value: kubernetes-cluster-01
+        resources:
+          limits:
+            cpu: 256m
+            memory: 256Mi
+          requests:
+            cpu: 128m
+            memory: 128Mi
+        podDisruptionBudget:
+          minAvailable: 1
+        replicaCount: 2
+        hpaSpec:
+          maxReplicas: 3
+          minReplicas: 2
+        overlays:
+          - kind: Deployment
+            name: istio-eastwestgateway
+            patches:
+              - path: spec.template.spec.containers.[name:istio-proxy].lifecycle
+                value:
+                  preStop:
+                    exec:
+                      command:
+                        - /bin/sh
+                        - -c
+                        - sleep 10
+        service:
+          loadBalancerIP: 10.200.100.130
+          externalTrafficPolicy: Local
+          ports:
+            - name: status-port
+              port: 15021
+              targetPort: 15021
+            - name: tls
+              port: 15443
+              targetPort: 15443
+            - name: tls-istiod
+              port: 15012
+              targetPort: 15012
+            - name: tls-webhook
+              port: 15017
+              targetPort: 15017
+  addonComponents:
+    istiocoredns:
+      enabled: false
+  meshConfig:
+    accessLogFile: "/dev/stdout"
+    accessLogEncoding: "JSON"
+    defaultConfig:
+      terminationDrainDuration: 10s
+      holdApplicationUntilProxyStarts: true
+      proxyMetadata:
+        ISTIO_META_DNS_CAPTURE: "true"
+  values:
+    global:
+      meshID: kubernetes-cluster
+      multiCluster:
+        clusterName: kubernetes-cluster-01
+      network: kubernetes-cluster-01

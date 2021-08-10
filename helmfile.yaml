@@ -1,0 +1,67 @@
+repositories:
+- name: zufardhiyaulhaq
+  url: https://charts.zufardhiyaulhaq.com/
+- name: bitnami-labs
+  url: https://bitnami-labs.github.io/sealed-secrets
+- name: rook-release
+  url: https://charts.rook.io/release
+- name: jetstack
+  url: https://charts.jetstack.io
+- name: kubernetes-dashboard
+  url: https://kubernetes.github.io/dashboard/
+
+releases:
+- name: ngrok-operator
+  namespace: infrastructure
+  chart: zufardhiyaulhaq/ngrok-operator
+  values:
+  - releases/infrastructure/ngrok-operator.yaml
+
+- name: sealed-secrets
+  namespace: infrastructure
+  version: 1.16.1
+  chart: bitnami-labs/sealed-secrets
+  values:
+  - releases/infrastructure/sealed-secret.yaml
+
+- name: rook-ceph
+  namespace: infrastructure
+  version: 1.5.8
+  chart: rook-release/rook-ceph
+  values:
+  - releases/infrastructure/rook-ceph.yaml
+
+- name: cert-manager
+  namespace: infrastructure
+  version: 1.3.1
+  chart: jetstack/cert-manager
+  values:
+  - releases/infrastructure/cert-manager.yaml
+
+- name: kubernetes-dashboard
+  namespace: infrastructure
+  version: 3.0.2
+  chart: kubernetes-dashboard/kubernetes-dashboard
+  values:
+  - releases/infrastructure/kubernetes-dashboard.yaml
+
+- name: kubernetesweekly
+  namespace: kubernetes-community
+  version: 2.0.0
+  chart: zufardhiyaulhaq/kubernetesweekly
+  values:
+  - releases/kubernetes-community/kubernetesweekly.yaml
+
+- name: golangweekly
+  namespace: golang-community
+  version: 1.0.0
+  chart: zufardhiyaulhaq/goweekly
+  values:
+  - releases/golang-community/golangweekly.yaml
+
+- name: javascriptweekly
+  namespace: javascript-community
+  version: 1.0.0
+  chart: zufardhiyaulhaq/javascriptweekly
+  values:
+  - releases/javascript-community/javascriptweekly.yaml
