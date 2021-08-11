@@ -9,12 +9,11 @@ env:
   KUBECONFIG: /tmp/config
 
 jobs:
-  apply:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
         uses: actions/checkout@v2
-
       - name: Setup python
         uses: actions/setup-python@v2
         with:
@@ -24,7 +23,6 @@ jobs:
         uses: py-actions/py-dependency-install@v2
         with:
           path: "scripts/requirements.txt"
-
       - name: Setup kubectl
         uses: azure/setup-kubectl@v1
         with:
@@ -51,18 +49,12 @@ jobs:
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
           version: '1.9.7'
-    
       - name: Setup kubeconfig
         run: |
           echo "$KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
         shell: bash
         env:
           KUBERNETES_CONFIG: ${{ secrets.KUBERNETES_CONFIG }}
-
-      - name: Diff applications
-        run: |
-          make diff
-          
       - name: Deploy applications
         run: |
           make deploy
