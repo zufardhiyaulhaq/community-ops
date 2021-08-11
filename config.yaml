@@ -1,3 +1,2 @@
 istio:
-  version: 1.9.7
   config: ./istio_mesh/cluster.yaml
