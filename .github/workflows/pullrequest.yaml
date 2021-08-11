@@ -36,7 +36,10 @@ jobs:
         with:
           helmfile-version: "v0.140.0"
           helm-version: "v3.3.1"
+          install-helm: yes
+          install-helm-plugins: yes
           install-kubectl: no
+          additional-helm-plugins: https://github.com/databus23/helm-diff
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
