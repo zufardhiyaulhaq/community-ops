@@ -1,0 +1,20 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-12-08-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 12-08-2021
+  date: 08/12/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: CPQD joins the Open Networking Foundation consortium
+    url: https://tiinside.com.br/05/08/2021/cpqd-ingressa-no-consorcio-open-networking-foundation/
+    type: Open Networking News
+  - title: Community Highlights – July 2021
+    url: https://opennetworking.org/news-and-events/blog/community-highlights-july-2021/
+    type: Open Networking Blog
