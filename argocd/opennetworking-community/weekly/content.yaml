@@ -366,8 +366,8 @@ content:
 - title: CPQD joins the Open Networking Foundation consortium
   url: https://tiinside.com.br/05/08/2021/cpqd-ingressa-no-consorcio-open-networking-foundation/
   kind: Open Networking News
-  isDelivered: false
+  isDelivered: true
 - title: Community Highlights – July 2021
   url: https://opennetworking.org/news-and-events/blog/community-highlights-july-2021/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
