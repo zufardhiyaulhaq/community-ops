@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-565
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 565
+  date: 08/13/2021
+  image: https://img-a.udemycdn.com/course/750x422/1985744_8694_3.jpg
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'Opal 1.2: The Ruby to JavaScript Compiler Goes Ruby 3.0'
+    url: https://rubyweekly.com/link/112334/web
+    type: News
+  - title: 'Ruby''s Hidden Gems: Bullet'
+    url: https://rubyweekly.com/link/112335/web
+    type: News
+  - title: Troubleshoot Ruby App Performance with End‑To‑End Tracing
+    url: https://rubyweekly.com/link/112337/web
+    type: News
+  - title: Discussing Ruby JIT and MJIT
+    url: https://rubyweekly.com/link/112340/web
+    type: News
+  - title: Hotwire Turbo Replacing Rails UJS
+    url: https://rubyweekly.com/link/112342/web
+    type: News
+  - title: 'Kubernetes & Rails: A Definitive Guide'
+    url: https://rubyweekly.com/link/112345/web
+    type: News
+  - title: 'Building a Programming Language in Ruby: Part 2'
+    url: https://rubyweekly.com/link/112346/web
+    type: News
+  - title: A Guide for Preloading Associations in Rails
+    url: https://rubyweekly.com/link/112348/web
+    type: News
+  - title: 'React on Rails: Building a Simple App'
+    url: https://rubyweekly.com/link/112349/web
+    type: News
+  - title: An Object-Oriented Example
+    url: https://rubyweekly.com/link/112350/web
+    type: News
+  - title: Five Turbo Lessons I Learned the Hard Way
+    url: https://rubyweekly.com/link/112351/web
+    type: News
+  - title: Object Modeling and Testing Techniques with Lee McAlilly
+    url: https://rubyweekly.com/link/112352/web
+    type: News
+  - title: Load Testing Rails Apps with JMeter ft. Milap Neupane
+    url: https://rubyweekly.com/link/112353/web
+    type: News
+  - title: 'FastImage: Find the Size or Type of an Image From Its URL, Quickly'
+    url: https://rubyweekly.com/link/112356/web
+    type: News
+  - title: 'Resque 2.1.0: The Redis-Backed Ruby Background Job Library'
+    url: https://rubyweekly.com/link/112357/web
+    type: News
+  - title: Send Logs from Your Ruby and Ruby on Rails Applications to LogDNA
+    url: https://rubyweekly.com/link/112358/web
+    type: News
+  - title: 'Statesman 9.0: A State Machine Library'
+    url: https://rubyweekly.com/link/112359/web
+    type: News
+  - title: 'pusher-fake: A Fake Pusher Server for Development and Testing'
+    url: https://rubyweekly.com/link/112360/web
+    type: News
+  - title: Elasticsearch Integrations for ActiveModel/Record and Rails
+    url: https://rubyweekly.com/link/112362/web
+    type: News
