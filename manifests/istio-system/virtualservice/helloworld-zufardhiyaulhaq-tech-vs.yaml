@@ -11,7 +11,8 @@ spec:
   http:
   - name: "ratelimit-helloworld-default-route"
     match:
-    - uri:
+    - port: 443
+      uri:
         prefix: /ratelimit
     route:
       - destination:
@@ -21,7 +22,8 @@ spec:
         weight: 100
   - name: "helloworld-default-route"
     match:
-    - uri:
+    - port: 443
+      uri:
         prefix: /
     route:
       - destination:
