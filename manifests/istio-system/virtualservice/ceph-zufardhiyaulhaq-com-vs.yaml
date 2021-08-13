@@ -1,0 +1,22 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: ceph-zufardhiyaulhaq-com-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "ceph.zufardhiyaulhaq.com"
+  gateways:
+  - istio-system/ceph-zufardhiyaulhaq-com-gateway
+  http:
+  - name: "rook-ceph-mgr-dashboard-infrastructure-route"
+    match:
+    - uri:
+        prefix: /
+    route:
+      - destination:
+          port:
+            number: 7000
+          host: rook-ceph-mgr-dashboard.infrastructure.svc.cluster.local
+  exportTo:
+    - "."

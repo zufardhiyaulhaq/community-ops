@@ -1,0 +1,34 @@
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: EnvoyFilter
+metadata:
+  name: ratelimit-helloworld-zufardhiyaulhaq-tech-gateway-helloworld-zufardhiyaulhaq-tech-vs-ratelimit-helloworld-infrastructure-route-1.6-ef
+  namespace: istio-system
+spec:
+  workloadSelector:
+    labels:
+      app: istio-public-gateway
+  configPatches:
+  - applyTo: HTTP_ROUTE
+    match:
+      context: GATEWAY
+      routeConfiguration:
+        vhost:
+          name: "helloworld.zufardhiyaulhaq.tech:443"
+          route:
+            name: "ratelimit-helloworld-infrastructure-route"
+            action: ANY
+      proxy:
+        proxyVersion: ^1\.6.*
+    patch:
+      operation: MERGE
+      value:
+        route:
+          rate_limits:
+          - actions:
+            - request_headers:
+                header_name: ":method"
+                descriptor_key: "header-method-rule-helloworld-zufardhiyaulhaq-tech-gateway-helloworld-zufardhiyaulhaq-tech-vs-ratelimit-helloworld-infrastructure-route"
+            - request_headers:
+                header_name: "X-Path-Without-Parameter"
+                descriptor_key: "header-x-path-without-parameter-rule-helloworld-zufardhiyaulhaq-tech-gateway-helloworld-zufardhiyaulhaq-tech-vs-ratelimit-helloworld-infrastructure-route"

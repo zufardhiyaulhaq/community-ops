@@ -1,0 +1,22 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: minio-zufardhiyaulhaq-com-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "minio.zufardhiyaulhaq.com"
+  gateways:
+  - istio-system/minio-zufardhiyaulhaq-com-gateway
+  http:
+  - name: "minio-infrastructure-route"
+    match:
+    - uri:
+        prefix: /
+    route:
+      - destination:
+          port:
+            number: 9000
+          host: minio.infrastructure.svc.cluster.local
+  exportTo:
+    - "."

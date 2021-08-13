@@ -1,0 +1,23 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: helloworld-grpc-zufardhiyaulhaq-tech-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "helloworld-grpc.zufardhiyaulhaq.tech"
+  gateways:
+  - istio-system/helloworld-grpc-zufardhiyaulhaq-tech-gateway
+  http:
+  - name: "helloworld-grpc-infrastructure-route"
+    match:
+    - uri:
+        prefix: /
+    route:
+      - destination:
+          port:
+            number: 3000
+          host: helloworld-grpc.default.svc.cluster.local
+        weight: 100
+  exportTo:
+    - "."
