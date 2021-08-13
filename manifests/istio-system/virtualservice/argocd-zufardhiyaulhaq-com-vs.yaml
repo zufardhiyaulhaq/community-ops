@@ -1,0 +1,22 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: argocd-zufardhiyaulhaq-com-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "argocd.zufardhiyaulhaq.com"
+  gateways:
+  - istio-system/argocd-zufardhiyaulhaq-com-gateway
+  http:
+  - name: "argocd-server-argocd-route"
+    match:
+    - uri:
+        prefix: /
+    route:
+      - destination:
+          port:
+            number: 80
+          host: argocd-server.argocd.svc.cluster.local
+  exportTo:
+    - "."

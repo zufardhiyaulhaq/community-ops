@@ -1,0 +1,22 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: dashboard-zufardhiyaulhaq-com-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "dashboard.zufardhiyaulhaq.com"
+  gateways:
+  - istio-system/dashboard-zufardhiyaulhaq-com-gateway
+  http:
+  - name: "kubernetes-dashboard-infrastructure-route"
+    match:
+    - uri:
+        prefix: /
+    route:
+      - destination:
+          port:
+            number: 80
+          host: kubernetes-dashboard.infrastructure.svc.cluster.local
+  exportTo:
+    - "."

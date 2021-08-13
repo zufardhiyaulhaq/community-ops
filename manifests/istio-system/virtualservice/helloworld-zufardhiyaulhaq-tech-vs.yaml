@@ -1,0 +1,33 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: helloworld-zufardhiyaulhaq-tech-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "helloworld.zufardhiyaulhaq.tech"
+  gateways:
+  - istio-system/helloworld-zufardhiyaulhaq-tech-gateway
+  http:
+  - name: "ratelimit-helloworld-default-route"
+    match:
+    - uri:
+        prefix: /ratelimit
+    route:
+      - destination:
+          port:
+            number: 80
+          host: webserver.default.svc.cluster.local
+        weight: 100
+  - name: "helloworld-default-route"
+    match:
+    - uri:
+        prefix: /
+    route:
+      - destination:
+          port:
+            number: 80
+          host: helloworld.default.svc.cluster.local
+        weight: 100
+  exportTo:
+    - "."

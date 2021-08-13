@@ -1,0 +1,16 @@
+apiVersion: security.istio.io/v1beta1
+kind: AuthorizationPolicy
+metadata:
+  name: helloworld-zufardhiyaulhaq-tech-authz
+  namespace: istio-system
+spec:
+  selector:
+    matchLabels:
+      app: istio-public-gateway
+  action: ALLOW
+  rules:
+  - to:
+    - operation:
+        hosts: 
+        - helloworld.zufardhiyaulhaq.tech*
+

@@ -1,0 +1,52 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: EnvoyFilter
+metadata:
+  name: istio-service-gateway-logging-1.6-ef
+  namespace: istio-system
+spec:
+  workloadSelector:
+    labels:
+      app: istio-service-gateway
+  configPatches:
+    - applyTo: NETWORK_FILTER
+      match:
+        context: GATEWAY
+        listener:
+          filterChain:
+            filter:
+              name: "envoy.http_connection_manager"
+        proxy:
+          proxyVersion: ^1\.6.*
+      patch:
+        operation: MERGE
+        value:
+          config:
+            access_log:
+              - name: envoy.file_access_log
+                typed_config:
+                  "@type": "type.googleapis.com/envoy.config.accesslog.v2.FileAccessLog"
+                  path: /dev/stdout
+                  jsonFormat:
+                    authority: "%REQ(:AUTHORITY)%"
+                    bytes_received: "%BYTES_RECEIVED%"
+                    bytes_sent: "%BYTES_SENT%"
+                    downstream_local_address: "%DOWNSTREAM_LOCAL_ADDRESS%"
+                    downstream_remote_address: "%DOWNSTREAM_REMOTE_ADDRESS%"
+                    duration: "%DURATION%"
+                    istio_policy_status: "%DYNAMIC_METADATA(istio.mixer:status)%"
+                    method: "%REQ(:METHOD)%"
+                    path: "%REQ(X-ENVOY-ORIGINAL-PATH?:PATH)%"
+                    protocol: "%PROTOCOL%"
+                    request_id: "%REQ(X-REQUEST-ID)%"
+                    requested_server_name: "%REQUESTED_SERVER_NAME%"
+                    response_code: "%RESPONSE_CODE%"
+                    response_flags: "%RESPONSE_FLAGS%"
+                    route_name: "%ROUTE_NAME%"
+                    start_time: "%START_TIME%"
+                    upstream_cluster: "%UPSTREAM_CLUSTER%"
+                    upstream_host: "%UPSTREAM_HOST%"
+                    upstream_local_address: "%UPSTREAM_LOCAL_ADDRESS%"
+                    upstream_service_time: "%RESP(X-ENVOY-UPSTREAM-SERVICE-TIME)%"
+                    upstream_transport_failure_reason: "%UPSTREAM_TRANSPORT_FAILURE_REASON%"
+                    user_agent: "%REQ(USER-AGENT)%"
+                    x_forwarded_for: "%REQ(X-FORWARDED-FOR)%"

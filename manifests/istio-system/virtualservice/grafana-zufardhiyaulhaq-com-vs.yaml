@@ -1,0 +1,22 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: grafana-zufardhiyaulhaq-com-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "grafana.zufardhiyaulhaq.com"
+  gateways:
+  - istio-system/grafana-zufardhiyaulhaq-com-gateway
+  http:
+  - name: "prometheus-grafana-infrastructure-route"
+    match:
+    - uri:
+        prefix: /
+    route:
+      - destination:
+          port:
+            number: 80
+          host: prometheus-grafana.infrastructure.svc.cluster.local
+  exportTo:
+    - "."

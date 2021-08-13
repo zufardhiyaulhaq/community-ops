@@ -1,0 +1,22 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: charts-zufardhiyaulhaq-com-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "charts.zufardhiyaulhaq.com"
+  gateways:
+  - istio-system/charts-zufardhiyaulhaq-com-gateway
+  http:
+  - name: "chartmuseum-chartmuseum-infrastructure-route"
+    match:
+    - uri:
+        prefix: /
+    route:
+      - destination:
+          port:
+            number: 8080
+          host: chartmuseum-chartmuseum.infrastructure.svc.cluster.local
+  exportTo:
+    - "."

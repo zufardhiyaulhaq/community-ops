@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: api-minio-zufardhiyaulhaq-com-cert
+  namespace: istio-system
+spec:
+  secretName: api-minio-zufardhiyaulhaq-com-cert
+  issuerRef:
+    name: zufardhiyaulhaq-com-cluster-issuer
+    kind: ClusterIssuer
+  commonName: "api.minio.zufardhiyaulhaq.com"
+  dnsNames:
+  - "api.minio.zufardhiyaulhaq.com"

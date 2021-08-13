@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: charts-zufardhiyaulhaq-com-cert
+  namespace: istio-system
+spec:
+  secretName: charts-zufardhiyaulhaq-com-cert
+  issuerRef:
+    name: zufardhiyaulhaq-com-cluster-issuer
+    kind: ClusterIssuer
+  commonName: "charts.zufardhiyaulhaq.com"
+  dnsNames:
+  - "charts.zufardhiyaulhaq.com"

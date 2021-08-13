@@ -1,0 +1,26 @@
+apiVersion: networking.istio.io/v1beta1
+kind: Gateway
+metadata:
+  name: charts-zufardhiyaulhaq-com-gateway
+  namespace: istio-system
+spec:
+  selector:
+    app: istio-public-gateway
+  servers:
+  - hosts:
+    - "charts.zufardhiyaulhaq.com"
+    port:
+      name: http
+      number: 80
+      protocol: HTTP
+    tls:
+      httpsRedirect: true
+  - hosts:
+    - "charts.zufardhiyaulhaq.com"
+    port:
+      name: https-default
+      number: 443
+      protocol: HTTPS
+    tls:
+      credentialName: charts-zufardhiyaulhaq-com-cert
+      mode: SIMPLE
