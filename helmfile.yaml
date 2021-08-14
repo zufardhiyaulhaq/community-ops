@@ -72,3 +72,10 @@ releases:
   chart: zufardhiyaulhaq/devopsweekly
   values:
   - releases/devops-community/devopsweekly.yaml
+
+- name: nodejsweekly
+  namespace: nodejs-community
+  version: 1.0.0
+  chart: zufardhiyaulhaq/nodejsweekly
+  values:
+  - releases/nodejs-community/nodejsweekly.yaml
