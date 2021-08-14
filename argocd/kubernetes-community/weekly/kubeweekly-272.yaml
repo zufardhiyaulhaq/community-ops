@@ -1,0 +1,57 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-272
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 272
+  date: 08/14/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Emissary and Linkerd - How to integrate your Service Mesh with K8s Ingress
+    url: https://community.cncf.io/e/mn3vmh/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8ikMBzDMDiFTZf-D2tvgo1xJu_6iMFe2_m03IqlgBiYmVlJDyACa3AfN0UhDOglnJgsYvS
+    type: ICYMI
+  - title: Choosing the right storage for stateful workloads on Kubernetes
+    url: https://community.cncf.io/e/m9nr4z/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8ikMBzDMDiFTZf-D2tvgo1xJu_6iMFe2_m03IqlgBiYmVlJDyACa3AfN0UhDOglnJgsYvS
+    type: ICYMI
+  - title: Online Programs playlist
+    url: https://email.linuxfoundation.org/e2t/tc/VXdnZL4WXMGTW1z82tH1FdB6pW8JC1R54tf6NmN6crjpr3lGnpV1-WJV7CgHz2M3nvwMSQCSkW7BK_Xr3-l7FrW4VD97t5zs1gfW94KgBD3153ZxW6X6lnd7WclH6W7XLVcB8XPwpKW1c-4MG1zfkMvW6Y7_b813S8QcVwKdl_5vjw12N8gN3lNhghkyN8g7T0ZhQRrZW9j2nLF9hH3PXN9fKJJLx81ZkW9hyd1S57GTV4W7Jvh963DlprGVsQFCx6CPdPzF54-lxb-jMDW6chN3L8bDtj5W3PsT2W6T6TZtW665H7L85czqBW2ZrvC15gwJJ6N8n44sZFsNs3W71x-ny7yCNQmW1kMgys9htHz-W4YcdtN5BsdzWW8wnT5F7kk9nr37SX1?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8ikMBzDMDiFTZf-D2tvgo1xJu_6iMFe2_m03IqlgBiYmVlJDyACa3AfN0UhDOglnJgsYvS
+    type: ICYMI
+  - title: Annoucing the eBPF Foundation
+    url: https://isovalent.com/blog/post/2021-08-ebpf-foundation-announcement?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8ikMBzDMDiFTZf-D2tvgo1xJu_6iMFe2_m03IqlgBiYmVlJDyACa3AfN0UhDOglnJgsYvS
+    type: Editorial
+  - title: Taking Open Source supply chain security seriously with Dan Lorenc
+    url: https://podcast.curiefense.io/20?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8ikMBzDMDiFTZf-D2tvgo1xJu_6iMFe2_m03IqlgBiYmVlJDyACa3AfN0UhDOglnJgsYvS
+    type: Editorial
+  - title: 'Lessons from Fluentd: How to name a project in the SEO age'
+    url: https://www.theserverside.com/opinion/Lessons-from-Fluentd-How-to-name-a-project-in-the-SEO-age?utm_campaign=20210809_ERU%20Transmission%20for%2008%2F09%2F2021%20%28UserUniverse%3A%20320442%29&utm_medium=EM&utm_source=ERU&src=8049311&asrc=EM_ERU_174613572&utm_content=eru-rd2-control&_hsenc=p2ANqtz-8ikMBzDMDiFTZf-D2tvgo1xJu_6iMFe2_m03IqlgBiYmVlJDyACa3AfN0UhDOglnJgsYvS
+    type: Editorial
+  - title: 5 Tips to build a fail-proof DevSecOps culture
+    url: https://www.msystechnologies.com/blog/5-tips-to-build-a-fail-proof-devsecops-culture/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8ikMBzDMDiFTZf-D2tvgo1xJu_6iMFe2_m03IqlgBiYmVlJDyACa3AfN0UhDOglnJgsYvS
+    type: Editorial
+  - title: Automatic multi-cluster deployments and services in Kubernetes
+    url: https://elastisys.com/automatic-multi-cluster-deployments-and-services-in-kubernetes/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8ikMBzDMDiFTZf-D2tvgo1xJu_6iMFe2_m03IqlgBiYmVlJDyACa3AfN0UhDOglnJgsYvS
+    type: Technical
+  - title: How to run HAProxy with Docker
+    url: https://www.haproxy.com/blog/how-to-run-haproxy-with-docker/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8ikMBzDMDiFTZf-D2tvgo1xJu_6iMFe2_m03IqlgBiYmVlJDyACa3AfN0UhDOglnJgsYvS
+    type: Technical
+  - title: Kubernetes CI/CD with Tekton and ArgoCD
+    url: https://piotrminkowski.com/2021/08/05/kubernetes-ci-cd-with-tekton-and-argocd/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8ikMBzDMDiFTZf-D2tvgo1xJu_6iMFe2_m03IqlgBiYmVlJDyACa3AfN0UhDOglnJgsYvS
+    type: Technical
+  - title: Encrypted secrets in Helm charts
+    url: https://www.thorsten-hans.com/encrypted-secrets-in-helm-charts/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8ikMBzDMDiFTZf-D2tvgo1xJu_6iMFe2_m03IqlgBiYmVlJDyACa3AfN0UhDOglnJgsYvS
+    type: Technical
+  - title: Best practices for deploying highly available apps in Kubernetes. Part
+      1
+    url: https://blog.flant.com/best-practices-for-deploying-highly-available-apps-in-kubernetes-part-1/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8ikMBzDMDiFTZf-D2tvgo1xJu_6iMFe2_m03IqlgBiYmVlJDyACa3AfN0UhDOglnJgsYvS
+    type: Technical
+  - title: Using The Update Framework in Sigstore
+    url: https://dlorenc.medium.com/using-the-update-framework-in-sigstore-dc393cfe6b52?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8ikMBzDMDiFTZf-D2tvgo1xJu_6iMFe2_m03IqlgBiYmVlJDyACa3AfN0UhDOglnJgsYvS
+    type: Technical
+  - title: Troubleshoot GKE faster with monitoring data in Cloud Logging
+    url: http://cloud.google.com/blog/products/operations/troubleshoot-gke-faster-with-monitoring-data-in-your-logs?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8ikMBzDMDiFTZf-D2tvgo1xJu_6iMFe2_m03IqlgBiYmVlJDyACa3AfN0UhDOglnJgsYvS
+    type: Technical
