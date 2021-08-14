@@ -20,6 +20,7 @@ resources:
 - ../bases/namespace-scope/namespace/opennetworking-community/
 - ../bases/namespace-scope/namespace/openstack-community/
 - ../bases/namespace-scope/namespace/ruby-community/
+- ../bases/namespace-scope/namespace/sdx-community/
 
 # cluster RBAC
 - ../bases/cluster-scope/rbac
