@@ -26,4 +26,4 @@ jobs:
     - name: kube-score check
       uses: piraces/kube-score-ga@v0.1.2
       with:
-        manifests-folders: './manifests/**/*,./argocd/**/*,./kustomize/**/*,./bases/**/*,'
+        manifests-folders: './manifests/**/*,./argocd/**/*'
