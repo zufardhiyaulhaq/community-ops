@@ -65,3 +65,10 @@ releases:
   chart: zufardhiyaulhaq/javascriptweekly
   values:
   - releases/javascript-community/javascriptweekly.yaml
+
+- name: devopsweekly
+  namespace: devops-community
+  version: 1.0.0
+  chart: zufardhiyaulhaq/devopsweekly
+  values:
+  - releases/devops-community/devopsweekly.yaml

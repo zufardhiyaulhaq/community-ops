@@ -1,0 +1,13 @@
+cronSchedule: "0 8 * * 2"
+
+image:
+  repository: "zufardhiyaulhaq/devopsweekly"
+  tag: "v1.0.0"
+
+secret: "devopsweekly"
+
+weekly:
+  community: "DevOps Indonesia Community"
+  tags: "weekly,devops"
+  namespace: "devops-community"
+  image_url: "https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png"
