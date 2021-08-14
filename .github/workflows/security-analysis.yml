@@ -23,3 +23,7 @@ jobs:
       uses: github/codeql-action/init@v1
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
+    - name: kube-score check
+      uses: piraces/kube-score-ga@v0.1.2
+      with:
+        manifests-folders: './manifests/**/*,./argocd/**/*,./kustomize/**/*,./bases/**/*,'
