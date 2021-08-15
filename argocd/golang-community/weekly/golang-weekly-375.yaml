@@ -1,0 +1,57 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-375
+  namespace: golang-community
+spec:
+  name: Golang Weekly 375
+  date: 08/15/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: A Tale of Two Copies
+    url: https://golangweekly.com/link/112436/web
+    type: News
+  - title: Common Anti-Patterns in Go Web Applications
+    url: https://golangweekly.com/link/112438/web
+    type: News
+  - title: Fast Redis Hosting and Analytics
+    url: https://golangweekly.com/link/112437/web
+    type: News
+  - title: 'Awesome Go: Over 2000 Go Links, Library and Tools'
+    url: https://golangweekly.com/link/112439/web
+    type: News
+  - title: Handling Errors From Deferred Functions in Go
+    url: https://golangweekly.com/link/112441/web
+    type: News
+  - title: An Old Hacker's Tips on Staying Employed
+    url: https://golangweekly.com/link/112450/web
+    type: News
+  - title: Running a Go Application on Bare Metal
+    url: https://golangweekly.com/link/112442/web
+    type: News
+  - title: map[string]interface{} in Go
+    url: https://golangweekly.com/link/112447/web
+    type: News
+  - title: Data Streaming and Benthos with Mihai Todor and Ashley Jeffs
+    url: https://golangweekly.com/link/112448/web
+    type: News
+  - title: 'Pigiron: A MIDI Routing Utility with Extensive OSC Interface'
+    url: https://golangweekly.com/link/112453/web
+    type: News
+  - title: 'Dasel: Query and Update Data Structures from the Command Line'
+    url: https://golangweekly.com/link/112454/web
+    type: News
+  - title: Run Faster and Safer Than Linux with Open Source Unikernels
+    url: https://golangweekly.com/link/112455/web
+    type: News
+  - title: 'Optimus: An Easy, Reliable, and Fast Workflow Orchestrator for Data Transformation,
+      Data Modeling, etc.'
+    url: https://golangweekly.com/link/112456/web
+    type: News
+  - title: 'Croc: Easily and Securely Send Things From One Computer to Another'
+    url: https://golangweekly.com/link/112465/web
+    type: News
