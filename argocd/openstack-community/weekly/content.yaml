@@ -759,3 +759,15 @@ content:
   url: https://superuser.openstack.org/articles/news-inside-open-infrastructure-the-latest-from-the-openinfra-foundation-2/
   kind: OpenStack Super User News
   isDelivered: true
+- title: ' Sardina Systems, an OpenInfra silver member, secures €1.6M funding led by Deepbridge Capital '
+  url: https://www.openstack.org/news/view/472/sardina-systems-an-openinfra-silver-member-secures-16m-funding-led-by-deepbridge-capital
+  kind: OpenStack News
+  isDelivered: false
+- title: 'Bare Metal: Ironic in Production | OpenInfra Live Recap'
+  url: https://superuser.openstack.org/articles/bare-metal-ironic-in-production-openinfra-live-recap/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: Is Edge Computing a Distributed System at Scale?
+  url: https://superuser.openstack.org/articles/is-edge-computing-a-distributed-system-at-scale/
+  kind: OpenStack Super User News
+  isDelivered: false
