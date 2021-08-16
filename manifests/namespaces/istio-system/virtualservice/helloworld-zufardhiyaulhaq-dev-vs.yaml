@@ -13,7 +13,9 @@ spec:
     match:
     - port: 443
       uri:
-        prefix: /ratelimit
+        prefix: /ratelimit/
+    rewrite:
+      uri: /
     route:
       - destination:
           port:

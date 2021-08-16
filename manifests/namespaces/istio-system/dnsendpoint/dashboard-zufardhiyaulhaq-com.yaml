@@ -1,0 +1,12 @@
+apiVersion: externaldns.k8s.io/v1alpha1
+kind: DNSEndpoint
+metadata:
+  name: dashboard-zufardhiyaulhaq-com
+  namespace: istio-system
+spec:
+  endpoints:
+  - dnsName: dashboard.zufardhiyaulhaq.com
+    recordTTL: 60
+    recordType: A
+    targets:
+    - 88.198.50.247

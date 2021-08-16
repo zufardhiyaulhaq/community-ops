@@ -1,0 +1,12 @@
+apiVersion: externaldns.k8s.io/v1alpha1
+kind: DNSEndpoint
+metadata:
+  name: minio-zufardhiyaulhaq-com
+  namespace: istio-system
+spec:
+  endpoints:
+  - dnsName: minio.zufardhiyaulhaq.com
+    recordTTL: 60
+    recordType: A
+    targets:
+    - 88.198.50.247
