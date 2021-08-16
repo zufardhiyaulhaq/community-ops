@@ -1,8 +1,0 @@
-resources:
-- serverless.yml
-- ../../limit-range
-- ../../serviceaccount
-- ../../sealedsecret/docker-registry
-namespace: serverless
-commonLabels:
-  namespace: serverless

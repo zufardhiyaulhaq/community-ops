@@ -1,5 +1,0 @@
-resources:
-- ../../bases/namespace-scope/namespace/istio-system/
-
-commonLabels:
-  topology.istio.io/network: kubernetes-cluster-01

@@ -1,0 +1,14 @@
+namespace: sdx-community
+commonLabels:
+  namespace: sdx-community
+  owner: zufardhiyaulhaq
+
+resources:
+- ../../../bases/namespace-scope/limit-range/small
+- ../../../bases/namespace-scope/sealedsecret/docker-registry
+- ../../../bases/namespace-scope/serviceaccount/default
+
+patches:
+- path: patch/serviceaccount.yaml
+  target:
+    kind: ServiceAccount

@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: http-https-echo
+  name: http-https-echo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: http-https-echo
+  template:
+    metadata:
+      labels:
+        app: http-https-echo
+    spec:
+      containers:
+      - name: http-https-echo
+        image: mendhak/http-https-echo
+        resources:
+          requests:
+            cpu: 50m
+            memory: 50Mi
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
+          protocol: TCP

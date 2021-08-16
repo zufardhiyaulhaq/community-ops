@@ -1,0 +1,12 @@
+apiVersion: externaldns.k8s.io/v1alpha1
+kind: DNSEndpoint
+metadata:
+  name: helloworld-grpc-zufardhiyaulhaq-dev
+  namespace: istio-system
+spec:
+  endpoints:
+  - dnsName: helloworld-grpc.zufardhiyaulhaq.dev
+    recordTTL: 60
+    recordType: A
+    targets:
+    - 88.198.50.247

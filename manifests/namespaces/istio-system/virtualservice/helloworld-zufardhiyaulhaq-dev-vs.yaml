@@ -9,7 +9,7 @@ spec:
   gateways:
   - istio-system/helloworld-zufardhiyaulhaq-dev-gateway
   http:
-  - name: "ratelimit-helloworld-default-route"
+  - name: "ratelimit-examples-helloworld-v1-default-route"
     match:
     - port: 443
       uri:
@@ -18,9 +18,9 @@ spec:
       - destination:
           port:
             number: 80
-          host: webserver.default.svc.cluster.local
+          host: examples-helloworld-v1.default.svc.cluster.local
         weight: 100
-  - name: "helloworld-default-route"
+  - name: "http-https-echo-default-route"
     match:
     - port: 443
       uri:
@@ -29,7 +29,7 @@ spec:
       - destination:
           port:
             number: 80
-          host: helloworld.default.svc.cluster.local
+          host: http-https-echo.default.svc.cluster.local
         weight: 100
   exportTo:
     - "."

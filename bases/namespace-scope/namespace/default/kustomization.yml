@@ -1,8 +1,0 @@
-resources:
-- default.yml
-- ../../limit-range
-- ../../serviceaccount
-- ../../sealedsecret/docker-registry
-namespace: default
-commonLabels:
-  namespace: default

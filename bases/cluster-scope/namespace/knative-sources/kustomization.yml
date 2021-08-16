@@ -1,0 +1,5 @@
+resources:
+- knative-sources.yml
+namespace: knative-sources
+commonLabels:
+  namespace: knative-sources

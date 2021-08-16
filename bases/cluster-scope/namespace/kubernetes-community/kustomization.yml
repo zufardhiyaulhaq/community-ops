@@ -1,0 +1,5 @@
+resources:
+- kubernetes-community.yml
+namespace: kubernetes-community
+commonLabels:
+  namespace: kubernetes-community

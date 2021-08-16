@@ -1,0 +1,5 @@
+resources:
+- infrastructure.yml
+namespace: infrastructure
+commonLabels:
+  namespace: infrastructure

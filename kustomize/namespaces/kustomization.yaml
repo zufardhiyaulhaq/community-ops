@@ -1,0 +1,15 @@
+resources:
+- argocd
+- default
+- devops-community
+- golang-community
+- infrastructure
+- istio-system
+- javascript-community
+- kubernetes-community
+- metallb-system
+- nodejs-community
+- opennetworking-community
+- openstack-community
+- ruby-community
+- sdx-community

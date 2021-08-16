@@ -1,8 +1,0 @@
-resources:
-- kubernetes-community.yml
-- ../../limit-range
-- ../../serviceaccount
-- ../../sealedsecret/docker-registry
-namespace: kubernetes-community
-commonLabels:
-  namespace: kubernetes-community

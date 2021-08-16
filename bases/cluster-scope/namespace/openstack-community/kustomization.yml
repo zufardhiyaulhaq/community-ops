@@ -1,0 +1,5 @@
+resources:
+- openstack-community.yml
+namespace: openstack-community
+commonLabels:
+  namespace: openstack-community

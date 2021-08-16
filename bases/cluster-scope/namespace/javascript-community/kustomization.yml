@@ -1,0 +1,5 @@
+resources:
+- javascript-community.yml
+namespace: javascript-community
+commonLabels:
+  namespace: javascript-community

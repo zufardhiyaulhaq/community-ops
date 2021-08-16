@@ -1,8 +1,0 @@
-resources:
-- ruby-community.yml
-- ../../limit-range
-- ../../serviceaccount
-- ../../sealedsecret/docker-registry
-namespace: ruby-community
-commonLabels:
-  namespace: ruby-community

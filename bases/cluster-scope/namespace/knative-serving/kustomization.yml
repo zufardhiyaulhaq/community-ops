@@ -1,0 +1,5 @@
+resources:
+- knative-serving.yml
+namespace: knative-serving
+commonLabels:
+  namespace: knative-serving

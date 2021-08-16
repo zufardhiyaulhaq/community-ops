@@ -1,8 +1,0 @@
-resources:
-- knative-eventing.yml
-- ../../limit-range
-- ../../serviceaccount
-- ../../sealedsecret/docker-registry
-namespace: knative-eventing
-commonLabels:
-  namespace: knative-eventing

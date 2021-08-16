@@ -1,0 +1,5 @@
+resources:
+- golang-community.yml
+namespace: golang-community
+commonLabels:
+  namespace: golang-community

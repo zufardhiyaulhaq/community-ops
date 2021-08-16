@@ -1,8 +1,0 @@
-resources:
-- devops-community.yml
-- ../../limit-range
-- ../../serviceaccount
-- ../../sealedsecret/docker-registry
-namespace: devops-community
-commonLabels:
-  namespace: devops-community
