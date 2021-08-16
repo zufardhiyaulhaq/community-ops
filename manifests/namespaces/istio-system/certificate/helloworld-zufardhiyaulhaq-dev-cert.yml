@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: helloworld-zufardhiyaulhaq-dev-cert
+  namespace: istio-system
+spec:
+  secretName: helloworld-zufardhiyaulhaq-dev-cert
+  issuerRef:
+    name: zufardhiyaulhaq-dev-cluster-issuer
+    kind: ClusterIssuer
+  commonName: "helloworld.zufardhiyaulhaq.dev"
+  dnsNames:
+  - "helloworld.zufardhiyaulhaq.dev"
