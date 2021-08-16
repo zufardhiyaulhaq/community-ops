@@ -9,6 +9,8 @@ repositories:
   url: https://charts.jetstack.io
 - name: kubernetes-dashboard
   url: https://kubernetes.github.io/dashboard/
+- name: bitnami
+  url: https://charts.bitnami.com/bitnami
 
 releases:
 - name: ngrok-operator
@@ -45,6 +47,13 @@ releases:
   chart: kubernetes-dashboard/kubernetes-dashboard
   values:
   - releases/infrastructure/kubernetes-dashboard.yaml
+
+- name: external-dns-digitalocean
+  namespace: infrastructure
+  version: 5.4.0
+  chart: bitnami/external-dns
+  values:
+  - releases/infrastructure/external-dns-digitalocean.yaml
 
 - name: kubernetesweekly
   namespace: kubernetes-community

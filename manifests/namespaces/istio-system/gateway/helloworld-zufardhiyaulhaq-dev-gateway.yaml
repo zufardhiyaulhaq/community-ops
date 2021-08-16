@@ -1,0 +1,26 @@
+apiVersion: networking.istio.io/v1beta1
+kind: Gateway
+metadata:
+  name: helloworld-zufardhiyaulhaq-dev-gateway
+  namespace: istio-system
+spec:
+  selector:
+    app: istio-public-gateway
+  servers:
+  - hosts:
+    - "helloworld.zufardhiyaulhaq.dev"
+    port:
+      name: http
+      number: 80
+      protocol: HTTP
+    tls:
+      httpsRedirect: true
+  - hosts:
+    - "helloworld.zufardhiyaulhaq.dev"
+    port:
+      name: https-default
+      number: 443
+      protocol: HTTPS
+    tls:
+      credentialName: helloworld-zufardhiyaulhaq-dev-cert
+      mode: SIMPLE
