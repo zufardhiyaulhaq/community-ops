@@ -1,8 +1,0 @@
-resources:
-- opennetworking-community.yml
-- ../../limit-range
-- ../../serviceaccount
-- ../../sealedsecret/docker-registry
-namespace: opennetworking-community
-commonLabels:
-  namespace: opennetworking-community

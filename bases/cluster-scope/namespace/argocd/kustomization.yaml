@@ -1,0 +1,5 @@
+resources:
+- argocd.yaml
+namespace: argocd
+commonLabels:
+  namespace: argocd

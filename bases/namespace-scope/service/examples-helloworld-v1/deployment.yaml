@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: examples-helloworld-v1
+  name: examples-helloworld-v1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: examples-helloworld-v1
+  template:
+    metadata:
+      labels:
+        app: examples-helloworld-v1
+    spec:
+      containers:
+      - name: examples-helloworld-v1
+        image: docker.io/istio/examples-helloworld-v1
+        resources:
+          requests:
+            cpu: 50m
+            memory: 50Mi
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 5000
+          protocol: TCP

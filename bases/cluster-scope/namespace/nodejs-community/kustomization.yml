@@ -1,0 +1,5 @@
+resources:
+- nodejs-community.yml
+namespace: nodejs-community
+commonLabels:
+  namespace: nodejs-community

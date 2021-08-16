@@ -1,0 +1,5 @@
+resources:
+- sdx-community.yml
+namespace: sdx-community
+commonLabels:
+  namespace: sdx-community

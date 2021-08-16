@@ -1,0 +1,5 @@
+resources:
+- knative-eventing.yml
+namespace: knative-eventing
+commonLabels:
+  namespace: knative-eventing

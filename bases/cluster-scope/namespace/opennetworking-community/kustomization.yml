@@ -1,0 +1,5 @@
+resources:
+- opennetworking-community.yml
+namespace: opennetworking-community
+commonLabels:
+  namespace: opennetworking-community

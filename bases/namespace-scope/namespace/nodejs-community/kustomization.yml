@@ -1,8 +1,0 @@
-resources:
-- nodejs-community.yml
-- ../../limit-range
-- ../../serviceaccount
-- ../../sealedsecret/docker-registry
-namespace: nodejs-community
-commonLabels:
-  namespace: nodejs-community

@@ -1,0 +1,5 @@
+resources:
+- istio-system.yaml
+namespace: istio-system
+commonLabels:
+  namespace: istio-system

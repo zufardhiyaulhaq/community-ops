@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: grpc-testing
+  name: grpc-testing
+spec:
+  ports:
+  - port: 3000
+    name: http2
+    protocol: TCP
+    targetPort: 3000
+  selector:
+    app: grpc-testing
+  type: ClusterIP

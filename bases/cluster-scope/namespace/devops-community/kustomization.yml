@@ -1,0 +1,5 @@
+resources:
+- devops-community.yml
+namespace: devops-community
+commonLabels:
+  namespace: devops-community

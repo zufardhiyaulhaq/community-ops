@@ -1,8 +1,0 @@
-resources:
-- knative-sources.yml
-- ../../limit-range
-- ../../serviceaccount
-- ../../sealedsecret/docker-registry
-namespace: knative-sources
-commonLabels:
-  namespace: knative-sources

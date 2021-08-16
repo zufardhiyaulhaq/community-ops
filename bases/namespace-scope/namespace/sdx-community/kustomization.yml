@@ -1,8 +1,0 @@
-resources:
-- sdx-community.yml
-- ../../limit-range
-- ../../serviceaccount
-- ../../sealedsecret/docker-registry
-namespace: sdx-community
-commonLabels:
-  namespace: sdx-community

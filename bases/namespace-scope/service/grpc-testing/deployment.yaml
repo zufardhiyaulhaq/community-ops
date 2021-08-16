@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: grpc-testing
+  name: grpc-testing
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: grpc-testing
+  template:
+    metadata:
+      labels:
+        app: grpc-testing
+    spec:
+      containers:
+      - name: grpc-testing
+        image: zufardhiyaulhaq/grpc-testing
+        resources:
+          requests:
+            cpu: 50m
+            memory: 50Mi
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 3000
+          protocol: TCP

@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: examples-helloworld-v1
+  name: examples-helloworld-v1
+spec:
+  ports:
+  - port: 80
+    name: http
+    protocol: TCP
+    targetPort: 5000
+  selector:
+    app: examples-helloworld-v1
+  type: ClusterIP

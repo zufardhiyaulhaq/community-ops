@@ -1,8 +1,0 @@
-resources:
-- argocd.yaml
-- ../../limit-range
-- ../../serviceaccount
-- ../../sealedsecret/docker-registry
-namespace: argocd
-commonLabels:
-  namespace: argocd

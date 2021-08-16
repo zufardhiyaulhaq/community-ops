@@ -1,8 +1,0 @@
----
-apiVersion: v1
-kind: Namespace
-metadata:
-  labels:
-    name: metallb-system
-    istio-injection: disabled
-  name: metallb-system

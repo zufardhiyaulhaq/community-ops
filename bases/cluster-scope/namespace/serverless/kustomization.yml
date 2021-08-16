@@ -1,0 +1,5 @@
+resources:
+- serverless.yml
+namespace: serverless
+commonLabels:
+  namespace: serverless

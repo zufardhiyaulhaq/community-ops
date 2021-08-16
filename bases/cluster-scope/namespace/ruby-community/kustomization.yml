@@ -1,0 +1,5 @@
+resources:
+- ruby-community.yml
+namespace: ruby-community
+commonLabels:
+  namespace: ruby-community

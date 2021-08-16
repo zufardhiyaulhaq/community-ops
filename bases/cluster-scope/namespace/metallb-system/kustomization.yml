@@ -1,0 +1,5 @@
+resources:
+- metallb-system.yml
+namespace: metallb-system
+commonLabels:
+  namespace: metallb-system

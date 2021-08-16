@@ -1,8 +1,0 @@
-resources:
-- infrastructure.yml
-- ../../limit-range
-- ../../serviceaccount
-- ../../sealedsecret/docker-registry
-namespace: infrastructure
-commonLabels:
-  namespace: infrastructure
