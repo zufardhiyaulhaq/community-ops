@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-551
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 551
+  date: 08/16/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Vue 3.2 Released
+    url: https://javascriptweekly.com/link/112510/web
+    type: News
+  - title: '''JavaScript Needs More Helper Functions for Iteration'''
+    url: https://javascriptweekly.com/link/112512/web
+    type: News
+  - title: Get Started with JavaScript and InfluxDB 2.0
+    url: https://javascriptweekly.com/link/112483/web
+    type: News
+  - title: V8 Release v9.3
+    url: https://javascriptweekly.com/link/112497/web
+    type: News
+  - title: Next.js 11.1 Released
+    url: https://javascriptweekly.com/link/112513/web
+    type: News
+  - title: How to Build Force Directed Graphs with React and D3 v7
+    url: https://javascriptweekly.com/link/112499/web
+    type: News
+  - title: Making a Web Worker Optional
+    url: https://javascriptweekly.com/link/112523/web
+    type: News
+  - title: Improving Responsiveness in Text Inputs
+    url: https://javascriptweekly.com/link/112524/web
+    type: News
+  - title: Building React Components For Any Front End
+    url: https://javascriptweekly.com/link/112494/web
+    type: News
+  - title: Learning MongoDB by Building a Project
+    url: https://javascriptweekly.com/link/112500/web
+    type: News
+  - title: 'Introducing MIDIVal: The Easiest Way to Interact with MIDI in Your Browser'
+    url: https://javascriptweekly.com/link/112527/web
+    type: News
+  - title: Deno 1.13 Released
+    url: https://javascriptweekly.com/link/112498/web
+    type: News
+  - title: The Data API with Native GraphQL and JavaScript Support
+    url: https://javascriptweekly.com/link/112495/web
+    type: News
+  - title: 'JSZip: Create, Read and Edit .zip Archive Files'
+    url: https://javascriptweekly.com/link/112504/web
+    type: News
+  - title: 'styled-jsx 4.0: Full CSS Support for JSX Without Compromises'
+    url: https://javascriptweekly.com/link/112506/web
+    type: News
+  - title: 'HyperFormula: An Excel-Like Calculation Engine Written in TypeScript'
+    url: https://javascriptweekly.com/link/112507/web
+    type: News
+  - title: 'http-server: A Simple Zero-Conf Command-Line HTTP Server'
+    url: https://javascriptweekly.com/link/112508/web
+    type: News
+  - title: Book a Demo. Ship Fast. Rest Easy. LaunchDarkly
+    url: https://javascriptweekly.com/link/112496/web
+    type: News
+  - title: 'Hora: Efficient Approximate Nearest Neighbor Search Algorithms'
+    url: https://javascriptweekly.com/link/112529/web
+    type: News
