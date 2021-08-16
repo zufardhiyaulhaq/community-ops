@@ -6,5 +6,8 @@ digitalocean:
 interval: "1m"
 policy: sync
 
+sources:
+- crd
+
 crd:
   create: true
