@@ -5,3 +5,6 @@ digitalocean:
 
 interval: "1m"
 policy: sync
+
+crd:
+  create: true
