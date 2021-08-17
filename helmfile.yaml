@@ -89,3 +89,10 @@ releases:
   chart: zufardhiyaulhaq/nodejsweekly
   values:
   - releases/nodejs-community/nodejsweekly.yaml
+
+- name: rubyweekly
+  namespace: ruby-community
+  version: 1.0.0
+  chart: zufardhiyaulhaq/rubyweekly
+  values:
+  - releases/ruby-community/rubyweekly.yaml

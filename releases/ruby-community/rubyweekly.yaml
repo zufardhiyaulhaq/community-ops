@@ -1,0 +1,13 @@
+cronSchedule: "0 8 * * 4"
+
+image:
+  repository: "zufardhiyaulhaq/rubyweekly"
+  tag: "v1.0.0"
+
+secret: "rubyweekly"
+
+weekly:
+  community: "Ruby Indonesia Community"
+  tags: "weekly,ruby"
+  namespace: "ruby-community"
+  image_url: "https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png"
