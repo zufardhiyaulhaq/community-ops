@@ -1,0 +1,61 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-401
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 401
+  date: 08/18/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'August 2021 Security Releases: Node 16.6.2, 14.17.5 and 12.22.5'
+    url: https://nodeweekly.com/link/112373/web
+    type: News
+  - title: V8 Release v9.3
+    url: https://nodeweekly.com/link/112377/web
+    type: News
+  - title: Search Your Code. ALL of It, Everywhere
+    url: https://nodeweekly.com/link/112378/web
+    type: News
+  - title: Deno 1.13 Released
+    url: https://nodeweekly.com/link/112382/web
+    type: News
+  - title: How to Publish Node.js Docker Images to Docker Hub Registry with GitHub
+      Actions
+    url: https://nodeweekly.com/link/112383/web
+    type: News
+  - title: Learning MongoDB by Building a Project
+    url: https://nodeweekly.com/link/112385/web
+    type: News
+  - title: Seamlessly Integrate Video into Your Node App
+    url: https://nodeweekly.com/link/112386/web
+    type: News
+  - title: 'PureORM: A Node.js SQL Toolkit for Writing Native SQL Queries Yielding
+      Pure Business Objects'
+    url: https://nodeweekly.com/link/112390/web
+    type: News
+  - title: 'Keyv: Simple Key-Value Storage with Multi-Backend Support'
+    url: https://nodeweekly.com/link/112391/web
+    type: News
+  - title: 'Caterpillar 6.8: The ''Ultimate'' Logging System'
+    url: https://nodeweekly.com/link/112392/web
+    type: News
+  - title: 'Slonik v24: A Sophisticated Node Postgres Client Library'
+    url: https://nodeweekly.com/link/112394/web
+    type: News
+  - title: Book a Demo. Ship Fast. Rest Easy. LaunchDarkly
+    url: https://nodeweekly.com/link/112395/web
+    type: News
+  - title: 'Awilix: An Inversion of Control (IoC) Container for Node'
+    url: https://nodeweekly.com/link/112396/web
+    type: News
+  - title: 'Octokit.js 1.4.0: The All-Batteries-Included GitHub SDK'
+    url: https://nodeweekly.com/link/112398/web
+    type: News
+  - title: 'negative-array 3.0: Negative Array Index Support using Proxies'
+    url: https://nodeweekly.com/link/112399/web
+    type: News
