@@ -371,3 +371,7 @@ content:
   url: https://opennetworking.org/news-and-events/blog/community-highlights-july-2021/
   kind: Open Networking Blog
   isDelivered: true
+- title: 'Community Member Profile: Alan Wang'
+  url: https://opennetworking.org/news-and-events/blog/community-member-profile-alan-wang/
+  kind: Open Networking Blog
+  isDelivered: false
