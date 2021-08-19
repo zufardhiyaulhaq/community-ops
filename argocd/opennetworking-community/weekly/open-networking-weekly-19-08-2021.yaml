@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-19-08-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 19-08-2021
+  date: 08/19/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: 'Community Member Profile: Alan Wang'
+    url: https://opennetworking.org/news-and-events/blog/community-member-profile-alan-wang/
+    type: Open Networking Blog
