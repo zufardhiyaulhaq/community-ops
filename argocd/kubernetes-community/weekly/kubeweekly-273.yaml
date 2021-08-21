@@ -1,0 +1,72 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-273
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 273
+  date: 08/21/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: ' Introducing LitmusChaos 2.0'
+    url: https://community.cncf.io/e/mbqunk/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--35s0VcKNX7AtUw4p9YV3CDHz7WhXhUKaS8wG8uS8WxOpvlRX-pCgrDbOMEvycnDvBzuoO
+    type: ICYMI
+  - title: Manage thousands of K8s applications with minimal efforts using KubeCarrier
+    url: https://community.cncf.io/e/mnnusu/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--35s0VcKNX7AtUw4p9YV3CDHz7WhXhUKaS8wG8uS8WxOpvlRX-pCgrDbOMEvycnDvBzuoO
+    type: ICYMI
+  - title: Crossing the boundary - Hybrid Kubernetes clusters with Wireguard
+    url: https://community.cncf.io/e/m4ssjf/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--35s0VcKNX7AtUw4p9YV3CDHz7WhXhUKaS8wG8uS8WxOpvlRX-pCgrDbOMEvycnDvBzuoO
+    type: ICYMI
+  - title: Meshery - The Service Mesh manager
+    url: https://community.cncf.io/e/mpmnw6/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--35s0VcKNX7AtUw4p9YV3CDHz7WhXhUKaS8wG8uS8WxOpvlRX-pCgrDbOMEvycnDvBzuoO
+    type: ICYMI
+  - title: Online Programs playlist
+    url: https://email.linuxfoundation.org/e2t/tc/VXdnZL4WXMGTW1z82tH1FdB6pW8JC1R54tf6NmN6crjpr3lGnpV1-WJV7CgHz2M3nvwMSQCSkW7BK_Xr3-l7FrW4VD97t5zs1gfW94KgBD3153ZxW6X6lnd7WclH6W7XLVcB8XPwpKW1c-4MG1zfkMvW6Y7_b813S8QcVwKdl_5vjw12N8gN3lNhghkyN8g7T0ZhQRrZW9j2nLF9hH3PXN9fKJJLx81ZkW9hyd1S57GTV4W7Jvh963DlprGVsQFCx6CPdPzF54-lxb-jMDW6chN3L8bDtj5W3PsT2W6T6TZtW665H7L85czqBW2ZrvC15gwJJ6N8n44sZFsNs3W71x-ny7yCNQmW1kMgys9htHz-W4YcdtN5BsdzWW8wnT5F7kk9nr37SX1?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--35s0VcKNX7AtUw4p9YV3CDHz7WhXhUKaS8wG8uS8WxOpvlRX-pCgrDbOMEvycnDvBzuoO
+    type: ICYMI
+  - title: Telekom (with a K), with Vuk Gojnic
+    url: https://kubernetespodcast.com/episode/158-telekom-with-a-k/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--35s0VcKNX7AtUw4p9YV3CDHz7WhXhUKaS8wG8uS8WxOpvlRX-pCgrDbOMEvycnDvBzuoO
+    type: Editorial
+  - title: Telcos, Edge Clouds, Service Meshes, and more with Prajakta Joshi
+    url: https://podcast.curiefense.io/19?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--35s0VcKNX7AtUw4p9YV3CDHz7WhXhUKaS8wG8uS8WxOpvlRX-pCgrDbOMEvycnDvBzuoO
+    type: Editorial
+  - title: Open sourcing the SPIFFE/SPIRE security audit
+    url: https://www.cncf.io/blog/2021/08/17/open-sourcing-the-spiffe-spire-security-audit/?utm_content=176555158&utm_medium=social&utm_source=twitter&hss_channel=tw-3286770860&_hsenc=p2ANqtz--35s0VcKNX7AtUw4p9YV3CDHz7WhXhUKaS8wG8uS8WxOpvlRX-pCgrDbOMEvycnDvBzuoO
+    type: Editorial
+  - title: 'Mentorship spotlight: Google Summer of Code 2021 with CNCF — My experience
+      with LitmusChaos'
+    url: https://www.cncf.io/blog/2021/08/19/__trashed-2/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--35s0VcKNX7AtUw4p9YV3CDHz7WhXhUKaS8wG8uS8WxOpvlRX-pCgrDbOMEvycnDvBzuoO
+    type: Editorial
+  - title: KEDA moves from the CNCF Sandbox to become an incubating project
+    url: https://www.cncf.io/blog/2021/08/18/keda-moves-from-the-cncf-sandbox-to-become-an-incubating-project/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--35s0VcKNX7AtUw4p9YV3CDHz7WhXhUKaS8wG8uS8WxOpvlRX-pCgrDbOMEvycnDvBzuoO
+    type: Editorial
+  - title: CNCF policy-as-code project bridges Kubernetes security gaps
+    url: https://searchitoperations.techtarget.com/news/252505548/CNCF-policy-as-code-project-bridges-Kubernetes-security-gaps?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--35s0VcKNX7AtUw4p9YV3CDHz7WhXhUKaS8wG8uS8WxOpvlRX-pCgrDbOMEvycnDvBzuoO
+    type: Editorial
+  - title: Take Part 2 of the CNCF Cloud Native Survey today!
+    url: https://www.surveymonkey.com/r/LZT2CR3?utm_content=176558408&utm_medium=social&utm_source=twitter&hss_channel=tw-3286770860&_hsenc=p2ANqtz--35s0VcKNX7AtUw4p9YV3CDHz7WhXhUKaS8wG8uS8WxOpvlRX-pCgrDbOMEvycnDvBzuoO
+    type: Editorial
+  - title: kubernetes-sigs/sig-windows-dev-tools
+    url: https://github.com/kubernetes-sigs/sig-windows-dev-tools/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--35s0VcKNX7AtUw4p9YV3CDHz7WhXhUKaS8wG8uS8WxOpvlRX-pCgrDbOMEvycnDvBzuoO
+    type: Technical
+  - title: Scaling on-demand Prometheus servers with sharding
+    url: https://www.giantswarm.io/blog/scaling-on-demand-prometheus-servers-with-sharding-giant-swarm?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--35s0VcKNX7AtUw4p9YV3CDHz7WhXhUKaS8wG8uS8WxOpvlRX-pCgrDbOMEvycnDvBzuoO
+    type: Technical
+  - title: 'monday.com’s Multi-regional architecture: A deep dive'
+    url: https://engineering.monday.com/monday-coms-multi-regional-architecture-a-deep-dive/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--35s0VcKNX7AtUw4p9YV3CDHz7WhXhUKaS8wG8uS8WxOpvlRX-pCgrDbOMEvycnDvBzuoO
+    type: Technical
+  - title: Kubernetes supply chain policy management with Cosign and Kyverno
+    url: https://nirmata.com/2021/08/12/kubernetes-supply-chain-policy-management-with-cosign-and-kyverno/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--35s0VcKNX7AtUw4p9YV3CDHz7WhXhUKaS8wG8uS8WxOpvlRX-pCgrDbOMEvycnDvBzuoO
+    type: Technical
+  - title: Upgrade to Flux v2 to keep OpenFaaS up to date
+    url: https://www.openfaas.com/blog/upgrade-to-fluxv2-openfaas/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--35s0VcKNX7AtUw4p9YV3CDHz7WhXhUKaS8wG8uS8WxOpvlRX-pCgrDbOMEvycnDvBzuoO
+    type: Technical
+  - title: 'Measure and monitor your inlets tunnels with Prometheus '
+    url: https://inlets.dev/blog/2021/08/18/measure-and-monitor.html?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--35s0VcKNX7AtUw4p9YV3CDHz7WhXhUKaS8wG8uS8WxOpvlRX-pCgrDbOMEvycnDvBzuoO
+    type: Technical
+  - title: Audit logging in clusters
+    url: https://www.kubermatic.com/blog/audit-logging-in-clusters/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--35s0VcKNX7AtUw4p9YV3CDHz7WhXhUKaS8wG8uS8WxOpvlRX-pCgrDbOMEvycnDvBzuoO
+    type: Technical
