@@ -1,0 +1,16 @@
+apiVersion: cert-manager.io/v1
+kind: ClusterIssuer
+metadata:
+  name: zufardhiyaulhaq-com-cluster-issuer
+spec:
+  acme:
+    email: admin@zufardhiyaulhaq.com
+    server: https://acme-v02.api.letsencrypt.org/directory
+    privateKeySecretRef:
+      name: zufardhiyaulhaq-com-cluster-issuer-secret
+    solvers:
+    - dns01:
+        digitalocean:
+          tokenSecretRef:
+            name: digitalocean-dns
+            key: access-token
