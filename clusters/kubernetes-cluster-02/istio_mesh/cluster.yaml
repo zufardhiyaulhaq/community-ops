@@ -54,7 +54,7 @@ spec:
                         - sleep 10
         service:
           externalTrafficPolicy: Local
-          loadBalancerIP: 10.200.100.110
+          loadBalancerIP: 10.200.150.110
           ports:
           - port: 15021
             targetPort: 15021
@@ -62,21 +62,21 @@ spec:
           - port: 443
             targetPort: 8443
             name: https
-          - port: 80
-            targetPort: 8080
-            name: http2
+          - port: 15443
+            targetPort: 15443
+            name: tls
     - enabled: true
       name: istio-eastwestgateway
       label:
         istio: eastwestgateway
         app: istio-eastwestgateway
-        topology.istio.io/network: kubernetes-cluster-01
+        topology.istio.io/network: kubernetes-cluster-02
       k8s:
         env:
           - name: ISTIO_META_ROUTER_MODE
             value: "sni-dnat"
           - name: ISTIO_META_REQUESTED_NETWORK_VIEW
-            value: kubernetes-cluster-01
+            value: kubernetes-cluster-02
         resources:
           limits:
             cpu: 256m
@@ -103,7 +103,7 @@ spec:
                         - -c
                         - sleep 10
         service:
-          loadBalancerIP: 10.200.100.130
+          loadBalancerIP: 10.200.150.130
           externalTrafficPolicy: Local
           ports:
             - name: status-port
@@ -122,8 +122,8 @@ spec:
     istiocoredns:
       enabled: false
   meshConfig:
-    accessLogFile: "/dev/stdout"
-    accessLogEncoding: "JSON"
+    accessLogFile: /dev/stdout
+    accessLogEncoding: JSON
     defaultConfig:
       terminationDrainDuration: 10s
       holdApplicationUntilProxyStarts: true
@@ -133,6 +133,5 @@ spec:
     global:
       meshID: kubernetes-cluster
       multiCluster:
-        clusterName: kubernetes-cluster-01
-      network: kubernetes-cluster-01
-
+        clusterName: kubernetes-cluster-02
+      network: kubernetes-cluster-02

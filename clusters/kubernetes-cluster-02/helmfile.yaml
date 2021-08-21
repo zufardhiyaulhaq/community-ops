@@ -1,0 +1,11 @@
+repositories:
+- name: bitnami-labs
+  url: https://bitnami-labs.github.io/sealed-secrets
+
+releases:
+- name: sealed-secrets
+  namespace: infrastructure
+  version: 1.16.1
+  chart: bitnami-labs/sealed-secrets
+  values:
+  - releases/infrastructure/sealed-secret.yaml
