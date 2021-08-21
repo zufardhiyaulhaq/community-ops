@@ -20,7 +20,7 @@ spec:
       - destination:
           port:
             number: 80
-          host: examples-helloworld-v1.default.svc.cluster.local
+          host: http-https-echo.default.svc.cluster.local
         weight: 100
   - name: "http-https-echo-default-route"
     match:
@@ -31,7 +31,7 @@ spec:
       - destination:
           port:
             number: 80
-          host: http-https-echo.default.svc.cluster.local
+          host: examples-helloworld-v1.default.svc.cluster.local
         weight: 100
   exportTo:
     - "."
