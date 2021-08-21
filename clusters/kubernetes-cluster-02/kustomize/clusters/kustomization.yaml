@@ -1,0 +1,9 @@
+resources:
+# Namespace
+- namespaces/default
+- namespaces/infrastructure
+- namespaces/istio-system
+- namespaces/metallb-system
+
+# RBAC
+- ../../../../bases/cluster-scope/rbac
