@@ -1,0 +1,19 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: chart-exporter
+  namespace: infrastructure
+  labels:
+    monitoring: chart-exporter
+    release: prometheus
+spec:
+  namespaceSelector:
+    matchNames:
+      - infrastructure
+  selector:
+    matchLabels:
+      app.kubernetes.io/instance: chart-exporter
+  endpoints:
+  - interval: 30s
+    port: http
+
