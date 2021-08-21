@@ -57,4 +57,4 @@ jobs:
           KUBERNETES_CONFIG: ${{ secrets.KUBERNETES_CONFIG }}
       - name: Deploy applications
         run: |
-          make deploy
+          make deploy CLUSTER=kubernetes-cluster-01
