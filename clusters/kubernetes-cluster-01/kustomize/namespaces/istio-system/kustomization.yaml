@@ -6,8 +6,9 @@ commonLabels:
 resources:
 - ../../../../../bases/namespace-scope/limit-range/small
 - ../../../../../bases/namespace-scope/sealedsecret/docker-registry
-- ../../../../../bases/namespace-scope/sealedsecret/istio
 - ../../../../../bases/namespace-scope/serviceaccount/default
+
+- sealedsecret
 
 patches:
 - path: patch/serviceaccount.yaml

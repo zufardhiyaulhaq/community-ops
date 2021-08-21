@@ -1,0 +1,45 @@
+---
+cainjector:
+  enabled: true
+  extraArgs: []
+  replicaCount: 1
+  resources:
+    limits:
+      cpu: 200m
+      memory: 400Mi
+    requests:
+      cpu: 100m
+      memory: 200Mi
+  securityContext: {}
+  strategy:
+    rollingUpdate:
+      maxSurge: 0
+      maxUnavailable: 1
+    type: RollingUpdate
+extraArgs:
+  - '--cluster-resource-namespace=infrastructure'
+installCRDs: true
+resources:
+  limits:
+    cpu: 100m
+    memory: 200Mi
+  requests:
+    cpu: 50m
+    memory: 100Mi
+
+webhook:
+  extraArgs: []
+  replicaCount: 1
+  resources:
+    limits:
+      cpu: 100m
+      memory: 200Mi
+    requests:
+      cpu: 30m
+      memory: 70Mi
+  securityContext: {}
+  strategy:
+    rollingUpdate:
+      maxSurge: 0
+      maxUnavailable: 1
+    type: RollingUpdate

@@ -1,0 +1,13 @@
+provider: digitalocean
+
+digitalocean:
+  secretName: digitalocean-dns
+
+interval: "1m"
+policy: sync
+
+sources:
+- crd
+
+crd:
+  create: true
