@@ -8,6 +8,7 @@ from deployer.manifest import ManifestDeployer
 from deployer.istio import IstioDeployer
 from utils import *
 
+import os
 import click
 
 DEFAULT_CLUSTER_CONFIG = "config.yaml"
@@ -19,6 +20,8 @@ DEFAULT_CLUSTER_MANIFEST_DIR = "manifests/"
               required=True)
 
 def main(cluster_name):
+    os.chdir("clusters/" + cluster_name)
+
     configuration = ConfigurationParser(DEFAULT_CLUSTER_CONFIG)
     configuration.validate()
 

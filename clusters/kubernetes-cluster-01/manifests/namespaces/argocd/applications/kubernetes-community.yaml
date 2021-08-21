@@ -1,0 +1,68 @@
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: weekly-kubernetes-community
+  namespace: argocd
+spec:
+  project: default
+  syncPolicy:
+    automated: {}
+  source:
+    repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
+    targetRevision: HEAD
+    path: clusters/kubernetes-cluster-01/argocd/kubernetes-community/weekly
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: kubernetes-community
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: announcement-kubernetes-community
+  namespace: argocd
+spec:
+  project: default
+  syncPolicy:
+    automated: {}
+  source:
+    repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
+    targetRevision: HEAD
+    path: clusters/kubernetes-cluster-01/argocd/kubernetes-community/announcement
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: kubernetes-community
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: sealedsecret-kubernetes-community
+  namespace: argocd
+spec:
+  project: default
+  syncPolicy:
+    automated: {}
+  source:
+    repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
+    targetRevision: HEAD
+    path: clusters/kubernetes-cluster-01/argocd/kubernetes-community/sealedsecret
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: kubernetes-community
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: meetup-kubernetes-community
+  namespace: argocd
+spec:
+  project: default
+  syncPolicy:
+    automated: {}
+  source:
+    repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
+    targetRevision: HEAD
+    path: clusters/kubernetes-cluster-01/argocd/kubernetes-community/meetup
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: kubernetes-community

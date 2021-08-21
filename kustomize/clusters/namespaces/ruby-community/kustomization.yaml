@@ -1,6 +1,0 @@
-commonLabels:
-  owner: zufardhiyaulhaq
-  istio-injection: disabled
-
-resources:
-- ../../../../bases/cluster-scope/namespace/ruby-community

@@ -1,0 +1,51 @@
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: weekly-openstack-community
+  namespace: argocd
+spec:
+  project: default
+  syncPolicy:
+    automated: {}
+  source:
+    repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
+    targetRevision: HEAD
+    path: clusters/kubernetes-cluster-01/argocd/openstack-community/weekly
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: openstack-community
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: announcement-openstack-community
+  namespace: argocd
+spec:
+  project: default
+  syncPolicy:
+    automated: {}
+  source:
+    repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
+    targetRevision: HEAD
+    path: clusters/kubernetes-cluster-01/argocd/openstack-community/announcement
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: openstack-community
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: sealedsecret-openstack-community
+  namespace: argocd
+spec:
+  project: default
+  syncPolicy:
+    automated: {}
+  source:
+    repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
+    targetRevision: HEAD
+    path: clusters/kubernetes-cluster-01/argocd/openstack-community/sealedsecret
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: openstack-community

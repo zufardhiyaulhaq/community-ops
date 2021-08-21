@@ -1,0 +1,51 @@
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: weekly-javascript-community
+  namespace: argocd
+spec:
+  project: default
+  syncPolicy:
+    automated: {}
+  source:
+    repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
+    targetRevision: HEAD
+    path: clusters/kubernetes-cluster-01/argocd/javascript-community/weekly
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: javascript-community
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: announcement-javascript-community
+  namespace: argocd
+spec:
+  project: default
+  syncPolicy:
+    automated: {}
+  source:
+    repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
+    targetRevision: HEAD
+    path: clusters/kubernetes-cluster-01/argocd/javascript-community/announcement
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: javascript-community
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: sealedsecret-javascript-community
+  namespace: argocd
+spec:
+  project: default
+  syncPolicy:
+    automated: {}
+  source:
+    repoURL: https://github.com/zufardhiyaulhaq/community-ops.git
+    targetRevision: HEAD
+    path: clusters/kubernetes-cluster-01/argocd/javascript-community/sealedsecret
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: javascript-community

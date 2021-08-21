@@ -1,0 +1,14 @@
+namespace: argocd
+commonLabels:
+  namespace: argocd
+  owner: zufardhiyaulhaq
+
+resources:
+- ../../../../../bases/namespace-scope/limit-range/medium
+- ../../../../../bases/namespace-scope/sealedsecret/docker-registry
+- ../../../../../bases/namespace-scope/serviceaccount/default
+
+patches:
+- path: patch/serviceaccount.yaml
+  target:
+    kind: ServiceAccount

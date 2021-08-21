@@ -1,0 +1,19 @@
+resources:
+# Namespace
+- namespaces/argocd
+- namespaces/default
+- namespaces/devops-community
+- namespaces/golang-community
+- namespaces/infrastructure
+- namespaces/istio-system
+- namespaces/javascript-community
+- namespaces/kubernetes-community
+- namespaces/metallb-system
+- namespaces/nodejs-community
+- namespaces/opennetworking-community
+- namespaces/openstack-community
+- namespaces/ruby-community
+- namespaces/sdx-community
+
+# RBAC
+- ../../../../bases/cluster-scope/rbac
