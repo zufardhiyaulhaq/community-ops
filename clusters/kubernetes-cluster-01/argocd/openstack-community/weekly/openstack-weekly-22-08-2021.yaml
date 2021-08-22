@@ -1,0 +1,20 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-22-08-2021
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 22-08-2021
+  date: 08/22/2021
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: OpenStack Basics | OpenInfra Live Recap
+    url: https://superuser.openstack.org/articles/openstack-basics-openinfra-live-recap/
+    type: OpenStack Super User News
+  - title: 2021 Superuser Awards Nominations Open
+    url: https://superuser.openstack.org/articles/2021-superuser-awards-nominations-open/
+    type: OpenStack Super User News
