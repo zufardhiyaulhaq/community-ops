@@ -771,3 +771,11 @@ content:
   url: https://superuser.openstack.org/articles/is-edge-computing-a-distributed-system-at-scale/
   kind: OpenStack Super User News
   isDelivered: true
+- title: OpenStack Basics | OpenInfra Live Recap
+  url: https://superuser.openstack.org/articles/openstack-basics-openinfra-live-recap/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: 2021 Superuser Awards Nominations Open
+  url: https://superuser.openstack.org/articles/2021-superuser-awards-nominations-open/
+  kind: OpenStack Super User News
+  isDelivered: false
