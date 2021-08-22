@@ -1,0 +1,14 @@
+pull_request_rules:
+  - name: Assign reviewer
+    conditions:
+    - files~=^.
+    actions:
+      request_reviews:
+        users:
+        - zufardhiyaulhaq
+  - name: Automatic merge on approval
+    conditions:
+      - "#approved-reviews-by>=1"
+    actions:
+      merge:
+        method: merge
