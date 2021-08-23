@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-552
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 552
+  date: 08/23/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Ruby on Rails' Creator on Modern Web Apps without JS Bundling or Transpiling
+    url: https://javascriptweekly.com/link/112684/web
+    type: News
+  - title: An Absurd Future for SQL on the Web?
+    url: https://javascriptweekly.com/link/112728/web
+    type: News
+  - title: Learn the Fundamentals of TypeScript
+    url: https://javascriptweekly.com/link/112683/web
+    type: News
+  - title: Announcing React Native 0.65
+    url: https://javascriptweekly.com/link/112687/web
+    type: News
+  - title: Creating an Interactive Gantt Chart Component with Vanilla JS
+    url: https://javascriptweekly.com/link/112699/web
+    type: News
+  - title: Loading Third-Party JavaScript
+    url: https://javascriptweekly.com/link/112700/web
+    type: News
+  - title: Build a React Chat Application
+    url: https://javascriptweekly.com/link/112701/web
+    type: News
+  - title: Guidelines (from the 1970s!) on How to Split Your React Components
+    url: https://javascriptweekly.com/link/112702/web
+    type: News
+  - title: How to Write TypeScript Interfaces in JSDoc Comments
+    url: https://javascriptweekly.com/link/112703/web
+    type: News
+  - title: return await promise vs return promise
+    url: https://javascriptweekly.com/link/112704/web
+    type: News
+  - title: 'wavesurfer.js: Navigable Waveforms via the Web Audio and Canvas APIs'
+    url: https://javascriptweekly.com/link/112720/web
+    type: News
+  - title: 'Marked 3.0: A Fast Markdown Parser and Compiler'
+    url: https://javascriptweekly.com/link/112707/web
+    type: News
+  - title: Go from Zero to Live Streaming, in a Couple of Minutes
+    url: https://javascriptweekly.com/link/112709/web
+    type: News
+  - title: 'zx 3.0: A Tool for Writing Better Shell Scripts'
+    url: https://javascriptweekly.com/link/112710/web
+    type: News
+  - title: 'v-lazy-image: A Vue.js Component to Lazy Load Images'
+    url: https://javascriptweekly.com/link/112721/web
+    type: News
+  - title: 'Pyodide: Python Compiled to WebAssembly for the Web'
+    url: https://javascriptweekly.com/link/112723/web
+    type: News
+  - title: Book a Demo. Ship Fast. Rest Easy. LaunchDarkly
+    url: https://javascriptweekly.com/link/112711/web
+    type: News
+  - title: 'Notistack: A Library for Easy Snackbar/Toast Notifications'
+    url: https://javascriptweekly.com/link/112725/web
+    type: News
+  - title: 'Serendipity: A Beautiful VS Code Theme with Dark and Light Modes'
+    url: https://javascriptweekly.com/link/112727/web
+    type: News
+  - title: 'Fishdraw: Procedurally Generated Fish Drawings'
+    url: https://javascriptweekly.com/link/112715/web
+    type: News
