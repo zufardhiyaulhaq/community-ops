@@ -1,0 +1,17 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: server-mtls-zufardhiyaulhaq-dev-mtls
+  namespace: istio-system
+spec:
+  selector:
+    istio: egressgateway
+  servers:
+  - port:
+      number: 443
+      name: https
+      protocol: HTTPS
+    hosts:
+    - server.mtls.zufardhiyaulhaq.dev
+    tls:
+      mode: ISTIO_MUTUAL

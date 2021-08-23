@@ -1,0 +1,24 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: server-mtls-zufardhiyaulhaq-dev-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "server.mtls.zufardhiyaulhaq.dev"
+  gateways:
+  - istio-system/server-mtls-zufardhiyaulhaq-dev-gateway
+  http:
+  - name: "http-https-echo-default-route"
+    match:
+    - port: 443
+      uri:
+        prefix: /
+    route:
+      - destination:
+          port:
+            number: 80
+          host: examples-helloworld-v1.default.svc.cluster.local
+        weight: 100
+  exportTo:
+    - "."

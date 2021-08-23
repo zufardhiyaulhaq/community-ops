@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: server-mtls-zufardhiyaulhaq-dev-cert
+  namespace: istio-system
+spec:
+  secretName: server-mtls-zufardhiyaulhaq-dev-cert
+  issuerRef:
+    name: zufardhiyaulhaq-dev-cluster-issuer
+    kind: ClusterIssuer
+  commonName: "server.mtls.zufardhiyaulhaq.dev"
+  dnsNames:
+  - "server.mtls.zufardhiyaulhaq.dev"
