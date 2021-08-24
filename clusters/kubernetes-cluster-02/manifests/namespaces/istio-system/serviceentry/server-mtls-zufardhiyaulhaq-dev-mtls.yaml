@@ -1,0 +1,13 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: ServiceEntry
+metadata:
+  name: server-mtls-zufardhiyaulhaq-dev-mtls
+  namespace: istio-system
+spec:
+  hosts:
+  - server.mtls.zufardhiyaulhaq.dev
+  ports:
+  - number: 443
+    name: https-port
+    protocol: HTTPS
+  resolution: DNS

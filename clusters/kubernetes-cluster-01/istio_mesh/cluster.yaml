@@ -66,10 +66,56 @@ spec:
             targetPort: 8080
             name: http2
     - enabled: true
+      name: istio-egressgateway
+      label:
+        app: istio-egressgateway
+        istio: egressgateway
+      k8s:
+        resources:
+          limits:
+            cpu: 256m
+            memory: 256Mi
+          requests:
+            cpu: 128m
+            memory: 128Mi
+        podDisruptionBudget:
+          minAvailable: 1
+        replicaCount: 2
+        hpaSpec:
+          maxReplicas: 3
+          minReplicas: 2
+        overlays:
+          - kind: Deployment
+            name: istio-egressgateway
+            patches:
+              - path: spec.template.spec.containers.[name:istio-proxy].lifecycle
+                value:
+                  preStop:
+                    exec:
+                      command:
+                      - /bin/sh
+                      - -c
+                      - sleep 10
+        service:
+          type: ClusterIP
+          ports:
+            - port: 15021
+              targetPort: 15021
+              name: status-port
+            - port: 80
+              targetPort: 8080
+              name: http2
+            - port: 443
+              name: https
+              targetPort: 8443
+            - port: 15443
+              targetPort: 15443
+              name: tls
+    - enabled: true
       name: istio-eastwestgateway
       label:
-        istio: eastwestgateway
         app: istio-eastwestgateway
+        istio: eastwestgateway
         topology.istio.io/network: kubernetes-cluster-01
       k8s:
         env:
