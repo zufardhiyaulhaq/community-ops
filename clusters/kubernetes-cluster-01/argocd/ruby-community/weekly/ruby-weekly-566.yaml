@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-566
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 566
+  date: 08/26/2021
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: On Modern Rails + Web Apps Without JavaScript Bundling or Transpiling
+    url: https://rubyweekly.com/link/112641/web
+    type: News
+  - title: An 'Alpha Preview' of Modern JavaScript in Rails 7 Without Webpack
+    url: https://rubyweekly.com/link/112642/web
+    type: News
+  - title: Uptime Monitoring Is Now Available in AppSignal
+    url: https://rubyweekly.com/link/112643/web
+    type: News
+  - title: 'TTY::Option: A Declarative Command-Line Arguments Parser'
+    url: https://rubyweekly.com/link/112644/web
+    type: News
+  - title: How to Debug a Rails App
+    url: https://rubyweekly.com/link/112645/web
+    type: News
+  - title: 'One Row, Many Threads: How to Avoid Database Duplicates in Rails Apps'
+    url: https://rubyweekly.com/link/112654/web
+    type: News
+  - title: Demystifying Rails Autoloading
+    url: https://rubyweekly.com/link/112655/web
+    type: News
+  - title: 'Crunchy Bridge: Fully Managed Cloud Postgres'
+    url: https://rubyweekly.com/link/112656/web
+    type: News
+  - title: asdf and Docker for Managing Local Development Dependencies
+    url: https://rubyweekly.com/link/112657/web
+    type: News
+  - title: 'Refactoring: In Defense of Magic'
+    url: https://rubyweekly.com/link/112658/web
+    type: News
+  - title: Using Hotwire with Rails for a SPA Like Experience
+    url: https://rubyweekly.com/link/112659/web
+    type: News
+  - title: 'Reek: A High Level ''Code Smell'' Detector for Ruby Code'
+    url: https://rubyweekly.com/link/112661/web
+    type: News
+  - title: 'Hightop: A Shortcut for Group Count Queries'
+    url: https://rubyweekly.com/link/112663/web
+    type: News
+  - title: 'ActiveMedian: Median and percentiles for Active Record and More'
+    url: https://rubyweekly.com/link/112664/web
+    type: News
+  - title: Build Online Video for Ruby That Just Works
+    url: https://rubyweekly.com/link/112678/web
+    type: News
+  - title: 'Stitches: Create Microservices in Rails with ''Minimal Ceremony'''
+    url: https://rubyweekly.com/link/112666/web
+    type: News
+  - title: 'punks.starter: Algorithmically Generate Your Own Curated Pixel Art'
+    url: https://rubyweekly.com/link/112667/web
+    type: News
