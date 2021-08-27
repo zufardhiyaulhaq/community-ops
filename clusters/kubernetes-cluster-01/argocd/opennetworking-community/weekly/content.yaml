@@ -375,3 +375,7 @@ content:
   url: https://opennetworking.org/news-and-events/blog/community-member-profile-alan-wang/
   kind: Open Networking Blog
   isDelivered: true
+- title: Project Pronto wants to make 5G networks more reliable and secure
+  url: https://opennetworking.org/uncategorized/project-pronto-wants-to-make-5g-networks-more-reliable-and-secure/
+  kind: Open Networking News
+  isDelivered: true
