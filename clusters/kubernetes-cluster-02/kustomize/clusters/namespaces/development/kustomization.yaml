@@ -1,0 +1,6 @@
+commonLabels:
+  owner: zufardhiyaulhaq
+  istio-injection: enabled
+
+resources:
+- ../../../../../../bases/cluster-scope/namespace/development

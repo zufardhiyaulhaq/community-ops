@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: examples-helloworld-v1
+spec:
+  template:
+    metadata:
+      annotations:
+        sidecar.istio.io/userVolumeMount: '[{"name":"client-mtls-zufardhiyaulhaq-dev-cert", "mountPath":"/etc/client-mtls-zufardhiyaulhaq-dev-cert", "readonly":true}, {"name":"client-mtls-zufardhiyaulhaq-dev-cert-cacert", "mountPath":"/etc/client-mtls-zufardhiyaulhaq-dev-cert-cacert", "readonly":true}]'
+        sidecar.istio.io/userVolume: '[{"name":"client-mtls-zufardhiyaulhaq-dev-cert", "secret":{"secretName":"client-mtls-zufardhiyaulhaq-dev-cert"}}, {"name":"client-mtls-zufardhiyaulhaq-dev-cert-cacert", "secret":{"secretName":"client-mtls-zufardhiyaulhaq-dev-cert-cacert"}}]'

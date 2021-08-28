@@ -1,0 +1,23 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: server-mtls-zufardhiyaulhaq-dev-mtls
+  namespace: default
+spec:
+  hosts:
+    - server.mtls.zufardhiyaulhaq.dev
+  http:
+    - match:
+        - port: 80
+      route:
+        - destination:
+            host: server.mtls.zufardhiyaulhaq.dev
+            subset: tls-origination
+            port:
+              number: 443
+      retries:
+        attempts: 3
+        perTryTimeout: 2s
+        retryOn: 5xx
+  exportTo:
+    - "."

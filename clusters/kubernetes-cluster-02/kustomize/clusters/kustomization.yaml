@@ -1,6 +1,7 @@
 resources:
 # Namespace
 - namespaces/default
+- namespaces/development
 - namespaces/infrastructure
 - namespaces/istio-system
 - namespaces/metallb-system

@@ -1,7 +1,7 @@
 
-namespace: default
+namespace: development
 commonLabels:
-  namespace: default
+  namespace: development
   owner: zufardhiyaulhaq
 
 resources:
@@ -10,7 +10,6 @@ resources:
 
 # Service
 - ../../../../../bases/namespace-scope/service/examples-helloworld-v1
-- ../../../../../bases/namespace-scope/service/examples-helloworld-v2
 - ../../../../../bases/namespace-scope/service/grpc-testing
 - ../../../../../bases/namespace-scope/service/http-https-echo
 
@@ -18,7 +17,3 @@ patches:
 - path: patch/serviceaccount.yaml
   target:
     kind: ServiceAccount
-- path: patch/example-helloworld-v1.yaml
-  target:
-    kind: Deployment
-    name: examples-helloworld-v1

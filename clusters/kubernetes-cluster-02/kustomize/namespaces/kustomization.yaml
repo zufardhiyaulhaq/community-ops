@@ -1,5 +1,6 @@
 resources:
 - default
+- development
 - infrastructure
 - istio-system
 - metallb-system

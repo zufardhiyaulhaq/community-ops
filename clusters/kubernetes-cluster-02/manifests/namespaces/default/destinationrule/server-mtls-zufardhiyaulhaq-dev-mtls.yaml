@@ -1,0 +1,21 @@
+apiVersion: networking.istio.io/v1beta1
+kind: DestinationRule
+metadata:
+  name: server-mtls-zufardhiyaulhaq-dev-mtls
+  namespace: default
+spec:
+  host: server.mtls.zufardhiyaulhaq.dev
+  subsets:
+    - name: tls-origination
+      trafficPolicy:
+        portLevelSettings:
+          - port:
+              number: 443
+            tls:
+              mode: MUTUAL
+              clientCertificate: /etc/client-mtls-zufardhiyaulhaq-dev-cert/tls.crt
+              privateKey: /etc/client-mtls-zufardhiyaulhaq-dev-cert/tls.key
+              caCertificates: /etc/client-mtls-zufardhiyaulhaq-dev-cert-cacert/cacert
+              sni: server.mtls.zufardhiyaulhaq.dev
+  exportTo:
+    - "."
