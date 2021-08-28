@@ -1,0 +1,57 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-274
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 274
+  date: 08/28/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Easy, secure Kubernetes authentication with pinniped
+    url: https://community.cncf.io/e/mb9gdg/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_ZK4z1uAtxpSU9ok8mRe5MDgMUI44YfB0uA8oOGblF7VCyIm9TM1HecvddhXyYBAU9EiWy
+    type: ICYMI
+  - title: Gear up for performance - Leveraging eBPF on Openshift with Project Calico
+    url: https://community.cncf.io/e/m6vwy2/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_ZK4z1uAtxpSU9ok8mRe5MDgMUI44YfB0uA8oOGblF7VCyIm9TM1HecvddhXyYBAU9EiWy
+    type: ICYMI
+  - title: What is the cost of a secret?
+    url: https://community.cncf.io/e/mm7eth/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_ZK4z1uAtxpSU9ok8mRe5MDgMUI44YfB0uA8oOGblF7VCyIm9TM1HecvddhXyYBAU9EiWy
+    type: ICYMI
+  - title: Next generation observability using open source monitoring
+    url: https://community.cncf.io/e/mnaf3s/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_ZK4z1uAtxpSU9ok8mRe5MDgMUI44YfB0uA8oOGblF7VCyIm9TM1HecvddhXyYBAU9EiWy
+    type: ICYMI
+  - title: KEDA, with Tom Kerkhove
+    url: https://kubernetespodcast.com/episode/160-keda/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_ZK4z1uAtxpSU9ok8mRe5MDgMUI44YfB0uA8oOGblF7VCyIm9TM1HecvddhXyYBAU9EiWy
+    type: Editorial
+  - title: Maintaining Envoy proxy with Snow Petterson
+    url: https://podcast.curiefense.io/21?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_ZK4z1uAtxpSU9ok8mRe5MDgMUI44YfB0uA8oOGblF7VCyIm9TM1HecvddhXyYBAU9EiWy
+    type: Editorial
+  - title: Understanding artifact registry vs. container registry
+    url: http://cloud.google.com/blog/products/application-development/understanding-artifact-registry-vs-container-registry?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_ZK4z1uAtxpSU9ok8mRe5MDgMUI44YfB0uA8oOGblF7VCyIm9TM1HecvddhXyYBAU9EiWy
+    type: Editorial
+  - title: OpenTelemetry becomes a CNCF incubating project
+    url: https://www.cncf.io/blog/2021/08/26/opentelemetry-becomes-a-cncf-incubating-project/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_ZK4z1uAtxpSU9ok8mRe5MDgMUI44YfB0uA8oOGblF7VCyIm9TM1HecvddhXyYBAU9EiWy
+    type: Editorial
+  - title: Take Part 2 of the CNCF Cloud Native Survey today!
+    url: https://www.surveymonkey.com/r/LZT2CR3?utm_content=176558408&utm_medium=social&utm_source=twitter&hss_channel=tw-3286770860&_hsenc=p2ANqtz-_ZK4z1uAtxpSU9ok8mRe5MDgMUI44YfB0uA8oOGblF7VCyIm9TM1HecvddhXyYBAU9EiWy
+    type: Editorial
+  - title: How to secure containers with Cosign and Distroless images
+    url: https://www.infracloud.io/blogs/secure-containers-cosign-distroless-images?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_ZK4z1uAtxpSU9ok8mRe5MDgMUI44YfB0uA8oOGblF7VCyIm9TM1HecvddhXyYBAU9EiWy
+    type: Technical
+  - title: Writing a Kubernetes validating webhook using Python
+    url: https://kmitevski.com/writing-a-kubernetes-validating-webhook-using-python/?swcfpc=1&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_ZK4z1uAtxpSU9ok8mRe5MDgMUI44YfB0uA8oOGblF7VCyIm9TM1HecvddhXyYBAU9EiWy
+    type: Technical
+  - title: How to leverage Insomnia as a GraphQL client
+    url: https://konghq.com/blog/insomnia-graphql/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_ZK4z1uAtxpSU9ok8mRe5MDgMUI44YfB0uA8oOGblF7VCyIm9TM1HecvddhXyYBAU9EiWy
+    type: Technical
+  - title: Serverless storage for your functions from the Datastax Astra DB
+    url: https://www.openfaas.com/blog/faas-storage-cassandra-astra/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_ZK4z1uAtxpSU9ok8mRe5MDgMUI44YfB0uA8oOGblF7VCyIm9TM1HecvddhXyYBAU9EiWy
+    type: Technical
+  - title: kubescape is the first tool for testing if Kubernetes is deployed securely
+      as defined in Kubernetes Hardening Guidance by to NSA and CISA
+    url: https://github.com/armosec/kubescape?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_ZK4z1uAtxpSU9ok8mRe5MDgMUI44YfB0uA8oOGblF7VCyIm9TM1HecvddhXyYBAU9EiWy
+    type: Technical
