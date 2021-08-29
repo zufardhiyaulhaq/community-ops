@@ -1,0 +1,53 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-376
+  namespace: golang-community
+spec:
+  name: Golang Weekly 376
+  date: 08/29/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Go 1.17 Released
+    url: https://golangweekly.com/link/112958/web
+    type: News
+  - title: Tidying Up the Go Web Experience with go.dev
+    url: https://golangweekly.com/link/112962/web
+    type: News
+  - title: An Operations-Free Document Database with ACID Transactions
+    url: https://golangweekly.com/link/112965/web
+    type: News
+  - title: Error Stack Traces in Go with x/xerror
+    url: https://golangweekly.com/link/112970/web
+    type: News
+  - title: The Underutilized Usefulness of sync.Once
+    url: https://golangweekly.com/link/112974/web
+    type: News
+  - title: Using Go Generics
+    url: https://golangweekly.com/link/112975/web
+    type: News
+  - title: Building Production Ready REST APIs in Go
+    url: https://golangweekly.com/link/112976/web
+    type: News
+  - title: Build Scalable Applications with AWS Lambda and Go
+    url: https://golangweekly.com/link/112977/web
+    type: News
+  - title: Brooks, Wirth and Go
+    url: https://golangweekly.com/link/112978/web
+    type: News
+  - title: 'Gateway: A Drop-In Replacement for net/http for AWS Lambda and API Gateway'
+    url: https://golangweekly.com/link/112979/web
+    type: News
+  - title: 'Acmez 1.0: Premier ACME Client Library for Go'
+    url: https://golangweekly.com/link/112980/web
+    type: News
+  - title: 'sqlc 1.9: Generate Type Safe Go(lang) from SQL'
+    url: https://golangweekly.com/link/112982/web
+    type: News
+  - title: 'ReGit: A Tiny Git-Compatible Git Implementation in Go'
+    url: https://golangweekly.com/link/112984/web
+    type: News
