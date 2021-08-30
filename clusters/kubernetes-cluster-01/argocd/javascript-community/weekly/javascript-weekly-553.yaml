@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-553
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 553
+  date: 08/30/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'jsc: My New Best Friend'
+    url: https://javascriptweekly.com/link/113025/web
+    type: News
+  - title: TypeScript 4.4 Released
+    url: https://javascriptweekly.com/link/113026/web
+    type: News
+  - title: Build a Zoom Clone by Following Working Code
+    url: https://javascriptweekly.com/link/113027/web
+    type: News
+  - title: An Introduction to the Solid JavaScript Library
+    url: https://javascriptweekly.com/link/113028/web
+    type: News
+  - title: Kyle Simpson's 'You Don't Know JS Yet' Second Edition Campaign
+    url: https://javascriptweekly.com/link/113030/web
+    type: News
+  - title: 'React Brussels: The First React Conference in the Heart of Europe'
+    url: https://javascriptweekly.com/link/113036/web
+    type: News
+  - title: An Introduction to jq
+    url: https://javascriptweekly.com/link/113047/web
+    type: News
+  - title: How to Use Promise.any()
+    url: https://javascriptweekly.com/link/113048/web
+    type: News
+  - title: How to Build a Serverless Subscription Site with Stripe
+    url: https://javascriptweekly.com/link/113049/web
+    type: News
+  - title: '[Guide] Ship Fast. Stay Ahead of the Competition'
+    url: https://javascriptweekly.com/link/113050/web
+    type: News
+  - title: Building the Cloudflare Summer Challenge Application
+    url: https://javascriptweekly.com/link/113051/web
+    type: News
+  - title: 'React Toastify 8.0: Big Changes for a Mature Notifications Library'
+    url: https://javascriptweekly.com/link/113056/web
+    type: News
+  - title: 'simplex-noise.js: A Fast Simplex Noise Implementation'
+    url: https://javascriptweekly.com/link/113057/web
+    type: News
+  - title: 'filter-console 1.0: Filter Out Unwanted console.log() Output'
+    url: https://javascriptweekly.com/link/113060/web
+    type: News
+  - title: Tried. Tested. Trusted. Studio 3T - Power Tools for MongoDB
+    url: https://javascriptweekly.com/link/113061/web
+    type: News
+  - title: 'Drift 1.5: Add ''Zoom on Hover'' to Images on Your Site'
+    url: https://javascriptweekly.com/link/113062/web
+    type: News
+  - title: 'Nanny State: (Very) Simple State Management'
+    url: https://javascriptweekly.com/link/113064/web
+    type: News
+  - title: 'Vuestic UI 1.2: A Vue.js 3.0 UI Framework'
+    url: https://javascriptweekly.com/link/113066/web
+    type: News
+  - title: 'REAFLOW: Node-Based Visualizations for React'
+    url: https://javascriptweekly.com/link/113068/web
+    type: News
