@@ -1,0 +1,26 @@
+apiVersion: community.io/v1alpha1
+kind: Meetup
+metadata:
+  name: online-meetup-september-2021-reminder-1
+  namespace: kubernetes-community
+spec:
+  name: "Kubernetes Cloud Native Online Meetup September 2021"
+  date: "September 2, 2021"
+  time: "19.00"
+  place: "Online"
+  city: "Indonesia"
+  sponsor: "Cloud Native Computing Foundation"
+  registration_url: "online.kubernetescommunity.id"
+  image: "https://raw.githubusercontent.com/cloudnative-id/artwork/master/poster/online/2-September-2021.png"
+  tags:
+    - meetup
+    - CNCF
+  speakers:
+    - name: "Bachril Qirom"
+      position: "DevOps Engineer"
+      company: "Tokopedia"
+      title: "High Available and Unlimited Retention Prometheus using Thanos"
+    - name: "Zufar Dhiyaulhaq"
+      position: "Cloud Platform Engineer"
+      company: "Gojek"
+      title: "Istio Multicluster for Zero Downtime Migration"
