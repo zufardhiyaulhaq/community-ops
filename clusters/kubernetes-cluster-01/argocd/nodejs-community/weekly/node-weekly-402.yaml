@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-402
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 402
+  date: 09/01/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Introducing Mongoose 6.0.0
+    url: https://nodeweekly.com/link/112865/web
+    type: News
+  - title: Node v16.8.0 (Current) Released
+    url: https://nodeweekly.com/link/112867/web
+    type: News
+  - title: Enhance Node.js Performance with Datadog APM
+    url: https://nodeweekly.com/link/112874/web
+    type: News
+  - title: 'zx 3: A Tool for Writing Better Shell Scripts'
+    url: https://nodeweekly.com/link/112875/web
+    type: News
+  - title: The npm Registry is Deprecating TLS 1.0 and TLS 1.1
+    url: https://nodeweekly.com/link/112877/web
+    type: News
+  - title: An Introduction to jq
+    url: https://nodeweekly.com/link/112878/web
+    type: News
+  - title: '[Guide] Ship Fast. Stay Ahead of the Competition'
+    url: https://nodeweekly.com/link/112879/web
+    type: News
+  - title: 'NAN to Node-API Migration: A Short Story'
+    url: https://nodeweekly.com/link/112880/web
+    type: News
+  - title: libOBS (OBS Studio) Bindings for Node.js and Electron
+    url: https://nodeweekly.com/link/112882/web
+    type: News
+  - title: 'LevelGraph 3.0: A JavaScript Graph Database for Node and Browser'
+    url: https://nodeweekly.com/link/112885/web
+    type: News
+  - title: 'undici 4.5: A Modern HTTP/1.1 Client for Node'
+    url: https://nodeweekly.com/link/112886/web
+    type: News
+  - title: 'Exclusive: Get Retool Free for Up to a Year and $160,000 in Startup Discounts'
+    url: https://nodeweekly.com/link/112888/web
+    type: News
+  - title: 'http-server: A Simple Zero-Conf Command-Line HTTP Server'
+    url: https://nodeweekly.com/link/112889/web
+    type: News
+  - title: 'pg-boss 6.2.0: Postgres + Node Job Queueing System'
+    url: https://nodeweekly.com/link/112890/web
+    type: News
+  - title: 'Tedious 12.0: A TDS Module for Connecting to SQL Server Databases'
+    url: https://nodeweekly.com/link/112891/web
+    type: News
+  - title: 'Fishdraw: Procedurally Generated Fish Drawings'
+    url: https://nodeweekly.com/link/112892/web
+    type: News
