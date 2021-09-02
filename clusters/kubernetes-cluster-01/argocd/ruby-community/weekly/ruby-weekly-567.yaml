@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-567
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 567
+  date: 09/02/2021
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Privacy-Aware Rails Consoles with console1984 and audits1984
+    url: https://rubyweekly.com/link/112897/web
+    type: News
+  - title: A Tour of Twist
+    url: https://rubyweekly.com/link/112900/web
+    type: News
+  - title: 'Free eBook: Effective Indexing in Postgres'
+    url: https://rubyweekly.com/link/112901/web
+    type: News
+  - title: Decomposing a Massive Rails Monolith with Shopify's Kirsten Westeinde
+    url: https://rubyweekly.com/link/112906/web
+    type: News
+  - title: Responsible Monkeypatching in Ruby
+    url: https://rubyweekly.com/link/112911/web
+    type: News
+  - title: An Introduction to jq for JSON Wrangling
+    url: https://rubyweekly.com/link/112912/web
+    type: News
+  - title: Submitting Many ActionMail Jobs at Once with Sidekiq
+    url: https://rubyweekly.com/link/112913/web
+    type: News
+  - title: How to Send Emails with Ruby
+    url: https://rubyweekly.com/link/112914/web
+    type: News
+  - title: Notes on Retrying All Jobs with ActiveJob retry_on
+    url: https://rubyweekly.com/link/112915/web
+    type: News
+  - title: 'Better Ruby Gemfile Security: A Step-by-Step Guide using Snyk'
+    url: https://rubyweekly.com/link/112916/web
+    type: News
+  - title: Run RuboCop on git commit with Overcommit
+    url: https://rubyweekly.com/link/112917/web
+    type: News
+  - title: Brittany and Jemma Talk Life Stories and Some of Their Favorite Things
+    url: https://rubyweekly.com/link/112919/web
+    type: News
+  - title: Diggin’ and Fetchin’ with TruffleRuby
+    url: https://rubyweekly.com/link/112921/web
+    type: News
+  - title: 'oktest: A New Testing Library for Ruby'
+    url: https://rubyweekly.com/link/112922/web
+    type: News
+  - title: 'Modularity: Traits and Partial Classes for Ruby'
+    url: https://rubyweekly.com/link/112923/web
+    type: News
+  - title: 'Crunchy Bridge: Fully Managed Cloud Postgres'
+    url: https://rubyweekly.com/link/112924/web
+    type: News
+  - title: 'wipe_out: Library for Resetting Data in Rails ActiveRecord Models'
+    url: https://rubyweekly.com/link/112925/web
+    type: News
+  - title: 'Standard 1.2: A Ruby Style Guide, Linter and Formatter'
+    url: https://rubyweekly.com/link/112926/web
+    type: News
+  - title: 'PNGlitch: A Ruby Library to Glitch PNG Images'
+    url: https://rubyweekly.com/link/112936/web
+    type: News
