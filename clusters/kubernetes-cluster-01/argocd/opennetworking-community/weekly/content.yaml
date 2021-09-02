@@ -382,8 +382,8 @@ content:
 - title: Project Pronto wants to make 5G networks more reliable and secure
   url: https://network-king.net/project-pronto-wants-to-make-5g-networks-more-reliable-and-secure/
   kind: Open Networking News
-  isDelivered: false
+  isDelivered: true
 - title: Community Highlights – August 2021
   url: https://opennetworking.org/news-and-events/blog/community-highlights-august-2021/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
