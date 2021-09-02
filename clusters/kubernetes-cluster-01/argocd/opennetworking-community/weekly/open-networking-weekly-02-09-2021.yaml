@@ -1,0 +1,20 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-02-09-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 02-09-2021
+  date: 09/02/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Project Pronto wants to make 5G networks more reliable and secure
+    url: https://network-king.net/project-pronto-wants-to-make-5g-networks-more-reliable-and-secure/
+    type: Open Networking News
+  - title: Community Highlights – August 2021
+    url: https://opennetworking.org/news-and-events/blog/community-highlights-august-2021/
+    type: Open Networking Blog
