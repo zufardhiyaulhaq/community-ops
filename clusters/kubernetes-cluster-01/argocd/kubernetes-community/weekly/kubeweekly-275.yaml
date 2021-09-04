@@ -1,0 +1,63 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-275
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 275
+  date: 09/04/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Windows came second
+    url: https://community.cncf.io/e/m4xr3v/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EPpUJC2vrN6GG-aUa8fjGTzL9BQXxDixYoRTTWmImVLKud6TP4q-9Q281C_9e-qPlRQxy
+    type: ICYMI
+  - title: Composing your way to a control plane powered future
+    url: https://community.cncf.io/e/m5cgb7/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EPpUJC2vrN6GG-aUa8fjGTzL9BQXxDixYoRTTWmImVLKud6TP4q-9Q281C_9e-qPlRQxy
+    type: ICYMI
+  - title: Updates on Google's continued collaboration with NIST to secure the software
+      supply chain
+    url: https://security.googleblog.com/2021/08/updates-on-our-continued-collaboration.html?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EPpUJC2vrN6GG-aUa8fjGTzL9BQXxDixYoRTTWmImVLKud6TP4q-9Q281C_9e-qPlRQxy
+    type: Editorial
+  - title: Unicron, with Daniel Megyesi
+    url: https://kubernetespodcast.com/episode/161-unicron/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EPpUJC2vrN6GG-aUa8fjGTzL9BQXxDixYoRTTWmImVLKud6TP4q-9Q281C_9e-qPlRQxy
+    type: Editorial
+  - title: How FinOps changed the way businesses approach the cloud
+    url: https://www.cncf.io/blog/2021/08/30/how-finops-changed-the-way-businesses-approach-the-cloud/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EPpUJC2vrN6GG-aUa8fjGTzL9BQXxDixYoRTTWmImVLKud6TP4q-9Q281C_9e-qPlRQxy
+    type: Editorial
+  - title: Docker is updating and extending our product subscriptions
+    url: https://www.docker.com/blog/updating-product-subscriptions/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EPpUJC2vrN6GG-aUa8fjGTzL9BQXxDixYoRTTWmImVLKud6TP4q-9Q281C_9e-qPlRQxy
+    type: Editorial
+  - title: A guide to spot-readiness in Kubernetes
+    url: https://blog.kubecost.com/blog/spot-readiness/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EPpUJC2vrN6GG-aUa8fjGTzL9BQXxDixYoRTTWmImVLKud6TP4q-9Q281C_9e-qPlRQxy
+    type: Editorial
+  - title: September 2021 update
+    url: https://fluxcd.io/blog/2021/09/september-2021-update/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EPpUJC2vrN6GG-aUa8fjGTzL9BQXxDixYoRTTWmImVLKud6TP4q-9Q281C_9e-qPlRQxy
+    type: Editorial
+  - title: How Istio, Tempo, and Loki speed up debugging for microservices
+    url: https://grafana.com/blog/2021/08/31/how-istio-tempo-and-loki-speed-up-debugging-for-microservices/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EPpUJC2vrN6GG-aUa8fjGTzL9BQXxDixYoRTTWmImVLKud6TP4q-9Q281C_9e-qPlRQxy
+    type: Editorial
+  - title: Why cloud native open source is critical for Twitter and Spotify
+    url: https://thenewstack.io/why-cloud-native-open-source-is-critical-for-twitter-and-spotify/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EPpUJC2vrN6GG-aUa8fjGTzL9BQXxDixYoRTTWmImVLKud6TP4q-9Q281C_9e-qPlRQxy
+    type: Editorial
+  - title: Enable seccomp for all workloads with a new v1.22 alpha feature
+    url: https://kubernetes.io/blog/2021/08/25/seccomp-default/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EPpUJC2vrN6GG-aUa8fjGTzL9BQXxDixYoRTTWmImVLKud6TP4q-9Q281C_9e-qPlRQxy
+    type: Technical
+  - title: Managing Kubernetes seccomp profiles with security profiles operator
+    url: https://medium.com/@LachlanEvenson/managing-kubernetes-seccomp-profiles-with-security-profiles-operator-c768cff58b0?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EPpUJC2vrN6GG-aUa8fjGTzL9BQXxDixYoRTTWmImVLKud6TP4q-9Q281C_9e-qPlRQxy
+    type: Technical
+  - title: Shipwright - building container images in Kubernetes
+    url: https://youtu.be/tqsSQTewcwM?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EPpUJC2vrN6GG-aUa8fjGTzL9BQXxDixYoRTTWmImVLKud6TP4q-9Q281C_9e-qPlRQxy
+    type: Technical
+  - title: Distributed tracing with Knative, OpenTelemetry and Jaeger
+    url: https://knative.dev/blog/2021/08/20/distributed-tracing-with-knative-opentelemetry-and-jaeger/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EPpUJC2vrN6GG-aUa8fjGTzL9BQXxDixYoRTTWmImVLKud6TP4q-9Q281C_9e-qPlRQxy
+    type: Technical
+  - title: A Kubernetes engineer's guide to mTLS
+    url: https://buoyant.io/mtls-guide/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EPpUJC2vrN6GG-aUa8fjGTzL9BQXxDixYoRTTWmImVLKud6TP4q-9Q281C_9e-qPlRQxy
+    type: Technical
+  - title: 'Service Mesh 101: The role of Envoy'
+    url: https://konghq.com/blog/envoy-service-mesh/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EPpUJC2vrN6GG-aUa8fjGTzL9BQXxDixYoRTTWmImVLKud6TP4q-9Q281C_9e-qPlRQxy
+    type: Technical
