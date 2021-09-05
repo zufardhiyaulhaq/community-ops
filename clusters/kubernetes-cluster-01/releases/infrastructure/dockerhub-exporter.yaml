@@ -1,0 +1,10 @@
+image:
+  name: "zufardhiyaulhaq/dockerhub-exporter"
+  tag: "v1.1.0"
+
+pullPolicy: "Always"
+
+serviceMonitor:
+  enabled: true
+
+excludedRepository: "ghcr.io,quay.io,k8s.gcr.io,gcr.io"

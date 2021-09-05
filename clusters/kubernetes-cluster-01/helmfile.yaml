@@ -20,6 +20,13 @@ releases:
   values:
   - releases/infrastructure/ngrok-operator.yaml
 
+- name: dockerhub-exporter
+  namespace: infrastructure
+  version: 1.1.0
+  chart: zufardhiyaulhaq/dockerhub-exporter
+  values:
+  - releases/infrastructure/dockerhub-exporter.yaml
+
 - name: sealed-secrets
   namespace: infrastructure
   version: 1.16.1
