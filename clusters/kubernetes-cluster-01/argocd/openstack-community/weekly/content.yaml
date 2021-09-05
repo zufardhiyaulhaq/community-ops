@@ -782,4 +782,4 @@ content:
 - title: 'Large Scale OpenStack: Discussing Software-Defined Supercomputers | OpenInfra Live Recap'
   url: https://superuser.openstack.org/articles/large-scale-openstack-discussing-software-defined-supercomputers-openinfra-live-recap/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
