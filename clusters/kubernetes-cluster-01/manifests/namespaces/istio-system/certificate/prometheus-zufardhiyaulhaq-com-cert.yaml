@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: prometheus-zufardhiyaulhaq-com-cert
+  namespace: istio-system
+spec:
+  secretName: prometheus-zufardhiyaulhaq-com-cert
+  issuerRef:
+    name: zufardhiyaulhaq-com-cluster-issuer
+    kind: ClusterIssuer
+  commonName: "prometheus.zufardhiyaulhaq.com"
+  dnsNames:
+  - "prometheus.zufardhiyaulhaq.com"

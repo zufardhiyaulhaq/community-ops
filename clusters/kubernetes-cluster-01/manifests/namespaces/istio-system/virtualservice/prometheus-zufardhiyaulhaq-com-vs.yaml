@@ -1,0 +1,22 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: prometheus-zufardhiyaulhaq-com-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "prometheus.zufardhiyaulhaq.com"
+  gateways:
+  - istio-system/prometheus-zufardhiyaulhaq-com-gateway
+  http:
+  - name: "prometheus-route"
+    match:
+    - uri:
+        prefix: /
+    route:
+      - destination:
+          port:
+            number: 9090
+          host: prometheus-operated.infrastructure.svc.cluster.local
+  exportTo:
+    - "."
