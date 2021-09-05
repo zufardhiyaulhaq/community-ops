@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-05-09-2021
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 05-09-2021
+  date: 09/05/2021
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: 'Large Scale OpenStack: Discussing Software-Defined Supercomputers | OpenInfra Live Recap'
+    url: https://superuser.openstack.org/articles/large-scale-openstack-discussing-software-defined-supercomputers-openinfra-live-recap/
+    type: OpenStack Super User News
