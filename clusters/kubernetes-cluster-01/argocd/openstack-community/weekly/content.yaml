@@ -779,3 +779,7 @@ content:
   url: https://superuser.openstack.org/articles/2021-superuser-awards-nominations-open/
   kind: OpenStack Super User News
   isDelivered: true
+- title: 'Large Scale OpenStack: Discussing Software-Defined Supercomputers | OpenInfra Live Recap'
+  url: https://superuser.openstack.org/articles/large-scale-openstack-discussing-software-defined-supercomputers-openinfra-live-recap/
+  kind: OpenStack Super User News
+  isDelivered: false
