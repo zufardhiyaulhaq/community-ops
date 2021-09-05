@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-377
+  namespace: golang-community
+spec:
+  name: Golang Weekly 377
+  date: 09/05/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'The Tale of Monkey: A ''Satirical'' Package Used Unwittingly..'
+    url: https://golangweekly.com/link/113343/web
+    type: News
+  - title: A Guide to Interfaces in Go
+    url: https://golangweekly.com/link/113346/web
+    type: News
+  - title: Gophers - Opportunity is Knocking
+    url: https://golangweekly.com/link/113299/web
+    type: News
+  - title: Go Multi-Module Workspace Mode, A Feature Coming to Go 1.18
+    url: https://golangweekly.com/link/113348/web
+    type: News
+  - title: A New Way of Blogging About Go?
+    url: https://golangweekly.com/link/113350/web
+    type: News
+  - title: How to Release an Ebiten Game for Steam
+    url: https://golangweekly.com/link/113352/web
+    type: News
+  - title: Plugins in Go
+    url: https://golangweekly.com/link/113357/web
+    type: News
+  - title: 'glog: Leveled Execution Logs for Go'
+    url: https://golangweekly.com/link/113358/web
+    type: News
+  - title: 'SeqKit 2.0: A Go Toolkit for FASTA/Q File Manipulation'
+    url: https://golangweekly.com/link/113360/web
+    type: News
+  - title: The Fastest API to Set Up Transactional Notifications
+    url: https://golangweekly.com/link/113303/web
+    type: News
+  - title: 'Centrifugo V3: Scalable Real-Time Messaging Server'
+    url: https://golangweekly.com/link/113362/web
+    type: News
+  - title: 'GoKart 0.2.0: A Static Analysis Tool for Securing Go Code'
+    url: https://golangweekly.com/link/113363/web
+    type: News
+  - title: 'coraza-waf: A ModSecurity Compatible Web Application Firewall'
+    url: https://golangweekly.com/link/113364/web
+    type: News
+  - title: 'go-nfs: A Go-Powered NFSv3 Server'
+    url: https://golangweekly.com/link/113365/web
+    type: News
+  - title: 'WASM-4: Build Retro Games for a ''Fantasy Console'' with WebAssembly'
+    url: https://golangweekly.com/link/113355/web
+    type: News
+  - title: 'countdown: Terminal Countdown Timer'
+    url: https://golangweekly.com/link/113366/web
+    type: News
