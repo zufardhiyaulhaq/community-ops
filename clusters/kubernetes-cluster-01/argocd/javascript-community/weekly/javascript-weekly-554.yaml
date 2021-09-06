@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-554
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 554
+  date: 09/06/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Visual Studio Code August 2021 Released
+    url: https://javascriptweekly.com/link/113306/web
+    type: News
+  - title: 'A Look at an ES2022 Feature: Class Static Initialization Blocks'
+    url: https://javascriptweekly.com/link/113307/web
+    type: News
+  - title: Search Across the Open Source Universe with Sourcegraph
+    url: https://javascriptweekly.com/link/113286/web
+    type: News
+  - title: Electron 14.0.0 Released
+    url: https://javascriptweekly.com/link/113312/web
+    type: News
+  - title: 'Neutralino 2.7: Portable, Lightweight Desktop App Framework'
+    url: https://javascriptweekly.com/link/113314/web
+    type: News
+  - title: '''I Built A $300K/Year Vue.js Component Library'''
+    url: https://javascriptweekly.com/link/113320/web
+    type: News
+  - title: Working with Tree Data Structures
+    url: https://javascriptweekly.com/link/113322/web
+    type: News
+  - title: Building a Serverless GIF Generator with AWS Lambda
+    url: https://javascriptweekly.com/link/113323/web
+    type: News
+  - title: Build a React Chat Application
+    url: https://javascriptweekly.com/link/113294/web
+    type: News
+  - title: Common npm Mistakes Every Developer Should Avoid
+    url: https://javascriptweekly.com/link/113324/web
+    type: News
+  - title: State Management in Svelte Apps
+    url: https://javascriptweekly.com/link/113325/web
+    type: News
+  - title: Why Electron Apps Are Fine
+    url: https://javascriptweekly.com/link/113326/web
+    type: News
+  - title: State Management in Next.js Apps
+    url: https://javascriptweekly.com/link/113327/web
+    type: News
+  - title: 'TypeIt: A Versatile Pretend-Typing Effect Utility'
+    url: https://javascriptweekly.com/link/113330/web
+    type: News
+  - title: 'Stitches 1.0: The Modern Styling Library'
+    url: https://javascriptweekly.com/link/113331/web
+    type: News
+  - title: Run Faster and Safer Than Linux with Open Source Unikernels
+    url: https://javascriptweekly.com/link/113296/web
+    type: News
+  - title: 'smartcrop.js: Content Aware Image Cropping'
+    url: https://javascriptweekly.com/link/113332/web
+    type: News
+  - title: 'Roadroller: A Heavyweight ''Crusher'' for JavaScript Code'
+    url: https://javascriptweekly.com/link/113333/web
+    type: News
+  - title: 'Crank.js: Write JSX-Driven Components with Functions, Promises and Generators'
+    url: https://javascriptweekly.com/link/113335/web
+    type: News
+  - title: Announcing JavaScript Security Sessions at SnykCon | Register for Free
+    url: https://javascriptweekly.com/link/113295/web
+    type: News
+  - title: 'parse-domain: Split Hostnames Into Parts'
+    url: https://javascriptweekly.com/link/113337/web
+    type: News
+  - title: 'Mafs: React Components for Math Visualization'
+    url: https://javascriptweekly.com/link/113339/web
+    type: News
+  - title: 'bundle: A Quick npm Package Size Checker'
+    url: https://javascriptweekly.com/link/113342/web
+    type: News
