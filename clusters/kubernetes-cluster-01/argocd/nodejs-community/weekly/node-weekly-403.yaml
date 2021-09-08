@@ -1,0 +1,69 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-403
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 403
+  date: 09/08/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Deploying a Cloud Spanner-Based Node App
+    url: https://nodeweekly.com/link/113219/web
+    type: News
+  - title: Electron 14.0.0 Released
+    url: https://nodeweekly.com/link/113221/web
+    type: News
+  - title: Don’t Let the Bad Bugs Bite!
+    url: https://nodeweekly.com/link/113223/web
+    type: News
+  - title: Best Practices for Logging in Node
+    url: https://nodeweekly.com/link/113224/web
+    type: News
+  - title: August 31 2021 Security Releases for Node 12.x and 14.x
+    url: https://nodeweekly.com/link/113225/web
+    type: News
+  - title: How to Use Puppeteer to Automate Chrome in an API with Netlify Serverless Functions
+    url: https://nodeweekly.com/link/113228/web
+    type: News
+  - title: '''Software Development Topics I''ve Changed My Mind On After Six Years
+      in the Industry'''
+    url: https://nodeweekly.com/link/113229/web
+    type: News
+  - title: '[Free Workshop] Building an IoT Application with InfluxDB'
+    url: https://nodeweekly.com/link/113230/web
+    type: News
+  - title: Reverse Proxying Node Apps on Windows with IIS
+    url: https://nodeweekly.com/link/113231/web
+    type: News
+  - title: Building Reactive Systems with Node.js
+    url: https://nodeweekly.com/link/113232/web
+    type: News
+  - title: Using Passport for Authentication in Node.js
+    url: https://nodeweekly.com/link/113233/web
+    type: News
+  - title: 'smartcrop.js: Content Aware Image Cropping'
+    url: https://nodeweekly.com/link/113234/web
+    type: News
+  - title: 'node-fetch 3.0: Lightweight Module Bringing the Fetch API to Node'
+    url: https://nodeweekly.com/link/113235/web
+    type: News
+  - title: 'JZZ 1.4.0: A MIDI Library for Node and the Browser'
+    url: https://nodeweekly.com/link/113236/web
+    type: News
+  - title: '[Guide] Ship Fast. Stay Ahead of the Competition'
+    url: https://nodeweekly.com/link/113237/web
+    type: News
+  - title: 'file-icon: Get the Icon of a File or App on macOS as a PNG Image'
+    url: https://nodeweekly.com/link/113238/web
+    type: News
+  - title: 'on-change 4.0: Watch an Object or Array for Changes'
+    url: https://nodeweekly.com/link/113239/web
+    type: News
+  - title: 'Fiddly: Create Beautiful and Simple HTML Pages From Your readme.md Files'
+    url: https://nodeweekly.com/link/113240/web
+    type: News
