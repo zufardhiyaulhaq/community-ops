@@ -387,3 +387,15 @@ content:
   url: https://opennetworking.org/news-and-events/blog/community-highlights-august-2021/
   kind: Open Networking Blog
   isDelivered: true
+- title: Using P4 and Programmable Switches to Implement a 4G/5G UPF in Aether
+  url: https://opennetworking.org/news-and-events/blog/using-p4-and-programmable-switches-to-implement-a-4g-5g-upf-in-aether/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: Broadband World Forum 2021
+  url: https://opennetworking.org/events/broadband-world-forum-2021/
+  kind: Open Networking Event
+  isDelivered: false
+- title: OCP Global Summit 2021
+  url: https://opennetworking.org/events/ocp-global-summit-2021/
+  kind: Open Networking Event
+  isDelivered: false
