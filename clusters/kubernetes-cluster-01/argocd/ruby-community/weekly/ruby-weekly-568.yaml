@@ -1,0 +1,81 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-568
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 568
+  date: 09/09/2021
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'Ruby is Still a Diamond: Some Reflections'
+    url: https://rubyweekly.com/link/113163/web
+    type: News
+  - title: 'OpenSourceRails: A Curated List of Open-Source Rails Apps'
+    url: https://rubyweekly.com/link/113168/web
+    type: News
+  - title: Fast Redis Hosting and Analytics
+    url: https://rubyweekly.com/link/113165/web
+    type: News
+  - title: My Recipe for Optimizing Performance of Rails Apps
+    url: https://rubyweekly.com/link/113164/web
+    type: News
+  - title: Previewing Rails 7's Upcoming Changes
+    url: https://rubyweekly.com/link/113170/web
+    type: News
+  - title: A Rubyist's Guide to Vite.js
+    url: https://rubyweekly.com/link/113174/web
+    type: News
+  - title: 'Using Hotwire with Rails: A Basic Introduction'
+    url: https://rubyweekly.com/link/113175/web
+    type: News
+  - title: Seamlessly Integrate Video into Your Ruby App
+    url: https://rubyweekly.com/link/113176/web
+    type: News
+  - title: 'Temporary State In Tests: Bloc(k) Party'
+    url: https://rubyweekly.com/link/113177/web
+    type: News
+  - title: Converting Unix Epoch Timestamps to Ruby Objects
+    url: https://rubyweekly.com/link/113178/web
+    type: News
+  - title: How to Get the Most Out of RubyMine’s Code Assistance with RBS
+    url: https://rubyweekly.com/link/113179/web
+    type: News
+  - title: Rails Monolith Modularisation with CQRS
+    url: https://rubyweekly.com/link/113180/web
+    type: News
+  - title: Compressing Your HTML Responses
+    url: https://rubyweekly.com/link/113181/web
+    type: News
+  - title: Don't Use Comments; Use Code
+    url: https://rubyweekly.com/link/113182/web
+    type: News
+  - title: 'hexdump.rb 1.0: Fully Featured Fast Hexdumping for Ruby'
+    url: https://rubyweekly.com/link/113183/web
+    type: News
+  - title: 'Ever: A Callback-less Event Reactor for Ruby'
+    url: https://rubyweekly.com/link/113185/web
+    type: News
+  - title: 'GithubWebhook: A Quick Way to Process GitHub Webhooks in Rails'
+    url: https://rubyweekly.com/link/113186/web
+    type: News
+  - title: 'RModBus: An Implementation of the ModBus Protocol in Pure Ruby'
+    url: https://rubyweekly.com/link/113188/web
+    type: News
+  - title: 'Polyphony: Fine-Grained Concurrency for Ruby'
+    url: https://rubyweekly.com/link/113190/web
+    type: News
+  - title: 'RQRCode 2.1: A Ruby Library for Generating QR Codes'
+    url: https://rubyweekly.com/link/113191/web
+    type: News
+  - title: 'rails-footnotes: Footnotes About Your Application and Links Back to Your
+      Editor'
+    url: https://rubyweekly.com/link/113193/web
+    type: News
+  - title: 'Fork Freshness: A Twitter Bot to Check Project Lifespans'
+    url: https://rubyweekly.com/link/113194/web
+    type: News
