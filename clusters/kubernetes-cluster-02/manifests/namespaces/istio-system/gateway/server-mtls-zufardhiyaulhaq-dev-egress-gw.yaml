@@ -1,7 +1,7 @@
 apiVersion: networking.istio.io/v1alpha3
 kind: Gateway
 metadata:
-  name: server-mtls-zufardhiyaulhaq-dev-mtls
+  name: server-mtls-zufardhiyaulhaq-dev-egress-gw
   namespace: istio-system
 spec:
   selector:

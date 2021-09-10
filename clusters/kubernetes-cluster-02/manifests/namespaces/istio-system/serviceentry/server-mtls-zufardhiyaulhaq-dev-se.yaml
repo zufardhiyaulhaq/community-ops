@@ -1,7 +1,7 @@
 apiVersion: networking.istio.io/v1alpha3
 kind: ServiceEntry
 metadata:
-  name: server-mtls-zufardhiyaulhaq-dev-mtls
+  name: server-mtls-zufardhiyaulhaq-dev-se
   namespace: istio-system
 spec:
   hosts:
@@ -11,3 +11,4 @@ spec:
     name: https-port
     protocol: HTTPS
   resolution: DNS
+  location: MESH_EXTERNAL
