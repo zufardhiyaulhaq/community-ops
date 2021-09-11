@@ -1,0 +1,44 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-276
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 276
+  date: 09/11/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Kubernetes clusters need persistent data
+    url: https://community.cncf.io/e/m6dwcb/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9EXBTpVhOWC0DW6h8UtO5aF84-FxTnhJcnH5WxcnnPJ5ZVJ-i_aNTHCinCpDmNn0VRjD1W
+    type: ICYMI
+  - title: Ingress-nginx, with Alejandro de Brito Fontes and Ricardo Katz
+    url: https://kubernetespodcast.com/episode/162-ingress-nginx/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9EXBTpVhOWC0DW6h8UtO5aF84-FxTnhJcnH5WxcnnPJ5ZVJ-i_aNTHCinCpDmNn0VRjD1W
+    type: Editorial
+  - title: How Docker broke in half
+    url: https://www.infoworld.com/article/3632142/how-docker-broke-in-half.html?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9EXBTpVhOWC0DW6h8UtO5aF84-FxTnhJcnH5WxcnnPJ5ZVJ-i_aNTHCinCpDmNn0VRjD1W
+    type: Editorial
+  - title: Infrastructure management going extinct with serverless
+    url: https://sdtimes.com/softwaredev/infrastructure-management-going-extinct-with-serverless/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9EXBTpVhOWC0DW6h8UtO5aF84-FxTnhJcnH5WxcnnPJ5ZVJ-i_aNTHCinCpDmNn0VRjD1W
+    type: Editorial
+  - title: 'Service Mesh 102: Envoy configuration'
+    url: https://konghq.com/blog/envoy-service-mesh-configuration/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9EXBTpVhOWC0DW6h8UtO5aF84-FxTnhJcnH5WxcnnPJ5ZVJ-i_aNTHCinCpDmNn0VRjD1W
+    type: Editorial
+  - title: DZone Live - The KubeCon episode
+    url: https://www.youtube.com/watch?v=ZhL1d3rWNhU&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9EXBTpVhOWC0DW6h8UtO5aF84-FxTnhJcnH5WxcnnPJ5ZVJ-i_aNTHCinCpDmNn0VRjD1W
+    type: Editorial
+  - title: 'Kubernetes CI/CD pipelines: What, why, and how'
+    url: https://ubuntu.com/blog/kubernetes-ci-cd-pipelines-what-why-and-how?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9EXBTpVhOWC0DW6h8UtO5aF84-FxTnhJcnH5WxcnnPJ5ZVJ-i_aNTHCinCpDmNn0VRjD1W
+    type: Technical
+  - title: Prometheus definitive guide part III - Prometheus Operator
+    url: https://www.infracloud.io/blogs/prometheus-operator-helm-guide/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9EXBTpVhOWC0DW6h8UtO5aF84-FxTnhJcnH5WxcnnPJ5ZVJ-i_aNTHCinCpDmNn0VRjD1W
+    type: Technical
+  - title: Sqlcommenter merges with OpenTelemetry
+    url: http://cloud.google.com/blog/products/databases/sqlcommenter-merges-with-opentelemetry?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9EXBTpVhOWC0DW6h8UtO5aF84-FxTnhJcnH5WxcnnPJ5ZVJ-i_aNTHCinCpDmNn0VRjD1W
+    type: Technical
+  - title: 'Gracefully handling Kubernetes API deprecations: The tale of two ingresses'
+    url: https://www.openfaas.com/blog/ingress-api-deprecation/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9EXBTpVhOWC0DW6h8UtO5aF84-FxTnhJcnH5WxcnnPJ5ZVJ-i_aNTHCinCpDmNn0VRjD1W
+    type: Technical
