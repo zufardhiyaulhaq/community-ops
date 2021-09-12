@@ -20,6 +20,13 @@ releases:
   values:
   - releases/infrastructure/ngrok-operator.yaml
 
+- name: istio-ratelimit-operator
+  namespace: infrastructure
+  version: 1.0.0
+  chart: zufardhiyaulhaq/istio-ratelimit-operator
+  values:
+  - releases/infrastructure/istio-ratelimit-operator.yaml
+
 - name: dockerhub-exporter
   namespace: infrastructure
   version: 1.1.1
