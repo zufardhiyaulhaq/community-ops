@@ -1,0 +1,58 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-378
+  namespace: golang-community
+spec:
+  name: Golang Weekly 378
+  date: 09/12/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'The Busy Developers''s Guide to Go Profiling, Tracing, and Observability:
+      A Work in Progress'
+    url: https://golangweekly.com/link/113556/web
+    type: News
+  - title: 'I18n in Go: Managing Translations with x/text'
+    url: https://golangweekly.com/link/113558/web
+    type: News
+  - title: '[Guide] Ship Fast. Stay Ahead of the Competition'
+    url: https://golangweekly.com/link/113559/web
+    type: News
+  - title: How We Went 'All In' on sqlc/pgx for Postgres in Go
+    url: https://golangweekly.com/link/113560/web
+    type: News
+  - title: Scheduling Function Calls with Zero Allocation
+    url: https://golangweekly.com/link/113567/web
+    type: News
+  - title: Discussing Building Actually Maintainable Software
+    url: https://golangweekly.com/link/113568/web
+    type: News
+  - title: Go Is Pass-by-Value — But It Might Not Always Feel Like It
+    url: https://golangweekly.com/link/113569/web
+    type: News
+  - title: 'Age 1.0: Simple and Modern Encryption Tool (and Go Library)'
+    url: https://golangweekly.com/link/113575/web
+    type: News
+  - title: 'Create Go App CLI: Create a New Go Project with Backend, Frontend and
+      Deploy Automation'
+    url: https://golangweekly.com/link/113576/web
+    type: News
+  - title: 'gron: Make JSON Greppable'
+    url: https://golangweekly.com/link/113578/web
+    type: News
+  - title: Optimize Golang Code Performance in Any Environment with Datadog APM Profiling
+    url: https://golangweekly.com/link/113579/web
+    type: News
+  - title: 'go-pst: A Library for Reading PST Files'
+    url: https://golangweekly.com/link/113580/web
+    type: News
+  - title: 'INI: .INI File Reading and Writing Library'
+    url: https://golangweekly.com/link/113581/web
+    type: News
+  - title: 'Joker: A Small Interpreted Dialect of Clojure Written in Go'
+    url: https://golangweekly.com/link/113583/web
+    type: News
