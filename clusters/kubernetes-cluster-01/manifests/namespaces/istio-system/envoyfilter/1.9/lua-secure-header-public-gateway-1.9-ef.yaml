@@ -17,8 +17,6 @@ spec:
           filterChain:
             filter:
               name: envoy.filters.network.http_connection_manager
-              subFilter:
-                name: envoy.filters.http.ratelimit
         proxy:
           proxyVersion: ^1\.9.*
       patch:

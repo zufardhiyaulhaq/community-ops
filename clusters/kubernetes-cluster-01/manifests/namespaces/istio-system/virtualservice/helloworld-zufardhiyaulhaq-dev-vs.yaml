@@ -11,8 +11,7 @@ spec:
   http:
   - name: "ratelimit-examples-helloworld-v1-default-route"
     match:
-    - port: 443
-      uri:
+    - uri:
         prefix: /ratelimit/
     rewrite:
       uri: /
@@ -24,8 +23,7 @@ spec:
         weight: 100
   - name: "http-https-echo-default-route"
     match:
-    - port: 443
-      uri:
+    - uri:
         prefix: /
     route:
       - destination:

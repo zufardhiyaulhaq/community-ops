@@ -1,0 +1,20 @@
+apiVersion: ratelimit.zufardhiyaulhaq.com/v1alpha1
+kind: GlobalRateLimitConfig
+metadata:
+  name: istio-public-gateway-grlc
+  namespace: istio-system
+spec:
+  type: "gateway"
+  selector:
+    labels:
+      "app": "istio-public-gateway"
+    istio_version:
+      - "1.9"
+  ratelimit:
+    spec:
+      domain: "gateway"
+      failure_mode_deny: true
+      timeout: "10s"
+      service:
+        address: "ratelimit.infrastructure.svc.cluster.local"
+        port: 8081

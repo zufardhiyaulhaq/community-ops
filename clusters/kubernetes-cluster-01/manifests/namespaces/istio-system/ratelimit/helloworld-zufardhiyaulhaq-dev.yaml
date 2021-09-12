@@ -1,0 +1,17 @@
+apiVersion: ratelimit.zufardhiyaulhaq.com/v1alpha1
+kind: GlobalRateLimit
+metadata:
+  name: helloworld-zufardhiyaulhaq-dev-grl
+  namespace: istio-system
+spec:
+  config: "istio-public-gateway-grlc"
+  selector:
+    vhost: "helloworld.zufardhiyaulhaq.dev:443"
+    route: "ratelimit-examples-helloworld-v1-default-route"
+  rate_limits:
+    - request_headers:
+        header_name: ":method"
+        descriptor_key: "method"
+    - request_headers:
+        header_name: "X-Path-Without-Parameter"
+        descriptor_key: "x-path-without-parameter"

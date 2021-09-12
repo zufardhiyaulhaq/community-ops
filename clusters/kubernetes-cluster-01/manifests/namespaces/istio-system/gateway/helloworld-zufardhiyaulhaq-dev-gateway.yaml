@@ -10,14 +10,6 @@ spec:
   - hosts:
     - "helloworld.zufardhiyaulhaq.dev"
     port:
-      name: http
-      number: 80
-      protocol: HTTP
-    tls:
-      httpsRedirect: true
-  - hosts:
-    - "helloworld.zufardhiyaulhaq.dev"
-    port:
       name: https-default
       number: 443
       protocol: HTTPS
