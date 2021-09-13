@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-555
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 555
+  date: 09/13/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Bundling Non-JavaScript Resources
+    url: https://javascriptweekly.com/link/113611/web
+    type: News
+  - title: 'What’s New With DevTools: Cross-Browser Edition'
+    url: https://javascriptweekly.com/link/113612/web
+    type: News
+  - title: Locate and Resolve JavaScript Errors Instantly with Datadog
+    url: https://javascriptweekly.com/link/113590/web
+    type: News
+  - title: Crafting Organic Patterns with Voronoi Tessellations
+    url: https://javascriptweekly.com/link/113613/web
+    type: News
+  - title: Automatically Find jQuery Calls and Generate Vanilla JS Alternatives
+    url: https://javascriptweekly.com/link/113614/web
+    type: News
+  - title: Node v16.9.0 Adds Package Manager Manager (sic)
+    url: https://javascriptweekly.com/link/113591/web
+    type: News
+  - title: Compete in 20 Hacking Challenges | Win Prizes | Free SnykCon CTF
+    url: https://javascriptweekly.com/link/113598/web
+    type: News
+  - title: 'Exploring the CSS Paint API: Blob Animation'
+    url: https://javascriptweekly.com/link/113601/web
+    type: News
+  - title: What's New in Node.js Core?
+    url: https://javascriptweekly.com/link/113625/web
+    type: News
+  - title: '[Guide] Ship Fast. Stay Ahead of the Competition'
+    url: https://javascriptweekly.com/link/113602/web
+    type: News
+  - title: Using Neovim and Tmux for JavaScript Development
+    url: https://javascriptweekly.com/link/113627/web
+    type: News
+  - title: How An npm Package with 3M Weekly Downloads Had a Severe Vulnerability
+    url: https://javascriptweekly.com/link/113628/web
+    type: News
+  - title: Threats of Using Regular Expressions in JavaScript
+    url: https://javascriptweekly.com/link/113629/web
+    type: News
+  - title: 'Shoelace: ''A Forward-Thinking Library of Web Components'''
+    url: https://javascriptweekly.com/link/113603/web
+    type: News
+  - title: 'Harlem 2.0: Simple Extensible State Management for Vue 3'
+    url: https://javascriptweekly.com/link/113604/web
+    type: News
+  - title: Tried. Tested. Trusted. Studio 3T - Power Tools for MongoDB
+    url: https://javascriptweekly.com/link/113605/web
+    type: News
+  - title: 'Renamer 4.0: Rename Files in Bulk'
+    url: https://javascriptweekly.com/link/113606/web
+    type: News
+  - title: 'Dannjs: A Neural Network Library for JavaScript'
+    url: https://javascriptweekly.com/link/113608/web
+    type: News
+  - title: 'gron: Make JSON Greppable'
+    url: https://javascriptweekly.com/link/113609/web
+    type: News
+  - title: 'PrimeVue: A Vue UI Component Library'
+    url: https://javascriptweekly.com/link/113631/web
+    type: News
