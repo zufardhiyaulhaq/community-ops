@@ -13,6 +13,7 @@ resources:
 - ../../../../../bases/namespace-scope/service/examples-helloworld-v1
 - ../../../../../bases/namespace-scope/service/grpc-testing
 - ../../../../../bases/namespace-scope/service/http-https-echo
+- ../../../../../bases/namespace-scope/service/podinfo
 
 patches:
 - path: patch/serviceaccount.yaml

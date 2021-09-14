@@ -21,6 +21,16 @@ spec:
             number: 80
           host: http-https-echo.default.svc.cluster.local
         weight: 100
+  - name: "podinfo-default-route"
+    match:
+    - uri:
+        prefix: /
+    route:
+      - destination:
+          port:
+            number: 9898
+          host: podinfo-server.default.svc.cluster.local
+        weight: 100
   - name: "http-https-echo-default-route"
     match:
     - uri:
