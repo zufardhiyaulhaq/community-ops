@@ -13,7 +13,7 @@ spec:
   ratelimit:
     spec:
       domain: "gateway"
-      failure_mode_deny: true
+      failure_mode_deny: false
       timeout: "10s"
       service:
         address: "ratelimit.infrastructure.svc.cluster.local"

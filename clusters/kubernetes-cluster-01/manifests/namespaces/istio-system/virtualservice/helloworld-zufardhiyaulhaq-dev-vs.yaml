@@ -24,12 +24,14 @@ spec:
   - name: "podinfo-default-route"
     match:
     - uri:
-        prefix: /
+        prefix: /podinfo/
+    rewrite:
+      uri: /
     route:
       - destination:
           port:
             number: 9898
-          host: podinfo-server.default.svc.cluster.local
+          host: podinfo.default.svc.cluster.local
         weight: 100
   - name: "http-https-echo-default-route"
     match:
