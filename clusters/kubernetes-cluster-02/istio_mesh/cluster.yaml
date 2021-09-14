@@ -172,11 +172,6 @@ spec:
       holdApplicationUntilProxyStarts: true
       proxyMetadata:
         ISTIO_META_DNS_CAPTURE: "true"
-        ISTIO_META_IDLE_TIMEOUT: 7200s
-    tcpKeepalive:
-      probes: 9
-      time: 7200s
-      interval: 75s
   values:
     global:
       meshID: kubernetes-cluster
