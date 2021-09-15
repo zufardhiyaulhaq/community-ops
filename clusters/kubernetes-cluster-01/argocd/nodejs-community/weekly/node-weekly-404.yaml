@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-404
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 404
+  date: 09/15/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Node v16.9.0 (Current) Released with Experimental Package Manager Manager
+    url: https://nodeweekly.com/link/113501/web
+    type: News
+  - title: How an npm Package with 3M Weekly Downloads Had a Severe Vulnerability
+    url: https://nodeweekly.com/link/113504/web
+    type: News
+  - title: 'Fauna: A Modern Serverless Data API for Node.js Apps'
+    url: https://nodeweekly.com/link/113505/web
+    type: News
+  - title: Common npm Mistakes Every Developer Should Avoid
+    url: https://nodeweekly.com/link/113506/web
+    type: News
+  - title: 'GitHub Security Update: Vulnerabilities in tar and @npmcli/arborist'
+    url: https://nodeweekly.com/link/113507/web
+    type: News
+  - title: An Intro to Web Scraping with JavaScript and Node
+    url: https://nodeweekly.com/link/113508/web
+    type: News
+  - title: Simple Concurrency in Go for Fans of JavaScript's Promise.all
+    url: https://nodeweekly.com/link/113509/web
+    type: News
+  - title: Stream Video in Your Node App in Two API Calls
+    url: https://nodeweekly.com/link/113526/web
+    type: News
+  - title: 'Trace-Based Testing with OpenTelemetry: Meet Malabi'
+    url: https://nodeweekly.com/link/113512/web
+    type: News
+  - title: Why Electron Apps Are Fine
+    url: https://nodeweekly.com/link/113514/web
+    type: News
+  - title: 'bundle: A Quick npm Package Size Checker'
+    url: https://nodeweekly.com/link/113515/web
+    type: News
+  - title: 'Renamer 4.0: Rename Files in Bulk'
+    url: https://nodeweekly.com/link/113516/web
+    type: News
+  - title: 'is-reachable: Check If a Server Is Reachable'
+    url: https://nodeweekly.com/link/113518/web
+    type: News
+  - title: Auth Without Complexity
+    url: https://nodeweekly.com/link/113520/web
+    type: News
+  - title: 'timefind: Search a Web Site''s History'
+    url: https://nodeweekly.com/link/113521/web
+    type: News
+  - title: 'cron-parser 4.0: Node Library for Parsing cron Rules'
+    url: https://nodeweekly.com/link/113522/web
+    type: News
+  - title: Boilerplate to Kickstart Creating an npm Package using TypeScript
+    url: https://nodeweekly.com/link/113523/web
+    type: News
