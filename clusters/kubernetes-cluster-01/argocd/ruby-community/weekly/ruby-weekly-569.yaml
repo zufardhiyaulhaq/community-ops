@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-569
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 569
+  date: 09/16/2021
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: DHH's Rails 7 Alpha Preview with esbuild and Tailwind CSS
+    url: https://rubyweekly.com/link/113470/web
+    type: News
+  - title: Rails 7 Will Have Three Great Answers to JavaScript in 2021+
+    url: https://rubyweekly.com/link/113469/web
+    type: News
+  - title: Run Faster and Safer Than Linux with Open Source Unikernels
+    url: https://rubyweekly.com/link/113471/web
+    type: News
+  - title: Getting Ready for Autoloading in Rails 7
+    url: https://rubyweekly.com/link/113472/web
+    type: News
+  - title: 'Real-Time Stress: AnyCable, K6, WebSockets, and Yabeda'
+    url: https://rubyweekly.com/link/113473/web
+    type: News
+  - title: Build an Uptime Monitoring System in Ruby
+    url: https://rubyweekly.com/link/113479/web
+    type: News
+  - title: Testing Your Edge Cases
+    url: https://rubyweekly.com/link/113480/web
+    type: News
+  - title: Has Your Rails Version Fallen Behind? FastRuby.io Can Help
+    url: https://rubyweekly.com/link/113481/web
+    type: News
+  - title: A Look at Import Maps in Rails 7
+    url: https://rubyweekly.com/link/113482/web
+    type: News
+  - title: Let's Read Eloquent Ruby, Chapter 3
+    url: https://rubyweekly.com/link/113483/web
+    type: News
+  - title: Deployment From Scratch, 1st Edition Released
+    url: https://rubyweekly.com/link/113484/web
+    type: News
+  - title: 'Dotenv Validator: A Library to Validate Environment Variables'
+    url: https://rubyweekly.com/link/113489/web
+    type: News
+  - title: 'rover: Simple, Powerful Data Frames for Ruby'
+    url: https://rubyweekly.com/link/113490/web
+    type: News
+  - title: See Logs from Your Ruby and Ruby on Rails Apps in LogDNA for Free
+    url: https://rubyweekly.com/link/113491/web
+    type: News
+  - title: 'Suture: A Gem for Refactoring Legacy Code'
+    url: https://rubyweekly.com/link/113492/web
+    type: News
+  - title: 'Mutant: Automated Code Reviews via Mutation Testing'
+    url: https://rubyweekly.com/link/113493/web
+    type: News
+  - title: 'Rainbow: A Gem for Colorizing Printed Text on ANSI Terminals'
+    url: https://rubyweekly.com/link/113494/web
+    type: News
+  - title: 'TelephoneNumber: Global Phone Number Validation Library'
+    url: https://rubyweekly.com/link/113495/web
+    type: News
