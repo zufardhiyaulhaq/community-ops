@@ -399,3 +399,23 @@ content:
   url: https://opennetworking.org/events/ocp-global-summit-2021/
   kind: Open Networking Event
   isDelivered: true
+- title: SD-RAN Updates Software Licensing Policy – Trailing Releases Will Be Released Open Source
+  url: https://opennetworking.org/news-and-events/blog/sd-ran-updates-software-licensing-policy-trailing-releases-will-be-released-open-source/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: 'Community Member Profile: Eder Ollora Zaballa'
+  url: https://opennetworking.org/news-and-events/blog/community-member-profile-eder-ollora-zaballa/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: Intel Takes Big Steps to Provide Open Access to Intel® Tofino™ P4-Programmable Switch ASIC
+  url: https://opennetworking.org/news-and-events/blog/intel-takes-big-steps-to-provide-open-access-to-intel-tofino-p4-programmable-switch-asic/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: 6G Symposium
+  url: https://opennetworking.org/events/6g-symposium-2/
+  kind: Open Networking Event
+  isDelivered: false
+- title: Japan P4 User Group 2021
+  url: https://opennetworking.org/events/japan-p4-user-group-2021/
+  kind: Open Networking Event
+  isDelivered: false
