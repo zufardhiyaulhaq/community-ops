@@ -1,0 +1,76 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-277
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 277
+  date: 09/18/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Kata and Arm, a secure alternative in the 5G space
+    url: https://community.cncf.io/e/m4wn5e/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da
+    type: ICYMI
+  - title: Building an HA control plane for Tinkerbell with Kube-vip
+    url: https://community.cncf.io/e/mbanvh/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da
+    type: ICYMI
+  - title: Moving from CLIs to control planes with Crossplane
+    url: https://community.cncf.io/e/mrqz2b/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da
+    type: ICYMI
+  - title: Using CSI snapshots to backup and restore your data in Kubernetes
+    url: https://community.cncf.io/e/mjazyw/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da
+    type: ICYMI
+  - title: Prodfiler, with Thomas Dullien
+    url: https://kubernetespodcast.com/episode/163-prodfiler/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da
+    type: Editorial
+  - title: Why we created the Prometheus Conformance Program
+    url: https://thenewstack.io/why-we-created-the-prometheus-conformance-program/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da
+    type: Editorial
+  - title: Crossplane is now a CNCF incubating project
+    url: https://blog.crossplane.io/crossplane-cncf-incubation/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da
+    type: Editorial
+  - title: Google's Sqlcommenter now extending the vision of OpenTelemetry to databases
+    url: http://cloud.google.com/blog/products/databases/sqlcommenter-merges-with-opentelemetry?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da
+    type: Editorial
+  - title: Cloud Native Chaos and Telcos - Enforcing reliability and availability
+      for telcos
+    url: https://vmblog.com/archive/2021/09/15/cloud-native-chaos-and-telcos-enforcing-reliability-and-availability-for-telcos.aspx?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da#.YUNykC1h30q
+    type: Editorial
+  - title: 7 microservices best practices for developers
+    url: https://dzone.com/articles/7-microservices-best-practices-for-developers?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da
+    type: Editorial
+  - title: NSA & CISA Kubernetes security guidance
+    url: https://elastisys.com/nsa-and-cisa-kubernetes-security-guidance-summarized-and-explained/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da
+    type: Editorial
+  - title: KubeCon + CloudNativeCon North America preview with Constance Caramanolis
+      and Stephen Augustus
+    url: https://www.thecube.net/kubecon-cloudnative-con-na-2021?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da
+    type: Editorial
+  - title: 'Introducing the CNCF End User Journey Report: First up, Spotify'
+    url: https://www.cncf.io/blog/2021/09/16/introducing-the-cncf-end-user-journey-report-first-up-spotify/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da
+    type: Editorial
+  - title: NSA & CISA Kubernetes security guidance – A critical review
+    url: https://research.nccgroup.com/2021/09/09/nsa-cisa-kubernetes-security-guidance-a-critical-review/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da
+    type: Technical
+  - title: Top 9 file integrity monitoring (FIM) best practices
+    url: https://sysdig.com/blog/file-integrity-monitoring/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da
+    type: Technical
+  - title: DataRoaster is now open-sourced, why I created it
+    url: https://itnext.io/dataroaster-is-now-open-sourced-why-i-created-it-4d4a89be736b?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da
+    type: Technical
+  - title: Why data scientists shouldn’t need to know Kubernetes
+    url: https://huyenchip.com/2021/09/13/data-science-infrastructure.html?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da
+    type: Technical
+  - title: Solving API authorization challenges in multi-cloud environments
+    url: https://konghq.com/blog/api-authorization/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da
+    type: Technical
+  - title: Rate limiting with the HAProxy Kubernetes Ingress Controller
+    url: https://www.haproxy.com/blog/rate-limiting-with-the-haproxy-kubernetes-ingress-controller/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da
+    type: Technical
+  - title: Deploy OpenFaaS to Linode with K3sup
+    url: https://www.openfaas.com/blog/openfaas-linode/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Yw26ShCZJ2J_IySzkPSJTIjfB92_-ooimy5noWqOq-0hfnx9j7iOr93JRl46Q5iVSM6da
+    type: Technical
