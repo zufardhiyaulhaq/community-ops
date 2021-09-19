@@ -20,4 +20,4 @@ spec:
       descriptor_key: "foo-route"
   limit:
     unit: hour
-    requests_per_unit: 60
+    requests_per_unit: 10
