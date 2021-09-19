@@ -1,0 +1,53 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-379
+  namespace: golang-community
+spec:
+  name: Golang Weekly 379
+  date: 09/19/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: How to Update APIs for Generics?
+    url: https://golangweekly.com/link/113847/web
+    type: News
+  - title: Go Community Code of Conduct Updates
+    url: https://golangweekly.com/link/113848/web
+    type: News
+  - title: We Want You. Be Our Next InfluxDB Storage Engine Engineer
+    url: https://golangweekly.com/link/113849/web
+    type: News
+  - title: Automatic Cipher Suite Ordering in crypto/tls
+    url: https://golangweekly.com/link/113854/web
+    type: News
+  - title: Let’s Build a GUI App with Go and Gio
+    url: https://golangweekly.com/link/113855/web
+    type: News
+  - title: Let’s Go with Redis and Lua Scripts
+    url: https://golangweekly.com/link/113859/web
+    type: News
+  - title: Discussing Books That Teach Go with Bill Kennedy and Sau Sheong
+    url: https://golangweekly.com/link/113860/web
+    type: News
+  - title: Don't Fear The Pointer
+    url: https://golangweekly.com/link/113861/web
+    type: News
+  - title: 'Scriggo: A Template Engine with Embedded Go Interpreter'
+    url: https://golangweekly.com/link/113863/web
+    type: News
+  - title: 'go-sse: Spec-Compliant HTML5 Server-Sent Events (SSE) Library'
+    url: https://golangweekly.com/link/113864/web
+    type: News
+  - title: Observability Won't Replace Monitoring (Because It Shouldn't)
+    url: https://golangweekly.com/link/113866/web
+    type: News
+  - title: 'Milvus: An Open-Source Vector Database'
+    url: https://golangweekly.com/link/113867/web
+    type: News
+  - title: 'YARR 2.1: Yet Another RSS Reader'
+    url: https://golangweekly.com/link/113868/web
+    type: News
