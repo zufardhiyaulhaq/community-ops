@@ -802,4 +802,4 @@ content:
 - title: 'Superusers: Where are they Now | OpenInfra Live Recap'
   url: https://superuser.openstack.org/articles/superusers-where-are-they-now-openinfra-live-recap/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
