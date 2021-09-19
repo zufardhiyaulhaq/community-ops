@@ -9,10 +9,10 @@ spec:
   gateways:
   - istio-system/helloworld-zufardhiyaulhaq-dev-gateway
   http:
-  - name: "ratelimit-examples-helloworld-v1-default-route"
+  - name: "foo-route"
     match:
     - uri:
-        prefix: /ratelimit/
+        prefix: /foo/
     rewrite:
       uri: /
     route:
@@ -21,7 +21,19 @@ spec:
             number: 80
           host: http-https-echo.default.svc.cluster.local
         weight: 100
-  - name: "podinfo-default-route"
+  - name: "bar-route"
+    match:
+    - uri:
+        prefix: /bar/
+    rewrite:
+      uri: /
+    route:
+      - destination:
+          port:
+            number: 80
+          host: http-https-echo.default.svc.cluster.local
+        weight: 100
+  - name: "podinfo-route"
     match:
     - uri:
         prefix: /podinfo/
@@ -33,7 +45,7 @@ spec:
             number: 9898
           host: podinfo.default.svc.cluster.local
         weight: 100
-  - name: "http-https-echo-default-route"
+  - name: "default-route"
     match:
     - uri:
         prefix: /

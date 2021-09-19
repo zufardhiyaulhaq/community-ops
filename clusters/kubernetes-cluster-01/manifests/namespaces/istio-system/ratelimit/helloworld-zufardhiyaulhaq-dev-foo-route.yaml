@@ -1,0 +1,23 @@
+apiVersion: ratelimit.zufardhiyaulhaq.com/v1alpha1
+kind: GlobalRateLimit
+metadata:
+  name: helloworld-zufardhiyaulhaq-dev-foo-route
+  namespace: istio-system
+spec:
+  config: "public-gateway"
+  selector:
+    vhost: "helloworld.zufardhiyaulhaq.dev:443"
+    route: "foo-route"
+  matcher:
+  - request_headers:
+      header_name: ":method"
+      descriptor_key: "method"
+  - request_headers:
+      header_name: ":path"
+      descriptor_key: "path"
+  - generic_key:
+      descriptor_value: "foo-route"
+      descriptor_key: "foo-route"
+  limit:
+    unit: hour
+    requests_per_unit: 60
