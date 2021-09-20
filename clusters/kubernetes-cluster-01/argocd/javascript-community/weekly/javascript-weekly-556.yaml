@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-556
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 556
+  date: 09/20/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Q1K3: A JavaScript Homage to Quake in Just 13KB'
+    url: https://javascriptweekly.com/link/113914/web
+    type: News
+  - title: 'ChowJS: An AOT JavaScript Engine for Game Consoles'
+    url: https://javascriptweekly.com/link/113876/web
+    type: News
+  - title: The Modern Guide to OAuth
+    url: https://javascriptweekly.com/link/113877/web
+    type: News
+  - title: Deno 1.14 Released
+    url: https://javascriptweekly.com/link/113878/web
+    type: News
+  - title: How to Record Audio Using the MediaStream API
+    url: https://javascriptweekly.com/link/113897/web
+    type: News
+  - title: 'Small Bundles, Fast Pages: What To Do With Too Much JavaScript'
+    url: https://javascriptweekly.com/link/113898/web
+    type: News
+  - title: Announcing JavaScript Security Sessions at SnykCon | Register For Free
+    url: https://javascriptweekly.com/link/113889/web
+    type: News
+  - title: An Intro to D3.js (Covering v5-v7)
+    url: https://javascriptweekly.com/link/113920/web
+    type: News
+  - title: Fastify in One Minute
+    url: https://javascriptweekly.com/link/113900/web
+    type: News
+  - title: Using RTK Query in React Apps
+    url: https://javascriptweekly.com/link/113922/web
+    type: News
+  - title: 'Generating PDF from HTML in React: An Example of Exporting Data Grids'
+    url: https://javascriptweekly.com/link/113899/web
+    type: News
+  - title: Pre-Selling a Programming Course and Making $550k in Revenue
+    url: https://javascriptweekly.com/link/113923/web
+    type: News
+  - title: 'JSPaint.exe: The Classic MS Paint as a Cross-Platform Native Desktop App'
+    url: https://javascriptweekly.com/link/113903/web
+    type: News
+  - title: 'Linkify 3.0: Detect URLs and Email Addresses in Plain Text'
+    url: https://javascriptweekly.com/link/113906/web
+    type: News
+  - title: 'Tasuku (タスク): A Minimal Task Runner for Node'
+    url: https://javascriptweekly.com/link/113909/web
+    type: News
+  - title: Observability Won't Replace Monitoring (Because It Shouldn't)
+    url: https://javascriptweekly.com/link/113908/web
+    type: News
+  - title: 'Lowdb 3.0: A Small Local JSON Database'
+    url: https://javascriptweekly.com/link/113910/web
+    type: News
+  - title: 'svg2pdf.js: Browser Based SVG to PDF Converter'
+    url: https://javascriptweekly.com/link/113911/web
+    type: News
