@@ -1,0 +1,120 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: echo-redis
+  name: echo-redis
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: echo-redis
+  template:
+    metadata:
+      labels:
+        app: echo-redis
+    spec:
+      containers:
+      - name: echo-redis
+        image: zufardhiyaulhaq/echo-redis:4b26f4d
+        resources:
+          requests:
+            cpu: 50m
+            memory: 50Mi
+        env:
+        - name: PORT
+          value: "5100"
+        - name: REDIS_CLUSTER
+          value: "false"
+        - name: REDIS_HOST
+          value: "172.30.0.17:6379"
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 5100
+          protocol: TCP
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: echo-postgresql
+  name: echo-postgresql
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: echo-postgresql
+  template:
+    metadata:
+      labels:
+        app: echo-postgresql
+    spec:
+      containers:
+      - name: echo-postgresql
+        image: zufardhiyaulhaq/echo-postgresql:78666b8
+        resources:
+          requests:
+            cpu: 50m
+            memory: 50Mi
+        env:
+        - name: PORT
+          value: "5200"
+        - name: POSTGRESQL_HOST
+          value: "172.30.0.18"
+        - name: POSTGRESQL_PORT
+          value: "5432"
+        - name: POSTGRESQL_DATABASE
+          value: "echo-postgresql"
+        - name: POSTGRESQL_USER
+          value: "echo-postgresql"
+        - name: POSTGRESQL_PASSWORD
+          value: "echo-postgresql"
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 5200
+          protocol: TCP
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: echo-mongodb
+  name: echo-mongodb
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: echo-mongodb
+  template:
+    metadata:
+      labels:
+        app: echo-mongodb
+    spec:
+      containers:
+      - name: echo-mongodb
+        image: zufardhiyaulhaq/echo-mongodb:latest
+        resources:
+          requests:
+            cpu: 50m
+            memory: 50Mi
+        env:
+        - name: PORT
+          value: "5300"
+        - name: MONGODB_HOST
+          value: "172.30.0.19"
+        - name: MONGODB_PORT
+          value: "27017"
+        - name: MONGODB_DATABASE
+          value: "echo-mongodb"
+        - name: MONGODB_USER
+          value: "echo-mongodb"
+        - name: MONGODB_PASSWORD
+          value: "echo-mongodb"
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 5300
+          protocol: TCP
