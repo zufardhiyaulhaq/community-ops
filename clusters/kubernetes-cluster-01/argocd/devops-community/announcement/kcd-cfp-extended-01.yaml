@@ -1,0 +1,16 @@
+--- 
+apiVersion: community.io/v1alpha1
+kind: Announcement
+metadata: 
+  name: kcd-cfp-extended-01
+  namespace: devops-community
+spec: 
+  title: Call for Proposals Kubernetes Community Days 2021 (Deadline Extended)
+  community: DevOps Community Indonesia
+  message: >-
+    We hear you! Due to the increasing demand from CFP submitters for the past 2 days, we decided to extend the deadline 1 week more to allow more submissions. So, fear no more, what are you waiting for, submit your proposal soon before the time runs out again! more information at https://www.kubernetesdays.id. Get free swag if you are accepted!
+  image: https://raw.githubusercontent.com/cloudnative-id/kubernetes-community-days/master/artwork/cfp/KCD2021-CFP-Extended.png
+  tags: 
+    - KubernetesCommunityDays
+    - KCD2021
+    - CNCF
