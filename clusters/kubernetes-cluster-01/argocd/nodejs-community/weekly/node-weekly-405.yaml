@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-405
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 405
+  date: 09/22/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Tasuku (タスク): A Minimal Task Runner for Node'
+    url: https://nodeweekly.com/link/113796/web
+    type: News
+  - title: Node v16.9.1 (Current) Released
+    url: https://nodeweekly.com/link/113797/web
+    type: News
+  - title: Troubleshoot Node.js App Performance With Datadog APM
+    url: https://nodeweekly.com/link/113799/web
+    type: News
+  - title: Fastify in One Minute
+    url: https://nodeweekly.com/link/113800/web
+    type: News
+  - title: Get Started with Fastify (A Workshop Recording)
+    url: https://nodeweekly.com/link/113802/web
+    type: News
+  - title: 'Awesome Node: Almost 600 Curated Node Packages, Resources and Links'
+    url: https://nodeweekly.com/link/113813/web
+    type: News
+  - title: '[Free Workshop] Building an IoT Application With InfluxDB'
+    url: https://nodeweekly.com/link/113803/web
+    type: News
+  - title: Building a Virtual Conference Ticket System with Begin, AWS and Puppeteer
+    url: https://nodeweekly.com/link/113804/web
+    type: News
+  - title: How to Track 'Blipped' Marvel Characters with Node and CockroachDB
+    url: https://nodeweekly.com/link/113805/web
+    type: News
+  - title: 'Handbrake-JS: Control Video Encoding and Transcoding from Node'
+    url: https://nodeweekly.com/link/113806/web
+    type: News
+  - title: 'xv: Simple, Fast and Small Test Runner with Native ESM Support'
+    url: https://nodeweekly.com/link/113814/web
+    type: News
+  - title: Run Faster and Safer than Linux with Open Source Unikernels
+    url: https://nodeweekly.com/link/113808/web
+    type: News
+  - title: 'Lowdb 3.0: A Small Local JSON Database'
+    url: https://nodeweekly.com/link/113809/web
+    type: News
+  - title: 'Commander 8.2: Node Command-Line Interfaces Made Easy'
+    url: https://nodeweekly.com/link/113810/web
+    type: News
