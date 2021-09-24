@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-570
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 570
+  date: 09/23/2021
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: The Future 'Shape' of Ruby Objects
+    url: https://rubyweekly.com/link/113765/web
+    type: News
+  - title: Rails 7.0 Alpha 1 Released
+    url: https://rubyweekly.com/link/113766/web
+    type: News
+  - title: Rails Rollout Strategies
+    url: https://rubyweekly.com/link/113769/web
+    type: News
+  - title: First Impressions of Ruby 3.1's Shorthand Hash Syntax
+    url: https://rubyweekly.com/link/113770/web
+    type: News
+  - title: Goodbye, Dear Frank
+    url: https://rubyweekly.com/link/113771/web
+    type: News
+  - title: How to Build a Search Engine with Ruby and Rails
+    url: https://rubyweekly.com/link/113772/web
+    type: News
+  - title: 'To Free or Not to Free: A Story About a Memory Leak in Strings'
+    url: https://rubyweekly.com/link/113776/web
+    type: News
+  - title: Friendlier UUID URLs in Ruby
+    url: https://rubyweekly.com/link/113777/web
+    type: News
+  - title: Building a Documentation Workflow in Rails
+    url: https://rubyweekly.com/link/113778/web
+    type: News
+  - title: Jekyll and the Genesis of the Jamstack
+    url: https://rubyweekly.com/link/113779/web
+    type: News
+  - title: The Tale of Sprockets and Webpacker Duality
+    url: https://rubyweekly.com/link/113780/web
+    type: News
+  - title: RSpec Negated Matchers
+    url: https://rubyweekly.com/link/113781/web
+    type: News
+  - title: Discussing Going from Development to Production
+    url: https://rubyweekly.com/link/113782/web
+    type: News
+  - title: 'Free eBook: Effective Indexing in Postgres'
+    url: https://rubyweekly.com/link/113783/web
+    type: News
+  - title: Aim for Good (GoodJob) with Ben Sheldon
+    url: https://rubyweekly.com/link/113784/web
+    type: News
+  - title: 'HatchBox: Ruby on Rails Apps on Your Own Hosting Provider'
+    url: https://rubyweekly.com/link/113787/web
+    type: News
+  - title: 'rails-base-app: A ''Base'' Application for Rails 6 Projects'
+    url: https://rubyweekly.com/link/113788/web
+    type: News
+  - title: 'Frak: A Lightweight Deployment Tool That Uses Rsync'
+    url: https://rubyweekly.com/link/113789/web
+    type: News
