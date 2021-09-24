@@ -1,0 +1,16 @@
+--- 
+apiVersion: community.io/v1alpha1
+kind: Announcement
+metadata: 
+  name: kcd-registration-01
+spec: 
+  title: Kubernetes Community Days 2021 is now Open!
+  community: Cloud Native Indonesia Community
+  message: >-
+    Kubernetes Community Days Indonesia 2021 is an event bringing together the Cloud Native Community to learn, build networks, collaborate, and share about various Cloud Native projects. Quickly register yourself at https://www.kubernetesdays.id, it's free!
+
+  image: https://raw.githubusercontent.com/cloudnative-id/kubernetes-community-days/master/artwork/cfp/KCD2021-Regist.png
+  tags: 
+    - announcement
+    - KCD2021
+    - cncf
