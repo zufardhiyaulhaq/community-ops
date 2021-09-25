@@ -3,7 +3,7 @@ apiVersion: community.io/v1alpha1
 kind: Announcement
 metadata: 
   name: kcd-registration-02
-  namespace: kubernetes-community
+  namespace: devops-community
 spec: 
   title: Kubernetes Community Days 2021 is now Open!
   community: Cloud Native Indonesia Community
