@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-278
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 278
+  date: 09/25/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Introduction to APIClarity – A Wireshark for APIs
+    url: https://community.cncf.io/e/m9wgpf/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_qxB7pzFNFf-gyBnmS91u_T8TekbcKRWkK4RAHSJureICbFX1ZpdNnCvmpsXH6vsX0xX7O
+    type: ICYMI
+  - title: Optimizing and securing Kubernetes workloads with Polaris and Goldilocks
+    url: https://community.cncf.io/e/m5dnjr/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_qxB7pzFNFf-gyBnmS91u_T8TekbcKRWkK4RAHSJureICbFX1ZpdNnCvmpsXH6vsX0xX7O
+    type: ICYMI
+  - title: Kong Ingress Controller - Kubernetes Ingress on steroids
+    url: https://community.cncf.io/e/m22ezu/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_qxB7pzFNFf-gyBnmS91u_T8TekbcKRWkK4RAHSJureICbFX1ZpdNnCvmpsXH6vsX0xX7O
+    type: ICYMI
+  - title: Enable stateful applications on AWS with persistent storage for Kubernetes
+    url: https://community.cncf.io/e/mbjzmv/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_qxB7pzFNFf-gyBnmS91u_T8TekbcKRWkK4RAHSJureICbFX1ZpdNnCvmpsXH6vsX0xX7O
+    type: ICYMI
+  - title: Operationalizing 300+ K8 clusters across the cloud
+    url: https://community.cncf.io/e/m6pedr/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_qxB7pzFNFf-gyBnmS91u_T8TekbcKRWkK4RAHSJureICbFX1ZpdNnCvmpsXH6vsX0xX7O
+    type: ICYMI
+  - title: New Google cloud deploy automates deploys to GKE
+    url: http://cloud.google.com/blog/products/devops-sre/google-cloud-deploy-automates-deploys-to-gke?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_qxB7pzFNFf-gyBnmS91u_T8TekbcKRWkK4RAHSJureICbFX1ZpdNnCvmpsXH6vsX0xX7O
+    type: Editorial
+  - title: Top open source CI/CD tools for Kubernetes to know
+    url: https://cloud.redhat.com/blog/top-open-source-ci/cd-tools-for-kubernetes-to-know?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_qxB7pzFNFf-gyBnmS91u_T8TekbcKRWkK4RAHSJureICbFX1ZpdNnCvmpsXH6vsX0xX7O
+    type: Editorial
+  - title: 'Ask an OpenShift admin (Ep 44): Kubernetes API deprecations'
+    url: https://youtu.be/w7IiR-poSco?t=129&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_qxB7pzFNFf-gyBnmS91u_T8TekbcKRWkK4RAHSJureICbFX1ZpdNnCvmpsXH6vsX0xX7O
+    type: Editorial
+  - title: Macquarie Bank looks to break free of IaaS
+    url: https://www.itnews.com.au/news/macquarie-bank-looks-to-break-free-of-iaas-570154?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_qxB7pzFNFf-gyBnmS91u_T8TekbcKRWkK4RAHSJureICbFX1ZpdNnCvmpsXH6vsX0xX7O
+    type: Editorial
+  - title: Bug Bash presented by CNCF + Sonatype
+    url: https://community.cncf.io/events/details/cncf-cloud-native-bug-bash-presents-bug-bash-presented-by-cncf-sonatype/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_qxB7pzFNFf-gyBnmS91u_T8TekbcKRWkK4RAHSJureICbFX1ZpdNnCvmpsXH6vsX0xX7O
+    type: Editorial
+  - title: IAM roles for Kubernetes service accounts - deep dive
+    url: https://mjarosie.github.io/dev/2021/09/15/iam-roles-for-kubernetes-service-accounts-deep-dive.html?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_qxB7pzFNFf-gyBnmS91u_T8TekbcKRWkK4RAHSJureICbFX1ZpdNnCvmpsXH6vsX0xX7O
+    type: Technical
+  - title: 'StackRox office hours (E3): Kubernetes network policies'
+    url: https://youtu.be/-ry8lB3CWHA?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_qxB7pzFNFf-gyBnmS91u_T8TekbcKRWkK4RAHSJureICbFX1ZpdNnCvmpsXH6vsX0xX7O
+    type: Technical
+  - title: KubeMQ is now available under open source license
+    url: https://kubemq.io/kubemq-is-now-available-under-open-source-license/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_qxB7pzFNFf-gyBnmS91u_T8TekbcKRWkK4RAHSJureICbFX1ZpdNnCvmpsXH6vsX0xX7O
+    type: Technical
+  - title: APM with Prometheus and Grafana on Kubernetes Ingress
+    url: https://konghq.com/blog/prometheus-grafana-kubernetes/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_qxB7pzFNFf-gyBnmS91u_T8TekbcKRWkK4RAHSJureICbFX1ZpdNnCvmpsXH6vsX0xX7O
+    type: Technical
