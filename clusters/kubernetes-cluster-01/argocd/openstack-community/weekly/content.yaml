@@ -806,4 +806,4 @@ content:
 - title: OpenInfra Days 2021 | OpenInfra Live Recap
   url: https://superuser.openstack.org/articles/openinfra-days-2021-openinfra-live-recap/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
