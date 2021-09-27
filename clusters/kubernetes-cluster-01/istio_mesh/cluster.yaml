@@ -170,12 +170,154 @@ spec:
     defaultConfig:
       terminationDrainDuration: 10s
       holdApplicationUntilProxyStarts: true
+      extraStatTags:
+        - request_method
+        - route_name
       proxyMetadata:
         ISTIO_META_DNS_CAPTURE: "true"
+      proxyStatsMatcher:
+        inclusionPrefixes:
+          - upstream_rq_retry
   values:
     global:
       meshID: kubernetes-cluster
       multiCluster:
         clusterName: kubernetes-cluster-01
       network: kubernetes-cluster-01
-
+    telemetry:
+      v2:
+        prometheus:
+          configOverride:
+            inboundSidecar:
+              debug: false
+              stat_prefix: istio
+              metrics:
+                - name: requests_total
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: request_duration_milliseconds
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: request_bytes
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: response_bytes
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: tcp_sent_bytes_total
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: tcp_received_bytes_total
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: tcp_connections_opened_total
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: tcp_connections_closed_total
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+            outboundSidecar:
+              debug: false
+              stat_prefix: istio
+              metrics:
+                - name: requests_total
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: request_duration_milliseconds
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: request_bytes
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: response_bytes
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: tcp_sent_bytes_total
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: tcp_received_bytes_total
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: tcp_connections_opened_total
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: tcp_connections_closed_total
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+            gateway:
+              debug: false
+              stat_prefix: istio
+              disable_host_header_fallback: true
+              metrics:
+                - name: requests_total
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: request_duration_milliseconds
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: request_bytes
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: response_bytes
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: tcp_sent_bytes_total
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: tcp_received_bytes_total
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: tcp_connections_opened_total
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+                - name: tcp_connections_closed_total
+                  dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
