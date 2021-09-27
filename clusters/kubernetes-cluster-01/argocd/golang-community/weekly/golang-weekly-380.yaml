@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-380
+  namespace: golang-community
+spec:
+  name: Golang Weekly 380
+  date: 09/26/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Taming Go’s Memory Usage, or 'How We Avoided Rewriting Our Client in Rust'
+    url: https://golangweekly.com/link/114120/web
+    type: News
+  - title: A WebAssembly-Powered Browser 'Go Playground'
+    url: https://golangweekly.com/link/114121/web
+    type: News
+  - title: Gophers - Opportunity is Knocking
+    url: https://golangweekly.com/link/114124/web
+    type: News
+  - title: 'Go-App: A Way to Build Progressive Web Apps with Go?'
+    url: https://golangweekly.com/link/114130/web
+    type: News
+  - title: On the Little Known Team That Keeps Go Going
+    url: https://golangweekly.com/link/114131/web
+    type: News
+  - title: Secure Integrations with Circuit Breaker in Go
+    url: https://golangweekly.com/link/114135/web
+    type: News
+  - title: Implementing a Generic Filter Function
+    url: https://golangweekly.com/link/114137/web
+    type: News
+  - title: TinyGo 0.20.0 Released
+    url: https://golangweekly.com/link/114141/web
+    type: News
+  - title: 'go-quartz: Simple, Zero-dependency Scheduling Library for Go'
+    url: https://golangweekly.com/link/114142/web
+    type: News
+  - title: 'Tangram: An Automated Machine Learning Framework'
+    url: https://golangweekly.com/link/114144/web
+    type: News
+  - title: Powerful API and Analytics Makes Building Video in Your Go App a Snap
+    url: https://golangweekly.com/link/114146/web
+    type: News
+  - title: 'Echo 4.6: A High Performance, Minimalist Web Framework'
+    url: https://golangweekly.com/link/114147/web
+    type: News
+  - title: OpenTelemetry Go API and SDK 1.0 Released
+    url: https://golangweekly.com/link/114149/web
+    type: News
+  - title: 'bree: A Go B-Tree Implementation'
+    url: https://golangweekly.com/link/114150/web
+    type: News

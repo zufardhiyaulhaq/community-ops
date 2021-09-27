@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-557
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 557
+  date: 09/27/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Partytown: Run Third-Party Scripts from a Web Worker'
+    url: https://javascriptweekly.com/link/114160/web
+    type: News
+  - title: You (Possibly) Don't Need Moment.js
+    url: https://javascriptweekly.com/link/114162/web
+    type: News
+  - title: Power Up Your JavaScript with Functional Programming
+    url: https://javascriptweekly.com/link/114164/web
+    type: News
+  - title: A Look at 40+ Non-V8 JavaScript Implementations
+    url: https://javascriptweekly.com/link/114165/web
+    type: News
+  - title: 'Introducing Gatsby 4: Now in Beta'
+    url: https://javascriptweekly.com/link/114166/web
+    type: News
+  - title: What's New in React 18?
+    url: https://javascriptweekly.com/link/114183/web
+    type: News
+  - title: A Live Look at Serverless Cloud
+    url: https://javascriptweekly.com/link/114184/web
+    type: News
+  - title: '[Guide] Ship Fast. Stay Ahead of the Competition'
+    url: https://javascriptweekly.com/link/114185/web
+    type: News
+  - title: From React to SvelteKit
+    url: https://javascriptweekly.com/link/114186/web
+    type: News
+  - title: Rendering a Fourier Series Vizualisation with D3.js
+    url: https://javascriptweekly.com/link/114188/web
+    type: News
+  - title: The Story of Five RCEs Found in npm for $15,000
+    url: https://javascriptweekly.com/link/114189/web
+    type: News
+  - title: Build a Mobile-Responsive Telehealth Pager App Using Stream’s Chat API
+    url: https://javascriptweekly.com/link/114190/web
+    type: News
+  - title: Index Signatures in TypeScript
+    url: https://javascriptweekly.com/link/114191/web
+    type: News
+  - title: 'Elk: A Low Footprint JavaScript Engine for Embedded Systems'
+    url: https://javascriptweekly.com/link/114192/web
+    type: News
+  - title: 'Theatre.js: A JavaScript Motion Design for the Web'
+    url: https://javascriptweekly.com/link/114193/web
+    type: News
+  - title: 'Hotkey 1.5: Trigger an Action on an Element When a ''Hotkey'' is Pressed'
+    url: https://javascriptweekly.com/link/114196/web
+    type: News
+  - title: Tried. Tested. Trusted. Studio 3T - Power Tools for MongoDB
+    url: https://javascriptweekly.com/link/114197/web
+    type: News
+  - title: Electron 15.0.0 Released
+    url: https://javascriptweekly.com/link/114167/web
+    type: News
+  - title: 'Code2flow: Generate Call Graphs for Dynamic Languages'
+    url: https://javascriptweekly.com/link/114198/web
+    type: News
+  - title: 'React Countup 6.0: Configurable React Component Wrapper around CountUp.js'
+    url: https://javascriptweekly.com/link/114199/web
+    type: News
+  - title: 'nbb: Adhoc ClojureScript Scripting on Node.js'
+    url: https://javascriptweekly.com/link/114201/web
+    type: News

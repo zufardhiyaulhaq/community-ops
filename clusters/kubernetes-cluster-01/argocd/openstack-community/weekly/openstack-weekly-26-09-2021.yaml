@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-26-09-2021
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 26-09-2021
+  date: 09/26/2021
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: OpenInfra Days 2021 | OpenInfra Live Recap
+    url: https://superuser.openstack.org/articles/openinfra-days-2021-openinfra-live-recap/
+    type: OpenStack Super User News
