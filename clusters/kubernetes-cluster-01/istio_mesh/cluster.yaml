@@ -175,9 +175,6 @@ spec:
         - route_name
       proxyMetadata:
         ISTIO_META_DNS_CAPTURE: "true"
-      proxyStatsMatcher:
-        inclusionPrefixes:
-          - upstream_rq_retry
   values:
     global:
       meshID: kubernetes-cluster
