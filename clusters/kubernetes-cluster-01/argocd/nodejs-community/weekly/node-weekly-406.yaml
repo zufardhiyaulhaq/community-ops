@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-406
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 406
+  date: 09/29/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: The Story of 5 RCEs Found in npm for $15,000
+    url: https://nodeweekly.com/link/114025/web
+    type: News
+  - title: Electron 15.0.0 Released
+    url: https://nodeweekly.com/link/114027/web
+    type: News
+  - title: Fast Redis Hosting and Analytics
+    url: https://nodeweekly.com/link/114029/web
+    type: News
+  - title: Node.js Garbage Collection Explained
+    url: https://nodeweekly.com/link/114030/web
+    type: News
+  - title: Node v16.10.0 (Current) Released
+    url: https://nodeweekly.com/link/114031/web
+    type: News
+  - title: How to Implement Logging in a Node App with Pino-Logger
+    url: https://nodeweekly.com/link/114032/web
+    type: News
+  - title: Creating a Slack Bot with Serverless Framework
+    url: https://nodeweekly.com/link/114034/web
+    type: News
+  - title: A Next.js 'New Post' Node Script
+    url: https://nodeweekly.com/link/114035/web
+    type: News
+  - title: Announcing JavaScript Security Sessions at SnykCon | Register for Free
+    url: https://nodeweekly.com/link/114036/web
+    type: News
+  - title: Track Twitter Follower Growth Over Time with a Serverless Node API
+    url: https://nodeweekly.com/link/114037/web
+    type: News
+  - title: 'Ackee: A Self-Hosted, Node-Based Web Analytics Tool'
+    url: https://nodeweekly.com/link/114039/web
+    type: News
+  - title: 'nbb: Adhoc ClojureScript Scripting on Node.js'
+    url: https://nodeweekly.com/link/114040/web
+    type: News
+  - title: 'Typegoose 9.0: Define Mongoose Models using TypeScript Classes'
+    url: https://nodeweekly.com/link/114041/web
+    type: News
+  - title: Detect Latency in Your Code Without Affecting Node App Performance
+    url: https://nodeweekly.com/link/114043/web
+    type: News
+  - title: 'ow 0.28.0: Function Argument Validation for Humans'
+    url: https://nodeweekly.com/link/114044/web
+    type: News
+  - title: 'i18n-tools: CLI to Make Common Operations Around i18n Files Simpler'
+    url: https://nodeweekly.com/link/114045/web
+    type: News
