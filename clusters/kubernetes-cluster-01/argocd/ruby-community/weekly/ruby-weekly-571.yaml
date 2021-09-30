@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-571
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 571
+  date: 09/30/2021
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Using Ruby for Ebook Publishing
+    url: https://rubyweekly.com/link/114053/web
+    type: News
+  - title: 'TenderJIT: A JIT for Ruby, Written in Ruby'
+    url: https://rubyweekly.com/link/114054/web
+    type: News
+  - title: Building a Reliable Webhook Delivery System Sucks
+    url: https://rubyweekly.com/link/114056/web
+    type: News
+  - title: Building a Real-Time Chat App in Rails with ActionCable and Turbo
+    url: https://rubyweekly.com/link/114057/web
+    type: News
+  - title: JRuby 9.3.0.0 Released
+    url: https://rubyweekly.com/link/114058/web
+    type: News
+  - title: Preorder for 'Ruby GC in Under Two Hours' Book
+    url: https://rubyweekly.com/link/114059/web
+    type: News
+  - title: How to Reduce Memory Bloat in Ruby
+    url: https://rubyweekly.com/link/114065/web
+    type: News
+  - title: '''Move Over Rake, Thor is the New King'''
+    url: https://rubyweekly.com/link/114072/web
+    type: News
+  - title: 'Free Index Advisor for Postgres: Get Ideal Index Recommendations'
+    url: https://rubyweekly.com/link/114066/web
+    type: News
+  - title: Let's Read Eloquent Ruby, Chapter 4
+    url: https://rubyweekly.com/link/114071/web
+    type: News
+  - title: Buffered IO Streams in Ruby
+    url: https://rubyweekly.com/link/114064/web
+    type: News
+  - title: Use compact_blank to Remove Empty Strings from Arrays and Hashes
+    url: https://rubyweekly.com/link/114067/web
+    type: News
+  - title: 'Quick Tip: Going Cookie-Free with Rails'
+    url: https://rubyweekly.com/link/114068/web
+    type: News
+  - title: Rails 7 Adds weekday_select and weekday_options_for_select
+    url: https://rubyweekly.com/link/114069/web
+    type: News
+  - title: Mapping Rails to Hanami
+    url: https://rubyweekly.com/link/114070/web
+    type: News
+  - title: Teaching by Filling in Knowledge Gaps
+    url: https://rubyweekly.com/link/114074/web
+    type: News
+  - title: Power Tools for Analyzing Your Heroku Logs
+    url: https://rubyweekly.com/link/114075/web
+    type: News
+  - title: 'Taylor: An Open-Source Game Engine with Ruby Scripting'
+    url: https://rubyweekly.com/link/114076/web
+    type: News
+  - title: 'ActiveEventStore: Rails Event Store in a More Rails Way'
+    url: https://rubyweekly.com/link/114077/web
+    type: News
+  - title: Seamlessly Integrate Video into Your Ruby App
+    url: https://rubyweekly.com/link/114078/web
+    type: News
+  - title: 'RSpec Tracer: A Specs Dependency Analysis Tool'
+    url: https://rubyweekly.com/link/114079/web
+    type: News
+  - title: 'ffi-libc: Useful Ruby FFI Bindings for libc'
+    url: https://rubyweekly.com/link/114080/web
+    type: News
