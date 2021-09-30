@@ -1,0 +1,35 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-30-09-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 30-09-2021
+  date: 09/30/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: ONF spin-out Ananki offers to make private 5G as simple as wi-fi
+    url: https://www.telecomtv.com/content/5g/onf-spin-out-ananki-offers-to-make-private-5g-as-simple-as-wi-fi-42491/?utm_source=TelecomTV&utm_campaign=ca311d2134-EMAIL_CAMPAIGN_2021_09_28_04_58&utm_medium=email&utm_term=0_6197c572c4-ca311d2134-166709909
+    type: Open Networking News
+  - title: ONF spins off Aether for private wireless networking
+    url: https://www.lightreading.com/the-core/onf-spins-off-aether-for-private-wireless-networking/d/d-id/772341
+    type: Open Networking News
+  - title: ONF launches Ananki to focus on private 5G for enterprise
+    url: https://www.fiercewireless.com/tech/onf-launches-ananki-to-focus-private-5g-for-enterprise
+    type: Open Networking News
+  - title: ONF Conceives Ananki as Red Hat of Open Source Private 5G
+    url: https://www.sdxcentral.com/articles/news/onf-conceives-ananki-as-red-hat-of-open-source-private-5g/2021/09/
+    type: Open Networking News
+  - title: Open Networking Foundation spins off Ananki to deliver open source-based Software Defined Private 5G as per Industry 4.0 requirements
+    url: https://techblog.comsoc.org/2021/09/27/open-networking-foundation-spins-off-ananki-to-deliver-open-source-based-software-defined-private-5g-as-per-industry-4-0-requirements/
+    type: Open Networking News
+  - title: ONUG Fall 2021
+    url: https://opennetworking.org/events/onug-fall-2021/
+    type: Open Networking Event
+  - title: Open RAN Summit
+    url: https://opennetworking.org/events/open-ran-summit/
+    type: Open Networking Event
