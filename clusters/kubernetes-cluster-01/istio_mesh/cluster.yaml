@@ -173,6 +173,19 @@ spec:
       extraStatTags:
         - request_method
         - route_name
+      proxyStatsMatcher:
+        inclusionRegexps:
+          - "http.stats.downstream.*"
+          - "^cluster.BlackHoleCluster.*upstream_rq.*"
+          - "^cluster.PassthroughCluster.*upstream_rq.*"
+          - "^cluster.InboundPassthroughClusterIpv4.*upstream_rq.*"
+          - "^cluster.InboundPassthroughClusterIpv6.*upstream_rq.*"
+          - "^cluster.agent.*upstream_rq.*"
+          - "^cluster.prometheus_stats.*upstream_rq.*"
+          - "^cluster.zipkin.*upstream_rq.*"
+          - "^cluster.sds-grpc.*upstream_rq.*"
+          - "^cluster.xds-grpc.*upstream_rq.*"
+          - "^cluster.*upstream_rq_retry"
       proxyMetadata:
         ISTIO_META_DNS_CAPTURE: "true"
   values:
