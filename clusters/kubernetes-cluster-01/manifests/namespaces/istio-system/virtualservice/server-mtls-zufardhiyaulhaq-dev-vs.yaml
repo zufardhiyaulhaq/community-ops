@@ -9,16 +9,51 @@ spec:
   gateways:
   - istio-system/server-mtls-zufardhiyaulhaq-dev-gateway
   http:
-  - name: "http-https-echo-default-route"
+  - name: "foo-route"
     match:
-    - port: 443
-      uri:
-        prefix: /
+    - uri:
+        prefix: /foo/
+    rewrite:
+      uri: /
     route:
       - destination:
           port:
-            number: 80
-          host: examples-helloworld-v1.default.svc.cluster.local
+            number: 9898
+          host: podinfo.default.svc.cluster.local
+        weight: 100
+  - name: "bar-route"
+    match:
+    - uri:
+        prefix: /bar/
+    rewrite:
+      uri: /
+    route:
+      - destination:
+          port:
+            number: 9898
+          host: podinfo.default.svc.cluster.local
+        weight: 100
+  - name: "podinfo-route"
+    match:
+    - uri:
+        prefix: /podinfo/
+    rewrite:
+      uri: /
+    route:
+      - destination:
+          port:
+            number: 9898
+          host: podinfo.default.svc.cluster.local
+        weight: 100
+  - name: "podinfo-grpc-route"
+    match:
+    - uri:
+        prefix: /grpc.health.v1.Health/Check
+    route:
+      - destination:
+          port:
+            number: 3000
+          host: grpc-testing.default.svc.cluster.local
         weight: 100
   exportTo:
     - "."

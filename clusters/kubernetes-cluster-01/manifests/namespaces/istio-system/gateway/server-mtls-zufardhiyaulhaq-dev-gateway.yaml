@@ -10,7 +10,13 @@ spec:
   - hosts:
     - "server.mtls.zufardhiyaulhaq.dev"
     port:
-      name: https-default
+      name: http
+      number: 80
+      protocol: HTTP
+  - hosts:
+    - "server.mtls.zufardhiyaulhaq.dev"
+    port:
+      name: https
       number: 443
       protocol: HTTPS
     tls:

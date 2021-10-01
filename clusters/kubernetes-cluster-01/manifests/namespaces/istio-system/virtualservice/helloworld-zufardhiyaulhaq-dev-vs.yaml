@@ -18,8 +18,8 @@ spec:
     route:
       - destination:
           port:
-            number: 80
-          host: http-https-echo.default.svc.cluster.local
+            number: 9898
+          host: podinfo.default.svc.cluster.local
         weight: 100
   - name: "bar-route"
     match:
@@ -30,8 +30,8 @@ spec:
     route:
       - destination:
           port:
-            number: 80
-          host: http-https-echo.default.svc.cluster.local
+            number: 9898
+          host: podinfo.default.svc.cluster.local
         weight: 100
   - name: "podinfo-route"
     match:
@@ -45,15 +45,15 @@ spec:
             number: 9898
           host: podinfo.default.svc.cluster.local
         weight: 100
-  - name: "default-route"
+  - name: "podinfo-grpc-route"
     match:
     - uri:
-        prefix: /
+        prefix: /grpc.health.v1.Health/Check
     route:
       - destination:
           port:
-            number: 80
-          host: examples-helloworld-v1.default.svc.cluster.local
+            number: 3000
+          host: grpc-testing.default.svc.cluster.local
         weight: 100
   exportTo:
     - "."
