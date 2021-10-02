@@ -9,43 +9,7 @@ spec:
   gateways:
   - istio-system/server-mtls-zufardhiyaulhaq-dev-gateway
   http:
-  - name: "foo-route"
-    match:
-    - uri:
-        prefix: /foo/
-    rewrite:
-      uri: /
-    route:
-      - destination:
-          port:
-            number: 9898
-          host: podinfo.default.svc.cluster.local
-        weight: 100
-  - name: "bar-route"
-    match:
-    - uri:
-        prefix: /bar/
-    rewrite:
-      uri: /
-    route:
-      - destination:
-          port:
-            number: 9898
-          host: podinfo.default.svc.cluster.local
-        weight: 100
-  - name: "podinfo-route"
-    match:
-    - uri:
-        prefix: /podinfo/
-    rewrite:
-      uri: /
-    route:
-      - destination:
-          port:
-            number: 9898
-          host: podinfo.default.svc.cluster.local
-        weight: 100
-  - name: "podinfo-grpc-route"
+  - name: "grpc-route"
     match:
     - uri:
         prefix: /grpc.health.v1.Health/Check
@@ -54,6 +18,18 @@ spec:
           port:
             number: 3000
           host: grpc-testing.default.svc.cluster.local
+        weight: 100
+  - name: "http-route"
+    match:
+    - uri:
+        prefix: /api/v1/
+    rewrite:
+      uri: /
+    route:
+      - destination:
+          port:
+            number: 9898
+          host: podinfo.default.svc.cluster.local
         weight: 100
   exportTo:
     - "."

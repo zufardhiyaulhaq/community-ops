@@ -1,0 +1,79 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: helloworld-zufardhiyaulhaq-dev-mesh-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - helloworld.zufardhiyaulhaq.dev
+  gateways:
+  - mesh
+  http:
+  - name: "healthcheck-route"
+    match:
+    - gateways:
+      - mesh
+      uri:
+        prefix: /grpc.health.v1.Health/Check
+      port: 80
+    route:
+    - destination:
+        host: helloworld.zufardhiyaulhaq.dev
+        subset: healthcheck-route
+        port:
+          number: 80
+    retries:
+      attempts: 3
+      perTryTimeout: 2s
+      retryOn: 5xx
+  - name: "api-route"
+    match:
+    - gateways:
+      - mesh
+      uri:
+        prefix: /api/v1/
+      port: 80
+    route:
+    - destination:
+        host: helloworld.zufardhiyaulhaq.dev
+        subset: api-route
+        port:
+          number: 80
+    retries:
+      attempts: 3
+      perTryTimeout: 2s
+      retryOn: 5xx
+  - name: "https-healthcheck-route"
+    match:
+    - gateways:
+      - mesh
+      uri:
+        prefix: /grpc.health.v1.Health/Check
+      port: 8080
+    route:
+    - destination:
+        host: helloworld.zufardhiyaulhaq.dev
+        subset: https-healthcheck-route
+        port:
+          number: 443
+    retries:
+      attempts: 3
+      perTryTimeout: 2s
+      retryOn: 5xx
+  - name: "https-api-route"
+    match:
+    - gateways:
+      - mesh
+      uri:
+        prefix: /api/v1/
+      port: 8080
+    route:
+    - destination:
+        host: helloworld.zufardhiyaulhaq.dev
+        subset: https-api-route
+        port:
+          number: 443
+    retries:
+      attempts: 3
+      perTryTimeout: 2s
+      retryOn: 5xx
