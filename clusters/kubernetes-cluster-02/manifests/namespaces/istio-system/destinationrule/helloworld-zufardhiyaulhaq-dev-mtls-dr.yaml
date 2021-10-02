@@ -6,7 +6,7 @@ metadata:
 spec:
   host: helloworld.zufardhiyaulhaq.dev
   subsets:
-  - name: https-healthcheck-route
+  - name: mtls-healthcheck-route
     trafficPolicy:
       connectionPool:
         http:
@@ -16,7 +16,7 @@ spec:
         mode: MUTUAL
         credentialName: client-mtls-zufardhiyaulhaq-dev-cert
         sni: helloworld.zufardhiyaulhaq.dev
-  - name: https-api-route
+  - name: mtls-api-route
     trafficPolicy:
       connectionPool:
         http:

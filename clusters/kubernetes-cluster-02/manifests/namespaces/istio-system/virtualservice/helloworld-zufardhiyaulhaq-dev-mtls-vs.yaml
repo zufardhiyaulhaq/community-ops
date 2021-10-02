@@ -13,8 +13,6 @@ spec:
     match:
     - gateways:
       - helloworld-zufardhiyaulhaq-dev-egress-gw
-      uri:
-        prefix: /grpc.health.v1.Health/Check
       port: 443
     route:
     - destination:

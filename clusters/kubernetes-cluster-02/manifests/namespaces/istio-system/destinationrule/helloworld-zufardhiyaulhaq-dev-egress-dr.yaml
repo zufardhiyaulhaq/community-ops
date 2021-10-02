@@ -1,7 +1,7 @@
 apiVersion: networking.istio.io/v1alpha3
 kind: DestinationRule
 metadata:
-  name: server-mtls-zufardhiyaulhaq-dev-mesh-dr
+  name: helloworld-zufardhiyaulhaq-dev-egress-dr
   namespace: istio-system
 spec:
   host: istio-egressgateway.istio-system.svc.cluster.local
