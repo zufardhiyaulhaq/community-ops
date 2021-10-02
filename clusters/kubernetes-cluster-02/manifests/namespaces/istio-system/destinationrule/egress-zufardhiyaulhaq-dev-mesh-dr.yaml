@@ -1,0 +1,38 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: egress-zufardhiyaulhaq-dev-mesh-dr
+  namespace: istio-system
+spec:
+  host: egress.zufardhiyaulhaq.dev
+  subsets:
+  - name: healthcheck-route
+    trafficPolicy:
+      connectionPool:
+        http:
+          idleTimeout: 10s
+          h2UpgradePolicy: UPGRADE
+  - name: api-route
+    trafficPolicy:
+      connectionPool:
+        http:
+          idleTimeout: 10s
+          h2UpgradePolicy: DO_NOT_UPGRADE
+  - name: https-healthcheck-route
+    trafficPolicy:
+      connectionPool:
+        http:
+          idleTimeout: 10s
+          h2UpgradePolicy: UPGRADE
+      tls:
+        mode: SIMPLE
+        sni: egress.zufardhiyaulhaq.dev
+  - name: https-api-route
+    trafficPolicy:
+      connectionPool:
+        http:
+          idleTimeout: 10s
+          h2UpgradePolicy: DO_NOT_UPGRADE
+      tls:
+        mode: SIMPLE
+        sni: egress.zufardhiyaulhaq.dev

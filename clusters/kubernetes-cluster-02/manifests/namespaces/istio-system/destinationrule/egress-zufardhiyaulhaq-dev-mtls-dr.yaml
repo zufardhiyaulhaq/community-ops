@@ -1,0 +1,28 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: egress-zufardhiyaulhaq-dev-mtls-dr
+  namespace: istio-system
+spec:
+  host: egress.zufardhiyaulhaq.dev
+  subsets:
+  - name: mtls-healthcheck-route
+    trafficPolicy:
+      connectionPool:
+        http:
+          idleTimeout: 10s
+          h2UpgradePolicy: UPGRADE
+      tls:
+        mode: MUTUAL
+        credentialName: client-mtls-zufardhiyaulhaq-dev-cert
+        sni: egress.zufardhiyaulhaq.dev
+  - name: mtls-api-route
+    trafficPolicy:
+      connectionPool:
+        http:
+          idleTimeout: 10s
+          h2UpgradePolicy: DO_NOT_UPGRADE
+      tls:
+        mode: MUTUAL
+        credentialName: client-mtls-zufardhiyaulhaq-dev-cert
+        sni: egress.zufardhiyaulhaq.dev

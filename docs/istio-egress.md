@@ -6,23 +6,23 @@ mv grpc_health_probe-linux-amd64 grpc_health_probe
 chmod +x grpc_health_probe
 
 http
-curl http://helloworld.zufardhiyaulhaq.dev/api/v1/ -v
+curl http://egress.zufardhiyaulhaq.dev/api/v1/ -v
 
 https
-curl https://helloworld.zufardhiyaulhaq.dev/api/v1/ -v -k
-curl http://helloworld.zufardhiyaulhaq.dev:8080/api/v1/ -v
+curl https://egress.zufardhiyaulhaq.dev/api/v1/ -v -k
+curl http://egress.zufardhiyaulhaq.dev:8080/api/v1/ -v
 
 mtls
-curl https://helloworld.zufardhiyaulhaq.dev:8443/api/v1/ -v -k (expected fail because no certificate)
-curl http://helloworld.zufardhiyaulhaq.dev:8008/api/v1/ -v
+curl https://egress.zufardhiyaulhaq.dev:8443/api/v1/ -v -k (expected fail because no certificate)
+curl http://egress.zufardhiyaulhaq.dev:8008/api/v1/ -v
 
 grpc
-./grpc_health_probe -addr=helloworld.zufardhiyaulhaq.dev:80 -v 
+./grpc_health_probe -addr=egress.zufardhiyaulhaq.dev:80 -v 
 
 grpc tls
-./grpc_health_probe -addr=helloworld.zufardhiyaulhaq.dev:443 -tls -v 
-./grpc_health_probe -addr=helloworld.zufardhiyaulhaq.dev:8080 -v 
+./grpc_health_probe -addr=egress.zufardhiyaulhaq.dev:443 -tls -v 
+./grpc_health_probe -addr=egress.zufardhiyaulhaq.dev:8080 -v 
 
 grpc mtls
-./grpc_health_probe -addr=helloworld.zufardhiyaulhaq.dev:8443 -tls -v (expected fail because no certificate)
-./grpc_health_probe -addr=helloworld.zufardhiyaulhaq.dev:8008 -v 
+./grpc_health_probe -addr=egress.zufardhiyaulhaq.dev:8443 -tls -v (expected fail because no certificate)
+./grpc_health_probe -addr=egress.zufardhiyaulhaq.dev:8008 -v 
