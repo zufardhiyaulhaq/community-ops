@@ -1,0 +1,43 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: egress-zufardhiyaulhaq-dev-mtls-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - egress.zufardhiyaulhaq.dev
+  gateways:
+  - egress-zufardhiyaulhaq-dev-egress-gw
+  http:
+  - name: "mtls-healthcheck-route"
+    match:
+    - gateways:
+      - egress-zufardhiyaulhaq-dev-egress-gw
+      port: 443
+    route:
+    - destination:
+        host: egress.zufardhiyaulhaq.dev
+        subset: mtls-healthcheck-route
+        port:
+          number: 443
+    retries:
+      attempts: 3
+      perTryTimeout: 2s
+      retryOn: 5xx
+  - name: "mtls-api-route"
+    match:
+    - gateways:
+      - egress-zufardhiyaulhaq-dev-egress-gw
+      uri:
+        prefix: /api/v1/
+      port: 443
+    route:
+    - destination:
+        host: egress.zufardhiyaulhaq.dev
+        subset: mtls-api-route
+        port:
+          number: 443
+    retries:
+      attempts: 3
+      perTryTimeout: 2s
+      retryOn: 5xx

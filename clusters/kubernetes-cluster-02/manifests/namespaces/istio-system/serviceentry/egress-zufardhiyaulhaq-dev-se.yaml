@@ -1,0 +1,26 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: ServiceEntry
+metadata:
+  name: egress-zufardhiyaulhaq-dev-se
+  namespace: istio-system
+spec:
+  hosts:
+  - egress.zufardhiyaulhaq.dev
+  ports:
+  - number: 80
+    name: http
+    protocol: HTTP
+  - number: 8080
+    name: http-https
+    protocol: HTTP
+  - number: 8008
+    name: http-mtls
+    protocol: HTTP
+  - number: 443
+    name: https
+    protocol: HTTPS
+  - number: 8443
+    name: https-mtls
+    protocol: HTTPS
+  resolution: DNS
+  location: MESH_EXTERNAL
