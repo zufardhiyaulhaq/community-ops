@@ -25,7 +25,7 @@ spec:
   - hosts:
     - "helloworld.zufardhiyaulhaq.dev"
     port:
-      name: https
+      name: https-mtls
       number: 8443
       protocol: HTTPS
     tls:
