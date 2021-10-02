@@ -22,3 +22,14 @@ spec:
     tls:
       credentialName: helloworld-zufardhiyaulhaq-dev-cert
       mode: SIMPLE
+  - hosts:
+    - "helloworld.zufardhiyaulhaq.dev"
+    port:
+      name: https
+      number: 8443
+      protocol: HTTPS
+    tls:
+      credentialName: helloworld-zufardhiyaulhaq-dev-cert
+      mode: MUTUAL
+      subjectAltNames:
+      - 'client.mtls.zufardhiyaulhaq.dev'

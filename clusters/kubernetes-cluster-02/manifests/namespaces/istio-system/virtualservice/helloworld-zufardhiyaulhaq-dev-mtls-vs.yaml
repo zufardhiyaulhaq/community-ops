@@ -1,0 +1,45 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: helloworld-zufardhiyaulhaq-dev-mtls-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - helloworld.zufardhiyaulhaq.dev
+  gateways:
+  - helloworld-zufardhiyaulhaq-dev-egress-gw
+  http:
+  - name: "mtls-healthcheck-route"
+    match:
+    - gateways:
+      - helloworld-zufardhiyaulhaq-dev-egress-gw
+      uri:
+        prefix: /grpc.health.v1.Health/Check
+      port: 443
+    route:
+    - destination:
+        host: helloworld.zufardhiyaulhaq.dev
+        subset: mtls-healthcheck-route
+        port:
+          number: 443
+    retries:
+      attempts: 3
+      perTryTimeout: 2s
+      retryOn: 5xx
+  - name: "mtls-api-route"
+    match:
+    - gateways:
+      - helloworld-zufardhiyaulhaq-dev-egress-gw
+      uri:
+        prefix: /api/v1/
+      port: 443
+    route:
+    - destination:
+        host: helloworld.zufardhiyaulhaq.dev
+        subset: mtls-api-route
+        port:
+          number: 443
+    retries:
+      attempts: 3
+      perTryTimeout: 2s
+      retryOn: 5xx

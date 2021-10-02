@@ -1,0 +1,28 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: helloworld-zufardhiyaulhaq-dev-mtls-dr
+  namespace: istio-system
+spec:
+  host: helloworld.zufardhiyaulhaq.dev
+  subsets:
+  - name: https-healthcheck-route
+    trafficPolicy:
+      connectionPool:
+        http:
+          idleTimeout: 10s
+          h2UpgradePolicy: UPGRADE
+      tls:
+        mode: MUTUAL
+        credentialName: client-mtls-zufardhiyaulhaq-dev-cert
+        sni: helloworld.zufardhiyaulhaq.dev
+  - name: https-api-route
+    trafficPolicy:
+      connectionPool:
+        http:
+          idleTimeout: 10s
+          h2UpgradePolicy: DO_NOT_UPGRADE
+      tls:
+        mode: MUTUAL
+        credentialName: client-mtls-zufardhiyaulhaq-dev-cert
+        sni: helloworld.zufardhiyaulhaq.dev

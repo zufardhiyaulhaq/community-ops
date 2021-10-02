@@ -62,9 +62,12 @@ spec:
           - port: 443
             targetPort: 8443
             name: https
-          - port: 15443
-            targetPort: 15443
-            name: tls
+          - port: 8443
+            targetPort: 10443
+            name: https
+          - port: 80
+            targetPort: 8080
+            name: http2
     - enabled: true
       name: istio-egressgateway
       label:

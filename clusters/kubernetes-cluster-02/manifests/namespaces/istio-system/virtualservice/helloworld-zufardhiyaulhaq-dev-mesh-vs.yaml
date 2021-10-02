@@ -77,3 +77,37 @@ spec:
       attempts: 3
       perTryTimeout: 2s
       retryOn: 5xx
+  - name: "mtls-healthcheck-route"
+    match:
+    - gateways:
+      - mesh
+      uri:
+        prefix: /grpc.health.v1.Health/Check
+      port: 8008
+    route:
+    - destination:
+        host: istio-egressgateway.istio-system.svc.cluster.local
+        subset: helloworld-zufardhiyaulhaq-dev-mtls-healthcheck-route
+        port:
+          number: 443
+    retries:
+      attempts: 3
+      perTryTimeout: 2s
+      retryOn: 5xx
+  - name: "mtls-api-route"
+    match:
+    - gateways:
+      - mesh
+      uri:
+        prefix: /api/v1/
+      port: 8008
+    route:
+    - destination:
+        host: istio-egressgateway.istio-system.svc.cluster.local
+        subset: helloworld-zufardhiyaulhaq-dev-mtls-api-route
+        port:
+          number: 443
+    retries:
+      attempts: 3
+      perTryTimeout: 2s
+      retryOn: 5xx

@@ -62,6 +62,9 @@ spec:
           - port: 443
             targetPort: 8443
             name: https
+          - port: 8443
+            targetPort: 10443
+            name: https
           - port: 80
             targetPort: 8080
             name: http2
