@@ -1,0 +1,54 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-279
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 279
+  date: 10/02/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Kanister - Application level data operations on Kubernetes
+    url: https://community.cncf.io/e/m95xq4/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--aUESU4dDYOuydmntASZo1hrI79wHfjngfg6sUghXZoPj0qkwNwrN6Pfu38LHL7C0qKv6D
+    type: ICYMI
+  - title: Trace-based testing with OpenTelemetry
+    url: https://community.cncf.io/e/m9erc4/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--aUESU4dDYOuydmntASZo1hrI79wHfjngfg6sUghXZoPj0qkwNwrN6Pfu38LHL7C0qKv6D
+    type: ICYMI
+  - title: Shifting security left-simplifying security for K8s & OpenShift environments
+    url: https://community.cncf.io/e/m4cre9/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--aUESU4dDYOuydmntASZo1hrI79wHfjngfg6sUghXZoPj0qkwNwrN6Pfu38LHL7C0qKv6D
+    type: ICYMI
+  - title: Redefining cloud native debugging
+    url: https://community.cncf.io/e/m2yruk/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--aUESU4dDYOuydmntASZo1hrI79wHfjngfg6sUghXZoPj0qkwNwrN6Pfu38LHL7C0qKv6D
+    type: ICYMI
+  - title: 'OpenEBS 3.0: What’s in it?'
+    url: https://community.cncf.io/e/mnwc2y/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--aUESU4dDYOuydmntASZo1hrI79wHfjngfg6sUghXZoPj0qkwNwrN6Pfu38LHL7C0qKv6D
+    type: ICYMI
+  - title: The thing about your software supply chain…
+    url: https://community.cncf.io/e/mb5ecs/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--aUESU4dDYOuydmntASZo1hrI79wHfjngfg6sUghXZoPj0qkwNwrN6Pfu38LHL7C0qKv6D
+    type: ICYMI
+  - title: Podman, with Daniel Walsh and Brent Baude
+    url: https://kubernetespodcast.com/episode/164-podman/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--aUESU4dDYOuydmntASZo1hrI79wHfjngfg6sUghXZoPj0qkwNwrN6Pfu38LHL7C0qKv6D
+    type: Editorial
+  - title: 'Battlesnake: KubeCon Cup 2021'
+    url: https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/attend/experiences/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--aUESU4dDYOuydmntASZo1hrI79wHfjngfg6sUghXZoPj0qkwNwrN6Pfu38LHL7C0qKv6D#red-hat-virtual-games-lounge
+    type: Editorial
+  - title: Cloud Native Computing Foundation announces agenda for KubeCon + CloudNativeCon
+      + Open Source Summit China Virtual 2021
+    url: https://www.cncf.io/announcements/2021/09/28/cloud-native-computing-foundation-announces-agenda-for-kubecon-cloudnativecon-open-source-summit-china-virtual-2021/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--aUESU4dDYOuydmntASZo1hrI79wHfjngfg6sUghXZoPj0qkwNwrN6Pfu38LHL7C0qKv6D
+    type: Editorial
+  - title: Automation is the future of cloud cost optimization
+    url: https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--aUESU4dDYOuydmntASZo1hrI79wHfjngfg6sUghXZoPj0qkwNwrN6Pfu38LHL7C0qKv6D
+    type: Editorial
+  - title: Giving your legacy applications an API facelift
+    url: https://konghq.com/blog/legacy-application-api-plugin/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--aUESU4dDYOuydmntASZo1hrI79wHfjngfg6sUghXZoPj0qkwNwrN6Pfu38LHL7C0qKv6D
+    type: Technical
+  - title: Open EBS 3.0 release
+    url: https://openebs.io/blog/openebs-30-release?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--aUESU4dDYOuydmntASZo1hrI79wHfjngfg6sUghXZoPj0qkwNwrN6Pfu38LHL7C0qKv6D
+    type: Technical
+  - title: Flux Server-side reconciliation is coming
+    url: https://fluxcd.io/blog/2021/09/server-side-reconciliation-is-coming/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--aUESU4dDYOuydmntASZo1hrI79wHfjngfg6sUghXZoPj0qkwNwrN6Pfu38LHL7C0qKv6D
+    type: Technical
