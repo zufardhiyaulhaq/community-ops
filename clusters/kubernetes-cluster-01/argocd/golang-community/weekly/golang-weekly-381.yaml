@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-381
+  namespace: golang-community
+spec:
+  name: Golang Weekly 381
+  date: 10/03/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Twisting AWS Lambda to Make an Australian Search Engine
+    url: https://golangweekly.com/link/114424/web
+    type: News
+  - title: 'genqlient: A Truly Type-Safe Go GraphQL Client'
+    url: https://golangweekly.com/link/114425/web
+    type: News
+  - title: Live Streaming for Go Apps
+    url: https://golangweekly.com/link/114426/web
+    type: News
+  - title: 'Foundations: WebAssembly in Go is Fantastic'
+    url: https://golangweekly.com/link/114444/web
+    type: News
+  - title: 'Go on Hardware: TinyGo in the Wild'
+    url: https://golangweekly.com/link/114427/web
+    type: News
+  - title: The Difference Between Go and Rust
+    url: https://golangweekly.com/link/114430/web
+    type: News
+  - title: Wrapping Errors the 'Right' Way
+    url: https://golangweekly.com/link/114431/web
+    type: News
+  - title: 'awesome-go-style: A Collection of Go Style Guides'
+    url: https://golangweekly.com/link/114432/web
+    type: News
+  - title: 'RateLimiter: A Concurrent Rate Limiter Library'
+    url: https://golangweekly.com/link/114437/web
+    type: News
+  - title: 'Ultimate Service: Starter Code for Writing Web Services in Go'
+    url: https://golangweekly.com/link/114438/web
+    type: News
+  - title: 'Unusual Generics: Collection of Unusual Generics Use Cases'
+    url: https://golangweekly.com/link/114440/web
+    type: News
+  - title: All-Star Lineup Announced for Cloud Engineering Summit - Save Your Seat
+    url: https://golangweekly.com/link/114439/web
+    type: News
+  - title: A Proof-of-Concept RPC 'Framework' in 20 Lines of Go
+    url: https://golangweekly.com/link/114441/web
+    type: News
+  - title: 'SQLBoiler 4.7(.1): Generate a Go ORM Tailored to Your Database Schema'
+    url: https://golangweekly.com/link/114445/web
+    type: News
