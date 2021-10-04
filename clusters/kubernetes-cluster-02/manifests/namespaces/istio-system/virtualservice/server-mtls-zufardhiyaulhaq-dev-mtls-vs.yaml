@@ -9,14 +9,15 @@ spec:
   gateways:
   - server-mtls-zufardhiyaulhaq-dev-egress-gw
   http:
-  - match:
+  - name: "mtls"
+    match:
     - gateways:
       - server-mtls-zufardhiyaulhaq-dev-egress-gw
       port: 443
     route:
     - destination:
         host: server.mtls.zufardhiyaulhaq.dev
-        subset: tls-origination
+        subset: mtls
         port:
           number: 443
     retries:

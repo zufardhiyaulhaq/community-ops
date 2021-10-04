@@ -36,3 +36,23 @@ spec:
       tls:
         mode: SIMPLE
         sni: helloworld.zufardhiyaulhaq.dev
+  - name: mtls-healthcheck-route
+    trafficPolicy:
+      connectionPool:
+        http:
+          idleTimeout: 10s
+          h2UpgradePolicy: UPGRADE
+      tls:
+        mode: MUTUAL
+        credentialName: client-mtls-zufardhiyaulhaq-dev-cert
+        sni: helloworld.zufardhiyaulhaq.dev
+  - name: mtls-api-route
+    trafficPolicy:
+      connectionPool:
+        http:
+          idleTimeout: 10s
+          h2UpgradePolicy: DO_NOT_UPGRADE
+      tls:
+        mode: MUTUAL
+        credentialName: client-mtls-zufardhiyaulhaq-dev-cert
+        sni: helloworld.zufardhiyaulhaq.dev

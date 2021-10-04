@@ -4,14 +4,14 @@ metadata:
   name: server-mtls-zufardhiyaulhaq-dev-mtls-dr
   namespace: istio-system
 spec:
-  host: server.mtls.zufardhiyaulhaq.dev
+  host: istio-egressgateway.istio-system.svc.cluster.local
   subsets:
-  - name: tls-origination
+  - name: server-mtls-zufardhiyaulhaq-dev-mtls
     trafficPolicy:
-      portLevelSettings:
-      - port:
-          number: 443
-        tls:
-          mode: MUTUAL
-          credentialName: client-mtls-zufardhiyaulhaq-dev-cert
-          sni: server.mtls.zufardhiyaulhaq.dev
+      connectionPool:
+        http:
+          idleTimeout: 10s
+          h2UpgradePolicy: DO_NOT_UPGRADE
+      tls:
+        mode: ISTIO_MUTUAL
+        sni: server.mtls.zufardhiyaulhaq.dev

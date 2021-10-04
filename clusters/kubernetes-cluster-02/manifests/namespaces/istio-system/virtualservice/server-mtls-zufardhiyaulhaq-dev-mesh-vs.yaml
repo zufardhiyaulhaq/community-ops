@@ -9,14 +9,15 @@ spec:
   gateways:
   - mesh
   http:
-  - match:
+  - name: "mtls"
+    match:
     - gateways:
       - mesh
       port: 80
     route:
     - destination:
         host: istio-egressgateway.istio-system.svc.cluster.local
-        subset: server-mtls-zufardhiyaulhaq-dev
+        subset: server-mtls-zufardhiyaulhaq-dev-mtls
         port:
           number: 443
     retries:
