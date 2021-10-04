@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-558
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 558
+  date: 10/04/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: A 'Self-Parking Car' in 500 Lines of Code
+    url: https://javascriptweekly.com/link/114449/web
+    type: News
+  - title: 'Bangle.js 2: The Open JavaScript Powered Smart Watch'
+    url: https://javascriptweekly.com/link/114452/web
+    type: News
+  - title: ⭐️ Professional JavaScript Learning Path
+    url: https://javascriptweekly.com/link/114451/web
+    type: News
+  - title: 'JSXGraph: Dynamic Mathematics Rendering with JS'
+    url: https://javascriptweekly.com/link/114454/web
+    type: News
+  - title: 7GUIs in JavaScript
+    url: https://javascriptweekly.com/link/114509/web
+    type: News
+  - title: Let’s Dive Into Cypress For End-to-End Testing
+    url: https://javascriptweekly.com/link/114470/web
+    type: News
+  - title: My Top Vue.js Interview Questions
+    url: https://javascriptweekly.com/link/114471/web
+    type: News
+  - title: Sorting JavaScript Arrays by Nested Properties
+    url: https://javascriptweekly.com/link/114472/web
+    type: News
+  - title: How To Build an Interactive Dashboard
+    url: https://javascriptweekly.com/link/114473/web
+    type: News
+  - title: Comparing Methods for Appending and Inserting with JavaScript
+    url: https://javascriptweekly.com/link/114474/web
+    type: News
+  - title: Three New Next.js Features and How to Use Them
+    url: https://javascriptweekly.com/link/114475/web
+    type: News
+  - title: Faster React Apps with Memoization
+    url: https://javascriptweekly.com/link/114476/web
+    type: News
+  - title: Explore JavaScript Dependencies with Lighthouse Treemap
+    url: https://javascriptweekly.com/link/114477/web
+    type: News
+  - title: All-Star Lineup Announced for Cloud Engineering Summit - Save Your Seat
+    url: https://javascriptweekly.com/link/114478/web
+    type: News
+  - title: Single Page Application vs Multi Page Application with Rich Harris
+    url: https://javascriptweekly.com/link/114479/web
+    type: News
+  - title: 'PptxGenJS: Create PowerPoint Presentations with JavaScript'
+    url: https://javascriptweekly.com/link/114482/web
+    type: News
+  - title: 'melonJS 9.1.0: A Lightweight JavaScript and HTML5 Game Engine'
+    url: https://javascriptweekly.com/link/114486/web
+    type: News
+  - title: 'Threads.js 1.7: Web Workers Meet Worker Threads'
+    url: https://javascriptweekly.com/link/114489/web
+    type: News
+  - title: Deliver Cleaner and Safer JavaScript Code - Right in Your IDE
+    url: https://javascriptweekly.com/link/114493/web
+    type: News
+  - title: 'DOCX 7.1: A Declarative API to Generate .docx Files'
+    url: https://javascriptweekly.com/link/114495/web
+    type: News
+  - title: 'construct-js: A Library for Creating Byte Level Data Structures'
+    url: https://javascriptweekly.com/link/114500/web
+    type: News
+  - title: 'RacketScript: An Experimental Racket to JS Compiler'
+    url: https://javascriptweekly.com/link/114502/web
+    type: News
