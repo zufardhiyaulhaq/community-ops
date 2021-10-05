@@ -19,7 +19,7 @@ spec:
   - number: 443
     name: https
     protocol: HTTPS
-  - number: 8443
+  - number: 18443
     name: https-mtls
     protocol: HTTPS
   resolution: DNS

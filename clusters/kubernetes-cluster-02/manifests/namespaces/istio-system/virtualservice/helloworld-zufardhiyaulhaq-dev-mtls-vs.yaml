@@ -19,7 +19,7 @@ spec:
         host: helloworld.zufardhiyaulhaq.dev
         subset: mtls-healthcheck-route
         port:
-          number: 443
+          number: 18443
     retries:
       attempts: 3
       perTryTimeout: 2s
@@ -36,7 +36,7 @@ spec:
         host: helloworld.zufardhiyaulhaq.dev
         subset: mtls-api-route
         port:
-          number: 443
+          number: 18443
     retries:
       attempts: 3
       perTryTimeout: 2s
