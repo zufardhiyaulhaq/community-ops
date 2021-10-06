@@ -1,0 +1,57 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-407
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 407
+  date: 10/06/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Guidelines for Choosing a Node.js Framework
+    url: https://nodeweekly.com/link/114362/web
+    type: News
+  - title: Node v14.18.0 (LTS) Released
+    url: https://nodeweekly.com/link/114365/web
+    type: News
+  - title: Power Up Your JavaScript with Functional Programming
+    url: https://nodeweekly.com/link/114368/web
+    type: News
+  - title: 'Passport 0.5: Simple, Unobtrusive Authentication for Node'
+    url: https://nodeweekly.com/link/114369/web
+    type: News
+  - title: 'NVM for Windows 1.1.8: Node Version Utility for Windows'
+    url: https://nodeweekly.com/link/114372/web
+    type: News
+  - title: 'Threads.js 1.7: Web Workers Meet Worker Threads'
+    url: https://nodeweekly.com/link/114376/web
+    type: News
+  - title: 'Restify 8.6.0: A Framework for Building REST APIs'
+    url: https://nodeweekly.com/link/114379/web
+    type: News
+  - title: 'Fauna: A Modern Serverless Data API for Node.js Apps'
+    url: https://nodeweekly.com/link/114381/web
+    type: News
+  - title: 'DOCX 7.1: A Declarative API to Generate .docx Files'
+    url: https://nodeweekly.com/link/114382/web
+    type: News
+  - title: 'node-rate-limiter-flexible: Limit Number of Actions by Key and Protect
+      Apps from Brute Force Attacks'
+    url: https://nodeweekly.com/link/114386/web
+    type: News
+  - title: 'SVGO 2.7: A Node-Based SVG Optimizer'
+    url: https://nodeweekly.com/link/114388/web
+    type: News
+  - title: Send Logs from Your Node.js Apps to LogDNA and We’ll Do the Rest
+    url: https://nodeweekly.com/link/114387/web
+    type: News
+  - title: 'Oso: A System for Implementing Authorization'
+    url: https://nodeweekly.com/link/114390/web
+    type: News
+  - title: 'dprint-node: Node API for the dprint TypeScript and JavaScript Code Formatter'
+    url: https://nodeweekly.com/link/114396/web
+    type: News
