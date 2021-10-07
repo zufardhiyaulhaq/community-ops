@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-572
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 572
+  date: 10/07/2021
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Proposal to Merge YJIT Into CRuby / MRI
+    url: https://rubyweekly.com/link/114323/web
+    type: News
+  - title: Stimulus 3 + Turbo 7 = Hotwire 1.0
+    url: https://rubyweekly.com/link/114325/web
+    type: News
+  - title: Try Scout’s New Error Monitoring Feature Add‑On for Free
+    url: https://rubyweekly.com/link/114326/web
+    type: News
+  - title: Stamping Out Overflow Checks in Ruby
+    url: https://rubyweekly.com/link/114327/web
+    type: News
+  - title: More Ruby Magic
+    url: https://rubyweekly.com/link/114335/web
+    type: News
+  - title: Multi-Factor Authentication for Rails with WebAuthn and Devise
+    url: https://rubyweekly.com/link/114336/web
+    type: News
+  - title: Exploring Ruby’s clamp and minmax Methods
+    url: https://rubyweekly.com/link/114337/web
+    type: News
+  - title: 'Crunchy Bridge: Fully Managed Multi-Cloud Postgres'
+    url: https://rubyweekly.com/link/114338/web
+    type: News
+  - title: 'Lessons Learned in a Major Rails Upgrade: Tooling'
+    url: https://rubyweekly.com/link/114339/web
+    type: News
+  - title: Custom Form Handling with Turbo
+    url: https://rubyweekly.com/link/114340/web
+    type: News
+  - title: Discussing Prettier, Parsing and Regex with Kevin Newton
+    url: https://rubyweekly.com/link/114341/web
+    type: News
+  - title: 'Code Golf: Conditionally Add To an Array'
+    url: https://rubyweekly.com/link/114342/web
+    type: News
+  - title: Discussing Using Docker with Ruby with Huzefa Biyawarwala
+    url: https://rubyweekly.com/link/114343/web
+    type: News
+  - title: 'Code2flow: Generate Call Graphs for Dynamic Languages'
+    url: https://rubyweekly.com/link/114350/web
+    type: News
+  - title: 'offline-sort: Sort Large Data Collections with Limited Memory Usage'
+    url: https://rubyweekly.com/link/114351/web
+    type: News
+  - title: 'A Better Way To Index Your Postgres Database: pganalyze Index Advisor'
+    url: https://rubyweekly.com/link/114353/web
+    type: News
+  - title: 'Ahoy Email 2.1.0: Email Analytics for Rails'
+    url: https://rubyweekly.com/link/114354/web
+    type: News
+  - title: 'Unsubscribe 1.0: Offer an Auto Unsubscribe from Emails in Rails'
+    url: https://rubyweekly.com/link/114355/web
+    type: News
