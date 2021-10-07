@@ -454,16 +454,16 @@ content:
 - title: ONF launches Ananki to deliver private, open source-based 5G services for cloud-to-edge capabilities
   url: https://www.edgeir.com/onf-launches-ananki-to-deliver-private-open-source-based-5g-services-for-cloud-to-edge-capabilities-20211003
   kind: Open Networking News
-  isDelivered: false
+  isDelivered: true
 - title: A New ONF Spin-Out could Transform Private 5G
   url: https://blog.cimicorp.com/?p=4768
   kind: Open Networking News
-  isDelivered: false
+  isDelivered: true
 - title: Community Highlights – September 2021
   url: https://opennetworking.org/news-and-events/blog/community-highlights-september-2021/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: SD-RAN Field Trial and Demo
   url: https://opennetworking.org/events/sd-ran-field-trial-and-demo/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
