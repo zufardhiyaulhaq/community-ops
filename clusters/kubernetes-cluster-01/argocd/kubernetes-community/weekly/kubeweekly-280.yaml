@@ -1,0 +1,42 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-280
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 280
+  date: 10/09/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Kubernetes 1.22 release
+    url: https://community.cncf.io/e/mr7wnq/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--BpAKN3oZDXhHh5aG0Tp4M64MJqIEhuSEX9NM3aZfqc6qcWlYv2LiXOGJNWVYnihwQVcV6
+    type: ICYMI
+  - title: Next generation observability using open source monitoring
+    url: https://community.cncf.io/e/mwufj7/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--BpAKN3oZDXhHh5aG0Tp4M64MJqIEhuSEX9NM3aZfqc6qcWlYv2LiXOGJNWVYnihwQVcV6
+    type: ICYMI
+  - title: Flux October 2021 update
+    url: https://fluxcd.io/blog/2021/10/october-2021-update/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--BpAKN3oZDXhHh5aG0Tp4M64MJqIEhuSEX9NM3aZfqc6qcWlYv2LiXOGJNWVYnihwQVcV6
+    type: Editorial
+  - title: Do your demos like a boss at KubeCon
+    url: https://blog.alexellis.io/kubecon-demos-like-a-boss/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--BpAKN3oZDXhHh5aG0Tp4M64MJqIEhuSEX9NM3aZfqc6qcWlYv2LiXOGJNWVYnihwQVcV6
+    type: Editorial
+  - title: Services don’t have to be eight-9s reliable, with Liz Fong-Jones
+    url: https://konghq.com/videos/services-dont-have-to-be-eight-9s-reliable-with-liz-fong-jones-from-honeycomb/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--BpAKN3oZDXhHh5aG0Tp4M64MJqIEhuSEX9NM3aZfqc6qcWlYv2LiXOGJNWVYnihwQVcV6
+    type: Editorial
+  - title: Kubernetes cluster API reaches production readiness with version 1.0
+    url: https://www.cncf.io/blog/2021/10/06/kubernetes-cluster-api-reaches-production-readiness-with-version-1-0/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--BpAKN3oZDXhHh5aG0Tp4M64MJqIEhuSEX9NM3aZfqc6qcWlYv2LiXOGJNWVYnihwQVcV6
+    type: Editorial
+  - title: Global load balancer approaches
+    url: https://cloud.redhat.com/blog/global-load-balancer-approaches?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--BpAKN3oZDXhHh5aG0Tp4M64MJqIEhuSEX9NM3aZfqc6qcWlYv2LiXOGJNWVYnihwQVcV6
+    type: Technical
+  - title: 'Announcing Linkerd 2.11: Policy, gRPC retries, performance improvements,
+      and more!'
+    url: https://linkerd.io/2021/09/30/announcing-linkerd-2.11/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--BpAKN3oZDXhHh5aG0Tp4M64MJqIEhuSEX9NM3aZfqc6qcWlYv2LiXOGJNWVYnihwQVcV6
+    type: Technical
+  - title: Making Kubernetes operations easy with kubectl plugins
+    url: https://martinheinz.dev/blog/58?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--BpAKN3oZDXhHh5aG0Tp4M64MJqIEhuSEX9NM3aZfqc6qcWlYv2LiXOGJNWVYnihwQVcV6
+    type: Technical
