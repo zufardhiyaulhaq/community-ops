@@ -807,3 +807,11 @@ content:
   url: https://superuser.openstack.org/articles/openinfra-days-2021-openinfra-live-recap/
   kind: OpenStack Super User News
   isDelivered: true
+- title: 'Inside Open Infrastructure: The Latest from the OpenInfra Foundation'
+  url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation-6/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: OpenStack and Ceph | OpenInfra Live Recap
+  url: https://superuser.openstack.org/articles/openstack-and-ceph-openinfra-live-recap/
+  kind: OpenStack Super User News
+  isDelivered: false
