@@ -1,0 +1,79 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-559
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 559
+  date: 10/11/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: How Kent C Dodds Built a Modern Website in 2021
+    url: https://javascriptweekly.com/link/114766/web
+    type: News
+  - title: Web Streams Everywhere (and Fetch for Node.js)
+    url: https://javascriptweekly.com/link/114722/web
+    type: News
+  - title: 'ButterCMS Melts into Your JavaScript App. Try the #1 Headless CMS'
+    url: https://javascriptweekly.com/link/114723/web
+    type: News
+  - title: When a WeakMap() Actually Came in Handy
+    url: https://javascriptweekly.com/link/114724/web
+    type: News
+  - title: Announcing TypeScript 4.5 Beta
+    url: https://javascriptweekly.com/link/114727/web
+    type: News
+  - title: jQuery Maintainers Continue Modernization Initiative; Deprecate jQuery
+      Mobile
+    url: https://javascriptweekly.com/link/114728/web
+    type: News
+  - title: Safe DOM Manipulation (in the Future) with the Sanitizer API
+    url: https://javascriptweekly.com/link/114741/web
+    type: News
+  - title: Replacing jQuery with Vanilla ES6
+    url: https://javascriptweekly.com/link/114743/web
+    type: News
+  - title: Reserve Your Spot at JetBrains JavaScript Day 2021
+    url: https://javascriptweekly.com/link/114745/web
+    type: News
+  - title: Discussing Svelte with Rich Harris
+    url: https://javascriptweekly.com/link/114746/web
+    type: News
+  - title: Writing Clean JavaScript Tests with the BASIC Principles
+    url: https://javascriptweekly.com/link/114747/web
+    type: News
+  - title: Getting Started with the Rollup.js JS Bundler
+    url: https://javascriptweekly.com/link/114748/web
+    type: News
+  - title: Free Workshop - Getting Started with IoT and InfluxDB
+    url: https://javascriptweekly.com/link/114749/web
+    type: News
+  - title: How to Code a Side Scroller Game in 59 Seconds
+    url: https://javascriptweekly.com/link/114750/web
+    type: News
+  - title: A Guide to CSS Debugging
+    url: https://javascriptweekly.com/link/114751/web
+    type: News
+  - title: 'VanillaTreeViewer: Minimalist File Browser for Display Multiple Files'
+    url: https://javascriptweekly.com/link/114753/web
+    type: News
+  - title: 'Xterm.js: A Terminal/Shell Component for the Front End'
+    url: https://javascriptweekly.com/link/114754/web
+    type: News
+  - title: 'Immutable JS 4.0: Immutable Persistent Data Collections'
+    url: https://javascriptweekly.com/link/114761/web
+    type: News
+  - title: Build Internal Tools in Minutes with Retool, Where Visual Programming Meets
+      the Power of Real Code
+    url: https://javascriptweekly.com/link/114756/web
+    type: News
+  - title: 'kill-port: Kill the Process Running on a Given Port'
+    url: https://javascriptweekly.com/link/114762/web
+    type: News
+  - title: 'mijin: A Library of Tailwind UI Components for Vue and Nuxt.js'
+    url: https://javascriptweekly.com/link/114771/web
+    type: News
