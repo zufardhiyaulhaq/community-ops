@@ -1,0 +1,50 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-408
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 408
+  date: 10/13/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Writing Clean JavaScript Tests with the BASIC Principles
+    url: https://nodeweekly.com/link/114654/web
+    type: News
+  - title: Eleventy 1.0 Beta 1 Released
+    url: https://nodeweekly.com/link/114655/web
+    type: News
+  - title: Security-As-Code for Developers
+    url: https://nodeweekly.com/link/114658/web
+    type: News
+  - title: Web Streams Everywhere (and Fetch for Node.js)
+    url: https://nodeweekly.com/link/114659/web
+    type: News
+  - title: 'Ask HN: Why is Node.js ''Hated'' So Much?'
+    url: https://nodeweekly.com/link/114660/web
+    type: News
+  - title: Sending iOS Push Notifications via APNs
+    url: https://nodeweekly.com/link/114665/web
+    type: News
+  - title: Get Started with JavaScript and InfluxDB 2.0
+    url: https://nodeweekly.com/link/114666/web
+    type: News
+  - title: 'construct-js: A Library for Creating Byte Level Data Structures'
+    url: https://nodeweekly.com/link/114669/web
+    type: News
+  - title: 'Leveldown: Pure C++ Node.js LevelDB Bindings'
+    url: https://nodeweekly.com/link/114671/web
+    type: News
+  - title: Scale PostgreSQL & MySQL Globally, Without Writing Code
+    url: https://nodeweekly.com/link/114673/web
+    type: News
+  - title: 'Trash 8.0: Move Files and Directories to the ''Trash'''
+    url: https://nodeweekly.com/link/114674/web
+    type: News
+  - title: 'kill-port: Kill the Process Running on a Given Port'
+    url: https://nodeweekly.com/link/114676/web
+    type: News
