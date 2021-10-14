@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-573
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 573
+  date: 10/14/2021
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'Rubocop: Creating Custom Cops for Custom Needs'
+    url: https://rubyweekly.com/link/114614/web
+    type: News
+  - title: 'Awesome Ruby: A Curated List of 900+ Ruby Libraries and Tools'
+    url: https://rubyweekly.com/link/114615/web
+    type: News
+  - title: AnyCable PRO Gets More Features for Real-Time Communication
+    url: https://rubyweekly.com/link/114617/web
+    type: News
+  - title: A Compositional Approach to Optimizing the Performance of Ruby Apps
+    url: https://rubyweekly.com/link/114618/web
+    type: News
+  - title: 'strftimer: A Ruby strftime Format Generator'
+    url: https://rubyweekly.com/link/114624/web
+    type: News
+  - title: 'ActiveSupport''s #descendants Method: A Deep Dive'
+    url: https://rubyweekly.com/link/114630/web
+    type: News
+  - title: How to Verify Signed HTTP Requests from Webhooks
+    url: https://rubyweekly.com/link/114631/web
+    type: News
+  - title: Why to Use Sidekiq Directly, And Not Through Active Job
+    url: https://rubyweekly.com/link/114632/web
+    type: News
+  - title: Using Dynamic Config Variables in Rails Apps
+    url: https://rubyweekly.com/link/114633/web
+    type: News
+  - title: 'RBS: How to Get the Most Out of RubyMine’s Code Assistance'
+    url: https://rubyweekly.com/link/114634/web
+    type: News
+  - title: Migrating Selenium System Tests to Cuprite
+    url: https://rubyweekly.com/link/114635/web
+    type: News
+  - title: Discussing Seven Years at GitHub with John Nunemaker
+    url: https://rubyweekly.com/link/114637/web
+    type: News
+  - title: How to Use ESBuild in Rails with JSBundling
+    url: https://rubyweekly.com/link/114639/web
+    type: News
+  - title: 'Fusuma: Multitouch Gesture Recognizer for Linux'
+    url: https://rubyweekly.com/link/114640/web
+    type: News
+  - title: 'Grape 1.6: An Opinionated Framework for Creating REST-like APIs'
+    url: https://rubyweekly.com/link/114641/web
+    type: News
+  - title: Shortcut Puts the Agile in Agile and the “Can” in Kanban
+    url: https://rubyweekly.com/link/114642/web
+    type: News
+  - title: 'HTTPI 2.5.0: A Common Interface for Ruby HTTP Libraries'
+    url: https://rubyweekly.com/link/114643/web
+    type: News
+  - title: Generate SVG Art from Supplied ASCII Characters
+    url: https://rubyweekly.com/link/114649/web
+    type: News
