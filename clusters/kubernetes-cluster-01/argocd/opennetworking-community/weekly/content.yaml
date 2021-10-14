@@ -470,20 +470,20 @@ content:
 - title: Deutsche Telekom, ONF lead open RAN trial with open RIC
   url: https://www.fiercewireless.com/operators/deutsche-telekom-onf-lead-open-ran-trial-open-ric
   kind: Open Networking News
-  isDelivered: false
+  isDelivered: true
 - title: Ananki startup tries to simplify private 5G
   url: https://www.networkworld.com/article/3635056/ananki-sstartup-tries-to-simplify-private-5g.html
   kind: Open Networking News
-  isDelivered: false
+  isDelivered: true
 - title: 'Community Member Profile: Konstantin Weitz'
   url: https://opennetworking.org/news-and-events/blog/community-member-profile-konstantin-weitz/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: ONF Releases Aether v1.5 Providing 4G/5G Connectivity Improvements and Enhanced 5G SD-Core
   url: https://opennetworking.org/news-and-events/blog/onf-releases-aether-v1-5-providing-4g-5g-connectivity-improvements-and-enhanced-5g-sd-core/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: Deutsche Telekom SD-RAN Trial
   url: https://opennetworking.org/events/deutsche-telekom-sd-ran-trial/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
