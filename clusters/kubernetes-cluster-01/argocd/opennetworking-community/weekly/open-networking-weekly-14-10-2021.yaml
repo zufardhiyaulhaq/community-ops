@@ -1,0 +1,29 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-14-10-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 14-10-2021
+  date: 10/14/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Deutsche Telekom, ONF lead open RAN trial with open RIC
+    url: https://www.fiercewireless.com/operators/deutsche-telekom-onf-lead-open-ran-trial-open-ric
+    type: Open Networking News
+  - title: Ananki startup tries to simplify private 5G
+    url: https://www.networkworld.com/article/3635056/ananki-sstartup-tries-to-simplify-private-5g.html
+    type: Open Networking News
+  - title: 'Community Member Profile: Konstantin Weitz'
+    url: https://opennetworking.org/news-and-events/blog/community-member-profile-konstantin-weitz/
+    type: Open Networking Blog
+  - title: ONF Releases Aether v1.5 Providing 4G/5G Connectivity Improvements and Enhanced 5G SD-Core
+    url: https://opennetworking.org/news-and-events/blog/onf-releases-aether-v1-5-providing-4g-5g-connectivity-improvements-and-enhanced-5g-sd-core/
+    type: Open Networking Blog
+  - title: Deutsche Telekom SD-RAN Trial
+    url: https://opennetworking.org/events/deutsche-telekom-sd-ran-trial/
+    type: Open Networking Event

@@ -1,0 +1,63 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-382
+  namespace: golang-community
+spec:
+  name: Golang Weekly 382
+  date: 10/10/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Rewriting Go Source Code with AST Tooling
+    url: https://golangweekly.com/link/114688/web
+    type: News
+  - title: Ebiten 2.2.0 Released with Nintendo Switch Support
+    url: https://golangweekly.com/link/114689/web
+    type: News
+  - title: Shortcut Puts the Agile in Agile and the “Can” in Kanban
+    url: https://golangweekly.com/link/114691/web
+    type: News
+  - title: Which Go Router Should I Use?
+    url: https://golangweekly.com/link/114692/web
+    type: News
+  - title: Three Things Go Needs Right Now More Than Generics?
+    url: https://golangweekly.com/link/114715/web
+    type: News
+  - title: 'Book: ''Go Brain Teasers'''
+    url: https://golangweekly.com/link/114698/web
+    type: News
+  - title: The 200th Episode of the Go Time Podcast
+    url: https://golangweekly.com/link/114699/web
+    type: News
+  - title: Faster Time Parsing
+    url: https://golangweekly.com/link/114700/web
+    type: News
+  - title: 'Reversing in Action: Go Malware Used in the SolarWinds Attack'
+    url: https://golangweekly.com/link/114701/web
+    type: News
+  - title: Get Started with Go and InfluxDB - An Intro to Time Series Data
+    url: https://golangweekly.com/link/114702/web
+    type: News
+  - title: Capacity and Length of a Slice in Go
+    url: https://golangweekly.com/link/114703/web
+    type: News
+  - title: 'Concurrency Primitives of Go: How and How Not to Use Them'
+    url: https://golangweekly.com/link/114704/web
+    type: News
+  - title: 'Inbucket 3.0: A Disposable Webmail Server with Built-In SMTP, POP3, and
+      More'
+    url: https://golangweekly.com/link/114710/web
+    type: News
+  - title: 'BunRouter: Fast and Flexible Zero Allocations HTTP Router'
+    url: https://golangweekly.com/link/114711/web
+    type: News
+  - title: 'Task 3.9.0: A Task Runner / Make Alternative Written in Go'
+    url: https://golangweekly.com/link/114712/web
+    type: News
+  - title: 'sh: A Shell Parser, Formatter, and Interpreter'
+    url: https://golangweekly.com/link/114714/web
+    type: News

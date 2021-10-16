@@ -1,0 +1,20 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-10-10-2021
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 10-10-2021
+  date: 10/10/2021
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: 'Inside Open Infrastructure: The Latest from the OpenInfra Foundation'
+    url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation-6/
+    type: OpenStack Super User News
+  - title: OpenStack and Ceph | OpenInfra Live Recap
+    url: https://superuser.openstack.org/articles/openstack-and-ceph-openinfra-live-recap/
+    type: OpenStack Super User News
