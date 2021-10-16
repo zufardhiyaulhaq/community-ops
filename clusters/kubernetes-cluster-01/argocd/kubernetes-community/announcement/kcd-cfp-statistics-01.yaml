@@ -1,0 +1,20 @@
+--- 
+apiVersion: community.io/v1alpha1
+kind: Announcement
+metadata: 
+  name: kcd-cfp-statistics-01
+  namespace: kubernetes-community
+spec: 
+  title: Kubernetes Community Days 2021 CFP
+  community: Cloud Native Indonesia Community
+  message: >-
+    Here are some statistics of submitted CFP to Kubernetes Community Days Indonesia 2021!
+
+
+    Check out the Agenda at http://kubernetesdays.id!
+
+  image: https://raw.githubusercontent.com/cloudnative-id/kubernetes-community-days/master/artwork/poster/KCD2021-CFP-statistics.png
+  tags: 
+    - KubernetesCommunityDays
+    - KCD2021
+    - CNCF
