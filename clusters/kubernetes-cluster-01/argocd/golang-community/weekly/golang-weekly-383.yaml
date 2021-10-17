@@ -1,0 +1,53 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-383
+  namespace: golang-community
+spec:
+  name: Golang Weekly 383
+  date: 10/17/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'Proposal: Don''t Add Generics to Go''s Core Libraries in 1.18'
+    url: https://golangweekly.com/link/114996/web
+    type: News
+  - title: '''Hey Linker, Can You Spare a Meg?'''
+    url: https://golangweekly.com/link/114997/web
+    type: News
+  - title: Cloud Engineering Summit Speakers Announced
+    url: https://golangweekly.com/link/115020/web
+    type: News
+  - title: GoReleaser Can Now Create macOS Universal Binaries
+    url: https://golangweekly.com/link/114999/web
+    type: News
+  - title: Safer Enums in Go
+    url: https://golangweekly.com/link/115001/web
+    type: News
+  - title: 'Where Go and GraphQL Collide: Behind The Curtain with genqlient'
+    url: https://golangweekly.com/link/115002/web
+    type: News
+  - title: Go in 100 Seconds
+    url: https://golangweekly.com/link/115005/web
+    type: News
+  - title: 'Bubble Tea: A Powerful Elm-Inspired TUI Framework'
+    url: https://golangweekly.com/link/115038/web
+    type: News
+  - title: 'GoPlus (Go+): A More Scripty Variant of Go'
+    url: https://golangweekly.com/link/115009/web
+    type: News
+  - title: 'OpenTelemetry and Observability: Achieving Full System Visibility'
+    url: https://golangweekly.com/link/115012/web
+    type: News
+  - title: 'Decimal: Arbitrary-Precision Fixed-Point Decimal Numbers'
+    url: https://golangweekly.com/link/115010/web
+    type: News
+  - title: 'Kratos 2.1: A Go Framework for Microservices'
+    url: https://golangweekly.com/link/115013/web
+    type: News
+  - title: 'truthy: Truthy Condition Testing with Go Generics'
+    url: https://golangweekly.com/link/115014/web
+    type: News
