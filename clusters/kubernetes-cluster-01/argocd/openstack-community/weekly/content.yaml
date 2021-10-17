@@ -818,12 +818,12 @@ content:
 - title: 'Large Scale OpenStack: Neutron Scaling Best Practices | OpenInfra Live Recap'
   url: https://superuser.openstack.org/articles/large-scale-openstack-neutron-scaling-best-practices-openinfra-live-recap/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: OpenStack at the Edge – Challenges and Solutions
   url: https://superuser.openstack.org/articles/openstack-at-the-edge-challenges-and-solutions/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: OpenStack Xena Release | OpenInfra Live Recap
   url: https://superuser.openstack.org/articles/openstack-xena-release-openinfra-live-recap/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
