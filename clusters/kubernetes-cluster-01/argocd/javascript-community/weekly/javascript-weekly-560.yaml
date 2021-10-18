@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-560
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 560
+  date: 10/18/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Parcel v2 Released
+    url: https://javascriptweekly.com/link/115089/web
+    type: News
+  - title: The Remix Project Gets $3M in Seed Funding
+    url: https://javascriptweekly.com/link/115049/web
+    type: News
+  - title: 'ButterCMS Melts into Your JavaScript App. Try the #1 Headless CMS'
+    url: https://javascriptweekly.com/link/115045/web
+    type: News
+  - title: ESLint v8.0.0 Released
+    url: https://javascriptweekly.com/link/115051/web
+    type: News
+  - title: How AWS Halved the Publish Size of Its AWS SDK for JavaScript Packages
+    url: https://javascriptweekly.com/link/115062/web
+    type: News
+  - title: How to Win at CORS
+    url: https://javascriptweekly.com/link/115063/web
+    type: News
+  - title: 'Detect Injection Vulnerabilities in Your AWS Lambdas: SonarQube 9.1'
+    url: https://javascriptweekly.com/link/115066/web
+    type: News
+  - title: 33 Concepts Every JavaScript Developer Should Know
+    url: https://javascriptweekly.com/link/115067/web
+    type: News
+  - title: Board Gaming in Figma (with JavaScript)
+    url: https://javascriptweekly.com/link/115091/web
+    type: News
+  - title: Is Deno Still a Thing? A Look at the Status of the 'Node Killer'
+    url: https://javascriptweekly.com/link/115068/web
+    type: News
+  - title: Build a Mobile-Responsive Telehealth Pager App Using Stream’s Chat API
+    url: https://javascriptweekly.com/link/115070/web
+    type: News
+  - title: Composable CSS Animation in Vue with AnimXYZ
+    url: https://javascriptweekly.com/link/115071/web
+    type: News
+  - title: Introducing Nuxt 3 Beta
+    url: https://javascriptweekly.com/link/115073/web
+    type: News
+  - title: 'Sapling: VS Code Extension for Traversing Your React Component Hierarchy'
+    url: https://javascriptweekly.com/link/115075/web
+    type: News
+  - title: Tired of Writing Application Caching?
+    url: https://javascriptweekly.com/link/115077/web
+    type: News
+  - title: 'jest-extended 1.0: Additional Matchers for Jest Users'
+    url: https://javascriptweekly.com/link/115078/web
+    type: News
+  - title: 'Ruby2JS 4.2.0: A Ruby to JavaScript Transpiler'
+    url: https://javascriptweekly.com/link/115080/web
+    type: News
+  - title: 'Swiper: A Modern Mobile Touch Slider'
+    url: https://javascriptweekly.com/link/115095/web
+    type: News
+  - title: 'Day.js: A 2KB Immutable Date Library Alternative to Moment.js'
+    url: https://javascriptweekly.com/link/115096/web
+    type: News
+  - title: DOOM Rendered via Checkboxes
+    url: https://javascriptweekly.com/link/115085/web
+    type: News
