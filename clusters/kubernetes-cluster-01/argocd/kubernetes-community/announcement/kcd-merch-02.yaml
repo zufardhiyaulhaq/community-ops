@@ -2,7 +2,7 @@
 apiVersion: community.io/v1alpha1
 kind: Announcement
 metadata: 
-  name: kcd-merch-01
+  name: kcd-merch-02
   namespace: kubernetes-community
 spec: 
   title: Kubernetes Community Days 2021 is now Open!
