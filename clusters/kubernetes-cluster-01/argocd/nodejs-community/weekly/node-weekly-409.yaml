@@ -1,0 +1,58 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-409
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 409
+  date: 10/20/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: The GitHub Advisory Database Now Powers npm audit
+    url: https://nodeweekly.com/link/114951/web
+    type: News
+  - title: Node 16.11.1, 14.18.1, and 12.22.7 Released
+    url: https://nodeweekly.com/link/114952/web
+    type: News
+  - title: All-In-One APM for Node.js Applications
+    url: https://nodeweekly.com/link/114956/web
+    type: News
+  - title: npm 8.0 Released (But It's Not a Huge Deal)
+    url: https://nodeweekly.com/link/114957/web
+    type: News
+  - title: Retiring the Node.js Community Committee
+    url: https://nodeweekly.com/link/114962/web
+    type: News
+  - title: Building a Static-First MadLib Generator with Portable Text and Netlify
+      On-Demand Builder Functions
+    url: https://nodeweekly.com/link/114963/web
+    type: News
+  - title: Build Video for Your Node App That Just Works
+    url: https://nodeweekly.com/link/114964/web
+    type: News
+  - title: Is Deno Still a Thing? A Look at the Status of the 'Node Killer'
+    url: https://nodeweekly.com/link/114965/web
+    type: News
+  - title: 'Objection.js: An SQL-Friendly ORM for Node'
+    url: https://nodeweekly.com/link/114968/web
+    type: News
+  - title: 'Benny 3.7.0: A Simple Benchmarking Framework'
+    url: https://nodeweekly.com/link/114970/web
+    type: News
+  - title: Node SDK for Transactional Email Enhancement API. Try Out for Free
+    url: https://nodeweekly.com/link/114971/web
+    type: News
+  - title: 'Sequelize 6.7.0: Easy-to-Use Multi SQL Dialect ORM for Node.js'
+    url: https://nodeweekly.com/link/114972/web
+    type: News
+  - title: 'Marble.js 4.0: Functional Reactive HTTP Middleware Framework'
+    url: https://nodeweekly.com/link/114973/web
+    type: News
+  - title: 'crypto-hash 2.0: A Hashing Module Using the Native Crypto API in Node
+      and Browser'
+    url: https://nodeweekly.com/link/114974/web
+    type: News
