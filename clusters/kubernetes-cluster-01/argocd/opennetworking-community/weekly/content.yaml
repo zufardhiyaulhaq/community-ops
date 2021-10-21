@@ -487,3 +487,23 @@ content:
   url: https://opennetworking.org/events/deutsche-telekom-sd-ran-trial/
   kind: Open Networking Event
   isDelivered: true
+- title: Deutsche Telekom Tests ONF’s Specialized Open RAN Framework
+  url: https://www.sdxcentral.com/articles/news/deutsche-telekom-tests-onfs-specialized-open-ran-framework/2021/10/
+  kind: Open Networking News
+  isDelivered: false
+- title: ONF, Deutsche Telekom Demo Fully Disaggregated Open RAN
+  url: https://www.thefastmode.com/technology-solutions/21078-onf-deutsche-telekom-demo-fully-disaggregated-open-ran
+  kind: Open Networking News
+  isDelivered: false
+- title: Deutsche Telekom shows cloud-based open RAN for 4G and 5G in Berlin
+  url: https://www.capacitymedia.com/articles/3829828/deutsche-telekom-shows-cloud-based-open-ran-for-4g-and-5g-in-berlin
+  kind: Open Networking News
+  isDelivered: false
+- title: ONF Releases SD-Fabric v1.0 – a Fully Programmable Network Fabric Optimized for Edge Cloud, 5G, and Industry 4.0
+  url: https://opennetworking.org/news-and-events/blog/onf-releases-sd-fabric-v1-0-a-fully-programmable-network-fabric-optimized-for-edge-cloud-5g-and-industry-4-0/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: Enterprise 5G Live
+  url: https://opennetworking.org/events/17198/
+  kind: Open Networking Event
+  isDelivered: false
