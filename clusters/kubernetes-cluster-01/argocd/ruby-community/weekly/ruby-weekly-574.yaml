@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-574
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 574
+  date: 10/21/2021
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Embracing Infinite Loops with Ruby and Polyphony
+    url: https://rubyweekly.com/link/114902/web
+    type: News
+  - title: 39 Talks from RubyKaigi Takeout 2021
+    url: https://rubyweekly.com/link/114904/web
+    type: News
+  - title: Complete Peace of Mind Rails Hosting
+    url: https://rubyweekly.com/link/114909/web
+    type: News
+  - title: 'Ruby2JS 4.2.0: A Ruby to JavaScript Transpiler'
+    url: https://rubyweekly.com/link/114910/web
+    type: News
+  - title: A Ruby One-Liners Cookbook
+    url: https://rubyweekly.com/link/114916/web
+    type: News
+  - title: Upgrading to Zeitwerk
+    url: https://rubyweekly.com/link/114921/web
+    type: News
+  - title: Ruby Safe Navigation
+    url: https://rubyweekly.com/link/114922/web
+    type: News
+  - title: Using DynamoDB in Your Rails App
+    url: https://rubyweekly.com/link/114923/web
+    type: News
+  - title: A Way to Detect Early Returns from a Block
+    url: https://rubyweekly.com/link/114980/web
+    type: News
+  - title: Discussing Polished Ruby Programming with Jeremy Evans
+    url: https://rubyweekly.com/link/114926/web
+    type: News
+  - title: A Team Looks at Reducing Memory Bloat in a Rails App
+    url: https://rubyweekly.com/link/114928/web
+    type: News
+  - title: Seamlessly Integrate Video into Your Ruby App
+    url: https://rubyweekly.com/link/114929/web
+    type: News
+  - title: Organizing Business Logic in Rails with Contexts
+    url: https://rubyweekly.com/link/114930/web
+    type: News
+  - title: Discussing the Organization of Large Rails Apps with Jared White
+    url: https://rubyweekly.com/link/114931/web
+    type: News
+  - title: 'redis-rb 4.5: The Ruby Client Library for Redis'
+    url: https://rubyweekly.com/link/114933/web
+    type: News
+  - title: JRuby 9.3.1.0 Released
+    url: https://rubyweekly.com/link/114935/web
+    type: News
+  - title: 'A Better Way to Index Your Postgres Database: pganalyze Index Advisor'
+    url: https://rubyweekly.com/link/114936/web
+    type: News
+  - title: 'Informers: State-of-the-Art Natural Language Processing for Ruby'
+    url: https://rubyweekly.com/link/114937/web
+    type: News
+  - title: 'benchmark-ips: ''Iterations Per Second'' Benchmarking for Ruby'
+    url: https://rubyweekly.com/link/114938/web
+    type: News
+  - title: 'DeadEnd: Searches for Unexpected end Syntax Errors'
+    url: https://rubyweekly.com/link/114939/web
+    type: News
