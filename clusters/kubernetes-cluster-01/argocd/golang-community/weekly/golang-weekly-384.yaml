@@ -1,0 +1,70 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-384
+  namespace: golang-community
+spec:
+  name: Golang Weekly 384
+  date: 10/24/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'Introducing sqlcomment: Database Perf Analysis with Ent and Google''s
+      Sqlcommenter'
+    url: https://golangweekly.com/link/115293/web
+    type: News
+  - title: Discussing eBPF and Go
+    url: https://golangweekly.com/link/115296/web
+    type: News
+  - title: The DevSecGuide to Infrastructure as Code
+    url: https://golangweekly.com/link/115299/web
+    type: News
+  - title: Building Rich CLI Apps with Go's Built-in Templating
+    url: https://golangweekly.com/link/115300/web
+    type: News
+  - title: You Don't Need a Library for File Walking in Go
+    url: https://golangweekly.com/link/115301/web
+    type: News
+  - title: How to Schedule a Task at a Specific Time in Go
+    url: https://golangweekly.com/link/115309/web
+    type: News
+  - title: Build Serverless Apps with Go and Custom Handlers on Azure
+    url: https://golangweekly.com/link/115310/web
+    type: News
+  - title: Why You Should Use Dedicated Constructors in Go
+    url: https://golangweekly.com/link/115311/web
+    type: News
+  - title: 'Toxiproxy 2.2: A TCP Proxy to Simulate ''Chaotic'' Network and System
+      Conditions'
+    url: https://golangweekly.com/link/115313/web
+    type: News
+  - title: 'panicparse: A Panic Stack Trace Parser and Debugging Tool'
+    url: https://golangweekly.com/link/115314/web
+    type: News
+  - title: 'Slug 1.11.0: URL-Friendly Slug Creator with Multiple Language Support'
+    url: https://golangweekly.com/link/115315/web
+    type: News
+  - title: Build Video for Your Go App That Just Works
+    url: https://golangweekly.com/link/115316/web
+    type: News
+  - title: 'UUID 4.1.0: A Pure Go Implementation of UUIDs'
+    url: https://golangweekly.com/link/115317/web
+    type: News
+  - title: 'RoadRunner 2.5: A High Perf PHP Application Server and Load Balancer'
+    url: https://golangweekly.com/link/115319/web
+    type: News
+  - title: 'MacDriver 0.2: Native Mac API Access for Go'
+    url: https://golangweekly.com/link/115320/web
+    type: News
+  - title: 'Chroma 0.9.4: A Pure Go General Purpose Syntax Highlighter'
+    url: https://golangweekly.com/link/115321/web
+    type: News
+  - title: 'sqlhooks 2.0: Attach Hooks to Any database/sql Driver'
+    url: https://golangweekly.com/link/115323/web
+    type: News
+  - title: 'pgmetrics 1.12: Collect and Display Stats from Running Postgres Servers'
+    url: https://golangweekly.com/link/115324/web
+    type: News
