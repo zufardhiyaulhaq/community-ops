@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-561
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 561
+  date: 10/25/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: What’s New in the Now Fully Released Gatsby 4
+    url: https://javascriptweekly.com/link/115376/web
+    type: News
+  - title: Node v17 (Current) Released
+    url: https://javascriptweekly.com/link/115333/web
+    type: News
+  - title: No DKIM, No SPF, No WTF. Transactional Emails Sent via Gmail
+    url: https://javascriptweekly.com/link/115332/web
+    type: News
+  - title: Over 100 Algorithms and Data Structures Demonstrated in JS
+    url: https://javascriptweekly.com/link/115334/web
+    type: News
+  - title: Implementing a 'Candy Crush' Game with React
+    url: https://javascriptweekly.com/link/115349/web
+    type: News
+  - title: Understanding Map and Set in JavaScript
+    url: https://javascriptweekly.com/link/115350/web
+    type: News
+  - title: Get Started with JavaScript and InfluxDB 2.0
+    url: https://javascriptweekly.com/link/115351/web
+    type: News
+  - title: How to Cancel an HTTP Request in Node.js
+    url: https://javascriptweekly.com/link/115352/web
+    type: News
+  - title: How to Create a Linear Gauge Chart in JavaScript
+    url: https://javascriptweekly.com/link/115353/web
+    type: News
+  - title: How to Create a PWA With Next.js in 10 Minutes
+    url: https://javascriptweekly.com/link/115354/web
+    type: News
+  - title: Use console.log() Like a Pro
+    url: https://javascriptweekly.com/link/115355/web
+    type: News
+  - title: Shortcut Puts the Agile in Agile and the “Can” in Kanban
+    url: https://javascriptweekly.com/link/115356/web
+    type: News
+  - title: Six Tips To Make Your Pull Requests Easier to Review
+    url: https://javascriptweekly.com/link/115357/web
+    type: News
+  - title: 'LittleJS: A Tiny 2D JavaScript Game Engine with Fast WebGL Rendering'
+    url: https://javascriptweekly.com/link/115360/web
+    type: News
+  - title: 'memoize-one 6.0: A Memoization Library with a Simple Approach'
+    url: https://javascriptweekly.com/link/115361/web
+    type: News
+  - title: 'ChordSymbol: Musical Chord  Parser and Renderer'
+    url: https://javascriptweekly.com/link/115362/web
+    type: News
+  - title: Tried. Tested. Trusted. Studio 3T - Power Tools for MongoDB
+    url: https://javascriptweekly.com/link/115364/web
+    type: News
+  - title: 'GistPad: VS Code Extension for Managing Code Snippets in GitHub Gists'
+    url: https://javascriptweekly.com/link/115365/web
+    type: News
+  - title: 'JavaScript Obfuscator: A Way to ''Scramble'' JS Code'
+    url: https://javascriptweekly.com/link/115367/web
+    type: News
+  - title: 'OpenSilver 1.0: A Modern, Plugin-Free Reimplementation of Silverlight'
+    url: https://javascriptweekly.com/link/115369/web
+    type: News
+  - title: (t,i,x,y) => 'creative code golfing'
+    url: https://javascriptweekly.com/link/115375/web
+    type: News
