@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-575
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 575
+  date: 10/28/2021
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: What We Can Learn From _why, The Long Lost Developer
+    url: https://rubyweekly.com/link/115197/web
+    type: News
+  - title: 'YJIT: Building a New JIT Compiler for CRuby'
+    url: https://rubyweekly.com/link/115198/web
+    type: News
+  - title: Shortcut Puts the 'Can' in Kanban and the Agile in Agile
+    url: https://rubyweekly.com/link/115199/web
+    type: News
+  - title: YJIT Just-In-Time Compiler Merged into CRuby
+    url: https://rubyweekly.com/link/115200/web
+    type: News
+  - title: Ruby Central + Ruby Together == The Future
+    url: https://rubyweekly.com/link/115202/web
+    type: News
+  - title: Detecting Early Returns from a Block
+    url: https://rubyweekly.com/link/115210/web
+    type: News
+  - title: Optimistic Locking in Rails REST APIs
+    url: https://rubyweekly.com/link/115211/web
+    type: News
+  - title: 'The Ruby VM: A Speedrun'
+    url: https://rubyweekly.com/link/115212/web
+    type: News
+  - title: Spend Less Time Debugging and More Time Building with Scout APM
+    url: https://rubyweekly.com/link/115213/web
+    type: News
+  - title: Business Logic in Rails with Operators
+    url: https://rubyweekly.com/link/115214/web
+    type: News
+  - title: '''Ruby is Still a Diamond'' with Emma Hyde'
+    url: https://rubyweekly.com/link/115215/web
+    type: News
+  - title: A Series on Creating 'Wizards' in Rails Apps
+    url: https://rubyweekly.com/link/115217/web
+    type: News
+  - title: Getting Started with RBS in RubyMine
+    url: https://rubyweekly.com/link/115218/web
+    type: News
+  - title: 'Yake 0.4.0: A DSL for Writing AWS Lambda Handlers in Ruby'
+    url: https://rubyweekly.com/link/115220/web
+    type: News
+  - title: 'Closure Tree 7.4.0: Make Active Record Models Support Tree Hierarchies'
+    url: https://rubyweekly.com/link/115221/web
+    type: News
+  - title: RubyGems Trust Us as Their DNS Provider. Find Out Why You Should Too
+    url: https://rubyweekly.com/link/115222/web
+    type: News
+  - title: 'Test::Unit 3.5: Ruby''s Legacy Testing Library'
+    url: https://rubyweekly.com/link/115223/web
+    type: News
