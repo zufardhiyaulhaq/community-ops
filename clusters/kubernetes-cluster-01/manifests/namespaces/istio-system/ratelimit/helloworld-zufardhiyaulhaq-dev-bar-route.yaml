@@ -1,13 +1,13 @@
 apiVersion: ratelimit.zufardhiyaulhaq.com/v1alpha1
 kind: GlobalRateLimit
 metadata:
-  name: helloworld-zufardhiyaulhaq-dev-bar-route
+  name: helloworld-zufardhiyaulhaq-dev-grpc-route
   namespace: istio-system
 spec:
   config: "public-gateway"
   selector:
     vhost: "helloworld.zufardhiyaulhaq.dev:443"
-    route: "bar-route"
+    route: "grpc-route"
   matcher:
   - request_headers:
       header_name: ":method"
@@ -16,8 +16,8 @@ spec:
       header_name: ":path"
       descriptor_key: "path"
   - generic_key:
-      descriptor_value: "bar-route"
-      descriptor_key: "bar-route"
+      descriptor_key: "route"
+      descriptor_value: "grpc-route"
   limit:
     unit: hour
     requests_per_unit: 60

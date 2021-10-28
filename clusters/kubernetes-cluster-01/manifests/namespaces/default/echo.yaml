@@ -18,21 +18,25 @@ spec:
     spec:
       containers:
       - name: echo-redis
-        image: zufardhiyaulhaq/echo-redis:4b26f4d
+        image: zufardhiyaulhaq/echo-redis:49dc0e6
         resources:
           requests:
             cpu: 50m
             memory: 50Mi
         env:
-        - name: PORT
-          value: "5100"
+        - name: HTTP_PORT
+          value: "8080"
+        - name: ECHO_PORT
+          value: "5000"
         - name: REDIS_CLUSTER
           value: "false"
         - name: REDIS_HOST
           value: "172.30.0.17:6379"
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 5100
+        - containerPort: 8080
+          protocol: TCP
+        - containerPort: 5000
           protocol: TCP
 ---
 apiVersion: apps/v1
@@ -54,14 +58,16 @@ spec:
     spec:
       containers:
       - name: echo-postgresql
-        image: zufardhiyaulhaq/echo-postgresql:78666b8
+        image: zufardhiyaulhaq/echo-postgresql:da1e1b3
         resources:
           requests:
             cpu: 50m
             memory: 50Mi
         env:
-        - name: PORT
-          value: "5200"
+        - name: HTTP_PORT
+          value: "8080"
+        - name: ECHO_PORT
+          value: "5000"
         - name: POSTGRESQL_HOST
           value: "172.30.0.18"
         - name: POSTGRESQL_PORT
@@ -74,7 +80,9 @@ spec:
           value: "echo-postgresql"
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 5200
+        - containerPort: 8080
+          protocol: TCP
+        - containerPort: 5000
           protocol: TCP
 ---
 apiVersion: apps/v1
@@ -96,14 +104,16 @@ spec:
     spec:
       containers:
       - name: echo-mongodb
-        image: zufardhiyaulhaq/echo-mongodb:latest
+        image: zufardhiyaulhaq/echo-mongodb:a0a9128
         resources:
           requests:
             cpu: 50m
             memory: 50Mi
         env:
-        - name: PORT
-          value: "5300"
+        - name: HTTP_PORT
+          value: "8080"
+        - name: ECHO_PORT
+          value: "5000"
         - name: MONGODB_HOST
           value: "172.30.0.19"
         - name: MONGODB_PORT
@@ -116,5 +126,55 @@ spec:
           value: "echo-mongodb"
         imagePullPolicy: Always
         ports:
-        - containerPort: 5300
+        - containerPort: 8080
           protocol: TCP
+        - containerPort: 5000
+          protocol: TCP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: echo-redis
+  name: echo-redis
+spec:
+  ports:
+  - port: 8080
+    name: http
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: echo-redis
+  type: ClusterIP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: echo-postgresql
+  name: echo-postgresql
+spec:
+  ports:
+  - port: 8080
+    name: http
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: echo-postgresql
+  type: ClusterIP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: echo-mongodb
+  name: echo-mongodb
+spec:
+  ports:
+  - port: 8080
+    name: http
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: echo-mongodb
+  type: ClusterIP
