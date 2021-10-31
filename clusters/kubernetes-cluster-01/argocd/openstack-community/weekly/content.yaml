@@ -827,3 +827,15 @@ content:
   url: https://superuser.openstack.org/articles/openstack-xena-release-openinfra-live-recap/
   kind: OpenStack Super User News
   isDelivered: true
+- title: Tackling Sustainability with Eco-friendly, Green Hardware | OpenInfra Live Recap
+  url: https://superuser.openstack.org/articles/tackling-sustainability-with-eco-friendly-green-hardware-openinfra-live-recap/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: Key OpenStack Capabilities for 5G Networks
+  url: https://superuser.openstack.org/articles/key-openstack-capabilities-for-5g-networks/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: Meet the 2021 Superuser Awards Nominees
+  url: https://superuser.openstack.org/articles/meet-the-2021-superuser-awards-nominees/
+  kind: OpenStack Super User News
+  isDelivered: false
