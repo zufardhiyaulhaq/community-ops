@@ -1,0 +1,23 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-31-10-2021
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 31-10-2021
+  date: 10/31/2021
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: Tackling Sustainability with Eco-friendly, Green Hardware | OpenInfra Live Recap
+    url: https://superuser.openstack.org/articles/tackling-sustainability-with-eco-friendly-green-hardware-openinfra-live-recap/
+    type: OpenStack Super User News
+  - title: Key OpenStack Capabilities for 5G Networks
+    url: https://superuser.openstack.org/articles/key-openstack-capabilities-for-5g-networks/
+    type: OpenStack Super User News
+  - title: Meet the 2021 Superuser Awards Nominees
+    url: https://superuser.openstack.org/articles/meet-the-2021-superuser-awards-nominees/
+    type: OpenStack Super User News
