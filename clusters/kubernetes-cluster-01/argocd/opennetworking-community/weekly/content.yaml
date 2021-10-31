@@ -507,3 +507,7 @@ content:
   url: https://opennetworking.org/events/17198/
   kind: Open Networking Event
   isDelivered: true
+- title: 2021 P4 TST Election Results
+  url: https://opennetworking.org/news-and-events/blog/2021-p4-tst-election-results/
+  kind: Open Networking Blog
+  isDelivered: true

@@ -1,0 +1,99 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-281
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 281
+  date: 10/30/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Securing your workload communications with Open Service Mesh
+    url: https://community.cncf.io/e/m8sttp/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: ICYMI
+  - title:  
+    url: https://community.cncf.io/e/mr7wnq/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: ICYMI
+  - title: Introducing Kubescape - open-source tool to test Kubernetes deployment
+    url: https://community.cncf.io/e/my75u5/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: ICYMI
+  - title:  
+    url: https://community.cncf.io/e/mr7wnq/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: ICYMI
+  - title: How to design a multi-cloud deployment
+    url: https://community.cncf.io/e/mvneby/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: ICYMI
+  - title:  
+    url: https://community.cncf.io/e/mr7wnq/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: ICYMI
+  - title: Project Calico network policies
+    url: https://community.cncf.io/e/mmkm5p/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: ICYMI
+  - title:  
+    url: https://community.cncf.io/e/mr7wnq/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: ICYMI
+  - title: Understanding GitOps usecases
+    url: https://community.cncf.io/e/m8f7zh/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: ICYMI
+  - title: Kubernetes co-founder Joe Beda interview
+    url: https://mailtrack.io/trace/link/405e1d492cd1f42bc406d370316e02b1949a7642?url=https%3A%2F%2Fevrone.com%2Fjoe-beda-interview&userId=7731835&signature=a1dcf98b20530720&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: Editorial
+  - title: Kubernetes cost management and analysis guide
+    url: https://www.cloudforecast.io/blog/kubernetes-cost-management-and-analysis/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: Editorial
+  - title: I attended Kubecon 2021 in-person, here are my top six takeaways
+    url: https://chronosphere.io/learn/kubecon-2021-top-takeaways/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: Editorial
+  - title: 'KaaS, KPaaS & CaaS: Explained and compared'
+    url: https://elastisys.com/managed-container-services-kaas-kpaas-caas-explained-and-compared/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: Editorial
+  - title: Announcing Vitess 12
+    url: https://vitess.io/blog/2021-10-26-announcing-vitess-12/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: Editorial
+  - title: What you need to know about Kubernetes network policy
+    url: https://opensource.com/article/21/10/kubernetes-networkpolicy?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: Technical
+  - title: The life of an API gateway request (part 1)
+    url: https://konghq.com/blog/api-gateway-request/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: Technical
+  - title: Optimizing Kubernetes applications with Kubecost and Spinnaker
+    url: https://blog.kubecost.com/blog/spinnaker-kubecost-integration/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: Technical
+  - title: Announcing HAProxy Kubernetes Ingress Controller 1.7
+    url: https://www.haproxy.com/blog/announcing-haproxy-kubernetes-ingress-controller-1-7/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: Technical
+  - title: Connecting services to Kubernetes clusters with inlets, VPC Peering and
+      direct uplinks
+    url: https://inlets.dev/blog/2021/10/14/kubernetes-peering.html?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: Technical
+  - title: Transitioning from Monolith to Microservices
+    url: https://dzone.com/articles/transitioning-from-monolith-to-microservices?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: Technical
+  - title: Securing a Kubernetes pod with Regula and Open Policy Agent
+    url: https://www.fugue.co/blog/securing-a-kubernetes-pod-with-regula-and-open-policy-agent?hs_preview=YfbKgoUP-57292480836&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: Technical
+  - title: Structure testing for Docker containers
+    url: https://semaphoreci.com/blog/structure-testing-for-docker-containers?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: Technical
+  - title: 'Kustomize tutorial: Creating a Kubernetes app out of multiple pieces'
+    url: https://www.mirantis.com/blog/introduction-to-kustomize-part-1-creating-a-kubernetes-app-out-of-multiple-pieces/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: Technical
+  - title: 'Kube-fledged: Cache container images in Kubernetes'
+    url: https://itnext.io/kube-fledged-cache-container-images-in-kubernetes-7880a00bab91?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: Technical
+  - title: Kubernetes logging in production
+    url: https://codersociety.com/blog/articles/kubernetes-logging?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: Technical
+  - title: How to develop a customer provider in Terraform
+    url: https://www.infracloud.io/blogs/developing-terraform-custom-provider/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: Technical
+  - title: Database security best practices on Kubernetes
+    url: https://blog.crunchydata.com/blog/database-security-best-practices-on-kubernetes?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: Technical
+  - title: How Linkerd retries HTTP requests with bodies
+    url: https://linkerd.io/2021/10/26/how-linkerd-retries-http-requests-with-bodies/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--k7S8bAK1r-o6aQGUVW4u6vU8okOyf6fqPs1H4L71C1OkR-Jih5Z8h4tMDOT5t6496N8Z9
+    type: Technical
