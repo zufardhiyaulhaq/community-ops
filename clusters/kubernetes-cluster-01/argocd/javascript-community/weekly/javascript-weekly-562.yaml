@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-562
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 562
+  date: 11/01/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Tabulator 5.0: An Interactive Table and Data Grid Library'
+    url: https://javascriptweekly.com/link/115605/web
+    type: News
+  - title: Next.js 12 Released
+    url: https://javascriptweekly.com/link/115608/web
+    type: News
+  - title: Shortcut Is Project Management Without the Management
+    url: https://javascriptweekly.com/link/115609/web
+    type: News
+  - title: Why 'Outdated' jQuery Is Still The Dominant JavaScript Library
+    url: https://javascriptweekly.com/link/115610/web
+    type: News
+  - title: How ua-parser-js, An npm Package with 8M+ Weekly Downloads, Was Compromised
+    url: https://javascriptweekly.com/link/115652/web
+    type: News
+  - title: Adobe Photoshop's Journey to the Web
+    url: https://javascriptweekly.com/link/115627/web
+    type: News
+  - title: How to Do TypeScript Without TypeScript
+    url: https://javascriptweekly.com/link/115628/web
+    type: News
+  - title: Develop a Faster Way to Work. Build Internal Tools, Remarkably Fast
+    url: https://javascriptweekly.com/link/115629/web
+    type: News
+  - title: On Building an Effective Image Component for Next.js
+    url: https://javascriptweekly.com/link/115630/web
+    type: News
+  - title: What Every JavaScript Developer Should Know About Unicode
+    url: https://javascriptweekly.com/link/115631/web
+    type: News
+  - title: In-Page Filtered Search with Vanilla JavaScript
+    url: https://javascriptweekly.com/link/115632/web
+    type: News
+  - title: 'Reflection at Reflect: The Reflect and Proxy APIs'
+    url: https://javascriptweekly.com/link/115633/web
+    type: News
+  - title: Build a Mobile-Responsive Telehealth Pager App Using Stream’s Chat API
+    url: https://javascriptweekly.com/link/115634/web
+    type: News
+  - title: 'Cytoscape.js: A Graph Theory/Network Library for Visualization and Analysis'
+    url: https://javascriptweekly.com/link/115639/web
+    type: News
+  - title: 'PDFKit: A PDF Generation Library for Node and Browser'
+    url: https://javascriptweekly.com/link/115641/web
+    type: News
+  - title: Breakpoints and console.log Is the Past, Time Travel Is the Future
+    url: https://javascriptweekly.com/link/115644/web
+    type: News
+  - title: 'Blobity: Level Up Your Cursor Game'
+    url: https://javascriptweekly.com/link/115645/web
+    type: News
+  - title: 'Vizzu: A Library for Animated Data Visualizations and Data Stories'
+    url: https://javascriptweekly.com/link/115646/web
+    type: News
+  - title: 'npkill: Easily Remove Old or ''Heavy'' node_modules Folders'
+    url: https://javascriptweekly.com/link/115649/web
+    type: News
