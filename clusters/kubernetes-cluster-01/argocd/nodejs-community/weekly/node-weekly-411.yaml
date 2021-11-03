@@ -1,0 +1,57 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-411
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 411
+  date: 11/03/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Supercharging Node with Rust
+    url: https://nodeweekly.com/link/115543/web
+    type: News
+  - title: Node v16.13.0 (LTS) Released
+    url: https://nodeweekly.com/link/115546/web
+    type: News
+  - title: "Complete Node.js Learning Path \U0001F6A2"
+    url: https://nodeweekly.com/link/115547/web
+    type: News
+  - title: How ua-parser-js, an npm Package with 8M+ Weekly Downloads, Was (Briefly)
+      Compromised
+    url: https://nodeweekly.com/link/115548/web
+    type: News
+  - title: Next.js 12 Released
+    url: https://nodeweekly.com/link/115550/web
+    type: News
+  - title: How to Do TypeScript without TypeScript
+    url: https://nodeweekly.com/link/115551/web
+    type: News
+  - title: The Talk That Made Me Finally Understand How the Event Loop Works
+    url: https://nodeweekly.com/link/115552/web
+    type: News
+  - title: Desktop Automation with RobotJS
+    url: https://nodeweekly.com/link/115553/web
+    type: News
+  - title: Running Queries Using InfluxDB’s JavaScript Client Library
+    url: https://nodeweekly.com/link/115555/web
+    type: News
+  - title: 'Git Bisect: Travel Through Time and Bugs'
+    url: https://nodeweekly.com/link/115556/web
+    type: News
+  - title: 'memoize-one 6.0: A Memoization Library with a Simple Approach'
+    url: https://nodeweekly.com/link/115557/web
+    type: News
+  - title: 'WildBeast: A Full Featured Discord Bot Framework'
+    url: https://nodeweekly.com/link/115558/web
+    type: News
+  - title: 'Commander 8.3: Node Command-Line Interfaces Made Easy'
+    url: https://nodeweekly.com/link/115560/web
+    type: News
+  - title: Scale PostgreSQL and MySQL Apps Globally in Minutes
+    url: https://nodeweekly.com/link/115561/web
+    type: News
