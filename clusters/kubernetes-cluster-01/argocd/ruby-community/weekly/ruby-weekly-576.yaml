@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-576
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 576
+  date: 11/04/2021
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'Chartkick 4.1: Attractive JavaScript Charts in One Line of Ruby'
+    url: https://rubyweekly.com/link/115506/web
+    type: News
+  - title: Publishing Gems Securely with a YubiKey
+    url: https://rubyweekly.com/link/115508/web
+    type: News
+  - title: Another Bug Bites the Dust
+    url: https://rubyweekly.com/link/115509/web
+    type: News
+  - title: Explaining Ruby Fibers
+    url: https://rubyweekly.com/link/115510/web
+    type: News
+  - title: To Learn a New Language, Read Its Standard Library
+    url: https://rubyweekly.com/link/115511/web
+    type: News
+  - title: A Lesser Known Capability of Ruby's JSON.parse
+    url: https://rubyweekly.com/link/115518/web
+    type: News
+  - title: Testing Your JSON API in Ruby with dry-rb
+    url: https://rubyweekly.com/link/115541/web
+    type: News
+  - title: Supporting Fractions in Ruby
+    url: https://rubyweekly.com/link/115520/web
+    type: News
+  - title: JavaScript Test Code Coverage in Rails Apps
+    url: https://rubyweekly.com/link/115521/web
+    type: News
+  - title: Building, Testing, and Deploying Google Cloud Functions with Ruby
+    url: https://rubyweekly.com/link/115522/web
+    type: News
+  - title: Shortcut Puts the Agile in Agile and the “Can” in Kanban
+    url: https://rubyweekly.com/link/115523/web
+    type: News
+  - title: Discussing Encryption and Security in Ruby and Rails with Basecamp's Jorge Manrubia
+    url: https://rubyweekly.com/link/115524/web
+    type: News
+  - title: 'Git Bisect: Travel Through Time and Bugs'
+    url: https://rubyweekly.com/link/115526/web
+    type: News
+  - title: Being RESTful About Your Routes
+    url: https://rubyweekly.com/link/115527/web
+    type: News
+  - title: 'Gammo: A Pure Ruby HTML5 Compliant Parser'
+    url: https://rubyweekly.com/link/115529/web
+    type: News
+  - title: 'Caffeinate: A Rails Engine for Drip Campaigns/Scheduled Email Sequences'
+    url: https://rubyweekly.com/link/115530/web
+    type: News
+  - title: 'Video for Ruby: Build Video in Just Two API Calls'
+    url: https://rubyweekly.com/link/115531/web
+    type: News
+  - title: 'Opal 1.3: A Ruby to JavaScript Compiler'
+    url: https://rubyweekly.com/link/115532/web
+    type: News
+  - title: 'Counter Culture 3.0: ''Turbo-Charged'' Counter Caches for Rails Apps'
+    url: https://rubyweekly.com/link/115534/web
+    type: News
+  - title: 'Maxitest 4.1: Minitest, Plus All The Features You Always Wanted..'
+    url: https://rubyweekly.com/link/115535/web
+    type: News
