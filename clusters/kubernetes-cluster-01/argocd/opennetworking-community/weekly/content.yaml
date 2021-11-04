@@ -511,3 +511,19 @@ content:
   url: https://opennetworking.org/news-and-events/blog/2021-p4-tst-election-results/
   kind: Open Networking Blog
   isDelivered: true
+- title: Deutsche Telekom’s Choi sees open RAN deployments from 2023
+  url: https://www.telcotitans.com/deutsche-telekomwatch/deutsche-telekoms-choi-sees-open-ran-deployments-from-2023/3917.article?utm_medium=email&utm_campaign=Weekly%20Deutsche%20Telekomwatch%20Weekly&utm_content=Weekly%20Deutsche%20Telekomwatch%20Weekly+CID_b587b5a0dc399a4c24f0ee3b064d8783&utm_source=Email%20marketing%20software&utm_term=Deutsche%20Telekoms%20Choi%20sees%20open%20RAN%20deployments%20from%202023
+  kind: Open Networking News
+  isDelivered: false
+- title: 2021 Broadband World Forum Event Wrap-Up
+  url: https://opennetworking.org/news-and-events/blog/2021-broadband-world-forum-event-wrap-up/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: SD-RAN Berlin Trial – Event Recap
+  url: https://opennetworking.org/news-and-events/blog/sd-ran-berlin-trial-event-recap/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: 5G Manufacturing Forum
+  url: https://opennetworking.org/events/5g-manufacturing-forum/
+  kind: Open Networking Event
+  isDelivered: false
