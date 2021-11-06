@@ -1,0 +1,63 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-282
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 282
+  date: 11/06/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Notary v2 – Promoting signed artifacts
+    url: https://community.cncf.io/e/mbfy85/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eu_n2IfgxOJT_kNxq4van6qxqM3nyLwn60c8A_ILt6FWPmOj6UmHs_NZJUm8RwbFYLy7c
+    type: ICYMI
+  - title: Bottlerocket, A year in the life
+    url: https://aws.amazon.com/blogs/containers/bottlerocket-a-year-in-the-life/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eu_n2IfgxOJT_kNxq4van6qxqM3nyLwn60c8A_ILt6FWPmOj6UmHs_NZJUm8RwbFYLy7c
+    type: Editorial
+  - title: What the arrival of IPv6 support in Kubernetes means for you
+    url: https://metal.equinix.com/blog/kubernetes-ipv6-ipv4-dual-stack-networking/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eu_n2IfgxOJT_kNxq4van6qxqM3nyLwn60c8A_ILt6FWPmOj6UmHs_NZJUm8RwbFYLy7c
+    type: Editorial
+  - title: Google employee startup Chainguard focuses on open-source and supply chain
+      security
+    url: https://siliconangle.com/2021/10/28/google-employee-startup-chainguard-focuses-open-source-supply-chain-security-kubecon/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eu_n2IfgxOJT_kNxq4van6qxqM3nyLwn60c8A_ILt6FWPmOj6UmHs_NZJUm8RwbFYLy7c
+    type: Editorial
+  - title: 16 CNCF interns graduated from Google Summer of Code (GSoC) 2021!
+    url: https://www.cncf.io/blog/2021/11/01/16-cncf-interns-graduated-from-google-summer-of-code-gsoc-2021/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eu_n2IfgxOJT_kNxq4van6qxqM3nyLwn60c8A_ILt6FWPmOj6UmHs_NZJUm8RwbFYLy7c
+    type: Editorial
+  - title: Dapr (Distributed Application Runtime) joins CNCF Incubator
+    url: https://www.cncf.io/blog/2021/11/03/dapr-distributed-application-runtime-joins-cncf-incubator/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eu_n2IfgxOJT_kNxq4van6qxqM3nyLwn60c8A_ILt6FWPmOj6UmHs_NZJUm8RwbFYLy7c
+    type: Editorial
+  - title: 'Kubernetes: what are the key benefits for companies? '
+    url: https://blog.sparkfabrik.com/en/kubernetes-key-benefits-for-companies?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eu_n2IfgxOJT_kNxq4van6qxqM3nyLwn60c8A_ILt6FWPmOj6UmHs_NZJUm8RwbFYLy7c
+    type: Editorial
+  - title: Microservices and cloud native applications vs. monolithic applications
+    url: https://blog.sparkfabrik.com/en/microservices-and-cloud-native-applications-vs-monolithic-applications?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eu_n2IfgxOJT_kNxq4van6qxqM3nyLwn60c8A_ILt6FWPmOj6UmHs_NZJUm8RwbFYLy7c
+    type: Editorial
+  - title: Observability trends 2021
+    url: https://www.civo.com/blog/observability-trends-2021?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eu_n2IfgxOJT_kNxq4van6qxqM3nyLwn60c8A_ILt6FWPmOj6UmHs_NZJUm8RwbFYLy7c
+    type: Editorial
+  - title: Maintaining OpenFaaS with CNCF Ambassador Alex Ellis
+    url: https://podcast.curiefense.io/25?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eu_n2IfgxOJT_kNxq4van6qxqM3nyLwn60c8A_ILt6FWPmOj6UmHs_NZJUm8RwbFYLy7c
+    type: Editorial
+  - title: Solve these common Kubernetes challenges early
+    url: https://konghq.com/blog/solve-kubernetes-challenges/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eu_n2IfgxOJT_kNxq4van6qxqM3nyLwn60c8A_ILt6FWPmOj6UmHs_NZJUm8RwbFYLy7c
+    type: Editorial
+  - title: 'kubepug: Kubernetes PreUpGrade (Checker)'
+    url: https://github.com/rikatz/kubepug?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eu_n2IfgxOJT_kNxq4van6qxqM3nyLwn60c8A_ILt6FWPmOj6UmHs_NZJUm8RwbFYLy7c
+    type: Technical
+  - title: 'konfig: Helps to merge, split or import kubeconfig files'
+    url: https://github.com/corneliusweig/konfig?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eu_n2IfgxOJT_kNxq4van6qxqM3nyLwn60c8A_ILt6FWPmOj6UmHs_NZJUm8RwbFYLy7c
+    type: Technical
+  - title: November 2021 update
+    url: https://fluxcd.io/blog/2021/11/november-2021-update/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eu_n2IfgxOJT_kNxq4van6qxqM3nyLwn60c8A_ILt6FWPmOj6UmHs_NZJUm8RwbFYLy7c
+    type: Technical
+  - title: Why write a new planner
+    url: https://vitess.io/blog/2021-11-02-why-write-new-planner/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eu_n2IfgxOJT_kNxq4van6qxqM3nyLwn60c8A_ILt6FWPmOj6UmHs_NZJUm8RwbFYLy7c
+    type: Technical
+  - title: Keeping Kubernetes clusters clean and tidy
+    url: https://martinheinz.dev/blog/60?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eu_n2IfgxOJT_kNxq4van6qxqM3nyLwn60c8A_ILt6FWPmOj6UmHs_NZJUm8RwbFYLy7c
+    type: Technical
