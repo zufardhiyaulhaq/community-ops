@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-386
+  namespace: golang-community
+spec:
+  name: Golang Weekly 386
+  date: 11/07/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 4 Great Talks from Google's Go Day 2021
+    url: https://golangweekly.com/link/115872/web
+    type: News
+  - title: 'Carotid Artillery: A Twin-Stick Shooter Game Built with Ebiten'
+    url: https://golangweekly.com/link/115877/web
+    type: News
+  - title: Shortcut Is Project Management Without the Management
+    url: https://golangweekly.com/link/115880/web
+    type: News
+  - title: net/http.ServeMux and Trailing Slashes
+    url: https://golangweekly.com/link/115881/web
+    type: News
+  - title: Go 1.17.3 and Go 1.16.10 Released
+    url: https://golangweekly.com/link/115882/web
+    type: News
+  - title: Building an AWS Lambda Hosted Twitter Meme Bot in Go
+    url: https://golangweekly.com/link/115883/web
+    type: News
+  - title: A Basic Way of Working with Geographic Information in Go
+    url: https://golangweekly.com/link/115885/web
+    type: News
+  - title: Discussing Go's Annual Developer Survey
+    url: https://golangweekly.com/link/115886/web
+    type: News
+  - title: Functional Options are Named Args on Overdrive
+    url: https://golangweekly.com/link/115888/web
+    type: News
+  - title: Benchmaking a Go-Powered SQL Engine Against MySQL
+    url: https://golangweekly.com/link/115889/web
+    type: News
+  - title: A Tool to Visualize Graphs of Embedded Structs in Go Projects
+    url: https://golangweekly.com/link/115898/web
+    type: News
+  - title: 'structslop: A Static Analyzer That Recommends Struct Field Rearrangements'
+    url: https://golangweekly.com/link/115899/web
+    type: News
+  - title: 'valast: Convert Go Values to Their AST'
+    url: https://golangweekly.com/link/115900/web
+    type: News
+  - title: "Buy, Connect, and Operate Domains from Your Go App, \U0001F440 Free Transfer"
+    url: https://golangweekly.com/link/115901/web
+    type: News
+  - title: 'u-root: A Suite of Unix Tools in a Single Go Binary'
+    url: https://golangweekly.com/link/115902/web
+    type: News
+  - title: 'Depp: Check npm Modules for Unused and Duplicate Dependencies Fast'
+    url: https://golangweekly.com/link/115907/web
+    type: News
