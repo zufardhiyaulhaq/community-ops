@@ -1,0 +1,26 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-07-11-2021
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 07-11-2021
+  date: 11/07/2021
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: '2021 Superuser Awards Nominee: Cloud Team at Bloomberg'
+    url: https://superuser.openstack.org/articles/2021-superuser-awards-nominee-cloud-team-at-bloomberg/
+    type: OpenStack Super User News
+  - title: '2021 Superuser Awards Nominee: Catalyst Cloud'
+    url: https://superuser.openstack.org/articles/2021-superuser-awards-nominee-catalyst-cloud/
+    type: OpenStack Super User News
+  - title: '2021 Superuser Awards Nominee: Component Soft'
+    url: https://superuser.openstack.org/articles/2021-superuser-awards-nominee-component-soft/
+    type: OpenStack Super User News
+  - title: '2021 Superuser Awards Nominee: CloudFire'
+    url: https://superuser.openstack.org/articles/2021-superuser-awards-nominee-cloudfire/
+    type: OpenStack Super User News
