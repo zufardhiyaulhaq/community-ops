@@ -842,16 +842,16 @@ content:
 - title: '2021 Superuser Awards Nominee: Cloud Team at Bloomberg'
   url: https://superuser.openstack.org/articles/2021-superuser-awards-nominee-cloud-team-at-bloomberg/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: '2021 Superuser Awards Nominee: Catalyst Cloud'
   url: https://superuser.openstack.org/articles/2021-superuser-awards-nominee-catalyst-cloud/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: '2021 Superuser Awards Nominee: Component Soft'
   url: https://superuser.openstack.org/articles/2021-superuser-awards-nominee-component-soft/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: '2021 Superuser Awards Nominee: CloudFire'
   url: https://superuser.openstack.org/articles/2021-superuser-awards-nominee-cloudfire/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
