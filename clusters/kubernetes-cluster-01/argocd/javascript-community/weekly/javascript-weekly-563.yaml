@@ -1,0 +1,78 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-563
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 563
+  date: 11/08/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Chrome's New Feature to Record and Replay User Flows
+    url: https://javascriptweekly.com/link/115975/web
+    type: News
+  - title: Angular 13 Released
+    url: https://javascriptweekly.com/link/115976/web
+    type: News
+  - title: Another Bug Bites the Dust
+    url: https://javascriptweekly.com/link/115912/web
+    type: News
+  - title: Microsoft Brings (More) JavaScript to Excel
+    url: https://javascriptweekly.com/link/115978/web
+    type: News
+  - title: Announcing TypeScript 4.5 RC
+    url: https://javascriptweekly.com/link/115980/web
+    type: News
+  - title: Have Single-Page Apps Ruined the Web?
+    url: https://javascriptweekly.com/link/115933/web
+    type: News
+  - title: Developer Tools Secrets That Shouldn’t Be Secrets
+    url: https://javascriptweekly.com/link/115935/web
+    type: News
+  - title: Visualizing Time Series Data with the Highcharts Library and InfluxDB
+    url: https://javascriptweekly.com/link/115937/web
+    type: News
+  - title: Creating the Effect of Transparent Glass and Plastic with Three.js
+    url: https://javascriptweekly.com/link/115939/web
+    type: News
+  - title: How to Show/Hide Elements in Vue
+    url: https://javascriptweekly.com/link/115941/web
+    type: News
+  - title: What is Astro?
+    url: https://javascriptweekly.com/link/115943/web
+    type: News
+  - title: 'Hasty: A JavaScript Snippet Perfomance Comparison Tool'
+    url: https://javascriptweekly.com/link/115949/web
+    type: News
+  - title: 'Coding Font: A ''Game'' to Find Your New Favorite Code Font'
+    url: https://javascriptweekly.com/link/115955/web
+    type: News
+  - title: Dynamic Charts Based on Data Selection in Angular
+    url: https://javascriptweekly.com/link/115957/web
+    type: News
+  - title: 'History: An API to Manage Session History with JavaScript'
+    url: https://javascriptweekly.com/link/115959/web
+    type: News
+  - title: 'Depp: Check npm Modules for Unused and Duplicate Dependencies Fast'
+    url: https://javascriptweekly.com/link/115963/web
+    type: News
+  - title: 'Prisma 3.4.0 Released: The Popular ''Next Gen'' ORM and Toolset'
+    url: https://javascriptweekly.com/link/115965/web
+    type: News
+  - title: 'Smooth Scrollbar: Flexible, Customizable Scrollbars'
+    url: https://javascriptweekly.com/link/115967/web
+    type: News
+  - title: Catch Errors in Your Complex Regular Expressions with SonarLint
+    url: https://javascriptweekly.com/link/115970/web
+    type: News
+  - title: A Script to Export Photoshop Layers to Individual Files Fast
+    url: https://javascriptweekly.com/link/115972/web
+    type: News
+  - title: 'Detox: ''Gray Box'' End-to-End Testing and Automation Framework for Mobile
+      Apps'
+    url: https://javascriptweekly.com/link/115973/web
+    type: News
