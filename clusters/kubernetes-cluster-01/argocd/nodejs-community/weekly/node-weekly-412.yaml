@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-412
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 412
+  date: 11/10/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: A Comprehensive Guide to Error Handling in Node
+    url: https://nodeweekly.com/link/115819/web
+    type: News
+  - title: TypeScript Delays ESM Support for Node
+    url: https://nodeweekly.com/link/115820/web
+    type: News
+  - title: Ready for Worry-Free DNS, SSL and Domain Management?
+    url: https://nodeweekly.com/link/115823/web
+    type: News
+  - title: How To Build an Amazon Product Scraper with Node
+    url: https://nodeweekly.com/link/115825/web
+    type: News
+  - title: How Do You Audit the Security of Software That Uses NPM Packages?
+    url: https://nodeweekly.com/link/115826/web
+    type: News
+  - title: A Deep Dive Into Serverless UI with TypeScript
+    url: https://nodeweekly.com/link/115827/web
+    type: News
+  - title: Designing Error Messages and a Logging Strategy in Node.js
+    url: https://nodeweekly.com/link/115829/web
+    type: News
+  - title: Building an Amazon S3 Object Difference Checker with AWS Lambda
+    url: https://nodeweekly.com/link/115830/web
+    type: News
+  - title: How to Fix 'Unable to Load Node-API Library' with Cypress on macOS
+    url: https://nodeweekly.com/link/115831/web
+    type: News
+  - title: Observability Won't Replace Monitoring (Because It Shouldn't)
+    url: https://nodeweekly.com/link/115832/web
+    type: News
+  - title: How to Handle File Uploads from Node.js to Express
+    url: https://nodeweekly.com/link/115833/web
+    type: News
+  - title: Consuming Pino Logs with Red Hat OpenShift's Logging System
+    url: https://nodeweekly.com/link/115834/web
+    type: News
+  - title: 'Oclif: Heroku''s Open CLI Framework for Node'
+    url: https://nodeweekly.com/link/115840/web
+    type: News
+  - title: 'Prisma 3.4.0 Released: The Popular ''Next Gen'' ORM and Toolset'
+    url: https://nodeweekly.com/link/115842/web
+    type: News
+  - title: Build Video for Your Node App That Just Works
+    url: https://nodeweekly.com/link/115843/web
+    type: News
+  - title: 'p-map 5.3: Map Over Promises Concurrently'
+    url: https://nodeweekly.com/link/115844/web
+    type: News
+  - title: 'PDFKit: A PDF Generation Library for Node and Browser'
+    url: https://nodeweekly.com/link/115845/web
+    type: News
+  - title: 'node-dev 7.1: Zero-Conf Node Process Restarting'
+    url: https://nodeweekly.com/link/115848/web
+    type: News
