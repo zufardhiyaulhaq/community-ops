@@ -527,3 +527,23 @@ content:
   url: https://opennetworking.org/events/5g-manufacturing-forum/
   kind: Open Networking Event
   isDelivered: true
+- title: Drone demo shows it’s possible to protect 5G-managed devices from DDoS, exfiltration attacks
+  url: https://www.networkworld.com/article/3640069/drone-demo-shows-it-s-possible-to-protect-5g-managed-devices-from-ddos-exfiltration-attacks.html
+  kind: Open Networking News
+  isDelivered: false
+- title: Table Driven Interface API Opens P4-Programmable Data Plane Features
+  url: https://opennetworking.org/news-and-events/blog/table-driven-interface-api-opens-p4-programmable-data-plane-features/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: Stratum v21.10 Released, Enabling SD-Fabric and Aether
+  url: https://opennetworking.org/news-and-events/blog/stratum-v21-10-released-enabling-sd-fabric-and-aether/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: ONF Releases SD-RAN v1.3 Enhancing RIC Platform
+  url: https://opennetworking.org/news-and-events/blog/onf-releases-sd-ran-v1-3-enhancing-ric-platform/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: Community Highlights – October 2021
+  url: https://opennetworking.org/news-and-events/blog/community-highlights-october-2021/
+  kind: Open Networking Blog
+  isDelivered: false
