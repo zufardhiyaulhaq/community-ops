@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-577
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 577
+  date: 11/11/2021
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: An Introduction to Async Ruby
+    url: https://rubyweekly.com/link/115768/web
+    type: News
+  - title: 'Prettier Ruby 2.0.0: Formatting Your Ruby Code on Save'
+    url: https://rubyweekly.com/link/115769/web
+    type: News
+  - title: 'ButterCMS Melts into Your Ruby App. #1 Rated Headless CMS'
+    url: https://rubyweekly.com/link/115772/web
+    type: News
+  - title: Doing a Rails PR Code Review with a Rails Core Team Member
+    url: https://rubyweekly.com/link/115773/web
+    type: News
+  - title: A Guide to Ruby Structs
+    url: https://rubyweekly.com/link/115780/web
+    type: News
+  - title: Making a GitHub Issue-Style File Uploader Using Stimulus and Active Storage
+    url: https://rubyweekly.com/link/115781/web
+    type: News
+  - title: Spend Less Time Debugging and More Time Building with Scout
+    url: https://rubyweekly.com/link/115782/web
+    type: News
+  - title: Ruby's Got You 'Covered'
+    url: https://rubyweekly.com/link/115796/web
+    type: News
+  - title: Metaprogramming 'Smarter' Hashes in Ruby
+    url: https://rubyweekly.com/link/115784/web
+    type: News
+  - title: Discussing Code Quality with Ernesto Tagwerker
+    url: https://rubyweekly.com/link/115785/web
+    type: News
+  - title: 'benchmark-memory: Memory Profiling Benchmark Style'
+    url: https://rubyweekly.com/link/115788/web
+    type: News
+  - title: 'UserAgentParser: Parse HTTP Client/Browser User Agent Strings'
+    url: https://rubyweekly.com/link/115789/web
+    type: News
+  - title: 'RSpotify: A Ruby Wrapper for the Spotify Web API'
+    url: https://rubyweekly.com/link/115790/web
+    type: News
+  - title: Put the “Flow” in Your Workflows with Shortcut
+    url: https://rubyweekly.com/link/115791/web
+    type: News
+  - title: JRuby 9.2.20.0 Released
+    url: https://rubyweekly.com/link/115792/web
+    type: News
+  - title: 'GoodJob 2.6: A Multithreaded, Postgres-Based, ActiveJob Backend for Rails'
+    url: https://rubyweekly.com/link/115793/web
+    type: News
