@@ -1,0 +1,51 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-283
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 283
+  date: 11/13/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: 'Breaking tradition: The future of package management with Kubernetes'
+    url: https://community.cncf.io/e/mbptem/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_URavOIyZgmTDu4cyD7r6LXeRMs-jguGz6_cLoDLqPQDYYCuxc8FHMJrwua9duZSNLwPcl
+    type: ICYMI
+  - title: Improve core-to-edge mobility and resiliency for cloud native applications
+    url: https://community.cncf.io/e/mpf4ng/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_URavOIyZgmTDu4cyD7r6LXeRMs-jguGz6_cLoDLqPQDYYCuxc8FHMJrwua9duZSNLwPcl
+    type: ICYMI
+  - title: Announcing the 2021 Steering Committee election results
+    url: https://kubernetes.io/blog/2021/11/08/steering-committee-results-2021/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_URavOIyZgmTDu4cyD7r6LXeRMs-jguGz6_cLoDLqPQDYYCuxc8FHMJrwua9duZSNLwPcl
+    type: Editorial
+  - title: 'Kubernetes podcast from Google: Knative 1.0, with Ville Aikas'
+    url: https://kubernetespodcast.com/episode/166-knative-1.0/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_URavOIyZgmTDu4cyD7r6LXeRMs-jguGz6_cLoDLqPQDYYCuxc8FHMJrwua9duZSNLwPcl
+    type: Editorial
+  - title: Security microservices, configuration and observability take the stage
+      at KubeCon NA 2021
+    url: https://siliconangle.com/2021/11/09/security-microservices-configuration-and-observability-take-the-stage-at-kubecon-na-2021-kubecon/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_URavOIyZgmTDu4cyD7r6LXeRMs-jguGz6_cLoDLqPQDYYCuxc8FHMJrwua9duZSNLwPcl
+    type: Editorial
+  - title: 'Key takeaways from KubeCon: deeper focus on FinOps, GitOps'
+    url: https://www.cncf.io/blog/2021/11/05/key-takeaways-from-kubecon-deeper-focus-on-finops-gitops/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_URavOIyZgmTDu4cyD7r6LXeRMs-jguGz6_cLoDLqPQDYYCuxc8FHMJrwua9duZSNLwPcl
+    type: Editorial
+  - title: 'Kubernetes operators: Cruise control for managing cloud native apps'
+    url: https://itnext.io/kubernetes-operators-cruise-control-for-managing-cloud-native-apps-db328ef8e345?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_URavOIyZgmTDu4cyD7r6LXeRMs-jguGz6_cLoDLqPQDYYCuxc8FHMJrwua9duZSNLwPcl
+    type: Editorial
+  - title: How Krateo PlatformOps integrates Backstage
+    url: https://www.cncf.io/blog/2021/11/10/how-krateo-platformops-integrates-backstage/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_URavOIyZgmTDu4cyD7r6LXeRMs-jguGz6_cLoDLqPQDYYCuxc8FHMJrwua9duZSNLwPcl
+    type: Technical
+  - title: 'Kube-lineage: A CLI tool for visualizing Kubernetes object relationships'
+    url: https://tohjustin.github.io/posts/2021-11-01-kube-lineage/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_URavOIyZgmTDu4cyD7r6LXeRMs-jguGz6_cLoDLqPQDYYCuxc8FHMJrwua9duZSNLwPcl
+    type: Technical
+  - title: Multifactor SSO authentication for Postgres on Kubernetes
+    url: https://blog.crunchydata.com/blog/multifactor-sso-authentication-for-postgres-on-kubernetes?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_URavOIyZgmTDu4cyD7r6LXeRMs-jguGz6_cLoDLqPQDYYCuxc8FHMJrwua9duZSNLwPcl
+    type: Technical
+  - title: Flux security audit has concluded
+    url: https://fluxcd.io/blog/2021-11-10-flux-security-audit/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_URavOIyZgmTDu4cyD7r6LXeRMs-jguGz6_cLoDLqPQDYYCuxc8FHMJrwua9duZSNLwPcl
+    type: Technical
+  - title: Horizontal pod autoscaling with custom metrics in Kubernetes
+    url: https://blog.px.dev/autoscaling-custom-k8s-metric/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_URavOIyZgmTDu4cyD7r6LXeRMs-jguGz6_cLoDLqPQDYYCuxc8FHMJrwua9duZSNLwPcl
+    type: Technical
