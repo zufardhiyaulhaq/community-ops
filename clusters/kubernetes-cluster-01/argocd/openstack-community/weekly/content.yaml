@@ -855,3 +855,43 @@ content:
   url: https://superuser.openstack.org/articles/2021-superuser-awards-nominee-cloudfire/
   kind: OpenStack Super User News
   isDelivered: true
+- title: 'Yahoo wins Superuser Awards at OpenInfra Live: Keynotes'
+  url: https://superuser.openstack.org/articles/yahoo-wins-superuser-award-at-openinfra-live-keynotes/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: '2021 Superuser Awards Nominee: The R&D, operations and engineering teams of Binero Group AB'
+  url: https://superuser.openstack.org/articles/2021-superuser-awards-nominee-binero/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: 'Open Source Hybrid Cloud in Production: Workday'
+  url: https://superuser.openstack.org/articles/open-source-hybrid-cloud-in-production-workday-2/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: 'Inside Open Infrastructure: The Latest from the OpenInfra Foundation'
+  url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation-7/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: '2021 Superuser Awards Nominee: ORock Technologies'
+  url: https://superuser.openstack.org/articles/2021-superuser-awards-nominee-orock/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: '2021 Superuser Awards Nominee: OneQode'
+  url: https://superuser.openstack.org/articles/2021-superuser-awards-nominee-oneqode/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: '2021 Superuser Awards Nominee: Yahoo! Datacenter Infrastructure Cloud Engineering (DICE)'
+  url: https://superuser.openstack.org/articles/2021-superuser-awards-nominee-yahoo/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: 'Inside Open Infrastructure: The Latest from the OpenInfra Foundation'
+  url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation-6-2/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: 'OpenStack is Alive: Explosive Growth Among Production Deployments | OpenInfra Live Recap'
+  url: https://superuser.openstack.org/articles/openstack-is-alive-explosive-growth-among-production-deployments-openinfra-live-recap/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: '2021 Superuser Awards Nominee: OSISM GmbH'
+  url: https://superuser.openstack.org/articles/2021-superuser-awards-nominee-osism/
+  kind: OpenStack Super User News
+  isDelivered: false
