@@ -1,0 +1,45 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-284
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 284
+  date: 11/21/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Intro to open source observability with Grafana, Prometheus, Loki, and
+      Tempo
+    url: https://community.cncf.io/e/mj9fxv/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ii-t4Stw1M7d7wlRGvXOQfoyYyu_OZdPZFPGO_dLmZjDHCRKNvx8kkmU3dlF6Qw45SO2J
+    type: ICYMI
+  - title: Building, analyzing, optimizing, and securing containerized apps
+    url: https://community.cncf.io/e/mryy58/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ii-t4Stw1M7d7wlRGvXOQfoyYyu_OZdPZFPGO_dLmZjDHCRKNvx8kkmU3dlF6Qw45SO2J
+    type: ICYMI
+  - title: How to discover personal data in cloud storage
+    url: https://soveren.io/blog/discover-personal-data-cloud?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ii-t4Stw1M7d7wlRGvXOQfoyYyu_OZdPZFPGO_dLmZjDHCRKNvx8kkmU3dlF6Qw45SO2J
+    type: Editorial
+  - title: Immerse launches free Unity-based software development kit for scalable
+      VR content
+    url: https://immerse.io/2021/11/15/immerse-launches-free-unity-based-software-development-kit-for-scalable-vr-content/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ii-t4Stw1M7d7wlRGvXOQfoyYyu_OZdPZFPGO_dLmZjDHCRKNvx8kkmU3dlF6Qw45SO2J
+    type: Editorial
+  - title: EdgeX foundry on K3s - the inception
+    url: https://www.infracloud.io/blogs/edgex-foundry-k3s-part-1/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ii-t4Stw1M7d7wlRGvXOQfoyYyu_OZdPZFPGO_dLmZjDHCRKNvx8kkmU3dlF6Qw45SO2J
+    type: Editorial
+  - title: What you need to know about cluster logging in Kubernetes
+    url: https://opensource.com/article/21/11/cluster-logging-kubernetes?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ii-t4Stw1M7d7wlRGvXOQfoyYyu_OZdPZFPGO_dLmZjDHCRKNvx8kkmU3dlF6Qw45SO2J
+    type: Technical
+  - title: How to integrate your CI/CD pipeline with Kubernetes and Role Based Access
+      Control
+    url: https://elastisys.com/integrate-your-ci-cd-pipeline-with-kubernetes-and-rbac/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ii-t4Stw1M7d7wlRGvXOQfoyYyu_OZdPZFPGO_dLmZjDHCRKNvx8kkmU3dlF6Qw45SO2J
+    type: Technical
+  - title: Where are my container’s files? Inspecting container filesystems
+    url: https://blog.px.dev/container-filesystems/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ii-t4Stw1M7d7wlRGvXOQfoyYyu_OZdPZFPGO_dLmZjDHCRKNvx8kkmU3dlF6Qw45SO2J
+    type: Technical
+  - title: 'Gopaddle configurator: A Kubernetes-native versioning system for application
+      configuration'
+    url: https://itnext.io/gopaddle-configurator-a-kubernetes-native-versioning-system-for-application-configuration-1e5c5481a972?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ii-t4Stw1M7d7wlRGvXOQfoyYyu_OZdPZFPGO_dLmZjDHCRKNvx8kkmU3dlF6Qw45SO2J
+    type: Technical
