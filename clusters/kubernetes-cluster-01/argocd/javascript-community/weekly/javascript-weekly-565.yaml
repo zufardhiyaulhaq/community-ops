@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-565
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 565
+  date: 11/21/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Understanding Why a Build Got 15x Slower with Webpack 5
+    url: https://javascriptweekly.com/link/116574/web
+    type: News
+  - title: Etsy’s Journey to TypeScript
+    url: https://javascriptweekly.com/link/116576/web
+    type: News
+  - title: Video API Built to Create Stunning Visual Experiences
+    url: https://javascriptweekly.com/link/116577/web
+    type: News
+  - title: Some Notes on Using 'esbuild'
+    url: https://javascriptweekly.com/link/116578/web
+    type: News
+  - title: TypeScript 4.5 Released
+    url: https://javascriptweekly.com/link/116580/web
+    type: News
+  - title: React 18 Enters Beta Stage
+    url: https://javascriptweekly.com/link/116582/web
+    type: News
+  - title: How to Build Stunning 3D Scenes with React Three Fiber
+    url: https://javascriptweekly.com/link/116606/web
+    type: News
+  - title: Powerful Command Line Tools for Modern Web Development
+    url: https://javascriptweekly.com/link/116607/web
+    type: News
+  - title: Migrating from Puppeteer to Playwright
+    url: https://javascriptweekly.com/link/116608/web
+    type: News
+  - title: Develop a Faster Way to Work. Build Internal Tools, Remarkably Fast
+    url: https://javascriptweekly.com/link/116611/web
+    type: News
+  - title: Using Web Workers to Boost Third-Party Script Performance
+    url: https://javascriptweekly.com/link/116612/web
+    type: News
+  - title: How to Debounce and Throttle Callbacks in Vue
+    url: https://javascriptweekly.com/link/116614/web
+    type: News
+  - title: 'Dexie.js 3.2: The IndexedDB Wrapper is Now Reactive'
+    url: https://javascriptweekly.com/link/116616/web
+    type: News
+  - title: Electron 16.0.0 Released
+    url: https://javascriptweekly.com/link/116602/web
+    type: News
+  - title: App Performance Blocked By Your Database?
+    url: https://javascriptweekly.com/link/116620/web
+    type: News
+  - title: 'MicroDiff: Lightweight, No Dependency Object and Array Comparison'
+    url: https://javascriptweekly.com/link/116621/web
+    type: News
+  - title: 'React Location: A New ''Enterprise-Grade'' React App Router'
+    url: https://javascriptweekly.com/link/116622/web
+    type: News
+  - title: 'browser-or-node 2.0: Figure Out Where Your Code is Running'
+    url: https://javascriptweekly.com/link/116623/web
+    type: News
+  - title: Free Activity Feeds & Chat APIs for Qualifying Teams
+    url: https://javascriptweekly.com/link/116624/web
+    type: News
+  - title: Geodesy Functions Implemented in JavaScript v2.3.0
+    url: https://javascriptweekly.com/link/116625/web
+    type: News
