@@ -550,12 +550,12 @@ content:
 - title: 'Community Member Profile: Özge Ayaz'
   url: https://opennetworking.org/news-and-events/blog/community-member-profile-ozge-ayaz/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: Intel Highlights P4 Research with over 60 Papers Published by the Members of Intel® Connectivity Research Program
   url: https://opennetworking.org/news-and-events/blog/intel-highlights-p4-research-with-over-60-papers-published-by-the-members-of-intel-connectivity-research-program/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: Open Networking Korea 2021
   url: https://opennetworking.org/events/open-networking-korea-2021/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
