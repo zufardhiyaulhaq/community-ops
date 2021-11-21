@@ -1,0 +1,69 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-579
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 579
+  date: 11/21/2021
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Where is Ruby Headed As of 2021?
+    url: https://rubyweekly.com/link/116432/web
+    type: News
+  - title: How to Make a Gem of a Gem
+    url: https://rubyweekly.com/link/116434/web
+    type: News
+  - title: 'Free eBook: Effective Indexing in Postgres'
+    url: https://rubyweekly.com/link/116435/web
+    type: News
+  - title: Live Ruby Type Checking with TypeProf-IDE
+    url: https://rubyweekly.com/link/116436/web
+    type: News
+  - title: The Future of Ruby and Its AST Tooling
+    url: https://rubyweekly.com/link/116437/web
+    type: News
+  - title: 'Real-World Concurrency with Ruby and Polyphony: A Telnet Chat App'
+    url: https://rubyweekly.com/link/116438/web
+    type: News
+  - title: 'Keeping Time with TimescaleDB: Understanding and Integrating Time-Series
+      Data from Rails'
+    url: https://rubyweekly.com/link/116442/web
+    type: News
+  - title: Meet Fiber, Thread's Cooperative Cousin
+    url: https://rubyweekly.com/link/116444/web
+    type: News
+  - title: The Ruby Compiler Survey
+    url: https://rubyweekly.com/link/116445/web
+    type: News
+  - title: Complete Peace of Mind Rails Hosting
+    url: https://rubyweekly.com/link/116447/web
+    type: News
+  - title: Practical Garbage Collection Tuning in Ruby
+    url: https://rubyweekly.com/link/116448/web
+    type: News
+  - title: Compiling Ruby to Native Code with Sorbet and LLVM
+    url: https://rubyweekly.com/link/116450/web
+    type: News
+  - title: 'PDF::Reader: A Spec Compliant PDF Document Parser'
+    url: https://rubyweekly.com/link/116453/web
+    type: News
+  - title: 'Pipeable Ruby (pru): Simpler Ruby One-Liners from the Shell'
+    url: https://rubyweekly.com/link/116454/web
+    type: News
+  - title: Put the “Flow” in Your Workflows with Shortcut
+    url: https://rubyweekly.com/link/116455/web
+    type: News
+  - title: 'Teams Connector: Publish Cards to Microsoft Teams Channels'
+    url: https://rubyweekly.com/link/116456/web
+    type: News
+  - title: 'Avo: An Admin Panel/Dashboard System for Rails Apps'
+    url: https://rubyweekly.com/link/116457/web
+    type: News
+  - title: 'Rails Multisite 4.0: Multi Tenancy for Rails Apps'
+    url: https://rubyweekly.com/link/116459/web
+    type: News
