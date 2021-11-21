@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-414
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 414
+  date: 11/21/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: GitHub on npm Ecosystem Security (and a Major Bug They've Fixed)
+    url: https://nodeweekly.com/link/116463/web
+    type: News
+  - title: Migrating from Puppeteer to Playwright
+    url: https://nodeweekly.com/link/116465/web
+    type: News
+  - title: A Complete Intro to Building For Real-Time
+    url: https://nodeweekly.com/link/116468/web
+    type: News
+  - title: Announcing TypeScript 4.5
+    url: https://nodeweekly.com/link/116469/web
+    type: News
+  - title: '''I Will Pay You Cash to Delete Your npm Module'''
+    url: https://nodeweekly.com/link/116472/web
+    type: News
+  - title: 'Bundle Scanner: Identify npm Libraries Used on a Web Page'
+    url: https://nodeweekly.com/link/116474/web
+    type: News
+  - title: Electron 16.0.0 Released
+    url: https://nodeweekly.com/link/116478/web
+    type: News
+  - title: How NodeSource Builds Better Security Monitoring and Alerts with InfluxDB
+    url: https://nodeweekly.com/link/116481/web
+    type: News
+  - title: How to Create Memory and Type-Safe Node Modules with Rust
+    url: https://nodeweekly.com/link/116482/web
+    type: News
+  - title: Using Node.js to Create An HTTP Proxy for IPFS Content
+    url: https://nodeweekly.com/link/116484/web
+    type: News
+  - title: 'Clinic.js 10: A Node Performance Diagnosis Suite'
+    url: https://nodeweekly.com/link/116488/web
+    type: News
+  - title: 'htmlparser2 7.2.0: A Forgiving HTML and XML Parser'
+    url: https://nodeweekly.com/link/116490/web
+    type: News
+  - title: 'Nodekeeper: A Lightweight Alternative to Nodemon'
+    url: https://nodeweekly.com/link/116492/web
+    type: News
+  - title: "Automate Domains, DNS, and SSL Certificates with This Special Offer \U0001F440"
+    url: https://nodeweekly.com/link/116495/web
+    type: News
+  - title: 'Auto: Generate Releases Based on Semantic Version Labels on Pull Requests'
+    url: https://nodeweekly.com/link/116496/web
+    type: News
+  - title: 'browser-or-node 2.0: Figure Out Where Your Code is Running'
+    url: https://nodeweekly.com/link/116498/web
+    type: News
+  - title: 'Execa 6.0: A Better child_process'
+    url: https://nodeweekly.com/link/116499/web
+    type: News
+  - title: The Official MongoDB Node.js Driver v4.2.0
+    url: https://nodeweekly.com/link/116500/web
+    type: News
