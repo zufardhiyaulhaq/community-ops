@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-388
+  namespace: golang-community
+spec:
+  name: Golang Weekly 388
+  date: 11/21/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Developing Games in Go for the Nintendo Switch
+    url: https://golangweekly.com/link/116534/web
+    type: News
+  - title: '''Hacking'' with Go'
+    url: https://golangweekly.com/link/116536/web
+    type: News
+  - title: Security Where Code Happens
+    url: https://golangweekly.com/link/116537/web
+    type: News
+  - title: Debugging a Weird 'File Not Found' Error
+    url: https://golangweekly.com/link/116538/web
+    type: News
+  - title: 'GoReleaser v1.0.0: A Tool for Releasing Go Binaries'
+    url: https://golangweekly.com/link/116539/web
+    type: News
+  - title: Web Scraping with Go
+    url: https://golangweekly.com/link/116549/web
+    type: News
+  - title: Implementing Graceful Shutdown in Go
+    url: https://golangweekly.com/link/116552/web
+    type: News
+  - title: Raspberry Pi GPIO in Go and C
+    url: https://golangweekly.com/link/116553/web
+    type: News
+  - title: Writing zsh Completions for CLIs with Subcommands
+    url: https://golangweekly.com/link/116554/web
+    type: News
+  - title: 'Tetra3D: A 3D Software Renderer Written in Go and Ebiten'
+    url: https://golangweekly.com/link/116556/web
+    type: News
+  - title: 'Caffeine: A Basic REST Service for JSON Data (for Prototyping)'
+    url: https://golangweekly.com/link/116557/web
+    type: News
+  - title: 'Avo 0.4: Better x86 Assembly Generation from Go'
+    url: https://golangweekly.com/link/116558/web
+    type: News
+  - title: Build Video for Your Go App That Just Work
+    url: https://golangweekly.com/link/116561/web
+    type: News
+  - title: 'Ergo 2.8: A Modern IRC Server/ircd'
+    url: https://golangweekly.com/link/116562/web
+    type: News
+  - title: 'Ddosify 0.6: A High-Performance HTTP Load Testing Tool'
+    url: https://golangweekly.com/link/116563/web
+    type: News
+  - title: 'Limiter: Very Simple Rate Limiting Middleware'
+    url: https://golangweekly.com/link/116564/web
+    type: News
