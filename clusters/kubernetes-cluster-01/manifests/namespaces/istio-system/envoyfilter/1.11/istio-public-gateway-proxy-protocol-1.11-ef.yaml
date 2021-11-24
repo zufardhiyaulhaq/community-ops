@@ -1,0 +1,20 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: EnvoyFilter
+metadata:
+  name: istio-public-gateway-proxy-protocol-1.11-ef
+  namespace: istio-system
+spec:
+  workloadSelector:
+    labels:
+      app: istio-public-gateway
+  configPatches:
+  - applyTo: LISTENER
+    match:
+      proxy:
+        proxyVersion: ^1\.11.*
+    patch:
+      operation: MERGE
+      value:
+        listener_filters:
+        - name: envoy.filters.listener.proxy_protocol
+        - name: envoy.filters.listener.tls_inspector

@@ -1,0 +1,69 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: EnvoyFilter
+metadata:
+  name: oauth-dashboard-zufardhiyaulhaq-com-1.11-ef
+  namespace: istio-system
+spec:
+  workloadSelector:
+    labels:
+      app: istio-public-gateway
+  configPatches:
+  - applyTo: HTTP_FILTER
+    match:
+      context: GATEWAY
+      listener:
+        filterChain:
+          filter:
+            name: envoy.filters.network.http_connection_manager
+            subFilter:
+              name: istio.metadata_exchange
+          sni: dashboard.zufardhiyaulhaq.com
+      proxy:
+        proxyVersion: ^1\.11.*
+    patch:
+      operation: INSERT_AFTER
+      value:
+        name: envoy.filters.http.ext_authz
+        typed_config:
+          '@type': type.googleapis.com/envoy.extensions.filters.http.ext_authz.v3.ExtAuthz
+          http_service:
+            authorizationRequest:
+              allowedHeaders:
+                patterns:
+                - exact: accept
+                - exact: authorization
+                - exact: cookie
+                - exact: from
+                - exact: proxy-authorization
+                - exact: user-agent
+                - exact: x-forwarded-access-token
+                - exact: x-forwarded-email
+                - exact: x-forwarded-for
+                - exact: x-forwarded-host
+                - exact: x-forwarded-proto
+                - exact: x-forwarded-user
+                - prefix: x-auth-request
+                - prefix: x-forwarded
+            authorizationResponse:
+              allowedClientHeaders:
+                patterns:
+                - exact: authorization
+                - exact: location
+                - exact: proxy-authenticate
+                - exact: set-cookie
+                - exact: www-authenticate
+                - prefix: x-auth-request
+                - prefix: x-forwarded
+              allowedUpstreamHeaders:
+                patterns:
+                - exact: authorization
+                - exact: location
+                - exact: proxy-authenticate
+                - exact: set-cookie
+                - exact: www-authenticate
+                - prefix: x-auth-request
+                - prefix: x-forwarded
+            server_uri:
+              cluster: outbound|80||oauth2-proxy.infrastructure.svc.cluster.local
+              timeout: 1.5s
+              uri: http://oauth2-proxy.infrastructure.svc.cluster.local

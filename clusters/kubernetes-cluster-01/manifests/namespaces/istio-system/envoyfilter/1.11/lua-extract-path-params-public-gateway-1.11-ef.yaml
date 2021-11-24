@@ -1,0 +1,39 @@
+# this will apply to all istio-ingressgateway-internal pod
+# MAKE ATTENTION WHEN EDITING THIS FILE
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: EnvoyFilter
+metadata:
+  name: lua-extract-path-params-public-gateway-1.11-ef
+  namespace: istio-system
+spec:
+  workloadSelector:
+    labels:
+      app: istio-public-gateway
+  configPatches:
+    - applyTo: HTTP_FILTER
+      match:
+        context: GATEWAY
+        listener:
+          filterChain:
+            filter:
+              name: envoy.filters.network.http_connection_manager
+        proxy:
+          proxyVersion: ^1\.11.*
+      patch:
+        operation: INSERT_BEFORE
+        value:
+          name: envoy.filters.http.lua
+          typed_config:
+            "@type": "type.googleapis.com/envoy.extensions.filters.http.lua.v3.Lua"
+            inlineCode: |
+              function envoy_on_request(request_handle)
+                local headers = request_handle:headers()
+                local path_input = headers:get(":path")
+                local path_data = {}
+                for word in string.gmatch(path_input, '([^?]+)') do
+                  path_data = word
+                  break
+                end
+                request_handle:headers():add("X-Path-Without-Parameter", path_data)
+              end
