@@ -177,12 +177,20 @@ spec:
         - request_method
         - route_name
       proxyStatsMatcher:
-        inclusionRegexps:
+        inclusionRegexps:          
+          # inbound
+          - "^listener.0.0.0.0_15006.*"
+          - "^http.inbound.*"
+          - "^cluster.inbound.*"
+          # outbound
+          - "^tcp.PassthroughCluster.*"
+          - "^cluster.PassthroughCluster.*"
           - "http.stats.downstream.*"
+          # other
           - "^cluster.BlackHoleCluster.*upstream_rq.*"
-          - "^cluster.PassthroughCluster.*upstream_rq.*"
           - "^cluster.InboundPassthroughClusterIpv4.*upstream_rq.*"
           - "^cluster.InboundPassthroughClusterIpv6.*upstream_rq.*"
+          # system
           - "^cluster.agent.*upstream_rq.*"
           - "^cluster.prometheus_stats.*upstream_rq.*"
           - "^cluster.zipkin.*upstream_rq.*"
