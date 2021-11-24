@@ -10,26 +10,9 @@ spec:
   - hosts:
     - "helloworld.zufardhiyaulhaq.dev"
     port:
-      name: http
-      number: 80
-      protocol: HTTP
-  - hosts:
-    - "helloworld.zufardhiyaulhaq.dev"
-    port:
       name: https
       number: 443
       protocol: HTTPS
     tls:
       credentialName: helloworld-zufardhiyaulhaq-dev-cert
       mode: SIMPLE
-  - hosts:
-    - "helloworld.zufardhiyaulhaq.dev"
-    port:
-      name: https-mtls
-      number: 18443
-      protocol: HTTPS
-    tls:
-      credentialName: helloworld-zufardhiyaulhaq-dev-cert
-      mode: MUTUAL
-      subjectAltNames:
-      - 'client.mtls.zufardhiyaulhaq.dev'
