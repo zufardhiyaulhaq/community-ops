@@ -559,3 +559,7 @@ content:
   url: https://opennetworking.org/events/open-networking-korea-2021/
   kind: Open Networking Event
   isDelivered: true
+- title: 2021 At-Large Board Member Election Results
+  url: https://opennetworking.org/news-and-events/blog/2021-at-large-board-member-election-results/
+  kind: Open Networking Blog
+  isDelivered: false
