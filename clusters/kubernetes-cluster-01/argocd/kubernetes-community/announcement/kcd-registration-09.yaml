@@ -1,0 +1,20 @@
+--- 
+apiVersion: community.io/v1alpha1
+kind: Announcement
+metadata: 
+  name: kcd-registration-09
+  namespace: kubernetes-community
+spec: 
+  title: Kubernetes Community Days 2021 is now Open!
+  community: Cloud Native Indonesia Community
+  message: >-
+    Come join us in the first ever Kubernetes Community Days Indonesia tomorrow! We have amazing speakers lined up, including keynote from Kelsey Hightower and Nikhita Ragunath. This virtual event brings together cloud native community members to learn, network, and collaborate on various popular open source projects in cloud native space.
+
+
+    Register now at kubernetesdays.id for free! get chance of winning free 3 Certified Kubernetes Administrator exam voucher, original merchandise from CNCF and training discounts from Linux foundation!
+
+  image: https://raw.githubusercontent.com/cloudnative-id/kubernetes-community-days/master/artwork/poster/KCD2021-Regist-4.png
+  tags: 
+    - KubernetesCommunityDays
+    - KCD2021
+    - CNCF
