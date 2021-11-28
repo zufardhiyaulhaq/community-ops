@@ -895,3 +895,7 @@ content:
   url: https://superuser.openstack.org/articles/2021-superuser-awards-nominee-osism/
   kind: OpenStack Super User News
   isDelivered: true
+- title: Edge Infrastructures and Why They Are Not a Done Deal Yet?!
+  url: https://superuser.openstack.org/articles/__trashed-2/
+  kind: OpenStack Super User News
+  isDelivered: false
