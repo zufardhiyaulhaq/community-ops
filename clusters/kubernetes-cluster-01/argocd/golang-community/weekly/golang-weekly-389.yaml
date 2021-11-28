@@ -1,0 +1,57 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-389
+  namespace: golang-community
+spec:
+  name: Golang Weekly 389
+  date: 11/28/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Faster Software Through Register Based Calling in Go 1.17+
+    url: https://golangweekly.com/link/116795/web
+    type: News
+  - title: 'AWKGo: An AWK-to-Go Compiler'
+    url: https://golangweekly.com/link/116796/web
+    type: News
+  - title: 'ButterCMS Melts into Your App: ButterCMS.GetPage(“home”)'
+    url: https://golangweekly.com/link/116798/web
+    type: News
+  - title: Go Does Not Need a Java Style Garbage Collector
+    url: https://golangweekly.com/link/116799/web
+    type: News
+  - title: Building a Terminal App with Bubble Tea
+    url: https://golangweekly.com/link/116800/web
+    type: News
+  - title: Testing Shell Commands in Go
+    url: https://golangweekly.com/link/116814/web
+    type: News
+  - title: From JPEG to JFIF via an io.Writer
+    url: https://golangweekly.com/link/116815/web
+    type: News
+  - title: Build a Go Serverless App in 5 Minutes with Serverless Stack
+    url: https://golangweekly.com/link/116816/web
+    type: News
+  - title: Maintenance in the Open
+    url: https://golangweekly.com/link/116817/web
+    type: News
+  - title: 'Sonic: ''Blazingly Fast'' JSON Serializing for Go'
+    url: https://golangweekly.com/link/116818/web
+    type: News
+  - title: 'imgproxy 3.0: A Standalone Image Resizing and Conversion Server'
+    url: https://golangweekly.com/link/116820/web
+    type: News
+  - title: Sourcegraph Makes It Easier to Find and Fix Things Across All of Your Code,
+      Faster
+    url: https://golangweekly.com/link/116821/web
+    type: News
+  - title: The Official MongoDB Go Driver 1.8.0
+    url: https://golangweekly.com/link/116822/web
+    type: News
+  - title: 'Ferret: A Declarative Web Scraping System'
+    url: https://golangweekly.com/link/116823/web
+    type: News
