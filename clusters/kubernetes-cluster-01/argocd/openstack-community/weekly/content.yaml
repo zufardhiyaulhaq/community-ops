@@ -898,4 +898,4 @@ content:
 - title: Edge Infrastructures and Why They Are Not a Done Deal Yet?!
   url: https://superuser.openstack.org/articles/__trashed-2/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
