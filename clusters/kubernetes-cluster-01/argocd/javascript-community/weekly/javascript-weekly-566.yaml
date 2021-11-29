@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-566
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 566
+  date: 11/29/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Remix: A Newly Open Sourced React-Based Framework for Web Apps'
+    url: https://javascriptweekly.com/link/116831/web
+    type: News
+  - title: 'New Course: Introduction to Next.js, The Full-Stack React Framework'
+    url: https://javascriptweekly.com/link/116835/web
+    type: News
+  - title: Vercel, Creator of Next.js, Raises $150M
+    url: https://javascriptweekly.com/link/116873/web
+    type: News
+  - title: 'Prettier 2.5 Released: Now with TypeScript 4.5 and MDX v2 Support'
+    url: https://javascriptweekly.com/link/116836/web
+    type: News
+  - title: The Unexpected Return of JS for Automation on macOS
+    url: https://javascriptweekly.com/link/116868/web
+    type: News
+  - title: Introducing Svelte, and Comparing Svelte with React and Vue
+    url: https://javascriptweekly.com/link/116869/web
+    type: News
+  - title: How JavaScript Engines Achieve Great Performance
+    url: https://javascriptweekly.com/link/116875/web
+    type: News
+  - title: 'Notification Systems 2.0: Part 2 - Scale & Reliability'
+    url: https://javascriptweekly.com/link/116848/web
+    type: News
+  - title: Using WebAssembly (Created in Rust) for Fast React Components
+    url: https://javascriptweekly.com/link/116876/web
+    type: News
+  - title: 'Polly 5.2: Record, Replay, and Stub HTTP Interactions'
+    url: https://javascriptweekly.com/link/116852/web
+    type: News
+  - title: 'Fiddle: The Easiest Way to Get Started with Electron'
+    url: https://javascriptweekly.com/link/116853/web
+    type: News
+  - title: Breakpoints and console.log Is the Past, Time Travel Is the Future
+    url: https://javascriptweekly.com/link/116847/web
+    type: News
+  - title: 'reading-time: Reading Time Estimation for the Web'
+    url: https://javascriptweekly.com/link/116855/web
+    type: News
+  - title: 'file-type: Detect the File Type of a Buffer, Uint8Array, or ArrayBuffer'
+    url: https://javascriptweekly.com/link/116856/web
+    type: News
+  - title: 'PickBetterPack: Discover Similar Packages from package.json Dependencies'
+    url: https://javascriptweekly.com/link/116870/web
+    type: News
+  - title: Tried. Tested. Trusted. Studio 3T - Power Tools for MongoDB
+    url: https://javascriptweekly.com/link/116854/web
+    type: News
+  - title: 'use-prosemirror: Use the ProseMirror Editor in React Easily'
+    url: https://javascriptweekly.com/link/116857/web
+    type: News
+  - title: 'Color 4: A Color Conversion and Manipulation Library'
+    url: https://javascriptweekly.com/link/116859/web
+    type: News
+  - title: 'Elementary Grid: A JS + Elementary Powered Music Creator'
+    url: https://javascriptweekly.com/link/116871/web
+    type: News
