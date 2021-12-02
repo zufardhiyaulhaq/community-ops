@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-02-12-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 02-12-2021
+  date: 12/02/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: 2022 At-Large Board Member Election Results
+    url: https://opennetworking.org/news-and-events/blog/2022-at-large-board-member-election-results/
+    type: Open Networking Blog
