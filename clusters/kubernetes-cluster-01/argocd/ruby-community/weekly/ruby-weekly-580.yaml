@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-580
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 580
+  date: 12/02/2021
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Ruby 3.0.3 Released
+    url: https://rubyweekly.com/link/116783/web
+    type: News
+  - title: 'ASMREPL: A REPL for x86 Assembly Language'
+    url: https://rubyweekly.com/link/116758/web
+    type: News
+  - title: Easy and Powerful Sidekiq Monitoring
+    url: https://rubyweekly.com/link/116755/web
+    type: News
+  - title: Writing AWS Lambda Functions in Ruby
+    url: https://rubyweekly.com/link/116780/web
+    type: News
+  - title: Ruby Podcasters Get Together at RubyConf 2021
+    url: https://rubyweekly.com/link/116760/web
+    type: News
+  - title: Audit Logging in Rails
+    url: https://rubyweekly.com/link/116765/web
+    type: News
+  - title: Queuing Sidekiq Workers Safely with Help from Isolator
+    url: https://rubyweekly.com/link/116766/web
+    type: News
+  - title: The Hidden Features of caller
+    url: https://rubyweekly.com/link/116781/web
+    type: News
+  - title: Complete Peace of Mind Rails Hosting
+    url: https://rubyweekly.com/link/116769/web
+    type: News
+  - title: Signal Handling in Concurrent Apps with Ruby and Polyphony
+    url: https://rubyweekly.com/link/116767/web
+    type: News
+  - title: Calculating a GZIP's Decompressed Size Without Decompression
+    url: https://rubyweekly.com/link/116770/web
+    type: News
+  - title: The Difference Between Using a Cache and Read Models
+    url: https://rubyweekly.com/link/116771/web
+    type: News
+  - title: Trying Elixir as a Rubyist
+    url: https://rubyweekly.com/link/116773/web
+    type: News
+  - title: 'Kredis 1.0: Higher-level Data Structures Built on Redis'
+    url: https://rubyweekly.com/link/116774/web
+    type: News
+  - title: 'cel-ruby: A Ruby Implementation of Google''s Common Expression Language'
+    url: https://rubyweekly.com/link/116775/web
+    type: News
+  - title: Put the “Flow” in Your Workflows with Shortcut
+    url: https://rubyweekly.com/link/116777/web
+    type: News
+  - title: 'MemoWise 1.3: A Modern Choice for Ruby Memoization'
+    url: https://rubyweekly.com/link/116778/web
+    type: News
+  - title: 'lib-ruby-parser: A Ruby Parser Written in Rust'
+    url: https://rubyweekly.com/link/116782/web
+    type: News
