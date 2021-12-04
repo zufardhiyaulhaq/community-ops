@@ -1,0 +1,60 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-285
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 285
+  date: 12/04/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: 'Kubestr: Identify, validate, evaluate and now browse'
+    url: https://community.cncf.io/e/mmah2r/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9rI8B9UfVx72pE19vfcB59-luUay5rp0PISji4AFh55C7Ew2dEsMwbXs3lvQcCcVbe3tGK
+    type: ICYMI
+  - title: 'Service mesh 101: an introduction with Linkerd'
+    url: https://community.cncf.io/e/m5wqzz/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9rI8B9UfVx72pE19vfcB59-luUay5rp0PISji4AFh55C7Ew2dEsMwbXs3lvQcCcVbe3tGK
+    type: ICYMI
+  - title: So what's new in Brigade 2?
+    url: https://community.cncf.io/e/m8x4c9/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9rI8B9UfVx72pE19vfcB59-luUay5rp0PISji4AFh55C7Ew2dEsMwbXs3lvQcCcVbe3tGK
+    type: ICYMI
+  - title: Open source cloud native security with ThreatMapper 
+    url: https://community.cncf.io/e/mcexmx/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9rI8B9UfVx72pE19vfcB59-luUay5rp0PISji4AFh55C7Ew2dEsMwbXs3lvQcCcVbe3tGK
+    type: ICYMI
+  - title: Is your Kubernetes negative or positive?
+    url: https://community.cncf.io/e/mj9yee/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9rI8B9UfVx72pE19vfcB59-luUay5rp0PISji4AFh55C7Ew2dEsMwbXs3lvQcCcVbe3tGK
+    type: ICYMI
+  - title: Service Mesh Microsurvey
+    url: https://www.surveymonkey.co.uk/r/95PD7YJ?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9rI8B9UfVx72pE19vfcB59-luUay5rp0PISji4AFh55C7Ew2dEsMwbXs3lvQcCcVbe3tGK
+    type: Editorial
+  - title: Observability Microsurvey
+    url: https://www.surveymonkey.co.uk/r/GR2WBFD?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9rI8B9UfVx72pE19vfcB59-luUay5rp0PISji4AFh55C7Ew2dEsMwbXs3lvQcCcVbe3tGK
+    type: Editorial
+  - title: DigitalOcean Kubernetes Challenge
+    url: https://www.digitalocean.com/community/pages/kubernetes-challenge?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9rI8B9UfVx72pE19vfcB59-luUay5rp0PISji4AFh55C7Ew2dEsMwbXs3lvQcCcVbe3tGK
+    type: Editorial
+  - title: Aggregating millions of Prometheus timeseries with M3
+    url: https://chronosphere.io/learn/aggregating-millions-of-prometheus-timeseries-with-m3/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9rI8B9UfVx72pE19vfcB59-luUay5rp0PISji4AFh55C7Ew2dEsMwbXs3lvQcCcVbe3tGK
+    type: Editorial
+  - title: 'Sandboxed Containers: Are Virtual Machines making a Comeback in a new
+      Avatar?'
+    url: https://itnext.io/sandboxed-containers-are-virtual-machines-making-a-comeback-in-a-new-avatar-cf83e1c4a5fb?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9rI8B9UfVx72pE19vfcB59-luUay5rp0PISji4AFh55C7Ew2dEsMwbXs3lvQcCcVbe3tGK
+    type: Editorial
+  - title: How to distribute Go Modules
+    url: https://www.digitalocean.com/community/tutorials/how-to-distribute-go-modules?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9rI8B9UfVx72pE19vfcB59-luUay5rp0PISji4AFh55C7Ew2dEsMwbXs3lvQcCcVbe3tGK
+    type: Technical
+  - title: EdgeX Foundry on K3s - the Initiation
+    url: https://www.infracloud.io/blogs/edgex-k3s-part-2/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9rI8B9UfVx72pE19vfcB59-luUay5rp0PISji4AFh55C7Ew2dEsMwbXs3lvQcCcVbe3tGK
+    type: Technical
+  - title: A cloud native + infrastructure as code love story
+    url: https://konghq.com/blog/kubernetes-ingress-pulumi/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9rI8B9UfVx72pE19vfcB59-luUay5rp0PISji4AFh55C7Ew2dEsMwbXs3lvQcCcVbe3tGK
+    type: Technical
+  - title: 3 Reasons to use Kubernetes operators (and 2 reasons not to)
+    url: https://blog.px.dev/k8s-operator/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9rI8B9UfVx72pE19vfcB59-luUay5rp0PISji4AFh55C7Ew2dEsMwbXs3lvQcCcVbe3tGK
+    type: Technical
+  - title: Flux December 2021 update
+    url: https://fluxcd.io/blog/2021/11/december-update/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9rI8B9UfVx72pE19vfcB59-luUay5rp0PISji4AFh55C7Ew2dEsMwbXs3lvQcCcVbe3tGK
+    type: Technical
