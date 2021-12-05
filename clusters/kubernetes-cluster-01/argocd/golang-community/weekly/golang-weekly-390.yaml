@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-390
+  namespace: golang-community
+spec:
+  name: Golang Weekly 390
+  date: 12/05/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 19 Talks from GopherCon UK 2021
+    url: https://golangweekly.com/link/117112/web
+    type: News
+  - title: 'Generics in Go: ¡Viva La Revolution!'
+    url: https://golangweekly.com/link/117144/web
+    type: News
+  - title: 'ButterCMS Melts into Your App: ButterCMS.GetPage("home")'
+    url: https://golangweekly.com/link/117119/web
+    type: News
+  - title: GoLand 2021.3 Released
+    url: https://golangweekly.com/link/117120/web
+    type: News
+  - title: Auto-Generated C4 Architecture Diagrams in Go
+    url: https://golangweekly.com/link/117124/web
+    type: News
+  - title: Faster Top Level Domain Name Extraction with Go
+    url: https://golangweekly.com/link/117125/web
+    type: News
+  - title: 'Property-Based Testing in Go: Here''s How'
+    url: https://golangweekly.com/link/117126/web
+    type: News
+  - title: A Journey in Dropping the ORM
+    url: https://golangweekly.com/link/117127/web
+    type: News
+  - title: Writing an App using Go and Postgres
+    url: https://golangweekly.com/link/117128/web
+    type: News
+  - title: 'pdfcpu: A PDF Processing and Manipulation Library'
+    url: https://golangweekly.com/link/117132/web
+    type: News
+  - title: 'Caire 1.4: A Content-Aware Image Resizing Library'
+    url: https://golangweekly.com/link/117135/web
+    type: News
+  - title: 'grimd 1.1: A Fast DNS Proxy'
+    url: https://golangweekly.com/link/117136/web
+    type: News
+  - title: The Ultimate Guide to Cardinality for Observability
+    url: https://golangweekly.com/link/117137/web
+    type: News
+  - title: 'geodist: Compute Distances Between Two Geographic Points'
+    url: https://golangweekly.com/link/117138/web
+    type: News
+  - title: 'FerretDB: An In-Progress, Go-Powered MongoDB Alternative'
+    url: https://golangweekly.com/link/117139/web
+    type: News
+  - title: 'iso9660: A Go Library for Reading and Creating ISO9660 Images'
+    url: https://golangweekly.com/link/117140/web
+    type: News
+  - title: 'lazygit: A Simple Terminal UI for Git Commands'
+    url: https://golangweekly.com/link/117141/web
+    type: News
