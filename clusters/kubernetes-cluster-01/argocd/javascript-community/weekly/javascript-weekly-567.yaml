@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-567
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 567
+  date: 12/06/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: asciinema-player, Now 4x Smaller and 50x Faster with JS and Rust
+    url: https://javascriptweekly.com/link/117185/web
+    type: News
+  - title: 'Mitosis: Write Components Once, Run Everywhere'
+    url: https://javascriptweekly.com/link/117149/web
+    type: News
+  - title: Introduction to Gatsby Course with Jason Lengstorf
+    url: https://javascriptweekly.com/link/117151/web
+    type: News
+  - title: 'Floating UI: Positioning for Tooltips, Popovers, Dropdowns, etc.'
+    url: https://javascriptweekly.com/link/117152/web
+    type: News
+  - title: '''Thank You, Angular'' (and Thank You, Igor!)'
+    url: https://javascriptweekly.com/link/117181/web
+    type: News
+  - title: JSON Modules in JavaScript
+    url: https://javascriptweekly.com/link/117204/web
+    type: News
+  - title: Publishing a Web Component to npm
+    url: https://javascriptweekly.com/link/117189/web
+    type: News
+  - title: Find and Fix Things Faster Across Your Code with Sourcegraph
+    url: https://javascriptweekly.com/link/117164/web
+    type: News
+  - title: Determining the Best Starting Word in a Word Game
+    url: https://javascriptweekly.com/link/117165/web
+    type: News
+  - title: How to Trim Strings in JavaScript
+    url: https://javascriptweekly.com/link/117167/web
+    type: News
+  - title: 'Strapi v4: An Open Source Node.js Headless CMS'
+    url: https://javascriptweekly.com/link/117168/web
+    type: News
+  - title: 'Plotly.js 2.7: A Data Viz Built on D3 and Stack.gl'
+    url: https://javascriptweekly.com/link/117170/web
+    type: News
+  - title: 'Data Visualization: Build React Graphs the Easy Way'
+    url: https://javascriptweekly.com/link/117172/web
+    type: News
+  - title: 'Ladda: Buttons with Built-In Loading Indicators'
+    url: https://javascriptweekly.com/link/117173/web
+    type: News
+  - title: 'WMR: A Tiny Multitool for Building Modern Web Apps'
+    url: https://javascriptweekly.com/link/117192/web
+    type: News
+  - title: 'noUiSlider: Lightweight Range Slider with Full Touch Support'
+    url: https://javascriptweekly.com/link/117194/web
+    type: News
+  - title: Deliver Safer & Cleaner Code For Free - Directly in Visual Studio 2022
+    url: https://javascriptweekly.com/link/117176/web
+    type: News
+  - title: 'jsvu: JavaScript (Engine) Version Updater'
+    url: https://javascriptweekly.com/link/117177/web
+    type: News
+  - title: 'TEGA: TypeScript Embedded GameBoy Macro Assembler'
+    url: https://javascriptweekly.com/link/117196/web
+    type: News
+  - title: 'promisio: JavaScript-Style Async Programming for Python'
+    url: https://javascriptweekly.com/link/117175/web
+    type: News
+  - title: blockify-yourself
+    url: https://javascriptweekly.com/link/117198/web
+    type: News
