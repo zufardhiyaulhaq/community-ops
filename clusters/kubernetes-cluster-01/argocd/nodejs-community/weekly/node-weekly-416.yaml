@@ -1,0 +1,63 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-416
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 416
+  date: 12/08/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: The Best Starting Word in WORDLE?
+    url: https://nodeweekly.com/link/117029/web
+    type: News
+  - title: 'Strapi v4: An Open Source Node.js Headless CMS'
+    url: https://nodeweekly.com/link/117061/web
+    type: News
+  - title: Data Visualization Made Easy with ReactJS, Nivo and InfluxDB
+    url: https://nodeweekly.com/link/117063/web
+    type: News
+  - title: Node v17.2.0 (Current) Released
+    url: https://nodeweekly.com/link/117037/web
+    type: News
+  - title: 'PickBetterPack: Discover Similar Packages from package.json Dependencies'
+    url: https://nodeweekly.com/link/117031/web
+    type: News
+  - title: '24 Days From Node.js to Rust: Day 1'
+    url: https://nodeweekly.com/link/117041/web
+    type: News
+  - title: Building a 'Now Playing' Display with Node-RED
+    url: https://nodeweekly.com/link/117045/web
+    type: News
+  - title: Observability Won't Replace Monitoring (Because It Shouldn't)
+    url: https://nodeweekly.com/link/117047/web
+    type: News
+  - title: Using Node to Build a Slack Bot for HubSpot
+    url: https://nodeweekly.com/link/117048/web
+    type: News
+  - title: 'gradient-string: Beautiful Color Gradients in Terminal Output'
+    url: https://nodeweekly.com/link/117050/web
+    type: News
+  - title: 'Kysely: A Type-Safe SQL Query Builder for TypeScript'
+    url: https://nodeweekly.com/link/117051/web
+    type: News
+  - title: 'node-qrcode 1.5.0: Generate QR Codes from Node'
+    url: https://nodeweekly.com/link/117052/web
+    type: News
+  - title: Sourcegraph Makes It Easier to Find and Fix Things Across All of Your Code,
+      Faster
+    url: https://nodeweekly.com/link/117053/web
+    type: News
+  - title: 'DOCX 7.2: A Declarative API to Generate .docx Files'
+    url: https://nodeweekly.com/link/117054/web
+    type: News
+  - title: 'Polly 6.0: Record, Replay, and Stub HTTP Interactions'
+    url: https://nodeweekly.com/link/117056/web
+    type: News
+  - title: 'Dann.js 2.4: A Neural Network Library for JavaScript'
+    url: https://nodeweekly.com/link/117058/web
+    type: News
