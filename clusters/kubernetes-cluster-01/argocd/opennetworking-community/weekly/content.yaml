@@ -567,3 +567,15 @@ content:
   url: https://opennetworking.org/news-and-events/blog/2022-at-large-board-member-election-results/
   kind: Open Networking Blog
   isDelivered: true
+- title: New Network Equipment Grant Program from Intel Reduces Cost of University Networking Research
+  url: https://opennetworking.org/news-and-events/blog/new-network-equipment-grant-program-from-intel-reduces-cost-of-university-networking-research/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: Community Highlights – November 2021
+  url: https://opennetworking.org/news-and-events/blog/community-highlights-november-2021/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: Mobile World Congress 2022
+  url: https://opennetworking.org/events/mwc-2022/
+  kind: Open Networking Event
+  isDelivered: false
