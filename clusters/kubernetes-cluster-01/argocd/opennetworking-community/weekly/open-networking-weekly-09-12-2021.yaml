@@ -1,0 +1,23 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-09-12-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 09-12-2021
+  date: 12/09/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: New Network Equipment Grant Program from Intel Reduces Cost of University Networking Research
+    url: https://opennetworking.org/news-and-events/blog/new-network-equipment-grant-program-from-intel-reduces-cost-of-university-networking-research/
+    type: Open Networking Blog
+  - title: Community Highlights – November 2021
+    url: https://opennetworking.org/news-and-events/blog/community-highlights-november-2021/
+    type: Open Networking Blog
+  - title: Mobile World Congress 2022
+    url: https://opennetworking.org/events/mwc-2022/
+    type: Open Networking Event
