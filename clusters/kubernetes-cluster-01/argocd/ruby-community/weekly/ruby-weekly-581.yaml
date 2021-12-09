@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-581
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 581
+  date: 12/09/2021
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'The Advent of Code 2021: 25 Days of Code Challenges'
+    url: https://rubyweekly.com/link/116988/web
+    type: News
+  - title: The CableReady Language Implementation Project
+    url: https://rubyweekly.com/link/117022/web
+    type: News
+  - title: Building a Reliable Webhook Delivery System Sucks
+    url: https://rubyweekly.com/link/116990/web
+    type: News
+  - title: 'DHH: ''Programmers Should Stop Celebrating Incompetence''?'
+    url: https://rubyweekly.com/link/116994/web
+    type: News
+  - title: JRuby 9.2.20.1 Released
+    url: https://rubyweekly.com/link/116998/web
+    type: News
+  - title: Throw, Catch, Raise, Rescue – I’m So Confused
+    url: https://rubyweekly.com/link/117002/web
+    type: News
+  - title: An Introduction to Rails Event Store
+    url: https://rubyweekly.com/link/117003/web
+    type: News
+  - title: Remote Development with RubyMine 2021.3
+    url: https://rubyweekly.com/link/117004/web
+    type: News
+  - title: Find Your Language’s Primitives
+    url: https://rubyweekly.com/link/117005/web
+    type: News
+  - title: GDPR Compliance and Modelling Account Deletion
+    url: https://rubyweekly.com/link/117006/web
+    type: News
+  - title: 'RSyntaxTree: A Linguistic Syntax Tree Generator'
+    url: https://rubyweekly.com/link/117008/web
+    type: News
+  - title: 'auto_html: Filters That Transform Plain Text Into HTML Code'
+    url: https://rubyweekly.com/link/117009/web
+    type: News
+  - title: 'LambdaKiq: Use Amazon SQS and AWS Lambda with ActiveJob'
+    url: https://rubyweekly.com/link/117010/web
+    type: News
+  - title: 'Alba 1.5: The ''Fastest JSON Serializer'''
+    url: https://rubyweekly.com/link/117011/web
+    type: News
+  - title: Full-Featured API That Lets You Build Beautiful Video for Your Ruby App
+    url: https://rubyweekly.com/link/117013/web
+    type: News
+  - title: 'Dalli: High Performance memcached Client'
+    url: https://rubyweekly.com/link/117014/web
+    type: News
+  - title: 'Rails Mini Profiler 0.7.0: Performance Profiling for Rails Made Simple'
+    url: https://rubyweekly.com/link/117015/web
+    type: News
+  - title: 'Forme 2.0: HTML Form Generation Library'
+    url: https://rubyweekly.com/link/117017/web
+    type: News
+  - title: 'RouteTranslator 12.0: Translate Your Rails App Routes to Various Languages'
+    url: https://rubyweekly.com/link/117018/web
+    type: News
+  - title: 'ASMREPL: A REPL for x86 Assembly Language from Tenderlove'
+    url: https://rubyweekly.com/link/117019/web
+    type: News
+  - title: 'Countries 4.1: Useful Info about Countries Packaged into a Gem'
+    url: https://rubyweekly.com/link/117020/web
+    type: News
+  - title: 'espeak-ruby: Wrapper Library to Generate Text-to-Speech from Ruby'
+    url: https://rubyweekly.com/link/117021/web
+    type: News
