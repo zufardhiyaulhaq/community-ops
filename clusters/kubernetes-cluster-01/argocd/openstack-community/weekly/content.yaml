@@ -910,4 +910,4 @@ content:
 - title: 'OpenInfra Live: Keynotes Highlight Energy, Momentum Across Open Infrastructure'
   url: https://superuser.openstack.org/articles/openinfra-live-keynotes-highlight-energy-momentum-across-open-infrastructure/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
