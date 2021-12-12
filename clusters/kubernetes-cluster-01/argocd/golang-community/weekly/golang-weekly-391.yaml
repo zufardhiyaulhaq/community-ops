@@ -1,0 +1,60 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-391
+  namespace: golang-community
+spec:
+  name: Golang Weekly 391
+  date: 12/12/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: A Tale of Hacking the Go Compiler to Add a New Keyword
+    url: https://golangweekly.com/link/117414/web
+    type: News
+  - title: Go Code Roast
+    url: https://golangweekly.com/link/117417/web
+    type: News
+  - title: Meet GoLand 2021.3
+    url: https://golangweekly.com/link/117383/web
+    type: News
+  - title: Ebiten, and Developing Games in Go, in 2021
+    url: https://golangweekly.com/link/117423/web
+    type: News
+  - title: How I Wrote My Go Book
+    url: https://golangweekly.com/link/117424/web
+    type: News
+  - title: Coding Go in the Blind
+    url: https://golangweekly.com/link/117426/web
+    type: News
+  - title: What I Learned Contributing My First Feature to Ent's GRPC Plugin
+    url: https://golangweekly.com/link/117427/web
+    type: News
+  - title: 'Zinc: A Lightweight Elasticsearch Alternative in Go'
+    url: https://golangweekly.com/link/117428/web
+    type: News
+  - title: 'Gotenberg: Docker-Powered Stateless API for Creating PDF Files'
+    url: https://golangweekly.com/link/117429/web
+    type: News
+  - title: Developer-First Infrastructure Using Go and Pulumi - Try it Today
+    url: https://golangweekly.com/link/117384/web
+    type: News
+  - title: 'Plow: A High-Perf HTTP Benchmarking Tool with Real-Time Web UI and Terminal
+      Display'
+    url: https://golangweekly.com/link/117431/web
+    type: News
+  - title: Go Bindings for the Telegram Bot API v5.5.0
+    url: https://golangweekly.com/link/117432/web
+    type: News
+  - title: 'gnet 1.6: A High-Performance, Non-Blocking, Event-Loop Networking Library'
+    url: https://golangweekly.com/link/117434/web
+    type: News
+  - title: 'Oto 2: Low-Level Library to Play Sound on Multiple Platforms'
+    url: https://golangweekly.com/link/117435/web
+    type: News
+  - title: 'id3v2: ID3 Decoding and Encoding Library'
+    url: https://golangweekly.com/link/117436/web
+    type: News
