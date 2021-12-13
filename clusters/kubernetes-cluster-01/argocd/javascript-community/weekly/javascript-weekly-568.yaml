@@ -1,0 +1,66 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-568
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 568
+  date: 12/13/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: How We Cut 99% of Our JavaScript with Qwik and Partytown
+    url: https://javascriptweekly.com/link/117441/web
+    type: News
+  - title: A Coding Interview with Dan Abramov
+    url: https://javascriptweekly.com/link/117444/web
+    type: News
+  - title: Put the “Flow” in Your Workflows with Shortcut
+    url: https://javascriptweekly.com/link/117394/web
+    type: News
+  - title: GitHub Rolling Out Enforced 2FA and More Security for npm Registry Logins
+    url: https://javascriptweekly.com/link/117446/web
+    type: News
+  - title: 'Cubic Bézier: From Math to Motion'
+    url: https://javascriptweekly.com/link/117457/web
+    type: News
+  - title: Plugging Memory Leaks in Your App
+    url: https://javascriptweekly.com/link/117475/web
+    type: News
+  - title: Data Visualization Made Easy with ReactJS, Nivo and InfluxDB
+    url: https://javascriptweekly.com/link/117400/web
+    type: News
+  - title: Build a Color Contrast Checker with Eleventy Serverless
+    url: https://javascriptweekly.com/link/117459/web
+    type: News
+  - title: Why Ruby2JS is a Game Changer
+    url: https://javascriptweekly.com/link/117460/web
+    type: News
+  - title: Tailwind CSS v3.0 Released
+    url: https://javascriptweekly.com/link/117477/web
+    type: News
+  - title: 'vue-agile 2.0: A Carousel Component for Vue'
+    url: https://javascriptweekly.com/link/117464/web
+    type: News
+  - title: Build Internal Tools in Minutes with Retool, Where Visual Programming Meets
+      the Power of Real Code
+    url: https://javascriptweekly.com/link/117401/web
+    type: News
+  - title: 'graphql-request: A Minimal GraphQL Client for Node and Browsers'
+    url: https://javascriptweekly.com/link/117466/web
+    type: News
+  - title: 'ts-belt: A Practical Utility Library for FP in TypeScript'
+    url: https://javascriptweekly.com/link/117468/web
+    type: News
+  - title: 'COBE: A 5KB WebGL Globe Rendering Library'
+    url: https://javascriptweekly.com/link/117480/web
+    type: News
+  - title: Build a Mobile-Responsive Telehealth Pager App Using Stream’s Chat API
+    url: https://javascriptweekly.com/link/117399/web
+    type: News
+  - title: 'OpenLayers 6.9: High Performance Frontend Mapping Library'
+    url: https://javascriptweekly.com/link/117472/web
+    type: News
