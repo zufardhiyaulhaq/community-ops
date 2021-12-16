@@ -1,0 +1,26 @@
+apiVersion: community.io/v1alpha1
+kind: Meetup
+metadata:
+  name: online-meetup-december-2021-reminder-1
+  namespace: kubernetes-community
+spec:
+  name: "Kubernetes Cloud Native Online Meetup December 2021"
+  date: "December 16, 2021"
+  time: "19.00"
+  place: "Online"
+  city: "Indonesia"
+  sponsor: "Microsoft"
+  registration_url: "online.kubernetescommunity.id"
+  image: "https://raw.githubusercontent.com/cloudnative-id/artwork/master/poster/online/16-December-2021.png"
+  tags:
+    - meetup
+    - CNCF
+  speakers:
+    - name: "Jay Lee"
+      position: "Application Innoivation Specialist"
+      company: "Microsoft"
+      title: "Developing Java apps on Azure Kubernetes Service"
+    - name: "Andika Kurniantoro"
+      position: "Staff Devops Engineer"
+      company: "Illumina Singapore"
+      title: "Simplify helm charts deployment with Helm file"
