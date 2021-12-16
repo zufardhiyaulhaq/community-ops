@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-582
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 582
+  date: 12/16/2021
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Rails 7.0 RC1 is Here to Test Out
+    url: https://rubyweekly.com/link/117341/web
+    type: News
+  - title: 'DHH: ''The Time Is Right for Hotwire'''
+    url: https://rubyweekly.com/link/117343/web
+    type: News
+  - title: A Complete DevOps Solution for Your Rails App
+    url: https://rubyweekly.com/link/117344/web
+    type: News
+  - title: A Small Nice Feature Coming in Ruby 3.1, But..
+    url: https://rubyweekly.com/link/117345/web
+    type: News
+  - title: 'Qeweney: An Alternative Feature-Rich HTTP Request/Response API'
+    url: https://rubyweekly.com/link/117348/web
+    type: News
+  - title: What the Ampersand in Front of &block Means
+    url: https://rubyweekly.com/link/117354/web
+    type: News
+  - title: Discussing Rails 7, Railties, and Sorbet at Shopify with Rafael França
+    url: https://rubyweekly.com/link/117355/web
+    type: News
+  - title: How to Tidy Up Your Routes with only
+    url: https://rubyweekly.com/link/117356/web
+    type: News
+  - title: Put the “Flow” in Your Workflows with Shortcut
+    url: https://rubyweekly.com/link/117357/web
+    type: News
+  - title: 'A Rubyist''s Walk Along the C-Side: TypedData Objects'
+    url: https://rubyweekly.com/link/117358/web
+    type: News
+  - title: Dabbling with Turbo
+    url: https://rubyweekly.com/link/117360/web
+    type: News
+  - title: Railway Oriented Programming in Rails with Dry-Monads
+    url: https://rubyweekly.com/link/117361/web
+    type: News
+  - title: 'asdf: A Language Agnostic Way to Manage Multiple Versions of Tools'
+    url: https://rubyweekly.com/link/117364/web
+    type: News
+  - title: 'Styler: A Way to Compose CSS Classes with Ruby'
+    url: https://rubyweekly.com/link/117367/web
+    type: News
+  - title: 'Wicked: Turn a Rails Controller Into a ''Wizard'''
+    url: https://rubyweekly.com/link/117368/web
+    type: News
+  - title: Spend Less Time Debugging and More Time Building with Scout
+    url: https://rubyweekly.com/link/117369/web
+    type: News
+  - title: 'Chatwoot 2.0: Simple, Open Source Live Chat Software'
+    url: https://rubyweekly.com/link/117370/web
+    type: News
+  - title: JRuby 9.3.2.0 Released
+    url: https://rubyweekly.com/link/117372/web
+    type: News
+  - title: 'Regexp::Parser: A Regular Expression Parser Library'
+    url: https://rubyweekly.com/link/117373/web
+    type: News
