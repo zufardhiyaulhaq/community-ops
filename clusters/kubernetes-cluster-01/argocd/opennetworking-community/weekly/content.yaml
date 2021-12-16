@@ -582,28 +582,28 @@ content:
 - title: 'SD-RAN and SD-Core: Software-Defined Open RAN and Mobile Core Projects – What’s Next (Part 2)'
   url: https://opennetworking.org/news-and-events/blog/sd-ran-and-sd-core-software-defined-open-ran-and-mobile-core-projects-whats-next-part-2/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: 'SD-RAN and SD-Core: Software-Defined Open RAN and Mobile Core Projects – A Year in Review (Part 1)'
   url: https://opennetworking.org/news-and-events/blog/sd-ran-and-sd-core-software-defined-open-ran-and-mobile-core-projects-a-year-in-review-part-1/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: 'Aether: Private 5G and Connected Edge Cloud – What’s Next (Part 2)'
   url: https://opennetworking.org/news-and-events/blog/aether-private-5g-and-connected-edge-cloud-whats-next-part-2-2/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: 'Aether: Private 5G and Connected Edge Cloud – A Year in Review (Part 1)'
   url: https://opennetworking.org/news-and-events/blog/aether-private-5g-and-connected-edge-cloud-a-year-in-review-part-1/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: 'Community Member Profile: Karthik Sethuraman'
   url: https://opennetworking.org/news-and-events/blog/community-member-profile-karthik-sethuraman/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: 'SD-Fabric: An End-to-End Programmable Data Plane – What’s Next (Part 2)'
   url: https://opennetworking.org/news-and-events/blog/sd-fabric-an-end-to-end-programmable-data-plane-whats-next-part-2/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: 'SD-Fabric: An End-to-End Programmable Data Plane – A Year in Review (Part 1)'
   url: https://opennetworking.org/news-and-events/blog/sd-fabric-an-end-to-end-programmable-data-plane-a-year-in-review-part-1/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
