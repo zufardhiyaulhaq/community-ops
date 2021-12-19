@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-392
+  namespace: golang-community
+spec:
+  name: Golang Weekly 392
+  date: 12/19/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Go 1.18 Beta 1 is Available (with Generics)
+    url: https://golangweekly.com/link/117692/web
+    type: News
+  - title: 'gqlclient: GraphQL Client and Code Generator for Go'
+    url: https://golangweekly.com/link/117694/web
+    type: News
+  - title: Six Power Rules for Secure GitOps
+    url: https://golangweekly.com/link/117696/web
+    type: News
+  - title: Replacing interface {} with any
+    url: https://golangweekly.com/link/117699/web
+    type: News
+  - title: When to Use Generics in Go?
+    url: https://golangweekly.com/link/117700/web
+    type: News
+  - title: 'Awesome Go Education: Links to Go Tutorials'
+    url: https://golangweekly.com/link/117701/web
+    type: News
+  - title: 'MapReduce: A Map-Reduce Framework for Go'
+    url: https://golangweekly.com/link/117706/web
+    type: News
+  - title: 'ImmuDB 1.2: A Fast Immutable Database, Built on a Zero Trust Model'
+    url: https://golangweekly.com/link/117708/web
+    type: News
+  - title: 'gofumpt: A Stricter gofmt'
+    url: https://golangweekly.com/link/117710/web
+    type: News
+  - title: Observability Won't Replace Monitoring (Because It Shouldn't)
+    url: https://golangweekly.com/link/117712/web
+    type: News
+  - title: 'Miniredis: A Pure Go Redis Server for Go Unit Tests'
+    url: https://golangweekly.com/link/117713/web
+    type: News
+  - title: 'go-mysql 1.4.0: A Pure Go Library for the MySQL Network Protocol'
+    url: https://golangweekly.com/link/117714/web
+    type: News
+  - title: 'Oso: A Batteries-Included Library for Building Authorization in Go'
+    url: https://golangweekly.com/link/117715/web
+    type: News
+  - title: 'Monovania: A 2D Puzzle Platformer Built with Ebiten'
+    url: https://golangweekly.com/link/117719/web
+    type: News
