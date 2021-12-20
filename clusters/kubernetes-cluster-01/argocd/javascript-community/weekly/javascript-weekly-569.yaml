@@ -1,0 +1,72 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-569
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 569
+  date: 12/20/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Deep-Copying in JavaScript Using structuredClone
+    url: https://javascriptweekly.com/link/117762/web
+    type: News
+  - title: A Recap of React Conf 2021
+    url: https://javascriptweekly.com/link/117790/web
+    type: News
+  - title: Kickstart Your Software Engineering Career
+    url: https://javascriptweekly.com/link/117746/web
+    type: News
+  - title: 'Create React App 5.0: The Popular ''One Command'' React App Builder'
+    url: https://javascriptweekly.com/link/117763/web
+    type: News
+  - title: 'quick-lint-js 1.0: An Alternative to ESLint'
+    url: https://javascriptweekly.com/link/117797/web
+    type: News
+  - title: The Performance Implications of JavaScript Errors
+    url: https://javascriptweekly.com/link/117769/web
+    type: News
+  - title: Array.prototype.groupBy to the Rescue?
+    url: https://javascriptweekly.com/link/117770/web
+    type: News
+  - title: Who Guards the Guards – 3 Common Pitfalls of JavaScript Testing
+    url: https://javascriptweekly.com/link/117757/web
+    type: News
+  - title: How to Access ES Module Metadata using import.meta
+    url: https://javascriptweekly.com/link/117772/web
+    type: News
+  - title: Wide Gamut 2D Graphics using HTML Canvas
+    url: https://javascriptweekly.com/link/117773/web
+    type: News
+  - title: An Introduction to Framer Motion 3D for 3D Animation in React
+    url: https://javascriptweekly.com/link/117774/web
+    type: News
+  - title: 'Riot.js 6.1: A Simple and Elegant Component-Based UI Library'
+    url: https://javascriptweekly.com/link/117779/web
+    type: News
+  - title: 'Caterwaul: An (Experimental) JavaScript-to-JavaScript Compiler'
+    url: https://javascriptweekly.com/link/117781/web
+    type: News
+  - title: Shortcut is Project Management Without the Management
+    url: https://javascriptweekly.com/link/117758/web
+    type: News
+  - title: 'OpenSeadragon 3.0: A Web Viewer for Ultra High Resolution Images'
+    url: https://javascriptweekly.com/link/117782/web
+    type: News
+  - title: 'CSS-Select 4.2: A CSS Selector Compiler and Engine'
+    url: https://javascriptweekly.com/link/117783/web
+    type: News
+  - title: "Want to Transfer a Domain with No Downtime? \U0001F440 Our Handy Checklist
+      \U0001F449"
+    url: https://javascriptweekly.com/link/117759/web
+    type: News
+  - title: 'roughViz.js: Hand-Drawn Styled Charts in the Browser'
+    url: https://javascriptweekly.com/link/117784/web
+    type: News
+  - title: 'Neutralino 4.0: Portable, Lightweight Desktop App Framework'
+    url: https://javascriptweekly.com/link/117786/web
+    type: News
