@@ -1,0 +1,50 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-418
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 418
+  date: 12/22/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: How To Write Shell Scripts in Node with Google's zx
+    url: https://nodeweekly.com/link/117621/web
+    type: News
+  - title: 'Node''s New(ish) node: Protocol Imports'
+    url: https://nodeweekly.com/link/117623/web
+    type: News
+  - title: 'New Course: Stay Productive Across Multiple Machines, Projects, and Technologies'
+    url: https://nodeweekly.com/link/117624/web
+    type: News
+  - title: 'Create React App 5.0: The Popular ''One Command'' React App Builder'
+    url: https://nodeweekly.com/link/117626/web
+    type: News
+  - title: Malicious npm Packages Are Now Stealing Discord Tokens
+    url: https://nodeweekly.com/link/117628/web
+    type: News
+  - title: The Ultimate Guide to Cardinality for Observability
+    url: https://nodeweekly.com/link/117629/web
+    type: News
+  - title: What's New in npm 8?
+    url: https://nodeweekly.com/link/117630/web
+    type: News
+  - title: How To Use Postgres with Node on Ubuntu 20.04
+    url: https://nodeweekly.com/link/117632/web
+    type: News
+  - title: 'Got 12.0: A Powerful HTTP Request Library for Node'
+    url: https://nodeweekly.com/link/117635/web
+    type: News
+  - title: 'express-validator: Express.js Middleware for Validation & Sanitizing'
+    url: https://nodeweekly.com/link/117637/web
+    type: News
+  - title: A Better, More Powerful Code Search, Built by Devs to Keep You in Flow
+    url: https://nodeweekly.com/link/117640/web
+    type: News
+  - title: NVM for Windows 1.1.9 Released
+    url: https://nodeweekly.com/link/117641/web
+    type: News
