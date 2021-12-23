@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-2021
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 2021
+  date: 12/23/2021
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: A Ruby One-Liners Cookbook
+    url: https://rubyweekly.com/link/117891/web
+    type: News
+  - title: What We Can Learn From _why, The Long Lost Developer
+    url: https://rubyweekly.com/link/117893/web
+    type: News
+  - title: Spend Less Time Debugging and More Time Building with Scout
+    url: https://rubyweekly.com/link/117894/web
+    type: News
+  - title: Rails Controller Patterns and Anti-Patterns
+    url: https://rubyweekly.com/link/117895/web
+    type: News
+  - title: 'RBS: A New Ruby 3 Typing Language in Action'
+    url: https://rubyweekly.com/link/117898/web
+    type: News
+  - title: 'Awesome Print Came Back: Pretty Print Your Ruby Objects with Style'
+    url: https://rubyweekly.com/link/117909/web
+    type: News
+  - title: Privacy-Aware Rails Consoles with console1984 and audits1984
+    url: https://rubyweekly.com/link/117911/web
+    type: News
+  - title: Complete Peace of Mind Rails Hosting
+    url: https://rubyweekly.com/link/117912/web
+    type: News
+  - title: 'Fisk: A Pure Ruby x86-64 Assembler'
+    url: https://rubyweekly.com/link/117913/web
+    type: News
+  - title: 'Adornable: A Way to Use Decorators on Ruby Methods'
+    url: https://rubyweekly.com/link/117916/web
+    type: News
+  - title: 'YouPlot: A Command Line Tool That Draw Plots in The Terminal'
+    url: https://rubyweekly.com/link/117918/web
+    type: News
+  - title: Shortcut Puts the Agile in Agile and the “Can” in Kanban
+    url: https://rubyweekly.com/link/117920/web
+    type: News
+  - title: 'Rails Mini Profiler 0.7.0: Performance Profiling for Rails, Made Simple'
+    url: https://rubyweekly.com/link/117921/web
+    type: News
+  - title: 'Standard 1.5: A Ruby Style Guide, Linter and Formatter'
+    url: https://rubyweekly.com/link/117922/web
+    type: News
+  - title: The Talks from RailsConf 2021
+    url: https://rubyweekly.com/link/117924/web
+    type: News
+  - title: 'Matz''s Euruko Keynote: Beyond Ruby 3.0'
+    url: https://rubyweekly.com/link/117928/web
+    type: News
+  - title: Some Rails Best Practices in 20 Minutes
+    url: https://rubyweekly.com/link/117930/web
+    type: News
+  - title: How to Debug a Rails App
+    url: https://rubyweekly.com/link/117931/web
+    type: News
+  - title: Matz's Talk at a Crystal Conference
+    url: https://rubyweekly.com/link/117932/web
+    type: News
