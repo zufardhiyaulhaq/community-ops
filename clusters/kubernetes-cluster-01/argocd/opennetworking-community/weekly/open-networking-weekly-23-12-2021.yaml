@@ -1,0 +1,29 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-23-12-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 23-12-2021
+  date: 12/23/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: STL brings SDN principles to fiber with programmable FTTX
+    url: https://www.fiercetelecom.com/telecom/stl-brings-sdn-principles-fiber-programmable-fttx
+    type: Open Networking News
+  - title: Ericsson and Telefónica Germany / O2 are pioneering SDN for microwave transmission
+    url: https://www.ericsson.com/en/press-releases/3/2021/12/ericsson-and-telefonica-germany--o2-are-pioneering-sdn-for-microwave-transmission
+    type: Open Networking News
+  - title: 'SEBA/VOLTHA: SDN-Enabled Broadband Access Projects – What’s Next (Part 2)'
+    url: https://opennetworking.org/news-and-events/blog/seba-voltha-sdn-enabled-broadband-access-projects-whats-next-part-2/
+    type: Open Networking Blog
+  - title: 'SEBA/VOLTHA: SDN-Enabled Broadband Access Projects – A Year in Review (Part 1)'
+    url: https://opennetworking.org/news-and-events/blog/seba-voltha-sdn-enabled-broadband-access-projects-a-year-in-review-part-1/
+    type: Open Networking Blog
+  - title: ONF, Airhop, Facebook and Radisys Make Strides Participating in O-RAN Alliance Global Plugfest
+    url: https://opennetworking.org/news-and-events/blog/onf-facebook-and-radisys-make-strides-participating-in-o-ran-alliance-global-plugfest/
+    type: Open Networking Blog
