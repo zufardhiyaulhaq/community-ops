@@ -607,3 +607,23 @@ content:
   url: https://opennetworking.org/news-and-events/blog/sd-fabric-an-end-to-end-programmable-data-plane-a-year-in-review-part-1/
   kind: Open Networking Blog
   isDelivered: true
+- title: STL brings SDN principles to fiber with programmable FTTX
+  url: https://www.fiercetelecom.com/telecom/stl-brings-sdn-principles-fiber-programmable-fttx
+  kind: Open Networking News
+  isDelivered: false
+- title: Ericsson and Telefónica Germany / O2 are pioneering SDN for microwave transmission
+  url: https://www.ericsson.com/en/press-releases/3/2021/12/ericsson-and-telefonica-germany--o2-are-pioneering-sdn-for-microwave-transmission
+  kind: Open Networking News
+  isDelivered: false
+- title: 'SEBA/VOLTHA: SDN-Enabled Broadband Access Projects – What’s Next (Part 2)'
+  url: https://opennetworking.org/news-and-events/blog/seba-voltha-sdn-enabled-broadband-access-projects-whats-next-part-2/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: 'SEBA/VOLTHA: SDN-Enabled Broadband Access Projects – A Year in Review (Part 1)'
+  url: https://opennetworking.org/news-and-events/blog/seba-voltha-sdn-enabled-broadband-access-projects-a-year-in-review-part-1/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: ONF, Airhop, Facebook and Radisys Make Strides Participating in O-RAN Alliance Global Plugfest
+  url: https://opennetworking.org/news-and-events/blog/onf-facebook-and-radisys-make-strides-participating-in-o-ran-alliance-global-plugfest/
+  kind: Open Networking Blog
+  isDelivered: false
