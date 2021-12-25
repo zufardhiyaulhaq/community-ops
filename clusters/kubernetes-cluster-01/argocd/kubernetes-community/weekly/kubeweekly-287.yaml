@@ -1,0 +1,69 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-287
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 287
+  date: 12/25/2021
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Cloud native DevOps security
+    url: https://community.cncf.io/e/mcvysp/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--8WxamO1nlnGpeLLxLx5Te9jGDM7xNsjYMmHYppiebRQuU3zNkmfUpuog-vqEfmwxz_0xJ
+    type: ICYMI
+  - title: Introduction to Policy with Linkerd 2.11
+    url: https://community.cncf.io/e/m4v4yv/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--8WxamO1nlnGpeLLxLx5Te9jGDM7xNsjYMmHYppiebRQuU3zNkmfUpuog-vqEfmwxz_0xJ
+    type: ICYMI
+  - title: How to keep a Kubernetes secret a secret the universal way
+    url: https://community.cncf.io/e/mggy2t/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--8WxamO1nlnGpeLLxLx5Te9jGDM7xNsjYMmHYppiebRQuU3zNkmfUpuog-vqEfmwxz_0xJ
+    type: ICYMI
+  - title: Intro to Krateo PlatformOps for orchestrating the outside ecosystem from
+      K8s
+    url: https://community.cncf.io/e/mns4d6/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--8WxamO1nlnGpeLLxLx5Te9jGDM7xNsjYMmHYppiebRQuU3zNkmfUpuog-vqEfmwxz_0xJ
+    type: ICYMI
+  - title: Pods, proxies & ports, Oh my!
+    url: https://community.cncf.io/e/mgfkhv/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--8WxamO1nlnGpeLLxLx5Te9jGDM7xNsjYMmHYppiebRQuU3zNkmfUpuog-vqEfmwxz_0xJ
+    type: ICYMI
+  - title: How Penn State scheduled 68k COVID tests with Linkerd
+    url: https://community.cncf.io/e/m9q74j/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--8WxamO1nlnGpeLLxLx5Te9jGDM7xNsjYMmHYppiebRQuU3zNkmfUpuog-vqEfmwxz_0xJ
+    type: ICYMI
+  - title: 'Kongcast: What exactly does a Service Mesh do? (featuring Kuma)'
+    url: https://konghq.com/videos/what-does-service-mesh-do/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--8WxamO1nlnGpeLLxLx5Te9jGDM7xNsjYMmHYppiebRQuU3zNkmfUpuog-vqEfmwxz_0xJ
+    type: Editorial
+  - title: 'LFX fall program 2021: A successful season with 27 graduated interns'
+    url: https://www.cncf.io/blog/2021/12/16/lfx-fall-program-2021-a-successful-season-with-37-graduated-interns/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--8WxamO1nlnGpeLLxLx5Te9jGDM7xNsjYMmHYppiebRQuU3zNkmfUpuog-vqEfmwxz_0xJ
+    type: Editorial
+  - title: End of year update on CNCF and open source velocity in 2021
+    url: https://www.cncf.io/blog/2021/12/15/end-of-year-update-on-cncf-and-open-source-velocity-in-2021/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--8WxamO1nlnGpeLLxLx5Te9jGDM7xNsjYMmHYppiebRQuU3zNkmfUpuog-vqEfmwxz_0xJ
+    type: Editorial
+  - title: The Kubernetes’ open source tools to check out in 2022
+    url: https://www.cncf.io/blog/2021/12/15/the-kubernetes-open-source-tools-to-check-out-in-2022/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--8WxamO1nlnGpeLLxLx5Te9jGDM7xNsjYMmHYppiebRQuU3zNkmfUpuog-vqEfmwxz_0xJ
+    type: Editorial
+  - title: 47 Things to become a Kubernetes expert
+    url: https://ymmt2005.hatenablog.com/entry/k8s-things?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--8WxamO1nlnGpeLLxLx5Te9jGDM7xNsjYMmHYppiebRQuU3zNkmfUpuog-vqEfmwxz_0xJ
+    type: Editorial
+  - title: What happens when you upgrade to Kubernetes v1.24?
+    url: https://jimangel.io/post/dockershim-kubernetes-v1.24/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--8WxamO1nlnGpeLLxLx5Te9jGDM7xNsjYMmHYppiebRQuU3zNkmfUpuog-vqEfmwxz_0xJ
+    type: Technical
+  - title: How to create, provision, and operate Kubernetes with Cluster API (CAPI)
+    url: https://youtu.be/8yUDUhZ6ako?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--8WxamO1nlnGpeLLxLx5Te9jGDM7xNsjYMmHYppiebRQuU3zNkmfUpuog-vqEfmwxz_0xJ
+    type: Technical
+  - title: Apache Log4j2 CVE-2021-44228 node agent
+    url: https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--8WxamO1nlnGpeLLxLx5Te9jGDM7xNsjYMmHYppiebRQuU3zNkmfUpuog-vqEfmwxz_0xJ
+    type: Technical
+  - title: Kubernetes operational view
+    url: https://codeberg.org/hjacobs/kube-ops-view?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--8WxamO1nlnGpeLLxLx5Te9jGDM7xNsjYMmHYppiebRQuU3zNkmfUpuog-vqEfmwxz_0xJ
+    type: Technical
+  - title: Understanding Kubernetes in a visual way - 01 - Pods | Kubernetes en français
+    url: https://www.youtube.com/playlist?list=PLmw3X80dPdlzksg6X9s23LEkLMWFGGUn5&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--8WxamO1nlnGpeLLxLx5Te9jGDM7xNsjYMmHYppiebRQuU3zNkmfUpuog-vqEfmwxz_0xJ
+    type: Technical
+  - title: Improving application availability with pod readiness gates
+    url: https://martinheinz.dev/blog/63?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--8WxamO1nlnGpeLLxLx5Te9jGDM7xNsjYMmHYppiebRQuU3zNkmfUpuog-vqEfmwxz_0xJ
+    type: Technical
+  - title: Scanning container images for CVE-2021-44228
+    url: https://hackmd.io/@smalls/log4shell-scanning?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--8WxamO1nlnGpeLLxLx5Te9jGDM7xNsjYMmHYppiebRQuU3zNkmfUpuog-vqEfmwxz_0xJ
+    type: Technical
