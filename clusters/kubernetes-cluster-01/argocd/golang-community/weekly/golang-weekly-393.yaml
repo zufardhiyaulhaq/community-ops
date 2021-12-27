@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-393
+  namespace: golang-community
+spec:
+  name: Golang Weekly 393
+  date: 12/27/2021
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'Rust vs. Go: Why They’re Better Together'
+    url: https://golangweekly.com/link/117952/web
+    type: News
+  - title: Thoughts on How to Structure Go Code
+    url: https://golangweekly.com/link/117954/web
+    type: News
+  - title: Put the “Flow” in Your Workflows with Shortcut
+    url: https://golangweekly.com/link/117955/web
+    type: News
+  - title: How Does Go Calculate len()?
+    url: https://golangweekly.com/link/117956/web
+    type: News
+  - title: The Busy Developers's Guide to Go Profiling, Tracing, and Observability
+    url: https://golangweekly.com/link/117957/web
+    type: News
+  - title: A Few Bytes Here, A Few There, Pretty Soon You’re Talking Real Memory
+    url: https://golangweekly.com/link/117958/web
+    type: News
+  - title: The Darker Corners of Go
+    url: https://golangweekly.com/link/117959/web
+    type: News
+  - title: 'PTerm: A Modern Go Module to Beautify Console Output'
+    url: https://golangweekly.com/link/117966/web
+    type: News
+  - title: 'Cobra 1.3.0: A ''Commander'' for Modern Go CLI Interactions'
+    url: https://golangweekly.com/link/117968/web
+    type: News
+  - title: 'Encore: A Go API Backend Framework with ''Superpowers'''
+    url: https://golangweekly.com/link/117970/web
+    type: News
+  - title: Observability Won't Replace Monitoring (Because It Shouldn't)
+    url: https://golangweekly.com/link/117971/web
+    type: News
+  - title: 'go-vcr: Record and Replay Your HTTP Interactions'
+    url: https://golangweekly.com/link/117972/web
+    type: News
+  - title: 'Spaghetti: A Dependency Analysis Tool for Go Packages'
+    url: https://golangweekly.com/link/117974/web
+    type: News
+  - title: 'Lingua 1.0: A Natural Language Detection Library'
+    url: https://golangweekly.com/link/117975/web
+    type: News
