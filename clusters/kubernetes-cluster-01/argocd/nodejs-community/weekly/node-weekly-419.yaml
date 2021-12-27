@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-419
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 419
+  date: 12/27/2021
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Ask HN: Why is Node.js ''Hated'' So Much?'
+    url: https://nodeweekly.com/link/117820/web
+    type: News
+  - title: Guidelines for Choosing a Node.js Framework
+    url: https://nodeweekly.com/link/117822/web
+    type: News
+  - title: Auth Without Complexity
+    url: https://nodeweekly.com/link/117823/web
+    type: News
+  - title: Writing Clean JavaScript Tests with the BASIC Principles
+    url: https://nodeweekly.com/link/117824/web
+    type: News
+  - title: NestJS Explained in 100 Seconds
+    url: https://nodeweekly.com/link/117825/web
+    type: News
+  - title: A Comprehensive Guide to Error Handling in Node
+    url: https://nodeweekly.com/link/117827/web
+    type: News
+  - title: 40+ Node.js Integration Test Best Practices
+    url: https://nodeweekly.com/link/117828/web
+    type: News
+  - title: The Ultimate Guide to Cardinality for Observability
+    url: https://nodeweekly.com/link/117829/web
+    type: News
+  - title: Using Google Drive as a CMS
+    url: https://nodeweekly.com/link/117830/web
+    type: News
+  - title: 'Tasuku (タスク): A Minimal Task Runner for Node'
+    url: https://nodeweekly.com/link/117831/web
+    type: News
+  - title: Node v16.9.0 (Current) Released
+    url: https://nodeweekly.com/link/117832/web
+    type: News
+  - title: Best Practices for Logging in Node
+    url: https://nodeweekly.com/link/117834/web
+    type: News
+  - title: "Want to Avoid DNS Downtime? \U0001F384Check Out Our 5-Step Checklist Now \U0001F449"
+    url: https://nodeweekly.com/link/117835/web
+    type: News
+  - title: Common npm Mistakes Every Developer Should Avoid
+    url: https://nodeweekly.com/link/117836/web
+    type: News
+  - title: Node.js Garbage Collection Explained
+    url: https://nodeweekly.com/link/117837/web
+    type: News
+  - title: Is Deno Still a Thing? A Look at the Status of the 'Node Killer'
+    url: https://nodeweekly.com/link/117838/web
+    type: News
+  - title: Supercharging Node with Rust
+    url: https://nodeweekly.com/link/117840/web
+    type: News
+  - title: Running CPU-Bound Tasks in Node with Worker Threads
+    url: https://nodeweekly.com/link/117841/web
+    type: News
