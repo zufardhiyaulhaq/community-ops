@@ -1,0 +1,78 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-570
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 570
+  date: 12/27/2021
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'ES2021: Here''s the Features (Quickly)'
+    url: https://javascriptweekly.com/link/117997/web
+    type: News
+  - title: Comparing Svelte and React
+    url: https://javascriptweekly.com/link/118001/web
+    type: News
+  - title: Build a Mobile-Responsive Telehealth Pager App Using Stream’s Chat API
+    url: https://javascriptweekly.com/link/117986/web
+    type: News
+  - title: Comparing the New Generation of Build Tools
+    url: https://javascriptweekly.com/link/118002/web
+    type: News
+  - title: '''Rust is the Future of JavaScript Infrastructure'''
+    url: https://javascriptweekly.com/link/118003/web
+    type: News
+  - title: The State of Web Workers in 2021
+    url: https://javascriptweekly.com/link/118004/web
+    type: News
+  - title: Rethinking JavaScript's Ternary Operator
+    url: https://javascriptweekly.com/link/118007/web
+    type: News
+  - title: React Authentication, Simplified
+    url: https://javascriptweekly.com/link/117992/web
+    type: News
+  - title: 'zx: A Tool for Writing Better Shell Scripts'
+    url: https://javascriptweekly.com/link/118039/web
+    type: News
+  - title: Over 100 Algorithms and Data Structures Demonstrated in JS
+    url: https://javascriptweekly.com/link/118040/web
+    type: News
+  - title: Shortcut Puts the Agile in Agile and the “Can” in Kanban
+    url: https://javascriptweekly.com/link/117996/web
+    type: News
+  - title: 'HTM 3.1.0: A JSX Alternative using Standard Tagged Templates'
+    url: https://javascriptweekly.com/link/118041/web
+    type: News
+  - title: 'Tagify: An Elegant Input Component for Tags'
+    url: https://javascriptweekly.com/link/118042/web
+    type: News
+  - title: 'Typehole: VS Code Tool to Automatically Generate TypeScript Types and
+      Interfaces'
+    url: https://javascriptweekly.com/link/118044/web
+    type: News
+  - title: 'Cheetah Grid: The Fastest Open-Source Data Table for the Web?'
+    url: https://javascriptweekly.com/link/118045/web
+    type: News
+  - title: JavaScript's Creator Brendan Eich Shares His JavaScript Story
+    url: https://javascriptweekly.com/link/118047/web
+    type: News
+  - title: What You Need to Know About React 18
+    url: https://javascriptweekly.com/link/118049/web
+    type: News
+  - title: 'Beyond onClick: Handling Events in React'
+    url: https://javascriptweekly.com/link/117994/web
+    type: News
+  - title: Coding Up a Mario Game in JavaScript with Kaboom.js
+    url: https://javascriptweekly.com/link/118050/web
+    type: News
+  - title: Ten JavaScript Clean Code Examples
+    url: https://javascriptweekly.com/link/118051/web
+    type: News
+  - title: Have Single-Page Apps Ruined the Web?
+    url: https://javascriptweekly.com/link/118053/web
+    type: News
