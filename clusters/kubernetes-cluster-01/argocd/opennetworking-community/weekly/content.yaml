@@ -630,4 +630,4 @@ content:
 - title: VOLTHA v2.9 Techinar
   url: https://opennetworking.org/events/voltha-v2-9-techinar/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
