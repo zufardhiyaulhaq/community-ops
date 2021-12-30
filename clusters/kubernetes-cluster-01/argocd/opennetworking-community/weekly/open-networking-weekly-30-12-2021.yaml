@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-30-12-2021
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 30-12-2021
+  date: 12/30/2021
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: VOLTHA v2.9 Techinar
+    url: https://opennetworking.org/events/voltha-v2-9-techinar/
+    type: Open Networking Event
