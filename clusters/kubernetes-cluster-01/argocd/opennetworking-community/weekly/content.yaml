@@ -627,3 +627,7 @@ content:
   url: https://opennetworking.org/news-and-events/blog/onf-facebook-and-radisys-make-strides-participating-in-o-ran-alliance-global-plugfest/
   kind: Open Networking Blog
   isDelivered: true
+- title: VOLTHA v2.9 Techinar
+  url: https://opennetworking.org/events/voltha-v2-9-techinar/
+  kind: Open Networking Event
+  isDelivered: false
