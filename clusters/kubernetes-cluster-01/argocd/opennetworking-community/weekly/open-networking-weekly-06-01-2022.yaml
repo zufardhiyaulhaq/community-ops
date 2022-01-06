@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-06-01-2022
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 06-01-2022
+  date: 01/06/2022
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: VOLTHA/SEBA Builds on Long Term Support Release
+    url: https://opennetworking.org/news-and-events/blog/voltha-seba-builds-on-long-term-support-release/
+    type: Open Networking Blog
