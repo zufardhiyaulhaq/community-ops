@@ -634,4 +634,4 @@ content:
 - title: VOLTHA/SEBA Builds on Long Term Support Release
   url: https://opennetworking.org/news-and-events/blog/voltha-seba-builds-on-long-term-support-release/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
