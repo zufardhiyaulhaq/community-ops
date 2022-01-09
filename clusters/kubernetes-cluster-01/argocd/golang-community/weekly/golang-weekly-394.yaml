@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-394
+  namespace: golang-community
+spec:
+  name: Golang Weekly 394
+  date: 01/09/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'Go 1.18: All You Need to Know'
+    url: https://golangweekly.com/link/118173/web
+    type: News
+  - title: Compiling a Go Program Into a Native Binary for the Nintendo Switch
+    url: https://golangweekly.com/link/118175/web
+    type: News
+  - title: 'Pulumi: Developer-First Infrastructure with Go'
+    url: https://golangweekly.com/link/118177/web
+    type: News
+  - title: How Uber Saved 70K Cores Across 30 Mission-Critical Services
+    url: https://golangweekly.com/link/118178/web
+    type: News
+  - title: Three Minor Features Coming to Go 1.18
+    url: https://golangweekly.com/link/118179/web
+    type: News
+  - title: 'Gingko 2.0: A BDD Testing Framework for Go'
+    url: https://golangweekly.com/link/118180/web
+    type: News
+  - title: Scanning Go Source for Vulnerabilities with gosec
+    url: https://golangweekly.com/link/118186/web
+    type: News
+  - title: Two Different Ways to Implement Breadth-First Search
+    url: https://golangweekly.com/link/118187/web
+    type: News
+  - title: Go Proverbs
+    url: https://golangweekly.com/link/118188/web
+    type: News
+  - title: Visualizing Concurrency in Go
+    url: https://golangweekly.com/link/118189/web
+    type: News
+  - title: 'Vale: A Customizable Syntax-Aware Linter for Natural Language / Prose'
+    url: https://golangweekly.com/link/118191/web
+    type: News
+  - title: 'Excelize 2.5: A Library for Reading and Writing XLSX Files'
+    url: https://golangweekly.com/link/118192/web
+    type: News
+  - title: 'Sonic 1.0: ''Blazingly Fast'' JSON Serializing for Go'
+    url: https://golangweekly.com/link/118194/web
+    type: News
+  - title: Get Started with Go and InfluxDB for Time Series Data
+    url: https://golangweekly.com/link/118195/web
+    type: News
+  - title: 'go-pattern-match: Pattern Matching Experiment for Go'
+    url: https://golangweekly.com/link/118196/web
+    type: News
+  - title: 'Afero 1.8: A Filesystem Abstraction System for Go'
+    url: https://golangweekly.com/link/118197/web
+    type: News
+  - title: 'Delve 1.8.0: A Popular Debugger for Go'
+    url: https://golangweekly.com/link/118198/web
+    type: News
+  - title: 'rqlite 6.9.0: A Distributed Relational Database Built on SQLite'
+    url: https://golangweekly.com/link/118199/web
+    type: News
