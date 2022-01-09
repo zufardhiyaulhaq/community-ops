@@ -919,3 +919,11 @@ content:
   url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation-8/
   kind: OpenStack Super User News
   isDelivered: true
+- title: Your Berlin OpenInfra Summit Alerts Are Here
+  url: https://superuser.openstack.org/articles/your-berlin-openinfra-summit-alerts-are-here/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: 'A Year in Review: OpenInfra Highlights from 2021 | OpenInfra Live Recap'
+  url: https://superuser.openstack.org/articles/a-year-in-review-openinfra-highlights-from-2021-openinfra-live-recap/
+  kind: OpenStack Super User News
+  isDelivered: false
