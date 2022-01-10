@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-571
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 571
+  date: 01/10/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 2021's JavaScript Rising Stars
+    url: https://javascriptweekly.com/link/118206/web
+    type: News
+  - title: The ES2022 Edition of 'JavaScript for Impatient Programmers'
+    url: https://javascriptweekly.com/link/118207/web
+    type: News
+  - title: AI-Enabled Chatbots as Easy as “Hello World”
+    url: https://javascriptweekly.com/link/118210/web
+    type: News
+  - title: 'Fuite: A Tool for Finding Memory Leaks in Web Apps'
+    url: https://javascriptweekly.com/link/118253/web
+    type: News
+  - title: The JS Self-Profiling API In Practice
+    url: https://javascriptweekly.com/link/118245/web
+    type: News
+  - title: Build a Monitoring App in 2 Hours
+    url: https://javascriptweekly.com/link/118226/web
+    type: News
+  - title: 'A Smarter JavaScript Mapper: array.flatMap()'
+    url: https://javascriptweekly.com/link/118228/web
+    type: News
+  - title: Is It Time for the JavaScript Temporal API?
+    url: https://javascriptweekly.com/link/118252/web
+    type: News
+  - title: 'Introducing Metho: A Way to Add ''Superpowers'' to JS'
+    url: https://javascriptweekly.com/link/118241/web
+    type: News
+  - title: 'React Calendar Vs. Scheduler: What’s the Difference & When to Use Them'
+    url: https://javascriptweekly.com/link/118227/web
+    type: News
+  - title: Using Node.js ES Modules and Top-Level await in AWS Lambda
+    url: https://javascriptweekly.com/link/118246/web
+    type: News
+  - title: Imperative vs Declarative Programming in 5 Minutes
+    url: https://javascriptweekly.com/link/118229/web
+    type: News
+  - title: 'Perspective 1.1: Fast Streaming Data Visualization via WebAssembly'
+    url: https://javascriptweekly.com/link/118230/web
+    type: News
+  - title: 'jsPDF 2.5: Client-Side JavaScript PDF Generation'
+    url: https://javascriptweekly.com/link/118233/web
+    type: News
+  - title: Tired of Egregious Egress? Try Vultr Instead
+    url: https://javascriptweekly.com/link/118235/web
+    type: News
+  - title: 'Vanta.js: 3D WebGL Background Animations For Your Sites'
+    url: https://javascriptweekly.com/link/118236/web
+    type: News
+  - title: 'Solid 1.3: The VDOM-Less Declarative JS UI Library'
+    url: https://javascriptweekly.com/link/118255/web
+    type: News
+  - title: 'Choices.js 10.0: A Configurable Select Box/Text Input Plugin'
+    url: https://javascriptweekly.com/link/118237/web
+    type: News
+  - title: 'Try JavaScript Online: Simple Web-Based JavaScript Console Input'
+    url: https://javascriptweekly.com/link/118239/web
+    type: News
+  - title: 'PrinceJS: The Prince of Persia in the Browser'
+    url: https://javascriptweekly.com/link/118247/web
+    type: News
