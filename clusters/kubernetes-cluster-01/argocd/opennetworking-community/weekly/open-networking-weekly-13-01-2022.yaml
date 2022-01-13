@@ -1,0 +1,29 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-13-01-2022
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 13-01-2022
+  date: 01/13/2022
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: ONF Releases Aether v1.6 Expanding QoS Features and Adding Application Filtering
+    url: https://opennetworking.org/news-and-events/blog/onf-releases-aether-v1-6-expanding-qos-features-and-adding-application-filtering/
+    type: Open Networking Blog
+  - title: ONF’s SD-Core v1.0 – Programmable 4G/5G Core Fully Integrated with Aether
+    url: https://opennetworking.org/news-and-events/blog/onfs-sd-core-v1-0-programmable-4g-5g-core-fully-integrated-with-aether/
+    type: Open Networking Blog
+  - title: Stratum v21.12 Released, Enabling SD-Fabric and Aether
+    url: https://opennetworking.org/news-and-events/blog/stratum-v21-12-released-enabling-sd-fabric-and-aether/
+    type: Open Networking Blog
+  - title: Italian Networking Workshop
+    url: https://opennetworking.org/events/italian-networking-workshop/
+    type: Open Networking Event
+  - title: Aether v1.6/SD-Core v1.0 Techinar
+    url: https://opennetworking.org/events/aether-v1-6-sd-core-v1-0-techinar/
+    type: Open Networking Event
