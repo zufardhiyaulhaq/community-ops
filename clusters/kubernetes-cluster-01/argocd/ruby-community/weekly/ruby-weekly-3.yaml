@@ -1,0 +1,66 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-3
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 3
+  date: 01/13/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Ruby 3.1.0 Released on Christmas Day
+    url: https://rubyweekly.com/link/118124/web
+    type: News
+  - title: A Look at All of Ruby 3.1's Changes
+    url: https://rubyweekly.com/link/118129/web
+    type: News
+  - title: Stripe-Quality Webhooks for Everyone
+    url: https://rubyweekly.com/link/118130/web
+    type: News
+  - title: How Ruby and Web Components Can Work Together
+    url: https://rubyweekly.com/link/118131/web
+    type: News
+  - title: 'Opal 1.4 Released: Ruby 3.1 Support and More'
+    url: https://rubyweekly.com/link/118132/web
+    type: News
+  - title: Rails Authentication From Scratch
+    url: https://rubyweekly.com/link/118146/web
+    type: News
+  - title: How Ruby's instance_exec Works
+    url: https://rubyweekly.com/link/118147/web
+    type: News
+  - title: Five Things You Did Not Know About Rails Transactions
+    url: https://rubyweekly.com/link/118148/web
+    type: News
+  - title: "\U0001F418 The Developer Experience You’ve Always Wanted for Postgres"
+    url: https://rubyweekly.com/link/118149/web
+    type: News
+  - title: Talking about Game Development in Ruby with Victor David Santos
+    url: https://rubyweekly.com/link/118150/web
+    type: News
+  - title: Rails is the 'One Person Framework'
+    url: https://rubyweekly.com/link/118152/web
+    type: News
+  - title: 'Bullet 7.0: Help to Resolve N+1 Queries and Unused Eager Loading'
+    url: https://rubyweekly.com/link/118154/web
+    type: News
+  - title: 'EBNF 2.3: An EBNF Parser and Generic Parser Generator'
+    url: https://rubyweekly.com/link/118155/web
+    type: News
+  - title: Seamlessly Integrate Video into Your Ruby App
+    url: https://rubyweekly.com/link/118156/web
+    type: News
+  - title: 'immudb-ruby: A Ruby Client for an Immutable Database'
+    url: https://rubyweekly.com/link/118157/web
+    type: News
+  - title: 'ocktokit_scripts: Some Helpful Ruby Scripts Using Octokit to Automate
+      Tasks in GitHub'
+    url: https://rubyweekly.com/link/118159/web
+    type: News
+  - title: 'AttrJson: Serialized JSON-Hash-Backed Active Record Attributes'
+    url: https://rubyweekly.com/link/118160/web
+    type: News
