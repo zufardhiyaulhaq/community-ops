@@ -638,20 +638,20 @@ content:
 - title: ONF Releases Aether v1.6 Expanding QoS Features and Adding Application Filtering
   url: https://opennetworking.org/news-and-events/blog/onf-releases-aether-v1-6-expanding-qos-features-and-adding-application-filtering/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: ONF’s SD-Core v1.0 – Programmable 4G/5G Core Fully Integrated with Aether
   url: https://opennetworking.org/news-and-events/blog/onfs-sd-core-v1-0-programmable-4g-5g-core-fully-integrated-with-aether/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: Stratum v21.12 Released, Enabling SD-Fabric and Aether
   url: https://opennetworking.org/news-and-events/blog/stratum-v21-12-released-enabling-sd-fabric-and-aether/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: Italian Networking Workshop
   url: https://opennetworking.org/events/italian-networking-workshop/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
 - title: Aether v1.6/SD-Core v1.0 Techinar
   url: https://opennetworking.org/events/aether-v1-6-sd-core-v1-0-techinar/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
