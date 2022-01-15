@@ -1,0 +1,35 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kube-weekly-289
+  namespace: kubernetes-community
+spec:
+  name: Kube Weekly 289
+  date: 01/15/2022
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: The Cloud Native Glossary - Join CNCF open source project!
+    url: https://community.cncf.io/e/m8u8v5/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_oORGks1YUiHWxv98ru_8AN9bn5VNg7nBH7EI6IoZ7-1_Gf7SsZ5j__j5kj2uxDySAaA7E
+    type: ICYMI
+  - title: Join the Cloud Native Glossary!
+    url: https://www.cncf.io/blog/2022/01/11/join-the-cncf-cloud-native-glossary/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_oORGks1YUiHWxv98ru_8AN9bn5VNg7nBH7EI6IoZ7-1_Gf7SsZ5j__j5kj2uxDySAaA7E
+    type: Editorial
+  - title: LitmusChaos becomes a CNCF incubating project
+    url: https://www.cncf.io/blog/2022/01/11/litmuschaos-becomes-a-cncf-incubating-project/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_oORGks1YUiHWxv98ru_8AN9bn5VNg7nBH7EI6IoZ7-1_Gf7SsZ5j__j5kj2uxDySAaA7E
+    type: Editorial
+  - title: How to do vulnerability management via image scanning in Harbor
+    url: https://elastisys.com/how-to-do-vulnerability-management-via-image-scanning-in-harbor/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_oORGks1YUiHWxv98ru_8AN9bn5VNg7nBH7EI6IoZ7-1_Gf7SsZ5j__j5kj2uxDySAaA7E
+    type: Editorial
+  - title: Top API and digital transformation trends for 2022
+    url: https://konghq.com/blog/top-api-digital-transformation-trends-2022/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_oORGks1YUiHWxv98ru_8AN9bn5VNg7nBH7EI6IoZ7-1_Gf7SsZ5j__j5kj2uxDySAaA7E
+    type: Editorial
+  - title: Continuous profiling in Kubernetes using Pyroscope
+    url: https://www.infracloud.io/blogs/continuous-profiling-kubernetes-pyroscope/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_oORGks1YUiHWxv98ru_8AN9bn5VNg7nBH7EI6IoZ7-1_Gf7SsZ5j__j5kj2uxDySAaA7E
+    type: Technical
+  - title: Securing a Kubernetes pod with Regula and Open Policy Agent
+    url: https://www.fugue.co/blog/securing-a-kubernetes-pod-with-regula-and-open-policy-agent?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_oORGks1YUiHWxv98ru_8AN9bn5VNg7nBH7EI6IoZ7-1_Gf7SsZ5j__j5kj2uxDySAaA7E
+    type: Technical
