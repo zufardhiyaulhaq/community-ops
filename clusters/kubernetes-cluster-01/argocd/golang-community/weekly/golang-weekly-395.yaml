@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-395
+  namespace: golang-community
+spec:
+  name: Golang Weekly 395
+  date: 01/16/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'Bintris: A ''Binary Tetris'' Mobile Game Built in Go'
+    url: https://golangweekly.com/link/118475/web
+    type: News
+  - title: Effective Error Handling in Go
+    url: https://golangweekly.com/link/118477/web
+    type: News
+  - title: Powerful API and Analytics Makes Building Video in Your Go App a Snap
+    url: https://golangweekly.com/link/118478/web
+    type: News
+  - title: What npm Should Do Today to Prevent a New 'Colors'-Style Problem Tomorrow
+    url: https://golangweekly.com/link/118483/web
+    type: News
+  - title: Things Google's Go Team Would Remove From The Language (If They Could)
+    url: https://golangweekly.com/link/118485/web
+    type: News
+  - title: When More Parallelism Doesn't Mean More Performance
+    url: https://golangweekly.com/link/118488/web
+    type: News
+  - title: Go Beyond Work
+    url: https://golangweekly.com/link/118489/web
+    type: News
+  - title: 'duf: Think htop but for Disk Usage'
+    url: https://golangweekly.com/link/118490/web
+    type: News
+  - title: 'Compress: Optimized Compression Packages for Go'
+    url: https://golangweekly.com/link/118491/web
+    type: News
+  - title: 'GoReleaser 1.3: Deliver Go Binaries As Fast and Easily As Possible'
+    url: https://golangweekly.com/link/118492/web
+    type: News
+  - title: 'Remark42: Privacy-Focused Lightweight Commenting Engine'
+    url: https://golangweekly.com/link/118494/web
+    type: News
+  - title: Shortcut Puts the Agile in Agile and the “Can” in Kanban
+    url: https://golangweekly.com/link/118496/web
+    type: News
+  - title: 'Flipt: A Self Hosted Feature Flag System'
+    url: https://golangweekly.com/link/118497/web
+    type: News
+  - title: 'go-github v42.0: A Go Client for the GitHub v3 API'
+    url: https://golangweekly.com/link/118499/web
+    type: News
+  - title: 'Miller: A Go-Powered Textual Data File Swiss Army Knife'
+    url: https://golangweekly.com/link/118502/web
+    type: News
+  - title: 'govcl 2.2: A Cross-Platform Go GUI Library'
+    url: https://golangweekly.com/link/118503/web
+    type: News
