@@ -1,0 +1,78 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-572
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 572
+  date: 01/17/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Make JS Games: How to Code Games with JavaScript'
+    url: https://javascriptweekly.com/link/118559/web
+    type: News
+  - title: 'Publishing & Consuming ES Modules Via Packages: The Big Picture'
+    url: https://javascriptweekly.com/link/118541/web
+    type: News
+  - title: Retool Is the Fast Way to Build Internal Tools
+    url: https://javascriptweekly.com/link/118515/web
+    type: News
+  - title: 'Eleventy v1.0: The JS-Powered Static Site Generator'
+    url: https://javascriptweekly.com/link/118516/web
+    type: News
+  - title: JavaScript Developer Breaks Two Popular npm Packages
+    url: https://javascriptweekly.com/link/118542/web
+    type: News
+  - title: 'Parcel CSS: A New CSS Parser, Compiler, and Minifier Written in Rust'
+    url: https://javascriptweekly.com/link/118563/web
+    type: News
+  - title: How Not to Learn TypeScript
+    url: https://javascriptweekly.com/link/118548/web
+    type: News
+  - title: How Storybook Migrated 541 Components From Styled Components to Emotion
+      (Without Bugs)
+    url: https://javascriptweekly.com/link/118549/web
+    type: News
+  - title: Build an Interplanetary Chatbot, from Scratch
+    url: https://javascriptweekly.com/link/118526/web
+    type: News
+  - title: 'Ace, CodeMirror, and Monaco: A Comparison of Browser-Based Code Editors'
+    url: https://javascriptweekly.com/link/118551/web
+    type: News
+  - title: Form Validation with the Constraint Validation API
+    url: https://javascriptweekly.com/link/118556/web
+    type: News
+  - title: Evan You on 'The New Vue'
+    url: https://javascriptweekly.com/link/118571/web
+    type: News
+  - title: 'Shepherd 9.0: Guide Your Users Through a Tour of Your App'
+    url: https://javascriptweekly.com/link/118528/web
+    type: News
+  - title: 'Heapify v0.6: The ''Fastest JavaScript Priority Queue Out There'''
+    url: https://javascriptweekly.com/link/118530/web
+    type: News
+  - title: Shortcut Puts the Agile in Agile and the “Can” in Kanban
+    url: https://javascriptweekly.com/link/118531/web
+    type: News
+  - title: 'Ohm: Library and Language for Building Parsers, Interpreters and Compilers'
+    url: https://javascriptweekly.com/link/118532/web
+    type: News
+  - title: 'Danfo.js 1.0: Data Analysis Toolkit and Structures'
+    url: https://javascriptweekly.com/link/118535/web
+    type: News
+  - title: 'Two.js: A Renderer-Agnostic 2D Drawing Library'
+    url: https://javascriptweekly.com/link/118537/web
+    type: News
+  - title: 'Window.js: A Prototype JavaScript Runtime for Desktop Graphics Programming'
+    url: https://javascriptweekly.com/link/118558/web
+    type: News
+  - title: Doppler - All Your Environment Variables in One Place
+    url: https://javascriptweekly.com/link/118538/web
+    type: News
+  - title: 'deno_lint: Fast Linter for JS and TS Written in Rust'
+    url: https://javascriptweekly.com/link/118553/web
+    type: News
