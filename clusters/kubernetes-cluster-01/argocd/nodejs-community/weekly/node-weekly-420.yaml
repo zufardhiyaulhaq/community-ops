@@ -1,0 +1,72 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-420
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 420
+  date: 01/19/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: JavaScript Developer Breaks Two Popular npm Packages
+    url: https://nodeweekly.com/link/118370/web
+    type: News
+  - title: The January 10, 2022 Node.js Security Releases
+    url: https://nodeweekly.com/link/118374/web
+    type: News
+  - title: AppSignal Speaks Louder Than Words
+    url: https://nodeweekly.com/link/118379/web
+    type: News
+  - title: What npm Should Do Today to Stop a New Colors Attack Tomorrow
+    url: https://nodeweekly.com/link/118380/web
+    type: News
+  - title: 'NAPI-RS 2.0: A Minimal Library for Building Node Addons in Rust'
+    url: https://nodeweekly.com/link/118381/web
+    type: News
+  - title: '0x 5.0: Single-Command Flamegraph Profiling for Node'
+    url: https://nodeweekly.com/link/118383/web
+    type: News
+  - title: Using Node.js ES Modules and Top-Level await in AWS Lambda
+    url: https://nodeweekly.com/link/118387/web
+    type: News
+  - title: A Red Hat Flavored Review of Node.js in 2021
+    url: https://nodeweekly.com/link/118388/web
+    type: News
+  - title: 'Think Less, Do More: Reducing Cognitive Overhead with ThePrimeagen'
+    url: https://nodeweekly.com/link/118390/web
+    type: News
+  - title: 'Robots Parser 3.0: A robots.txt Parser'
+    url: https://nodeweekly.com/link/118392/web
+    type: News
+  - title: 'Instauto: An Instagram Bot / Automation Library'
+    url: https://nodeweekly.com/link/118393/web
+    type: News
+  - title: 'fast-json-stringify 3.0: 2x Faster than JSON.stringify()?'
+    url: https://nodeweekly.com/link/118394/web
+    type: News
+  - title: Build Internal Tools in Minutes with Retool, Where Visual Programming Meets
+      the Power of Real Code
+    url: https://nodeweekly.com/link/118395/web
+    type: News
+  - title: 'Jasmine 4.0: The Testing Framework for Browsers and Node'
+    url: https://nodeweekly.com/link/118396/web
+    type: News
+  - title: 'active-win 7.7.0: Get Metadata About the Active Window'
+    url: https://nodeweekly.com/link/118398/web
+    type: News
+  - title: 'public-ip 5.0: Quickly Get Your Public IP Address'
+    url: https://nodeweekly.com/link/118399/web
+    type: News
+  - title: The Official MongoDB Node.js Driver v4.3.0
+    url: https://nodeweekly.com/link/118400/web
+    type: News
+  - title: TypeScript Express Starter App 7.0
+    url: https://nodeweekly.com/link/118401/web
+    type: News
+  - title: 'SuperTest 6.2: Super-Agent Driven Library for Testing Node HTTP Servers'
+    url: https://nodeweekly.com/link/118402/web
+    type: News
