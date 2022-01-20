@@ -1,0 +1,23 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-20-01-2022
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 20-01-2022
+  date: 01/20/2022
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Looking Back at an Amazing 2021 and Forward to an Exciting 2022
+    url: https://opennetworking.org/news-and-events/blog/looking-back-at-an-amazing-2021-and-forward-to-an-exciting-2022/
+    type: Open Networking Blog
+  - title: 'Community Member Profile: Nandita Dukkipati'
+    url: https://opennetworking.org/news-and-events/blog/community-member-profile-nandita-dukkipati/
+    type: Open Networking Blog
+  - title: ONOS v2.7.0 LTS Release Adds Features and Optimization Enhancements
+    url: https://opennetworking.org/news-and-events/blog/onos-v2-7-0-lts-release-adds-features-and-optimization-enhancements/
+    type: Open Networking Blog
