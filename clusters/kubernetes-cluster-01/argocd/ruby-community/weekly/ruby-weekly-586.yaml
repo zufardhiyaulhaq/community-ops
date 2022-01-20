@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-586
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 586
+  date: 01/20/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: How a Routine Gem Update Ended Up Creating $73k of Accidental Subscriptions
+    url: https://rubyweekly.com/link/118404/web
+    type: News
+  - title: Benchmarking CRuby, MJIT, YJIT, JRuby and TruffleRuby
+    url: https://rubyweekly.com/link/118405/web
+    type: News
+  - title: Secure Redis Hosting from RedisGreen
+    url: https://rubyweekly.com/link/118406/web
+    type: News
+  - title: 'RubyConf 2021: A History of Compiling Ruby'
+    url: https://rubyweekly.com/link/118407/web
+    type: News
+  - title: Homebrew, Rosetta, and Ruby
+    url: https://rubyweekly.com/link/118409/web
+    type: News
+  - title: Creating and Testing gRPC Server Interceptors in Ruby
+    url: https://rubyweekly.com/link/118416/web
+    type: News
+  - title: Simulating Geolocation with Capybara and Headless Chrome
+    url: https://rubyweekly.com/link/118417/web
+    type: News
+  - title: 'DHH: ''I Won''t Let You Pay Me for My Open Source'''
+    url: https://rubyweekly.com/link/118418/web
+    type: News
+  - title: Complete Peace of Mind Rails Hosting
+    url: https://rubyweekly.com/link/118419/web
+    type: News
+  - title: Ruby SDK Code Generation using Smithy
+    url: https://rubyweekly.com/link/118420/web
+    type: News
+  - title: 'Explained: binding.pry vs Byebug vs Debugger'
+    url: https://rubyweekly.com/link/118423/web
+    type: News
+  - title: '''That''s Not a Memory Leak, It''s Bloat'''
+    url: https://rubyweekly.com/link/118424/web
+    type: News
+  - title: Losing Your Way with the Safe-Navigation Operator
+    url: https://rubyweekly.com/link/118425/web
+    type: News
+  - title: How Ruby's method_missing Works
+    url: https://rubyweekly.com/link/118426/web
+    type: News
+  - title: A Ruby Implementation of Wordle, the Word Guessing Game
+    url: https://rubyweekly.com/link/118429/web
+    type: News
+  - title: 'ruby-oembed: An oEmbed Consumer Library for Ruby'
+    url: https://rubyweekly.com/link/118431/web
+    type: News
+  - title: 'Single Cov 1.7: Actionable Code Coverage'
+    url: https://rubyweekly.com/link/118433/web
+    type: News
+  - title: Shortcut Puts the Agile in Agile and the “Can” in Kanban
+    url: https://rubyweekly.com/link/118434/web
+    type: News
+  - title: 'Inline SVG: Embed SVG Documents Into Rails Views and Style Them with CSS'
+    url: https://rubyweekly.com/link/118435/web
+    type: News
+  - title: 'Faraday 1.9.3: A Flexible HTTP Client Library'
+    url: https://rubyweekly.com/link/118436/web
+    type: News
+  - title: 'Ruby on Jets 3.1: A Ruby Serverless Framework'
+    url: https://rubyweekly.com/link/118437/web
+    type: News
