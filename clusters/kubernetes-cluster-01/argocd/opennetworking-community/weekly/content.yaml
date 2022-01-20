@@ -658,12 +658,12 @@ content:
 - title: Looking Back at an Amazing 2021 and Forward to an Exciting 2022
   url: https://opennetworking.org/news-and-events/blog/looking-back-at-an-amazing-2021-and-forward-to-an-exciting-2022/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: 'Community Member Profile: Nandita Dukkipati'
   url: https://opennetworking.org/news-and-events/blog/community-member-profile-nandita-dukkipati/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: ONOS v2.7.0 LTS Release Adds Features and Optimization Enhancements
   url: https://opennetworking.org/news-and-events/blog/onos-v2-7-0-lts-release-adds-features-and-optimization-enhancements/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
