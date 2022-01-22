@@ -1,0 +1,58 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-290
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 290
+  date: 01/22/2022
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Making your app soar without a container manifest
+    url: https://community.cncf.io/e/mrm8gf/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8y_Td_qQxthGM338kKp1g_FOQyXmuR4U3hA58Anws3_FOglj2g_rAMhuqYjwpEwAvBAZUF
+    type: ICYMI
+  - title: From zero to production in less than one hour with Krateo PlatformOps
+    url: https://community.cncf.io/e/m56k94/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8y_Td_qQxthGM338kKp1g_FOQyXmuR4U3hA58Anws3_FOglj2g_rAMhuqYjwpEwAvBAZUF
+    type: ICYMI
+  - title: 'End User Lounge: Salt Security'
+    url: https://community.cncf.io/e/m5pdvw/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8y_Td_qQxthGM338kKp1g_FOQyXmuR4U3hA58Anws3_FOglj2g_rAMhuqYjwpEwAvBAZUF
+    type: ICYMI
+  - title: 4 big GitOps moments of 2021
+    url: https://www.weave.works/blog/2021-gitops-moments?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8y_Td_qQxthGM338kKp1g_FOQyXmuR4U3hA58Anws3_FOglj2g_rAMhuqYjwpEwAvBAZUF
+    type: Editorial
+  - title: Our favorite devops tools for 2022
+    url: https://konghq.com/blog/devops-tools/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8y_Td_qQxthGM338kKp1g_FOQyXmuR4U3hA58Anws3_FOglj2g_rAMhuqYjwpEwAvBAZUF
+    type: Editorial
+  - title: API Gateway decK With CI/CD
+    url: https://youtu.be/8SVSohiIhUk?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8y_Td_qQxthGM338kKp1g_FOQyXmuR4U3hA58Anws3_FOglj2g_rAMhuqYjwpEwAvBAZUF
+    type: Editorial
+  - title: 'Securing cloud native comms: From Ingress to Service Mesh and beyond'
+    url: https://blog.getambassador.io/securing-cloud-native-comms-from-ingress-to-service-mesh-and-beyond-4df7efdbaa48?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8y_Td_qQxthGM338kKp1g_FOQyXmuR4U3hA58Anws3_FOglj2g_rAMhuqYjwpEwAvBAZUF
+    type: Editorial
+  - title: Detect crashes in your Kubernetes cluster using kwatch and Slack
+    url: https://kwatch.dev/blog/detect-crashes-in-your-cluster-using-kwatch-and-slack?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8y_Td_qQxthGM338kKp1g_FOQyXmuR4U3hA58Anws3_FOglj2g_rAMhuqYjwpEwAvBAZUF
+    type: Technical
+  - title: GitOps model for provisioning and bootstrapping Amazon EKS clusters using
+      Crossplane and Flux
+    url: https://aws.amazon.com/blogs/containers/gitops-model-for-provisioning-and-bootstrapping-amazon-eks-clusters-using-crossplane-and-flux/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8y_Td_qQxthGM338kKp1g_FOQyXmuR4U3hA58Anws3_FOglj2g_rAMhuqYjwpEwAvBAZUF
+    type: Technical
+  - title: 10 real-world stories of how we’ve compromised CI/CD pipelines
+    url: https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8y_Td_qQxthGM338kKp1g_FOQyXmuR4U3hA58Anws3_FOglj2g_rAMhuqYjwpEwAvBAZUF
+    type: Technical
+  - title: Tracing the path of network traffic in Kubernetes
+    url: https://learnk8s.io/kubernetes-network-packets?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8y_Td_qQxthGM338kKp1g_FOQyXmuR4U3hA58Anws3_FOglj2g_rAMhuqYjwpEwAvBAZUF
+    type: Technical
+  - title: Unveil the secret ingredients of continuous delivery at enterprise scale
+      with Argo CD
+    url: https://medium.com/akuity/unveil-the-secret-ingredients-of-continuous-delivery-at-enterprise-scale-with-argo-cd-7c5b4057ee49?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8y_Td_qQxthGM338kKp1g_FOQyXmuR4U3hA58Anws3_FOglj2g_rAMhuqYjwpEwAvBAZUF
+    type: Technical
+  - title: Kubernetes + Postgres cluster from scratch on Rocky 8
+    url: https://blog.crunchydata.com/blog/kube-cluster-from-scratch-on-rocky-8?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8y_Td_qQxthGM338kKp1g_FOQyXmuR4U3hA58Anws3_FOglj2g_rAMhuqYjwpEwAvBAZUF
+    type: Technical
+  - title: Observability with OpenTelemetry & Datadog in Fission
+    url: https://fission.io/blog/observability-with-opentelemetry-datadog-in-fission/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8y_Td_qQxthGM338kKp1g_FOQyXmuR4U3hA58Anws3_FOglj2g_rAMhuqYjwpEwAvBAZUF
+    type: Technical
