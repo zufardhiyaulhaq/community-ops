@@ -927,3 +927,11 @@ content:
   url: https://superuser.openstack.org/articles/a-year-in-review-openinfra-highlights-from-2021-openinfra-live-recap/
   kind: OpenStack Super User News
   isDelivered: true
+- title: Berlin OpenInfra Summit 2022 CFP 101 | OpenInfra Live Recap
+  url: https://superuser.openstack.org/articles/berlin-openinfra-summit-2022-cfp-101-openinfra-live-recap/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: 'Inside Open Infrastructure: The Latest from the OpenInfra Foundation'
+  url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation-9/
+  kind: OpenStack Super User News
+  isDelivered: false
