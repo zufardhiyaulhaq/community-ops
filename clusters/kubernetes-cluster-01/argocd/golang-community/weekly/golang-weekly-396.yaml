@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-396
+  namespace: golang-community
+spec:
+  name: Golang Weekly 396
+  date: 01/23/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: An Official 'Getting Started with Generics' Tutorial
+    url: https://golangweekly.com/link/118791/web
+    type: News
+  - title: Getting Started with Fuzzing in Go 1.18+
+    url: https://golangweekly.com/link/118793/web
+    type: News
+  - title: It's Go Time - Get Started with InfluxDB
+    url: https://golangweekly.com/link/118794/web
+    type: News
+  - title: '''What I''d Like to See in Go 2.0'''
+    url: https://golangweekly.com/link/118795/web
+    type: News
+  - title: Diving Into Go's HTTP Server Timeouts
+    url: https://golangweekly.com/link/118796/web
+    type: News
+  - title: 'Visualization in Go: Plotting Stock Information'
+    url: https://golangweekly.com/link/118807/web
+    type: News
+  - title: Building GitHub Apps with Go
+    url: https://golangweekly.com/link/118808/web
+    type: News
+  - title: AI-Driven Development in Go with Alexey Palazhchenko
+    url: https://golangweekly.com/link/118809/web
+    type: News
+  - title: 'qlmka: macOS Quick-Look Plugin for Matroska .mka Files'
+    url: https://golangweekly.com/link/118810/web
+    type: News
+  - title: 'Redix: A Fast Persistent Pure Key/Value Store'
+    url: https://golangweekly.com/link/118811/web
+    type: News
+  - title: Enjoy Building Scalable Infrastructure in Go? Stream Is Hiring
+    url: https://golangweekly.com/link/118812/web
+    type: News
+  - title: 'Litestream: Real-Time Streaming Replication for SQLite'
+    url: https://golangweekly.com/link/118813/web
+    type: News
+  - title: 'gokrazy: A Pure-Go Userland for Raspberry Pis'
+    url: https://golangweekly.com/link/118815/web
+    type: News
+  - title: 'Goridge 3.3: A PHP-to-Go IPC/RPC Bridge'
+    url: https://golangweekly.com/link/118816/web
+    type: News
+  - title: 'Switchboard: Automagical File Organization'
+    url: https://golangweekly.com/link/118818/web
+    type: News
+  - title: 'Wordlehack: Another Attempt at Finding The Best Wordle Starting Word'
+    url: https://golangweekly.com/link/118819/web
+    type: News
+  - title: 'tt: A Terminal Based Typing Test'
+    url: https://golangweekly.com/link/118821/web
+    type: News
