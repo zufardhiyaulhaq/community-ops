@@ -1,0 +1,83 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-573
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 573
+  date: 01/24/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: TypeScript Features to Avoid?
+    url: https://javascriptweekly.com/link/118850/web
+    type: News
+  - title: Deeply Copying Objects with structuredClone()
+    url: https://javascriptweekly.com/link/118852/web
+    type: News
+  - title: New Course on State Machines with XState by David Khourshid
+    url: https://javascriptweekly.com/link/118833/web
+    type: News
+  - title: A JavaScript-Flavored Introduction to Monads
+    url: https://javascriptweekly.com/link/118853/web
+    type: News
+  - title: Remix vs Next.js
+    url: https://javascriptweekly.com/link/118855/web
+    type: News
+  - title: 'Deno 1.18 Released: The (Other) Modern JS/TS Runtime'
+    url: https://javascriptweekly.com/link/118857/web
+    type: News
+  - title: Replacing jQuery with Umbrella JS
+    url: https://javascriptweekly.com/link/118860/web
+    type: News
+  - title: On Grouping Arrays with .groupBy() and .groupByToMap()
+    url: https://javascriptweekly.com/link/118862/web
+    type: News
+  - title: 'Colors NPM: What Happened? Offending Commit Adds an Infinite Loop'
+    url: https://javascriptweekly.com/link/118846/web
+    type: News
+  - title: 'From ES6 to Scala: The Basics'
+    url: https://javascriptweekly.com/link/118864/web
+    type: News
+  - title: The Optional Chaining Operator, “Modern” Browsers, and My Mom
+    url: https://javascriptweekly.com/link/118866/web
+    type: News
+  - title: Good Advice on JSX Conditionals
+    url: https://javascriptweekly.com/link/118867/web
+    type: News
+  - title: Add Less
+    url: https://javascriptweekly.com/link/118868/web
+    type: News
+  - title: Build a Mobile-Responsive Telehealth Pager App Using Stream’s Chat API
+    url: https://javascriptweekly.com/link/118848/web
+    type: News
+  - title: How to Extract Secrets from an Electron App
+    url: https://javascriptweekly.com/link/118869/web
+    type: News
+  - title: 'TinyBase: A Library for Structuring App State'
+    url: https://javascriptweekly.com/link/118872/web
+    type: News
+  - title: 'Sharer.js 0.5: Lightweight Social Sharing Components for 20+ Platforms'
+    url: https://javascriptweekly.com/link/118875/web
+    type: News
+  - title: Studio 3T Manages Your Data, While You Wrestle Your App into Shape
+    url: https://javascriptweekly.com/link/118849/web
+    type: News
+  - title: 'Vanilla List: A Directory of Vanilla JavaScript Plugins'
+    url: https://javascriptweekly.com/link/118876/web
+    type: News
+  - title: 'mo.js 1.3: A Motion Graphics Toolbelt for the Web'
+    url: https://javascriptweekly.com/link/118877/web
+    type: News
+  - title: 'Rockpack 2.0: An Alternative React App Builder'
+    url: https://javascriptweekly.com/link/118879/web
+    type: News
+  - title: 'vue-easytable: A Flexible Table/Data Grid Component for Vue.js 2.x'
+    url: https://javascriptweekly.com/link/118880/web
+    type: News
+  - title: 'React Calendar 3.6: The ''Ultimate'' Calendar for Your React App'
+    url: https://javascriptweekly.com/link/118882/web
+    type: News
