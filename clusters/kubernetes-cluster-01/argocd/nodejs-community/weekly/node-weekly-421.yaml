@@ -1,0 +1,59 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-421
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 421
+  date: 01/26/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Remix vs Next.js
+    url: https://nodeweekly.com/link/118741/web
+    type: News
+  - title: 'Eleventy v1.0: The Node-Powered Static Site Generator'
+    url: https://nodeweekly.com/link/118743/web
+    type: News
+  - title: Cloud Infrastructure Without the Complexity or Cost
+    url: https://nodeweekly.com/link/118746/web
+    type: News
+  - title: Node v17.4.0 (Current) Released
+    url: https://nodeweekly.com/link/118747/web
+    type: News
+  - title: Mocking With Undici Like a Pro
+    url: https://nodeweekly.com/link/118757/web
+    type: News
+  - title: Creating an AWS Lambda Function with nbb
+    url: https://nodeweekly.com/link/118759/web
+    type: News
+  - title: Create An Open Graph Image Generator with Node
+    url: https://nodeweekly.com/link/118761/web
+    type: News
+  - title: Read How Elotl Autoscales CI in Kubernetes with Buildkite & Amazon EKS
+    url: https://nodeweekly.com/link/118762/web
+    type: News
+  - title: How to Set Up a Node Project with TypeScript
+    url: https://nodeweekly.com/link/118763/web
+    type: News
+  - title: 'NodeBB 1.19.0: Node-Based Forum Software'
+    url: https://nodeweekly.com/link/118764/web
+    type: News
+  - title: 'better-sqlite3 7.5: A Simple, Fast SQLite3 Library for Node'
+    url: https://nodeweekly.com/link/118765/web
+    type: News
+  - title: Doppler - All Your Environment Variables in One Place
+    url: https://nodeweekly.com/link/118767/web
+    type: News
+  - title: 'Dynamoose 2.8: A Modeling Tool for Amazon''s DynamoDB'
+    url: https://nodeweekly.com/link/118768/web
+    type: News
+  - title: 'Rockpack 2.0: An Alternative React App Builder'
+    url: https://nodeweekly.com/link/118770/web
+    type: News
+  - title: 'Discord.js 13.6.0: A Library for Interacting with Discord''s API'
+    url: https://nodeweekly.com/link/118771/web
+    type: News
