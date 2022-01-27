@@ -667,3 +667,7 @@ content:
   url: https://opennetworking.org/news-and-events/blog/onos-v2-7-0-lts-release-adds-features-and-optimization-enhancements/
   kind: Open Networking Blog
   isDelivered: true
+- title: Zyxel Communications to Join Open Networking Foundation Aligning With Projects Focused on Broadband Transformation
+  url: https://www.businesswire.com/news/home/20220123005001/en/Zyxel-Communications-to-Join-Open-Networking-Foundation-Aligning-With-Projects-Focused-on-Broadband-Transformation
+  kind: Open Networking News
+  isDelivered: false
