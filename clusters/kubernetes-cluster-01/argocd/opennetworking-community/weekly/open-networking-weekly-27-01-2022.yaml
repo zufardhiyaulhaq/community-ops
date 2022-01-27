@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-27-01-2022
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 27-01-2022
+  date: 01/27/2022
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Zyxel Communications to Join Open Networking Foundation Aligning With Projects Focused on Broadband Transformation
+    url: https://www.businesswire.com/news/home/20220123005001/en/Zyxel-Communications-to-Join-Open-Networking-Foundation-Aligning-With-Projects-Focused-on-Broadband-Transformation
+    type: Open Networking News
