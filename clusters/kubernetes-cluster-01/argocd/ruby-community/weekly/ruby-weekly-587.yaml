@@ -1,0 +1,69 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-587
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 587
+  date: 01/27/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Proposal to Merge WASI-Based WebAssembly Support into Ruby
+    url: https://rubyweekly.com/link/118702/web
+    type: News
+  - title: Happy 10th Birthday to Sidekiq, the Background Job Processor
+    url: https://rubyweekly.com/link/118703/web
+    type: News
+  - title: Spend More Time Building with Scout APM
+    url: https://rubyweekly.com/link/118706/web
+    type: News
+  - title: Reducing Method Calls by 99.9% by Replacing Thread#pass with Queue#pop
+    url: https://rubyweekly.com/link/118707/web
+    type: News
+  - title: On The Future of 'Adopting' Ruby Gems
+    url: https://rubyweekly.com/link/118708/web
+    type: News
+  - title: On How FastRuby Uses RuboCop and StandardRB
+    url: https://rubyweekly.com/link/118714/web
+    type: News
+  - title: Build a Minimal Feature Flags Manager in Under An Hour
+    url: https://rubyweekly.com/link/118715/web
+    type: News
+  - title: Build Time Series Data Apps with Ruby and InfluxDB
+    url: https://rubyweekly.com/link/118739/web
+    type: News
+  - title: Looking at Ruby's Splat Operator
+    url: https://rubyweekly.com/link/118717/web
+    type: News
+  - title: How PlanetScale's Rails Test Suite Runs in 1 Minute on Buildkite
+    url: https://rubyweekly.com/link/118718/web
+    type: News
+  - title: Maintainable Rails System Tests with Page Objects
+    url: https://rubyweekly.com/link/118719/web
+    type: News
+  - title: What You Can Learn by Merely Writing a Programming Language Changelog
+    url: https://rubyweekly.com/link/118720/web
+    type: News
+  - title: Stop Paying Tech Debts, Start Maintaining Code
+    url: https://rubyweekly.com/link/118722/web
+    type: News
+  - title: Everything You Need (Nothing You Don't) to Build Video for Ruby
+    url: https://rubyweekly.com/link/118723/web
+    type: News
+  - title: Discussing WNB.rb with Emily Giurleo and Jemma Issroff
+    url: https://rubyweekly.com/link/118724/web
+    type: News
+  - title: JRuby 9.3.3.0 Released (Now with M1 Support)
+    url: https://rubyweekly.com/link/118728/web
+    type: News
+  - title: 'Commontator 7.0: A Rails Engine for Comments'
+    url: https://rubyweekly.com/link/118729/web
+    type: News
+  - title: 'online_migrations: Catch Unsafe Postgres Migrations in Development and
+      Run Them Easier in Production'
+    url: https://rubyweekly.com/link/118730/web
+    type: News
