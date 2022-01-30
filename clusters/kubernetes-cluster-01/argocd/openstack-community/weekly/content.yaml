@@ -935,3 +935,7 @@ content:
   url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation-9/
   kind: OpenStack Super User News
   isDelivered: true
+- title: '2021 OpenInfra Annual Report: State of OpenInfra'
+  url: https://superuser.openstack.org/articles/2021-openinfra-annual-report-state-of-openinfra/
+  kind: OpenStack Super User News
+  isDelivered: false
