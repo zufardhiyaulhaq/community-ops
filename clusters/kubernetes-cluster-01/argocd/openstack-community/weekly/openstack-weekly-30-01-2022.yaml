@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-30-01-2022
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 30-01-2022
+  date: 01/30/2022
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: '2021 OpenInfra Annual Report: State of OpenInfra'
+    url: https://superuser.openstack.org/articles/2021-openinfra-annual-report-state-of-openinfra/
+    type: OpenStack Super User News
