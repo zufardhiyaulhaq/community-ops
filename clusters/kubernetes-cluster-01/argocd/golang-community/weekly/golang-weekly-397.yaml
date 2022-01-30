@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-397
+  namespace: golang-community
+spec:
+  name: Golang Weekly 397
+  date: 01/30/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'go-binsize-treemap: Render a Visualization of Go Executable Space Usage'
+    url: https://golangweekly.com/link/119109/web
+    type: News
+  - title: '''I’m Porting the TypeScript Compiler to Go'''
+    url: https://golangweekly.com/link/119111/web
+    type: News
+  - title: Run Go Unikernels 2X as Fast on GCP and 3X as Fast on AWS
+    url: https://golangweekly.com/link/119085/web
+    type: News
+  - title: What Happens When You Profile a Continuous Profiler?
+    url: https://golangweekly.com/link/119114/web
+    type: News
+  - title: How to Build a Web App with Go and SQLite
+    url: https://golangweekly.com/link/119115/web
+    type: News
+  - title: 'learning-go: Minimal Working Examples of Go''s Unique Features'
+    url: https://golangweekly.com/link/119116/web
+    type: News
+  - title: '256 Shades of Gray: Converting Color Images to Grayscale'
+    url: https://golangweekly.com/link/119117/web
+    type: News
+  - title: 'City Limits: A SimCity-esque Game in Go'
+    url: https://golangweekly.com/link/119118/web
+    type: News
+  - title: 'rueidis: A New Performance Oriented Go Redis RESP3 Client'
+    url: https://golangweekly.com/link/119121/web
+    type: News
+  - title: 'timediff: Produce Human Readable, Relative Time Differences'
+    url: https://golangweekly.com/link/119122/web
+    type: News
+  - title: Build Video for Your Go App That Just Works
+    url: https://golangweekly.com/link/119094/web
+    type: News
+  - title: 'eBPF 0.8: A Pure Go eBPF Library'
+    url: https://golangweekly.com/link/119123/web
+    type: News
+  - title: 'termle: The Wordle Word Game in the Terminal'
+    url: https://golangweekly.com/link/119125/web
+    type: News
+  - title: 'wasm-maze-generator: A Simple WASM Maze Generator in Go'
+    url: https://golangweekly.com/link/119127/web
+    type: News
