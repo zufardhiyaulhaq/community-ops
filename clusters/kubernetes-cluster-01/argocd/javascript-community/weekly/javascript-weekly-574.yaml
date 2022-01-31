@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-574
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 574
+  date: 01/31/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'A Pipe Operator for JavaScript: Introduction and Use Cases'
+    url: https://javascriptweekly.com/link/119185/web
+    type: News
+  - title: On Porting the TypeScript Compiler to Go (vs Rust)
+    url: https://javascriptweekly.com/link/119145/web
+    type: News
+  - title: JavaScript Scratchpad for VS Code, Now with Time Machine
+    url: https://javascriptweekly.com/link/119101/web
+    type: News
+  - title: 'Unimported: Find and Fix Dangling Files and Unused Dependencies'
+    url: https://javascriptweekly.com/link/119148/web
+    type: News
+  - title: Take the State of JavaScript 2022 Survey
+    url: https://javascriptweekly.com/link/119149/web
+    type: News
+  - title: 'React Server Components: A Primer'
+    url: https://javascriptweekly.com/link/119162/web
+    type: News
+  - title: Exploiting JavaScript Quirks for Fun and Profit
+    url: https://javascriptweekly.com/link/119164/web
+    type: News
+  - title: React Authentication, Simplified
+    url: https://javascriptweekly.com/link/119106/web
+    type: News
+  - title: A Complete Beginner's Guide to npm
+    url: https://javascriptweekly.com/link/119167/web
+    type: News
+  - title: The Baseline for Web Development in 2022?
+    url: https://javascriptweekly.com/link/119168/web
+    type: News
+  - title: What’s New with the DevTools?
+    url: https://javascriptweekly.com/link/119169/web
+    type: News
+  - title: Animate Anything Along an SVG Path
+    url: https://javascriptweekly.com/link/119170/web
+    type: News
+  - title: 'Redefining the OSS Universe with Sourcegraph: Lessons Learned'
+    url: https://javascriptweekly.com/link/119108/web
+    type: News
+  - title: Comparing CSS Specificity Values with JavaScript
+    url: https://javascriptweekly.com/link/119171/web
+    type: News
+  - title: 'chroma.js: Zero Dependency Color Conversion Library'
+    url: https://javascriptweekly.com/link/119173/web
+    type: News
+  - title: 'Clipboard.js: A Modern ''Copy to Clipboard'' Library'
+    url: https://javascriptweekly.com/link/119175/web
+    type: News
+  - title: Build a Mobile-Responsive Telehealth Pager App Using Stream’s Chat API
+    url: https://javascriptweekly.com/link/119107/web
+    type: News
+  - title: 'ngraph.path: Path Finding Through Graphs'
+    url: https://javascriptweekly.com/link/119177/web
+    type: News
+  - title: 'ExcellentExport.js 3.8: Export Table Data to Excel or CSV'
+    url: https://javascriptweekly.com/link/119179/web
+    type: News
+  - title: 'Reaselct: A ''Select'' Box Component for React'
+    url: https://javascriptweekly.com/link/119180/web
+    type: News
+  - title: 'Trilium Notes: A Knowledge Base App Built with Node'
+    url: https://javascriptweekly.com/link/119183/web
+    type: News
