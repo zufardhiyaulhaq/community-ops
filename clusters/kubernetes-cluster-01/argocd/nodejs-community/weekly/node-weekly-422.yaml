@@ -1,0 +1,69 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-422
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 422
+  date: 02/02/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Trilium Notes: A Knowledge Base App Built with Node'
+    url: https://nodeweekly.com/link/119068/web
+    type: News
+  - title: Building a Wordle-Like SMS Game with Twilio Serverless
+    url: https://nodeweekly.com/link/119047/web
+    type: News
+  - title: New Course on State Machines with XState by David Khourshid
+    url: https://nodeweekly.com/link/118999/web
+    type: News
+  - title: Can process.on('multipleResolves') Be Deprecated?
+    url: https://nodeweekly.com/link/119046/web
+    type: News
+  - title: A Complete Beginner's Guide to npm
+    url: https://nodeweekly.com/link/119069/web
+    type: News
+  - title: Using Node.js from Google Sheets (with Fusebit)
+    url: https://nodeweekly.com/link/119053/web
+    type: News
+  - title: How to Extract Secrets from an Electron App
+    url: https://nodeweekly.com/link/119054/web
+    type: News
+  - title: Build a Serverless Lambda Function with InfluxDB
+    url: https://nodeweekly.com/link/119001/web
+    type: News
+  - title: 'Awesome Node-RED: Curated Resources for Node-RED Users'
+    url: https://nodeweekly.com/link/119055/web
+    type: News
+  - title: How To Process Images in Node.js with Sharp
+    url: https://nodeweekly.com/link/119057/web
+    type: News
+  - title: 'Gluegun 5.0: A Toolkit for Building Node-Powered CLIs'
+    url: https://nodeweekly.com/link/119059/web
+    type: News
+  - title: 'PureORM 3.0: A Node.js SQL Toolkit for Writing Native SQL Queries Yielding
+      Pure Business Objects'
+    url: https://nodeweekly.com/link/119060/web
+    type: News
+  - title: A Boilerplate and Starter App for Node.js Serverless Apps
+    url: https://nodeweekly.com/link/119070/web
+    type: News
+  - title: Build Video for Your Node App That Just Works
+    url: https://nodeweekly.com/link/119002/web
+    type: News
+  - title: 'fdir 5.2: A High Performance Directory Crawler Library'
+    url: https://nodeweekly.com/link/119061/web
+    type: News
+  - title: 'Phoenix: A JavaScriptable macOS Window and App Manager'
+    url: https://nodeweekly.com/link/119062/web
+    type: News
+  - title: 'Oclif 2.3: Heroku''s Open CLI Framework for Node'
+    url: https://nodeweekly.com/link/119064/web
+    type: News
+  - title: Hazelcast IMDG Node.js Client
+    url: https://nodeweekly.com/link/119066/web
+    type: News
