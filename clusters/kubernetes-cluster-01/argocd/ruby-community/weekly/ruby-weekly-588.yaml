@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-588
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 588
+  date: 02/03/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'RPush 7.0: The Push Notification Service'
+    url: https://rubyweekly.com/link/119012/web
+    type: News
+  - title: Building GraphQL APIs in Rails
+    url: https://rubyweekly.com/link/119013/web
+    type: News
+  - title: 'ButterCMS Melts into Your Ruby App. #1 Rated Headless CMS'
+    url: https://rubyweekly.com/link/119004/web
+    type: News
+  - title: 'Spree Commerce 4.4: The Open Source Rails Ecommerce System'
+    url: https://rubyweekly.com/link/119014/web
+    type: News
+  - title: Using Entropy for User-Friendly Strong Passwords
+    url: https://rubyweekly.com/link/119023/web
+    type: News
+  - title: Build Your Own Concurrency Control in Sidekiq
+    url: https://rubyweekly.com/link/119024/web
+    type: News
+  - title: Enqueue Jobs Quickly with Sidekiq’s Bulk Features
+    url: https://rubyweekly.com/link/119027/web
+    type: News
+  - title: 'Free eBook: Efficient Search in Rails with Postgres'
+    url: https://rubyweekly.com/link/119008/web
+    type: News
+  - title: 'Upgrading Rails from 6.1 to 7.0: Things to Consider'
+    url: https://rubyweekly.com/link/119028/web
+    type: News
+  - title: Switching from Webpacker 5 to jsbundling-rails with webpack
+    url: https://rubyweekly.com/link/119029/web
+    type: News
+  - title: Test and Optimize Your Rails App's Database Performance
+    url: https://rubyweekly.com/link/119030/web
+    type: News
+  - title: Working with Ruby C Extensions on a MacBook
+    url: https://rubyweekly.com/link/119031/web
+    type: News
+  - title: 'Que 1.0: A Ruby Job Queue That Uses Postgres''s Advisory Locks'
+    url: https://rubyweekly.com/link/119033/web
+    type: News
+  - title: 'Puma 5.6 Released: A Rack Web Server Built for Concurrency'
+    url: https://rubyweekly.com/link/119034/web
+    type: News
+  - title: Shortcut Puts the Agile in Agile and the “Can” in Kanban
+    url: https://rubyweekly.com/link/119009/web
+    type: News
+  - title: 'Wasabi: A Simple WSDL Parser'
+    url: https://rubyweekly.com/link/119036/web
+    type: News
