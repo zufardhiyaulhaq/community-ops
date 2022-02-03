@@ -674,12 +674,12 @@ content:
 - title: Telefónica Manages 40k Microwave 5G Backhaul Systems using TR-532 Standard Management Interface
   url: https://opennetworking.org/news-and-events/blog/telefonica-manages-40k-microwave-5g-backhaul-systems-using-tr-532-standard-management-interface/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: ONF Welcomes Google’s Dan Lenoski to Board of Directors
   url: https://opennetworking.org/news-and-events/blog/onf-welcomes-googles-dan-lenoski-to-board-of-directors/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: Announcing Release of Updated TAPI Reference Implementation Agreements (version 1.1)
   url: https://opennetworking.org/news-and-events/blog/announcing-release-of-updated-tapi-reference-implementation-agreements-version-1-1/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
