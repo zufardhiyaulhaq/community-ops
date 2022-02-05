@@ -1,0 +1,38 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-292
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 292
+  date: 02/05/2022
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Leveraging the CNCF observability tools for K8s troubleshooting
+    url: https://community.cncf.io/e/m4fjrk/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Nmy3d4OQnwGT4p-JkCqHicXCCi0Eo4RPrgVE5v3GGCFJ0EWHpHEFtiab8KXTEiIJpMYNN
+    type: ICYMI
+  - title: Principles for designing and deploying scalable applications on Kubernetes
+    url: https://elastisys.com/designing-and-deploying-scalable-applications-on-kubernetes/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Nmy3d4OQnwGT4p-JkCqHicXCCi0Eo4RPrgVE5v3GGCFJ0EWHpHEFtiab8KXTEiIJpMYNN
+    type: Editorial
+  - title: 'Moving to cloud native: How to move apps from monolithic to microservices'
+    url: https://www.mirantis.com/blog/move-apps-from-monolithic-to-microservices/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Nmy3d4OQnwGT4p-JkCqHicXCCi0Eo4RPrgVE5v3GGCFJ0EWHpHEFtiab8KXTEiIJpMYNN
+    type: Editorial
+  - title: Kubernetes cluster security assessment with kube-bench and kube-hunter
+    url: https://blog.flant.com/kubernetes-security-with-kube-bench-and-kube-hunter/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Nmy3d4OQnwGT4p-JkCqHicXCCi0Eo4RPrgVE5v3GGCFJ0EWHpHEFtiab8KXTEiIJpMYNN
+    type: Technical
+  - title: American Airlines dev experience takes off with service mesh
+    url: https://konghq.com/blog/kuma-service-mesh-american-airlines/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Nmy3d4OQnwGT4p-JkCqHicXCCi0Eo4RPrgVE5v3GGCFJ0EWHpHEFtiab8KXTEiIJpMYNN
+    type: Technical
+  - title: January 2022 update
+    url: https://fluxcd.io/blog/2022/01/january-update/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Nmy3d4OQnwGT4p-JkCqHicXCCi0Eo4RPrgVE5v3GGCFJ0EWHpHEFtiab8KXTEiIJpMYNN
+    type: Technical
+  - title: Kong Data Plane life cycle with AWS cloud development kit
+    url: https://konghq.com/blog/aws-cloud-development-kit/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Nmy3d4OQnwGT4p-JkCqHicXCCi0Eo4RPrgVE5v3GGCFJ0EWHpHEFtiab8KXTEiIJpMYNN
+    type: Technical
+  - title: 'Kubernetes kOps: Step-by-step example & alternatives'
+    url: https://blog.kubecost.com/blog/kubernetes-kops/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Nmy3d4OQnwGT4p-JkCqHicXCCi0Eo4RPrgVE5v3GGCFJ0EWHpHEFtiab8KXTEiIJpMYNN
+    type: Technical
