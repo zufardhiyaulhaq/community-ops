@@ -1,0 +1,53 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-398
+  namespace: golang-community
+spec:
+  name: Golang Weekly 398
+  date: 02/06/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Go Performance from Go 1.2 to 1.18
+    url: https://golangweekly.com/link/119383/web
+    type: News
+  - title: Go 1.18 Beta 2 Released
+    url: https://golangweekly.com/link/119385/web
+    type: News
+  - title: Project Management Has Never Been Easier
+    url: https://golangweekly.com/link/119386/web
+    type: News
+  - title: Dumpster Diving the Go Garbage Collector
+    url: https://golangweekly.com/link/119387/web
+    type: News
+  - title: Optimizing GoAWK with a Bytecode Compiler and Virtual Machine
+    url: https://golangweekly.com/link/119390/web
+    type: News
+  - title: Creating a Toy DNS Resolver with Go
+    url: https://golangweekly.com/link/119391/web
+    type: News
+  - title: Enjoy Building Scalable Infrastructure in Go? Stream Is Hiring
+    url: https://golangweekly.com/link/119392/web
+    type: News
+  - title: Creating a Quick GUI using Fyne
+    url: https://golangweekly.com/link/119393/web
+    type: News
+  - title: 'Wish: Makes Building SSH-Based Apps in Go Easier'
+    url: https://golangweekly.com/link/119396/web
+    type: News
+  - title: 'shortuuid: Generator Library for Concise, Unambiguous and URL-Safe UUIDs'
+    url: https://golangweekly.com/link/119398/web
+    type: News
+  - title: 'Imagor: A Docker-Ready Image Processing Server'
+    url: https://golangweekly.com/link/119399/web
+    type: News
+  - title: 'Coral: A Cobra Fork with Most Features, But Only 4 Dependencies'
+    url: https://golangweekly.com/link/119400/web
+    type: News
+  - title: 'rqlite 7.2.0: A Distributed Relational Database Built on SQLite'
+    url: https://golangweekly.com/link/119402/web
+    type: News
