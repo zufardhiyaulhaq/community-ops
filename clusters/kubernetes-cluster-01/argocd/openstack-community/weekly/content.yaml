@@ -939,3 +939,27 @@ content:
   url: https://superuser.openstack.org/articles/2021-openinfra-annual-report-state-of-openinfra/
   kind: OpenStack Super User News
   isDelivered: true
+- title: 'Large Scale Ops Deep Dive: OVHCloud | OpenInfra Live Recap'
+  url: https://superuser.openstack.org/articles/large-scale-ops-deep-dive-ovhcloud-openinfra-live-recap/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: 20 Talks to Feel Inspired When You Submit to the Berlin Summit CFP
+  url: https://superuser.openstack.org/articles/the-berlin-summit-cfp-is-closing-soon/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: 'Inside Open Infrastructure: The Latest from the OpenInfra Foundation'
+  url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation-10/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: Zuul 5.0 is Here!
+  url: https://superuser.openstack.org/articles/zuul-5-0-is-here/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: So What Has the OpenInfra Edge Computing Group Been Up to Lately?
+  url: https://superuser.openstack.org/articles/so-what-has-the-openinfra-edge-computing-group-been-up-to-lately/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: '2021 OpenInfra Annual Report: Zuul'
+  url: https://superuser.openstack.org/articles/2021-openinfra-annual-report-zuul/
+  kind: OpenStack Super User News
+  isDelivered: false
