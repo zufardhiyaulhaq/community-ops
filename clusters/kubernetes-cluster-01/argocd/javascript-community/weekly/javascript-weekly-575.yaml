@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-575
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 575
+  date: 02/07/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Writing a Printer Driver in JavaScript
+    url: https://javascriptweekly.com/link/119451/web
+    type: News
+  - title: Babel 7.17.0 Released
+    url: https://javascriptweekly.com/link/119431/web
+    type: News
+  - title: ButterCMS Melts into Your JS App:$ butter.post.list()
+    url: https://javascriptweekly.com/link/119470/web
+    type: News
+  - title: The Fetch API is Coming to Node Core (and Why to Care)
+    url: https://javascriptweekly.com/link/119426/web
+    type: News
+  - title: 'Memory Leaks: The Forgotten Side of Web Performance'
+    url: https://javascriptweekly.com/link/119430/web
+    type: News
+  - title: Speeding Up VS Code Extensions in 2022
+    url: https://javascriptweekly.com/link/119454/web
+    type: News
+  - title: Your Weekly Source for Conversations on the Art & Practice of Software
+    url: https://javascriptweekly.com/link/119453/web
+    type: News
+  - title: Improving JavaScript Bundle Performance With Code-Splitting
+    url: https://javascriptweekly.com/link/119452/web
+    type: News
+  - title: What Web Frameworks Solve And How To Do Without Them
+    url: https://javascriptweekly.com/link/119455/web
+    type: News
+  - title: Use Streams to Build High-Performing Node Apps
+    url: https://javascriptweekly.com/link/119457/web
+    type: News
+  - title: Connect a Chatbot to Popular Messaging Channels
+    url: https://javascriptweekly.com/link/119456/web
+    type: News
+  - title: 'Sigma 2.2: A Graph Drawing Library'
+    url: https://javascriptweekly.com/link/119459/web
+    type: News
+  - title: 'A-Frame 1.3: A Framework for Building WebVR Experiences'
+    url: https://javascriptweekly.com/link/119461/web
+    type: News
+  - title: Electron 17 Released
+    url: https://javascriptweekly.com/link/119462/web
+    type: News
+  - title: 'Pulumi: Developer-First Infrastructure with JavaScript'
+    url: https://javascriptweekly.com/link/119463/web
+    type: News
+  - title: 'Hotkey 2.0: Trigger an Action on an Element When a ''Hotkey'' is Pressed'
+    url: https://javascriptweekly.com/link/119464/web
+    type: News
+  - title: 'imask.js 6.4.0: A Vanilla JavaScript Input Mask'
+    url: https://javascriptweekly.com/link/119466/web
+    type: News
+  - title: 'lite-youtube: A Web Component That Renders YouTube Embeds Faster'
+    url: https://javascriptweekly.com/link/119467/web
+    type: News
