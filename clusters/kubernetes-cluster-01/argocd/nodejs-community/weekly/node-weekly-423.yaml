@@ -1,0 +1,53 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-423
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 423
+  date: 02/09/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: The Fetch API Comes to Node Core (and Why You Should Care)
+    url: https://nodeweekly.com/link/119376/web
+    type: News
+  - title: '''How I Reversed a Node.js Malware and Found The Author'''
+    url: https://nodeweekly.com/link/119379/web
+    type: News
+  - title: State of Node.js Community Survey
+    url: https://nodeweekly.com/link/119354/web
+    type: News
+  - title: Top 100 npm Package Maintainers Now Must Use 2FA
+    url: https://nodeweekly.com/link/119356/web
+    type: News
+  - title: Using Streams to Build High-Performing Node Apps
+    url: https://nodeweekly.com/link/119355/web
+    type: News
+  - title: Securing AWS S3 Assets with Cross-Account Backups
+    url: https://nodeweekly.com/link/119363/web
+    type: News
+  - title: '''I Built a Blog with RemixJS so You Don''t Have To (You''re Welcome)'''
+    url: https://nodeweekly.com/link/119364/web
+    type: News
+  - title: Join The Big Fix - Fix Vulnerabilities. Earn Swag
+    url: https://nodeweekly.com/link/119366/web
+    type: News
+  - title: Create a Harry Potter API with Express, MySQL, and PlanetScale
+    url: https://nodeweekly.com/link/119367/web
+    type: News
+  - title: Electron 17 Released
+    url: https://nodeweekly.com/link/119368/web
+    type: News
+  - title: 'Commander 9.0: Node Command-Line Interfaces Made Easy'
+    url: https://nodeweekly.com/link/119369/web
+    type: News
+  - title: 'InkPaint: A Lightweight Node.js Canvas Graphics Library'
+    url: https://nodeweekly.com/link/119370/web
+    type: News
+  - title: Seamlessly Integrate Video into Your Node App
+    url: https://nodeweekly.com/link/119371/web
+    type: News
