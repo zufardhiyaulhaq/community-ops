@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-589
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 589
+  date: 02/10/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: A Proposal for a New Ruby Gem Signing Mechanism
+    url: https://rubyweekly.com/link/119316/web
+    type: News
+  - title: '''How I Got Ruby Snippets to Run Browser Side in Less Than a Day'''
+    url: https://rubyweekly.com/link/119318/web
+    type: News
+  - title: 'ButterCMS Melts into Your Ruby App: $ ButterCMS::Post.list()'
+    url: https://rubyweekly.com/link/119320/web
+    type: News
+  - title: How Shopify Fixed the Dependency Confusion Vulnerability in 600+ Ruby Apps
+    url: https://rubyweekly.com/link/119321/web
+    type: News
+  - title: 'Code Scanning and Ruby: Turning Source Code into a Queryable Database'
+    url: https://rubyweekly.com/link/119322/web
+    type: News
+  - title: Inline Editing with Turbo Frames in Rails
+    url: https://rubyweekly.com/link/119330/web
+    type: News
+  - title: Solving Wordle in Ruby
+    url: https://rubyweekly.com/link/119331/web
+    type: News
+  - title: Dynamic User Content in Rails with Liquid Tags
+    url: https://rubyweekly.com/link/119333/web
+    type: News
+  - title: JetBrains RubyMine 2022.1 Early Access Program is Open
+    url: https://rubyweekly.com/link/119334/web
+    type: News
+  - title: How to Safely Change the Argument Signature of a Sidekiq Job
+    url: https://rubyweekly.com/link/119335/web
+    type: News
+  - title: Rails 7's Automatic inverse_of Detection for Associations with Scopes
+    url: https://rubyweekly.com/link/119336/web
+    type: News
+  - title: Securing AWS S3 Assets with Cross-Account Backups
+    url: https://rubyweekly.com/link/119337/web
+    type: News
+  - title: 'Paralines: Nicer Output to Console/File from Concurrent Threads'
+    url: https://rubyweekly.com/link/119338/web
+    type: News
+  - title: 'MiniSql: A Minimal, Safe SQL Executor for Postgres and SQLite'
+    url: https://rubyweekly.com/link/119339/web
+    type: News
+  - title: Spend Less Time Debugging and More Time Building with Scout APM
+    url: https://rubyweekly.com/link/119340/web
+    type: News
+  - title: 'Receipts: Easy Receipts and Invoices for Your Rails Apps'
+    url: https://rubyweekly.com/link/119341/web
+    type: News
+  - title: 'redis-rb 4.6: The Ruby Client Library for Redis'
+    url: https://rubyweekly.com/link/119342/web
+    type: News
+  - title: A Tmux Launcher App Written in mruby
+    url: https://rubyweekly.com/link/119345/web
+    type: News
