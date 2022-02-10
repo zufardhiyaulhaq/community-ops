@@ -1,0 +1,23 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-10-02-2022
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 10-02-2022
+  date: 02/10/2022
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: 'Growth in the RIC: How open RAN could get smarter'
+    url: https://www.lightreading.com/open-ran/growth-in-ric-how-open-ran-could-get-smarter/d/d-id/775108
+    type: Open Networking News
+  - title: Community Highlights – December 2021 & January 2022
+    url: https://opennetworking.org/news-and-events/blog/community-highlights-december-2021-january-2022/
+    type: Open Networking Blog
+  - title: '5G Blitz Week: Spring Edition'
+    url: https://www.fiercedigitaltechevents.com/fiercedigitaltechevent/5g-blitz-week-spring-edition-2022
+    type: Open Networking Event
