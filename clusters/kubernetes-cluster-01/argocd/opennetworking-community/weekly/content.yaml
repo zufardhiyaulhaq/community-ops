@@ -683,3 +683,15 @@ content:
   url: https://opennetworking.org/news-and-events/blog/announcing-release-of-updated-tapi-reference-implementation-agreements-version-1-1/
   kind: Open Networking Blog
   isDelivered: true
+- title: 'Growth in the RIC: How open RAN could get smarter'
+  url: https://www.lightreading.com/open-ran/growth-in-ric-how-open-ran-could-get-smarter/d/d-id/775108
+  kind: Open Networking News
+  isDelivered: false
+- title: Community Highlights – December 2021 & January 2022
+  url: https://opennetworking.org/news-and-events/blog/community-highlights-december-2021-january-2022/
+  kind: Open Networking Blog
+  isDelivered: false
+- title: '5G Blitz Week: Spring Edition'
+  url: https://www.fiercedigitaltechevents.com/fiercedigitaltechevent/5g-blitz-week-spring-edition-2022
+  kind: Open Networking Event
+  isDelivered: false
