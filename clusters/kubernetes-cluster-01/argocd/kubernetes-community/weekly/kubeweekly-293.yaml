@@ -1,0 +1,86 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-293
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 293
+  date: 02/12/2022
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Integrating backup into your GitOps CI/CD pipeline
+    url: https://community.cncf.io/e/mbddh8/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: ICYMI
+  - title: Building stability
+    url: https://community.cncf.io/e/m423jc/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: ICYMI
+  - title: Rehosting apps between k8s clusters and automating deployment using Crane
+    url: https://community.cncf.io/e/myy98u/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: ICYMI
+  - title: eBPF observability
+    url: https://community.cncf.io/e/mvqk3e/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: ICYMI
+  - title: Deploying cloud native apps on any infrastructure with Ridge managed K8s
+    url: https://community.cncf.io/e/myn9b5/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: ICYMI
+  - title: 'Prodspec and annealing: Intent-based actuation for Google production'
+    url: https://www.usenix.org/publications/loginonline/prodspec-and-annealing-intent-based-actuation-google-production?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: Editorial
+  - title: 'Open Policy Agent 101: A beginner''s guide'
+    url: https://containerjournal.com/editorial-calendar/open-policy-agent-101-a-beginners-guide/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: Editorial
+  - title: Spotlight on SIG multicluster
+    url: https://kubernetes.io/blog/2022/02/07/sig-multicluster-spotlight-2022/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: Editorial
+  - title: Argo CD deals with our first zero-day CVE
+    url: https://blog.argoproj.io/argo-cd-deals-with-our-first-zero-day-cve-86e8fb158e8f?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: Editorial
+  - title: Simplifying authentication for microservices security
+    url: https://konghq.com/videos/microservices-security/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: Editorial
+  - title: Applying DevOps to API development for APIOps
+    url: https://dzone.com/articles/applying-devops-to-api-development-for-apiops?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: Editorial
+  - title: 'DevOps: Why it is misunderstood & what it always should have been'
+    url: https://elastisys.com/devops-why-it-is-misunderstood-what-it-should-have-been/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: Editorial
+  - title: weaveworks/tf-controller
+    url: https://github.com/weaveworks/tf-controller?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: Technical
+  - title: Using mcrouter to make memcached highly available in Kubernetes
+    url: https://blog.flant.com/highly-available-memcached-with-mcrouter-in-kubernetes/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: Technical
+  - title: A ‘hello world’ GitOps example walkthrough
+    url: https://zwischenzugs.com/2021/07/31/a-hello-world-gitops-example-walkthrough/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: Technical
+  - title: Kubernetes policy management white paper
+    url: https://github.com/kubernetes/sig-security/blob/main/sig-security-docs/papers/policy/CNCF_Kubernetes_Policy_Management_WhitePaper_v1.pdf?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: Technical
+  - title: How to verify cosigned container images in Amazon ECS
+    url: https://blog.chainguard.dev/cosign-verify-ecs/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: Technical
+  - title: 'CKAD tips: Kubernetes object management techniques'
+    url: https://blog.getambassador.io/kubernetes-object-management-techniques-why-you-should-know-them-for-the-ckad-exam-2df40dba1491?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: Technical
+  - title: Instantly connect Apache Kafka data streams with any application anywhere
+    url: https://www.triggermesh.com/connect-kafka-and-kubernetes?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: Technical
+  - title: 'Kubernetes security best practices: Definitive guide'
+    url: https://www.armosec.io/blog/kubernetes-security-best-practices/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: Technical
+  - title: How to set up Knative serving on Kubernetes
+    url: https://platform9.com/blog/how-to-set-up-knative-serving-on-kubernetes/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: Technical
+  - title: 'A primer: Accessing services in Kubernetes'
+    url: https://blog.alexellis.io/primer-accessing-kubernetes-services/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: Technical
+  - title: Dumpster diving in the Go garbage collector
+    url: https://blog.px.dev/go-garbage-collector/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: Technical
+  - title: ValidKube
+    url: https://validkube.com/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_Mp6A9WFjexpf5J0xQ1K-BdAVSvFvEMsm3s9jpttBap6P0OZgktf_udcj5DilgRQJlL4xH
+    type: Technical
