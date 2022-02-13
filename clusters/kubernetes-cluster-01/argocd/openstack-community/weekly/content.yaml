@@ -966,8 +966,8 @@ content:
 - title: Environmental Reporting Dashboards for OpenStack from BBC R&D
   url: https://superuser.openstack.org/articles/environmental-reporting-dashboards-for-openstack-from-bbc-rd/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: '2021 OpenInfra Annual Report: State of OpenInfra in China'
   url: https://superuser.openstack.org/articles/2021-openinfra-annual-report-state-of-openinfra-in-china/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
