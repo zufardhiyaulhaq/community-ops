@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-399
+  namespace: golang-community
+spec:
+  name: Golang Weekly 399
+  date: 02/13/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Is it Time to Improve Go's Scheduler?
+    url: https://golangweekly.com/link/119673/web
+    type: News
+  - title: How We Write GitHub Actions in Go
+    url: https://golangweekly.com/link/119674/web
+    type: News
+  - title: 'Pulumi: Developer-First Infrastructure with Go'
+    url: https://golangweekly.com/link/119675/web
+    type: News
+  - title: A Proposal to Improve go/doc Formatting
+    url: https://golangweekly.com/link/119677/web
+    type: News
+  - title: What's Coming in Go 1.18
+    url: https://golangweekly.com/link/119679/web
+    type: News
+  - title: Getting Started with Generics in Go
+    url: https://golangweekly.com/link/119684/web
+    type: News
+  - title: Go Generics for the Busy Gopher
+    url: https://golangweekly.com/link/119685/web
+    type: News
+  - title: Building and Using APIs with Go
+    url: https://golangweekly.com/link/119686/web
+    type: News
+  - title: 'Telebot 3.0: A Telegram Bot Framework'
+    url: https://golangweekly.com/link/119688/web
+    type: News
+  - title: 'Oak: A Pure Go Game Engine'
+    url: https://golangweekly.com/link/119690/web
+    type: News
+  - title: 'go-elasticsearch 8.0: The Official Go Client for Elasticsearch'
+    url: https://golangweekly.com/link/119692/web
+    type: News
+  - title: Project Management for Software Teams Has Never Been Easier
+    url: https://golangweekly.com/link/119694/web
+    type: News
+  - title: 'CoreDNS 1.9: A DNS Server That Chains Plugins'
+    url: https://golangweekly.com/link/119695/web
+    type: News
+  - title: 'pg_timetable 4.4 Released: Advanced Job Scheduling for Postgres'
+    url: https://golangweekly.com/link/119696/web
+    type: News
