@@ -1,0 +1,20 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-13-02-2022
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 13-02-2022
+  date: 02/13/2022
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: Environmental Reporting Dashboards for OpenStack from BBC R&D
+    url: https://superuser.openstack.org/articles/environmental-reporting-dashboards-for-openstack-from-bbc-rd/
+    type: OpenStack Super User News
+  - title: '2021 OpenInfra Annual Report: State of OpenInfra in China'
+    url: https://superuser.openstack.org/articles/2021-openinfra-annual-report-state-of-openinfra-in-china/
+    type: OpenStack Super User News
