@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-576
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 576
+  date: 02/14/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Apache ECharts 5.3: Open Source JS Visualization Library'
+    url: https://javascriptweekly.com/link/119760/web
+    type: News
+  - title: Move Over JavaScript? How Some Backend Languages are Coming to the Front-End
+    url: https://javascriptweekly.com/link/119706/web
+    type: News
+  - title: 'ButterCMS Melts into Your JS App:: $ butter.post.list()'
+    url: https://javascriptweekly.com/link/119707/web
+    type: News
+  - title: The JS Party Podcast
+    url: https://javascriptweekly.com/link/119763/web
+    type: News
+  - title: Debugging JavaScript
+    url: https://javascriptweekly.com/link/119733/web
+    type: News
+  - title: How the Angular Compiler Works
+    url: https://javascriptweekly.com/link/119734/web
+    type: News
+  - title: Replacing JavaScript Dialogs (Partly) with HTML's <dialog>
+    url: https://javascriptweekly.com/link/119735/web
+    type: News
+  - title: Join The Big Fix - Fix Vulnerabilities. Earn Swag
+    url: https://javascriptweekly.com/link/119736/web
+    type: News
+  - title: Writing a SPI SD-Card Driver in TypeScript
+    url: https://javascriptweekly.com/link/119737/web
+    type: News
+  - title: 'An Introduction to Deno: Is It Better than Node?'
+    url: https://javascriptweekly.com/link/119738/web
+    type: News
+  - title: 'Writing My Own Build System: Coupling Gulp Concepts with Modern JS'
+    url: https://javascriptweekly.com/link/119740/web
+    type: News
+  - title: 'zx 5.0: Writing Better Shell Scripts in JavaScript'
+    url: https://javascriptweekly.com/link/119743/web
+    type: News
+  - title: 'Pintora: An Extensible Text-to-Diagram Rendering Library'
+    url: https://javascriptweekly.com/link/119747/web
+    type: News
+  - title: 'Solidus: The Last eCommerce Back-End You’ll Ever Need'
+    url: https://javascriptweekly.com/link/119746/web
+    type: News
+  - title: 'Griffel: CSS-in-JS with Ahead-of-Time Compilation'
+    url: https://javascriptweekly.com/link/119745/web
+    type: News
+  - title: 'Fable 3.7: A Mature F# to JavaScript Compiler'
+    url: https://javascriptweekly.com/link/119751/web
+    type: News
+  - title: 'puppeteer-to-playwright: Puppeteer to Playwright Conversion Script'
+    url: https://javascriptweekly.com/link/119755/web
+    type: News
+  - title: Project Management for Software Teams Has Never Been Easier
+    url: https://javascriptweekly.com/link/119754/web
+    type: News
+  - title: 'P42 JavaScript Assistant: Refactoring Hints and Automation for VS Code'
+    url: https://javascriptweekly.com/link/119768/web
+    type: News
