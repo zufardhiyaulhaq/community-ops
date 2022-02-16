@@ -1,0 +1,53 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-424
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 424
+  date: 02/16/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Pintora: An Extensible Text-to-Diagram Rendering Library'
+    url: https://nodeweekly.com/link/119565/web
+    type: News
+  - title: 'MikroORM 5: A TypeScript ORM for Node.js'
+    url: https://nodeweekly.com/link/119568/web
+    type: News
+  - title: Retool Is the Fast Way to Build Internal Tools
+    url: https://nodeweekly.com/link/119571/web
+    type: News
+  - title: 'An Introduction to Deno: Is It Better than Node?'
+    url: https://nodeweekly.com/link/119576/web
+    type: News
+  - title: Node v16.14.0 (LTS) Released
+    url: https://nodeweekly.com/link/119578/web
+    type: News
+  - title: Writing a Printer Driver in JavaScript
+    url: https://nodeweekly.com/link/119582/web
+    type: News
+  - title: Moving Pinterest’s iOS Builds to Autoscaled EC2 Mac
+    url: https://nodeweekly.com/link/119583/web
+    type: News
+  - title: Writing a SPI SD-Card Driver in TypeScript
+    url: https://nodeweekly.com/link/119584/web
+    type: News
+  - title: 'RegExr: Learn, Build, and Test Regular Expressions'
+    url: https://nodeweekly.com/link/119585/web
+    type: News
+  - title: 'RedisSMQ 6.0: High-Performance Redis Message Queue for Node'
+    url: https://nodeweekly.com/link/119586/web
+    type: News
+  - title: Doppler - All Your Environment Variables in One Place
+    url: https://nodeweekly.com/link/119588/web
+    type: News
+  - title: 'remix-electron: An Initial Electron Integration for Remix'
+    url: https://nodeweekly.com/link/119589/web
+    type: News
+  - title: 'zx 5.0: A Tool for Writing Better Shell Scripts'
+    url: https://nodeweekly.com/link/119591/web
+    type: News
