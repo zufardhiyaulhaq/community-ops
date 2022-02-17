@@ -698,20 +698,20 @@ content:
 - title: Visit ONF at MWC22
   url: https://opennetworking.org/news-and-events/blog/visit-onf-at-mwc22/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: 'Community Member Profile: Himani Chawla'
   url: https://opennetworking.org/news-and-events/blog/community-member-profile-himani-chawla/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: '5G Blitz Week: Spring Edition'
   url: https://opennetworking.org/events/5g-blitz-week-spring-edition/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
 - title: SmartNICs Summit
   url: https://opennetworking.org/events/smartnics-summit/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
 - title: ONUG Spring 2022
   url: https://opennetworking.org/events/onug-spring-2022/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
