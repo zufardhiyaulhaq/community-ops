@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-590
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 590
+  date: 02/17/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Rails and Its Ruby 'Dialect'
+    url: https://rubyweekly.com/link/119596/web
+    type: News
+  - title: 'Papercraft: Composable Templating for Ruby'
+    url: https://rubyweekly.com/link/119651/web
+    type: News
+  - title: "\U0001F418 The Developer Experience You Always Wanted for Postgres"
+    url: https://rubyweekly.com/link/119598/web
+    type: News
+  - title: Exploring Ruby’s Set Class
+    url: https://rubyweekly.com/link/119608/web
+    type: News
+  - title: Rails 7.0.2 Released
+    url: https://rubyweekly.com/link/119610/web
+    type: News
+  - title: Using AWS S3 for File Storage in Rails Apps
+    url: https://rubyweekly.com/link/119620/web
+    type: News
+  - title: Reusing Rails Test Fixtures for db:seed
+    url: https://rubyweekly.com/link/119622/web
+    type: News
+  - title: '''The Software and Infrastructure We Use to Run Our SaaS'''
+    url: https://rubyweekly.com/link/119624/web
+    type: News
+  - title: Project Management for Software Teams Has Never Been Easier
+    url: https://rubyweekly.com/link/119626/web
+    type: News
+  - title: Hotwire Modals
+    url: https://rubyweekly.com/link/119628/web
+    type: News
+  - title: Discussing GitHub Codespaces and Docker with Benjamin Wood
+    url: https://rubyweekly.com/link/119630/web
+    type: News
+  - title: 'Strong Migrations 0.8: Catch Unsafe Migrations in Development'
+    url: https://rubyweekly.com/link/119638/web
+    type: News
+  - title: 'Arbre: A Way to Build HTML Views in Ruby Code'
+    url: https://rubyweekly.com/link/119640/web
+    type: News
+  - title: Get Stripe-Quality Webhooks for Your App in Minutes, Not Days
+    url: https://rubyweekly.com/link/119641/web
+    type: News
+  - title: 'Win32::Screenshot: Capture Screenshots on Windows from Ruby'
+    url: https://rubyweekly.com/link/119643/web
+    type: News
+  - title: 'Awesome Nested Set: The Nested Set Pattern for ActiveRecord Models'
+    url: https://rubyweekly.com/link/119645/web
+    type: News
+  - title: 'AnnotateModels: Annotate Code with ActiveRecord Model Schema Info'
+    url: https://rubyweekly.com/link/119646/web
+    type: News
