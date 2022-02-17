@@ -1,0 +1,29 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-17-02-2022
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 17-02-2022
+  date: 02/17/2022
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Visit ONF at MWC22
+    url: https://opennetworking.org/news-and-events/blog/visit-onf-at-mwc22/
+    type: Open Networking Blog
+  - title: 'Community Member Profile: Himani Chawla'
+    url: https://opennetworking.org/news-and-events/blog/community-member-profile-himani-chawla/
+    type: Open Networking Blog
+  - title: '5G Blitz Week: Spring Edition'
+    url: https://opennetworking.org/events/5g-blitz-week-spring-edition/
+    type: Open Networking Event
+  - title: SmartNICs Summit
+    url: https://opennetworking.org/events/smartnics-summit/
+    type: Open Networking Event
+  - title: ONUG Spring 2022
+    url: https://opennetworking.org/events/onug-spring-2022/
+    type: Open Networking Event
