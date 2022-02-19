@@ -1,0 +1,100 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-294
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 294
+  date: 02/19/2022
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Desktop to deployment K8s security with Checkov
+    url: https://community.cncf.io/e/m9r92g/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: ICYMI
+  - title: Locking down your cluster the zero-trust way with mutual TLS and traffic
+      policy
+    url: https://community.cncf.io/e/mjk9uj/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: ICYMI
+  - title: Dynamic observability
+    url: https://community.cncf.io/e/myq6kp/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: ICYMI
+  - title: Your Kubernetes single-pane of glass with Kubescape
+    url: https://community.cncf.io/e/mvg8pr/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: ICYMI
+  - title: Fluent Bit 1.9 - First mile observability
+    url: https://community.cncf.io/e/mz9ky9/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: ICYMI
+  - title: Best practices for multi-tenancy in Argo CD
+    url: https://blog.argoproj.io/best-practices-for-multi-tenancy-in-argo-cd-273e25a047b0?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Editorial
+  - title:  
+    url: https://www.usenix.org/publications/loginonline/prodspec-and-annealing-intent-based-actuation-google-production?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Editorial
+  - title: 'Security: The value of SBOMs'
+    url: https://fluxcd.io/blog/2022/02/security-the-value-of-sboms/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Editorial
+  - title:  
+    url: https://www.usenix.org/publications/loginonline/prodspec-and-annealing-intent-based-actuation-google-production?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Editorial
+  - title: Automate Canary analysis on Kubernetes with Argo
+    url: https://blog.px.dev/argo-rollouts/?utm_source=kubeweekly&utm_medium=newsletter&utm_campaign=automate-canary-analysis-kubernetes_with_argo&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Editorial
+  - title:  
+    url: https://www.usenix.org/publications/loginonline/prodspec-and-annealing-intent-based-actuation-google-production?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Editorial
+  - title: Istio and OAuth2-Proxy in Kubernetes for microservice authentication
+    url: https://elastisys.com/istio-and-oauth2-proxy-in-kubernetes-for-microservice-authentication/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Editorial
+  - title:  
+    url: https://www.usenix.org/publications/loginonline/prodspec-and-annealing-intent-based-actuation-google-production?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Editorial
+  - title: How to write YAML file for Kubernetes
+    url: https://www.armosec.io/blog/yaml-file-for-kubernetes/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Editorial
+  - title:  
+    url: https://www.usenix.org/publications/loginonline/prodspec-and-annealing-intent-based-actuation-google-production?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Editorial
+  - title: How zones and meshes fit into your service mesh deployment
+    url: https://konghq.com/blog/zones-meshes/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Editorial
+  - title:  
+    url: https://www.usenix.org/publications/loginonline/prodspec-and-annealing-intent-based-actuation-google-production?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Editorial
+  - title: How load balancing improves the performance of your applications
+    url: https://www.haproxy.com/blog/how-load-balancing-improves-the-performance-of-your-applications/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Editorial
+  - title: ValidKube looks to help developers clean and secure Kubernetes YAML code
+    url: https://venturebeat.com/2022/02/09/validkube-looks-to-help-developers-clean-and-secure-kubernetes-yaml-code/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Editorial
+  - title: ​​Auto scaling CI agents at Wix
+    url: https://www.wix.engineering/post/auto-scaling-ci-agents-at-wix?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Technical
+  - title:  
+    url: https://github.com/weaveworks/tf-controller?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Technical
+  - title: CNCF TAG app-delivery is interested in your infrastructure for apps and
+      multitenancy use cases
+    url: https://github.com/cncf/tag-app-delivery/issues/new/choose?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Technical
+  - title:  
+    url: https://github.com/weaveworks/tf-controller?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Technical
+  - title: How I got Kubernetes to run on a PS4
+    url: https://zhekunhu.xyz/ps4-kubernetes.html?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Technical
+  - title:  
+    url: https://github.com/weaveworks/tf-controller?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Technical
+  - title: Kubernetes RBAC full tutorial with examples
+    url: https://youtu.be/PSDVanXZ0a4?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Technical
+  - title:  
+    url: https://github.com/weaveworks/tf-controller?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Technical
+  - title: How to use cluster mesh for multi-region Kubernetes pod communication
+    url: https://www.cockroachlabs.com/blog/cockroachdb-kubernetes-cilium/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9eKmD6bvLhSP3hCN0dNlsxkBttEnOT-_3Rr81MlTq2Jezs-9hIXwZb3LhLTeEtSQ0RAmUD
+    type: Technical
