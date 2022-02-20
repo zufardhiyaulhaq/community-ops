@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-400
+  namespace: golang-community
+spec:
+  name: Golang Weekly 400
+  date: 02/20/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Go’s Version Control History
+    url: https://golangweekly.com/link/119965/web
+    type: News
+  - title: 'Go 1.18 Release Candidate 1: The Release Notes'
+    url: https://golangweekly.com/link/119966/web
+    type: News
+  - title: Build Video for Go That Just Works
+    url: https://golangweekly.com/link/119967/web
+    type: News
+  - title: The Other Features in Go 1.18
+    url: https://golangweekly.com/link/119968/web
+    type: News
+  - title: Continuous Building and Deployment of Go Apps with Google Cloud Build
+    url: https://golangweekly.com/link/119976/web
+    type: News
+  - title: File-Driven Testing in Go
+    url: https://golangweekly.com/link/119977/web
+    type: News
+  - title: 'Mastering Your Error Domain: Graceful Error Handling in Go'
+    url: https://golangweekly.com/link/119978/web
+    type: News
+  - title: Moving Pinterest’s iOS Builds to Autoscaled EC2 Mac
+    url: https://golangweekly.com/link/119979/web
+    type: News
+  - title: GoF Design Patterns That Still Make Sense in Go
+    url: https://golangweekly.com/link/119980/web
+    type: News
+  - title: How To Use Dates and Times in Go
+    url: https://golangweekly.com/link/119981/web
+    type: News
+  - title: 'fq: Like jq But for Binary Formats'
+    url: https://golangweekly.com/link/119982/web
+    type: News
+  - title: 'Bubble Tea 0.20.0: A Powerful Elm-Inspired TUI Framework'
+    url: https://golangweekly.com/link/119984/web
+    type: News
+  - title: 'gRPC UI: An Interactive Web UI for Working with gRPC'
+    url: https://golangweekly.com/link/119986/web
+    type: News
+  - title: 'TCG: Terminal Cell Graphics Library'
+    url: https://golangweekly.com/link/119990/web
+    type: News
