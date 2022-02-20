@@ -971,3 +971,15 @@ content:
   url: https://superuser.openstack.org/articles/2021-openinfra-annual-report-state-of-openinfra-in-china/
   kind: OpenStack Super User News
   isDelivered: true
+- title: 'Linux OpenStack Kubernetes Infrastructure: The OpenInfra Standard | OpenInfra Live Recap'
+  url: https://superuser.openstack.org/articles/linux-openstack-kubernetes-infrastructure-the-openinfra-standard-openinfra-live-recap/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: Reimagining a Telco Using Open Technologies
+  url: https://superuser.openstack.org/articles/reimagining-a-telco-using-open-technologies/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: '2021 OpenInfra Annual Report: OpenInfra Labs'
+  url: https://superuser.openstack.org/articles/2021-openinfra-annual-report-openinfra-labs/
+  kind: OpenStack Super User News
+  isDelivered: false
