@@ -1,0 +1,23 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-20-02-2022
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 20-02-2022
+  date: 02/20/2022
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: 'Linux OpenStack Kubernetes Infrastructure: The OpenInfra Standard | OpenInfra Live Recap'
+    url: https://superuser.openstack.org/articles/linux-openstack-kubernetes-infrastructure-the-openinfra-standard-openinfra-live-recap/
+    type: OpenStack Super User News
+  - title: Reimagining a Telco Using Open Technologies
+    url: https://superuser.openstack.org/articles/reimagining-a-telco-using-open-technologies/
+    type: OpenStack Super User News
+  - title: '2021 OpenInfra Annual Report: OpenInfra Labs'
+    url: https://superuser.openstack.org/articles/2021-openinfra-annual-report-openinfra-labs/
+    type: OpenStack Super User News
