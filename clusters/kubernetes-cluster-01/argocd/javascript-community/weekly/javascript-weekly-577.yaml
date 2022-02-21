@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-577
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 577
+  date: 02/21/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: The State of JS 2021 Results
+    url: https://javascriptweekly.com/link/120043/web
+    type: News
+  - title: JavaScript Scratchpad for VS Code, Now with Code Stories
+    url: https://javascriptweekly.com/link/120025/web
+    type: News
+  - title: Express.js 5.0 Now in Beta
+    url: https://javascriptweekly.com/link/120000/web
+    type: News
+  - title: How to Track Down Code Responsible for Polluting the Global Scope
+    url: https://javascriptweekly.com/link/120012/web
+    type: News
+  - title: The Basics of package.json
+    url: https://javascriptweekly.com/link/120013/web
+    type: News
+  - title: A Deep Dive into React Native’s New Architecture
+    url: https://javascriptweekly.com/link/120032/web
+    type: News
+  - title: 100+ Fully Native Components for High-Quality Modern Angular UI
+    url: https://javascriptweekly.com/link/120014/web
+    type: News
+  - title: JavaScript to Know for React
+    url: https://javascriptweekly.com/link/120034/web
+    type: News
+  - title: Monorepos Explained
+    url: https://javascriptweekly.com/link/120035/web
+    type: News
+  - title: 'v8n 1.4: A ''Fluent Validation'' Library'
+    url: https://javascriptweekly.com/link/120016/web
+    type: News
+  - title: Neat Example of Using a JS Proxy as a Low Code REST Client
+    url: https://javascriptweekly.com/link/120036/web
+    type: News
+  - title: Project Management for Software Teams Has Never Been Easier
+    url: https://javascriptweekly.com/link/120017/web
+    type: News
+  - title: 'TypeIt: A Versatile ''Typewriter Effect'''
+    url: https://javascriptweekly.com/link/120038/web
+    type: News
+  - title: 'Marked 4: A Fast Markdown Parser and Compiler'
+    url: https://javascriptweekly.com/link/120018/web
+    type: News
+  - title: 'Minze: A JavaScript Framework for Native Web Components'
+    url: https://javascriptweekly.com/link/120020/web
+    type: News
+  - title: 'Heart Switch: A Heart-Shaped Toggle Switch Component for React'
+    url: https://javascriptweekly.com/link/120022/web
+    type: News
+  - title: Stream Is Hiring in Boulder, Amsterdam and Remote. Join the Team, Today
+    url: https://javascriptweekly.com/link/120021/web
+    type: News
