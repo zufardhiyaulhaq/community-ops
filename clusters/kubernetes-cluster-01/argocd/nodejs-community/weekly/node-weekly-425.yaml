@@ -1,0 +1,50 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-425
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 425
+  date: 02/23/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Express.js 5.0 Now in Beta
+    url: https://nodeweekly.com/link/119862/web
+    type: News
+  - title: Node v17.5.0 (Current) Released
+    url: https://nodeweekly.com/link/119864/web
+    type: News
+  - title: Learn the Fundamentals of Rx.js
+    url: https://nodeweekly.com/link/119866/web
+    type: News
+  - title: Node.js Trademarks Transferred to the OpenJS Foundation
+    url: https://nodeweekly.com/link/119867/web
+    type: News
+  - title: The Basics of package.json
+    url: https://nodeweekly.com/link/119874/web
+    type: News
+  - title: Use Pipedream Webhooks to Unlock 300+ API Integrations
+    url: https://nodeweekly.com/link/119875/web
+    type: News
+  - title: 'Leoric: A Node ORM for MySQL, Postgres and SQLite'
+    url: https://nodeweekly.com/link/119887/web
+    type: News
+  - title: 'puppeteer-to-playwright: Puppeteer to Playwright Conversion Script'
+    url: https://nodeweekly.com/link/119877/web
+    type: News
+  - title: 'Metascraper: A Library to Scrape Metadata from Web Content'
+    url: https://nodeweekly.com/link/119879/web
+    type: News
+  - title: Moving Pinterest’s iOS Builds to Autoscaled EC2 Mac
+    url: https://nodeweekly.com/link/119880/web
+    type: News
+  - title: 'Execa 6.1: A Better child_process'
+    url: https://nodeweekly.com/link/119878/web
+    type: News
+  - title: 'Marked 4: A Fast Markdown Parser and Compiler'
+    url: https://nodeweekly.com/link/119881/web
+    type: News
