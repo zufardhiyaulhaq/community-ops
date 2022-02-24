@@ -1,0 +1,23 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-24-02-2022
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 24-02-2022
+  date: 02/24/2022
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: AirHop Launches the Industry’s First Comprehensive Portfolio of Field-proven xApps and rApps to Accelerate 4G and 5G Open RAN Deployments
+    url: https://www.airhopcomm.com/news/airhop-launches-the-industrys-first-comprehensive-portfolio-of-field-proven-xapps-and-rapps-to-accelerate-4g-and-5g-open-ran-deployments/
+    type: Open Networking News
+  - title: ONF Releases SD-RAN into Open Source
+    url: https://www.mobileworldlive.com/featured-content/top-three/onf-releases-sd-ran-into-open-source
+    type: Open Networking News
+  - title: 2022 P4 Workshop
+    url: https://opennetworking.org/events/2022-p4-workshop/
+    type: Open Networking Event
