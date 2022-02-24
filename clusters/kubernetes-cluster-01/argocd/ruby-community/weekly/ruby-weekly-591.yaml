@@ -1,0 +1,66 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-591
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 591
+  date: 02/24/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'Introducing Propshaft: The Future of Asset Pipelining in Rails?'
+    url: https://rubyweekly.com/link/119911/web
+    type: News
+  - title: Take the 2022 Ruby on Rails Survey
+    url: https://rubyweekly.com/link/119912/web
+    type: News
+  - title: The Best Deployment Tool for Rails
+    url: https://rubyweekly.com/link/119914/web
+    type: News
+  - title: Ruby 3.1's Error Highlighting Gem
+    url: https://rubyweekly.com/link/119915/web
+    type: News
+  - title: 'Delayed Job vs. Sidekiq: Which Is Better?'
+    url: https://rubyweekly.com/link/119920/web
+    type: News
+  - title: Writing Ruby Gem Native Extensions in Rust
+    url: https://rubyweekly.com/link/119943/web
+    type: News
+  - title: Application Performance Monitoring, Built for Developers by Developers
+    url: https://rubyweekly.com/link/119923/web
+    type: News
+  - title: Rails Authentication with Rodauth
+    url: https://rubyweekly.com/link/119921/web
+    type: News
+  - title: Discussing How to Migrate to Rails 7
+    url: https://rubyweekly.com/link/119924/web
+    type: News
+  - title: What I Learned From My First Rails Upgrade
+    url: https://rubyweekly.com/link/119925/web
+    type: News
+  - title: 'UniMIDI: Realtime MIDI I/O for Ruby'
+    url: https://rubyweekly.com/link/119927/web
+    type: News
+  - title: 'jmespath.rb: A Ruby Implementation of JMESPath'
+    url: https://rubyweekly.com/link/119928/web
+    type: News
+  - title: 'Config 4.0: Add Multi-Environment Settings to Rails, Sinatra, and Other
+      Ruby Projects'
+    url: https://rubyweekly.com/link/119930/web
+    type: News
+  - title: Project Management for Software Teams Has Never Been Easier
+    url: https://rubyweekly.com/link/119931/web
+    type: News
+  - title: 'Gemsmith v17: A CLI Tool for Smithing New Ruby Gems'
+    url: https://rubyweekly.com/link/119932/web
+    type: News
+  - title: 'GitHubOrgManager: A Manager for GitHub Organizations'
+    url: https://rubyweekly.com/link/119933/web
+    type: News
+  - title: 'Ruby Trello API: An Implementation of the Trello API for Ruby'
+    url: https://rubyweekly.com/link/119934/web
+    type: News
