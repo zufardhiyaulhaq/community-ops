@@ -718,12 +718,12 @@ content:
 - title: AirHop Launches the Industry’s First Comprehensive Portfolio of Field-proven xApps and rApps to Accelerate 4G and 5G Open RAN Deployments
   url: https://www.airhopcomm.com/news/airhop-launches-the-industrys-first-comprehensive-portfolio-of-field-proven-xapps-and-rapps-to-accelerate-4g-and-5g-open-ran-deployments/
   kind: Open Networking News
-  isDelivered: false
+  isDelivered: true
 - title: ONF Releases SD-RAN into Open Source
   url: https://www.mobileworldlive.com/featured-content/top-three/onf-releases-sd-ran-into-open-source
   kind: Open Networking News
-  isDelivered: false
+  isDelivered: true
 - title: 2022 P4 Workshop
   url: https://opennetworking.org/events/2022-p4-workshop/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
