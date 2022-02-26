@@ -1,0 +1,38 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-295
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 295
+  date: 02/26/2022
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Deploying VNFs with Kubernetes pods and VMs
+    url: https://community.cncf.io/e/mykkd8/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-86269cjEpSCHnyMEIgDsJzJwKC9OVK1Y1ivhEe19au446X92BHr5PZ7tfsyjxykuQhZgFu
+    type: ICYMI
+  - title: Deploy a full CNCF-based observability stack in under 5 minutes with tobs
+    url: https://community.cncf.io/e/mp46qe/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-86269cjEpSCHnyMEIgDsJzJwKC9OVK1Y1ivhEe19au446X92BHr5PZ7tfsyjxykuQhZgFu
+    type: ICYMI
+  - title: Getting started with GitOps & Flux
+    url: https://community.cncf.io/e/mr69sm/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-86269cjEpSCHnyMEIgDsJzJwKC9OVK1Y1ivhEe19au446X92BHr5PZ7tfsyjxykuQhZgFu
+    type: ICYMI
+  - title: 'Sodacode 2022: The Data and Storage Hackathon'
+    url: https://events.linuxfoundation.org/sodacode/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-86269cjEpSCHnyMEIgDsJzJwKC9OVK1Y1ivhEe19au446X92BHr5PZ7tfsyjxykuQhZgFu
+    type: Editorial
+  - title: 'Security: More confidence through Fuzzing'
+    url: https://fluxcd.io/blog/2022/02/security-more-confidence-through-fuzzing/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-86269cjEpSCHnyMEIgDsJzJwKC9OVK1Y1ivhEe19au446X92BHr5PZ7tfsyjxykuQhZgFu
+    type: Editorial
+  - title: 'Kubecost: Bringing open source to cloud cost management'
+    url: https://blog.kubecost.com/blog/open-source-cost-management/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-86269cjEpSCHnyMEIgDsJzJwKC9OVK1Y1ivhEe19au446X92BHr5PZ7tfsyjxykuQhZgFu
+    type: Editorial
+  - title: Manage and debug Kubernetes manifests with Monokle by Kubeshop
+    url: https://kunalkushwaha.com/manage-and-debug-kubernetes-manifests-with-monokle-by-kubeshop?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-86269cjEpSCHnyMEIgDsJzJwKC9OVK1Y1ivhEe19au446X92BHr5PZ7tfsyjxykuQhZgFu
+    type: Technical
+  - title: The challenge with deploying eBPF into the wild
+    url: https://blog.px.dev/ebpf-portability/?utm_source=kubeweekly&utm_medium=newsletter&utm_campaign=deploying_ebf_into_the_wild&_hsenc=p2ANqtz-86269cjEpSCHnyMEIgDsJzJwKC9OVK1Y1ivhEe19au446X92BHr5PZ7tfsyjxykuQhZgFu
+    type: Technical
