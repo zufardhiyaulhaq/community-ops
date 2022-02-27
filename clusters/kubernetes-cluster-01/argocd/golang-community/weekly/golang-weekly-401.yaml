@@ -1,0 +1,60 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-401
+  namespace: golang-community
+spec:
+  name: Golang Weekly 401
+  date: 02/27/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'flamegraph.com: A Site to Share Interactive Flamegraphs'
+    url: https://golangweekly.com/link/120235/web
+    type: News
+  - title: The Internals of Go's New Fuzzing System
+    url: https://golangweekly.com/link/120237/web
+    type: News
+  - title: ButterCMS Melts into Your Go App $ ButterCMS.getposts()
+    url: https://golangweekly.com/link/120238/web
+    type: News
+  - title: 'Proposal: Add Memory Arenas to Go'
+    url: https://golangweekly.com/link/120239/web
+    type: News
+  - title: Russ Cox Corrects Article That Contains Misleading Points on Go
+    url: https://golangweekly.com/link/120260/web
+    type: News
+  - title: Fuzz Testing in Go in 8 Minutes
+    url: https://golangweekly.com/link/120241/web
+    type: News
+  - title: Retrofitting Async/Await in Go 1.18?
+    url: https://golangweekly.com/link/120240/web
+    type: News
+  - title: On Self-Modifying Executables in Go
+    url: https://golangweekly.com/link/120246/web
+    type: News
+  - title: Embedding NATS in Go
+    url: https://golangweekly.com/link/120250/web
+    type: News
+  - title: 'systray: Cross-Platform Library to Place an Icon/Menu in the Notification
+      Area'
+    url: https://golangweekly.com/link/120252/web
+    type: News
+  - title: 'Newser: Scrapes News Articles into a PDF Document'
+    url: https://golangweekly.com/link/120253/web
+    type: News
+  - title: 'GitLeaks 8.3: Check Git Repos and History for Secrets and Keys'
+    url: https://golangweekly.com/link/120254/web
+    type: News
+  - title: Enjoy Building Scalable Infrastructure in Go? Stream Is Hiring
+    url: https://golangweekly.com/link/120255/web
+    type: News
+  - title: 'Kratos 2.2: A Go Framework for Cloud-Based Microservices'
+    url: https://golangweekly.com/link/120256/web
+    type: News
+  - title: 'Multiple Progress Bar: Progress Bars for Go CLI Apps'
+    url: https://golangweekly.com/link/120257/web
+    type: News
