@@ -986,12 +986,12 @@ content:
 - title: Benefits of running LOKI
   url: https://superuser.openstack.org/articles/benefits-of-running-loki/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: 2022 Superuser Awards Nominations Now Open
   url: https://superuser.openstack.org/articles/2022-superuser-awards-nominations-open/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: '2021 OpenInfra Annual Report: OpenDev'
   url: https://superuser.openstack.org/articles/2021-openinfra-annual-report-opendev/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
