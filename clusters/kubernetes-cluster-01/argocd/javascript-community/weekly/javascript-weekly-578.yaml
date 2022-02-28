@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-578
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 578
+  date: 02/28/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: What Are Wrapper Objects for JavaScript's Primitive Values?
+    url: https://javascriptweekly.com/link/120267/web
+    type: News
+  - title: How to Read the ECMAScript Specification
+    url: https://javascriptweekly.com/link/120299/web
+    type: News
+  - title: Learn the Fundamentals of Rx.js
+    url: https://javascriptweekly.com/link/120266/web
+    type: News
+  - title: 'From JavaScript to Rust: A Book'
+    url: https://javascriptweekly.com/link/120318/web
+    type: News
+  - title: 'Cheerp 2.7: Compile C++ to WebAssembly and JavaScript'
+    url: https://javascriptweekly.com/link/120314/web
+    type: News
+  - title: How to Reliably Send an HTTP Request on Leaving a Page
+    url: https://javascriptweekly.com/link/120285/web
+    type: News
+  - title: How To Develop a Text Editor for the Web
+    url: https://javascriptweekly.com/link/120286/web
+    type: News
+  - title: 3k+ Devs Completed the State of Frontend 2022 - It's Your Turn
+    url: https://javascriptweekly.com/link/120284/web
+    type: News
+  - title: 'Future JavaScript: A Look at Records and Tuples'
+    url: https://javascriptweekly.com/link/120302/web
+    type: News
+  - title: You Can throw() Anything In JavaScript (And Other async/await Considerations)
+    url: https://javascriptweekly.com/link/120305/web
+    type: News
+  - title: What is Responsible JavaScript?
+    url: https://javascriptweekly.com/link/120287/web
+    type: News
+  - title: How to Make a Data Dashboard with React Native
+    url: https://javascriptweekly.com/link/120289/web
+    type: News
+  - title: How to Use nextTick() in Vue
+    url: https://javascriptweekly.com/link/120306/web
+    type: News
+  - title: 'Screenshot: No-Dependency Browser-Native Screenshot Library'
+    url: https://javascriptweekly.com/link/120307/web
+    type: News
+  - title: 'Introducing FormKit: A Vue 3 Form Building Framework'
+    url: https://javascriptweekly.com/link/120316/web
+    type: News
+  - title: 'Stylo: An Open Source WYSIWYG Rich Text Editor for JavaScript'
+    url: https://javascriptweekly.com/link/120293/web
+    type: News
+  - title: More Cloud for Less Money
+    url: https://javascriptweekly.com/link/120298/web
+    type: News
+  - title: 'Beam: Node.js-Powered and GitHub-Inspired Message Board for Teams'
+    url: https://javascriptweekly.com/link/120294/web
+    type: News
+  - title: 'Stockfish.js: A Chess Engine'
+    url: https://javascriptweekly.com/link/120296/web
+    type: News
