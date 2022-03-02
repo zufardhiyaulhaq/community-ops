@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-426
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 426
+  date: 03/02/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Node v17.6.0 (Current) Released
+    url: https://nodeweekly.com/link/120185/web
+    type: News
+  - title: 'Caxa: Package Node Apps Into Executable Binaries'
+    url: https://nodeweekly.com/link/120203/web
+    type: News
+  - title: Secure Redis Hosting from RedisGreen
+    url: https://nodeweekly.com/link/120188/web
+    type: News
+  - title: How to Fix Security Vulnerabilities with npm Overrides
+    url: https://nodeweekly.com/link/120189/web
+    type: News
+  - title: Next.js 12.1 Released
+    url: https://nodeweekly.com/link/120191/web
+    type: News
+  - title: A 3.5 Hour Nest.js Course for Beginners
+    url: https://nodeweekly.com/link/120195/web
+    type: News
+  - title: How to Run Every Node.js Version on AWS Lambda
+    url: https://nodeweekly.com/link/120216/web
+    type: News
+  - title: Use Group Step Type to Better Organize Large and Complex Pipelines ✨
+    url: https://nodeweekly.com/link/120194/web
+    type: News
+  - title: A Complete Guide to Working with CSV Files in Node
+    url: https://nodeweekly.com/link/120211/web
+    type: News
+  - title: Monorepos Explained
+    url: https://nodeweekly.com/link/120197/web
+    type: News
+  - title: 'Beam: A Node Powered Message Board for Teams'
+    url: https://nodeweekly.com/link/120213/web
+    type: News
+  - title: 'pm2 5.2 Released: The Node Production Process Manager'
+    url: https://nodeweekly.com/link/120215/web
+    type: News
+  - title: How to Make a Data Dashboard with React Native
+    url: https://nodeweekly.com/link/120198/web
+    type: News
+  - title: Official MongoDB NodeJS Driver v4.4
+    url: https://nodeweekly.com/link/120199/web
+    type: News
