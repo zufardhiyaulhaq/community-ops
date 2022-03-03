@@ -1,0 +1,64 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-592
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 592
+  date: 03/03/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Ruby 3.1.1 Released (But It's a Small One)
+    url: https://rubyweekly.com/link/120151/web
+    type: News
+  - title: How and Where Are Rails Developers Deploying Rails Apps in 2022?
+    url: https://rubyweekly.com/link/120153/web
+    type: News
+  - title: Next Level Ruby on Rails Application Monitoring with AppSignal
+    url: https://rubyweekly.com/link/120154/web
+    type: News
+  - title: Rails Adding Support for Fiber-Safe ActiveRecord ConnectionPools
+    url: https://rubyweekly.com/link/120155/web
+    type: News
+  - title: Changing A polymorphic_type in Rails
+    url: https://rubyweekly.com/link/120162/web
+    type: News
+  - title: An Introduction to the ViewComponent Gem
+    url: https://rubyweekly.com/link/120163/web
+    type: News
+  - title: Why One of the Creators of Crystal Loves Ruby
+    url: https://rubyweekly.com/link/120165/web
+    type: News
+  - title: Complete Peace of Mind Rails Hosting
+    url: https://rubyweekly.com/link/120167/web
+    type: News
+  - title: Why and How to Start with the System Ruby Modular Packages (on Red Hat-esque
+      Distros)
+    url: https://rubyweekly.com/link/120168/web
+    type: News
+  - title: How to Get an Engineering Internship at Shopify
+    url: https://rubyweekly.com/link/120169/web
+    type: News
+  - title: 'Strings::Truncation 0.1.0: Truncate Strings with Fullwidth Characters
+      and ANSI Codes'
+    url: https://rubyweekly.com/link/120172/web
+    type: News
+  - title: 'rack-mini-profiler 3.0: A Profiler for Rack Apps in Dev or Production'
+    url: https://rubyweekly.com/link/120173/web
+    type: News
+  - title: 'pg-osc: Zero Downtime Schema Changes in Postgres'
+    url: https://rubyweekly.com/link/120174/web
+    type: News
+  - title: Project Management for Software Teams Has Never Been Easier
+    url: https://rubyweekly.com/link/120176/web
+    type: News
+  - title: 'Active Record SQL Server Adapter 7.0: The SQL Server Adapter for Rails'
+    url: https://rubyweekly.com/link/120177/web
+    type: News
+  - title: 'Chewy: A High-Level Elasticsearch Framework'
+    url: https://rubyweekly.com/link/120178/web
+    type: News
