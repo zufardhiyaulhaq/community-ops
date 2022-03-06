@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-402
+  namespace: golang-community
+spec:
+  name: Golang Weekly 402
+  date: 03/06/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'Go: A Documentary (Of Sorts)'
+    url: https://golangweekly.com/link/120504/web
+    type: News
+  - title: Speeding Up Go's Builtin JSON Encoder
+    url: https://golangweekly.com/link/120505/web
+    type: News
+  - title: ButterCMS Melts into Your Go App $ ButterCMS.getposts()
+    url: https://golangweekly.com/link/120507/web
+    type: News
+  - title: Go 1.17.8 and Go 1.16.15 Released
+    url: https://golangweekly.com/link/120508/web
+    type: News
+  - title: 'Prig: It''s Like AWK, But Uses Go for ''Scripting'''
+    url: https://golangweekly.com/link/120510/web
+    type: News
+  - title: Using WWW-Authenticate for User Authentication
+    url: https://golangweekly.com/link/120516/web
+    type: News
+  - title: 'Building a Command Line Tool with Go: Lolcat'
+    url: https://golangweekly.com/link/120517/web
+    type: News
+  - title: How to Set Up a Blog with Hugo and Cloudflare (and Why You Should)
+    url: https://golangweekly.com/link/120518/web
+    type: News
+  - title: Why Immutable Databases?
+    url: https://golangweekly.com/link/120520/web
+    type: News
+  - title: 'Juniper: An Extended Go Standard Library using Generics'
+    url: https://golangweekly.com/link/120523/web
+    type: News
+  - title: 'Bun 1.1: A Fluent SQL Client for Several Databases'
+    url: https://golangweekly.com/link/120524/web
+    type: News
+  - title: 'Lo: A Lodash-Style Library for Go 1.18+'
+    url: https://golangweekly.com/link/120526/web
+    type: News
+  - title: Run Go Unikernels 2X as Fast on GCP and 3X as Fast on AWS
+    url: https://golangweekly.com/link/120528/web
+    type: News
+  - title: 'Bubble Table: A Table Component for Bubble Tea'
+    url: https://golangweekly.com/link/120529/web
+    type: News
+  - title: 'pg_back 2.1.0: A Simple and Thorough Backup Tool for Postgres'
+    url: https://golangweekly.com/link/120531/web
+    type: News
+  - title: 'gokrazy: A Pure-Go Userland for Raspberry Pis'
+    url: https://golangweekly.com/link/120532/web
+    type: News
