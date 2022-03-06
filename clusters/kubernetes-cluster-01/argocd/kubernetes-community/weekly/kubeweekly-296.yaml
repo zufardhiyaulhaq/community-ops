@@ -1,0 +1,52 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-296
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 296
+  date: 03/06/2022
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Discovering and managing IoT devices from Kubernetes with Akri
+    url: https://community.cncf.io/e/myckas/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ha-6ytUJnAo8oFRtJzD2yzhs6AiTdhB6ZRVyPcLNA4RfCOjUcRTzCu_TkxGb9E9jjplJu
+    type: ICYMI
+  - title: Setting up monitoring for Calico’s eBPF Data Plane for proactive cluster
+      mgmt
+    url: https://community.cncf.io/e/mzgd4g/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ha-6ytUJnAo8oFRtJzD2yzhs6AiTdhB6ZRVyPcLNA4RfCOjUcRTzCu_TkxGb9E9jjplJu
+    type: ICYMI
+  - title: Fluent Bit 1.9 - First mile observability
+    url: https://community.cncf.io/e/mz9ky9/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ha-6ytUJnAo8oFRtJzD2yzhs6AiTdhB6ZRVyPcLNA4RfCOjUcRTzCu_TkxGb9E9jjplJu
+    type: ICYMI
+  - title: Flux for Helm users
+    url: https://community.cncf.io/e/mny9qu/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ha-6ytUJnAo8oFRtJzD2yzhs6AiTdhB6ZRVyPcLNA4RfCOjUcRTzCu_TkxGb9E9jjplJu
+    type: ICYMI
+  - title: 'Directors commentary for Kubernetes: The Documentary, with Josiah McGarvie'
+    url: https://kubernetespodcast.com/episode/170-kubernetes-the-documentary/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ha-6ytUJnAo8oFRtJzD2yzhs6AiTdhB6ZRVyPcLNA4RfCOjUcRTzCu_TkxGb9E9jjplJu
+    type: Editorial
+  - title: A visual map of a Kubernetes deployment
+    url: https://opensource.com/article/22/3/visual-map-kubernetes-deployment?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ha-6ytUJnAo8oFRtJzD2yzhs6AiTdhB6ZRVyPcLNA4RfCOjUcRTzCu_TkxGb9E9jjplJu
+    type: Editorial
+  - title: Lightrun releases KoolKits - Debugging toolkits for Kubernetes
+    url: https://lightrun.com/debugging/koolkits-debugging-toolkits-for-kubernetes/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ha-6ytUJnAo8oFRtJzD2yzhs6AiTdhB6ZRVyPcLNA4RfCOjUcRTzCu_TkxGb9E9jjplJu
+    type: Editorial
+  - title: Podman 4.0.0
+    url: https://podman.io/releases/2022/02/22/podman-release-v4.0.0.html?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ha-6ytUJnAo8oFRtJzD2yzhs6AiTdhB6ZRVyPcLNA4RfCOjUcRTzCu_TkxGb9E9jjplJu
+    type: Editorial
+  - title: 'Leveraging Kubernetes to run databases, message queues and in-memory caches:
+      How we built a truly portable platform'
+    url: https://elastisys.com/leveraging-kubernetes-to-run-postgresql-databases-rabbitmq-message-queues-and-redis-caches/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ha-6ytUJnAo8oFRtJzD2yzhs6AiTdhB6ZRVyPcLNA4RfCOjUcRTzCu_TkxGb9E9jjplJu
+    type: Technical
+  - title: 'Exploring eBPF - Part 3: Getting started with Hubble'
+    url: https://nicovibert.com/2022/02/21/exploring-ebpf-part-3-hubble/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ha-6ytUJnAo8oFRtJzD2yzhs6AiTdhB6ZRVyPcLNA4RfCOjUcRTzCu_TkxGb9E9jjplJu
+    type: Technical
+  - title: Using MetalLB to add the LoadBalancer service to Kubernetes environments
+    url: https://platform9.com/blog/using-metallb-to-add-the-loadbalancer-service-to-kubernetes-environments/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ha-6ytUJnAo8oFRtJzD2yzhs6AiTdhB6ZRVyPcLNA4RfCOjUcRTzCu_TkxGb9E9jjplJu
+    type: Technical
+  - title: Flux February 2022 Update
+    url: https://fluxcd.io/blog/2022/03/february-update/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--ha-6ytUJnAo8oFRtJzD2yzhs6AiTdhB6ZRVyPcLNA4RfCOjUcRTzCu_TkxGb9E9jjplJu
+    type: Technical
