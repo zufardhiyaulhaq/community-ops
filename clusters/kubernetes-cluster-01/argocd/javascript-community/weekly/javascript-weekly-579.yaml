@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-579
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 579
+  date: 03/07/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: TypeScript 4.6 Released (And It Even Benefits Non-TS Users!)
+    url: https://javascriptweekly.com/link/120559/web
+    type: News
+  - title: Five Things You Don't Need JavaScript for
+    url: https://javascriptweekly.com/link/120596/web
+    type: News
+  - title: 'The Easiest Way to Monitor Node: Automatic Instrumentation'
+    url: https://javascriptweekly.com/link/120560/web
+    type: News
+  - title: 'Socket: See Potential Security Issues for npm Packages'
+    url: https://javascriptweekly.com/link/120597/web
+    type: News
+  - title: "\U0001F1FA\U0001F1E6 Leaflet Project Appeals to JS Developers for Ukraine"
+    url: https://javascriptweekly.com/link/120563/web
+    type: News
+  - title: Enhancements to the Ubiquitous 2D HTML Canvas
+    url: https://javascriptweekly.com/link/120595/web
+    type: News
+  - title: The Most Modern JavaScript I Know (in One Script)
+    url: https://javascriptweekly.com/link/120577/web
+    type: News
+  - title: 'Cheat Sheet: OWASP Top 10 Vulnerabilities (And How to Fix Them)'
+    url: https://javascriptweekly.com/link/120579/web
+    type: News
+  - title: How Do Primitive Values Get Their Properties?
+    url: https://javascriptweekly.com/link/120601/web
+    type: News
+  - title: Kent C. Dodds's (Classic) Beginner's Guide to React Course
+    url: https://javascriptweekly.com/link/120578/web
+    type: News
+  - title: '''SolidJS Feels Like What I Always Wanted React to Be'''
+    url: https://javascriptweekly.com/link/120580/web
+    type: News
+  - title: Use Group Step Type to Better Organize Complex Pipelines ✨
+    url: https://javascriptweekly.com/link/120583/web
+    type: News
+  - title: A Guide to Audio Visualization with JavaScript and GSAP
+    url: https://javascriptweekly.com/link/120602/web
+    type: News
+  - title: 'Reveal.js 4.3: An HTML Presentation Framework'
+    url: https://javascriptweekly.com/link/120586/web
+    type: News
+  - title: Redux Toolkit 1.8.0 Released
+    url: https://javascriptweekly.com/link/120588/web
+    type: News
+  - title: 'Million 1.5: A Fast Virtual DOM Implementation'
+    url: https://javascriptweekly.com/link/120589/web
+    type: News
+  - title: Shortcut Puts the Agile in Agile and the “Can” in Kanban
+    url: https://javascriptweekly.com/link/120590/web
+    type: News
+  - title: 'Made in Ukraine: A List of (Mostly JS) Projects Built by Ukrainian Developers'
+    url: https://javascriptweekly.com/link/120591/web
+    type: News
+  - title: 'dnt: Deno-to-Node Package Transformation Tool'
+    url: https://javascriptweekly.com/link/120592/web
+    type: News
