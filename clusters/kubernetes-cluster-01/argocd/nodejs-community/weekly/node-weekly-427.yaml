@@ -1,0 +1,53 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-427
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 427
+  date: 03/09/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Running Commands with execa in Node
+    url: https://nodeweekly.com/link/120462/web
+    type: News
+  - title: Tired of Egregious Egress?
+    url: https://nodeweekly.com/link/120464/web
+    type: News
+  - title: Red Hat and IBM's Node.js 'Reference Architecture'
+    url: https://nodeweekly.com/link/120491/web
+    type: News
+  - title: 'From JavaScript to Rust: A Free Book'
+    url: https://nodeweekly.com/link/120493/web
+    type: News
+  - title: Understanding the Dependencies Inside Your package.json
+    url: https://nodeweekly.com/link/120470/web
+    type: News
+  - title: 'Cheat Sheet: OWASP Top 10 Vulnerabilities (And How to Fix Them)'
+    url: https://nodeweekly.com/link/120472/web
+    type: News
+  - title: 'Oclif 2.5: Heroku''s Open CLI Framework for Node'
+    url: https://nodeweekly.com/link/120473/web
+    type: News
+  - title: 'dnt: Deno-to-Node Package Transformation Tool'
+    url: https://nodeweekly.com/link/120478/web
+    type: News
+  - title: 'Hygen: A Simple and Scalable Code Generator Tool'
+    url: https://nodeweekly.com/link/120480/web
+    type: News
+  - title: 'Nohm 3.0: An ORM-of-Sorts for Redis'
+    url: https://nodeweekly.com/link/120481/web
+    type: News
+  - title: 'Getting Started with OpenTelemetry: Observability for Modern Apps'
+    url: https://nodeweekly.com/link/120475/web
+    type: News
+  - title: 'pg-boss 7.2.0: Postgres and Node Job Queueing System'
+    url: https://nodeweekly.com/link/120483/web
+    type: News
+  - title: 'Fiber 2.28.0: An Express.js Inspired Web Framework for Go'
+    url: https://nodeweekly.com/link/120484/web
+    type: News
