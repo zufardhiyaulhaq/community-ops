@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-593
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 593
+  date: 03/10/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: The In-Depth Guide to Active Record's load_async in Rails 7
+    url: https://rubyweekly.com/link/120426/web
+    type: News
+  - title: A Look at Ruby's Fiber Scheduler Functionality
+    url: https://rubyweekly.com/link/120427/web
+    type: News
+  - title: 'Free eBook: Efficient Search in Rails with Postgres'
+    url: https://rubyweekly.com/link/120428/web
+    type: News
+  - title: Import Maps Under the Hood in Rails 7
+    url: https://rubyweekly.com/link/120435/web
+    type: News
+  - title: Ruby Fibers 101
+    url: https://rubyweekly.com/link/120437/web
+    type: News
+  - title: Adding Super Fast Frontend Search in Rails with Lunr
+    url: https://rubyweekly.com/link/120441/web
+    type: News
+  - title: 'RubyConf 2021: The Talks You Might Have Missed'
+    url: https://rubyweekly.com/link/120442/web
+    type: News
+  - title: Hotwire Modals, with Zero JavaScript
+    url: https://rubyweekly.com/link/120443/web
+    type: News
+  - title: Project Management for Software Teams Has Never Been Easier
+    url: https://rubyweekly.com/link/120444/web
+    type: News
+  - title: Zero-Downtime Migration of a Primary Key From int to bigint
+    url: https://rubyweekly.com/link/120445/web
+    type: News
+  - title: Don't Waste Your Time on Asset Compilation on Heroku?
+    url: https://rubyweekly.com/link/120446/web
+    type: News
+  - title: Understanding Proc Objects
+    url: https://rubyweekly.com/link/120447/web
+    type: News
+  - title: A Chat with Andrew Culver, Creator of Bullet Train
+    url: https://rubyweekly.com/link/120448/web
+    type: News
+  - title: 'Thredded 1.0: A Forum Engine for Rails Apps'
+    url: https://rubyweekly.com/link/120450/web
+    type: News
+  - title: 'WahWah 1.3: A Library for Reading Audio Metadata'
+    url: https://rubyweekly.com/link/120452/web
+    type: News
+  - title: Build Video for Ruby That Just Works
+    url: https://rubyweekly.com/link/120453/web
+    type: News
+  - title: 'Liquid 5.2: Safe, Customer-Facing Template Language for Webapps'
+    url: https://rubyweekly.com/link/120454/web
+    type: News
+  - title: 'Yake 0.5: A DSL for Writing AWS Lambda Handlers in Ruby'
+    url: https://rubyweekly.com/link/120455/web
+    type: News
