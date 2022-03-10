@@ -727,3 +727,7 @@ content:
   url: https://opennetworking.org/events/2022-p4-workshop/
   kind: Open Networking Event
   isDelivered: true
+- title: 'Community Member Profile: Jon Hall'
+  url: https://opennetworking.org/news-and-events/blog/community-member-profile-jon-hall/
+  kind: Open Networking Blog
+  isDelivered: false
