@@ -730,4 +730,4 @@ content:
 - title: 'Community Member Profile: Jon Hall'
   url: https://opennetworking.org/news-and-events/blog/community-member-profile-jon-hall/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
