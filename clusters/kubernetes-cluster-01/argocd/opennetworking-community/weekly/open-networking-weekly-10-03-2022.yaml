@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-10-03-2022
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 10-03-2022
+  date: 03/10/2022
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: 'Community Member Profile: Jon Hall'
+    url: https://opennetworking.org/news-and-events/blog/community-member-profile-jon-hall/
+    type: Open Networking Blog
