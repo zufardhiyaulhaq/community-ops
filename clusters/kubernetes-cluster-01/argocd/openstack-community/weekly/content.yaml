@@ -995,3 +995,11 @@ content:
   url: https://superuser.openstack.org/articles/2021-openinfra-annual-report-opendev/
   kind: OpenStack Super User News
   isDelivered: true
+- title: Zuul Sessions Featured at OpenInfra Summit Berlin
+  url: https://superuser.openstack.org/articles/zuul-sessions-featured-at-openinfra-summit-berlin/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: Edge in Production at the Upcoming Project Teams Gathering!
+  url: https://superuser.openstack.org/articles/edge-in-production-at-the-upcoming-project-teams-gathering/
+  kind: OpenStack Super User News
+  isDelivered: false
