@@ -1,0 +1,76 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-580
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 580
+  date: 03/14/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: An ECMAScript Proposal for Type Annotations in JavaScript (That Are Ignored
+      at Runtime)
+    url: https://javascriptweekly.com/link/120916/web
+    type: News
+  - title: 'Wallaby.js: 15x Faster JavaScript/Jest Testing and Debugging'
+    url: https://javascriptweekly.com/link/120876/web
+    type: News
+  - title: React 18 Release Candidate Released
+    url: https://javascriptweekly.com/link/120877/web
+    type: News
+  - title: Twitter Thread on Stripe Converting from Flow to TypeScript
+    url: https://javascriptweekly.com/link/120919/web
+    type: News
+  - title: WebGPU — All of the Cores, None of the Canvas
+    url: https://javascriptweekly.com/link/120920/web
+    type: News
+  - title: Naming Conflicts – or How Existing Code Can Force Proposed Features to
+      Be Renamed
+    url: https://javascriptweekly.com/link/120888/web
+    type: News
+  - title: A Lightweight GitHub REST API in 34 Lines of Code
+    url: https://javascriptweekly.com/link/120889/web
+    type: News
+  - title: Project Management for Today's (And Tomorrow's) Software Team
+    url: https://javascriptweekly.com/link/120890/web
+    type: News
+  - title: Building Serverless Multi-Region WebSocket APIs on AWS
+    url: https://javascriptweekly.com/link/120891/web
+    type: News
+  - title: My Experience Building a Chess App in React
+    url: https://javascriptweekly.com/link/120892/web
+    type: News
+  - title: Creating Native Web Components
+    url: https://javascriptweekly.com/link/120893/web
+    type: News
+  - title: The Tools that Developers Need–and Don't Need–to Build Great Chatbots
+    url: https://javascriptweekly.com/link/120912/web
+    type: News
+  - title: 'LemonadeJS V2: A Reactive JavaScript Library with Zero Transpiling Needed'
+    url: https://javascriptweekly.com/link/120899/web
+    type: News
+  - title: 'striff: Real Simple String Diffing'
+    url: https://javascriptweekly.com/link/120900/web
+    type: News
+  - title: 'PSD: A Zero-Dependency PSD (Photoshop) Parser'
+    url: https://javascriptweekly.com/link/120901/web
+    type: News
+  - title: Studio 3T Manages Your Data, While You Wrestle Your App into Shape
+    url: https://javascriptweekly.com/link/120903/web
+    type: News
+  - title: 'Tygo: Generate TypeScript Types from Go(lang) Source Code'
+    url: https://javascriptweekly.com/link/120904/web
+    type: News
+  - title: 'Reason: Write Fast, Type Safe Code in OCaml, But for the JS Ecosystem'
+    url: https://javascriptweekly.com/link/120905/web
+    type: News
+  - title: 'Ultra: A Modern Streaming React Framework for Deno'
+    url: https://javascriptweekly.com/link/120906/web
+    type: News
+  - title: 'micropolisJS: A JavaScript Clone of a SimCity-Like Game'
+    url: https://javascriptweekly.com/link/120908/web
+    type: News
