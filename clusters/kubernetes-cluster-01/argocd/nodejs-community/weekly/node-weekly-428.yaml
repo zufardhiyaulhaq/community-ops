@@ -1,0 +1,68 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-428
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 428
+  date: 03/16/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: What's Really Going On Inside Your node_modules Folder?
+    url: https://nodeweekly.com/link/120700/web
+    type: News
+  - title: Node v17.7.0 (Current) Released
+    url: https://nodeweekly.com/link/120702/web
+    type: News
+  - title: Introducing the Elastic CI Stack for EC2 Mac
+    url: https://nodeweekly.com/link/120707/web
+    type: News
+  - title: 'Socket: See Potential Security Issues for npm Packages'
+    url: https://nodeweekly.com/link/120708/web
+    type: News
+  - title: A Case Study on Moving from Next.js to Remix
+    url: https://nodeweekly.com/link/120711/web
+    type: News
+  - title: Making a Discord Playlist Bot with Serverless Cloud
+    url: https://nodeweekly.com/link/120714/web
+    type: News
+  - title: A Guide to Node Process Management with PM2
+    url: https://nodeweekly.com/link/120720/web
+    type: News
+  - title: 'Malicious Node.js Packages: Niche Configurations & Invisible Characters'
+    url: https://nodeweekly.com/link/120722/web
+    type: News
+  - title: Diving into Node's Streams
+    url: https://nodeweekly.com/link/120723/web
+    type: News
+  - title: USB Reverse Engineering and Writing Drivers
+    url: https://nodeweekly.com/link/120724/web
+    type: News
+  - title: Discussing Securing the Open Source Supply Chain with Feross Aboukhadijeh
+    url: https://nodeweekly.com/link/120725/web
+    type: News
+  - title: 'PSD: A Zero-Dependency PSD (Photoshop) Parser for Browser and Node.js'
+    url: https://nodeweekly.com/link/120731/web
+    type: News
+  - title: 'Undici 4.15: The Fresh HTTP/1.1 Client for Node'
+    url: https://nodeweekly.com/link/120735/web
+    type: News
+  - title: 'Bree 8.0: A Versatile Job Scheduler for Node'
+    url: https://nodeweekly.com/link/120737/web
+    type: News
+  - title: Stream Video in Your Node App in Two API Calls
+    url: https://nodeweekly.com/link/120739/web
+    type: News
+  - title: 'exiftool-vendored: Fast, Cross-Platform Node.js Access to ExifTool'
+    url: https://nodeweekly.com/link/120741/web
+    type: News
+  - title: 'elasticsearch-js 8.1.0: Official Elasticsearch Client for Node'
+    url: https://nodeweekly.com/link/120743/web
+    type: News
+  - title: 'AVA 4.1: The Node.js Test Runner'
+    url: https://nodeweekly.com/link/120747/web
+    type: News
