@@ -1,0 +1,32 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-17-03-2022
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 17-03-2022
+  date: 03/17/2022
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Rimedo Labs to Integrate and Open Source TS xApp with ONF’s SD-RAN
+    url: https://www.rimedolabs.com/blog/rimedo-labs-to-integrate-and-open-source-ts-xapp-with-onfs-sd-ran/
+    type: Open Networking News
+  - title: ONF Launches SD-RAN v1.4 as First Open Source Release
+    url: https://opennetworking.org/news-and-events/blog/onf-launches-sd-ran-v1-4-as-first-open-source-release/
+    type: Open Networking Blog
+  - title: MWC 2022 ONF Recap
+    url: https://opennetworking.org/news-and-events/blog/mwc-2022-onf-recap/
+    type: Open Networking Blog
+  - title: 'ONF Webinar: Open Networking Hits a “Milestone Moment”'
+    url: https://opennetworking.org/events/onf-webinar-open-networking-hits-a-milestone-moment/
+    type: Open Networking Event
+  - title: FOSSASIA Summit 2022
+    url: https://opennetworking.org/events/fossasia-summit-2022/
+    type: Open Networking Event
+  - title: Enterprise 5G East
+    url: https://opennetworking.org/events/enterprise-5g-east/
+    type: Open Networking Event
