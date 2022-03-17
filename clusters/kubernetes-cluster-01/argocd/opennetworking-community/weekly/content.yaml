@@ -734,24 +734,24 @@ content:
 - title: Rimedo Labs to Integrate and Open Source TS xApp with ONF’s SD-RAN
   url: https://www.rimedolabs.com/blog/rimedo-labs-to-integrate-and-open-source-ts-xapp-with-onfs-sd-ran/
   kind: Open Networking News
-  isDelivered: false
+  isDelivered: true
 - title: ONF Launches SD-RAN v1.4 as First Open Source Release
   url: https://opennetworking.org/news-and-events/blog/onf-launches-sd-ran-v1-4-as-first-open-source-release/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: MWC 2022 ONF Recap
   url: https://opennetworking.org/news-and-events/blog/mwc-2022-onf-recap/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: 'ONF Webinar: Open Networking Hits a “Milestone Moment”'
   url: https://opennetworking.org/events/onf-webinar-open-networking-hits-a-milestone-moment/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
 - title: FOSSASIA Summit 2022
   url: https://opennetworking.org/events/fossasia-summit-2022/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
 - title: Enterprise 5G East
   url: https://opennetworking.org/events/enterprise-5g-east/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
