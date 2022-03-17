@@ -1,0 +1,66 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-594
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 594
+  date: 03/17/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: DHH and RailsConf Go Their Separate Ways (and Some Rails Core Members Step
+      Back)
+    url: https://rubyweekly.com/link/120757/web
+    type: News
+  - title: 'Bridgetown 1.0: A Modern Ruby (JAMstack) Web Framework'
+    url: https://rubyweekly.com/link/120764/web
+    type: News
+  - title: 'Scout: An APM Tool for Modern Development Teams'
+    url: https://rubyweekly.com/link/120767/web
+    type: News
+  - title: "\U0001F1FA\U0001F1E6 A Rubyist in Ukraine Appeals to the Ruby Community"
+    url: https://rubyweekly.com/link/120756/web
+    type: News
+  - title: On Abstraction in Rails
+    url: https://rubyweekly.com/link/120770/web
+    type: News
+  - title: Rails 7.0.2.3, 6.1.4.7, 6.0.4.7, and 5.2.6.3 Released
+    url: https://rubyweekly.com/link/120771/web
+    type: News
+  - title: 'Roda: Simplicity, Reliability, Extensibility and Performance'
+    url: https://rubyweekly.com/link/120783/web
+    type: News
+  - title: How GitLab Automatically Fixed 1000s of Ruby 2.7 Deprecation Warnings
+    url: https://rubyweekly.com/link/120786/web
+    type: News
+  - title: 'Solidus: The Last eCommerce Back-End You’ll Ever Need'
+    url: https://rubyweekly.com/link/120788/web
+    type: News
+  - title: Mocking JavaScript Requests During Tests
+    url: https://rubyweekly.com/link/120789/web
+    type: News
+  - title: Remote Development Using.. A Chromebook?
+    url: https://rubyweekly.com/link/120790/web
+    type: News
+  - title: 'Tantiny: Tiny Rust-Powered Full-Text Search for Ruby'
+    url: https://rubyweekly.com/link/120793/web
+    type: News
+  - title: 'Extralite: An Extra-Lightweight Gem for Working with SQLite3'
+    url: https://rubyweekly.com/link/120795/web
+    type: News
+  - title: Project Management for Today's (And Tomorrow's) Software Team
+    url: https://rubyweekly.com/link/120797/web
+    type: News
+  - title: 'Artemis 0.7: A GraphQL Client for Rails That''s Quick to Start Using'
+    url: https://rubyweekly.com/link/120798/web
+    type: News
+  - title: 'rails-pg-extras 4.0: PostgreSQL Performance Insights for Rails Devs'
+    url: https://rubyweekly.com/link/120799/web
+    type: News
+  - title: 'ByStar: Query Active Record and Mongoid Objects Based on Time'
+    url: https://rubyweekly.com/link/120800/web
+    type: News
