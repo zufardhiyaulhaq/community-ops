@@ -1,0 +1,7 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    name: stock-monitoring
+  name: stock-monitoring
