@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-298
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 298
+  date: 03/19/2022
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Using Kanister for logical backup of PostgreSQL
+    url: https://community.cncf.io/e/m2vby4/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: ICYMI
+  - title: Securing microservices using Let's Encrypt
+    url: https://community.cncf.io/e/m9kv3m/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: ICYMI
+  - title: Argo, with Jesse Suen
+    url: https://kubernetespodcast.com/episode/172-argo/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: Editorial
+  - title: etcd integrates continuous fuzzing
+    url: https://etcd.io/blog/2022/etcd-integrates-continuous-fuzzing/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: Editorial
+  - title: Kubernetes at scale without GitOps is a bad idea
+    url: https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: Editorial
+  - title: Difference between a docker container vs Kubernetes pod (YouTube Short)
+    url: https://www.youtube.com/shorts/VBbc8BU6nmA?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: Editorial
+  - title: Knative walkthrough
+    url: https://youtu.be/-Zhie5KtSh4?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: Editorial
+  - title: Top 5 challenges in modern Kubernetes testing
+    url: https://thenewstack.io/top-5-challenges-in-modern-kubernetes-testing/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: Editorial
+  - title: ""
+    url: https://kubernetespodcast.com/episode/171-parca/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: Editorial
+  - title: Knative InstallFEST
+    url: https://www.triggermesh.com/blog/knative-installfest?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: Editorial
+  - title: Using Argo CD with vclusters
+    url: https://blog.argoproj.io/using-argo-cd-with-vclusters-5df53d1c51ce?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: Technical
+  - title: 'CISA updated: Kubernetes hardening guide'
+    url: https://www.cisa.gov/uscert/ncas/current-activity/2022/03/15/updated-kubernetes-hardening-guide?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: Technical
+  - title: Karpenter - EKS best practices guides
+    url: https://aws.github.io/aws-eks-best-practices/karpenter/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: Technical
+  - title: Announcing automated multi-cluster failover for Kubernetes
+    url: https://linkerd.io/2022/03/09/announcing-automated-multi-cluster-failover-for-kubernetes/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: Technical
+  - title: Flagger adds Gateway API support
+    url: https://fluxcd.io/blog/2022/03/flagger-adds-gateway-api-support/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: Technical
+  - title: 'Security: Using pod security standard “restricted”'
+    url: https://fluxcd.io/blog/2022/03/security-pod-security-standard-restricted/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: Technical
+  - title: A case-study in end-to-end testing with Golang
+    url: https://blog.alexellis.io/golang-e2e-testing-case-study/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: Technical
+  - title: Observing HTTP/2 traffic is hard, but eBPF can help
+    url: https://blog.px.dev/ebpf-http2-tracing/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: Technical
+  - title: How Podman can transfer container images without a registry
+    url: https://www.redhat.com/sysadmin/podman-transfer-container-images-without-registry?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: Technical
+  - title: Triaging a malicious docker container
+    url: https://sysdig.com/blog/triaging-malicious-docker-container/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: Technical
+  - title: Leveraging OpenTelemetry to democratize Cloud Spanner Observability
+    url: http://cloud.google.com/blog/products/databases/consume-spanner-metrics-using-opentelemetery?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8EcF7JXRnfMktJ4bSdqC0FFyxhIRwr-12d9doiwtqbWu0QIuQWeZBfSp4a0o_TmqlWMdsm
+    type: Technical
