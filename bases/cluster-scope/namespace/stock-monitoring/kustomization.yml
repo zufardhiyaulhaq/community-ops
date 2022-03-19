@@ -1,0 +1,5 @@
+resources:
+- stock-monitoring.yml
+namespace: stock-monitoring
+commonLabels:
+  namespace: stock-monitoring
