@@ -1006,8 +1006,8 @@ content:
 - title: 'What to Expect at the OpenInfra Summit Berlin: 5G / Edge Computing / NFV | OpenInfra Live Recap'
   url: https://superuser.openstack.org/articles/what-to-expect-at-the-openinfra-summit-berlin-5g-edge-computing-nfv-openinfra-live-recap/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: 'Inside Open Infrastructure: The Latest from the OpenInfra Foundation'
   url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation-11/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
