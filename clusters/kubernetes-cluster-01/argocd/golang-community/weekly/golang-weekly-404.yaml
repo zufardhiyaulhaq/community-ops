@@ -1,0 +1,59 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-404
+  namespace: golang-community
+spec:
+  name: Golang Weekly 404
+  date: 03/20/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Secure Redis Hosting from RedisGreen
+    url: https://golangweekly.com/link/121152/web
+    type: News
+  - title: 'Write Once, Store Anywhere: Extensible File Systems for Go'
+    url: https://golangweekly.com/link/121153/web
+    type: News
+  - title: Hacking Sum Types with Go Generics
+    url: https://golangweekly.com/link/121165/web
+    type: News
+  - title: Building a gRPC Client in Go
+    url: https://golangweekly.com/link/121166/web
+    type: News
+  - title: Creating a Go App with Alpine.js and Webview
+    url: https://golangweekly.com/link/121168/web
+    type: News
+  - title: Implementing Java-esque Streams in Go with Generics
+    url: https://golangweekly.com/link/121171/web
+    type: News
+  - title: 'Freecache 1.2.1: A Cache Library for Go with Zero GC Overhead'
+    url: https://golangweekly.com/link/121172/web
+    type: News
+  - title: 'Mage 1.13.0: A Make-Like Build Tool That Uses Go Functions'
+    url: https://golangweekly.com/link/121173/web
+    type: News
+  - title: A ClickHouse Client for Go 1.18+
+    url: https://golangweekly.com/link/121175/web
+    type: News
+  - title: Seamlessly Integrate Video into Your Go App
+    url: https://golangweekly.com/link/121177/web
+    type: News
+  - title: 'cli 2.4: A Fast Way to Build Go CLI Apps'
+    url: https://golangweekly.com/link/121178/web
+    type: News
+  - title: 'LazyDocker: A Terminal-Based UI for Working with Docker'
+    url: https://golangweekly.com/link/121180/web
+    type: News
+  - title: The Official Go Driver for ArangoDB
+    url: https://golangweekly.com/link/121182/web
+    type: News
+  - title: A CGo-Free Port of SQLite for Go Users
+    url: https://golangweekly.com/link/121184/web
+    type: News
+  - title: 'GoCV 0.30.0: Computer Vision in Go using OpenCV 4+'
+    url: https://golangweekly.com/link/121185/web
+    type: News
