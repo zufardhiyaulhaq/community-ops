@@ -1,0 +1,86 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-581
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 581
+  date: 03/21/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Shader Park: Create Interactive 2D and 3D Shaders with JavaScript'
+    url: https://javascriptweekly.com/link/121247/web
+    type: News
+  - title: Prettier 2.6 Released
+    url: https://javascriptweekly.com/link/121238/web
+    type: News
+  - title: Tired of Explaining Why Your Big Tech Cloud Bill Keeps Growing?
+    url: https://javascriptweekly.com/link/121192/web
+    type: News
+  - title: How npm Packages Were Used in a Protest Against the War in Ukraine
+    url: https://javascriptweekly.com/link/121193/web
+    type: News
+  - title: Deno 1.20 Released
+    url: https://javascriptweekly.com/link/121245/web
+    type: News
+  - title: How To Make a Drag-and-Drop File Uploader with Vue.js 3
+    url: https://javascriptweekly.com/link/121239/web
+    type: News
+  - title: A Delightful React File/Directory Structure
+    url: https://javascriptweekly.com/link/121214/web
+    type: News
+  - title: How to Use JavaScript to Extend the Functionality of Your Chatbot
+    url: https://javascriptweekly.com/link/121216/web
+    type: News
+  - title: The 'Double-Assignment Pattern' in jQuery's Source Code
+    url: https://javascriptweekly.com/link/121215/web
+    type: News
+  - title: Next.js's New Official 'Foundations' Course
+    url: https://javascriptweekly.com/link/121217/web
+    type: News
+  - title: Remix vs Next.js
+    url: https://javascriptweekly.com/link/121218/web
+    type: News
+  - title: Creating a Simple Table Sorting and Pagination Feature
+    url: https://javascriptweekly.com/link/121222/web
+    type: News
+  - title: Announcing Build Matrix
+    url: https://javascriptweekly.com/link/121221/web
+    type: News
+  - title: A Discussion of Where TypeScript Excels
+    url: https://javascriptweekly.com/link/121223/web
+    type: News
+  - title: Upgrading Next.js for Instant Performance Improvements
+    url: https://javascriptweekly.com/link/121241/web
+    type: News
+  - title: 'Peaks 1.0: UI Component for Interacting with Audio Waveforms'
+    url: https://javascriptweekly.com/link/121225/web
+    type: News
+  - title: 'Wave.js 2.0: An Audio Visualization Library'
+    url: https://javascriptweekly.com/link/121226/web
+    type: News
+  - title: 'Faker 6.0: Generate Massive Amounts of Fake Data in Node or Browser'
+    url: https://javascriptweekly.com/link/121228/web
+    type: News
+  - title: 'Pulumi: Developer-First Infrastructure with JavaScript'
+    url: https://javascriptweekly.com/link/121231/web
+    type: News
+  - title: 'sysend.js: Send Messages Between Open Pages or Tabs in Same Browser'
+    url: https://javascriptweekly.com/link/121232/web
+    type: News
+  - title: 'Chrome Extension CLI: The CLI for Your Next Chrome Extension'
+    url: https://javascriptweekly.com/link/121234/web
+    type: News
+  - title: 'js2xml: Convert JavaScript Code to an XML Document'
+    url: https://javascriptweekly.com/link/121235/web
+    type: News
+  - title: 'Emoji Button: A Vanilla JavaScript Emoji Picker'
+    url: https://javascriptweekly.com/link/121236/web
+    type: News
+  - title: 'Liqvid 2.1: Create Interactive Videos with React, HTML, CSS, and JS'
+    url: https://javascriptweekly.com/link/121243/web
+    type: News
