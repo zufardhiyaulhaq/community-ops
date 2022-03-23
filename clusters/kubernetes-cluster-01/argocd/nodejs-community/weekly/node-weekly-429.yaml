@@ -1,0 +1,54 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-429
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 429
+  date: 03/23/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'peacenotwar: How an npm Package  Protested Russia''s Invasion of Ukraine'
+    url: https://nodeweekly.com/link/121114/web
+    type: News
+  - title: Build a Fullstack App from Scratch
+    url: https://nodeweekly.com/link/121088/web
+    type: News
+  - title: Node.js Security Releases Due Imminently
+    url: https://nodeweekly.com/link/121089/web
+    type: News
+  - title: 'Faker 6.0: Generate Massive Amounts of Fake Data'
+    url: https://nodeweekly.com/link/121090/web
+    type: News
+  - title: Why and How to Use HTTPS in Your Local Development Environment
+    url: https://nodeweekly.com/link/121098/web
+    type: News
+  - title: Updating Node Dependencies Automatically, Selectively, or Incrementally
+    url: https://nodeweekly.com/link/121099/web
+    type: News
+  - title: How to Build a File Upload Service with Vanilla JavaScript
+    url: https://nodeweekly.com/link/121101/web
+    type: News
+  - title: Write Your Real-Time Apps in Python with This Tutorial for InfluxDB
+    url: https://nodeweekly.com/link/121102/web
+    type: News
+  - title: How Remix Helps Bridge the Network Chasm
+    url: https://nodeweekly.com/link/121103/web
+    type: News
+  - title: 'Taiko: A Library and REPL to Automate Browsers'
+    url: https://nodeweekly.com/link/121107/web
+    type: News
+  - title: 'Pino 7.9.0: A Fast ''Very Low Overhead'' JSON Logger'
+    url: https://nodeweekly.com/link/121108/web
+    type: News
+  - title: Build Internal Tools in Minutes with Retool, Where Visual Programming Meets
+      the Power of Real Code
+    url: https://nodeweekly.com/link/121109/web
+    type: News
+  - title: 'node-json-db: A Simple JSON-Powered File-Based Data Store'
+    url: https://nodeweekly.com/link/121110/web
+    type: News
