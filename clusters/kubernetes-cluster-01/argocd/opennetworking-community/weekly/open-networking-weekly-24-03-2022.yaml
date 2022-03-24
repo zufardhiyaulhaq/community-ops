@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-24-03-2022
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 24-03-2022
+  date: 03/24/2022
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: ONF Achieves “Milestone Moment” Democratizing Open Networking
+    url: https://opennetworking.org/news-and-events/blog/onf-achieves-milestone-moment-democratizing-open-networking/
+    type: Open Networking Blog
