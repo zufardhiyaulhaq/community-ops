@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-595
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 595
+  date: 03/24/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'Ruby on Whales: Dockerizing Ruby and Rails Development'
+    url: https://rubyweekly.com/link/121045/web
+    type: News
+  - title: An Update on WebAssembly/WASI Support in Ruby
+    url: https://rubyweekly.com/link/121046/web
+    type: News
+  - title: The Best Deployment Tool for Rails
+    url: https://rubyweekly.com/link/121048/web
+    type: News
+  - title: The Perils of Parallel Testing in Rails
+    url: https://rubyweekly.com/link/121049/web
+    type: News
+  - title: 'Framework Friends: A Podcast Comparing Rails and Laravel'
+    url: https://rubyweekly.com/link/121058/web
+    type: News
+  - title: 'Know What Your Scopes Are Doing: where.first vs find_by'
+    url: https://rubyweekly.com/link/121061/web
+    type: News
+  - title: Pipelining Without Pipes
+    url: https://rubyweekly.com/link/121062/web
+    type: News
+  - title: "Achieve Stripe-Quality Webhooks for Your App in Minutes \U0001F483"
+    url: https://rubyweekly.com/link/121063/web
+    type: News
+  - title: Finding an Initially Confusing Result in Rails
+    url: https://rubyweekly.com/link/121064/web
+    type: News
+  - title: Don’t Run Your Ruby Minitest Classes Twice
+    url: https://rubyweekly.com/link/121065/web
+    type: News
+  - title: '''The Problem That ViewComponent Solves for Me'''
+    url: https://rubyweekly.com/link/121066/web
+    type: News
+  - title: 'hotwire-example-template: A Collection of Hotwire Examples'
+    url: https://rubyweekly.com/link/121069/web
+    type: News
+  - title: 'rrule: iCalendar RRULE Expansion for Ruby'
+    url: https://rubyweekly.com/link/121070/web
+    type: News
+  - title: "\U0001F418 The Developer Experience You’ve Always Wanted for Postgres"
+    url: https://rubyweekly.com/link/121072/web
+    type: News
+  - title: 'Alba 1.6: A Superfast JSON Serializer'
+    url: https://rubyweekly.com/link/121073/web
+    type: News
+  - title: 'PGSync 0.7: Sync Postgres Data Between Databases'
+    url: https://rubyweekly.com/link/121075/web
+    type: News
+  - title: 'VCR 6.1: Record Your Test Suite''s HTTP Interactions and Replay Them'
+    url: https://rubyweekly.com/link/121076/web
+    type: News
+  - title: 'telegram-bot-ruby 0.18.0: A Ruby Wrapper for Telegram''s Bot API'
+    url: https://rubyweekly.com/link/121077/web
+    type: News
+  - title: 'Disco: Generate Recommendations Using Collaborative Filtering'
+    url: https://rubyweekly.com/link/121079/web
+    type: News
+  - title: 'Torch.rb 0.10.0: Deep Learning for Ruby'
+    url: https://rubyweekly.com/link/121080/web
+    type: News
