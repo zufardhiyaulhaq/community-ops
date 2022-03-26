@@ -1,0 +1,90 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-299
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 299
+  date: 03/26/2022
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: 'From pipelines to supply chains: Level up with supply chain choreography'
+    url: https://community.cncf.io/e/mmuemj/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: ICYMI
+  - title: How to build Kubernetes policies to ensure compliance for databases
+    url: https://community.cncf.io/e/mj22vc/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: ICYMI
+  - title: Service mesh in production 101 with Linkerd
+    url: https://community.cncf.io/e/mw7dpu/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: ICYMI
+  - title: 'Extend Falco with plugins: Trigger alerts with any stream of events'
+    url: https://community.cncf.io/e/mjra65/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: ICYMI
+  - title: Easily find the needle in your Kuberenetes traffic haystack with Mizu
+    url: https://community.cncf.io/e/mzbjy6/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: ICYMI
+  - title: The future of observability
+    url: https://community.cncf.io/e/mcy55r/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: ICYMI
+  - title: NSA, CISA release Kubernetes hardening guidance
+    url: https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/2716980/nsa-cisa-release-kubernetes-hardening-guidance/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: Editorial
+  - title: ThreatMapper, with Sandeep Lahane and Owen Garrett
+    url: https://kubernetespodcast.com/episode/173-threatmapper-deepfence/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: Editorial
+  - title: Kubernetes and containerization trends (according to the reports of 2021)
+    url: https://blog.flant.com/kubernetes-and-containers-market-trends-2021/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: Editorial
+  - title: 10 Must-have Kubernetes tools
+    url: https://youtu.be/CB79eTFbR0w?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: Editorial
+  - title: Securing access to Kubernetes environments with zero trust
+    url: https://thenewstack.io/securing-access-to-kubernetes-environments-with-zero-trust/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: Editorial
+  - title: Why we selected Thanos for long term metrics storage
+    url: https://elastisys.com/long-term-metrics-storage-thanos-vs-cortex-vs-influxdb-vs-m3db-vs-victoriametrics-vs-timescaledb/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: Editorial
+  - title: Log monitoring for cloud native architectures
+    url: https://newrelic.com/blog/how-to-relic/log-monitoring-for-cloud-native-architectures?utm_source=kubeweekly&utm_medium=newsletter&utm_campaign=fy22-q4-log-monitoring-for-cloud-native-architectures&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: Editorial
+  - title: The cloud native security icons
+    url: https://ilandray.medium.com/the-cloud-native-security-icons-d8fad1796bfa?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: Editorial
+  - title: Streaming Kubernetes events in Slack
+    url: https://aws.amazon.com/blogs/containers/streaming-kubernetes-events-in-slack/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: Technical
+  - title: 'Kubernetes PVC guide: Basics, tutorials and troubleshooting tips'
+    url: https://komodor.com/learn/kubernetes-pvc-guide-basic-tutorial-and-troubleshooting-tips/?swcfpc=1&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: Technical
+  - title: 'Kubernetes security through GitOps best practices: ArgoCD and Starboard'
+    url: https://youtu.be/YvMY8to9aHI?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: Technical
+  - title: Kubernetes policy with Kyverno
+    url: https://youtu.be/dHhgfyH5KRs?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: Technical
+  - title: 'cr8escape: New vulnerability in CRI-O container engine discovered by CrowdStrike
+      (CVE-2022-0811)'
+    url: https://www.crowdstrike.com/blog/cr8escape-new-vulnerability-discovered-in-cri-o-container-engine-cve-2022-0811/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: Technical
+  - title: Kubernetes secrets store CSI driver
+    url: https://secrets-store-csi-driver.sigs.k8s.io/introduction.html?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus#kubernetes-secrets-store-csi-driver
+    type: Technical
+  - title: Kubernetes 1.23 with containerd on Ubuntu 20.04
+    url: https://kubesimplify.com/kubernetes-containerd-setup?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: Technical
+  - title: How we analyzed and fixed a Golang memory leak
+    url: https://www.glean.com/blog/how-we-analyzed-and-fixed-a-golang-memory-leak?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: Technical
+  - title: Kubernetes security - explore Cilium host firewall and host policies
+    url: https://medium.com/@charled.breteche/kubernetes-security-explore-cilium-host-firewall-and-host-policies-de93ea9da38c?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: Technical
+  - title: How do you integrate Emissary Ingress with OPA
+    url: https://www.infracloud.io/blogs/emissary-ingress-opa-integration/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: Technical
+  - title: Your pocket-sized cloud with a Raspberry Pi
+    url: https://blog.alexellis.io/your-pocket-sized-cloud/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8eLld-4YFGw4_FPS12ufG2mdTZ-qULc8eUFzSc7v3FseA0JYhtN-hnsRFNDA1zLaQxNSus
+    type: Technical
