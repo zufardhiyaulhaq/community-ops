@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-405
+  namespace: golang-community
+spec:
+  name: Golang Weekly 405
+  date: 03/27/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: An Introduction to Generics
+    url: https://golangweekly.com/link/121465/web
+    type: News
+  - title: Implementing a Toy Version of TLS 1.3
+    url: https://golangweekly.com/link/121467/web
+    type: News
+  - title: Free Activity Feeds & Chat APIs for Qualifying Teams
+    url: https://golangweekly.com/link/121468/web
+    type: News
+  - title: Why Bitly Writes (Almost) Everything in Go
+    url: https://golangweekly.com/link/121469/web
+    type: News
+  - title: How Glean Analyzed and Fixed a Go 'Memory Leak' (Sort Of)
+    url: https://golangweekly.com/link/121470/web
+    type: News
+  - title: What Are Go Workspaces and How Do I Use Them?
+    url: https://golangweekly.com/link/121476/web
+    type: News
+  - title: A Case Study in End-to-End Testing with Go
+    url: https://golangweekly.com/link/121478/web
+    type: News
+  - title: 'chromedp 0.8: Drive Browsers using the Chrome DevTools Protocol from Go'
+    url: https://golangweekly.com/link/121479/web
+    type: News
+  - title: 'Lo: A Lodash-Style Library for Go 1.18+'
+    url: https://golangweekly.com/link/121482/web
+    type: News
+  - title: Project Management for Today's (and Tomorrow's) Software Team
+    url: https://golangweekly.com/link/121484/web
+    type: News
+  - title: 'GoReleaser 1.7: Release Go Binaries As Fast and Easily As Possible'
+    url: https://golangweekly.com/link/121485/web
+    type: News
+  - title: 'Garble: A Toolchain to Obfuscate Go Builds'
+    url: https://golangweekly.com/link/121487/web
+    type: News
+  - title: 'Bloom 3.2: A Package for Implementing Bloom Filters'
+    url: https://golangweekly.com/link/121488/web
+    type: News
+  - title: 'Joker: A Small Clojure Interpreter (and Linter) Written in Go'
+    url: https://golangweekly.com/link/121489/web
+    type: News
