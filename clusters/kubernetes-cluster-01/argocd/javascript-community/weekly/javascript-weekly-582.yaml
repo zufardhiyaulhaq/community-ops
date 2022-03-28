@@ -1,0 +1,72 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-582
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 582
+  date: 03/28/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Parcel v2.4.0 Released: The Zero Config Build Tool'
+    url: https://javascriptweekly.com/link/121501/web
+    type: News
+  - title: 'RFC: Intent to Ship React 18'
+    url: https://javascriptweekly.com/link/121540/web
+    type: News
+  - title: Testing Your Web Apps with Cypress
+    url: https://javascriptweekly.com/link/121500/web
+    type: News
+  - title: 'The Tao of Node: On Design, Architecture and Best Practices'
+    url: https://javascriptweekly.com/link/121503/web
+    type: News
+  - title: 'This Week''s Issue of React Status: It''s Where All the React Links Go'
+    url: https://javascriptweekly.com/link/121542/web
+    type: News
+  - title: 'findLast and findLastIndex: Proposed Ways to Search Arrays from End to
+      Start'
+    url: https://javascriptweekly.com/link/121513/web
+    type: News
+  - title: An Introduction to AWS CloudFront Functions
+    url: https://javascriptweekly.com/link/121537/web
+    type: News
+  - title: Finally, Cloud Without Complexity
+    url: https://javascriptweekly.com/link/121526/web
+    type: News
+  - title: Exploring SvelteKit in 2022 by Building a Portfolio Site
+    url: https://javascriptweekly.com/link/121545/web
+    type: News
+  - title: Zach Leatherman on Going Full-Time on the Eleventy SSG
+    url: https://javascriptweekly.com/link/121516/web
+    type: News
+  - title: Implementing a Delay for a Cookie Consent Banner
+    url: https://javascriptweekly.com/link/121518/web
+    type: News
+  - title: 'Piling.js: A Library for Creating ''Visual Pile'' Interfaces'
+    url: https://javascriptweekly.com/link/121522/web
+    type: News
+  - title: 'Ladle: Develop and Test Your React Stories Faster'
+    url: https://javascriptweekly.com/link/121525/web
+    type: News
+  - title: Studio 3T Manages Your Data, While You Wrestle Your App into Shape
+    url: https://javascriptweekly.com/link/121515/web
+    type: News
+  - title: 'Postgres.js 3.0: Fast, Full-Featured Postgres Client for Node (and Deno)'
+    url: https://javascriptweekly.com/link/121527/web
+    type: News
+  - title: 'React Flow 10: For Creating Node-Based UIs, Editors, and Diagrams'
+    url: https://javascriptweekly.com/link/121529/web
+    type: News
+  - title: 'Video to Reels: Automatically Edit Videos to Post on Instagram Reels'
+    url: https://javascriptweekly.com/link/121531/web
+    type: News
+  - title: 'Comparing Chatbot Builders: A Dev''s Look at Botpress, Dialogflow ES/CX'
+    url: https://javascriptweekly.com/link/121519/web
+    type: News
+  - title: 'Dum: An npm Script Runner Written in.. Rust'
+    url: https://javascriptweekly.com/link/121532/web
+    type: News
