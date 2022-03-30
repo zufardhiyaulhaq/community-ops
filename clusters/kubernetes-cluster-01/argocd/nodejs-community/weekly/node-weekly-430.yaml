@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-430
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 430
+  date: 03/30/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Tao of Node: On Design, Architecture and Best Practices'
+    url: https://nodeweekly.com/link/121346/web
+    type: News
+  - title: Node v17.8.0 (Current) Released
+    url: https://nodeweekly.com/link/121347/web
+    type: News
+  - title: React Authentication, Simplified
+    url: https://nodeweekly.com/link/121350/web
+    type: News
+  - title: Malicious npm Packages Targeting Azure Developers
+    url: https://nodeweekly.com/link/121351/web
+    type: News
+  - title: Node.js Security Releases to Fix High Severity OpenSSL Bug
+    url: https://nodeweekly.com/link/121353/web
+    type: News
+  - title: AWS Graviton2 vs Apple M1 for Node.js Performance
+    url: https://nodeweekly.com/link/121362/web
+    type: News
+  - title: How to Manage Sessions using Passport, Redis, and MySQL
+    url: https://nodeweekly.com/link/121364/web
+    type: News
+  - title: 10 Best Practices to Containerize Node.js Web Applications with Docker
+    url: https://nodeweekly.com/link/121366/web
+    type: News
+  - title: 'What''s Really Going on Inside Your node_modules Folder: The Video'
+    url: https://nodeweekly.com/link/121368/web
+    type: News
+  - title: Authorization in a Microservices World
+    url: https://nodeweekly.com/link/121372/web
+    type: News
+  - title: 'Dum: An npm Script Runner Written in Rust'
+    url: https://nodeweekly.com/link/121374/web
+    type: News
+  - title: 'Video to Reels: Automatically Edit Videos to Post on Instagram Reels'
+    url: https://nodeweekly.com/link/121376/web
+    type: News
+  - title: 'Metered Video: Developer First Video Calling API/SDK for Web & Mobile'
+    url: https://nodeweekly.com/link/121377/web
+    type: News
+  - title: 'Chrome Extension CLI: CLI for Building Chrome Extensions'
+    url: https://nodeweekly.com/link/121379/web
+    type: News
+  - title: 'Directus: Wrap an SQL Database with a Real-Time GraphQL + REST API'
+    url: https://nodeweekly.com/link/121380/web
+    type: News
+  - title: 'Chinese Random Name: Generate Random Chinese Names'
+    url: https://nodeweekly.com/link/121381/web
+    type: News
