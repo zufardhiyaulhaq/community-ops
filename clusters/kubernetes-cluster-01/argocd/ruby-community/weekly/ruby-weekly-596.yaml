@@ -1,0 +1,63 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-596
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 596
+  date: 03/31/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'gem-compare 1.0: A RubyGems Plugin to Compare Gem Versions'
+    url: https://rubyweekly.com/link/121386/web
+    type: News
+  - title: Monthly Fixed Price CodeCare That Doesn’t Cost the Earth
+    url: https://rubyweekly.com/link/121387/web
+    type: News
+  - title: Changing Critical Code Paths with Scientist
+    url: https://rubyweekly.com/link/121399/web
+    type: News
+  - title: How To Build a Powerful Search Form with Hotwire
+    url: https://rubyweekly.com/link/121403/web
+    type: News
+  - title: Getting Started With OpenTelemetry
+    url: https://rubyweekly.com/link/121405/web
+    type: News
+  - title: Things to Consider When Upgrading Ruby from 2.7 to 3.0
+    url: https://rubyweekly.com/link/121407/web
+    type: News
+  - title: 'Hotrails: Learn Modern Rails with Hotwire'
+    url: https://rubyweekly.com/link/121443/web
+    type: News
+  - title: A Quick Guide To Managing User Permissions in Rails Apps
+    url: https://rubyweekly.com/link/121409/web
+    type: News
+  - title: How to Setup Heroku Autoscaling in Under 15 Minutes?
+    url: https://rubyweekly.com/link/121411/web
+    type: News
+  - title: 'RailsAdmin 3.0: A Rails Engine Providing a Basic CRUD Interface'
+    url: https://rubyweekly.com/link/121413/web
+    type: News
+  - title: 'DSL Factory: A DSL to Create.. DSLs!'
+    url: https://rubyweekly.com/link/121417/web
+    type: News
+  - title: JRuby 9.3.4.0 Released
+    url: https://rubyweekly.com/link/121419/web
+    type: News
+  - title: 'Monitoring and Observability: An Ever Evolving Market'
+    url: https://rubyweekly.com/link/121421/web
+    type: News
+  - title: 'online_migrations: Catch Unsafe Postgres Migrations in Development and
+      Run Them Easier in Production'
+    url: https://rubyweekly.com/link/121423/web
+    type: News
+  - title: 'Roo 2.9: Read All Common Spreadsheet File Formats in Ruby'
+    url: https://rubyweekly.com/link/121425/web
+    type: News
+  - title: 'curl-to-ruby: Convert Curl Commands to Ruby net/http Code'
+    url: https://rubyweekly.com/link/121427/web
+    type: News
