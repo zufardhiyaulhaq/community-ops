@@ -1,0 +1,50 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-300
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 300
+  date: 04/02/2022
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Conflict free replicated data types
+    url: https://community.cncf.io/e/m8fbnp/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--gxSoEZyARg3aAXyOlS4Kd6UOBzc6sD2JFV7EC5GMQJ_CBfQhgtMPhN1vIyh5YfpObv0U-
+    type: ICYMI
+  - title: 'Workload misconfiguration - the #1 security threat when using Kubernetes'
+    url: https://community.cncf.io/e/myb8jt/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--gxSoEZyARg3aAXyOlS4Kd6UOBzc6sD2JFV7EC5GMQJ_CBfQhgtMPhN1vIyh5YfpObv0U-
+    type: ICYMI
+  - title: Kubernetes infrastructure the GitOps way
+    url: https://community.cncf.io/e/mc5jb7/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--gxSoEZyARg3aAXyOlS4Kd6UOBzc6sD2JFV7EC5GMQJ_CBfQhgtMPhN1vIyh5YfpObv0U-
+    type: ICYMI
+  - title: End-to-end encryption in with EnRoute OneStep and LinkerD
+    url: https://community.cncf.io/e/mmmbsb/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--gxSoEZyARg3aAXyOlS4Kd6UOBzc6sD2JFV7EC5GMQJ_CBfQhgtMPhN1vIyh5YfpObv0U-
+    type: ICYMI
+  - title: Advanced networking with Luigi and Hostplumber 
+    url: https://community.cncf.io/e/my4a8g/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--gxSoEZyARg3aAXyOlS4Kd6UOBzc6sD2JFV7EC5GMQJ_CBfQhgtMPhN1vIyh5YfpObv0U-
+    type: ICYMI
+  - title: Day zero service mesh
+    url: https://community.cncf.io/e/mrs3t8/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--gxSoEZyARg3aAXyOlS4Kd6UOBzc6sD2JFV7EC5GMQJ_CBfQhgtMPhN1vIyh5YfpObv0U-
+    type: ICYMI
+  - title: Testing cloud native best practices with the CNF Test Suite
+    url: https://www.cncf.io/blog/2022/03/24/testing-cloud-native-best-practices-with-the-cnf-test-suite/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--gxSoEZyARg3aAXyOlS4Kd6UOBzc6sD2JFV7EC5GMQJ_CBfQhgtMPhN1vIyh5YfpObv0U-
+    type: Editorial
+  - title: Free developing secure software training course from OpenSSF now available
+    url: https://training.linuxfoundation.org/blog/free-developing-secure-software-training-course-from-openssf-now-available/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--gxSoEZyARg3aAXyOlS4Kd6UOBzc6sD2JFV7EC5GMQJ_CBfQhgtMPhN1vIyh5YfpObv0U-
+    type: Editorial
+  - title: in-toto, with Santiago Torres-Arias
+    url: https://kubernetespodcast.com/episode/174-in-toto/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--gxSoEZyARg3aAXyOlS4Kd6UOBzc6sD2JFV7EC5GMQJ_CBfQhgtMPhN1vIyh5YfpObv0U-
+    type: Editorial
+  - title: Detector for Docker Socket (DDS)
+    url: https://github.com/aws-containers/kubectl-detector-for-docker-socket?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--gxSoEZyARg3aAXyOlS4Kd6UOBzc6sD2JFV7EC5GMQJ_CBfQhgtMPhN1vIyh5YfpObv0U-
+    type: Technical
+  - title: Flux puts the Git into GitOps
+    url: https://fluxcd.io/blog/2022/03/flux-puts-the-git-into-gitops/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--gxSoEZyARg3aAXyOlS4Kd6UOBzc6sD2JFV7EC5GMQJ_CBfQhgtMPhN1vIyh5YfpObv0U-
+    type: Technical
+  - title: Navigating through CNCF landscape 
+    url: https://kubesimplify.com/navigating-through-cncf-landscape?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--gxSoEZyARg3aAXyOlS4Kd6UOBzc6sD2JFV7EC5GMQJ_CBfQhgtMPhN1vIyh5YfpObv0U-
+    type: Technical
