@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-406
+  namespace: golang-community
+spec:
+  name: Golang Weekly 406
+  date: 04/03/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Generics Can Make Your Go Code Slower (Sometimes...)
+    url: https://golangweekly.com/link/121791/web
+    type: News
+  - title: Writing a Document Database From Scratch in Go
+    url: https://golangweekly.com/link/121792/web
+    type: News
+  - title: The Modern Guide to OAuth - Free eBook
+    url: https://golangweekly.com/link/121862/web
+    type: News
+  - title: How Go Mitigates Supply Chain Attacks
+    url: https://golangweekly.com/link/121794/web
+    type: News
+  - title: Using the GPU Cores on Apple's M1 from Go
+    url: https://golangweekly.com/link/121804/web
+    type: News
+  - title: Building Microservices in Go with Fiber
+    url: https://golangweekly.com/link/121805/web
+    type: News
+  - title: Making the Command Line Glamorous with Go
+    url: https://golangweekly.com/link/121807/web
+    type: News
+  - title: How We Used Go 1.18 When Designing Our Identifiers
+    url: https://golangweekly.com/link/121810/web
+    type: News
+  - title: 'Ffuf 1.4.0: Fast Web Fuzzer Written in Go'
+    url: https://golangweekly.com/link/121813/web
+    type: News
+  - title: 'TableFlip: Graceful Process Restarts in Go'
+    url: https://golangweekly.com/link/121841/web
+    type: News
+  - title: Debug Go Apps Without Stopping Them in Prod. Try Rookout Free Today
+    url: https://golangweekly.com/link/121814/web
+    type: News
+  - title: 'Thanos: A Prototype Ruby to Go Transpiler'
+    url: https://golangweekly.com/link/121816/web
+    type: News
+  - title: 'usql 0.10.0: A Universal CLI Tool for Databases'
+    url: https://golangweekly.com/link/121815/web
+    type: News
+  - title: 'go-version: A Version Number Parsing and Verification Library'
+    url: https://golangweekly.com/link/121842/web
+    type: News
