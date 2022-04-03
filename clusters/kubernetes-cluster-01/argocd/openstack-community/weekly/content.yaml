@@ -1011,3 +1011,7 @@ content:
   url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation-11/
   kind: OpenStack Super User News
   isDelivered: true
+- title: 'OpenStack Yoga: New Features Straight from the Contributors | OpenInfra Live Recap'
+  url: https://superuser.openstack.org/articles/openstack-yoga-new-features-straight-from-the-contributors-openinfra-live-recap/
+  kind: OpenStack Super User News
+  isDelivered: false
