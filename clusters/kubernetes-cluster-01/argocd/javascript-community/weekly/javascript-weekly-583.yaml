@@ -1,0 +1,72 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-583
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 583
+  date: 04/04/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Decorators for ES6 Classes Proposal (Mostly) Reaches Stage 3 at TC39
+    url: https://javascriptweekly.com/link/121739/web
+    type: News
+  - title: React 18 Released
+    url: https://javascriptweekly.com/link/121743/web
+    type: News
+  - title: Studio 3T Manages Your Data, While You Wrestle Your App into Shape
+    url: https://javascriptweekly.com/link/121747/web
+    type: News
+  - title: Electron 18.0 Released
+    url: https://javascriptweekly.com/link/121748/web
+    type: News
+  - title: The Story of Next.js
+    url: https://javascriptweekly.com/link/121749/web
+    type: News
+  - title: Locale Aware Sorting in JavaScript
+    url: https://javascriptweekly.com/link/121763/web
+    type: News
+  - title: How to Use Props in React
+    url: https://javascriptweekly.com/link/121764/web
+    type: News
+  - title: 14 Linting Rules To Help You Write Asynchronous JS Code
+    url: https://javascriptweekly.com/link/121765/web
+    type: News
+  - title: How Lyft's Mobile Team Does Mobile CI at Scale
+    url: https://javascriptweekly.com/link/121766/web
+    type: News
+  - title: The What, When, Why and How of Next.js’ New Middleware Feature
+    url: https://javascriptweekly.com/link/121856/web
+    type: News
+  - title: Conquering JavaScript Hydration
+    url: https://javascriptweekly.com/link/121767/web
+    type: News
+  - title: Visual Studio Code March 2022 Released
+    url: https://javascriptweekly.com/link/121772/web
+    type: News
+  - title: 'a11y-dialog: A Lightweight, Accessible Way to Create Dialogs'
+    url: https://javascriptweekly.com/link/121773/web
+    type: News
+  - title: Integrate eSignatures in Your App in Less Than a Week
+    url: https://javascriptweekly.com/link/121776/web
+    type: News
+  - title: 'PLV8 3.1: Bringing the V8 Engine to the PostgreSQL Database'
+    url: https://javascriptweekly.com/link/121777/web
+    type: News
+  - title: 'Hackathon Starter: A Boilerplate for Node Web Apps'
+    url: https://javascriptweekly.com/link/121779/web
+    type: News
+  - title: 'Encoding.js 2.0: Convert or Detect (.jp) Character Encodings'
+    url: https://javascriptweekly.com/link/121780/web
+    type: News
+  - title: Build Internal Tools in Minutes with Retool, Where Visual Programming Meets
+      the Power of Real Code
+    url: https://javascriptweekly.com/link/121781/web
+    type: News
+  - title: 'ts-audio 0.7.0: Simple API for AudioContext and Playing Audio Playlists'
+    url: https://javascriptweekly.com/link/121782/web
+    type: News
