@@ -1,0 +1,53 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-431
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 431
+  date: 04/06/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'What''s New in Node Core: March 2022 Edition'
+    url: https://nodeweekly.com/link/121708/web
+    type: News
+  - title: Electron 18.0.0 Released
+    url: https://nodeweekly.com/link/121709/web
+    type: News
+  - title: Retool Is the Fast Way to Build Internal Tools
+    url: https://nodeweekly.com/link/121713/web
+    type: News
+  - title: 'Postgres.js 3.0: Fast, Full-Featured Postgres Client for Node (and Deno)'
+    url: https://nodeweekly.com/link/121714/web
+    type: News
+  - title: Build Serverless APIs with Node.js and AWS Lambda
+    url: https://nodeweekly.com/link/121720/web
+    type: News
+  - title: Using Google Calendar Webhooks with Node
+    url: https://nodeweekly.com/link/121721/web
+    type: News
+  - title: How to Easily Build IoT Apps with Node-RED & InfluxDB
+    url: https://nodeweekly.com/link/121723/web
+    type: News
+  - title: Zach Leatherman on Going Full-Time on the Eleventy SSG
+    url: https://nodeweekly.com/link/121724/web
+    type: News
+  - title: 'Hackathon Starter: A Boilerplate for Node Web Apps'
+    url: https://nodeweekly.com/link/121729/web
+    type: News
+  - title: 'Quickgres 0.4.2: A Pure JavaScript Postgres Client Library'
+    url: https://nodeweekly.com/link/121730/web
+    type: News
+  - title: Doppler - All Your Environment Variables in One Place
+    url: https://nodeweekly.com/link/121732/web
+    type: News
+  - title: 'Strom: Dependency-Free Stream Utils for Node'
+    url: https://nodeweekly.com/link/121733/web
+    type: News
+  - title: 'Venode: The Missing ''Child'' of Node.js and Deno?'
+    url: https://nodeweekly.com/link/121734/web
+    type: News
