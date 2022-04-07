@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-07-04-2022
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 07-04-2022
+  date: 04/07/2022
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: TIM Ramps Participation in ONF’s VOLTHA Community for New FTTH Proof of Concept
+    url: https://opennetworking.org/news-and-events/blog/tim-ramps-participation-in-onfs-voltha-community-for-new-ftth-proof-of-concept/
+    type: Open Networking Blog
