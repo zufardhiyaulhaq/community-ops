@@ -1,0 +1,72 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-597
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 597
+  date: 04/07/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: On Sorbet, Stripe’s Type Checker for Ruby
+    url: https://rubyweekly.com/link/121647/web
+    type: News
+  - title: How to Use Active Record in a Library
+    url: https://rubyweekly.com/link/121650/web
+    type: News
+  - title: 'Video for Ruby: Build Video in Just Two API Calls'
+    url: https://rubyweekly.com/link/121651/web
+    type: News
+  - title: 'SokoAdventure: A Ruby Powered Sokoban-Style Game'
+    url: https://rubyweekly.com/link/121655/web
+    type: News
+  - title: 'Mastodon 3.5: The Federated, Ruby-Powered Twitter-a-Like'
+    url: https://rubyweekly.com/link/121704/web
+    type: News
+  - title: Reducing Leaky Abstractions Introduced by Active Record
+    url: https://rubyweekly.com/link/121661/web
+    type: News
+  - title: Switching From .env Files to Rails Credentials
+    url: https://rubyweekly.com/link/121663/web
+    type: News
+  - title: Five Tips to Design Transactions in Rails the Right Way
+    url: https://rubyweekly.com/link/121664/web
+    type: News
+  - title: 'A Rubyist''s Walk Along the C-side (Part 8): Exceptions and Error Handling'
+    url: https://rubyweekly.com/link/121665/web
+    type: News
+  - title: Project Management for Software Teams Has Never Been Easier
+    url: https://rubyweekly.com/link/121666/web
+    type: News
+  - title: An Hour's Interview with David Heinemeier Hansson
+    url: https://rubyweekly.com/link/121667/web
+    type: News
+  - title: 'after_commit Everywhere: Use Active Record Transactional Callbacks Outside
+      of Models'
+    url: https://rubyweekly.com/link/121669/web
+    type: News
+  - title: 'ParallelTests 3.8: More Cores == Faster Tests'
+    url: https://rubyweekly.com/link/121670/web
+    type: News
+  - title: "“POST a JSON Payload” and You’re Done with Webhooks Right?\U0001F62C"
+    url: https://rubyweekly.com/link/121671/web
+    type: News
+  - title: Jekyll 3.9.2 Released
+    url: https://rubyweekly.com/link/121672/web
+    type: News
+  - title: 'Down 5.3: Streaming HTTP Downloads with net/http, http.rb or wget'
+    url: https://rubyweekly.com/link/121673/web
+    type: News
+  - title: 'Avo 2.0: An Admin Panel/Dashboard System for Rails Apps'
+    url: https://rubyweekly.com/link/121674/web
+    type: News
+  - title: 'Parallel: Parallel Processing Made Simple and Fast'
+    url: https://rubyweekly.com/link/121676/web
+    type: News
+  - title: 'Thanos: A Prototype Ruby to Go Transpiler'
+    url: https://rubyweekly.com/link/121677/web
+    type: News
