@@ -763,3 +763,7 @@ content:
   url: https://opennetworking.org/news-and-events/blog/community-member-profile-han-wang/
   kind: Open Networking Blog
   isDelivered: true
+- title: TIM Ramps Participation in ONF’s VOLTHA Community for New FTTH Proof of Concept
+  url: https://opennetworking.org/news-and-events/blog/tim-ramps-participation-in-onfs-voltha-community-for-new-ftth-proof-of-concept/
+  kind: Open Networking Blog
+  isDelivered: false
