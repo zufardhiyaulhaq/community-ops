@@ -1,0 +1,23 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-10-04-2022
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 10-04-2022
+  date: 04/10/2022
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: 'Inside Open Infrastructure: The Latest from the OpenInfra Foundation'
+    url: https://superuser.openstack.org/articles/openinfra-newsletter-43/
+    type: OpenStack Super User News
+  - title: 'OpenInfra User Group Sweden, OpenInfra Forum #11!'
+    url: https://superuser.openstack.org/articles/openinfra-user-group-sweden-openinfra-forum-11/
+    type: OpenStack Super User News
+  - title: See the OpenInfra Community Back in Berlin!
+    url: https://superuser.openstack.org/articles/see-the-openinfra-community-back-in-berlin/
+    type: OpenStack Super User News
