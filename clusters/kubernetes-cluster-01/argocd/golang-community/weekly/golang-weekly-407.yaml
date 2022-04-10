@@ -1,0 +1,53 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-407
+  namespace: golang-community
+spec:
+  name: Golang Weekly 407
+  date: 04/10/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Getting Familiar with Workspaces
+    url: https://golangweekly.com/link/122049/web
+    type: News
+  - title: Gophers - Opportunity is Knocking
+    url: https://golangweekly.com/link/122050/web
+    type: News
+  - title: Faster Sorting with Go Generics
+    url: https://golangweekly.com/link/122051/web
+    type: News
+  - title: Comparing Go vs. C in Embedded Applications
+    url: https://golangweekly.com/link/122052/web
+    type: News
+  - title: How Can We Prevent Legacy From Creeping In?
+    url: https://golangweekly.com/link/122060/web
+    type: News
+  - title: Go Generics for Field Level Database Encryption
+    url: https://golangweekly.com/link/122061/web
+    type: News
+  - title: 'gh-dash: A GitHub CLI Dashboard Extension'
+    url: https://golangweekly.com/link/122062/web
+    type: News
+  - title: 'Goyave: An Elegant Go REST Framework'
+    url: https://golangweekly.com/link/122063/web
+    type: News
+  - title: Using Z3 Theorem Prover to Analyze RBAC
+    url: https://golangweekly.com/link/122066/web
+    type: News
+  - title: A Postgres Wire Compatible SQLite Proxy
+    url: https://golangweekly.com/link/122067/web
+    type: News
+  - title: 'GoBGP: BGP Implemented in Go'
+    url: https://golangweekly.com/link/122068/web
+    type: News
+  - title: 'sqlc 1.13: Generate Type Safe Go(lang) from SQL'
+    url: https://golangweekly.com/link/122069/web
+    type: News
+  - title: 'SQLBoiler 4.9: Generate a Go ORM Tailored to Your Database Schema'
+    url: https://golangweekly.com/link/122071/web
+    type: News
