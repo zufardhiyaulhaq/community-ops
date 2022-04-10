@@ -1015,3 +1015,15 @@ content:
   url: https://superuser.openstack.org/articles/openstack-yoga-new-features-straight-from-the-contributors-openinfra-live-recap/
   kind: OpenStack Super User News
   isDelivered: true
+- title: 'Inside Open Infrastructure: The Latest from the OpenInfra Foundation'
+  url: https://superuser.openstack.org/articles/openinfra-newsletter-43/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: 'OpenInfra User Group Sweden, OpenInfra Forum #11!'
+  url: https://superuser.openstack.org/articles/openinfra-user-group-sweden-openinfra-forum-11/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: See the OpenInfra Community Back in Berlin!
+  url: https://superuser.openstack.org/articles/see-the-openinfra-community-back-in-berlin/
+  kind: OpenStack Super User News
+  isDelivered: false
