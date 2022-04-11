@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-584
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 584
+  date: 04/11/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Announcing Rome Formatter: Super Fast JavaScript Formatting'
+    url: https://javascriptweekly.com/link/122096/web
+    type: News
+  - title: Writing Redux Reducers in Rust
+    url: https://javascriptweekly.com/link/122100/web
+    type: News
+  - title: 'Wallaby.js: 15x Faster JavaScript/jest Testing and Debugging'
+    url: https://javascriptweekly.com/link/122101/web
+    type: News
+  - title: 'JavaScript & Node Testing Best Practices: 2022 Edition'
+    url: https://javascriptweekly.com/link/122103/web
+    type: News
+  - title: Announcing RedwoodJS 1.0 and $1M Funding
+    url: https://javascriptweekly.com/link/122104/web
+    type: News
+  - title: "\U0001F1FA\U0001F1E6 Devs For Ukraine: An Online Event to Support Ukraine"
+    url: https://javascriptweekly.com/link/122107/web
+    type: News
+  - title: 'ShadowRealms: An ECMAScript Proposal for a Better eval()'
+    url: https://javascriptweekly.com/link/122127/web
+    type: News
+  - title: The Problems with JavaScript Begin with JavaScript
+    url: https://javascriptweekly.com/link/122129/web
+    type: News
+  - title: How TypeScript's Compiler Compiles
+    url: https://javascriptweekly.com/link/122130/web
+    type: News
+  - title: The Ultimate Guide on Creating Customizable Angular Components
+    url: https://javascriptweekly.com/link/122131/web
+    type: News
+  - title: How to Test Component Interactions with Storybook
+    url: https://javascriptweekly.com/link/122132/web
+    type: News
+  - title: 'Postlight Podcast: For Technology Leaders Solving Tough Problems'
+    url: https://javascriptweekly.com/link/122133/web
+    type: News
+  - title: How Are Windows Runtime GUIDs Represented in JavaScript?
+    url: https://javascriptweekly.com/link/122134/web
+    type: News
+  - title: React Libraries to Use in 2022
+    url: https://javascriptweekly.com/link/122138/web
+    type: News
+  - title: 'AgnosticUI: A Component Library for Numerous Frameworks'
+    url: https://javascriptweekly.com/link/122140/web
+    type: News
+  - title: 'Preview.js: Preview UI Components Instantly in Your IDE'
+    url: https://javascriptweekly.com/link/122142/web
+    type: News
+  - title: Keep Up with the Latest in Startups, Tech, & Programming in Just 5 Min
+    url: https://javascriptweekly.com/link/122143/web
+    type: News
+  - title: 'JSZip 3.9: Create, Read and Edit .zip Archive Files'
+    url: https://javascriptweekly.com/link/122144/web
+    type: News
+  - title: 'article-parser: Node Library to Extract Articles from Web Pages'
+    url: https://javascriptweekly.com/link/122146/web
+    type: News
