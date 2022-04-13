@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-432
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 432
+  date: 04/13/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'JavaScript and Node Testing Best Practices: 2022 Edition'
+    url: https://nodeweekly.com/link/122041/web
+    type: News
+  - title: Debug Node Apps in Production Without Stopping Them
+    url: https://nodeweekly.com/link/121973/web
+    type: News
+  - title: Locale Aware Sorting in JavaScript
+    url: https://nodeweekly.com/link/121974/web
+    type: News
+  - title: "Node v12.22.12 (LTS) Released: It's the Final Node 12 \U0001F44B"
+    url: https://nodeweekly.com/link/121972/web
+    type: News
+  - title: Basic Principles of Object-Oriented Programming in TypeScript
+    url: https://nodeweekly.com/link/121982/web
+    type: News
+  - title: Be Amongst the First to Shape Our New Dev Community. Join Us Today
+    url: https://nodeweekly.com/link/121983/web
+    type: News
+  - title: Using Google Cloud Run's 'Always-On' CPU Allocation for Background Work
+    url: https://nodeweekly.com/link/121984/web
+    type: News
+  - title: 'JSZip 3.9: Create, Read and Edit .zip Archive Files'
+    url: https://nodeweekly.com/link/121985/web
+    type: News
+  - title: 'ssh2-sftp-client 8.0: A Node.js Client for SSH2 SFTP'
+    url: https://nodeweekly.com/link/121987/web
+    type: News
+  - title: 'ioredis 5: A Performance Focused Redis Client for Node'
+    url: https://nodeweekly.com/link/121989/web
+    type: News
+  - title: 'ini 3.0: An INI File Parser/Serializer'
+    url: https://nodeweekly.com/link/121991/web
+    type: News
+  - title: Retool Makes It 10x Faster to Build Custom Internal Tools for Any Company
+    url: https://nodeweekly.com/link/121993/web
+    type: News
+  - title: 'Instauto 9.0: An Instagram Bot / Automation Library'
+    url: https://nodeweekly.com/link/121994/web
+    type: News
+  - title: 'cron-parser 4.3: Node Library for Parsing cron Rules'
+    url: https://nodeweekly.com/link/121995/web
+    type: News
+  - title: 'Nightwatch.js 2.1: Automated End-to-End Testing from Node'
+    url: https://nodeweekly.com/link/121996/web
+    type: News
+  - title: The Official MongoDB Node.js Driver v4.5.0
+    url: https://nodeweekly.com/link/121998/web
+    type: News
+  - title: 'AutoMapper 8.1: An Object-Object AutoMapper for TypeScript'
+    url: https://nodeweekly.com/link/121999/web
+    type: News
+  - title: 'Kafka.js 1.16.0: A Modern Apache Kafka Client'
+    url: https://nodeweekly.com/link/122001/web
+    type: News
+  - title: 'node-mssql 8.1: A Microsoft SQL Server Client for Node'
+    url: https://nodeweekly.com/link/122003/web
+    type: News
