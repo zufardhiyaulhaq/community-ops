@@ -767,3 +767,7 @@ content:
   url: https://opennetworking.org/news-and-events/blog/tim-ramps-participation-in-onfs-voltha-community-for-new-ftth-proof-of-concept/
   kind: Open Networking Blog
   isDelivered: true
+- title: ONF Releases Stratum v22.03 and Launches a Core Contributors Program
+  url: https://opennetworking.org/news-and-events/blog/onf-releases-stratum-v22-03-and-launches-a-core-contributors-program/
+  kind: Open Networking Blog
+  isDelivered: false
