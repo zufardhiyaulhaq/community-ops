@@ -1,0 +1,66 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-598
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 598
+  date: 04/14/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Ruby 3.2.0 Preview 1 Released
+    url: https://rubyweekly.com/link/122012/web
+    type: News
+  - title: Why Ruby Has Symbols
+    url: https://rubyweekly.com/link/122014/web
+    type: News
+  - title: Long Term Support for Ruby on Rails 2.3, 3.2, 4.2, and 5.2
+    url: https://rubyweekly.com/link/122015/web
+    type: News
+  - title: 'Magnus: Ruby Bindings for Rust'
+    url: https://rubyweekly.com/link/122016/web
+    type: News
+  - title: "\U0001F1FA\U0001F1E6 Devs For Ukraine: An Online Dev Event to Support
+      Ukraine"
+    url: https://rubyweekly.com/link/122019/web
+    type: News
+  - title: Working with a Label Maker from Ruby
+    url: https://rubyweekly.com/link/122024/web
+    type: News
+  - title: 'Authorization in Rails Controllers: Pundit vs. CanCan'
+    url: https://rubyweekly.com/link/122025/web
+    type: News
+  - title: React on Rails - How To Build a Simple App
+    url: https://rubyweekly.com/link/122026/web
+    type: News
+  - title: RSpec.describe vs. describe
+    url: https://rubyweekly.com/link/122027/web
+    type: News
+  - title: '''Using Feature Flags to Rewrite Every View in Our Rails App'''
+    url: https://rubyweekly.com/link/122028/web
+    type: News
+  - title: 'Moneta 1.5.0: A Unified Interface to Key/Value Stores'
+    url: https://rubyweekly.com/link/122029/web
+    type: News
+  - title: 'Page Title Helper 6.0: I18ned and DRY Page Titles and Headings for Rails'
+    url: https://rubyweekly.com/link/122030/web
+    type: News
+  - title: 'xsv 1.1.1: Fast, Lightweight XLSX (Excel) Parser for Ruby'
+    url: https://rubyweekly.com/link/122032/web
+    type: News
+  - title: 'Your Localization Platform: Develop, Translate, Deploy - Reiterate'
+    url: https://rubyweekly.com/link/122033/web
+    type: News
+  - title: MessagePack Implementation for Ruby v1.5
+    url: https://rubyweekly.com/link/122034/web
+    type: News
+  - title: 'Groupdate 6.1: A Simple Way to Group Temporal Data'
+    url: https://rubyweekly.com/link/122036/web
+    type: News
+  - title: 'Martian Mono: An Open-Source Monospace Type Family'
+    url: https://rubyweekly.com/link/122039/web
+    type: News
