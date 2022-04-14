@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-14-04-2022
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 14-04-2022
+  date: 04/14/2022
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: ONF Releases Stratum v22.03 and Launches a Core Contributors Program
+    url: https://opennetworking.org/news-and-events/blog/onf-releases-stratum-v22-03-and-launches-a-core-contributors-program/
+    type: Open Networking Blog
