@@ -1,0 +1,59 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-302
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 302
+  date: 04/16/2022
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: 2022 State of observability and log management
+    url: https://community.cncf.io/e/mmg5xa/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-915s69-60maNoVw4w1SD_2xG4b7No9_A5T3JljI-Xzm3lOb0NDdS9hS-0yJA1fAzxrv18g
+    type: ICYMI
+  - title: Language, learning and leadership, with Divya Mohan
+    url: https://kubernetespodcast.com/episode/176-language-learning-leadership/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-915s69-60maNoVw4w1SD_2xG4b7No9_A5T3JljI-Xzm3lOb0NDdS9hS-0yJA1fAzxrv18g
+    type: Editorial
+  - title: Kubernetes Community Days Czech & Slovak
+    url: https://community.cncf.io/kcd-czech-slovak/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-915s69-60maNoVw4w1SD_2xG4b7No9_A5T3JljI-Xzm3lOb0NDdS9hS-0yJA1fAzxrv18g
+    type: Editorial
+  - title: Featured Keynote speakers announced for Open Source Summit
+    url: https://events.linuxfoundation.org/open-source-summit-north-america/program/featured-speakers/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-915s69-60maNoVw4w1SD_2xG4b7No9_A5T3JljI-Xzm3lOb0NDdS9hS-0yJA1fAzxrv18g
+    type: Editorial
+  - title: Why and how should you reboot Kubernetes Nodes?
+    url: https://elastisys.com/why-and-how-should-you-reboot-kubernetes-nodes/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-915s69-60maNoVw4w1SD_2xG4b7No9_A5T3JljI-Xzm3lOb0NDdS9hS-0yJA1fAzxrv18g
+    type: Editorial
+  - title: Contributing to Flux
+    url: https://fluxcd.io/blog/2022/04/contributing-to-flux/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-915s69-60maNoVw4w1SD_2xG4b7No9_A5T3JljI-Xzm3lOb0NDdS9hS-0yJA1fAzxrv18g
+    type: Editorial
+  - title: ""
+    url: https://kubernetes.io/blog/2022/03/31/ready-for-dockershim-removal/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-915s69-60maNoVw4w1SD_2xG4b7No9_A5T3JljI-Xzm3lOb0NDdS9hS-0yJA1fAzxrv18g
+    type: Editorial
+  - title: Automate Public Certificate Lifecycle Management via ACME client API
+    url: http://cloud.google.com/blog/products/identity-security/automate-public-certificate-lifecycle-management-via--acme-client-api?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-915s69-60maNoVw4w1SD_2xG4b7No9_A5T3JljI-Xzm3lOb0NDdS9hS-0yJA1fAzxrv18g
+    type: Technical
+  - title: Getting started with Kyverno
+    url: https://kubesimplify.com/getting-started-with-kyverno?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-915s69-60maNoVw4w1SD_2xG4b7No9_A5T3JljI-Xzm3lOb0NDdS9hS-0yJA1fAzxrv18g
+    type: Technical
+  - title: How to secure deployments in Kubernetes?
+    url: https://www.armosec.io/blog/secure-kubernetes-deployment/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-915s69-60maNoVw4w1SD_2xG4b7No9_A5T3JljI-Xzm3lOb0NDdS9hS-0yJA1fAzxrv18g
+    type: Technical
+  - title: Local development in Kubernetes with werf 1.2 and minikube
+    url: https://blog.flant.com/local-development-in-kubernetes-with-werf/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-915s69-60maNoVw4w1SD_2xG4b7No9_A5T3JljI-Xzm3lOb0NDdS9hS-0yJA1fAzxrv18g
+    type: Technical
+  - title: ArgoCD best practices you should know
+    url: https://www.datree.io/resources/argocd-best-practices-you-should-know?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-915s69-60maNoVw4w1SD_2xG4b7No9_A5T3JljI-Xzm3lOb0NDdS9hS-0yJA1fAzxrv18g
+    type: Technical
+  - title: Kubernetes ephemeral container security
+    url: https://xenitab.github.io/blog/2022/04/12/ephemeral-container-security/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-915s69-60maNoVw4w1SD_2xG4b7No9_A5T3JljI-Xzm3lOb0NDdS9hS-0yJA1fAzxrv18g
+    type: Technical
+  - title: Monitoring service mesh performance with Istio and New Relic
+    url: https://newrelic.com/blog/how-to-relic/monitoring-istio-service-mesh?utm_source=kubeweekly&utm_medium=community&utm_campaign=global-fy23-q1-prometheus&utm_content=blog&_hsenc=p2ANqtz-915s69-60maNoVw4w1SD_2xG4b7No9_A5T3JljI-Xzm3lOb0NDdS9hS-0yJA1fAzxrv18g
+    type: Technical
+  - title: ""
+    url: https://groups.google.com/g/etcd-dev/c/sad9tgmKU7Y/m/vhArFVevBgAJ?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-915s69-60maNoVw4w1SD_2xG4b7No9_A5T3JljI-Xzm3lOb0NDdS9hS-0yJA1fAzxrv18g
+    type: Technical
