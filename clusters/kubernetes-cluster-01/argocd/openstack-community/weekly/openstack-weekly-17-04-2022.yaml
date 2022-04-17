@@ -1,0 +1,20 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-17-04-2022
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 17-04-2022
+  date: 04/17/2022
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: 'Large Scale Ops Deep Dive: Yahoo | OpenInfra Live Recap'
+    url: https://superuser.openstack.org/articles/large-scale-ops-deep-dive-yahoo-openinfra-live-recap/
+    type: OpenStack Super User News
+  - title: What to Expect at the OpenInfra Summit Berlin – Hybrid & Private Cloud Track | OpenInfra Live Recap
+    url: https://superuser.openstack.org/articles/what-to-expect-at-the-openinfra-summit-berlin-hybrid-private-cloud-track-openinfra-live-recap/
+    type: OpenStack Super User News
