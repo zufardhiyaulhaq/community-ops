@@ -1030,8 +1030,8 @@ content:
 - title: 'Large Scale Ops Deep Dive: Yahoo | OpenInfra Live Recap'
   url: https://superuser.openstack.org/articles/large-scale-ops-deep-dive-yahoo-openinfra-live-recap/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
 - title: What to Expect at the OpenInfra Summit Berlin – Hybrid & Private Cloud Track | OpenInfra Live Recap
   url: https://superuser.openstack.org/articles/what-to-expect-at-the-openinfra-summit-berlin-hybrid-private-cloud-track-openinfra-live-recap/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
