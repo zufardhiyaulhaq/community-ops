@@ -1,0 +1,72 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-585
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 585
+  date: 04/20/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'JS Function Composition: What’s The Big Deal?'
+    url: https://javascriptweekly.com/link/122403/web
+    type: News
+  - title: '“Change Array by Copy”: Four New Non-Destructive Array Methods'
+    url: https://javascriptweekly.com/link/122413/web
+    type: News
+  - title: Want to Dive Deeper into Stories of the Software Industry?
+    url: https://javascriptweekly.com/link/122358/web
+    type: News
+  - title: TypeScript 4.7 Beta Released
+    url: https://javascriptweekly.com/link/122373/web
+    type: News
+  - title: A 'Search Engine' for JavaScript Operators
+    url: https://javascriptweekly.com/link/122404/web
+    type: News
+  - title: 'Fetch vs Axios: A Comparison for Fetching HTTP Resources'
+    url: https://javascriptweekly.com/link/122383/web
+    type: News
+  - title: Building an Interactive Sparkline Graph with D3
+    url: https://javascriptweekly.com/link/122385/web
+    type: News
+  - title: A Rust Course Especially for JavaScript Developers
+    url: https://javascriptweekly.com/link/122372/web
+    type: News
+  - title: How to Build a CMS-Powered Blog with Nuxt
+    url: https://javascriptweekly.com/link/122386/web
+    type: News
+  - title: A Guide to Optimizing JavaScript for Quick Page Loads
+    url: https://javascriptweekly.com/link/122388/web
+    type: News
+  - title: 'Wild Wild Path: Object Property Paths with Wildcards and Regexps'
+    url: https://javascriptweekly.com/link/122391/web
+    type: News
+  - title: 'YouTube.js 1.4: A Wrapper Around YouTube''s Private API'
+    url: https://javascriptweekly.com/link/122393/web
+    type: News
+  - title: 'jc: CLI Tool That Converts Output of Popular CLI Tools to JSON'
+    url: https://javascriptweekly.com/link/122394/web
+    type: News
+  - title: Integrate eSignatures in Your App in Less Than a Week
+    url: https://javascriptweekly.com/link/122366/web
+    type: News
+  - title: 'React Admin 4.0: An Admin Panel for B2B Applications'
+    url: https://javascriptweekly.com/link/122395/web
+    type: News
+  - title: 'nextjs-blog-theme: A Customizable Blog Starter Built with Next.js and
+      Tailwind'
+    url: https://javascriptweekly.com/link/122398/web
+    type: News
+  - title: 'scroll-snap: A Customizable ''Scroll Snap'' Implementation'
+    url: https://javascriptweekly.com/link/122400/web
+    type: News
+  - title: 'Gladys Assistant: A Privacy-First, Open-Source Home Assistant'
+    url: https://javascriptweekly.com/link/122409/web
+    type: News
+  - title: Draw 'Handdrawn' Diagrams in VS Code with Excalidraw
+    url: https://javascriptweekly.com/link/122410/web
+    type: News
