@@ -1,0 +1,53 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-433
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 433
+  date: 04/20/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Wild Wild Path: Object Property Paths with Wildcards and Regexps'
+    url: https://nodeweekly.com/link/122328/web
+    type: News
+  - title: A Command-Line Argument Parsing API for Node.js Core?
+    url: https://nodeweekly.com/link/122353/web
+    type: News
+  - title: Fight Bugs with AppSignal in Multiplayer Mode
+    url: https://nodeweekly.com/link/122330/web
+    type: News
+  - title: Node v17.9.0 (Current) Released
+    url: https://nodeweekly.com/link/122331/web
+    type: News
+  - title: 'Oclif 3.0: Heroku''s Open CLI Framework for Node'
+    url: https://nodeweekly.com/link/122332/web
+    type: News
+  - title: Comparing Plugin Systems Between Express, Fastify and NestJS
+    url: https://nodeweekly.com/link/122339/web
+    type: News
+  - title: Keep Up with the Latest in Startups, Tech, & Programming in Just 5 Min
+    url: https://nodeweekly.com/link/122340/web
+    type: News
+  - title: How to Use a Proxy in Next.js
+    url: https://nodeweekly.com/link/122341/web
+    type: News
+  - title: 'npm-registry-firewall 1.7: npm Registry Proxy with On-the-Fly Filtering'
+    url: https://nodeweekly.com/link/122342/web
+    type: News
+  - title: 'YouTube.js 1.4: A Wrapper Around YouTube''s Private API'
+    url: https://nodeweekly.com/link/122343/web
+    type: News
+  - title: 'article-parser: Node Library to Extract Articles from Web Pages'
+    url: https://nodeweekly.com/link/122344/web
+    type: News
+  - title: Free Activity Feeds & Chat APIs for Qualifying Teams
+    url: https://nodeweekly.com/link/122347/web
+    type: News
+  - title: 'Chalk.ist: Create Beautiful Images of Your Source Code'
+    url: https://nodeweekly.com/link/122348/web
+    type: News
