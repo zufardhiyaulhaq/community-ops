@@ -774,8 +774,8 @@ content:
 - title: Community Highlights – February/March 2022
   url: https://opennetworking.org/news-and-events/blog/community-highlights-february-march-2022/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: ONF Open Broadband Meetup Berlin
   url: https://opennetworking.org/events/onf-open-broadband-meetup-berlin/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
