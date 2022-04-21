@@ -1,0 +1,53 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-599
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 599
+  date: 04/21/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'Performance at GitHub: Deferring Stats with rack.after_reply'
+    url: https://rubyweekly.com/link/122262/web
+    type: News
+  - title: Ruby 3.1.2 Released (and 3.0.4, 2.7.6, and 2.6.10)
+    url: https://rubyweekly.com/link/122263/web
+    type: News
+  - title: 'Free eBook: Efficient Search in Rails with Postgres'
+    url: https://rubyweekly.com/link/122266/web
+    type: News
+  - title: Recently in Ruby Core
+    url: https://rubyweekly.com/link/122267/web
+    type: News
+  - title: Different Ways to Set Attributes in Active Record
+    url: https://rubyweekly.com/link/122279/web
+    type: News
+  - title: Releasing a Redesign using Feature Flags and Rails Variants
+    url: https://rubyweekly.com/link/122280/web
+    type: News
+  - title: How Environment Variables Can Make Your Ruby Test Suite 'Flaky'
+    url: https://rubyweekly.com/link/122282/web
+    type: News
+  - title: Flaky Tests Slowing You Down? BuildPulse Can Help
+    url: https://rubyweekly.com/link/122283/web
+    type: News
+  - title: 'Introducing erb2builder: An HTML+ERB Parser'
+    url: https://rubyweekly.com/link/122284/web
+    type: News
+  - title: 'Opal 1.5: The Ruby to JavaScript Compiler'
+    url: https://rubyweekly.com/link/122288/web
+    type: News
+  - title: 'RbSyn: Program Synthesis for Ruby'
+    url: https://rubyweekly.com/link/122291/web
+    type: News
+  - title: Complete Peace of Mind Rails Hosting
+    url: https://rubyweekly.com/link/122292/web
+    type: News
+  - title: 'Silencer: Easily Suppress the Rails Logger'
+    url: https://rubyweekly.com/link/122293/web
+    type: News
