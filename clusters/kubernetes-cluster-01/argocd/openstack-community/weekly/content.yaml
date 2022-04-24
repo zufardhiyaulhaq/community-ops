@@ -1035,3 +1035,7 @@ content:
   url: https://superuser.openstack.org/articles/what-to-expect-at-the-openinfra-summit-berlin-hybrid-private-cloud-track-openinfra-live-recap/
   kind: OpenStack Super User News
   isDelivered: true
+- title: Everything You Need to Know About the OpenInfra Summit
+  url: https://superuser.openstack.org/articles/everything-you-need-to-know-about-the-openinfra-summit/
+  kind: OpenStack Super User News
+  isDelivered: false
