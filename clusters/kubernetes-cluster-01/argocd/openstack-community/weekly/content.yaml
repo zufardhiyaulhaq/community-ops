@@ -1038,4 +1038,4 @@ content:
 - title: Everything You Need to Know About the OpenInfra Summit
   url: https://superuser.openstack.org/articles/everything-you-need-to-know-about-the-openinfra-summit/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
