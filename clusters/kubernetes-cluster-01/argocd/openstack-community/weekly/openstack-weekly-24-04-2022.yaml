@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-24-04-2022
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 24-04-2022
+  date: 04/24/2022
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: Everything You Need to Know About the OpenInfra Summit
+    url: https://superuser.openstack.org/articles/everything-you-need-to-know-about-the-openinfra-summit/
+    type: OpenStack Super User News
