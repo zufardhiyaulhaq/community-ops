@@ -1,0 +1,59 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-408
+  namespace: golang-community
+spec:
+  name: Golang Weekly 408
+  date: 04/24/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: The Go Developer Survey 2021 Results
+    url: https://golangweekly.com/link/122642/web
+    type: News
+  - title: 'RedisGreen: Secure, Scalable, Full-Featured Redis Hosting'
+    url: https://golangweekly.com/link/122612/web
+    type: News
+  - title: When To Use Generics
+    url: https://golangweekly.com/link/122616/web
+    type: News
+  - title: A Deep Dive into Go for OpenFaaS Functions
+    url: https://golangweekly.com/link/122617/web
+    type: News
+  - title: SMTP Protocol Basics From Scratch in Go
+    url: https://golangweekly.com/link/122623/web
+    type: News
+  - title: Discussing Go Code Organization Best Practices
+    url: https://golangweekly.com/link/122624/web
+    type: News
+  - title: Revisiting Arrays and Slices with Generics
+    url: https://golangweekly.com/link/122625/web
+    type: News
+  - title: Should You Commit the Vendor Folder in Go?
+    url: https://golangweekly.com/link/122627/web
+    type: News
+  - title: 'Triangle 2.0: Convert Images to Art with Delaunay Triangulation'
+    url: https://golangweekly.com/link/122630/web
+    type: News
+  - title: 'panicparse: A Panic Stack Trace Parser and Debugging Tool'
+    url: https://golangweekly.com/link/122632/web
+    type: News
+  - title: 'goda: Go Dependency Analysis Toolkit'
+    url: https://golangweekly.com/link/122633/web
+    type: News
+  - title: Free Activity Feeds & Chat APIs for Qualifying Teams
+    url: https://golangweekly.com/link/122634/web
+    type: News
+  - title: 'TruffleHog: Finds Credentials All Over The Place'
+    url: https://golangweekly.com/link/122635/web
+    type: News
+  - title: 'aws-lambda-go: Go Libraries, Samples, and Tools for AWS Lambda'
+    url: https://golangweekly.com/link/122636/web
+    type: News
+  - title: 'Qmgo: An Easier-to-Use MongoDB Driver'
+    url: https://golangweekly.com/link/122638/web
+    type: News
