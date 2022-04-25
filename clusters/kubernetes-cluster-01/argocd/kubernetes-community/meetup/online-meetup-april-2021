@@ -1,0 +1,22 @@
+apiVersion: community.io/v1alpha1
+kind: Meetup
+metadata:
+  name: online-meetup-april-2021
+  namespace: kubernetes-community
+spec:
+  name: "Kubernetes Cloud Native Online Meetup April 2022"
+  date: "April 28, 2022"
+  time: "16.00"
+  place: "Online"
+  city: "Indonesia"
+  sponsor: "CNCF"
+  registration_url: "online.kubernetescommunity.id"
+  image: "https://raw.githubusercontent.com/cloudnative-id/artwork/master/poster/online/28-April-2022.png"
+  tags:
+    - meetup
+    - CNCF
+  speakers:
+  - name: "Gofrendi Gunawan"
+    position: "Data Engineer"
+    company: "Catalyst Tech"
+    title: "Book Review: Kubernetes Pattern"
