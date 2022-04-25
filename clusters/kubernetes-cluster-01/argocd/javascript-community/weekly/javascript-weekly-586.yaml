@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-586
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 586
+  date: 04/25/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Lexical: An Extensible Text Editor Library (That Does Things Differently)'
+    url: https://javascriptweekly.com/link/122666/web
+    type: News
+  - title: Node.js 18 (Current) Released
+    url: https://javascriptweekly.com/link/122668/web
+    type: News
+  - title: Open-Source Backend Server for Web, Mobile & Flutter Devs
+    url: https://javascriptweekly.com/link/122669/web
+    type: News
+  - title: The OpenJS Foundation's JavaScriptLandia Awards
+    url: https://javascriptweekly.com/link/122670/web
+    type: News
+  - title: Ember 4.3 Released
+    url: https://javascriptweekly.com/link/122672/web
+    type: News
+  - title: Ember's Road to TypeScript and More
+    url: https://javascriptweekly.com/link/122693/web
+    type: News
+  - title: Seven Web Component Tricks
+    url: https://javascriptweekly.com/link/122694/web
+    type: News
+  - title: Transform Your File Uploads with Filestack
+    url: https://javascriptweekly.com/link/122695/web
+    type: News
+  - title: V8's Faster Initialization of Instances with New Class Features
+    url: https://javascriptweekly.com/link/122696/web
+    type: News
+  - title: What Key Was Pressed? (You Won't Believe How Keyboard Events Work)
+    url: https://javascriptweekly.com/link/122697/web
+    type: News
+  - title: 'A Quick Guide to Mitosis: Why You Need It and How You Can Use It'
+    url: https://javascriptweekly.com/link/122698/web
+    type: News
+  - title: Integrate eSignatures in Your App in Less Than a Week
+    url: https://javascriptweekly.com/link/122700/web
+    type: News
+  - title: Reducing Spam From mailto Links
+    url: https://javascriptweekly.com/link/122701/web
+    type: News
+  - title: 'Leaflet 1.8.0: Mobile-Friendly Interactive Map Library'
+    url: https://javascriptweekly.com/link/122706/web
+    type: News
+  - title: 'Kaluma 1.0: A Tiny JS Runtime for the RP2040 (Raspberry Pi Pico)'
+    url: https://javascriptweekly.com/link/122708/web
+    type: News
+  - title: 'SpaceTime: A Lightweight Timezone Library'
+    url: https://javascriptweekly.com/link/122709/web
+    type: News
+  - title: Speed Up Your Builds with Buildkite’s New Plan
+    url: https://javascriptweekly.com/link/122711/web
+    type: News
+  - title: 'PicMo: A Plain JavaScript Emoji Picker'
+    url: https://javascriptweekly.com/link/122712/web
+    type: News
+  - title: The Most Popular Node.js Frameworks in 2022
+    url: https://javascriptweekly.com/link/122714/web
+    type: News
+  - title: 'HyperFormula 2.0.0: Spreadsheet-Like Calculation Engine'
+    url: https://javascriptweekly.com/link/122715/web
+    type: News
+  - title: 'Mess with DNS: A Playground to Learn About DNS Concepts'
+    url: https://javascriptweekly.com/link/122717/web
+    type: News
+  - title: 'Look Scanned: Make PDFs ''Look Scanned'''
+    url: https://javascriptweekly.com/link/122718/web
+    type: News
