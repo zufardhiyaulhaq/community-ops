@@ -1,0 +1,50 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-434
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 434
+  date: 04/27/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Node.js 18 (Current) Released
+    url: https://nodeweekly.com/link/122584/web
+    type: News
+  - title: "Complete Node.js Learning Path \U0001F6A2"
+    url: https://nodeweekly.com/link/122589/web
+    type: News
+  - title: The Most Popular Node.js Frameworks in 2022
+    url: https://nodeweekly.com/link/122590/web
+    type: News
+  - title: Four Reasons to Avoid using npm link
+    url: https://nodeweekly.com/link/122591/web
+    type: News
+  - title: Writing a Node App with ClojureScript and nbb
+    url: https://nodeweekly.com/link/122596/web
+    type: News
+  - title: How to Go from 1x Deploy a Week → 1x a Day → Many Times a Day.
+    url: https://nodeweekly.com/link/122598/web
+    type: News
+  - title: How to Debug Node.js Code Using Multiple Tools
+    url: https://nodeweekly.com/link/122609/web
+    type: News
+  - title: 'chalk-animation: Colorful Animations in Terminal Output'
+    url: https://nodeweekly.com/link/122599/web
+    type: News
+  - title: 'WebDAV 4.9: A WebDAV Client Written in TypeScript'
+    url: https://nodeweekly.com/link/122600/web
+    type: News
+  - title: Run Node.js Unikernels 2X as Fast on GCP and 3X as Fast on AWS
+    url: https://nodeweekly.com/link/122602/web
+    type: News
+  - title: 'Gladys Assistant: A Privacy-First, Open-Source Home Assistant'
+    url: https://nodeweekly.com/link/122603/web
+    type: News
+  - title: 'node-sqlite3 5.0.4: Async SQLite3 Bindings for Node'
+    url: https://nodeweekly.com/link/122604/web
+    type: News
