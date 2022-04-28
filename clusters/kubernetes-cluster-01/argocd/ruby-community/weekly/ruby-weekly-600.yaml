@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-600
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 600
+  date: 04/28/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Ruby's YJIT Ported to Rust
+    url: https://rubyweekly.com/link/122547/web
+    type: News
+  - title: How to Create a Modern CRUD App with Rails and React
+    url: https://rubyweekly.com/link/122548/web
+    type: News
+  - title: The Best Deployment Tool for Rails
+    url: https://rubyweekly.com/link/122549/web
+    type: News
+  - title: Ruby 3.1 Introduces Variable Width Allocation for Strings
+    url: https://rubyweekly.com/link/122550/web
+    type: News
+  - title: A Chat with Rubyist Mike Perham, the Creator of Sidekiq
+    url: https://rubyweekly.com/link/122551/web
+    type: News
+  - title: 'Code Ranges: A Deeper Look at Ruby Strings'
+    url: https://rubyweekly.com/link/122554/web
+    type: News
+  - title: Custom Ranges in Ruby
+    url: https://rubyweekly.com/link/122563/web
+    type: News
+  - title: The Underrated Power of dry-schema
+    url: https://rubyweekly.com/link/122564/web
+    type: News
+  - title: How to Fake Time in a Postgres Database
+    url: https://rubyweekly.com/link/122567/web
+    type: News
+  - title: Keep Up with the Latest in Startups, Tech, & Programming in Just 5 Min
+    url: https://rubyweekly.com/link/122569/web
+    type: News
+  - title: 'Testing Techniques: The ''I/O Table'''
+    url: https://rubyweekly.com/link/122570/web
+    type: News
+  - title: How to Add Filtering and Pagination to Data Tables with Hotwire
+    url: https://rubyweekly.com/link/122571/web
+    type: News
+  - title: The Differences Between count, length and size on an Active Record Association
+    url: https://rubyweekly.com/link/122572/web
+    type: News
+  - title: 'command_mapper: A Way to Map External Commands to Ruby Classes'
+    url: https://rubyweekly.com/link/122573/web
+    type: News
+  - title: 'Bumbler 0.9: Track The Load Progress of Bundler-based Projects'
+    url: https://rubyweekly.com/link/122575/web
+    type: News
+  - title: Speed Up Your Builds with Buildkite’s New Plan
+    url: https://rubyweekly.com/link/122576/web
+    type: News
+  - title: 'Blazer 2.6.0: A Ruby-Powered Business Intelligence Tool'
+    url: https://rubyweekly.com/link/122577/web
+    type: News
