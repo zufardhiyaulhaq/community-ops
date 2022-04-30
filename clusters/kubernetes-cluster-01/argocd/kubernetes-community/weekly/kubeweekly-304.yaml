@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: kubeweekly-304
+  namespace: kubernetes-community
+spec:
+  name: KubeWeekly 304
+  date: 04/30/2022
+  image: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+  community: Cloud Native Indonesia Community
+  tags:
+  - weekly
+  - kubernetes
+  articles:
+  - title: Let your developer easily connect, secure,and enforce policy for your MicroService
+    url: https://community.cncf.io/e/m93jwt/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+    type: ICYMI
+  - title: Low-ops Kubernetes storage with MicroK8s and OpenEBS
+    url: https://community.cncf.io/e/m8rb6a/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+    type: ICYMI
+  - title: Creating web apps as containerized services
+    url: https://community.cncf.io/e/m2hbp5/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+    type: ICYMI
+  - title: Cloud-Native Chaos engineering preview with LitmusChaos
+    url: https://community.cncf.io/e/mwuj5x/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+    type: ICYMI
+  - title: Understanding the new Kubernetes Gateway API vs. Ingress
+    url: https://community.cncf.io/e/mj92r9/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+    type: ICYMI
+  - title: 'Open Source Summit North America: Full schedule available'
+    url: https://events.linuxfoundation.org/open-source-summit-north-america/program/schedule/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+    type: Editorial
+  - title: IstioCon, with Mitch Connors
+    url: https://kubernetespodcast.com/episode/177-istiocon/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+    type: Editorial
+  - title: Announcing stronger Istio support with Istio mode for VMware Tanzu service
+      mesh
+    url: https://tanzu.vmware.com/content/blog/istio-mode-tanzu-service-mesh?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+    type: Editorial
+  - title: SSH bastions break your zero trust model
+    url: https://blogs.appaegis.com/ssh-bastions-break-your-zero-trust-model?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+    type: Editorial
+  - title: 'In the Clouds with E&E: Episode 4 - The amazing real-world value of smarter
+      cloud governance'
+    url: https://open.spotify.com/show/5xuiYr4Y4IJIMHYsZKNAGi?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+    type: Editorial
+  - title: AWS's Log4Shell hot patch vulnerable to container escape and privilege
+      escalation
+    url: https://unit42.paloaltonetworks.com/aws-log4shell-hot-patch-vulnerabilities/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+    type: Editorial
+  - title: My schedule for KubeCon + CloudNativeCon EU 2022
+    url: https://kubesimplify.com/my-schedule-for-kubecon-cloudnativecon-eu-2022?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+    type: Editorial
+  - title: Certified Kubernetes Security Specialist (CKS) 2022 exam guide
+    url: https://kubesimplify.com/certified-kubernetes-security-specialist-cks-2022-exam-guide?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+    type: Editorial
+  - title: ""
+    url: https://www.telecomtv.com/content/digital-platforms-services/google-cloud-linux-foundation-tackle-telco-cloud-automation-44182/?utm_source=TelecomTV&utm_campaign=611920a9aa-EMAIL_CAMPAIGN_2022_04_14_04_46&utm_medium=email&utm_term=0_6197c572c4-611920a9aa-166683553&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W#.Yl2iTpz25H4.twitter
+    type: Editorial
+  - title: A brief stroll through the CNCF eBPF landscape
+    url: https://blog.px.dev/ebpf-cncf/?utm_source=kubeweekly&utm_medium=community&utm_campaign=amer-fy23-q1-CNCF-ebf-landscape&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+    type: Technical
+  - title: The Go programming language and environment
+    url: https://cacm.acm.org/magazines/2022/5/260357-the-go-programming-language-and-environment/fulltext?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+    type: Technical
+  - title: Hunting down an intermittent failure in Cilium
+    url: https://superorbital.io/journal/hunting-intermittent-cilium-error/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+    type: Technical
+  - title: 'Busting vcluster myths: What is a virtual cluster?'
+    url: https://elastisys.com/busting-vcluster-myths-what-is-a-virtual-cluster/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+    type: Technical
+  - title: SocketCAN x Kubernetes
+    url: https://www.collabora.com/news-and-blog/news-and-events/socketcan-x-kubernetes.html?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+    type: Technical
