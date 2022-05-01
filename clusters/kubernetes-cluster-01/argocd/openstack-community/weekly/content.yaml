@@ -1042,4 +1042,4 @@ content:
 - title: Composable Infrastructure and the Future of Data Centers | OpenInfra Live Recap
   url: https://superuser.openstack.org/articles/composable-infrastructure-and-the-future-of-data-centers-openinfra-live-recap/
   kind: OpenStack Super User News
-  isDelivered: false
+  isDelivered: true
