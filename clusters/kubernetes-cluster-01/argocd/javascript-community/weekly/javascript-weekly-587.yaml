@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-587
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 587
+  date: 05/02/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Four Eras of JavaScript Frameworks
+    url: https://javascriptweekly.com/link/122949/web
+    type: News
+  - title: Building a JavaScript Bundler from Scratch
+    url: https://javascriptweekly.com/link/122988/web
+    type: News
+  - title: 'Updated Course: Complete Intro to React'
+    url: https://javascriptweekly.com/link/122950/web
+    type: News
+  - title: 'Jest 28: JS Testing Gets Lighter, Faster, More Productive'
+    url: https://javascriptweekly.com/link/122991/web
+    type: News
+  - title: How a Team Reduced Startup Time by 80% with Webpack
+    url: https://javascriptweekly.com/link/122965/web
+    type: News
+  - title: TypeScript Tips and Tricks with Matt Pocock
+    url: https://javascriptweekly.com/link/122966/web
+    type: News
+  - title: Breaking Down JSON Web Tokens (JWTs) - Free eBook
+    url: https://javascriptweekly.com/link/122968/web
+    type: News
+  - title: Node 18's 'Prefix-Only' Core Modules Explained
+    url: https://javascriptweekly.com/link/122969/web
+    type: News
+  - title: 'Remotion 3.0: ''Write'' Videos in React'
+    url: https://javascriptweekly.com/link/122974/web
+    type: News
+  - title: 'Frappe Gantt: An Open Source JavaScript Gantt Chart Control'
+    url: https://javascriptweekly.com/link/122977/web
+    type: News
+  - title: 'Couchbase Capella DBaaS: Store in JSON, Access with SQL'
+    url: https://javascriptweekly.com/link/122979/web
+    type: News
+  - title: 'htmlparser2 8.0: A ''Fast and Forgiving'' HTML and XML Parser'
+    url: https://javascriptweekly.com/link/122980/web
+    type: News
+  - title: 'FortuneSheet: An Excel-Like JS Spreadsheet Control'
+    url: https://javascriptweekly.com/link/122982/web
+    type: News
+  - title: 'React Responsive Pagination: Component for Smart Pagination'
+    url: https://javascriptweekly.com/link/122984/web
+    type: News
+  - title: Integrate eSignatures in Your App in Less Than a Week
+    url: https://javascriptweekly.com/link/122986/web
+    type: News
+  - title: 'Emoji Mart 5.0: A Customizable Emoji Picker for the Web'
+    url: https://javascriptweekly.com/link/122995/web
+    type: News
