@@ -1,0 +1,66 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-601
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 601
+  date: 05/05/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Sorbet + 100% Coverage Makes (Safe) Ruby Refactoring Possible
+    url: https://rubyweekly.com/link/122836/web
+    type: News
+  - title: Are Ruby and Rails Still Relevant?
+    url: https://rubyweekly.com/link/122837/web
+    type: News
+  - title: Modern Treasury Is Hiring to Build a Universal Banking API
+    url: https://rubyweekly.com/link/122838/web
+    type: News
+  - title: 'More Fun with WASM and WASI: ruby-syntax-tree.github.io'
+    url: https://rubyweekly.com/link/122839/web
+    type: News
+  - title: Let’s Recreate Notion in Rails
+    url: https://rubyweekly.com/link/122840/web
+    type: News
+  - title: How I Enabled Sequel to Reuse Active Record’s Database Connection
+    url: https://rubyweekly.com/link/122850/web
+    type: News
+  - title: Discussing Propshaft with DHH
+    url: https://rubyweekly.com/link/122852/web
+    type: News
+  - title: 'eBook: Right Indexes Can Improve Your Query Performance by Up to 100x'
+    url: https://rubyweekly.com/link/122854/web
+    type: News
+  - title: How to Avoid Sleeping in Capybara / System Tests
+    url: https://rubyweekly.com/link/122855/web
+    type: News
+  - title: How to Preload Counts in a List with Active Record
+    url: https://rubyweekly.com/link/122856/web
+    type: News
+  - title: Tips for Using FactoryBot Without an ORM
+    url: https://rubyweekly.com/link/122857/web
+    type: News
+  - title: The Four Phases of a Test
+    url: https://rubyweekly.com/link/122859/web
+    type: News
+  - title: 'Ransack 3.1: Object-Based Searching for Rails Apps'
+    url: https://rubyweekly.com/link/122860/web
+    type: News
+  - title: 'pg_party 1.4: PostgreSQL Partitioning for Active Record'
+    url: https://rubyweekly.com/link/122862/web
+    type: News
+  - title: "\U0001F929 Connect Your Domains to Heroku or Netlify Without Thinking
+      About DNS"
+    url: https://rubyweekly.com/link/122863/web
+    type: News
+  - title: 'Mess with DNS: A Playground to Learn About DNS Concepts'
+    url: https://rubyweekly.com/link/122864/web
+    type: News
+  - title: 'Spheres: A Tetris-Like Game Written in Ruby'
+    url: https://rubyweekly.com/link/122867/web
+    type: News
