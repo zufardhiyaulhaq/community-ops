@@ -1,0 +1,44 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-08-05-2022
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 08-05-2022
+  date: 05/08/2022
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: 'Inside Open Infrastructure: The Latest from the OpenInfra Foundation'
+    url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation-12/
+    type: OpenStack Super User News
+  - title: '2022 Superuser Awards Nominee: Inspur'
+    url: https://superuser.openstack.org/articles/2022-superuser-awards-nominee-inspur/
+    type: OpenStack Super User News
+  - title: DevIntOps – How Telco Achieve Agility
+    url: https://superuser.openstack.org/articles/devintops-how-telco-achieve-agility/
+    type: OpenStack Super User News
+  - title: '2022 Superuser Awards Nominee: Ant Group'
+    url: https://superuser.openstack.org/articles/2022-superuser-awards-nominee-ant-group/
+    type: OpenStack Super User News
+  - title: '2022 Superuser Awards Nominee: OpenMetal'
+    url: https://superuser.openstack.org/articles/2022-superuser-awards-nominee-openmetal/
+    type: OpenStack Super User News
+  - title: '2022 Superuser Awards Nominee: CanaryBit'
+    url: https://superuser.openstack.org/articles/2022-superuser-awards-nominee-canarybit/
+    type: OpenStack Super User News
+  - title: '2022 Superuser Awards Nominee: ArvanCloud'
+    url: https://superuser.openstack.org/articles/2022-superuser-awards-nominee-arvancloud-2/
+    type: OpenStack Super User News
+  - title: '2022 Superuser Awards Nominee: Volvo Cars Corporation'
+    url: https://superuser.openstack.org/articles/2022-superuser-awards-nominee-volvo/
+    type: OpenStack Super User News
+  - title: '2022 Superuser Awards Nominee: Fairbanks'
+    url: https://superuser.openstack.org/articles/2022-superuser-awards-nominee-fairbanks/
+    type: OpenStack Super User News
+  - title: '2022 Superuser Awards Nominee: Zhejiang Expressway Co, IT Team'
+    url: https://superuser.openstack.org/articles/2022-superuser-awards-nominee-zhejiang-expressway-co-it-team/
+    type: OpenStack Super User News
