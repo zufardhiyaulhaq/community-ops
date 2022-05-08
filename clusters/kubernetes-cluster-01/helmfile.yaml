@@ -113,7 +113,7 @@ releases:
 
 - name: sma-alert
   namespace: stock-monitoring
-  version: 1.0.0
+  version: 1.1.0
   chart: zufardhiyaulhaq/sma-alert
   values:
   - releases/stock-monitoring/sma-alert.yaml
