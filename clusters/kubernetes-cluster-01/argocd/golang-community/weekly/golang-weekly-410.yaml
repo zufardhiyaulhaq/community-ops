@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-410
+  namespace: golang-community
+spec:
+  name: Golang Weekly 410
+  date: 05/08/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: The Design Decisions Behind the Go Language and Environment
+    url: https://golangweekly.com/link/123183/web
+    type: News
+  - title: An Experience Report After 6 Months of Go
+    url: https://golangweekly.com/link/123184/web
+    type: News
+  - title: Troubleshoot and Optimize Golang App Performance with Datadog APM
+    url: https://golangweekly.com/link/123185/web
+    type: News
+  - title: A Gentle Introduction to Generics in Go
+    url: https://golangweekly.com/link/123186/web
+    type: News
+  - title: Breaking the Monolith at Twitch
+    url: https://golangweekly.com/link/123187/web
+    type: News
+  - title: Building a Serverless Backend for Slack on AWS Lambda
+    url: https://golangweekly.com/link/123198/web
+    type: News
+  - title: '''Go and PHP Sitting in a Tree...'''
+    url: https://golangweekly.com/link/123200/web
+    type: News
+  - title: 'Go Cover Treemap: Generate Treemaps for Go Cover Profiles'
+    url: https://golangweekly.com/link/123202/web
+    type: News
+  - title: Generic Data Structures 1.0
+    url: https://golangweekly.com/link/123204/web
+    type: News
+  - title: 'Introducing ArcticDB: An Embeddable Column Database'
+    url: https://golangweekly.com/link/123205/web
+    type: News
+  - title: 'TinyGo 0.23.0: Now with Support for Go 1.18'
+    url: https://golangweekly.com/link/123206/web
+    type: News
+  - title: Keep Up with the Latest in Startups, Tech, & Programming in Just 5 Min
+    url: https://golangweekly.com/link/123207/web
+    type: News
+  - title: 'go-github v44.0: A Go Client for the GitHub v3 API'
+    url: https://golangweekly.com/link/123208/web
+    type: News
+  - title: 'go-mysql 1.5: A Pure Go Library for the MySQL Network Protocol'
+    url: https://golangweekly.com/link/123210/web
+    type: News
