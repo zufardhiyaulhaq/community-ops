@@ -1043,3 +1043,43 @@ content:
   url: https://superuser.openstack.org/articles/composable-infrastructure-and-the-future-of-data-centers-openinfra-live-recap/
   kind: OpenStack Super User News
   isDelivered: true
+- title: 'Inside Open Infrastructure: The Latest from the OpenInfra Foundation'
+  url: https://superuser.openstack.org/articles/inside-open-infrastructure-the-latest-from-the-openinfra-foundation-12/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: '2022 Superuser Awards Nominee: Inspur'
+  url: https://superuser.openstack.org/articles/2022-superuser-awards-nominee-inspur/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: DevIntOps – How Telco Achieve Agility
+  url: https://superuser.openstack.org/articles/devintops-how-telco-achieve-agility/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: '2022 Superuser Awards Nominee: Ant Group'
+  url: https://superuser.openstack.org/articles/2022-superuser-awards-nominee-ant-group/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: '2022 Superuser Awards Nominee: OpenMetal'
+  url: https://superuser.openstack.org/articles/2022-superuser-awards-nominee-openmetal/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: '2022 Superuser Awards Nominee: CanaryBit'
+  url: https://superuser.openstack.org/articles/2022-superuser-awards-nominee-canarybit/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: '2022 Superuser Awards Nominee: ArvanCloud'
+  url: https://superuser.openstack.org/articles/2022-superuser-awards-nominee-arvancloud-2/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: '2022 Superuser Awards Nominee: Volvo Cars Corporation'
+  url: https://superuser.openstack.org/articles/2022-superuser-awards-nominee-volvo/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: '2022 Superuser Awards Nominee: Fairbanks'
+  url: https://superuser.openstack.org/articles/2022-superuser-awards-nominee-fairbanks/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: '2022 Superuser Awards Nominee: Zhejiang Expressway Co, IT Team'
+  url: https://superuser.openstack.org/articles/2022-superuser-awards-nominee-zhejiang-expressway-co-it-team/
+  kind: OpenStack Super User News
+  isDelivered: false
