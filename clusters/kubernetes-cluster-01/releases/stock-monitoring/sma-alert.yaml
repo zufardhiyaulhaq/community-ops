@@ -3,7 +3,7 @@ cronSchedule: "0 12 * * 1-5"
 
 image:
   repository: "zufardhiyaulhaq/sma-alert"
-  tag: "v1.0.0"
+  tag: "v1.1.0"
 
 secret: "sma"
 
@@ -297,5 +297,61 @@ issuers:
   country: JK
 - code: AVIA
   country: JK
-
-
+- code: ENRG
+  country: JK
+- code: FILM
+  country: JK
+- code: WIRG
+  country: JK
+- code: GOTO
+  country: JK
+- code: MEDC
+  country: JK
+- code: IMAS
+  country: JK
+- code: GOOD
+  country: JK
+- code: SPMA
+  country: JK
+- code: TSPC
+  country: JK
+- code: IGAR
+  country: JK
+- code: INCI
+  country: JK
+- code: IBFN
+  country: JK
+- code: PADI
+  country: JK
+- code: ARNA
+  country: JK
+- code: GEMS
+  country: JK
+- code: MARK
+  country: JK
+- code: BYAN
+  country: JK
+- code: MIDI
+  country: JK
+- code: CLEO
+  country: JK
+- code: SMSM
+  country: JK
+- code: MBAP
+  country: JK
+- code: MLBI
+  country: JK
+- code: ABMM
+  country: JK
+- code: TPMA
+  country: JK
+- code: PSSI
+  country: JK
+- code: CAMP
+  country: JK
+- code: SPTO
+  country: JK
+- code: SMDR
+  country: JK
+- code: BISI
+  country: JK
