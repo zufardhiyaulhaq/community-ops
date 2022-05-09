@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-436
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 436
+  date: 05/09/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Node v18.1.0 (Current) Released
+    url: https://nodeweekly.com/link/123134/web
+    type: News
+  - title: The Thing About Fastify
+    url: https://nodeweekly.com/link/123138/web
+    type: News
+  - title: 'AppSignal Logbook: Team Discussion and Full Incident History'
+    url: https://nodeweekly.com/link/123140/web
+    type: News
+  - title: Prisma Raises $40M for 'Open Source Platform for Database Languages'
+    url: https://nodeweekly.com/link/123141/web
+    type: News
+  - title: Creating and Deploying a Tiny Proxy Server on Vercel in 10 Minutes
+    url: https://nodeweekly.com/link/123152/web
+    type: News
+  - title: '''Lerna Has Gone. Which Monorepo Is Right with Node Now?'''
+    url: https://nodeweekly.com/link/123167/web
+    type: News
+  - title: Building a JavaScript Bundler from Scratch
+    url: https://nodeweekly.com/link/123143/web
+    type: News
+  - title: Read Our Comparison of Serverless Frameworks for Building in Node.js
+    url: https://nodeweekly.com/link/123153/web
+    type: News
+  - title: 'NodeBB 2.0 Released: Node-Powered Forum Software'
+    url: https://nodeweekly.com/link/123156/web
+    type: News
+  - title: 'pdfreader 2.0: Parse Text and Tables From PDF Files'
+    url: https://nodeweekly.com/link/123159/web
+    type: News
+  - title: 'Introducing Filestack: The All-In-One File Service Designed For Speed'
+    url: https://nodeweekly.com/link/123160/web
+    type: News
+  - title: 'resvg-js 2.0: A High-Performance SVG Renderer and Toolkit'
+    url: https://nodeweekly.com/link/123161/web
+    type: News
+  - title: 'JSPyBridge 1.0: A Bridge Between Node and Python'
+    url: https://nodeweekly.com/link/123163/web
+    type: News
+  - title: 'Fonoster: An Open-Source Alternative to Twilio?'
+    url: https://nodeweekly.com/link/123164/web
+    type: News
