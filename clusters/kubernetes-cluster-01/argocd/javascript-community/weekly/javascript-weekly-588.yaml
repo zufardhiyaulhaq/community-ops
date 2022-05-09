@@ -1,0 +1,77 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-588
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 588
+  date: 05/09/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: How Partytown Eliminates Website Bloat From Third-Party Scripts
+    url: https://javascriptweekly.com/link/123216/web
+    type: News
+  - title: Ryan Dahl on 'JavaScript Containers'
+    url: https://javascriptweekly.com/link/123219/web
+    type: News
+  - title: 'Wallaby.js: 15x Faster JavaScript/Jest Testing and Debugging'
+    url: https://javascriptweekly.com/link/123221/web
+    type: News
+  - title: Why I Don’t Miss React
+    url: https://javascriptweekly.com/link/123222/web
+    type: News
+  - title: 'Babylon.js 5.0: The Powerful 3D Rendering Engine'
+    url: https://javascriptweekly.com/link/123270/web
+    type: News
+  - title: Porting Zelda Classic to the Web
+    url: https://javascriptweekly.com/link/123242/web
+    type: News
+  - title: 'The Triple Dot Syntax (...): Rest vs. Spread'
+    url: https://javascriptweekly.com/link/123246/web
+    type: News
+  - title: Integrate a Customizable Gantt Widget to Your App in Less Than a Week
+    url: https://javascriptweekly.com/link/123248/web
+    type: News
+  - title: 8 JavaScript Questions That May Confuse You
+    url: https://javascriptweekly.com/link/123249/web
+    type: News
+  - title: How To Build a Modal Dialog as a Web Component
+    url: https://javascriptweekly.com/link/123252/web
+    type: News
+  - title: Keep Up with the Latest in Startups, Tech, & Programming in Just 5 Min
+    url: https://javascriptweekly.com/link/123253/web
+    type: News
+  - title: The Stack of The Future
+    url: https://javascriptweekly.com/link/123254/web
+    type: News
+  - title: 'TypeScript Error Translator: Make TS Errors Human Readable'
+    url: https://javascriptweekly.com/link/123256/web
+    type: News
+  - title: 'redaxios 0.5: The Axios API, as an 800 Byte Fetch Wrapper'
+    url: https://javascriptweekly.com/link/123257/web
+    type: News
+  - title: 'resvg-js 2.0: A High-Performance SVG Renderer and Toolkit'
+    url: https://javascriptweekly.com/link/123258/web
+    type: News
+  - title: Free Activity Feeds & Chat APIs for Qualifying Teams
+    url: https://javascriptweekly.com/link/123260/web
+    type: News
+  - title: 'NodeBB 2.0 Released: Node-Powered Forum Software'
+    url: https://javascriptweekly.com/link/123261/web
+    type: News
+  - title: 'MockRTC: A Powerful WebRTC Mock Peer and Proxy'
+    url: https://javascriptweekly.com/link/123263/web
+    type: News
+  - title: 'React Toastify 9.0: Notification Boxes Made Easy in React Apps'
+    url: https://javascriptweekly.com/link/123264/web
+    type: News
+  - title: 'JSPyBridge 1.0: A Bridge Between Node and Python'
+    url: https://javascriptweekly.com/link/123265/web
+    type: News
+  - title: 'Pyscript: Run Python in Your HTML'
+    url: https://javascriptweekly.com/link/123266/web
+    type: News
