@@ -1,0 +1,59 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-602
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 602
+  date: 05/12/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: What Do You Think of 'Scoped Gems'?
+    url: https://rubyweekly.com/link/123100/web
+    type: News
+  - title: On Ruby 3.1’s Incompatible Changes to Its YAML Module (Psych 4)
+    url: https://rubyweekly.com/link/123125/web
+    type: News
+  - title: 'Couchbase Capella DBaaS: Store in JSON, Access with SQL'
+    url: https://rubyweekly.com/link/123101/web
+    type: News
+  - title: Active Record Tricks
+    url: https://rubyweekly.com/link/123108/web
+    type: News
+  - title: Breaking the Monolith at Twitch
+    url: https://rubyweekly.com/link/123129/web
+    type: News
+  - title: Bootstrapping with Rails Generators and Templates
+    url: https://rubyweekly.com/link/123106/web
+    type: News
+  - title: Hosting Ruby Apps (for Free) on Oracle Cloud with Dokku
+    url: https://rubyweekly.com/link/123107/web
+    type: News
+  - title: Improve Your Specs' Quality with Branch Coverage
+    url: https://rubyweekly.com/link/123109/web
+    type: News
+  - title: Debug Ruby Apps Without Stopping Them in Prod. Try Rookout Free Today
+    url: https://rubyweekly.com/link/123112/web
+    type: News
+  - title: How to Avoid Race Conditions in Rails
+    url: https://rubyweekly.com/link/123111/web
+    type: News
+  - title: How to Run a Virtual Retreat
+    url: https://rubyweekly.com/link/123113/web
+    type: News
+  - title: 'SuperDiff 0.9: View Differences Between Complex Data Structures in RSpec'
+    url: https://rubyweekly.com/link/123116/web
+    type: News
+  - title: 'Sequel 5.56.0: The Database Toolkit for Ruby.'
+    url: https://rubyweekly.com/link/123117/web
+    type: News
+  - title: "U Up? Let People Know with Beautiful Status Pages from Honeybadger \U0001F618"
+    url: https://rubyweekly.com/link/123119/web
+    type: News
+  - title: 'N1Loader: A Loader to Solve N+1 Issues with Active Record ''for Good'''
+    url: https://rubyweekly.com/link/123120/web
+    type: News
