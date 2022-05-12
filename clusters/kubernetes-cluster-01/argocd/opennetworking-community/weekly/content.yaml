@@ -779,3 +779,7 @@ content:
   url: https://opennetworking.org/events/onf-open-broadband-meetup-berlin/
   kind: Open Networking Event
   isDelivered: true
+- title: 'Community Member Profile: Thiyagarajan Subramani'
+  url: https://opennetworking.org/news-and-events/blog/community-member-profile-thiyagarajan-subramani/
+  kind: Open Networking Blog
+  isDelivered: false
