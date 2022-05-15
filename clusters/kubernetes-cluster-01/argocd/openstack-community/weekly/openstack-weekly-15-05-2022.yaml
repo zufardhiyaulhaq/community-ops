@@ -1,0 +1,26 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-15-05-2022
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 15-05-2022
+  date: 05/15/2022
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: DKRZ | An OpenStack Case Study
+    url: https://superuser.openstack.org/articles/dkrz-an-openstack-case-study/
+    type: OpenStack Super User News
+  - title: What can you expect to learn about OpenStack at the OpenInfra Summit?
+    url: https://superuser.openstack.org/articles/what-can-you-expect-to-learn-about-openstack-at-the-openinfra-summit/
+    type: OpenStack Super User News
+  - title: Creating a Sustainable Future for Data Centers with OpenStack and Kubernetes | OpenInfra Live Recap
+    url: https://superuser.openstack.org/articles/creating-a-sustainable-future-for-data-centers-with-openstack-and-kubernetes-openinfra-live-recap/
+    type: OpenStack Super User News
+  - title: What does it take to bring and operate your edge in production? — Day 0
+    url: https://superuser.openstack.org/articles/what-does-it-take-to-bring-and-operate-your-edge-in-production-day-0/
+    type: OpenStack Super User News
