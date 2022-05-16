@@ -1,0 +1,80 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-589
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 589
+  date: 05/16/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Using Google's CrUX to Compare Performance of JS Frameworks
+    url: https://javascriptweekly.com/link/123532/web
+    type: News
+  - title: Thoughts on React's Forthcoming useEvent Hook
+    url: https://javascriptweekly.com/link/123586/web
+    type: News
+  - title: Are You Looking for Answers to Tough Leadership Questions?
+    url: https://javascriptweekly.com/link/123534/web
+    type: News
+  - title: 'Data Visualization with D3: A 19 Hour(!) Course'
+    url: https://javascriptweekly.com/link/123536/web
+    type: News
+  - title: Meta Transferring Jest Project to the OpenJS Foundation
+    url: https://javascriptweekly.com/link/123535/web
+    type: News
+  - title: Building a Musical Instrument with the Web Audio API
+    url: https://javascriptweekly.com/link/123560/web
+    type: News
+  - title: Get to Know Your Browser's Performance Profiler
+    url: https://javascriptweekly.com/link/123562/web
+    type: News
+  - title: Integrate eSignatures in Your App in Less Than a Week
+    url: https://javascriptweekly.com/link/123563/web
+    type: News
+  - title: Rust From 0 to 80% for JavaScript Developers
+    url: https://javascriptweekly.com/link/123564/web
+    type: News
+  - title: Using PyScript to Run Python in the Browser
+    url: https://javascriptweekly.com/link/123566/web
+    type: News
+  - title: Making a Basic 'Falling Sand' Game in JavaScript
+    url: https://javascriptweekly.com/link/123568/web
+    type: News
+  - title: In Defence of the Single Page Application
+    url: https://javascriptweekly.com/link/123569/web
+    type: News
+  - title: 'InfiniteGrid 4.3: Arrange Card Elements Infinitely on a Grid Layout'
+    url: https://javascriptweekly.com/link/123571/web
+    type: News
+  - title: 'fuzzysort 1.9: Fast Fuzzy Search Library'
+    url: https://javascriptweekly.com/link/123573/web
+    type: News
+  - title: Self-Hosted, Open-Source Firebase Alternative
+    url: https://javascriptweekly.com/link/123575/web
+    type: News
+  - title: 'Parvus: Accessible Lightbox with No Dependencies'
+    url: https://javascriptweekly.com/link/123576/web
+    type: News
+  - title: 'crypto-random-string 5.0: Generate a Cryptographically Strong Random String'
+    url: https://javascriptweekly.com/link/123578/web
+    type: News
+  - title: 'Reagraph: WebGL Graph Visualizations for React'
+    url: https://javascriptweekly.com/link/123579/web
+    type: News
+  - title: Project Management for Today's (and Tomorrow's) Software Teams
+    url: https://javascriptweekly.com/link/123581/web
+    type: News
+  - title: 'DFlex: A Drag-and-Drop Library for All JS Frameworks'
+    url: https://javascriptweekly.com/link/123582/web
+    type: News
+  - title: 'Vody: A New Solid-Like Reactive UI Framework'
+    url: https://javascriptweekly.com/link/123589/web
+    type: News
+  - title: 'actions/github-script: Write Workflows Scripting the GitHub API in JavaScript'
+    url: https://javascriptweekly.com/link/123585/web
+    type: News
