@@ -1,0 +1,53 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-437
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 437
+  date: 05/18/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: An Enhanced 2FA Experience for Your npm Account
+    url: https://nodeweekly.com/link/123442/web
+    type: News
+  - title: A Community Group for Web-Interoperable JavaScript Runtimes
+    url: https://nodeweekly.com/link/123474/web
+    type: News
+  - title: 'Couchbase Capella DBaaS: Store in JSON, access with SQL'
+    url: https://nodeweekly.com/link/123443/web
+    type: News
+  - title: Ryan Dahl on JavaScript Containers
+    url: https://nodeweekly.com/link/123444/web
+    type: News
+  - title: Mystery of Industry-Focused Backdoored npm Packages Solved
+    url: https://nodeweekly.com/link/123446/web
+    type: News
+  - title: What's Involved in Running a Ransomware Attack in a Node Module
+    url: https://nodeweekly.com/link/123456/web
+    type: News
+  - title: Keep Up with the Latest in Startups, Tech, & Programming in Just 5 Min
+    url: https://nodeweekly.com/link/123457/web
+    type: News
+  - title: 'GraphQL Yoga 2.0: A Light But Fully-Featured GraphQL Server'
+    url: https://nodeweekly.com/link/123461/web
+    type: News
+  - title: 'URL State Machine: A Fast Spec-Compliant URL State Machine'
+    url: https://nodeweekly.com/link/123463/web
+    type: News
+  - title: 'Agenda 4.3: Lightweight Job Scheduling for Node'
+    url: https://nodeweekly.com/link/123466/web
+    type: News
+  - title: Data-Driven Edge Functions with Netlify and Polyscale.ai
+    url: https://nodeweekly.com/link/123465/web
+    type: News
+  - title: 'nve 15.0: Run Things With a Specific Node.js Version'
+    url: https://nodeweekly.com/link/123467/web
+    type: News
+  - title: 'Kafka.js 2.0: A Modern Apache Kafka Client'
+    url: https://nodeweekly.com/link/123468/web
+    type: News
