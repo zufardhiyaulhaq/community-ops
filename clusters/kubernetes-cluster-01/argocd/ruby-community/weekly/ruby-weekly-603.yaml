@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-603
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 603
+  date: 05/19/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Shopify's Experience Porting the YJIT Ruby Compiler to Rust
+    url: https://rubyweekly.com/link/123404/web
+    type: News
+  - title: "Have You Investigated Honeybadger Lately?\U0001F575\U0001F3FD‍♀️"
+    url: https://rubyweekly.com/link/123406/web
+    type: News
+  - title: Report of a Now-Fixed RubyGems Vulnerability
+    url: https://rubyweekly.com/link/123407/web
+    type: News
+  - title: Impact Analysis of the CVE-2022-29176 Unauthorized Package Takeover Vulnerability
+    url: https://rubyweekly.com/link/123408/web
+    type: News
+  - title: How to Make Ruby Run a Program Written in a 'Natural Language'
+    url: https://rubyweekly.com/link/123422/web
+    type: News
+  - title: Ruby Memoization
+    url: https://rubyweekly.com/link/123423/web
+    type: News
+  - title: A Hybrid Development Docker Compose Setup for Rails
+    url: https://rubyweekly.com/link/123424/web
+    type: News
+  - title: Keep Up with the Latest in Startups, Tech, & Programming in Just 5 Min
+    url: https://rubyweekly.com/link/123425/web
+    type: News
+  - title: How to Use Import Maps without Rails
+    url: https://rubyweekly.com/link/123426/web
+    type: News
+  - title: How to Sell a One-Time Purchase in Rails with Stripe
+    url: https://rubyweekly.com/link/123428/web
+    type: News
+  - title: Discussing GraphQL with David Sanchez
+    url: https://rubyweekly.com/link/123429/web
+    type: News
+  - title: 'Searchjoy 1.0: Search Analytics Made Easy'
+    url: https://rubyweekly.com/link/123430/web
+    type: News
+  - title: 'hash_deep_diff: Get the Differences Between Two Hashes'
+    url: https://rubyweekly.com/link/123431/web
+    type: News
+  - title: Simplified API for Designing and Sending Notifications Via Slack
+    url: https://rubyweekly.com/link/123433/web
+    type: News
+  - title: 'rbenv for Windows: Manage Your App''s Ruby Environment on Windows'
+    url: https://rubyweekly.com/link/123434/web
+    type: News
+  - title: 'Sniffer 0.5: Log and Analyze Outgoing HTTP Requests'
+    url: https://rubyweekly.com/link/123435/web
+    type: News
