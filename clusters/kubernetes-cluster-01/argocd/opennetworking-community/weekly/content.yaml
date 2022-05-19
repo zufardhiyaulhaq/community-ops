@@ -783,3 +783,11 @@ content:
   url: https://opennetworking.org/news-and-events/blog/community-member-profile-thiyagarajan-subramani/
   kind: Open Networking Blog
   isDelivered: true
+- title: Wiwynn to Demonstrate the Field-proven OCP openEDGE Platform for 5G Open RAN and MEC at Big5G 2022
+  url: https://www.wiwynn.com/press/wiwynn-to-demonstrate-the-field-proven-ocp-openedge-platform-for-5g-open-ran-and-mec-at-big5g-2022/
+  kind: Open Networking News
+  isDelivered: false
+- title: Welcoming New ONF Ambassador A-Team Members Ahmed Abdelaziz, Amanda Espíndola Raymundi and Bayhan Sayinti
+  url: https://opennetworking.org/news-and-events/blog/welcoming-new-onf-ambassador-a-team-members-ahmed-abdelaziz-amanda-espindola-raymundi-and-bayhan-sayinti/
+  kind: Open Networking Blog
+  isDelivered: false
