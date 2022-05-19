@@ -1,0 +1,20 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-19-05-2022
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 19-05-2022
+  date: 05/19/2022
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Wiwynn to Demonstrate the Field-proven OCP openEDGE Platform for 5G Open RAN and MEC at Big5G 2022
+    url: https://www.wiwynn.com/press/wiwynn-to-demonstrate-the-field-proven-ocp-openedge-platform-for-5g-open-ran-and-mec-at-big5g-2022/
+    type: Open Networking News
+  - title: Welcoming New ONF Ambassador A-Team Members Ahmed Abdelaziz, Amanda Espíndola Raymundi and Bayhan Sayinti
+    url: https://opennetworking.org/news-and-events/blog/welcoming-new-onf-ambassador-a-team-members-ahmed-abdelaziz-amanda-espindola-raymundi-and-bayhan-sayinti/
+    type: Open Networking Blog
