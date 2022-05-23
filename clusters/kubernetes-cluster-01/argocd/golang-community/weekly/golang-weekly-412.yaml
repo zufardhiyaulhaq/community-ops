@@ -1,0 +1,45 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-412
+  namespace: golang-community
+spec:
+  name: Golang Weekly 412
+  date: 05/23/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'Tim Bray''s Go Diaries: Generics'
+    url: https://golangweekly.com/link/123765/web
+    type: News
+  - title: Gophers - Opportunity is Knocking
+    url: https://golangweekly.com/link/123767/web
+    type: News
+  - title: Calculating Type Sets Is Harder Than You Think
+    url: https://golangweekly.com/link/123768/web
+    type: News
+  - title: Let's Build a Distributed Postgres Proof of Concept
+    url: https://golangweekly.com/link/123772/web
+    type: News
+  - title: 'Roaring 1.1: Roaring Bitmap Data Structures in Go'
+    url: https://golangweekly.com/link/123776/web
+    type: News
+  - title: 'wazero: Zero Dependency WebAssembly Runtime for Go Devs'
+    url: https://golangweekly.com/link/123778/web
+    type: News
+  - title: Breaking Down JSON Web Tokens (JWTs) - Free eBook
+    url: https://golangweekly.com/link/123780/web
+    type: News
+  - title: 'Sneller: A Vectorized SQL Engine for JSON'
+    url: https://golangweekly.com/link/123781/web
+    type: News
+  - title: 'Cardrank: Go Types and Functions for Working with Cards, Decks, and Poker
+      Hands'
+    url: https://golangweekly.com/link/123782/web
+    type: News
+  - title: 'cli 2.7: A Fast Way to Build Go CLI Apps'
+    url: https://golangweekly.com/link/123783/web
+    type: News
