@@ -1,0 +1,71 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-590
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 590
+  date: 05/23/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'Sliderland: A Minimalist Coding Playground'
+    url: https://javascriptweekly.com/link/123854/web
+    type: News
+  - title: Playwright Can Now Test React, Vue and Svelte Components
+    url: https://javascriptweekly.com/link/123795/web
+    type: News
+  - title: Headless CMS with World-Class TypeScript Support
+    url: https://javascriptweekly.com/link/123797/web
+    type: News
+  - title: Web Applications 101
+    url: https://javascriptweekly.com/link/123798/web
+    type: News
+  - title: Building an Animated Piano Keyboard with JavaScript and MIDI
+    url: https://javascriptweekly.com/link/123812/web
+    type: News
+  - title: 'Rust for JavaScript Developers: Preorders Closing Soon'
+    url: https://javascriptweekly.com/link/123815/web
+    type: News
+  - title: Why You Don't Need void 0
+    url: https://javascriptweekly.com/link/123816/web
+    type: News
+  - title: 'RFC 9239: Updates to ECMAScript Media Types'
+    url: https://javascriptweekly.com/link/123847/web
+    type: News
+  - title: Software Supply Chain Attacks Are No Joke
+    url: https://javascriptweekly.com/link/123817/web
+    type: News
+  - title: Deploying Node-RED to Google App Engine
+    url: https://javascriptweekly.com/link/123818/web
+    type: News
+  - title: 'JSON Mask: A Way to Select Specific Parts of a JS Object'
+    url: https://javascriptweekly.com/link/123822/web
+    type: News
+  - title: 'Fontkit: An Advanced Font Engine for Node and Browser'
+    url: https://javascriptweekly.com/link/123850/web
+    type: News
+  - title: 'PushIn.js: A Lightweight Parallax / Dolly / Push In Effect for Web Pages'
+    url: https://javascriptweekly.com/link/123823/web
+    type: News
+  - title: 'Vuestic 1.4.0: An Open Source UI Library for Vue 3'
+    url: https://javascriptweekly.com/link/123852/web
+    type: News
+  - title: Free Activity Feeds & Chat APIs for Qualifying Teams
+    url: https://javascriptweekly.com/link/123824/web
+    type: News
+  - title: 'Timewave: A Tiny Clock and Date Library (with Simulation Support)'
+    url: https://javascriptweekly.com/link/123863/web
+    type: News
+  - title: 'Elder.js: An SEO-Focused Svelte-Based Static Site Generator'
+    url: https://javascriptweekly.com/link/123825/web
+    type: News
+  - title: 'minimatch: A Glob Matcher'
+    url: https://javascriptweekly.com/link/123826/web
+    type: News
+  - title: A React Router Implemented in Under 100 LOC
+    url: https://javascriptweekly.com/link/123827/web
+    type: News
