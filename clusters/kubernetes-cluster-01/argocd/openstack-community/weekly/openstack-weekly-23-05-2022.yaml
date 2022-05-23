@@ -1,0 +1,20 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-23-05-2022
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 23-05-2022
+  date: 05/23/2022
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: Cloud Technologies Maintain the Genomic Era
+    url: https://superuser.openstack.org/articles/cloud-technologies-maintain-the-genomic-era/
+    type: OpenStack Super User News
+  - title: What does it take to bring and operate your edge in production? — Day 1
+    url: https://superuser.openstack.org/articles/what-does-it-take-to-bring-and-operate-your-edge-in-production-day-1/
+    type: OpenStack Super User News
