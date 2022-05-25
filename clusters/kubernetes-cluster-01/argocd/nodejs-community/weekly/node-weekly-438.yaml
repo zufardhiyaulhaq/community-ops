@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-438
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 438
+  date: 05/25/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Web Scraping via JS Runtime Heap Snapshots
+    url: https://nodeweekly.com/link/123723/web
+    type: News
+  - title: Node v18.2.0 (Current) Released
+    url: https://nodeweekly.com/link/123725/web
+    type: News
+  - title: Making TypeScript 'Stick'
+    url: https://nodeweekly.com/link/123728/web
+    type: News
+  - title: Node.js 16.x Runtime Now Available in AWS Lambda
+    url: https://nodeweekly.com/link/123729/web
+    type: News
+  - title: Deploying Node-RED to Google App Engine
+    url: https://nodeweekly.com/link/123733/web
+    type: News
+  - title: Best Practices for Working with Different Filesystems
+    url: https://nodeweekly.com/link/123735/web
+    type: News
+  - title: Redis 7 Now Available on RedisGreen
+    url: https://nodeweekly.com/link/123736/web
+    type: News
+  - title: Hosting a Ghost Blog for Free on Fly.io, Quickly
+    url: https://nodeweekly.com/link/123737/web
+    type: News
+  - title: 'google-spreadsheet: Interact with Google Sheets Documents'
+    url: https://nodeweekly.com/link/123740/web
+    type: News
+  - title: 'crypto-random-string 5.0: Generate a Cryptographically Strong Random String'
+    url: https://nodeweekly.com/link/123742/web
+    type: News
+  - title: 'pkg 5.7.0: Package Your Node Project Into an Executable'
+    url: https://nodeweekly.com/link/123743/web
+    type: News
+  - title: Be Amongst the First to Shape Our New Dev Community! Join Us Today
+    url: https://nodeweekly.com/link/123745/web
+    type: News
+  - title: 'Dats 3.0: A Minimal Zero-Dependency statsd Client Library'
+    url: https://nodeweekly.com/link/123746/web
+    type: News
+  - title: 'capture-website 2.4: Capture Screenshots of Websites'
+    url: https://nodeweekly.com/link/123748/web
+    type: News
