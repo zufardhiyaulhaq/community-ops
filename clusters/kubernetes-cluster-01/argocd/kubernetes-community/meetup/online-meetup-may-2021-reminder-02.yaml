@@ -1,0 +1,22 @@
+apiVersion: community.io/v1alpha1
+kind: Meetup
+metadata:
+  name: online-meetup-may-2021-reminder-02
+  namespace: kubernetes-community
+spec:
+  name: "Kubernetes Cloud Native Online Meetup May 2022"
+  date: "May 25, 2022"
+  time: "19.00"
+  place: "Online"
+  city: "Indonesia"
+  sponsor: "Nutanix"
+  registration_url: "online.kubernetescommunity.id"
+  image: "https://raw.githubusercontent.com/cloudnative-id/artwork/master/poster/online/25-May-2022.png"
+  tags:
+    - meetup
+    - CNCF
+  speakers:
+  - name: "Yudi Priyadi"
+    position: "Senior System Engineer"
+    company: "Nutanix"
+    title: "CI/CD with Nutanix Calm, Jenkins, and Carbon"
