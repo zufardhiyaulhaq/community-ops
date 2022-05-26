@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-604
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 604
+  date: 05/26/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Shopify Invests in Research for Ruby at Scale
+    url: https://rubyweekly.com/link/123688/web
+    type: News
+  - title: Using Scientist to Refactor Critical Rails Code
+    url: https://rubyweekly.com/link/123689/web
+    type: News
+  - title: All The Convenience of Heroku Without the Cost
+    url: https://rubyweekly.com/link/123691/web
+    type: News
+  - title: New Official Guides on How to Contribute to Ruby
+    url: https://rubyweekly.com/link/123692/web
+    type: News
+  - title: 'Soft Deletion with Postgres: Writing the Logic in Postgres Itself'
+    url: https://rubyweekly.com/link/123703/web
+    type: News
+  - title: Syntax Tree and Lambda-Local Variables
+    url: https://rubyweekly.com/link/123704/web
+    type: News
+  - title: A Case for Query Objects in Rails
+    url: https://rubyweekly.com/link/123706/web
+    type: News
+  - title: How Lyft's Mobile Team Does Mobile CI at Scale
+    url: https://rubyweekly.com/link/123707/web
+    type: News
+  - title: How to Get a Random Number in Ruby
+    url: https://rubyweekly.com/link/123708/web
+    type: News
+  - title: How to Mock ActionMailer
+    url: https://rubyweekly.com/link/123709/web
+    type: News
+  - title: Linting and Auto-Formatting Ruby Code with RuboCop
+    url: https://rubyweekly.com/link/123710/web
+    type: News
+  - title: 'Magnus 0.3.0: Ruby Bindings for Rust'
+    url: https://rubyweekly.com/link/123713/web
+    type: News
+  - title: 'Ruby2JS 5.0: A Ruby to JavaScript Transpiler'
+    url: https://rubyweekly.com/link/123714/web
+    type: News
+  - title: Issue Tracking Has Never Been Easier with Shortcut
+    url: https://rubyweekly.com/link/123715/web
+    type: News
+  - title: 'Clayoven: A Site Generator Aimed at Math-Heavy Sites'
+    url: https://rubyweekly.com/link/123716/web
+    type: News
+  - title: 'DataChecks: A DSL for Regression Testing on Data'
+    url: https://rubyweekly.com/link/123718/web
+    type: News
