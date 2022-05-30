@@ -1,0 +1,75 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-591
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 591
+  date: 05/30/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Comparing Three Ways of Processing Arrays Non-Destructively
+    url: https://javascriptweekly.com/link/124114/web
+    type: News
+  - title: 'npm Security Update: What GitHub''s Learnt About April''s Attack'
+    url: https://javascriptweekly.com/link/124161/web
+    type: News
+  - title: Making TypeScript 'Stick'
+    url: https://javascriptweekly.com/link/124110/web
+    type: News
+  - title: TypeScript 4.7 Released
+    url: https://javascriptweekly.com/link/124111/web
+    type: News
+  - title: 'Next.js''s Layouts RFC: Big Changes Ahead for Next.js'
+    url: https://javascriptweekly.com/link/124113/web
+    type: News
+  - title: What is 'Edge Compute?' 'It's Kind of Like Knitting Dog Hats'
+    url: https://javascriptweekly.com/link/124131/web
+    type: News
+  - title: How Airbnb Gets Faster JavaScript Builds with Metro
+    url: https://javascriptweekly.com/link/124127/web
+    type: News
+  - title: Dark Patterns in UX
+    url: https://javascriptweekly.com/link/124130/web
+    type: News
+  - title: How We Converted Our Node.js Library to Deno (using Deno)
+    url: https://javascriptweekly.com/link/124129/web
+    type: News
+  - title: A Roundup of React State Management Libraries in 2022
+    url: https://javascriptweekly.com/link/124132/web
+    type: News
+  - title: JSON and the Stringification Oddities in JavaScript
+    url: https://javascriptweekly.com/link/124133/web
+    type: News
+  - title: The Balance Has Shifted Away From SPAs
+    url: https://javascriptweekly.com/link/124135/web
+    type: News
+  - title: Add a Professional Scheduling Widget to Your MES App
+    url: https://javascriptweekly.com/link/124136/web
+    type: News
+  - title: 'Ninja Keys: Add a Command Palette / Keyboard Shortcuts Interface to Your
+      App/Site'
+    url: https://javascriptweekly.com/link/124138/web
+    type: News
+  - title: 'Filesize.js: Generate Human Readable Strings From File Sizes'
+    url: https://javascriptweekly.com/link/124141/web
+    type: News
+  - title: 'LunchboxJS: A Custom Vue 3 Renderer for Three.js'
+    url: https://javascriptweekly.com/link/124143/web
+    type: News
+  - title: Try the CI/CD Tool Used by Shopify, Pinterest, and Lyft
+    url: https://javascriptweekly.com/link/124145/web
+    type: News
+  - title: 'React-Uploady 1.0: File Upload Components and Hooks'
+    url: https://javascriptweekly.com/link/124146/web
+    type: News
+  - title: 'EStimator.dev: The Modern JavaScript Savings Calculator'
+    url: https://javascriptweekly.com/link/124150/web
+    type: News
+  - title: 'Browser Extension Template: Quickly Flesh Out a Browser Extension Codebase'
+    url: https://javascriptweekly.com/link/124155/web
+    type: News
