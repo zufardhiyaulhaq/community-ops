@@ -1107,3 +1107,11 @@ content:
   url: https://superuser.openstack.org/articles/what-does-it-take-to-bring-and-operate-your-edge-in-production-day-1/
   kind: OpenStack Super User News
   isDelivered: true
+- title: OpenStack is Blooming!
+  url: https://superuser.openstack.org/articles/openstack-is-blooming/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: What does it take to bring and operate your edge in production? — Day 2
+  url: https://superuser.openstack.org/articles/what-does-it-take-to-bring-and-operate-your-edge-in-production-day-2/
+  kind: OpenStack Super User News
+  isDelivered: false
