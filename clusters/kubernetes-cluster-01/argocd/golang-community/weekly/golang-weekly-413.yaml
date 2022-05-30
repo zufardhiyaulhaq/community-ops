@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-413
+  namespace: golang-community
+spec:
+  name: Golang Weekly 413
+  date: 05/30/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: 'Bud: A New Web Framework for Gophers'
+    url: https://golangweekly.com/link/124068/web
+    type: News
+  - title: Google's Greedy Go Module Mirror?
+    url: https://golangweekly.com/link/124070/web
+    type: News
+  - title: How Teleport Works
+    url: https://golangweekly.com/link/124072/web
+    type: News
+  - title: Making an Animal Crossing-Type Game for Beginners
+    url: https://golangweekly.com/link/124073/web
+    type: News
+  - title: The Functional Options Pattern is Slow
+    url: https://golangweekly.com/link/124088/web
+    type: News
+  - title: How To Bootstrap a Quality Go Backend
+    url: https://golangweekly.com/link/124089/web
+    type: News
+  - title: Go Nulls and SQL
+    url: https://golangweekly.com/link/124090/web
+    type: News
+  - title: 'Gocache 3.0: A Cache Abstraction Library'
+    url: https://golangweekly.com/link/124091/web
+    type: News
+  - title: 'Concurrent Map 2.0: A Thread-Safe Concurrent Map for Go'
+    url: https://golangweekly.com/link/124092/web
+    type: News
+  - title: 'eBPF 0.9: A Pure Go eBPF Library'
+    url: https://golangweekly.com/link/124093/web
+    type: News
+  - title: 'God: A Tool to Deploy and Manage Go Services using systemd'
+    url: https://golangweekly.com/link/124095/web
+    type: News
+  - title: Issue Tracking Has Never Been Easier With Shortcut
+    url: https://golangweekly.com/link/124096/web
+    type: News
+  - title: 'Kind: Run Local Kubernetes Clusters using Docker Containers as Nodes'
+    url: https://golangweekly.com/link/124097/web
+    type: News
+  - title: Rqlite 7.5.0 Released with Queued Write Support
+    url: https://golangweekly.com/link/124098/web
+    type: News
+  - title: 'Sish: HTTP(S)/WS(S)/TCP Tunnels to localhost Using Only SSH'
+    url: https://golangweekly.com/link/124099/web
+    type: News
+  - title: 'go-quartz: Simple, Zero-Dependency Scheduling Library'
+    url: https://golangweekly.com/link/124101/web
+    type: News
