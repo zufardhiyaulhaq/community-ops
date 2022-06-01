@@ -1,0 +1,57 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-439
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 439
+  date: 06/01/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: TypeScript 4.7 Released
+    url: https://nodeweekly.com/link/124012/web
+    type: News
+  - title: Payload, a Node-Based Headless CMS, Now Fully Open Source
+    url: https://nodeweekly.com/link/124014/web
+    type: News
+  - title: 'RedisGreen: Secure, Scalable, Full-Featured Redis 7 Hosting'
+    url: https://nodeweekly.com/link/124018/web
+    type: News
+  - title: DigitalOcean Releases New Functions Service
+    url: https://nodeweekly.com/link/124019/web
+    type: News
+  - title: Avoiding Puppeteer Antipatterns
+    url: https://nodeweekly.com/link/124025/web
+    type: News
+  - title: See How Many Hours Engineers Really Spend Coding in the State of Engineering
+      Time Report
+    url: https://nodeweekly.com/link/124027/web
+    type: News
+  - title: Making a Podcast Transcription Server in Node
+    url: https://nodeweekly.com/link/124028/web
+    type: News
+  - title: 'better-logging: A Drop-In Replacement for Node''s Default Logging Methods'
+    url: https://nodeweekly.com/link/124031/web
+    type: News
+  - title: 'Keyv: Simple Key-Value Storage with Support for Multiple Backends'
+    url: https://nodeweekly.com/link/124032/web
+    type: News
+  - title: 'CSV Parse: Convert CSV Formatted Text into Arrays of Objects'
+    url: https://nodeweekly.com/link/124033/web
+    type: News
+  - title: Debug Node.js Apps Without Stopping Them in Prod. Try Rookout Free Today
+    url: https://nodeweekly.com/link/124036/web
+    type: News
+  - title: Electron 19.0.0 Released
+    url: https://nodeweekly.com/link/124037/web
+    type: News
+  - title: 'Got 12.1: A Powerful HTTP Request Library for Node'
+    url: https://nodeweekly.com/link/124038/web
+    type: News
+  - title: 'Fontkit: An Advanced Font Engine for Node and Browser'
+    url: https://nodeweekly.com/link/124040/web
+    type: News
