@@ -794,8 +794,8 @@ content:
 - title: Broadband Area Community Meetup Berlin, May 2022
   url: https://opennetworking.org/news-and-events/blog/broadband-area-community-meetup-berlin-may-2022/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: 'Community Member Profile: Vini Gajjar'
   url: https://opennetworking.org/news-and-events/blog/community-member-profile-vini-gajjar/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
