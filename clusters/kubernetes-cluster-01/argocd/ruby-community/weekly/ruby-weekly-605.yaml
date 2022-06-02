@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-605
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 605
+  date: 06/02/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 2022 Ruby on Rails Community Survey Results
+    url: https://rubyweekly.com/link/123976/web
+    type: News
+  - title: 'Webinar: How to Create the Right Indexes for Your Rails Apps'
+    url: https://rubyweekly.com/link/123978/web
+    type: News
+  - title: 'Mocktail: A Test Double Library with a Terse API for Creating Mocks'
+    url: https://rubyweekly.com/link/123979/web
+    type: News
+  - title: How to Add a Command Palette to a Rails App
+    url: https://rubyweekly.com/link/123993/web
+    type: News
+  - title: An Introduction to Polymorphism
+    url: https://rubyweekly.com/link/123996/web
+    type: News
+  - title: The Practical Effects of the GVL on Scaling in Ruby
+    url: https://rubyweekly.com/link/123998/web
+    type: News
+  - title: 'Agile Localization Platform: Develop, Translate, Deploy - Reiterate'
+    url: https://rubyweekly.com/link/124000/web
+    type: News
+  - title: Performance in Context
+    url: https://rubyweekly.com/link/124001/web
+    type: News
+  - title: On Building Desktop Apps in Ruby
+    url: https://rubyweekly.com/link/124002/web
+    type: News
+  - title: 'Scraping Buy: Scripting for a Purchase'
+    url: https://rubyweekly.com/link/124003/web
+    type: News
+  - title: 'Ruby SMTP Mock: Mimic SMTP Server Behaviour for Your Test Environment'
+    url: https://rubyweekly.com/link/124005/web
+    type: News
+  - title: 'IoMonitor: A Way to Detect Potential Memory Bloat'
+    url: https://rubyweekly.com/link/124006/web
+    type: News
+  - title: 'Couchbase Capella DBaaS: Store JSON, Query in Milliseconds'
+    url: https://rubyweekly.com/link/124007/web
+    type: News
+  - title: 'Anyolite: Embedded mruby/Ruby for Crystal'
+    url: https://rubyweekly.com/link/124008/web
+    type: News
