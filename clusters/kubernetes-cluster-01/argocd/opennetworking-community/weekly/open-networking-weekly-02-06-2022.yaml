@@ -1,0 +1,20 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-02-06-2022
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 02-06-2022
+  date: 06/02/2022
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: Broadband Area Community Meetup Berlin, May 2022
+    url: https://opennetworking.org/news-and-events/blog/broadband-area-community-meetup-berlin-may-2022/
+    type: Open Networking Blog
+  - title: 'Community Member Profile: Vini Gajjar'
+    url: https://opennetworking.org/news-and-events/blog/community-member-profile-vini-gajjar/
+    type: Open Networking Blog
