@@ -1,0 +1,59 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-414
+  namespace: golang-community
+spec:
+  name: Golang Weekly 414
+  date: 06/05/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: It's Time to Share Your Feedback About Developing with Go
+    url: https://golangweekly.com/link/124346/web
+    type: News
+  - title: The 'Hello World' of Creating WebAssembly with Go?
+    url: https://golangweekly.com/link/124347/web
+    type: News
+  - title: Gophers - Opportunity is Knocking
+    url: https://golangweekly.com/link/124348/web
+    type: News
+  - title: Go 1.18.3 and 1.17.11 Released
+    url: https://golangweekly.com/link/124349/web
+    type: News
+  - title: What Made Go So Popular? The Language's Creators Look Back
+    url: https://golangweekly.com/link/124350/web
+    type: News
+  - title: Making Go Workloads Up to 20% Faster with Go 1.18 and AWS Graviton
+    url: https://golangweekly.com/link/124352/web
+    type: News
+  - title: Live Reloading in Go with Air
+    url: https://golangweekly.com/link/124353/web
+    type: News
+  - title: What JavaScript's npm Can Learn from Go
+    url: https://golangweekly.com/link/124355/web
+    type: News
+  - title: 'ZincSearch: A Light(er)weight Go-Powered Alternative to Elasticsearch'
+    url: https://golangweekly.com/link/124357/web
+    type: News
+  - title: 'Encore: A Go API Backend Framework with ''Superpowers'''
+    url: https://golangweekly.com/link/124359/web
+    type: News
+  - title: Debug Go Apps Without Stopping Them in Prod. Try Rookout Free Today
+    url: https://golangweekly.com/link/124360/web
+    type: News
+  - title: 'Bluemonday: A Fast Go HTML Sanitizer'
+    url: https://golangweekly.com/link/124361/web
+    type: News
+  - title: 'Compose Transporter 1.1: Sync Data Between Persistence Engines'
+    url: https://golangweekly.com/link/124362/web
+    type: News
+  - title: 'TestFixtures 3.7: Ruby on Rails-Like Test Fixtures for Go'
+    url: https://golangweekly.com/link/124363/web
+    type: News
+  - title: 'Tarmac: Framework for Building Distributed Services with WebAssembly'
+    url: https://golangweekly.com/link/124364/web
+    type: News
