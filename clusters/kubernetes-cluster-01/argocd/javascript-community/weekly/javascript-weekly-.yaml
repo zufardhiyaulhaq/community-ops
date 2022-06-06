@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-
+  namespace: javascript-community
+spec:
+  name: 'Javascript Weekly '
+  date: 06/06/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Angular v14 Released
+    url: https://javascriptweekly.com/link/124414/web
+    type: News
+  - title: Monorepos in JavaScript and TypeScript
+    url: https://javascriptweekly.com/link/124395/web
+    type: News
+  - title: Studio 3T Manages Your Data, While You Wrestle Your App into Shape
+    url: https://javascriptweekly.com/link/124387/web
+    type: News
+  - title: 'Jest Image Snapshot: A Jest Matcher for Image Comparisons'
+    url: https://javascriptweekly.com/link/124394/web
+    type: News
+  - title: Sure, You Can Make Games in Microsoft Word with JavaScript Now
+    url: https://javascriptweekly.com/link/124424/web
+    type: News
+  - title: You May Not Need a Bundler for Your npm-Distributed Library..
+    url: https://javascriptweekly.com/link/124405/web
+    type: News
+  - title: Auth Considerations for Kubernetes - Free eBook
+    url: https://javascriptweekly.com/link/124390/web
+    type: News
+  - title: An Introduction to Vue.js State Management with Pinia
+    url: https://javascriptweekly.com/link/124403/web
+    type: News
+  - title: How To Build a Group Chat App with Vanilla JS, Twilio and Node
+    url: https://javascriptweekly.com/link/124406/web
+    type: News
+  - title: Compiling a Subset of JavaScript to ARM Assembly in Haskell
+    url: https://javascriptweekly.com/link/124407/web
+    type: News
+  - title: 'Svelvet: A Svelte Component Library for Interactive Node-Based Diagrams'
+    url: https://javascriptweekly.com/link/124408/web
+    type: News
+  - title: No Engineer Wants to Build and Rebuild Notification Templates and Infrastructure
+    url: https://javascriptweekly.com/link/124393/web
+    type: News
+  - title: 'Shaka Player 4.1: Library for Playing Adaptive Media'
+    url: https://javascriptweekly.com/link/124409/web
+    type: News
+  - title: 'Glide Data Grid 4: A Fast Data Grid for React Projects'
+    url: https://javascriptweekly.com/link/124410/web
+    type: News
+  - title: 'Terser: JavaScript ''Mangler'' and Compressor Toolkit for ES6+'
+    url: https://javascriptweekly.com/link/124412/web
+    type: News
+  - title: Free Activity Feeds & Chat APIs for Qualifying Teams
+    url: https://javascriptweekly.com/link/124392/web
+    type: News
+  - title: 'Color Legend Element: A Web Component Providing a Legend in Data Visualizations'
+    url: https://javascriptweekly.com/link/124427/web
+    type: News
+  - title: 'highlighted-code: A <textarea> with Automatic Syntax Highlighting'
+    url: https://javascriptweekly.com/link/124429/web
+    type: News
+  - title: 'Scriptable: Automate iOS with JavaScript'
+    url: https://javascriptweekly.com/link/124431/web
+    type: News
+  - title: 'collect.js: 100+ Convenience Methods for Arrays and Objects'
+    url: https://javascriptweekly.com/link/124432/web
+    type: News
