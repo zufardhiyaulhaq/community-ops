@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-440
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 440
+  date: 06/08/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Node v18.3.0 (Current) Released
+    url: https://nodeweekly.com/link/124310/web
+    type: News
+  - title: What npm Can Learn from Go
+    url: https://nodeweekly.com/link/124314/web
+    type: News
+  - title: Run Node Unikernels 2X as Fast on GCP and 3X as Fast on AWS
+    url: https://nodeweekly.com/link/124305/web
+    type: News
+  - title: Top 500 npm Package Maintainers Now Require 2FA
+    url: https://nodeweekly.com/link/124316/web
+    type: News
+  - title: 'npm Security Update: What GitHub Learnt About April''s Attack'
+    url: https://nodeweekly.com/link/124318/web
+    type: News
+  - title: How We Converted Our Node.js Library to Deno (using Deno)
+    url: https://nodeweekly.com/link/124320/web
+    type: News
+  - title: You May Not Need a Bundler for Your NPM Package..
+    url: https://nodeweekly.com/link/124321/web
+    type: News
+  - title: HTTP Testing with Hurl in Node.js
+    url: https://nodeweekly.com/link/124322/web
+    type: News
+  - title: How to Build a Group Chat App with Vanilla JS, Twilio and Node
+    url: https://nodeweekly.com/link/124323/web
+    type: News
+  - title: Node Transactional Notification Management System Saves Time and Money
+    url: https://nodeweekly.com/link/124306/web
+    type: News
+  - title: Using N|Solid Runtime from npm
+    url: https://nodeweekly.com/link/124324/web
+    type: News
+  - title: 'pkg.land: A Way to Find Alternative npm Packages'
+    url: https://nodeweekly.com/link/124327/web
+    type: News
+  - title: 'Jest Image Snapshot: A Jest Matcher for Image Comparisons'
+    url: https://nodeweekly.com/link/124330/web
+    type: News
+  - title: 'Vavite: Develop Server-Side Applications with Vite'
+    url: https://nodeweekly.com/link/124331/web
+    type: News
+  - title: Try the CI/CD Tool Used by Shopify, Pinterest, and Lyft - Now Free
+    url: https://nodeweekly.com/link/124307/web
+    type: News
+  - title: 'waitehr: Waits for an HTTP Response and Retries Requests'
+    url: https://nodeweekly.com/link/124333/web
+    type: News
+  - title: 'Commander 9.3: Node Command-Line Interfaces Made Easy'
+    url: https://nodeweekly.com/link/124336/web
+    type: News
