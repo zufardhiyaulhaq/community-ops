@@ -1,0 +1,17 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-09-06-2022
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 09-06-2022
+  date: 06/09/2022
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: P4 Workshop Showcases Expansion of Programmable Infrastructure
+    url: https://opennetworking.org/news-and-events/blog/p4-workshop-showcases-expansion-of-programmable-infrastructure/
+    type: Open Networking Blog
