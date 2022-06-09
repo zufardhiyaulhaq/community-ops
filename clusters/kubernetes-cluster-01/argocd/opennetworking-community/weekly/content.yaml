@@ -799,3 +799,7 @@ content:
   url: https://opennetworking.org/news-and-events/blog/community-member-profile-vini-gajjar/
   kind: Open Networking Blog
   isDelivered: true
+- title: P4 Workshop Showcases Expansion of Programmable Infrastructure
+  url: https://opennetworking.org/news-and-events/blog/p4-workshop-showcases-expansion-of-programmable-infrastructure/
+  kind: Open Networking Blog
+  isDelivered: false
