@@ -1,0 +1,69 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-606
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 606
+  date: 06/09/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'Shale: An Object Mapper and Serializer for JSON, YAML and XML'
+    url: https://rubyweekly.com/link/124264/web
+    type: News
+  - title: 'To Thread or Not to Thread: An In-Depth Look at Ruby’s Execution Models'
+    url: https://rubyweekly.com/link/124266/web
+    type: News
+  - title: A Complete DevOps Solution for Your Rails App
+    url: https://rubyweekly.com/link/124267/web
+    type: News
+  - title: 'The Success of Rails: Ensuring Growth for the Next 100 Years'
+    url: https://rubyweekly.com/link/124268/web
+    type: News
+  - title: How I 100x'd Bulk Import Speed in Rails with Some Gnarly SQL
+    url: https://rubyweekly.com/link/124273/web
+    type: News
+  - title: Avoid Test Delays and Speed Up Your Dev Cycle by Mocking Callbacks
+    url: https://rubyweekly.com/link/124275/web
+    type: News
+  - title: "Using Hotwire with Rails ⚡\U0001F684"
+    url: https://rubyweekly.com/link/124276/web
+    type: News
+  - title: How Cookpad Improved Its Rails App’s Performance with Conditional GET Requests
+    url: https://rubyweekly.com/link/124277/web
+    type: News
+  - title: How to Build a Calculator with Hotwire and No JavaScript
+    url: https://rubyweekly.com/link/124278/web
+    type: News
+  - title: Event Streaming in Rails with Kafka
+    url: https://rubyweekly.com/link/124279/web
+    type: News
+  - title: A Story About Test Coverage Metrics
+    url: https://rubyweekly.com/link/124280/web
+    type: News
+  - title: 'MITIE: Named-Entity Recognition for Ruby'
+    url: https://rubyweekly.com/link/124294/web
+    type: News
+  - title: 'Rouge 3.29.0: A Pure-Ruby, Pygments-Compatible Code Highlighter'
+    url: https://rubyweekly.com/link/124282/web
+    type: News
+  - title: Ruby Transactional Notification Management System Saves Time and Money
+    url: https://rubyweekly.com/link/124283/web
+    type: News
+  - title: 'Paramoid: A New params Sanitization Library'
+    url: https://rubyweekly.com/link/124284/web
+    type: News
+  - title: 'Render API 0.1: A Ruby Interface for Render.com''s API'
+    url: https://rubyweekly.com/link/124286/web
+    type: News
+  - title: 'Forme 2.1: HTML Form Generation Library'
+    url: https://rubyweekly.com/link/124287/web
+    type: News
+  - title: 'Koala 3.2: A Ruby Library for Facebook''s Graph, Marketing, Atlas, and
+      Other APIs'
+    url: https://rubyweekly.com/link/124295/web
+    type: News
