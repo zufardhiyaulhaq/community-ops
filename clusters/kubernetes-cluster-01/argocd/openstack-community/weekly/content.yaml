@@ -1115,3 +1115,15 @@ content:
   url: https://superuser.openstack.org/articles/what-does-it-take-to-bring-and-operate-your-edge-in-production-day-2/
   kind: OpenStack Super User News
   isDelivered: true
+- title: 'Congratulations to the 2022 Superuser Awards Winners: OVHcloud, Ant Group'
+  url: https://superuser.openstack.org/articles/congratulations-to-the-2022-superuser-awards-winners-ovhcloud-ant-group/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: OpenInfra Community Gathers to Collaborate on Building the Next Decade of Open Infrastructure
+  url: https://superuser.openstack.org/articles/openinfra-community-gathers-to-collaborate-on-building-the-next-decade-of-open-infrastructure/
+  kind: OpenStack Super User News
+  isDelivered: false
+- title: Save the Dates for the Next PTG and OpenInfra Summit
+  url: https://superuser.openstack.org/articles/save-the-dates-for-the-next-ptg-and-openinfra-summit/
+  kind: OpenStack Super User News
+  isDelivered: false
