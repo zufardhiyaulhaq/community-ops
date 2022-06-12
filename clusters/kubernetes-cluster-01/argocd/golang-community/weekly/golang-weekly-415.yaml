@@ -1,0 +1,69 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-415
+  namespace: golang-community
+spec:
+  name: Golang Weekly 415
+  date: 06/12/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Data Race Patterns in Go
+    url: https://golangweekly.com/link/124680/web
+    type: News
+  - title: Ebiten, the 2D Game Library for Go, Becomes Ebitengine™
+    url: https://golangweekly.com/link/124681/web
+    type: News
+  - title: Flaky Tests Slowing You Down? BuildPulse Can Help
+    url: https://golangweekly.com/link/124716/web
+    type: News
+  - title: Why a Dev Built a Faster rsync from Scratch in Go
+    url: https://golangweekly.com/link/124685/web
+    type: News
+  - title: 'Fyne 2.2: Cross Platform GUI Toolkit for Go'
+    url: https://golangweekly.com/link/124687/web
+    type: News
+  - title: How to Embed a React App in a Go Binary
+    url: https://golangweekly.com/link/124693/web
+    type: News
+  - title: Generating a Random float64 with crypto/rand
+    url: https://golangweekly.com/link/124694/web
+    type: News
+  - title: (Mostly) Automatic Go Dependency Updates with GitHub Actions
+    url: https://golangweekly.com/link/124695/web
+    type: News
+  - title: Performance of Coroutine-Style Lexers in Go
+    url: https://golangweekly.com/link/124696/web
+    type: News
+  - title: Using Go's Standard Library Interfaces
+    url: https://golangweekly.com/link/124697/web
+    type: News
+  - title: 'GoPlus (Go+) 1.1: A More Script-y Variant of Go'
+    url: https://golangweekly.com/link/124702/web
+    type: News
+  - title: 'Mo: Monads and Popular FP Abstractions for Go 1.18+'
+    url: https://golangweekly.com/link/124704/web
+    type: News
+  - title: 'Benthos 4.2: A Stream Processor for ''Mundane Tasks'''
+    url: https://golangweekly.com/link/124705/web
+    type: News
+  - title: Issue Tracking Has Never Been Easier With Shortcut
+    url: https://golangweekly.com/link/124706/web
+    type: News
+  - title: 'Ddosify 0.8: High-Performance HTTP Load Testing Tool'
+    url: https://golangweekly.com/link/124707/web
+    type: News
+  - title: 'gta: Find Which Go Packages Have Deviated from Upstream'
+    url: https://golangweekly.com/link/124708/web
+    type: News
+  - title: 'DurationLint: Linter to Disallow Use of Untyped Literals and Constants
+      as time.Duration'
+    url: https://golangweekly.com/link/124709/web
+    type: News
+  - title: 'garr: High Performance, Thread-Safe, Lock-Free Data Mechanisms'
+    url: https://golangweekly.com/link/124710/web
+    type: News
