@@ -1,0 +1,23 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: openstack-weekly-12-06-2022
+  namespace: openstack-community
+spec:
+  name: OpenStack Weekly 12-06-2022
+  date: 06/12/2022
+  image: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
+  community: OpenStack Indonesia Community
+  tags:
+  - weekly
+  - openstack
+  articles:
+  - title: 'Congratulations to the 2022 Superuser Awards Winners: OVHcloud, Ant Group'
+    url: https://superuser.openstack.org/articles/congratulations-to-the-2022-superuser-awards-winners-ovhcloud-ant-group/
+    type: OpenStack Super User News
+  - title: OpenInfra Community Gathers to Collaborate on Building the Next Decade of Open Infrastructure
+    url: https://superuser.openstack.org/articles/openinfra-community-gathers-to-collaborate-on-building-the-next-decade-of-open-infrastructure/
+    type: OpenStack Super User News
+  - title: Save the Dates for the Next PTG and OpenInfra Summit
+    url: https://superuser.openstack.org/articles/save-the-dates-for-the-next-ptg-and-openinfra-summit/
+    type: OpenStack Super User News
