@@ -1,0 +1,74 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-593
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 593
+  date: 06/13/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Mathematical Notation Explained with JavaScript
+    url: https://javascriptweekly.com/link/124737/web
+    type: News
+  - title: '''JavaScript Hydration is a Workaround, Not a Solution'''
+    url: https://javascriptweekly.com/link/124739/web
+    type: News
+  - title: JavaScript Scratchpad for VS Code, Now with Online Sharing
+    url: https://javascriptweekly.com/link/124741/web
+    type: News
+  - title: 'Plasmo: ''It''s Like Next.js for Browser Extensions'''
+    url: https://javascriptweekly.com/link/124743/web
+    type: News
+  - title: JavaScript of Halftone Printing
+    url: https://javascriptweekly.com/link/124763/web
+    type: News
+  - title: Building Framework Interoperable Web Components
+    url: https://javascriptweekly.com/link/124764/web
+    type: News
+  - title: Creating an Ultrasonic Payments System with JavaScript
+    url: https://javascriptweekly.com/link/124786/web
+    type: News
+  - title: Take the Misery Out of JavaScript Security
+    url: https://javascriptweekly.com/link/124767/web
+    type: News
+  - title: RedwoodJS Explained in 100 Seconds
+    url: https://javascriptweekly.com/link/124765/web
+    type: News
+  - title: Running Windows/ARM on Apple Silicon Macs via UTM
+    url: https://javascriptweekly.com/link/124768/web
+    type: News
+  - title: Should You Use Framer Motion or Motion One for Animation?
+    url: https://javascriptweekly.com/link/124769/web
+    type: News
+  - title: 'KaTeX 0.16.0: The Fastest Math Typesetting Library for the Web'
+    url: https://javascriptweekly.com/link/124738/web
+    type: News
+  - title: 'Timeline JS: Create Useful Timelines for the Web'
+    url: https://javascriptweekly.com/link/124775/web
+    type: News
+  - title: Self-Hosted, Open-Source Firebase Alternative
+    url: https://javascriptweekly.com/link/124777/web
+    type: News
+  - title: 'Fastify 4.0 Released: A Node.js Webapp Framework'
+    url: https://javascriptweekly.com/link/124778/web
+    type: News
+  - title: 'pretty-ms: Convert Milliseconds to Human Readable Strings'
+    url: https://javascriptweekly.com/link/124779/web
+    type: News
+  - title: The Best JavaScript and CSS Animation Libraries for UI Designers
+    url: https://javascriptweekly.com/link/124780/web
+    type: News
+  - title: 'qnm: CLI Utility for Looking at node_modules Directories'
+    url: https://javascriptweekly.com/link/124781/web
+    type: News
+  - title: Project Management for Today's (and Tomorrow's) Software Teams
+    url: https://javascriptweekly.com/link/124782/web
+    type: News
+  - title: 'is-online 10.0: Check if The Internet Connection is Up'
+    url: https://javascriptweekly.com/link/124783/web
+    type: News
