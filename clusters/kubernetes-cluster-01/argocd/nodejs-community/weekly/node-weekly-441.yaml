@@ -1,0 +1,56 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-441
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 441
+  date: 06/15/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Fastify 4.0 Released
+    url: https://nodeweekly.com/link/124583/web
+    type: News
+  - title: 'Couchbase Capella DBaaS: Store in JSON, Access with SQL'
+    url: https://nodeweekly.com/link/124586/web
+    type: News
+  - title: The Case for Prisma in the 'Jamstack'
+    url: https://nodeweekly.com/link/124592/web
+    type: News
+  - title: Creating a GraphQL Server in Node.js
+    url: https://nodeweekly.com/link/124593/web
+    type: News
+  - title: WebContainers Now Supported in Firefox on Desktop and Android
+    url: https://nodeweekly.com/link/124596/web
+    type: News
+  - title: Scale Postgres and MySQL Globally in Minutes
+    url: https://nodeweekly.com/link/124602/web
+    type: News
+  - title: 'qnm: CLI Utility for Looking at node_modules Directories'
+    url: https://nodeweekly.com/link/124606/web
+    type: News
+  - title: 'node-microtime: Get The Current Time in Microseconds'
+    url: https://nodeweekly.com/link/124608/web
+    type: News
+  - title: 'aws-lambda-fastify 3.0: Serve Fastify-Powered Apps on AWS Lambda'
+    url: https://nodeweekly.com/link/124610/web
+    type: News
+  - title: The Ultimate Developer Toolkit for In-App Chat + Activity Feeds
+    url: https://nodeweekly.com/link/124612/web
+    type: News
+  - title: 'Nano ID 4.0: A Unique String ID Generator'
+    url: https://nodeweekly.com/link/124613/web
+    type: News
+  - title: 'is-online 10.0: Check if The Internet Connection Is Up'
+    url: https://nodeweekly.com/link/124614/web
+    type: News
+  - title: The Official Node.js MongoDB Driver v4.7.0
+    url: https://nodeweekly.com/link/124616/web
+    type: News
+  - title: 'Soap 0.44.0: A SOAP Client and Server for Node'
+    url: https://nodeweekly.com/link/124619/web
+    type: News
