@@ -806,12 +806,12 @@ content:
 - title: 'Community Member Profile: Andrea Campanella'
   url: https://opennetworking.org/news-and-events/blog/community-member-profile-andrea-campanella/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: P4 Programmable Switch Appliance in Tencent Data Center Network
   url: https://opennetworking.org/news-and-events/blog/p4-programmable-switch-appliance-in-tencent-data-center-network/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
 - title: Community Highlights – April/May 2022
   url: https://opennetworking.org/news-and-events/blog/community-highlights-april-may-2022/
   kind: Open Networking Blog
-  isDelivered: false
+  isDelivered: true
