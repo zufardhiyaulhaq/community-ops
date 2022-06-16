@@ -1,0 +1,23 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-16-06-2022
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 16-06-2022
+  date: 06/16/2022
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: 'Community Member Profile: Andrea Campanella'
+    url: https://opennetworking.org/news-and-events/blog/community-member-profile-andrea-campanella/
+    type: Open Networking Blog
+  - title: P4 Programmable Switch Appliance in Tencent Data Center Network
+    url: https://opennetworking.org/news-and-events/blog/p4-programmable-switch-appliance-in-tencent-data-center-network/
+    type: Open Networking Blog
+  - title: Community Highlights – April/May 2022
+    url: https://opennetworking.org/news-and-events/blog/community-highlights-april-may-2022/
+    type: Open Networking Blog
