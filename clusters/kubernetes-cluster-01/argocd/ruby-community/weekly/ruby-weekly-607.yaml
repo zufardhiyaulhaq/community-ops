@@ -1,0 +1,53 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-607
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 607
+  date: 06/16/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: What Would It Take for Roda to Win?
+    url: https://rubyweekly.com/link/124632/web
+    type: News
+  - title: '''I Built a Ruby Parser'''
+    url: https://rubyweekly.com/link/124635/web
+    type: News
+  - title: 'AppSignal Logbook: Team Discussion and Full Incident History'
+    url: https://rubyweekly.com/link/124638/web
+    type: News
+  - title: Why GitLab is Sticking with Rails
+    url: https://rubyweekly.com/link/124639/web
+    type: News
+  - title: 'Sidekiq 6.5: Simple, Efficient Background Processing'
+    url: https://rubyweekly.com/link/124640/web
+    type: News
+  - title: Why Braintree Added Jitter to Active Job
+    url: https://rubyweekly.com/link/124655/web
+    type: News
+  - title: Adding Feature Flags to a Rails App with Flipper
+    url: https://rubyweekly.com/link/124657/web
+    type: News
+  - title: 'Couchbase Capella DBaaS: Store JSON, Query in Milliseconds'
+    url: https://rubyweekly.com/link/124659/web
+    type: News
+  - title: How to Query and Group Records by Duration in Active Record
+    url: https://rubyweekly.com/link/124660/web
+    type: News
+  - title: 'ActiveRecord::Summarize: Improved Efficiency for .count and .sum Queries'
+    url: https://rubyweekly.com/link/124662/web
+    type: News
+  - title: 'Strong Migrations 1.1: Catch Unsafe Migrations in Development'
+    url: https://rubyweekly.com/link/124663/web
+    type: News
+  - title: Observability for Your Ruby Test Suites
+    url: https://rubyweekly.com/link/124664/web
+    type: News
+  - title: 'Phonelib 0.7: Validate Phone Numbers Using Google''s libphonenumber Data'
+    url: https://rubyweekly.com/link/124665/web
+    type: News
