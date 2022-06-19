@@ -1,0 +1,11 @@
+
+namespace: default
+commonLabels:
+  namespace: default
+  owner: zufardhiyaulhaq
+
+resources:
+- ../../../../../bases/namespace-scope/limit-range/small
+
+# Service
+- ../../../../../bases/namespace-scope/service/podinfo
