@@ -1,0 +1,57 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-416
+  namespace: golang-community
+spec:
+  name: Golang Weekly 416
+  date: 06/19/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: Go 1.19 Beta 1 Released
+    url: https://golangweekly.com/link/124964/web
+    type: News
+  - title: 'Language Proposal: Bring Direct SIMD Support into Go'
+    url: https://golangweekly.com/link/124966/web
+    type: News
+  - title: Troubleshoot and Optimize Golang App Performance with Datadog APM
+    url: https://golangweekly.com/link/124967/web
+    type: News
+  - title: 'Go’s New Sorting Algorithm: pdqsort'
+    url: https://golangweekly.com/link/124968/web
+    type: News
+  - title: How Static Code Analysis Prevents You From Waking Up at 3AM with Production
+      on Fire
+    url: https://golangweekly.com/link/124975/web
+    type: News
+  - title: How to Deploy a Go Webapp with Docker
+    url: https://golangweekly.com/link/124976/web
+    type: News
+  - title: 'Adventures in AWS Lambda Land: A Migration Gone Well'
+    url: https://golangweekly.com/link/124977/web
+    type: News
+  - title: Creating Basic Game Animations with Go and Raylib
+    url: https://golangweekly.com/link/124978/web
+    type: News
+  - title: '''Don''t Put All Your Code in Internal''?'
+    url: https://golangweekly.com/link/124980/web
+    type: News
+  - title: 'Chroma 2.2: A Pure Go General Purpose Syntax Highlighter'
+    url: https://golangweekly.com/link/124981/web
+    type: News
+  - title: 'Trie: Trie Implementation Targeting Auto-Completion Use Cases'
+    url: https://golangweekly.com/link/124984/web
+    type: News
+  - title: Securing Your MongoDB Database
+    url: https://golangweekly.com/link/124986/web
+    type: News
+  - title: 'Validate: A Generic Data Validation and Filtering Library'
+    url: https://golangweekly.com/link/124987/web
+    type: News
+  - title: 'Rope: A Persistent Rope Data Structure'
+    url: https://golangweekly.com/link/124989/web
+    type: News
