@@ -1,0 +1,12 @@
+apiVersion: frp.zufardhiyaulhaq.com/v1alpha1
+kind: Upstream
+metadata:
+  name: kubernetes
+  namespace: infrastructure
+spec:
+  client: p-frp-do-01
+  tcp:
+    host: kubernetes.default.svc.cluster.local
+    port: 443
+    server:
+      port: 6443

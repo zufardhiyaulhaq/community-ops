@@ -1,0 +1,11 @@
+repositories:
+- name: zufardhiyaulhaq
+  url: https://charts.zufardhiyaulhaq.com/
+
+releases:
+- name: frp-operator
+  namespace: infrastructure
+  version: 1.0.0
+  chart: zufardhiyaulhaq/frp-operator
+  values:
+  - releases/infrastructure/frp-operator.yaml

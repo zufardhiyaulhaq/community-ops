@@ -1,0 +1,14 @@
+apiVersion: frp.zufardhiyaulhaq.com/v1alpha1
+kind: Client
+metadata:
+  name: p-frp-do-01
+  namespace: infrastructure
+spec:
+  server:
+    host: server.frp.zufardhiyaulhaq.com
+    port: 7000
+    authentication:
+      token:
+        secret:
+          name: p-frp-do-01-secret
+          key: token

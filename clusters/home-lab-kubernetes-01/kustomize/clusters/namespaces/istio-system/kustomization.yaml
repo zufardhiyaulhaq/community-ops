@@ -1,0 +1,8 @@
+commonLabels:
+  owner: zufardhiyaulhaq
+  istio-injection: disabled
+  topology.istio.io/network: kubernetes-cluster-02
+
+resources:
+- ../../../../../../bases/cluster-scope/namespace/istio-system
+  
