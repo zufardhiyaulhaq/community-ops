@@ -1,0 +1,2 @@
+istio:
+  config: ./istio_mesh/cluster.yaml

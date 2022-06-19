@@ -1,0 +1,5 @@
+resources:
+# Namespace
+- namespaces/default
+- namespaces/infrastructure
+- namespaces/istio-system
