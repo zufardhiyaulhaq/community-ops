@@ -1,0 +1,12 @@
+apiVersion: frp.zufardhiyaulhaq.com/v1alpha1
+kind: Upstream
+metadata:
+  name: istio-public-gateway-443
+  namespace: infrastructure
+spec:
+  client: p-frp-do-01
+  tcp:
+    host: istio-public-gateway.istio-system.svc.cluster.local
+    port: 443
+    server:
+      port: 443

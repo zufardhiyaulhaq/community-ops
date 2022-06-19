@@ -1,0 +1,12 @@
+apiVersion: frp.zufardhiyaulhaq.com/v1alpha1
+kind: Upstream
+metadata:
+  name: istio-public-gateway-80
+  namespace: infrastructure
+spec:
+  client: p-frp-do-01
+  tcp:
+    host: istio-public-gateway.istio-system.svc.cluster.local
+    port: 80
+    server:
+      port: 80

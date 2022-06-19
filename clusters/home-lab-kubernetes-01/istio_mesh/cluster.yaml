@@ -1,7 +1,7 @@
 apiVersion: install.istio.io/v1alpha3
 kind: IstioOperator
 spec:
-  hub: gcr.io/istio-release
+  hub: ghcr.io/resf/istio
   components:
     pilot:
       enabled: true
@@ -20,6 +20,8 @@ spec:
           maxReplicas: 2
           minReplicas: 1
     ingressGateways:
+    - enabled: false
+      name: istio-ingressgateway
     - enabled: true
       name: istio-public-gateway
       label:
@@ -53,15 +55,9 @@ spec:
         service:
           type: ClusterIP
           ports:
-          - port: 15021
-            targetPort: 15021
-            name: status-port
           - port: 443
             targetPort: 8443
             name: https
-          - port: 18443
-            targetPort: 18443
-            name: https-mtls
           - port: 80
             targetPort: 8080
             name: http2
