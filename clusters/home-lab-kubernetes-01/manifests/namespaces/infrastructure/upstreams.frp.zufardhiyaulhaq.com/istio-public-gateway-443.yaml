@@ -10,3 +10,4 @@ spec:
     port: 443
     server:
       port: 443
+    proxyProtocol: v2
