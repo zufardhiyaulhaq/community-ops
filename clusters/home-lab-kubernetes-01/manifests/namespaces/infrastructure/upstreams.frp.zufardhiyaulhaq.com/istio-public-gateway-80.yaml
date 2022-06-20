@@ -10,3 +10,4 @@ spec:
     port: 80
     server:
       port: 80
+    proxyProtocol: v2
