@@ -1,0 +1,65 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-594
+  namespace: javascript-community
+spec:
+  name: Javascript Weekly 594
+  date: 06/20/2022
+  image: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+  community: JavaScript Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: AbortController is Your Friend (for Cancelling Async Tasks and More)
+    url: https://javascriptweekly.com/link/125047/web
+    type: News
+  - title: 'Microvium: A Tiny JavaScript Engine for Microcontrollers'
+    url: https://javascriptweekly.com/link/125020/web
+    type: News
+  - title: 'Couchbase Capella DBaaS: Store in JSON, Access with SQL'
+    url: https://javascriptweekly.com/link/125025/web
+    type: News
+  - title: 'Vitest: A Vite-Powered ''Blazing Fast'' Unit Testing Framework'
+    url: https://javascriptweekly.com/link/125026/web
+    type: News
+  - title: How to Remove 99% of JavaScript from the Main Thread
+    url: https://javascriptweekly.com/link/125027/web
+    type: News
+  - title: Notes on Maintaining an Internal React Component Library
+    url: https://javascriptweekly.com/link/125049/web
+    type: News
+  - title: The Complete Guide to Building a React Form in 2022
+    url: https://javascriptweekly.com/link/125050/web
+    type: News
+  - title: Ten Talks from JSConf Budapest 2022
+    url: https://javascriptweekly.com/link/125051/web
+    type: News
+  - title: Zen and the Art of Building a Gmail-like UI with React Native
+    url: https://javascriptweekly.com/link/125056/web
+    type: News
+  - title: See How Much Free Time Engineers Have in the State of Engineering Time Report
+    url: https://javascriptweekly.com/link/125055/web
+    type: News
+  - title: 'Component Encyclopedia: A Catalog of 5000+ UI Components'
+    url: https://javascriptweekly.com/link/125059/web
+    type: News
+  - title: 'ow 1.0: Function Argument Validation for Humans'
+    url: https://javascriptweekly.com/link/125062/web
+    type: News
+  - title: 'zx v7.0: Better Shell Scripting with JavaScript'
+    url: https://javascriptweekly.com/link/125064/web
+    type: News
+  - title: 'Fx 24.0: A Command-Line JSON Processing Tool'
+    url: https://javascriptweekly.com/link/125068/web
+    type: News
+  - title: Studio 3T Manages Your Data, While You Wrestle Your App into Shape
+    url: https://javascriptweekly.com/link/125067/web
+    type: News
+  - title: 'Moon: A New Build System for the JavaScript Ecosystem'
+    url: https://javascriptweekly.com/link/125069/web
+    type: News
+  - title: 'public-ip 6.0: Quickly Get Your Public IP Address'
+    url: https://javascriptweekly.com/link/125070/web
+    type: News
