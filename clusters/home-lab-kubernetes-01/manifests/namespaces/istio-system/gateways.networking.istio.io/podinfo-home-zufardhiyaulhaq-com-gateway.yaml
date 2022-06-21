@@ -13,3 +13,14 @@ spec:
       name: http
       number: 80
       protocol: HTTP
+    tls:
+      httpsRedirect: true
+  - hosts:
+    - "podinfo.home.zufardhiyaulhaq.com"
+    port:
+      name: https
+      number: 443
+      protocol: HTTPS
+    tls:
+      credentialName: podinfo-home-zufardhiyaulhaq-com-cert
+      mode: SIMPLE
