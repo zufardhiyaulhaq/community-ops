@@ -5,6 +5,10 @@ repositories:
   url: https://charts.longhorn.io
 - name: sealed-secrets
   url: https://bitnami-labs.github.io/sealed-secrets
+- name: jetstack
+  url: https://charts.jetstack.io
+- name: external-dns
+  url: https://kubernetes-sigs.github.io/external-dns/
 
 releases:
 - name: frp-operator
@@ -32,3 +36,10 @@ releases:
   chart: jetstack/cert-manager
   values:
   - releases/infrastructure/cert-manager.yaml
+
+- name: external-dns
+  namespace: infrastructure
+  version: 1.9.0
+  chart: external-dns/external-dns
+  values:
+  - releases/infrastructure/external-dns.yaml
