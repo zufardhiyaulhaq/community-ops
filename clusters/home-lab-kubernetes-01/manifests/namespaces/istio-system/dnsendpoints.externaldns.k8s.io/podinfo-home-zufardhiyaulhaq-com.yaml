@@ -1,0 +1,12 @@
+apiVersion: externaldns.k8s.io/v1alpha1
+kind: DNSEndpoint
+metadata:
+  name: podinfo-home-zufardhiyaulhaq-com
+  namespace: istio-system
+spec:
+  endpoints:
+  - dnsName: podinfo.home.zufardhiyaulhaq.com
+    recordTTL: 60
+    recordType: A
+    targets:
+    - 159.223.94.254
