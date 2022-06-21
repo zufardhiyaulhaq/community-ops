@@ -25,3 +25,10 @@ releases:
   chart: sealed-secrets/sealed-secrets
   values:
   - releases/infrastructure/sealed-secret.yaml
+
+- name: cert-manager
+  namespace: infrastructure
+  version: 1.8.0
+  chart: jetstack/cert-manager
+  values:
+  - releases/infrastructure/cert-manager.yaml

@@ -1,0 +1,10 @@
+---
+cainjector:
+  enabled: true
+  replicaCount: 1
+extraArgs:
+  - '--cluster-resource-namespace=infrastructure'
+installCRDs: true
+webhook:
+  replicaCount: 1
+
