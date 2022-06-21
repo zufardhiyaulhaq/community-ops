@@ -3,6 +3,8 @@ repositories:
   url: https://charts.zufardhiyaulhaq.com/
 - name: longhorn
   url: https://charts.longhorn.io
+- name: sealed-secrets
+  url: https://bitnami-labs.github.io/sealed-secrets
 
 releases:
 - name: frp-operator
@@ -16,3 +18,10 @@ releases:
   namespace: longhorn-system
   version: 1.3.0
   chart: longhorn/longhorn
+
+- name: sealed-secrets
+  namespace: infrastructure
+  version: 2.2.0
+  chart: sealed-secrets/sealed-secrets
+  values:
+  - releases/infrastructure/sealed-secret.yaml
