@@ -1,0 +1,5 @@
+resources:
+- longhorn-system.yaml
+namespace: longhorn-system
+commonLabels:
+  namespace: longhorn-system
