@@ -50,3 +50,5 @@ releases:
   namespace: argocd-system
   version: 4.9.4
   chart: argo/argo-cd
+  values:
+  - releases/argocd-system/argocd.yaml
