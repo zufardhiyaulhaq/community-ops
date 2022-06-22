@@ -3,5 +3,5 @@ commonLabels:
   istio-injection: disabled
 
 resources:
-- ../../../../../../bases/cluster-scope/namespace/istio-system
+- ../../../../../../bases/cluster-scope/namespace/argocd-system
   

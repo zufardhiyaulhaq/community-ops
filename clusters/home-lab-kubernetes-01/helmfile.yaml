@@ -9,6 +9,8 @@ repositories:
   url: https://charts.jetstack.io
 - name: bitnami
   url: https://charts.bitnami.com/bitnami
+- name: argo
+  url: https://argoproj.github.io/argo-helm
 
 releases:
 - name: frp-operator
@@ -43,3 +45,15 @@ releases:
   chart: bitnami/external-dns
   values:
   - releases/infrastructure/external-dns.yaml
+
+- name: external-dns
+  namespace: infrastructure
+  version: 6.5.6
+  chart: bitnami/external-dns
+  values:
+  - releases/infrastructure/external-dns.yaml
+
+- name: argocd
+  namespace: argocd-system
+  version: 4.9.4
+  chart: argo/argo-cd

@@ -3,3 +3,4 @@ resources:
 - namespaces/default
 - namespaces/infrastructure
 - namespaces/istio-system
+- namespaces/argocd-system
