@@ -46,13 +46,6 @@ releases:
   values:
   - releases/infrastructure/external-dns.yaml
 
-- name: external-dns
-  namespace: infrastructure
-  version: 6.5.6
-  chart: bitnami/external-dns
-  values:
-  - releases/infrastructure/external-dns.yaml
-
 - name: argocd
   namespace: argocd-system
   version: 4.9.4
