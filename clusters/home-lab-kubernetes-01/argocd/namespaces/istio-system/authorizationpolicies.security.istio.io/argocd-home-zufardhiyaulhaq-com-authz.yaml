@@ -1,0 +1,15 @@
+apiVersion: security.istio.io/v1beta1
+kind: AuthorizationPolicy
+metadata:
+  name: argocd-home-zufardhiyaulhaq-com-authz
+  namespace: istio-system
+spec:
+  selector:
+    matchLabels:
+      app: istio-public-gateway
+  action: ALLOW
+  rules:
+  - to:
+    - operation:
+        hosts: 
+        - argocd.home.zufardhiyaulhaq.com*
