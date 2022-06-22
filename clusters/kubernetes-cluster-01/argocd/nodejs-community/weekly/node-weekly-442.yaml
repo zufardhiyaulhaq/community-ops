@@ -1,0 +1,50 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-442
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 442
+  date: 06/22/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: 'zx v7.0: Better Script Writing with Node.js'
+    url: https://nodeweekly.com/link/124908/web
+    type: News
+  - title: Node.js 16 to Meet an Early Demise (in 2023)
+    url: https://nodeweekly.com/link/124879/web
+    type: News
+  - title: New Fullstack TypeScript Course
+    url: https://nodeweekly.com/link/124880/web
+    type: News
+  - title: Scaling GraphQL with Redis Consumer Groups
+    url: https://nodeweekly.com/link/124881/web
+    type: News
+  - title: How to Scrape eBay Organic Results with Node
+    url: https://nodeweekly.com/link/124883/web
+    type: News
+  - title: 'Strapi v4.2: The Open-Source Node.js Headless CMS'
+    url: https://nodeweekly.com/link/124892/web
+    type: News
+  - title: 'ow 1.0: Function Argument Validation for Humans'
+    url: https://nodeweekly.com/link/124895/web
+    type: News
+  - title: Run Node.js Unikernels - Easier Than Containers or Serverless
+    url: https://nodeweekly.com/link/124885/web
+    type: News
+  - title: 'Mercurius 10.0: Implement GraphQL Servers and Gateways with Fastify'
+    url: https://nodeweekly.com/link/124897/web
+    type: News
+  - title: 'cat-names 3.1: Get Popular Cat Names'
+    url: https://nodeweekly.com/link/124900/web
+    type: News
+  - title: 'Node File Trace: A Node.js Dependency Tracing Utility'
+    url: https://nodeweekly.com/link/124901/web
+    type: News
+  - title: The Ultimate Developer Toolkit for In-App Chat + Activity Feeds
+    url: https://nodeweekly.com/link/124899/web
+    type: News
