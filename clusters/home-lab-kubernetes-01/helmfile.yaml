@@ -69,4 +69,4 @@ releases:
   version: 1.92.0
   chart: kubecost/cost-analyzer
   values:
-  - releases/cost-analyzer/cost-analyzer.yaml
+  - releases/kubecost-system/cost-analyzer.yaml
