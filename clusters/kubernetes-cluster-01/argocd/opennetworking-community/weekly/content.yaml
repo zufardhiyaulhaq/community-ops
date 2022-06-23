@@ -818,8 +818,8 @@ content:
 - title: What’s Next for P4?
   url: https://systemsapproach.substack.com/p/whats-next-for-p4?s=r&utm_campaign=post&utm_medium=email
   kind: Open Networking News
-  isDelivered: false
+  isDelivered: true
 - title: VOLTHA v2.10 Techinar
   url: https://opennetworking.org/events/voltha-v2-10-techinar/
   kind: Open Networking Event
-  isDelivered: false
+  isDelivered: true
