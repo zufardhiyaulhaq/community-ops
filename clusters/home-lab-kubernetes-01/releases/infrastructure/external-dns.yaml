@@ -10,6 +10,7 @@ digitalocean:
 
 interval: "1m"
 policy: sync
+logLevel: debug
 
 sources:
 - crd
