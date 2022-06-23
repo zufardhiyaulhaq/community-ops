@@ -1,0 +1,62 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-608
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 608
+  date: 06/23/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: Making Popular Ruby Packages More Secure
+    url: https://rubyweekly.com/link/124916/web
+    type: News
+  - title: Why attr_accessor is Faster than Regular Methods
+    url: https://rubyweekly.com/link/124917/web
+    type: News
+  - title: Fight Bugs with AppSignal in Multiplayer Mode
+    url: https://rubyweekly.com/link/124918/web
+    type: News
+  - title: The Case for Pattern Matching Key Irreverence in Ruby
+    url: https://rubyweekly.com/link/124919/web
+    type: News
+  - title: 'Code I Like: Domain-Driven Boldness at Basecamp'
+    url: https://rubyweekly.com/link/124931/web
+    type: News
+  - title: Migrating from Webpacker to esbuild
+    url: https://rubyweekly.com/link/124932/web
+    type: News
+  - title: How a Rubyist Made $50,000 Profit from a Side Project Slack Bot
+    url: https://rubyweekly.com/link/124934/web
+    type: News
+  - title: 'Free eBook: Efficient Search in Rails with Postgres'
+    url: https://rubyweekly.com/link/124936/web
+    type: News
+  - title: Building a Chat App with Hanami and Hotwire
+    url: https://rubyweekly.com/link/124938/web
+    type: News
+  - title: Cross Platform Machine Code
+    url: https://rubyweekly.com/link/124941/web
+    type: News
+  - title: Self-Destructing StimulusJS Controllers
+    url: https://rubyweekly.com/link/124942/web
+    type: News
+  - title: 'Lockbox 1.0: Modern Encryption for Ruby and Rails'
+    url: https://rubyweekly.com/link/124946/web
+    type: News
+  - title: A Basic JSON Parser Written Using Pattern Matching
+    url: https://rubyweekly.com/link/124947/web
+    type: News
+  - title: 'Agile Localization Platform: Develop, Translate, Deploy - Reiterate'
+    url: https://rubyweekly.com/link/124949/web
+    type: News
+  - title: 'Graphlient: A ''Friendlier'' Ruby GraphQL Client?'
+    url: https://rubyweekly.com/link/124950/web
+    type: News
+  - title: 'Ruby LSP 0.1: An Implementation of the LSP Spec'
+    url: https://rubyweekly.com/link/124952/web
+    type: News
