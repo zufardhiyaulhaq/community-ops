@@ -4,3 +4,4 @@ resources:
 - namespaces/infrastructure
 - namespaces/istio-system
 - namespaces/argocd-system
+- namespaces/observability-system

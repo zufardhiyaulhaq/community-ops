@@ -11,6 +11,8 @@ repositories:
   url: https://charts.bitnami.com/bitnami
 - name: argo
   url: https://argoproj.github.io/argo-helm
+- name: vm
+  url: https://victoriametrics.github.io/helm-charts/
 
 releases:
 - name: frp-operator
@@ -52,3 +54,10 @@ releases:
   chart: argo/argo-cd
   values:
   - releases/argocd-system/argocd.yaml
+
+- name: victoria-metrics
+  namespace: observability-system
+  version: 0.9.5
+  chart: vm/victoria-metrics-k8s-stack
+  values:
+  - releases/observability-system/victoria-metrics.yaml

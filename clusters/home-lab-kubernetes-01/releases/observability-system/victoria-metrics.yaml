@@ -1,0 +1,59 @@
+vmsingle:
+  enabled: false
+vmcluster:
+  enabled: true
+  spec:
+    retentionPeriod: "7"
+    replicationFactor: 2
+    vmstorage:
+      replicaCount: 2
+      storage:
+        volumeClaimTemplate:
+          spec:
+            resources:
+              requests:
+                storage: 10Gi
+    vmselect:
+      replicaCount: 2
+      storage:
+        volumeClaimTemplate:
+          spec:
+            resources:
+              requests:
+                storage: 2Gi
+    vminsert:
+      image:
+        tag: v1.78.0-cluster
+      replicaCount: 2
+
+vmalert:
+  enabled: true
+vmagent:
+  enabled: true
+
+alertmanager:
+  enabled: true
+grafana:
+  enabled: true
+prometheus-node-exporter:
+  enabled: true
+kube-state-metrics:
+  enabled: true
+
+coreDns:
+  enabled: true
+
+kubelet:
+  enabled: true
+kubeApiServer:
+  enabled: true
+kubeControllerManager:
+  enabled: false
+kubeDns:
+  enabled: false
+kubeEtcd:
+  enabled: false
+kubeScheduler:
+  enabled: false
+kubeProxy:
+  enabled: false
