@@ -9,7 +9,7 @@ digitalocean:
   secretName: digitalocean-dns
 
 interval: "1m"
-policy: sync
+policy: upsert-only
 logLevel: debug
 
 sources:
