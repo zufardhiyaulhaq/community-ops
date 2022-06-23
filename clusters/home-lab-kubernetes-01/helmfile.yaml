@@ -13,6 +13,8 @@ repositories:
   url: https://argoproj.github.io/argo-helm
 - name: vm
   url: https://victoriametrics.github.io/helm-charts/
+- name: kubecost
+  url: https://kubecost.github.io/cost-analyzer/
 
 releases:
 - name: frp-operator
@@ -61,3 +63,10 @@ releases:
   chart: vm/victoria-metrics-k8s-stack
   values:
   - releases/observability-system/victoria-metrics.yaml
+
+- name: cost-analyzer
+  namespace: kubecost-system
+  version: 1.92.0
+  chart: kubecost/cost-analyzer
+  values:
+  - releases/cost-analyzer/cost-analyzer.yaml

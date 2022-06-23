@@ -5,3 +5,4 @@ resources:
 - namespaces/istio-system
 - namespaces/argocd-system
 - namespaces/observability-system
+- namespaces/kubecost-system

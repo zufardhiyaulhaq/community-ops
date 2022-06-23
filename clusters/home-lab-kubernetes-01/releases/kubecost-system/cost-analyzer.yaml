@@ -1,0 +1,178 @@
+global:
+  prometheus:
+    enabled: false # If false, Prometheus will not be installed -- only actively supported on paid Kubecost plans
+    fqdn: http://vmselect-victoria-metrics-victoria-metrics-k8s-stack.observability-system.svc.cluster.local:8481/select/0/prometheus 
+
+  thanos:
+    enabled: false
+
+  grafana:
+    enabled: false # If false, Grafana will not be installed
+    proxy: false # If true, the kubecost frontend will route to your grafana through its service endpoint
+
+  notifications:
+    alertmanager:
+      enabled: false # If true, allow kubecost to write to your alertmanager
+
+  # Set saved report(s) accessible from reports.html
+  # Ref: http://docs.kubecost.com/saved-reports
+  savedReports:
+    enabled: false # If true, overwrites report parameters set through UI
+
+  # Set saved report(s) accessible from reports.html
+  # Ref: http://docs.kubecost.com/saved-reports
+  assetReports:
+    enabled: false # If true, overwrites report parameters set through UI
+
+# Kubecost Deployment Configuration
+# Used for HA mode in Business & Enterprise tier
+kubecostDeployment:
+  replicas: 1
+
+# Advanced pipeline for custom prices, enterprise key required
+pricingCsv:
+  enabled: false
+
+# SAML integration for user management and RBAC, enterprise key required
+# Ref: https://github.com/kubecost/docs/blob/master/user-management.md
+saml:
+  enabled: false
+
+# Adds an httpProxy as an environment variable. systemProxy.enabled must be `true`to have any effect.
+# Ref: https://www.oreilly.com/library/view/security-with-go/9781788627917/5ea6a02b-3d96-44b1-ad3c-6ab60fcbbe4f.xhtml
+systemProxy:
+  enabled: false
+
+# imagePullSecrets:
+# - name: "image-pull-secret"
+
+kubecostFrontend:
+  image: "gcr.io/kubecost1/frontend"
+  imagePullPolicy: Always
+  resources:
+    requests:
+      cpu: "10m"
+      memory: "55Mi"
+    #limits:
+    #  cpu: "100m"
+    #  memory: "256Mi"
+
+# Kubecost Metrics deploys a separate pod which will emit kubernetes specific metrics required
+# by the cost-model. This pod is designed to remain active and decoupled from the cost-model itself.
+# However, disabling this service/pod deployment will flag the cost-model to emit the metrics instead.
+kubecostMetrics:
+  # emitPodAnnotations: false
+  # emitNamespaceAnnotations: false
+  # emitKsmV1Metrics: true
+
+  # Optional
+  # The metrics exporter is a separate deployment and service (for prometheus scrape auto-discovery)
+  # which emits metrics cost-model relies on. Enabling this deployment also removes the KSM dependency
+  # from the cost-model. If the deployment is not enabled, the metrics will continue to be emitted from
+  # the cost-model.
+  exporter:
+    enabled: false
+    serviceMonitor:
+      enabled: false
+
+kubecostModel:
+  image: "gcr.io/kubecost1/cost-model"
+  imagePullPolicy: Always
+  # Enables the emission of the kubecost_cloud_credit_total and
+  # kubecost_cloud_expense_total metrics
+  outOfClusterPromMetricsEnabled: false
+  # Build local cost allocation cache
+  warmCache: false
+  # Build local savings cache
+  warmSavingsCache: true
+  # Run allocation ETL pipelines
+  etl: true
+  # The total number of days the ETL pipelines will build
+  # Set to 0 to disable daily ETL (not recommended)
+  etlDailyStoreDurationDays: 91
+  # The total number of hours the ETL pipelines will build
+  # Set to 0 to disable hourly ETL (not recommended)
+  etlHourlyStoreDurationHours: 49
+  # max number of concurrent Prometheus queries
+  maxQueryConcurrency: 5
+  resources:
+    requests:
+      cpu: "200m"
+      memory: "55Mi"
+    #limits:
+    #  cpu: "800m"
+    #  memory: "256Mi"
+
+# Basic Kubecost ingress, more examples available at https://github.com/kubecost/docs/blob/master/ingress-examples.md
+ingress:
+  enabled: false
+
+nodeSelector: {}
+tolerations: []
+affinity: {}
+priority:
+  enabled: false
+
+# If true, enable creation of NetworkPolicy resources.
+networkPolicy:
+  enabled: false
+
+  # Cost-analyzer specific vars using the new template
+  costAnalyzer:
+    enabled: false # If true, create a newtork policy for cost-analzyer
+
+podSecurityPolicy:
+  enabled: false
+
+## @param extraVolumes A list of volumes to be added to the pod
+##
+extraVolumes: []
+## @param extraVolumeMounts A list of volume mounts to be added to the pod
+##
+extraVolumeMounts: []
+
+# Define persistence volume for cost-analyzer, more information at https://github.com/kubecost/docs/blob/master/storage.md
+persistentVolume:
+  enabled: false # Note that setting this to false means configurations will be wiped out on pod restart.
+
+service:
+  type: ClusterIP
+  port: 9090
+  targetPort: 9090
+  labels: {}
+  annotations: {}
+
+prometheus:
+  alertmanager:
+    enabled: false
+  nodeExporter:
+    enabled: false
+  pushgateway:
+    enabled: false
+  kube-state-metrics:
+    disabled: true
+
+networkCosts:
+  enabled: false
+
+clusterController:
+  enabled: false
+
+reporting:
+  logCollection: false
+  productAnalytics: false
+  errorReporting: false
+  valuesReporting: false
+
+serviceMonitor:
+  enabled: false
+
+prometheusRule:
+  enabled: false
+
+grafana:
+  sidecar:
+    dashboards:
+      enabled: false
+    datasources:
+      enabled: false
