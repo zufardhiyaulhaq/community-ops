@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: grafana-home-zufardhiyaulhaq-com-cert
+  namespace: istio-system
+spec:
+  secretName: grafana-home-zufardhiyaulhaq-com-cert
+  issuerRef:
+    name: zufardhiyaulhaq-com-cluster-issuer
+    kind: ClusterIssuer
+  commonName: "grafana.home.zufardhiyaulhaq.com"
+  dnsNames:
+  - "grafana.home.zufardhiyaulhaq.com"

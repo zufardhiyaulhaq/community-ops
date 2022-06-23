@@ -1,0 +1,22 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: grafana-home-zufardhiyaulhaq-com-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "grafana.home.zufardhiyaulhaq.com"
+  gateways:
+  - istio-system/grafana-home-zufardhiyaulhaq-com-gateway
+  http:
+  - name: "default-route"
+    match:
+    - uri:
+        prefix: /
+    route:
+      - destination:
+          port:
+            number: 80
+          host: victoria-metrics-grafana.observability-system.svc.cluster.local
+  exportTo:
+    - "."
