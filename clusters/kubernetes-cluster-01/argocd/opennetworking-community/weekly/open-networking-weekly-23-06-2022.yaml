@@ -1,0 +1,20 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: open-networking-weekly-23-06-2022
+  namespace: opennetworking-community
+spec:
+  name: Open Networking Weekly 23-06-2022
+  date: 06/23/2022
+  image: https://opennetworking.org/wp-content/uploads/2020/09/ONF-logo-og.png
+  community: Open Networking Indonesia Community
+  tags:
+  - weekly
+  - onf
+  articles:
+  - title: What’s Next for P4?
+    url: https://systemsapproach.substack.com/p/whats-next-for-p4?s=r&utm_campaign=post&utm_medium=email
+    type: Open Networking News
+  - title: VOLTHA v2.10 Techinar
+    url: https://opennetworking.org/events/voltha-v2-10-techinar/
+    type: Open Networking Event
