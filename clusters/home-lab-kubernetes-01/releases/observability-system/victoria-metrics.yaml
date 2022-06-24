@@ -43,12 +43,30 @@ vmagent:
 
 alertmanager:
   enabled: true
+  resources:
+    requests:
+      cpu: 64m
+      memory: 64Mi
+
 grafana:
   enabled: true
+  resources:
+    requests:
+      cpu: 64m
+      memory: 64Mi
 prometheus-node-exporter:
   enabled: true
+  resources:
+    requests:
+      cpu: 64m
+      memory: 64Mi
+
 kube-state-metrics:
   enabled: true
+  resources:
+    requests:
+      cpu: 64m
+      memory: 64Mi
 
 coreDns:
   enabled: true
