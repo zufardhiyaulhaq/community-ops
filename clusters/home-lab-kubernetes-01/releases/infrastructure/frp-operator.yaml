@@ -7,9 +7,6 @@ operator:
   replica: 1
 
 resources:
-  limits:
-    cpu: 200m
-    memory: 100Mi
   requests:
-    cpu: 100m
-    memory: 20Mi
+    cpu: 32m
+    memory: 32Mi

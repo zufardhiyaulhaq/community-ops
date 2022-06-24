@@ -1,0 +1,16 @@
+apiVersion: operator.victoriametrics.com/v1beta1
+kind: VMServiceScrape
+metadata:
+  name: cost-analyzer
+  namespace: observability-system
+spec:
+  endpoints:
+  - honorLabels: true
+    port: tcp-model
+  namespaceSelector:
+    matchNames:
+    - kubecost-system
+  selector:
+    matchLabels:
+      app: cost-analyzer
+      app.kubernetes.io/instance: cost-analyzer

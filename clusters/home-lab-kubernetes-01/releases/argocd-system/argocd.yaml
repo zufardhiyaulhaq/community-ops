@@ -1,3 +1,43 @@
 server:
   extraArgs:
   - --insecure
+  resources:
+    requests:
+      cpu: 64m
+      memory: 64Mi
+
+redis:
+  resources:
+    requests:
+      cpu: 64m
+      memory: 64Mi
+
+repoServer:
+  resources:
+    requests:
+      cpu: 64m
+      memory: 64Mi
+
+controller:
+  resources:
+    requests:
+      cpu: 64m
+      memory: 64Mi
+
+applicationset:
+  resources:
+    requests:
+      cpu: 64m
+      memory: 64Mi
+
+notifications:
+  resources:
+    requests:
+      cpu: 64m
+      memory: 64Mi
+
+configs:
+  resources:
+    requests:
+      cpu: 64m
+      memory: 64Mi

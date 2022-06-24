@@ -7,15 +7,11 @@ spec:
       enabled: true
       k8s:
         resources:
-          limits:
-            cpu: 128m
-            memory: 128Mi
           requests:
-            cpu: 64m
-            memory: 64Mi
+            cpu: 32m
+            memory: 32Mi
         podDisruptionBudget:
           minAvailable: 1
-        replicaCount: 1
         hpaSpec:
           maxReplicas: 2
           minReplicas: 1
@@ -28,15 +24,11 @@ spec:
         app: istio-public-gateway
       k8s:
         resources:
-          limits:
-            cpu: 128m
-            memory: 128Mi
           requests:
-            cpu: 64m
-            memory: 64Mi
+            cpu: 32m
+            memory: 32Mi
         podDisruptionBudget:
           minAvailable: 1
-        replicaCount: 1
         hpaSpec:
           maxReplicas: 2
           minReplicas: 1
@@ -69,3 +61,10 @@ spec:
       holdApplicationUntilProxyStarts: true
       proxyMetadata:
         ISTIO_META_DNS_CAPTURE: "true"
+  values:
+    global:
+      proxy:
+        resources:
+          requests:
+            memory: 32Mi
+            cpu: 32m
