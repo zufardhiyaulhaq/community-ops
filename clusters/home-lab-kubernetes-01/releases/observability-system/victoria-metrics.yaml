@@ -7,6 +7,10 @@ vmcluster:
     replicationFactor: 2
     vmstorage:
       replicaCount: 2
+      resources:
+        requests:
+          cpu: 128m
+          memory: 256Mi
       storage:
         volumeClaimTemplate:
           spec:
@@ -15,6 +19,10 @@ vmcluster:
                 storage: 10Gi
     vmselect:
       replicaCount: 2
+      resources:
+        requests:
+          cpu: 128m
+          memory: 256Mi
       storage:
         volumeClaimTemplate:
           spec:
@@ -22,9 +30,11 @@ vmcluster:
               requests:
                 storage: 2Gi
     vminsert:
-      image:
-        tag: v1.78.0-cluster
       replicaCount: 2
+      resources:
+        requests:
+          cpu: 128m
+          memory: 256Mi
 
 vmalert:
   enabled: true

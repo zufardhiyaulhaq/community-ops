@@ -2,9 +2,10 @@
 cainjector:
   enabled: true
   replicaCount: 1
-  requests:
-    cpu: 32m
-    memory: 32Mi
+  resources:
+    requests:
+      cpu: 32m
+      memory: 32Mi
 
 extraArgs:
   - '--cluster-resource-namespace=infrastructure'
@@ -13,9 +14,10 @@ installCRDs: true
 
 webhook:
   replicaCount: 1
-  requests:
-    cpu: 32m
-    memory: 32Mi
+  resources:
+    requests:
+      cpu: 32m
+      memory: 32Mi
 
 resources:
   requests:
