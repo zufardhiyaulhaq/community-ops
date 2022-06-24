@@ -5,8 +5,3 @@ operator:
   tag: "latest"
   # number of replica for deployment
   replica: 1
-
-resources:
-  requests:
-    cpu: 32m
-    memory: 32Mi
