@@ -4,6 +4,3 @@ commonLabels:
   namespace: infrastructure
   owner: zufardhiyaulhaq
 
-resources:
-- ../../../../../bases/namespace-scope/limit-range/arm-small
-
