@@ -15,6 +15,8 @@ repositories:
   url: https://victoriametrics.github.io/helm-charts/
 - name: kubecost
   url: https://kubecost.github.io/cost-analyzer/
+- name: prometheus-community
+  url: https://prometheus-community.github.io/helm-charts
 
 releases:
 - name: frp-operator
@@ -57,12 +59,19 @@ releases:
   values:
   - releases/argocd-system/argocd.yaml
 
-- name: victoria-metrics
+# - name: victoria-metrics
+#   namespace: observability-system
+#   version: 0.9.5
+#   chart: vm/victoria-metrics-k8s-stack
+#   values:
+#   - releases/observability-system/victoria-metrics.yaml
+
+- name: prometheus
   namespace: observability-system
-  version: 0.9.5
-  chart: vm/victoria-metrics-k8s-stack
+  version: 36.2.0
+  chart: prometheus-community/kube-prometheus-stack
   values:
-  - releases/observability-system/victoria-metrics.yaml
+  - releases/observability-system/prometheus.yaml
 
 - name: cost-analyzer
   namespace: kubecost-system
