@@ -1,6 +1,6 @@
 repositories:
-- name: zufardhiyaulhaq
-  url: https://charts.zufardhiyaulhaq.com/
+- name: frp-operator
+  url: https://zufardhiyaulhaq.com/frp-operator/charts/releases/
 - name: longhorn
   url: https://charts.longhorn.io
 - name: sealed-secrets
@@ -22,7 +22,7 @@ releases:
 - name: frp-operator
   namespace: infrastructure
   version: 1.0.0
-  chart: zufardhiyaulhaq/frp-operator
+  chart: frp-operator/frp-operator
   values:
   - releases/infrastructure/frp-operator.yaml
 
