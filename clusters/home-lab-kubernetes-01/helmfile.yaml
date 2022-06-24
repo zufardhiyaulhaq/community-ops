@@ -59,19 +59,19 @@ releases:
   values:
   - releases/argocd-system/argocd.yaml
 
-# - name: victoria-metrics
-#   namespace: observability-system
-#   version: 0.9.5
-#   chart: vm/victoria-metrics-k8s-stack
-#   values:
-#   - releases/observability-system/victoria-metrics.yaml
-
-- name: prometheus
+- name: victoria-metrics
   namespace: observability-system
-  version: 36.2.0
-  chart: prometheus-community/kube-prometheus-stack
+  version: 0.9.5
+  chart: vm/victoria-metrics-k8s-stack
   values:
-  - releases/observability-system/prometheus.yaml
+  - releases/observability-system/victoria-metrics.yaml
+
+# - name: prometheus
+#   namespace: observability-system
+#   version: 36.2.0
+#   chart: prometheus-community/kube-prometheus-stack
+#   values:
+#   - releases/observability-system/prometheus.yaml
 
 - name: cost-analyzer
   namespace: kubecost-system
