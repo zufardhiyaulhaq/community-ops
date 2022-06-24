@@ -1,11 +1,9 @@
 
-namespace: default
+namespace: istio-system
 commonLabels:
-  namespace: default
+  namespace: istio-system
   owner: zufardhiyaulhaq
 
 resources:
 - ../../../../../bases/namespace-scope/limit-range/arm-small
 
-# Service
-- ../../../../../bases/namespace-scope/service/podinfo
