@@ -9,4 +9,4 @@ operator:
 resources:
   requests:
     cpu: 16m
-    memory: 16Mi
+    memory: 64Mi

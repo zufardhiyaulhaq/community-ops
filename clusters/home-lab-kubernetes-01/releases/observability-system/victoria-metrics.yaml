@@ -75,8 +75,8 @@ kube-state-metrics:
   enabled: true
   resources:
     requests:
-      cpu: 64m
-      memory: 64Mi
+      cpu: 32m
+      memory: 96Mi
 
 coreDns:
   enabled: true

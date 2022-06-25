@@ -3,41 +3,41 @@ server:
   - --insecure
   resources:
     requests:
-      cpu: 64m
+      cpu: 32m
       memory: 64Mi
 
 redis:
   resources:
     requests:
-      cpu: 64m
-      memory: 64Mi
+      cpu: 16m
+      memory: 32Mi
 
 repoServer:
   resources:
     requests:
-      cpu: 64m
+      cpu: 32m
       memory: 64Mi
 
 controller:
   resources:
     requests:
-      cpu: 64m
+      cpu: 32m
       memory: 64Mi
 
 applicationset:
   resources:
     requests:
-      cpu: 64m
+      cpu: 32m
       memory: 64Mi
 
 notifications:
   resources:
     requests:
-      cpu: 64m
-      memory: 64Mi
+      cpu: 16m
+      memory: 32Mi
 
 configs:
   resources:
     requests:
-      cpu: 64m
+      cpu: 32m
       memory: 64Mi

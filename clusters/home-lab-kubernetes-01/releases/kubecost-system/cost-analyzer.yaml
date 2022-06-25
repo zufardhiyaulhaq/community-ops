@@ -53,7 +53,7 @@ kubecostFrontend:
   resources:
     requests:
       cpu: "10m"
-      memory: "55Mi"
+      memory: "20Mi"
     #limits:
     #  cpu: "100m"
     #  memory: "256Mi"
@@ -98,8 +98,8 @@ kubecostModel:
   maxQueryConcurrency: 5
   resources:
     requests:
-      cpu: "200m"
-      memory: "55Mi"
+      cpu: "128m"
+      memory: "20Mi"
     #limits:
     #  cpu: "800m"
     #  memory: "256Mi"
