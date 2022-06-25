@@ -17,3 +17,8 @@ sources:
 
 crd:
   create: true
+
+resources:
+  requests:
+    cpu: 16m
+    memory: 16Mi
