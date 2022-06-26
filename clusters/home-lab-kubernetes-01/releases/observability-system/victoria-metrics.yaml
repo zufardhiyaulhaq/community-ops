@@ -8,9 +8,6 @@ vmcluster:
     vmstorage:
       replicaCount: 2
       resources:
-        limits:
-          cpu: 512m
-          memory: 1024Mi
         requests:
           cpu: 128m
           memory: 256Mi
@@ -23,9 +20,6 @@ vmcluster:
     vmselect:
       replicaCount: 2
       resources:
-        limits:
-          cpu: 512m
-          memory: 1024Mi
         requests:
           cpu: 128m
           memory: 256Mi
@@ -38,9 +32,6 @@ vmcluster:
     vminsert:
       replicaCount: 2
       resources:
-        limits:
-          cpu: 512m
-          memory: 1024Mi
         requests:
           cpu: 128m
           memory: 256Mi
