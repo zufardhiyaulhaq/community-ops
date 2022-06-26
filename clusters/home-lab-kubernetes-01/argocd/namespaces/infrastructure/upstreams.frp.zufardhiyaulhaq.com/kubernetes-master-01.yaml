@@ -1,0 +1,12 @@
+apiVersion: frp.zufardhiyaulhaq.com/v1alpha1
+kind: Upstream
+metadata:
+  name: kubernetes-master-01
+  namespace: infrastructure
+spec:
+  client: p-frp-do-01-ssh
+  tcp:
+    host: master-01.kubernetes-01.home.zufardhiyaulhaq.com
+    port: 22
+    server:
+      port: 2001

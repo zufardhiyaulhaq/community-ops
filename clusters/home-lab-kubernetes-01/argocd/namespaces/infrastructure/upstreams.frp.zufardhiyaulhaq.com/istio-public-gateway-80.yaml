@@ -4,7 +4,7 @@ metadata:
   name: istio-public-gateway-80
   namespace: infrastructure
 spec:
-  client: p-frp-do-01
+  client: p-frp-do-01-ingress
   tcp:
     host: istio-public-gateway.istio-system.svc.cluster.local
     port: 80

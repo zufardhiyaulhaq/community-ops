@@ -1,0 +1,12 @@
+apiVersion: frp.zufardhiyaulhaq.com/v1alpha1
+kind: Upstream
+metadata:
+  name: kubernetes-worker-04
+  namespace: infrastructure
+spec:
+  client: p-frp-do-01-ssh
+  tcp:
+    host: worker-04.kubernetes-01.home.zufardhiyaulhaq.com
+    port: 22
+    server:
+      port: 2014
