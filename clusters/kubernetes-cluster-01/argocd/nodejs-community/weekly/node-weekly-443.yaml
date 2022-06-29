@@ -1,0 +1,59 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: node-weekly-443
+  namespace: nodejs-community
+spec:
+  name: Node Weekly 443
+  date: 06/29/2022
+  image: https://calebmadrigal.com/images/nodejs-logo.png
+  community: Node.js Indonesia Community
+  tags:
+  - weekly
+  - nodejs
+  articles:
+  - title: Using Web Streams in Node.js
+    url: https://nodeweekly.com/link/125260/web
+    type: News
+  - title: Alternatives to Installing npm Packages Globally
+    url: https://nodeweekly.com/link/125263/web
+    type: News
+  - title: Integrate eSignatures in Your App in Less Than a Week
+    url: https://nodeweekly.com/link/125264/web
+    type: News
+  - title: 'Puppeteer 15.0: Control Headless Chrome from Node'
+    url: https://nodeweekly.com/link/125265/web
+    type: News
+  - title: 'Microvium: A Tiny JavaScript Engine for Microcontrollers'
+    url: https://nodeweekly.com/link/125267/web
+    type: News
+  - title: 'js-fire 1.0: Generate CLIs from JavaScript Objects'
+    url: https://nodeweekly.com/link/125287/web
+    type: News
+  - title: 'Tinypool: An Even Smaller Node.js Worker Pool Library'
+    url: https://nodeweekly.com/link/125289/web
+    type: News
+  - title: Node Transactional Notification Management System Saves Time and Money
+    url: https://nodeweekly.com/link/125291/web
+    type: News
+  - title: 'Moon: A New Build System for the JavaScript Ecosystem'
+    url: https://nodeweekly.com/link/125292/web
+    type: News
+  - title: 'node-website-scraper: Download A Site to a Local Directory'
+    url: https://nodeweekly.com/link/125293/web
+    type: News
+  - title: 'public-ip 6.0: Quickly Get Your Public IP Address'
+    url: https://nodeweekly.com/link/125294/web
+    type: News
+  - title: 'grammY: An Up-to-Date Telegram Bot Framework'
+    url: https://nodeweekly.com/link/125295/web
+    type: News
+  - title: Be Amongst the First to Shape Our New Dev Community. Join Us Today
+    url: https://nodeweekly.com/link/125296/web
+    type: News
+  - title: 'Middy 3.1: Node Middleware Engine for AWS Lambda'
+    url: https://nodeweekly.com/link/125297/web
+    type: News
+  - title: 'PSD 0.2: Zero-Dependency PSD (Photoshop) Parser for Browser and Node'
+    url: https://nodeweekly.com/link/125298/web
+    type: News
