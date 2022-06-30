@@ -1,0 +1,53 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-417
+  namespace: golang-community
+spec:
+  name: Golang Weekly 417
+  date: 06/26/2022
+  image: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+  community: Golang Indonesia Community
+  tags:
+  - weekly
+  - golang
+  articles:
+  - title: An Introduction to Fuzzing in Go
+    url: https://golangweekly.com/link/125331/web
+    type: News
+  - title: Making Code Faster
+    url: https://golangweekly.com/link/125334/web
+    type: News
+  - title: Gophers - Opportunity is Knocking
+    url: https://golangweekly.com/link/125335/web
+    type: News
+  - title: How Uber Halved Its Go Monorepo CI Build Time
+    url: https://golangweekly.com/link/125336/web
+    type: News
+  - title: How to Build Your Package Docs Locally
+    url: https://golangweekly.com/link/125338/web
+    type: News
+  - title: A Faster Development Experience with Vite, Hugo and Preact
+    url: https://golangweekly.com/link/125343/web
+    type: News
+  - title: 'Viddy: A Modern Go Alternative to watch'
+    url: https://golangweekly.com/link/125351/web
+    type: News
+  - title: 'Render 1.5: Easily Render JSON, XML, Binary Data, and HTML Template Responses'
+    url: https://golangweekly.com/link/125352/web
+    type: News
+  - title: A wolfSSL Wrapper for Lightweight SSL/TLS in Go
+    url: https://golangweekly.com/link/125353/web
+    type: News
+  - title: Keep Up with the Latest in Startups, Tech, & Programming in Just 5 Min
+    url: https://golangweekly.com/link/125356/web
+    type: News
+  - title: 'Cobra 1.5.0: A ''Commander'' for Modern Go CLI Interactions'
+    url: https://golangweekly.com/link/125357/web
+    type: News
+  - title: 'Gopherlings: Learn Go by Fixing Tiny Incorrect Programs'
+    url: https://golangweekly.com/link/125358/web
+    type: News
+  - title: A Simple/Minimal Tcl Interpreter Written in Go
+    url: https://golangweekly.com/link/125359/web
+    type: News
