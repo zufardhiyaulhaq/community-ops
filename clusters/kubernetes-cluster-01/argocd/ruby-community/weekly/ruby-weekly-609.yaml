@@ -1,0 +1,59 @@
+apiVersion: community.io/v1alpha1
+kind: Weekly
+metadata:
+  name: ruby-weekly-609
+  namespace: ruby-community
+spec:
+  name: Ruby Weekly 609
+  date: 06/30/2022
+  image: https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png
+  community: Ruby Indonesia Community
+  tags:
+  - weekly
+  - ruby
+  articles:
+  - title: 'rstfilter: VS Code Extension to See Execution Results Line by Line'
+    url: https://rubyweekly.com/link/125211/web
+    type: News
+  - title: 'RedisGreen: Secure, Scalable, Full-Featured Redis 7 Hosting'
+    url: https://rubyweekly.com/link/125213/web
+    type: News
+  - title: Rails' Discord Server Now Open to the Public
+    url: https://rubyweekly.com/link/125214/web
+    type: News
+  - title: Scaling Rails WebSockets in Kubernetes with AnyCable
+    url: https://rubyweekly.com/link/125220/web
+    type: News
+  - title: How to Build an Instagram Clone with Hotwire
+    url: https://rubyweekly.com/link/125221/web
+    type: News
+  - title: "U Up? Let People Know with Beautiful Status Pages from Honeybadger \U0001F618"
+    url: https://rubyweekly.com/link/125222/web
+    type: News
+  - title: Why Ruby on Rails is Still a Good Choice in 2022
+    url: https://rubyweekly.com/link/125223/web
+    type: News
+  - title: 'State Machines in Ruby: A Simple Introduction'
+    url: https://rubyweekly.com/link/125224/web
+    type: News
+  - title: Caught Out by fetch's Second Argument
+    url: https://rubyweekly.com/link/125226/web
+    type: News
+  - title: 'HTTP.rb 5.1: The Fast Ruby HTTP Client'
+    url: https://rubyweekly.com/link/125227/web
+    type: News
+  - title: 'Motion 0.7: Pure Ruby Reactive Frontend UI Components for Rails'
+    url: https://rubyweekly.com/link/125228/web
+    type: News
+  - title: 'Webspicy: A Framework for Black Box Testing of Web Services'
+    url: https://rubyweekly.com/link/125230/web
+    type: News
+  - title: Don’t Let Your Issue Tracker Be a Four-Letter Word. Use Shortcut
+    url: https://rubyweekly.com/link/125232/web
+    type: News
+  - title: 'Avo 2.9: An Admin Panel/Dashboard System for Rails Apps'
+    url: https://rubyweekly.com/link/125233/web
+    type: News
+  - title: 'xchan.rb: Send Ruby Objects Between Ruby Processes with UNIX Sockets'
+    url: https://rubyweekly.com/link/125236/web
+    type: News
