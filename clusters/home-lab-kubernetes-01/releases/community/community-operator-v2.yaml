@@ -1,0 +1,15 @@
+operator:
+  # image of community-operator-v2
+  image: "zufardhiyaulhaq/community-operator-v2"
+  # tag of community-operator-v2 image
+  tag: "latest"
+  # number of replica for deployment
+  replica: 1
+
+resources:
+  limits:
+    cpu: 256m
+    memory: 256Mi
+  requests:
+    cpu: 64m
+    memory: 65Mi

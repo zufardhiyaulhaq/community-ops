@@ -6,3 +6,4 @@ resources:
 - namespaces/argocd-system
 - namespaces/observability-system
 - namespaces/kubecost-system
+- namespaces/community

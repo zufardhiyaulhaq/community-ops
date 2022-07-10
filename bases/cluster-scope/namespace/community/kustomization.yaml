@@ -1,0 +1,5 @@
+resources:
+- community.yaml
+namespace: community
+commonLabels:
+  namespace: community
