@@ -1,0 +1,23 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Announcement
+metadata:
+  name: kcd-oid-2022-cfp-01
+  namespace: community
+spec:
+  community:
+  - "kubernetes"
+  - "openstack"
+  spec:
+    subject: Call for Proposals KubernetesCommunityDays & OpenInfraDays Indonesia 2022
+    body: >-
+      The #KubernetesCommunityDays  + #OpenInfraDays Indonesia 2022 CFP is open NOW through August 22! We cant wait to hear your amazing ideas and hope to see you in Jakarta! 
+
+
+      Learn more: https://cfp.kubernetesdays.id
+    imageUrl: https://raw.githubusercontent.com/cloudnative-id/kubernetes-community-days/master/artwork/cfp/KCD2021-CFPv1.png
+    tags: 
+      - announcement
+      - KubernetesCommunityDays
+      - cncf
+      - golang
+      - CFP

@@ -1,0 +1,14 @@
+---
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: TelegramHandler
+metadata:
+  name: openstack-telegram
+  namespace: community
+spec:
+  type: group
+  credential: "-1001337501756"
+  authentication:
+    token:
+      secret:
+        name: openstack-telegram
+        key: token

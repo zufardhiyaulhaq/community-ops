@@ -1,0 +1,16 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: openstack-telegram
+  namespace: community
+spec:
+  encryptedData:
+    token: AgB2lrZ0FD73HuSwJkKGHA05Tv/7/8By3DX1VKGwX3GH0iCkuF0K6Vbz6lyjgxrH+HhIEMuoepYKJqAGUiBA0Y3WqgQOlBk5JY6OnW9ZaK6TKQED2GK1Hj32R16ry0GGFELsjEBP2ETVu3hMRromdNXSLeiRvmfjr/InVl1KoYTDD6acwjvEEH91d+7BUATVtiRS2T46Wx19/WIqKATRo0h/mynHVoZR9UW5qBQTf5xBIl+IgiGMmR99imhuRp92k1FA/xU7nM7O6PiVSRO1Ie1h1TkP2UMBrvtfHvvZIh8bPVknkRMZKsi0MA2Y41xUrjp6bTbZ5Nvz0kZSZP/Jg477WZhtmhjJoZyS8Z1umvr5ULH0SVHO7bqCICS3to6Q1hTgMb8frBY3WouTlReJrA6zW8dEjSVwUEBODXZZ5R0sDV3Pugh66Ci4Q2/RmjFJ/gDXRMORky7kbFbBmO/swemRestejlGuiltbT9rfAg48j05R0qmfF9+nYESi+E+/cvsxE4OxqJJiBqZmWxPRacK94muK9Ft/hZLR1m02P7vPu0x8FfjHwgkfIv6/KupR2p52K5ErSDf879nRl1+wGmR6BZBzygbh/gVeRIm6dNDJcDwR+YzkvwDdyTktdQOqb0Oaot3JZnxdj+G5qFYWsqdfqGW5f5uFe7nbveZd8MEZLoirDF5LJ/NTUhl13bIBwYQ4AehVYVnnAs5EpYJxragz3fqBeHo78IIZ7Z3mVKbiEuGl6lmZKyEcLE0ESNQe
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: openstack-telegram
+      namespace: community
+    type: Opaque
