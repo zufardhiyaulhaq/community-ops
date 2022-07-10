@@ -1,0 +1,16 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: kubernetes-telegram
+  namespace: community
+spec:
+  encryptedData:
+    token: AgBkbPjQ3iKgedogR5hQedtRKBcdKrpXysMMxKz3slaVAOru2JRex5/Yfstee0TC/99lfuCyHJQwsC2kDiFJCt8eWwDHG2L9SDochuny/P5/J/no8LaTPHJeh3NoNv1ViiMNiA8I11YAEO7/Eyv2x8h3X8KciciHYUpyggvH+XqdJGtCE4ZeF2oQFSg2r6xTo0622gKMr9iTIOY3yD0SbEMB0cwwwcauIFausiUvVPTFmkGR0hs2zkPTqU1/lfS2mfTUX/2ZR6K1Dz+BDJCpQr0GnHssQ8TVNfPczsh6n0PuDK5P6fwlJ0ieG7qNZ2mayhuzHelso2hQZglJWzpFgdIZun3pzSIq9zeR7HpVmMwONjPN3vaNKaUltrWHDzUdieYHB++gfuNTWsKla8vb+XQmRCxuGWXVzJfNXExabFTMKuB5ZooDmIu8hKwmFumorRrPAmZOqJnYcj8aNX5tDzId68vFWqVxkCEu7bDjBTxDZGugT2SAiKIP+zM/GXhit39Hqq9iVWC7j31JmImilQbfSiEbI+LZ17PSRiXNOQSf3yJaqbX/nLKjUMYZ18+6R5GuQn1L8WGcpZZItxLGY+C55o9AP+tyCPhfO0zI45pOpX7snlM4Ge1Th6deG3VJOjQ46yD6oM1G5Hi2IB6/FJsZLn7r3sx+8PeORxU4wTmqMIpvHG8uXPjfPaKNnYP6cTb0afr2TiXFp5MgGdjrF1kl8rotAw7rmjEKzcHLzB7EiMPJzJSrsNAJY+/PS2Q=
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: kubernetes-telegram
+      namespace: community
+    type: Opaque
