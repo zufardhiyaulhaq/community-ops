@@ -1,0 +1,14 @@
+---
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: TelegramHandler
+metadata:
+  name: testing-telegram
+  namespace: community
+spec:
+  type: group
+  credential: "-254004317"
+  authentication:
+    token:
+      secret:
+        name: kubernetes-telegram
+        key: token
