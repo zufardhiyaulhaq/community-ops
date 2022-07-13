@@ -61,6 +61,9 @@ spec:
       holdApplicationUntilProxyStarts: true
       proxyMetadata:
         ISTIO_META_DNS_CAPTURE: "true"
+      extraStatTags:
+        - request_method
+        - route_name
   values:
     global:
       proxy:
@@ -68,3 +71,32 @@ spec:
           requests:
             memory: 32Mi
             cpu: 32m
+    telemetry:
+      v2:
+        prometheus:
+          configOverride:
+            inboundSidecar:
+              debug: false
+              stat_prefix: istio
+              metrics:
+                - dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+            outboundSidecar:
+              debug: false
+              stat_prefix: istio
+              metrics:
+                - dimensions:
+                    request_host: request.host
+                    request_method: request.method
+                    route_name: route_name
+            gateway:
+              debug: false
+              stat_prefix: istio
+              disable_host_header_fallback: true
+              metrics:
+                - dimensions:
+                    request_host: '(response.code == 403) ? "unknown" : request.host'
+                    request_method: request.method
+                    route_name: route_name
