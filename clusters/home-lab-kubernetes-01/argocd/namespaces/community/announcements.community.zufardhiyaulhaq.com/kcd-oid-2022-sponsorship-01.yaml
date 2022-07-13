@@ -1,0 +1,24 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Announcement
+metadata:
+  name: kcd-oid-2022-sponsorship-01
+  namespace: community
+spec:
+  community:
+  - "kubernetes"
+  - "openstack"
+  spec:
+    subject: Call for Sponsorship KubernetesC ommunity Days and OpenInfra Days Indonesia 2022
+    body: >-
+      Kubernetes Community Days and OpenInfra Days Indonesia will host an offline conference in Jakarta, and are run by volunteers who are passionate about Cloud Computing and Cloud Native.
+
+
+      They're only possible with the help of sponsors. Please email organizer@kubernetesdays.id or contact@openstack.id if you want to help the Kubernetes and OpenInfra communities in Indonesia.
+
+
+      More information may be found at https://sponsor.kubernetesdays.id and https://sponsor.openinfra.id.
+    imageUrl: https://github.com/cloudnative-id/kubernetes-community-days/raw/master/2022/cfs/cfs1.png
+    tags: 
+      - Conference
+      - KubernetesCommunityDays
+      - OpenInfraDays
