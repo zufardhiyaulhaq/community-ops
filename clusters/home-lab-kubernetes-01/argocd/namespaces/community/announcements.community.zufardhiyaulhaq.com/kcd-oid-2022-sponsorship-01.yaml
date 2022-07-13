@@ -6,9 +6,8 @@ metadata:
 spec:
   community:
   - "kubernetes"
-  - "openstack"
   spec:
-    subject: Call for Sponsorship KubernetesC ommunity Days and OpenInfra Days Indonesia 2022
+    subject: Call for Sponsorship Kubernetes Community Days and OpenInfra Days Indonesia 2022
     body: >-
       Kubernetes Community Days and OpenInfra Days Indonesia will host an offline conference in Jakarta, and are run by volunteers who are passionate about Cloud Computing and Cloud Native.
 
@@ -17,7 +16,7 @@ spec:
 
 
       More information may be found at https://sponsor.kubernetesdays.id and https://sponsor.openinfra.id.
-    imageUrl: https://github.com/cloudnative-id/kubernetes-community-days/raw/master/2022/cfs/cfs1.png
+    imageUrl: https://raw.githubusercontent.com/cloudnative-id/kubernetes-community-days/master/2022/cfs/cfs2.png
     tags: 
       - Conference
       - KubernetesCommunityDays
