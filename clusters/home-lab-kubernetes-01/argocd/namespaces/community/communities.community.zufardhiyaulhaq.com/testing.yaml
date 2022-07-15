@@ -7,4 +7,5 @@ spec:
   socialMedia:
     telegram:
     - testing-telegram
-    twitter: []
+    twitter:
+    - testing-twitter
