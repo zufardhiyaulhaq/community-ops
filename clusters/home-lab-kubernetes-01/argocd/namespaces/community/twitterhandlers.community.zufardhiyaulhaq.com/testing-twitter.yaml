@@ -1,0 +1,24 @@
+---
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: TwitterHandler
+metadata:
+  name: testing-twitter
+  namespace: community
+spec:
+  authentication:
+    apiKey:
+      secret:
+        name: testing-twitter
+        key: apiKey
+    apiKeySecret:
+      secret:
+        name: testing-twitter
+        key: apiKeySecret
+    accessToken:
+      secret:
+        name: testing-twitter
+        key: accessToken
+    accessTokenSecret:
+      secret:
+        name: testing-twitter
+        key: accessTokenSecret
