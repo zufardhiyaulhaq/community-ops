@@ -1,0 +1,14 @@
+---
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: TelegramHandler
+metadata:
+  name: golang-telegram
+  namespace: community
+spec:
+  type: group
+  credential: "-1001095762521"
+  authentication:
+    token:
+      secret:
+        name: golang-telegram
+        key: token

@@ -1,0 +1,16 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: golang-telegram
+  namespace: community
+spec:
+  encryptedData:
+    token: AgBwkai/1XJtuRoolhykf/wf+usStHxEHIAUu3HS9Ao867TylKGKq9vbAf2ABZUL9lQp4KYhI2AUU6LNStgmFS+LQ2Y9kDVONSrlDMBAt2TnhdzLwnFyuyboqtbI7a6jdxPLjdYNjo8bAUtK5lckJbU3aUqiROFjl5cUmO28gQmGJE+zn1ynuHwglh1mF8Iu5RqGnZoAfVF/4/CwkO6SyXjX1iRwBtdyxL7JThRwN+LpdPc03/bcAvEt8eJUsXoDHF3IGS8kzuCjyILIK2ibX2xEaJJq+kkmYwJ1ha4ajjGUekXdStJ40xEODw6WkklU5MYgcn58HkP43qn9Zbm+z/HzmAGXioxQ8/ExEsFINZPYsnPDMae63y/0W+jiXqk/3VPdGy8JWiV9DH3UdJwROyCZCSQpX6G4OCDuqw1/BZbRlpF/2mK/Ovh3yGA1oO6vKRontiFGwmBdSq2/tVQ6HuiaLq5g5aqqh7xPeJYtVj9yadl+Eq9XvYcKq5we5dUBnGx5o7njfD0X9E/EG3mQuOXeMutZLiB5LYKTjzLHBs01s4JmeyjL4ksIdfZCB0wnygJJit0+LyoNKpyvUmUcZ76wp7+2ZB/hGGIAxpslFC/bslUMHAug2BgGgvPAYcmZndHGgAbSt5/l2/uDCbbZH+Z73ZSGCVVLhnYqwQr397FWtSfSkBwE5+FItaf9zBKmSHcQ7YTkoE9p7LerqBlH60krdA69Dv5qoLsB+t2jQxmF81m0uKMNSwRqAmBTmks=
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: golang-telegram
+      namespace: community
+    type: Opaque
