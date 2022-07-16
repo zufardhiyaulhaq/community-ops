@@ -1,0 +1,40 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: testing-weekly-01
+  namespace: community
+spec:
+  community:
+  - "testing"
+  spec:
+    name: "Testing Weekly CRD from community-operator-v2, please Ignore"
+    date: 04/30/2022
+    imageUrl: https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png
+    tags:
+    - weekly
+    - kubernetes
+    articles:
+    - title: Let your developer easily connect, secure,and enforce policy for your MicroService
+      url: https://community.cncf.io/e/m93jwt/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+      type: ICYMI
+    - title: Low-ops Kubernetes storage with MicroK8s and OpenEBS
+      url: https://community.cncf.io/e/m8rb6a/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+      type: ICYMI
+    - title: SSH bastions break your zero trust model
+      url: https://blogs.appaegis.com/ssh-bastions-break-your-zero-trust-model?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+      type: Editorial
+    - title: Certified Kubernetes Security Specialist (CKS) 2022 exam guide
+      url: https://kubesimplify.com/certified-kubernetes-security-specialist-cks-2022-exam-guide?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+      type: Editorial
+    - title: The Go programming language and environment
+      url: https://cacm.acm.org/magazines/2022/5/260357-the-go-programming-language-and-environment/fulltext?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+      type: Technical
+    - title: Hunting down an intermittent failure in Cilium
+      url: https://superorbital.io/journal/hunting-intermittent-cilium-error/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+      type: Technical
+    - title: 'Busting vcluster myths: What is a virtual cluster?'
+      url: https://elastisys.com/busting-vcluster-myths-what-is-a-virtual-cluster/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+      type: Technical
+    - title: SocketCAN x Kubernetes
+      url: https://www.collabora.com/news-and-blog/news-and-events/socketcan-x-kubernetes.html?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9Ca6et-kkBBAfLEO5dFuPbUhzZiFtb53E7jefuQWJG4QO33vXMjdCdsRah2Z5IA3WKrD-W
+      type: Technical

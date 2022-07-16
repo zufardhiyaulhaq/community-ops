@@ -1,0 +1,16 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: opennetworking-telegram
+  namespace: community
+spec:
+  encryptedData:
+    token: AgAK11QHIp2CgeRdC7A2PNxUwVTV5ynflDLhLOchpRvlwKwn9SuOdksHeI3STVmfP3kVRrzpKvW1PTSlhTtVyJkIujXC9RHJcm/8OO3P3x8kUO4OvwQ10UnMl9WM30VE07bTfo7M89g52O3xN8M4m6LfqmTJ0IdP7OPxqVMh5NjiOuaSGDHkvbQ9aaIQqeeG7qrzBE5Sekf6av8BUGKqh1bS8vZ/IOrIGK2MpTGs/eqnApKrofmLNNTQ7Wzg+77MxwjvHwFCk9ZVN0K3nGimarb93gSOiaBOmxQYZpbrCCL6iRB5Yvrdwq3JwiKK0XccLqBtUs5j3BsOTWY28LcanMyvRXEQELV+rVaHXZ184kruaxRJ8jZQssfGEHHucu4mZ2S6qkOb+Z4CnDcK/6UbjAHImBkrkH0l6Wxg9HpyVNceH1VvjKsKu43SBLNv9Bl+uNzXAbA70/KfLvXAzYGOMi9PcbdEjx+a2PnWcgV8nEkzvUt5ZhaWboATaLV69T+GRyEIYe8aqbbXYHrnm8dFjGNmNFz+C2TjM42e+2fd8ytJGEzpBH9KBZ+I7C3U++5krtNLd7mUziN/y/d9tiOcXRxfUZm1DhaXkE4U7eyAIfi2T1CtMTfcNAc08g7t+eSznD7XxB69jPVXmqUdvpKH9lWbYunE82YznJLXeDD3zCRWynpT9ZNykvnLulAwyRn0V59eIvJWT6kDsRx7b4ki8lvAcQE0Saci65Q8qjn0OaQb1/Q23FxZSX1khAI1xZCi
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: opennetworking-telegram
+      namespace: community
+    type: Opaque

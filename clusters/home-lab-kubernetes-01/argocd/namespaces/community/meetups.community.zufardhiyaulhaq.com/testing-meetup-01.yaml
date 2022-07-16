@@ -1,0 +1,29 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Meetup
+metadata:
+  name: testing-meetup-01
+  namespace: community
+spec:
+  community:
+  - "testing"
+  spec:
+    name: "Testing Meetup CRD from community-operator-v2"
+    date: "September 2, 2021"
+    time: "19.00"
+    place: "Online"
+    registrationUrl: "https://github.com/zufardhiyaulhaq/community-operator-v2"
+    imageUrl: "https://raw.githubusercontent.com/cloudnative-id/artwork/master/poster/online/2-September-2021.png"
+    tags:
+      - meetup
+      - CNCF
+    sponsors:
+    - name: "Cloud Native Computing Foundation"
+    speakers:
+      - name: "Bachril Qirom"
+        position: "DevOps Engineer"
+        company: "Tokopedia"
+        title: "High Available and Unlimited Retention Prometheus using Thanos"
+      - name: "Zufar Dhiyaulhaq"
+        position: "Cloud Platform Engineer"
+        company: "Gojek"
+        title: "Istio Multicluster for Zero Downtime Migration"
