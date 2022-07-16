@@ -1,0 +1,16 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: devops-telegram
+  namespace: community
+spec:
+  encryptedData:
+    token: AgC0Xcp1pQiGLboCr5pLj4GXxcqzRgZN+DAj15q4PunKg9LT/GHDVgCbgpTCZe35mFbTXL6yPwnc/CBaC+p/iIqBVnXy9TKozaAkSdX5BvnZlOhc5H5X22s6RUomogki3Av+8YZYzqYhk79PUHL+epK/VZ4gRmFYOXUPxWsLBt9Mm5L+cqD9SaoRk8K5MCAo6q1bFQmdEHShL5iuNZ0AUBIG4pqP+bwkbWbLsmfq6+3PuIsqZ1eln3pTUrS1N+nsP0PwASNl6BJSMq2ECmKVSZ3evPXlRH4a0HXs1pFXb58tP5vpNPK+eB4LCpiGjrUqF47QDilIyhnN5DlgDR8haA7pjOezPtQDtS0P0gB/yZGgPRNo5OM70G760h6ZIiowYLZF6QL33RJM+rLgK4Yt5dVue1IaobuQTpaXtwtDf6R0pU1fk3XGMtsUkUyM5dZCz4QTBUfP62Jyasy1pNTNYfzeZFOXe659nM7GmKtkh86RoesXIh50okXe4PmJOBNYUZag5RQsDs1ZJn0amxDRzzvn7IIReJWX4f0oE28GED3oDlpqTB8CUoX+ry83r/+ob1IKgCP8saAN49Nx/mnXCyyiBgT7qa7dIvCbAD/imNQM8Vc4WKztqNmKzV4iNcGN37HrxEsDYTogE2jwPxTJA+q/TpVPN2Uj+rHNYZrXGuB6EuyZhBQI/F/eIatqSx54AtcH0eTVav3lqtkkgn7VVDcQJszwLEoPt+sPybNI9Y1kN3snKzwU1h91qrlSrCR1
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: devops-telegram
+      namespace: community
+    type: Opaque
