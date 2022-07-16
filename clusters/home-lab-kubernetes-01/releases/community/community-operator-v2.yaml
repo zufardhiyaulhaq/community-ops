@@ -2,7 +2,7 @@ operator:
   # image of community-operator-v2
   image: "zufardhiyaulhaq/community-operator-v2"
   # tag of community-operator-v2 image
-  tag: "latest"
+  tag: "v1.0.0"
   # number of replica for deployment
   replica: 1
 
