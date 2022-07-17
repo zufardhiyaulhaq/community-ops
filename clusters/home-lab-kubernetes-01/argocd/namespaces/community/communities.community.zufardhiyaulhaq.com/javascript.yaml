@@ -1,0 +1,10 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Community
+metadata:
+  name: javascript
+  namespace: community
+spec:
+  socialMedia:
+    telegram:
+    - javascript-telegram
+    twitter: []

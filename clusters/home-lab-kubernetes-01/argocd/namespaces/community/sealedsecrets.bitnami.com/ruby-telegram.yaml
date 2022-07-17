@@ -1,0 +1,16 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: ruby-telegram
+  namespace: community
+spec:
+  encryptedData:
+    token: AgBXa+KuMWLjMG9Bp5EhXwg9ZUrT9JGxjcAcLdwLoUBtUEFbtqNS4KZnc+f4YsbMQ955x4WXZnSQ703EBXRh3vsiSKNCMbvnMBndAZjppp1ONpAuOWAtvYlKMh+rQt0cgLJ4jIASZhwipo2t+8DGAx2m0aBMgx/on35Z2R4YhE8em1u5rwCKev6GjyWJr6RtTRKKsduqnuUFEymMMPHSev+WVExuLLochHkZMc3bj7Hix8Q3FFlrBFP7nqoQ2bnXVq0vvoPBH0+/L3mfZz2Wu3tGI90vksPt0Slm//c556lUUohK9oP/jCCNHIIJfeWJWkPU5oDl0NaC8Qz5cYvpVi4dbR0L0e+VMdfyYaFBgxpmo8fJwuq1a9qEXfTZYoDwJM2+0B4hk/1m2OO8rCS248zivwQVorZPB88UlrDPwcsvHK/U5z0UH24ZcItHLCjRLoAstFwUFY35a2vTJBnzHximb2agvRPHMN1ZkYlWRxnEMUkSc8k43mv+0JzE4lse4EzoyahJLyrN+kVOloBwdKZxRCQz1A3pOUSiw8zMd5HkINSaNiHhzaa/2TPEsJu4QLJawOZZfrhPgo9+rR+kQYMc4SGy195b8C1bLQqKYJhoXWecrPiCPxk1BAom/4DMzKWjdDOMizxoGTQdywtXgohlxDQtYUaog7xCIgN9dEO+uiChTZlRorbpDz6PRdp6i1bzsxo3D1uXVjxvVtF2zYh1Mp29y427/qbYnhxMMguA/kImDDPgSI5ikjWiD/w=
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: ruby-telegram
+      namespace: community
+    type: Opaque

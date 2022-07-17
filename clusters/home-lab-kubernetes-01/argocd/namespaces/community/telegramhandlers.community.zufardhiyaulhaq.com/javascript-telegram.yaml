@@ -1,0 +1,14 @@
+---
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: TelegramHandler
+metadata:
+  name: javascript-telegram
+  namespace: community
+spec:
+  type: group
+  credential: "-1001240569966"
+  authentication:
+    token:
+      secret:
+        name: javascript-telegram
+        key: token

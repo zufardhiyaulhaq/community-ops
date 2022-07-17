@@ -1,0 +1,16 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: nodejs-telegram
+  namespace: community
+spec:
+  encryptedData:
+    token: AgAwnLjX6KFE2MmqeM04wsqHRipa9Ftf8BfoDLapzFuFG98kYuU7rmGrZV+YeF6jF1J/QtNuKawPDZF0WPZkOJvNF6HWvB1pUOqAN3xnVZeFxpqU2bOLLBHf+K/A8EkX/HEn99qziHwawj07PYnW1VLmsnFzIJ/DmiEuOMN7yIS3+Kqap7KQA2aTGE7kzixFCCIw1qCihauHgiPCP0Tn73WrwTIInlsM1p7i3QqtCbAbRmoa4Kv+1TNlDp1lB3WgjFhYZM3EOOFO/ayTbl51OIoW3wTNLvvSVuwxwHHnDYLt54u+X+/G1Awya92MnnC+xgtxKqBPwlnsLs1pC1M0AUVH9q/Q3Tr7wvbr+ZpvxwAgXgtEETkQlEXz1XGrI/wED221h+ogEAEivdwrV6R24Cm8qgs3y4vCs5A9SA+x9FkLj9sBywfH4kiC3cJZLAkZrP6+1dCbnMam3EZVc/CgCiPHK4UH0T1QEBVZmq/br9AJftcHww16y3BxuiJuLN0B701Pn8IDxy2Fpe2FzlEC/DTJ61r23IJud1zEuUJHMMIVd5wrGGUUsSAH0Gz8urpm59h65JzyKQJOkSkeXm+T3QgtMeStmQTHynXBJjg8yLhK8Dq0Kxqj1H/hU58MKcj3a9vMxiVlfi48tEx6SAo2iK7qwhIKd9KDPNV4Y/HUpt1lGZ6+EyngAyqcAUgzHeqZkzwtFntd+andHdWy5hGZuL5DpkuSqhp3dZgjthLdmTMHBmtov+leZ+3579nXClMc
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: nodejs-telegram
+      namespace: community
+    type: Opaque

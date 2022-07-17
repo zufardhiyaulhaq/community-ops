@@ -1,0 +1,16 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: sdx-telegram
+  namespace: community
+spec:
+  encryptedData:
+    token: AgCyaGSbsXTg1DKN1YZETDt70Z/NmXX9Z6Iw7d1VeJ7PRgd+3aXvk5R8VCAvAv800m51dsN+U90fUQEvJ9D+7um3310Y6YihTST9Vs3XTNtiHJhqx024+iDuoNHvR/R0jKXBSjeKGk0ZFaDaZ8xH7Xui4dIcNIL3qqhIwqC6UwIM7JkR+rHUWA8NxuszssYIY/Xr3YzkpmtcFmEpU/NY6q088V/wAsLX1vL37EOV4zgcRRgK4JhyclQYmFIQgeDFdpLJLxdxydH/3EQXaSS6uTAWc5Xd5P1EgGQCOaSLZJvHnVqHERxpYz7pndK9ckc/datoWVHWKKVgucXBf/W7jzJfq8KtDLN1YR5YIfZSle9GICuLmHpDdK3SnpO52r28sJpHgNlnyvjkqgVrOeX0joWa1UyFG6Dr5AKQStzHbRVD9J3S3ANn+p5jLoCBZ8aTqcqvtnglsJScg99UXqGevLJyYmVAfEswaDV7vSR0Zii9s7wpYmNTKMIUwcdgAVQEypeP8YZOMVBmjx4hbajX3GwpybcMK9KjH6AD2DALCXBk7WAFk9EffOUBf2JX8mQDqSyubyYPNkJ5OMhwP/ojrpSsVQ94dZ4n+2spBZW6CLOzclrySCg6BnfX0AR9MJsr0EQQF8ZAPWtGvYu+EYmozlJLJ8Zl3cj2j/hXuV+8YkXT6Wr53LV7Gtj4piURFC5KEqgaBa5C+QH69cY3lV3Osxk8xwkZkjX9HZihkvYNv7QUqMsi5CzRRsdjlJ2H7/cb
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: sdx-telegram
+      namespace: community
+    type: Opaque

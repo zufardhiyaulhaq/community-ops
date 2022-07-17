@@ -1,0 +1,10 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Community
+metadata:
+  name: ruby
+  namespace: community
+spec:
+  socialMedia:
+    telegram:
+    - ruby-telegram
+    twitter: []

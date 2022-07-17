@@ -1,0 +1,10 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Community
+metadata:
+  name: nodejs
+  namespace: community
+spec:
+  socialMedia:
+    telegram:
+    - nodejs-telegram
+    twitter: []
