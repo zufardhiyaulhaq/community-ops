@@ -1,0 +1,50 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-421
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 421
+    date: 07/23/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: Steve 'spf13' Francia is Leaving the Go Team
+      url: https://golangweekly.com/link/126611/web
+      type: News
+    - title: Exploring the Go Language as a Medium for Creative Programming
+      url: https://golangweekly.com/link/126614/web
+      type: News
+    - title: Gophers - Opportunity is Knocking
+      url: https://golangweekly.com/link/126616/web
+      type: News
+    - title: Implementing a Simple jq Clone in Go, and the Basics of Go Memory Profiling
+      url: https://golangweekly.com/link/126617/web
+      type: News
+    - title: Build a Slack App to Follow What Your Teammates Are Listening To on Spotify
+      url: https://golangweekly.com/link/126623/web
+      type: News
+    - title: How to Write Syntax Tree-Based DSLs in Go
+      url: https://golangweekly.com/link/126624/web
+      type: News
+    - title: 'Lensm: A New Tool for Viewing Disassembled Code'
+      url: https://golangweekly.com/link/126627/web
+      type: News
+    - title: 'Swag: Automatically Generate RESTful API Documentation with Swagger
+        2.0'
+      url: https://golangweekly.com/link/126628/web
+      type: News
+    - title: Debug Go Apps Without Stopping Them in Prod. Try Rookout Free Today
+      url: https://golangweekly.com/link/126629/web
+      type: News
+    - title: 'Connect: A ''Slim'' Way to Build gRPC-Compatible HTTP APIs'
+      url: https://golangweekly.com/link/126630/web
+      type: News
+    - title: 'Plow 1.3: A High-Perf HTTP Benchmarking Tool'
+      url: https://golangweekly.com/link/126632/web
+      type: News
