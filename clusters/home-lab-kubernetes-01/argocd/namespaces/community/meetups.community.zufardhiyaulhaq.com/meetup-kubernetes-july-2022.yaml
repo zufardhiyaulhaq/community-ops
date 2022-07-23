@@ -1,0 +1,29 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Meetup
+metadata:
+  name: meetup-kubernetes-july-2022
+  namespace: community
+spec:
+  community:
+  - "testing"
+  spec:
+    name: "Kubernetes Cloud Native Meetup 2022"
+    date: "July 28, 2022"
+    time: "19.00"
+    place: "Online"
+    registrationUrl: "https://community.cncf.io/indonesia/"
+    imageUrl: "https://raw.githubusercontent.com/cloudnative-id/artwork/master/poster/online/28-July-2022.png"
+    tags:
+      - meetup
+      - CNCF
+    sponsors:
+    - name: "Amazon Web Service"
+    speakers:
+      - name: "Pugar Jayanegara"
+        position: "Senior Solutions Architect"
+        company: "Amazon Web Service"
+        title: "Efficient and Cost effective way in scaling large kubernetes cluster with kOps and spot instance"
+      - name: "Husni Alhamdani"
+        position: "Senior Site Reability Engineer"
+        company: "Sea Labs Indonesia"
+        title: "You (probably) Need Readiness, Liveness and Startup Probes"
