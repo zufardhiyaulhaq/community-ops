@@ -89,4 +89,4 @@ releases:
   version: 2.0.0
   chart: goweekly/goweekly
   values:
-  - releases/community/cgoweekly.yaml
+  - releases/community/goweekly.yaml
