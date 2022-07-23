@@ -17,6 +17,8 @@ repositories:
   url: https://kubecost.github.io/cost-analyzer/
 - name: community-operator-v2
   url: https://zufardhiyaulhaq.com/community-operator-v2/charts/releases/
+- name: goweekly
+  url: https://zufardhiyaulhaq.com/goweekly/charts/releases/
 
 releases:
 - name: frp-operator
@@ -81,3 +83,10 @@ releases:
   chart: community-operator-v2/community-operator-v2
   values:
   - releases/community/community-operator-v2.yaml
+
+- name: goweekly
+  namespace: community
+  version: 2.0.0
+  chart: goweekly/goweekly
+  values:
+  - releases/community/cgoweekly.yaml
