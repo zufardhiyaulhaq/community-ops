@@ -5,7 +5,7 @@ metadata:
   namespace: community
 spec:
   community:
-  - "testing"
+  - "kubernetes"
   spec:
     name: "Kubernetes Cloud Native Meetup 2022"
     date: "July 28, 2022"
