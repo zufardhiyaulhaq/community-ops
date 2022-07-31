@@ -1,0 +1,53 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-422
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 422
+    date: 07/31/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: 'Charm Gum: A Tool for ''Glamorous'' Shell Scripts'
+      url: https://golangweekly.com/link/126913/web
+      type: News
+    - title: Building a Terminal-Based Pong Game in Go
+      url: https://golangweekly.com/link/126916/web
+      type: News
+    - title: GV (Google Ventures) Invests $35M Into Golang Notification Infrastructure
+      url: https://golangweekly.com/link/126918/web
+      type: News
+    - title: Go 1.19's Revised Memory Model
+      url: https://golangweekly.com/link/126919/web
+      type: News
+    - title: GoLand 2022.2 Released
+      url: https://golangweekly.com/link/126973/web
+      type: News
+    - title: Building an Ephemeral Note Sharing Service in Go
+      url: https://golangweekly.com/link/126926/web
+      type: News
+    - title: Exploring Function Parameter Types with Go Tooling
+      url: https://golangweekly.com/link/126927/web
+      type: News
+    - title: 'LiteFS: FUSE-Based File System for Replicating SQLite Databases Across
+        a Cluster'
+      url: https://golangweekly.com/link/126929/web
+      type: News
+    - title: 'Speedbump: A TCP Proxy for Simulating Variable Network Latency'
+      url: https://golangweekly.com/link/126931/web
+      type: News
+    - title: Unlock Completely Free Access to Stream's Chat and Activity Feed APIs
+      url: https://golangweekly.com/link/126933/web
+      type: News
+    - title: 'HLive: Server-Side WebSocket-based Dynamic Template-less View Layer'
+      url: https://golangweekly.com/link/126934/web
+      type: News
+    - title: 'Chris: A Pratt Parser Implementation'
+      url: https://golangweekly.com/link/126935/web
+      type: News
