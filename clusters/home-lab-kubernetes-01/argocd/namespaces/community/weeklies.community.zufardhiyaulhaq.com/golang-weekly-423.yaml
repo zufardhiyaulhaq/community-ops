@@ -1,0 +1,52 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-423
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 423
+    date: 08/07/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: Go 1.19 Released
+      url: https://golangweekly.com/link/127230/web
+      type: News
+    - title: Debug Go Apps Without Stopping Them in Prod. Try Rookout Free
+      url: https://golangweekly.com/link/127234/web
+      type: News
+    - title: Adding a Standard Iterator Interface to Go?
+      url: https://golangweekly.com/link/127259/web
+      type: News
+    - title: On Building Modern Webapps Faster with Bud
+      url: https://golangweekly.com/link/127235/web
+      type: News
+    - title: Easy Memory-Saving Tricks in Go
+      url: https://golangweekly.com/link/127238/web
+      type: News
+    - title: Debugging WebAssembly from Go Sources in Chrome DevTools
+      url: https://golangweekly.com/link/127239/web
+      type: News
+    - title: How to Manage Go Application Secrets Using Vault
+      url: https://golangweekly.com/link/127241/web
+      type: News
+    - title: Creating a Toy Remote Login Server
+      url: https://golangweekly.com/link/127243/web
+      type: News
+    - title: 'Maths: Math Functions Not Defined in the math Package'
+      url: https://golangweekly.com/link/127246/web
+      type: News
+    - title: 'Yaegi 0.14.0: Yet Another Elegant Go Interpreter'
+      url: https://golangweekly.com/link/127247/web
+      type: News
+    - title: Unlock Free Activity Feeds & Chat APIs
+      url: https://golangweekly.com/link/127248/web
+      type: News
+    - title: 'Gitea 1.17.0: A Go-Powered Git Forge'
+      url: https://golangweekly.com/link/127249/web
+      type: News
