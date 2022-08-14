@@ -1,0 +1,58 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-424
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 424
+    date: 08/14/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: '''How I Found a Go Issue on ARM that Crashed the Database Server'''
+      url: https://golangweekly.com/link/127547/web
+      type: News
+    - title: Rob Pike's Simple C Regex Matcher in Go
+      url: https://golangweekly.com/link/127549/web
+      type: News
+    - title: Gophers - Opportunity is Knocking
+      url: https://golangweekly.com/link/127551/web
+      type: News
+    - title: '''I Don’t Like Go’s Default HTTP Handlers'''
+      url: https://golangweekly.com/link/127552/web
+      type: News
+    - title: Error Handling with Go Tooling
+      url: https://golangweekly.com/link/127556/web
+      type: News
+    - title: Let's Talk SkipList
+      url: https://golangweekly.com/link/127557/web
+      type: News
+    - title: Manipulating 'Windows Tokens' with Go
+      url: https://golangweekly.com/link/127558/web
+      type: News
+    - title: 'Building Go Executables: Embedding Assets'
+      url: https://golangweekly.com/link/127559/web
+      type: News
+    - title: 'Algernon: A Small Self-Contained Pure Go Web Server'
+      url: https://golangweekly.com/link/127561/web
+      type: News
+    - title: 'HaxMap: A Fast, Memory Efficient Concurrent Hashmap'
+      url: https://golangweekly.com/link/127562/web
+      type: News
+    - title: 'Echo 4.8: High Performance, Minimalist REST Framework'
+      url: https://golangweekly.com/link/127563/web
+      type: News
+    - title: Automatically Detect and Track Flaky Tests in Go
+      url: https://golangweekly.com/link/127565/web
+      type: News
+    - title: 'Imagor 1.0: A Docker-Ready Image Processing Server'
+      url: https://golangweekly.com/link/127566/web
+      type: News
+    - title: 'Revive: A Fast(er), Configurable, Flexible Linter for Go'
+      url: https://golangweekly.com/link/127568/web
+      type: News
