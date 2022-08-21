@@ -10,7 +10,7 @@ cloudflare:
   proxied: false
 
 interval: "1m"
-policy: upsert-only
+policy: create-only
 logLevel: debug
 
 sources:
