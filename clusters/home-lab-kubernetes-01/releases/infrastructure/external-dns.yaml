@@ -1,12 +1,12 @@
-provider: digitalocean
+provider: cloudflare
 
 image:
   registry: k8s.gcr.io
   repository: external-dns/external-dns
-  tag: v0.11.0
+  tag: v0.12.2
 
-digitalocean:
-  secretName: digitalocean-dns
+cloudflare:
+  secretName: cloudflare-dns
 
 interval: "1m"
 policy: upsert-only
