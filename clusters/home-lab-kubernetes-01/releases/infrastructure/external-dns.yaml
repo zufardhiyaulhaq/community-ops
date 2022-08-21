@@ -7,6 +7,7 @@ image:
 
 cloudflare:
   secretName: cloudflare-dns
+  proxied: false
 
 interval: "1m"
 policy: upsert-only

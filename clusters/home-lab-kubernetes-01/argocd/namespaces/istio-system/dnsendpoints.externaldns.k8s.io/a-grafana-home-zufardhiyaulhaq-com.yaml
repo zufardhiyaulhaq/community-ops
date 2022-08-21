@@ -1,11 +1,11 @@
 apiVersion: externaldns.k8s.io/v1alpha1
 kind: DNSEndpoint
 metadata:
-  name: podinfo-home-zufardhiyaulhaq-com
+  name: a-grafana-home-zufardhiyaulhaq-com
   namespace: istio-system
 spec:
   endpoints:
-  - dnsName: podinfo.home.zufardhiyaulhaq.com
+  - dnsName: grafana.home.zufardhiyaulhaq.com
     recordTTL: 60
     recordType: A
     targets:

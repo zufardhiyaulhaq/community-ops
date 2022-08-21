@@ -1,0 +1,11 @@
+apiVersion: externaldns.k8s.io/v1alpha1
+kind: DNSEndpoint
+metadata:
+  name: cname-vwuqg7bdq6ll-zufardhiyaulhaq-com
+  namespace: istio-system
+spec:
+  endpoints:
+    - dnsName: vwuqg7bdq6ll.zufardhiyaulhaq.com
+      recordType: CNAME
+      targets:
+        - gv-plhs2blckg3d5b.dv.googlehosted.com

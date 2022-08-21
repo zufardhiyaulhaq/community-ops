@@ -1,0 +1,12 @@
+apiVersion: externaldns.k8s.io/v1alpha1
+kind: DNSEndpoint
+metadata:
+  name: a-argocd-home-zufardhiyaulhaq-com
+  namespace: istio-system
+spec:
+  endpoints:
+  - dnsName: argocd.home.zufardhiyaulhaq.com
+    recordTTL: 60
+    recordType: A
+    targets:
+    - 159.223.94.254

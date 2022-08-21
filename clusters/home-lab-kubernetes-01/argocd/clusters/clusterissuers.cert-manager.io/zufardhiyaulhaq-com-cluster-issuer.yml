@@ -10,7 +10,7 @@ spec:
       name: zufardhiyaulhaq-com-cluster-issuer-secret
     solvers:
     - dns01:
-        digitalocean:
-          tokenSecretRef:
-            name: digitalocean-dns
-            key: access-token
+        cloudflare:
+          apiTokenSecretRef:
+            name: cloudflare-dns
+            key: cloudflare_api_token

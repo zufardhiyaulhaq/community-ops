@@ -44,7 +44,7 @@ releases:
 
 - name: cert-manager
   namespace: infrastructure
-  version: 1.8.0
+  version: 1.9.0
   chart: jetstack/cert-manager
   values:
   - releases/infrastructure/cert-manager.yaml

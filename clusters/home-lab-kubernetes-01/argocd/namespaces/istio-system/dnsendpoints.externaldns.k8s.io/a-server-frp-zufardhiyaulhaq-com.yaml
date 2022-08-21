@@ -1,11 +1,11 @@
 apiVersion: externaldns.k8s.io/v1alpha1
 kind: DNSEndpoint
 metadata:
-  name: argocd-home-zufardhiyaulhaq-com
+  name: a-server-frp-zufardhiyaulhaq-com
   namespace: istio-system
 spec:
   endpoints:
-  - dnsName: argocd.home.zufardhiyaulhaq.com
+  - dnsName: server.frp.zufardhiyaulhaq.com
     recordTTL: 60
     recordType: A
     targets:
