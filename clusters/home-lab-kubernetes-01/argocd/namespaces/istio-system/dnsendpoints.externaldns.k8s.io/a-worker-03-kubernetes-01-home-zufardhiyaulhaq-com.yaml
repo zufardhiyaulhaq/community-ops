@@ -1,0 +1,12 @@
+apiVersion: externaldns.k8s.io/v1alpha1
+kind: DNSEndpoint
+metadata:
+  name: a-worker-03-kubernetes-01-home-zufardhiyaulhaq-com
+  namespace: istio-system
+spec:
+  endpoints:
+  - dnsName: worker-03.kubernetes-01.home.zufardhiyaulhaq.com
+    recordTTL: 60
+    recordType: A
+    targets:
+    - 192.168.100.22
