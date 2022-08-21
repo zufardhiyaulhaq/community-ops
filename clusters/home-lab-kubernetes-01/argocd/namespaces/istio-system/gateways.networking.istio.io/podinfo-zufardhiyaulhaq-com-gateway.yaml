@@ -1,14 +1,14 @@
 apiVersion: networking.istio.io/v1beta1
 kind: Gateway
 metadata:
-  name: podinfo-home-zufardhiyaulhaq-com-gateway
+  name: podinfo-zufardhiyaulhaq-com-gateway
   namespace: istio-system
 spec:
   selector:
     app: istio-public-gateway
   servers:
   - hosts:
-    - "podinfo.home.zufardhiyaulhaq.com"
+    - "podinfo.zufardhiyaulhaq.com"
     port:
       name: http
       number: 80
@@ -16,11 +16,11 @@ spec:
     tls:
       httpsRedirect: true
   - hosts:
-    - "podinfo.home.zufardhiyaulhaq.com"
+    - "podinfo.zufardhiyaulhaq.com"
     port:
       name: https
       number: 443
       protocol: HTTPS
     tls:
-      credentialName: podinfo-home-zufardhiyaulhaq-com-cert
+      credentialName: podinfo-zufardhiyaulhaq-com-cert
       mode: SIMPLE

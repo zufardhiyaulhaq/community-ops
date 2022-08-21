@@ -1,11 +1,11 @@
 apiVersion: externaldns.k8s.io/v1alpha1
 kind: DNSEndpoint
 metadata:
-  name: a-podinfo-home-zufardhiyaulhaq-com
+  name: a-argocd-zufardhiyaulhaq-com
   namespace: istio-system
 spec:
   endpoints:
-  - dnsName: podinfo.home.zufardhiyaulhaq.com
+  - dnsName: argocd.zufardhiyaulhaq.com
     recordTTL: 60
     recordType: A
     targets:

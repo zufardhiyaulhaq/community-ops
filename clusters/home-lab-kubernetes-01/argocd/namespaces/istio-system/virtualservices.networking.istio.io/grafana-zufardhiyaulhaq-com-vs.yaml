@@ -1,13 +1,13 @@
 apiVersion: networking.istio.io/v1beta1
 kind: VirtualService
 metadata:
-  name: grafana-home-zufardhiyaulhaq-com-vs
+  name: grafana-zufardhiyaulhaq-com-vs
   namespace: istio-system
 spec:
   hosts:
-  - "grafana.home.zufardhiyaulhaq.com"
+  - "grafana.zufardhiyaulhaq.com"
   gateways:
-  - istio-system/grafana-home-zufardhiyaulhaq-com-gateway
+  - istio-system/grafana-zufardhiyaulhaq-com-gateway
   http:
   - name: "default-route"
     match:

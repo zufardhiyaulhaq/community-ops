@@ -1,13 +1,13 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: argocd-home-zufardhiyaulhaq-com-cert
+  name: podinfo-zufardhiyaulhaq-com-cert
   namespace: istio-system
 spec:
-  secretName: argocd-home-zufardhiyaulhaq-com-cert
+  secretName: podinfo-zufardhiyaulhaq-com-cert
   issuerRef:
     name: zufardhiyaulhaq-com-cluster-issuer
     kind: ClusterIssuer
-  commonName: "argocd.home.zufardhiyaulhaq.com"
+  commonName: "podinfo.zufardhiyaulhaq.com"
   dnsNames:
-  - "argocd.home.zufardhiyaulhaq.com"
+  - "podinfo.zufardhiyaulhaq.com"

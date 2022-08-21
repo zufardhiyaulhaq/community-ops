@@ -1,13 +1,13 @@
 apiVersion: networking.istio.io/v1beta1
 kind: VirtualService
 metadata:
-  name: argocd-home-zufardhiyaulhaq-com-vs
+  name: argocd-zufardhiyaulhaq-com-vs
   namespace: istio-system
 spec:
   hosts:
-  - "argocd.home.zufardhiyaulhaq.com"
+  - "argocd.zufardhiyaulhaq.com"
   gateways:
-  - istio-system/argocd-home-zufardhiyaulhaq-com-gateway
+  - istio-system/argocd-zufardhiyaulhaq-com-gateway
   http:
   - name: "default-route"
     match:

@@ -1,7 +1,7 @@
 apiVersion: security.istio.io/v1beta1
 kind: AuthorizationPolicy
 metadata:
-  name: grafana-home-zufardhiyaulhaq-com-authz
+  name: argocd-zufardhiyaulhaq-com-authz
   namespace: istio-system
 spec:
   selector:
@@ -12,4 +12,4 @@ spec:
   - to:
     - operation:
         hosts: 
-        - grafana.home.zufardhiyaulhaq.com*
+        - argocd.zufardhiyaulhaq.com*

@@ -1,14 +1,14 @@
 apiVersion: networking.istio.io/v1beta1
 kind: Gateway
 metadata:
-  name: grafana-home-zufardhiyaulhaq-com-gateway
+  name: grafana-zufardhiyaulhaq-com-gateway
   namespace: istio-system
 spec:
   selector:
     app: istio-public-gateway
   servers:
   - hosts:
-    - "grafana.home.zufardhiyaulhaq.com"
+    - "grafana.zufardhiyaulhaq.com"
     port:
       name: http
       number: 80
@@ -16,11 +16,11 @@ spec:
     tls:
       httpsRedirect: true
   - hosts:
-    - "grafana.home.zufardhiyaulhaq.com"
+    - "grafana.zufardhiyaulhaq.com"
     port:
       name: https
       number: 443
       protocol: HTTPS
     tls:
-      credentialName: grafana-home-zufardhiyaulhaq-com-cert
+      credentialName: grafana-zufardhiyaulhaq-com-cert
       mode: SIMPLE

@@ -1,15 +1,15 @@
 apiVersion: networking.istio.io/v1beta1
 kind: VirtualService
 metadata:
-  name: podinfo-home-zufardhiyaulhaq-com-vs
+  name: podinfo-zufardhiyaulhaq-com-vs
   namespace: istio-system
 spec:
   hosts:
-  - "podinfo.home.zufardhiyaulhaq.com"
+  - "podinfo.zufardhiyaulhaq.com"
   gateways:
-  - istio-system/podinfo-home-zufardhiyaulhaq-com-gateway
+  - istio-system/podinfo-zufardhiyaulhaq-com-gateway
   http:
-  - name: "podinfo-home-route"
+  - name: "podinfo-route"
     match:
     - uri:
         prefix: /
