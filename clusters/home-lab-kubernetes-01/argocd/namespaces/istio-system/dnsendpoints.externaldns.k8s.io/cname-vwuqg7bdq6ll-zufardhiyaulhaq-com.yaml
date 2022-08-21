@@ -8,4 +8,4 @@ spec:
     - dnsName: vwuqg7bdq6ll.zufardhiyaulhaq.com
       recordType: CNAME
       targets:
-        - gv-plhs2blckg3d5b.dv.googlehosted.com
+        - gv-plhs2blckg3d5b.dv.googlehosted.com.

@@ -8,4 +8,4 @@ spec:
     - dnsName: www.zufardhiyaulhaq.com
       recordType: CNAME
       targets:
-        - zufardhiyaulhaq.github.io
+        - zufardhiyaulhaq.github.io.
