@@ -21,6 +21,10 @@ repositories:
   url: https://zufardhiyaulhaq.com/goweekly/charts/releases/
 - name: javascriptweekly
   url: https://zufardhiyaulhaq.com/javascriptweekly/charts/releases/
+- name: devopsweekly
+  url: https://zufardhiyaulhaq.com/devopsweekly/charts/releases/
+- name: postgresweekly
+  url: https://zufardhiyaulhaq.com/postgresweekly/charts/releases/
 
 releases:
 - name: frp-operator
