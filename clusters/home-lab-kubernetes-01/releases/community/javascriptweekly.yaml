@@ -4,7 +4,7 @@ image:
   repository: "zufardhiyaulhaq/javascriptweekly"
   tag: "v2.0.0"
 
-secret: "javascriptweekly"
+secret: "weekly"
 
 weekly:
   community: "javascript"

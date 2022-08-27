@@ -4,7 +4,7 @@ image:
   repository: "zufardhiyaulhaq/goweekly"
   tag: "v2.0.0"
 
-secret: "goweekly"
+secret: "weekly"
 
 weekly:
   community: "golang"

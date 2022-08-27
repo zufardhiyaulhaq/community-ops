@@ -4,7 +4,7 @@ image:
   repository: "zufardhiyaulhaq/devopsweekly"
   tag: "v2.0.0"
 
-secret: "devopsweekly"
+secret: "weekly"
 
 weekly:
   community: "devops"
