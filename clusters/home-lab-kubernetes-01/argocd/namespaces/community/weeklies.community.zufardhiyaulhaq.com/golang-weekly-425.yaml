@@ -1,0 +1,67 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-425
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 425
+    date: 08/27/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: 'Buffalo 1.0: Rapid Web Development in Go'
+      url: https://golangweekly.com/link/127935/web
+      type: News
+    - title: 'GopherJS: A Go to JavaScript Transpiler'
+      url: https://golangweekly.com/link/127938/web
+      type: News
+    - title: Meet GoLand 2022.2
+      url: https://golangweekly.com/link/127941/web
+      type: News
+    - title: 100 Go Mistakes and How to Avoid Them
+      url: https://golangweekly.com/link/127942/web
+      type: News
+    - title: What's the Cost of an Integer Cast in Go?
+      url: https://golangweekly.com/link/127944/web
+      type: News
+    - title: '''How I Used Go to Control My Radio'''
+      url: https://golangweekly.com/link/127945/web
+      type: News
+    - title: Fixing Memory Exhaustion Bugs in My Go Web App
+      url: https://golangweekly.com/link/127948/web
+      type: News
+    - title: Go Functions as a Service with Kubernetes and OpenFaaS
+      url: https://golangweekly.com/link/127949/web
+      type: News
+    - title: Shipping Completions for Go CLIs using GoReleaser and Cobra
+      url: https://golangweekly.com/link/127951/web
+      type: News
+    - title: 'Building Pong in Your Terminal: Part Two'
+      url: https://golangweekly.com/link/127952/web
+      type: News
+    - title: Finding Raspberry Pis (to Buy) with.. Raspberry Pis
+      url: https://golangweekly.com/link/127954/web
+      type: News
+    - title: 'Excelize 2.6.1: Work with Excel Spreadsheets from Go'
+      url: https://golangweekly.com/link/127955/web
+      type: News
+    - title: 'gojq: A Pure Go Implementation of jq'
+      url: https://golangweekly.com/link/127956/web
+      type: News
+    - title: Golang Transactional Notification Infrastructure Saves Engineering Time
+      url: https://golangweekly.com/link/127958/web
+      type: News
+    - title: 'ZincSearch 0.3: A Lightweight Alternative to Elasticsearch'
+      url: https://golangweekly.com/link/127959/web
+      type: News
+    - title: 'Restic 0.14.0: A Go-Powered Backup Tool'
+      url: https://golangweekly.com/link/127960/web
+      type: News
+    - title: 'Fastmail MaskedEmail CLI: CLI to Create Fastmail Masked Emails'
+      url: https://golangweekly.com/link/127963/web
+      type: News
