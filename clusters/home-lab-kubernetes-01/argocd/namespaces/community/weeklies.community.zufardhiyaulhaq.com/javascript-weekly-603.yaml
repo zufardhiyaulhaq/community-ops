@@ -1,0 +1,62 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-603
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 603
+    date: 08/27/2022
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: On the Future Features of JS
+      url: https://javascriptweekly.com/link/127998/web
+      type: News
+    - title: Take a Tour of JavaScript & React Patterns
+      url: https://javascriptweekly.com/link/127977/web
+      type: News
+    - title: TypeScript 4.8 Released
+      url: https://javascriptweekly.com/link/128000/web
+      type: News
+    - title: 'Crawlee: A New Web Scraping / Automation Library for Node.js'
+      url: https://javascriptweekly.com/link/128001/web
+      type: News
+    - title: Understanding When and Why React Re-Renders
+      url: https://javascriptweekly.com/link/127978/web
+      type: News
+    - title: "❤️ Loving console.log Is Easy, but Hate \U0001F621 Losing Context to
+        View Messy Output"
+      url: https://javascriptweekly.com/link/127979/web
+      type: News
+    - title: Popular Node.js Patterns and Tools to Reconsider?
+      url: https://javascriptweekly.com/link/128009/web
+      type: News
+    - title: (Re-)Introducing Gatsby as a 'Reactive Site Generator'?
+      url: https://javascriptweekly.com/link/128011/web
+      type: News
+    - title: 'pico.js: Face Detection Library in 200 Lines of JS'
+      url: https://javascriptweekly.com/link/127983/web
+      type: News
+    - title: 'GopherJS: A Go(lang) to JavaScript Transpiler'
+      url: https://javascriptweekly.com/link/127985/web
+      type: News
+    - title: Introducing the Most Powerful Free Plan in CI/CD
+      url: https://javascriptweekly.com/link/127988/web
+      type: News
+    - title: 'inappbrowser.com: See What JS is Injected by In-App Browsers'
+      url: https://javascriptweekly.com/link/127989/web
+      type: News
+    - title: Node v16.17.0 (LTS) Released
+      url: https://javascriptweekly.com/link/127991/web
+      type: News
+    - title: 'NodeGui: Build Cross Platform Desktop Apps with JS and CSS'
+      url: https://javascriptweekly.com/link/127993/web
+      type: News
+    - title: Free Activity Feeds & Chat APIs for Qualifying Teams
+      url: https://javascriptweekly.com/link/127992/web
+      type: News
