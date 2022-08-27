@@ -1,0 +1,47 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-468
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 468
+    date: 08/27/2022
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: Learn Postgres at the Playground
+      url: https://postgresweekly.com/link/127720/web
+      type: News
+    - title: How to Corrupt Your PostgreSQL Database
+      url: https://postgresweekly.com/link/127725/web
+      type: News
+    - title: 13 Postgres Tools That Aren't psql
+      url: https://postgresweekly.com/link/127726/web
+      type: News
+    - title: Rise of the 'Anti-Join'
+      url: https://postgresweekly.com/link/127729/web
+      type: News
+    - title: Postgres to Make Aliases Optional for Sub-SELECTS in FROM Clause
+      url: https://postgresweekly.com/link/127730/web
+      type: News
+    - title: How to Migrate Scheduled Jobs to pg_timetable from pgAgent
+      url: https://postgresweekly.com/link/127732/web
+      type: News
+    - title: Build a Full Stack 'AMA' App with Remix, Prisma, and PostgreSQL
+      url: https://postgresweekly.com/link/127735/web
+      type: News
+    - title: 'PostgREST 10.0: Serve a RESTful API from a Postgres Database'
+      url: https://postgresweekly.com/link/127736/web
+      type: News
+    - title: Fully Managed Postgres. One Less Thing to Worry About
+      url: https://postgresweekly.com/link/127738/web
+      type: News
+    - title: AWS RDS Postgres Deployment with pgAdmin 4
+      url: https://postgresweekly.com/link/127739/web
+      type: News
