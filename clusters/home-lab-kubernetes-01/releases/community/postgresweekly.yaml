@@ -1,0 +1,13 @@
+cronSchedule: "0 8 * * 3"
+
+image:
+  repository: "zufardhiyaulhaq/postgresweekly"
+  tag: "v1.0.0"
+
+secret: "weekly"
+
+weekly:
+  community: "kubernetes,devops"
+  tags: "weekly,postgres"
+  namespace: "community"
+  image_url: "https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png"

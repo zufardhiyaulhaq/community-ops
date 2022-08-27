@@ -106,3 +106,10 @@ releases:
   chart: javascriptweekly/javascriptweekly
   values:
   - releases/community/javascriptweekly.yaml
+
+- name: postgresweekly
+  namespace: community
+  version: 1.0.0
+  chart: postgresweekly/postgresweekly
+  values:
+  - releases/community/postgresweekly.yaml
