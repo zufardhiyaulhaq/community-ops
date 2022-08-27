@@ -19,8 +19,8 @@ repositories:
   url: https://zufardhiyaulhaq.com/community-operator-v2/charts/releases/
 - name: goweekly
   url: https://zufardhiyaulhaq.com/goweekly/charts/releases/
-- name: devopsweekly
-  url: https://zufardhiyaulhaq.com/devopsweekly/charts/releases/
+- name: javascriptweekly
+  url: https://zufardhiyaulhaq.com/javascriptweekly/charts/releases/
 
 releases:
 - name: frp-operator
@@ -99,3 +99,10 @@ releases:
   chart: devopsweekly/devopsweekly
   values:
   - releases/community/devopsweekly.yaml
+
+- name: javascriptweekly
+  namespace: community
+  version: 2.0.0
+  chart: javascriptweekly/javascriptweekly
+  values:
+  - releases/community/javascriptweekly.yaml

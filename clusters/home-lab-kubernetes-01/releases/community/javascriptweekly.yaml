@@ -1,0 +1,13 @@
+cronSchedule: "0 8 * * 2"
+
+image:
+  repository: "zufardhiyaulhaq/javascriptweekly"
+  tag: "v2.0.0"
+
+secret: "javascriptweekly"
+
+weekly:
+  community: "javascript"
+  tags: "weekly,javascript"
+  namespace: "community"
+  image_url: "https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png"
