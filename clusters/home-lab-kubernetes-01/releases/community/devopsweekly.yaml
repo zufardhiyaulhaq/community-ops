@@ -7,7 +7,7 @@ image:
 secret: "weekly"
 
 weekly:
-  community: "devops"
+  community: "devops,kubernetes"
   tags: "weekly,devops"
   namespace: "community"
   image_url: "https://storage.googleapis.com/blogs-images/ciscoblogs/1/5d37d7284e6e8.png"
