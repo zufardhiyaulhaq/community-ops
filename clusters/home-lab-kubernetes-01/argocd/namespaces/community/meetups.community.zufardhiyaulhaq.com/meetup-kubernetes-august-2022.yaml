@@ -1,0 +1,30 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Meetup
+metadata:
+  name: meetup-kubernetes-August-2022
+  namespace: community
+spec:
+  community:
+  - "kubernetes"
+  spec:
+    name: "Kubernetes Cloud Native Meetup 2022"
+    date: "August 31, 2022"
+    time: "19.00"
+    place: "Cookpad Indonesia, Menteng Square, Jakarta Pusat"
+    registrationUrl: "https://community.cncf.io/indonesia/"
+    imageUrl: "https://raw.githubusercontent.com/cloudnative-id/artwork/master/poster/jakarta/31-August-2022.png"
+    tags:
+      - meetup
+      - CNCF
+      - Jakarta
+    sponsors:
+    - name: "Cookpad Indonesia"
+    speakers:
+      - name: "Dewa Putu Prasta Maha Gangga"
+        position: "DevOps Engineer"
+        company: "Bukalapak"
+        title: "Manage ArgoCD easier with Helm"
+      - name: "Zufar Dhiyaulhaq"
+        position: "Cloud Platform Engineer"
+        company: "GoTo Financial"
+        title: "Kubernetes Home Lab 101"
