@@ -1,7 +1,7 @@
 apiVersion: community.zufardhiyaulhaq.com/v1alpha1
 kind: Meetup
 metadata:
-  name: meetup-kubernetes-August-2022
+  name: meetup-kubernetes-august-2022
   namespace: community
 spec:
   community:
