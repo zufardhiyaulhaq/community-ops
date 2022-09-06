@@ -1,0 +1,78 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-604
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 604
+    date: 09/06/2022
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: Building an Aircraft Radar System in JavaScript
+      url: https://javascriptweekly.com/link/128329/web
+      type: News
+    - title: 12 Useful JavaScript Data Grid Libraries
+      url: https://javascriptweekly.com/link/128353/web
+      type: News
+    - title: Stytch Is Your All-In-One Platform for User Authentication
+      url: https://javascriptweekly.com/link/128278/web
+      type: News
+    - title: 'JSON Crack: Visualize JSON Data in Graph Form'
+      url: https://javascriptweekly.com/link/128354/web
+      type: News
+    - title: Are Default Exports in JavaScript Modules Terrible?
+      url: https://javascriptweekly.com/link/128338/web
+      type: News
+    - title: Implementing a Promisable setTimeout
+      url: https://javascriptweekly.com/link/128279/web
+      type: News
+    - title: 'Webinar - AuthN & AuthZ: Security, Compliance, and Other Challenges'
+      url: https://javascriptweekly.com/link/128281/web
+      type: News
+    - title: Understanding React's useMemo and useCallback
+      url: https://javascriptweekly.com/link/128340/web
+      type: News
+    - title: An Introduction to Dependency Injection
+      url: https://javascriptweekly.com/link/128342/web
+      type: News
+    - title: In-Browser Compression and Decompression with the Compression Streams
+        API
+      url: https://javascriptweekly.com/link/128360/web
+      type: News
+    - title: Integrate eSignatures in Your App in Less Than a Week
+      url: https://javascriptweekly.com/link/128288/web
+      type: News
+    - title: Making a Morphing 3D Sphere with Three.js
+      url: https://javascriptweekly.com/link/128361/web
+      type: News
+    - title: "Bringing Angular Components to Astro Islands \U0001F3DD"
+      url: https://javascriptweekly.com/link/128282/web
+      type: News
+    - title: 'Lusift: Library to Create Product Walkthroughs for Your Web App'
+      url: https://javascriptweekly.com/link/128284/web
+      type: News
+    - title: 'Derive Type: Generate Type Definitions for JS Automatically From Tests'
+      url: https://javascriptweekly.com/link/128289/web
+      type: News
+    - title: Don’t Let Your Issue Tracker Be a Four-Letter Word. Use Shortcut
+      url: https://javascriptweekly.com/link/128292/web
+      type: News
+    - title: 'Hyper Fetch: A Turbocharged Fetch Library'
+      url: https://javascriptweekly.com/link/128346/web
+      type: News
+    - title: 'Partytown 0.7: Run Third Party Scripts in a Web Worker'
+      url: https://javascriptweekly.com/link/128362/web
+      type: News
+    - title: 'Sandpack: Component Toolkit for Creating Your Own Live Running Code
+        Editing Experience'
+      url: https://javascriptweekly.com/link/128293/web
+      type: News
+    - title: 'TestCafe v2.0.0: Automated End-to-End Testing Tool'
+      url: https://javascriptweekly.com/link/128365/web
+      type: News
