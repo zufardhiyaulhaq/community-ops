@@ -1,0 +1,51 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-469
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 469
+    date: 09/07/2022
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: Where Did the Stats Collector Go in Postgres 15?
+      url: https://postgresweekly.com/link/128034/web
+      type: News
+    - title: A 'public' Schema Change in Postgres 15
+      url: https://postgresweekly.com/link/128036/web
+      type: News
+    - title: Move Your Postgres Data Closer to Users
+      url: https://postgresweekly.com/link/128035/web
+      type: News
+    - title: Cloudflare Open Sources Its PgBouncer Fork
+      url: https://postgresweekly.com/link/128038/web
+      type: News
+    - title: ALTER TABLE ... ADD COLUMN Done Right
+      url: https://postgresweekly.com/link/128047/web
+      type: News
+    - title: How to Become a DBA
+      url: https://postgresweekly.com/link/128048/web
+      type: News
+    - title: How Postgres 15 Improves Communication in Logical Replication
+      url: https://postgresweekly.com/link/128064/web
+      type: News
+    - title: Automate Schema Version Control and Migration on Aurora with Flyway and
+        AWS Lambda
+      url: https://postgresweekly.com/link/128049/web
+      type: News
+    - title: 'PostGIS 3.3.0 Released: The Geospatial Extension'
+      url: https://postgresweekly.com/link/128051/web
+      type: News
+    - title: The Developer Experience You Always Wanted for Postgres
+      url: https://postgresweekly.com/link/128100/web
+      type: News
+    - title: 'pgagroal 1.5.0: High Performance Protocol-Native Connection Pool'
+      url: https://postgresweekly.com/link/128065/web
+      type: News
