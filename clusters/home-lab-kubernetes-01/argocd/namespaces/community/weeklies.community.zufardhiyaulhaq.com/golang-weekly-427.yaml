@@ -1,0 +1,52 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-427
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 427
+    date: 09/11/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: 'Go''s New Vulnerability Management Tool: govulncheck'
+      url: https://golangweekly.com/link/128557/web
+      type: News
+    - title: A Complete Guide to Logging with Zerolog
+      url: https://golangweekly.com/link/128558/web
+      type: News
+    - title: Gophers - Opportunity is Knocking
+      url: https://golangweekly.com/link/128560/web
+      type: News
+    - title: Go Developer Survey 2022 Q2 Results
+      url: https://golangweekly.com/link/128561/web
+      type: News
+    - title: Sudoku, Go and WebAssembly
+      url: https://golangweekly.com/link/128562/web
+      type: News
+    - title: 'Statsviz: Visualize Go Runtime Metrics in the Browser'
+      url: https://golangweekly.com/link/128568/web
+      type: News
+    - title: 'Lane 2.0: Generic PriorityQueues, Queues, Stacks, and Deques'
+      url: https://golangweekly.com/link/128570/web
+      type: News
+    - title: Deliver a Chat Experience That Won't Disappoint with Stream
+      url: https://golangweekly.com/link/128572/web
+      type: News
+    - title: 'Viper: A Complete Config Solution for Go Apps'
+      url: https://golangweekly.com/link/128573/web
+      type: News
+    - title: 'sx: Fast, Modern, Easy-to-Use Network Scanner'
+      url: https://golangweekly.com/link/128575/web
+      type: News
+    - title: 'Lip Gloss 0.6: Style Definitions for Nice Terminal Layouts'
+      url: https://golangweekly.com/link/128576/web
+      type: News
+    - title: 'Participle: A Parser Library for Go'
+      url: https://golangweekly.com/link/128577/web
+      type: News
