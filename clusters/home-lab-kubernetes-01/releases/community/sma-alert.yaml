@@ -1,0 +1,1637 @@
+
+cronSchedule: "0 12 * * 1-5"
+
+image:
+  repository: "zufardhiyaulhaq/sma-alert"
+  tag: "v1.2.0"
+
+secret: "sma"
+
+rules:
+  resistance_timeframe: "10"
+  resistance_shift: "5"
+  price_percentage_from_sma: "5"
+  price_percentage_from_resistance: "7"
+  price_percentage_from_sma_target_buy: "1.5"
+
+issuers:
+    - code: AALI
+      country: JK
+    - code: ABBA
+      country: JK
+    - code: ABDA
+      country: JK
+    - code: ABMM
+      country: JK
+    - code: ACES
+      country: JK
+    - code: ACST
+      country: JK
+    - code: ADCP
+      country: JK
+    - code: ADES
+      country: JK
+    - code: ADHI
+      country: JK
+    - code: ADMF
+      country: JK
+    - code: ADMG
+      country: JK
+    - code: ADMR
+      country: JK
+    - code: ADRO
+      country: JK
+    - code: AGAR
+      country: JK
+    - code: AGII
+      country: JK
+    - code: AGRO
+      country: JK
+    - code: AGRS
+      country: JK
+    - code: AHAP
+      country: JK
+    - code: AIMS
+      country: JK
+    - code: AISA
+      country: JK
+    - code: AKKU
+      country: JK
+    - code: AKPI
+      country: JK
+    - code: AKRA
+      country: JK
+    - code: AKSI
+      country: JK
+    - code: ALDO
+      country: JK
+    - code: ALKA
+      country: JK
+    - code: ALMI
+      country: JK
+    - code: ALTO
+      country: JK
+    - code: AMAG
+      country: JK
+    - code: AMAN
+      country: JK
+    - code: AMAR
+      country: JK
+    - code: AMFG
+      country: JK
+    - code: AMIN
+      country: JK
+    - code: AMMS
+      country: JK
+    - code: AMOR
+      country: JK
+    - code: AMRT
+      country: JK
+    - code: ANDI
+      country: JK
+    - code: ANJT
+      country: JK
+    - code: ANTM
+      country: JK
+    - code: APEX
+      country: JK
+    - code: APIC
+      country: JK
+    - code: APII
+      country: JK
+    - code: APLI
+      country: JK
+    - code: APLN
+      country: JK
+    - code: ARCI
+      country: JK
+    - code: ARGO
+      country: JK
+    - code: ARII
+      country: JK
+    - code: ARKA
+      country: JK
+    - code: ARKO
+      country: JK
+    - code: ARMY
+      country: JK
+    - code: ARNA
+      country: JK
+    - code: ARTA
+      country: JK
+    - code: ARTI
+      country: JK
+    - code: ARTO
+      country: JK
+    - code: ASBI
+      country: JK
+    - code: ASDM
+      country: JK
+    - code: ASGR
+      country: JK
+    - code: ASHA
+      country: JK
+    - code: ASII
+      country: JK
+    - code: ASJT
+      country: JK
+    - code: ASLC
+      country: JK
+    - code: ASMI
+      country: JK
+    - code: ASPI
+      country: JK
+    - code: ASRI
+      country: JK
+    - code: ASRM
+      country: JK
+    - code: ASSA
+      country: JK
+    - code: ATAP
+      country: JK
+    - code: ATIC
+      country: JK
+    - code: AUTO
+      country: JK
+    - code: AVIA
+      country: JK
+    - code: AXIO
+      country: JK
+    - code: AYLS
+      country: JK
+    - code: BABP
+      country: JK
+    - code: BACA
+      country: JK
+    - code: BAJA
+      country: JK
+    - code: BALI
+      country: JK
+    - code: BANK
+      country: JK
+    - code: BAPA
+      country: JK
+    - code: BAPI
+      country: JK
+    - code: BATA
+      country: JK
+    - code: BAUT
+      country: JK
+    - code: BAYU
+      country: JK
+    - code: BBCA
+      country: JK
+    - code: BBHI
+      country: JK
+    - code: BBKP
+      country: JK
+    - code: BBLD
+      country: JK
+    - code: BBMD
+      country: JK
+    - code: BBNI
+      country: JK
+    - code: BBRI
+      country: JK
+    - code: BBRM
+      country: JK
+    - code: BBSI
+      country: JK
+    - code: BBSS
+      country: JK
+    - code: BBTN
+      country: JK
+    - code: BBYB
+      country: JK
+    - code: BCAP
+      country: JK
+    - code: BCIC
+      country: JK
+    - code: BCIP
+      country: JK
+    - code: BDMN
+      country: JK
+    - code: BEBS
+      country: JK
+    - code: BEEF
+      country: JK
+    - code: BEKS
+      country: JK
+    - code: BELL
+      country: JK
+    - code: BESS
+      country: JK
+    - code: BEST
+      country: JK
+    - code: BFIN
+      country: JK
+    - code: BGTG
+      country: JK
+    - code: BHAT
+      country: JK
+    - code: BHIT
+      country: JK
+    - code: BIKA
+      country: JK
+    - code: BIKE
+      country: JK
+    - code: BIMA
+      country: JK
+    - code: BINA
+      country: JK
+    - code: BINO
+      country: JK
+    - code: BIPI
+      country: JK
+    - code: BIPP
+      country: JK
+    - code: BIRD
+      country: JK
+    - code: BISI
+      country: JK
+    - code: BJBR
+      country: JK
+    - code: BJTM
+      country: JK
+    - code: BKDP
+      country: JK
+    - code: BKSL
+      country: JK
+    - code: BKSW
+      country: JK
+    - code: BLTA
+      country: JK
+    - code: BLTZ
+      country: JK
+    - code: BLUE
+      country: JK
+    - code: BMAS
+      country: JK
+    - code: BMHS
+      country: JK
+    - code: BMRI
+      country: JK
+    - code: BMSR
+      country: JK
+    - code: BMTR
+      country: JK
+    - code: BNBA
+      country: JK
+    - code: BNBR
+      country: JK
+    - code: BNGA
+      country: JK
+    - code: BNII
+      country: JK
+    - code: BNLI
+      country: JK
+    - code: BOBA
+      country: JK
+    - code: BOGA
+      country: JK
+    - code: BOLA
+      country: JK
+    - code: BOLT
+      country: JK
+    - code: BOSS
+      country: JK
+    - code: BPFI
+      country: JK
+    - code: BPII
+      country: JK
+    - code: BPTR
+      country: JK
+    - code: BRAM
+      country: JK
+    - code: BRIS
+      country: JK
+    - code: BRMS
+      country: JK
+    - code: BRNA
+      country: JK
+    - code: BRPT
+      country: JK
+    - code: BSDE
+      country: JK
+    - code: BSIM
+      country: JK
+    - code: BSML
+      country: JK
+    - code: BSSR
+      country: JK
+    - code: BSWD
+      country: JK
+    - code: BTEK
+      country: JK
+    - code: BTEL
+      country: JK
+    - code: BTON
+      country: JK
+    - code: BTPN
+      country: JK
+    - code: BTPS
+      country: JK
+    - code: BUAH
+      country: JK
+    - code: BUDI
+      country: JK
+    - code: BUKA
+      country: JK
+    - code: BUKK
+      country: JK
+    - code: BULL
+      country: JK
+    - code: BUMI
+      country: JK
+    - code: BUVA
+      country: JK
+    - code: BVIC
+      country: JK
+    - code: BWPT
+      country: JK
+    - code: BYAN
+      country: JK
+    - code: CAKK
+      country: JK
+    - code: CAMP
+      country: JK
+    - code: CANI
+      country: JK
+    - code: CARE
+      country: JK
+    - code: CARS
+      country: JK
+    - code: CASA
+      country: JK
+    - code: CASH
+      country: JK
+    - code: CASS
+      country: JK
+    - code: CBMF
+      country: JK
+    - code: CCSI
+      country: JK
+    - code: CEKA
+      country: JK
+    - code: CENT
+      country: JK
+    - code: CFIN
+      country: JK
+    - code: CHEM
+      country: JK
+    - code: CINT
+      country: JK
+    - code: CITA
+      country: JK
+    - code: CITY
+      country: JK
+    - code: CLAY
+      country: JK
+    - code: CLEO
+      country: JK
+    - code: CLPI
+      country: JK
+    - code: CMNP
+      country: JK
+    - code: CMNT
+      country: JK
+    - code: CMPP
+      country: JK
+    - code: CMRY
+      country: JK
+    - code: CNKO
+      country: JK
+    - code: CNTX
+      country: JK
+    - code: COAL
+      country: JK
+    - code: COCO
+      country: JK
+    - code: COWL
+      country: JK
+    - code: CPIN
+      country: JK
+    - code: CPRI
+      country: JK
+    - code: CPRO
+      country: JK
+    - code: CRAB
+      country: JK
+    - code: CSAP
+      country: JK
+    - code: CSIS
+      country: JK
+    - code: CSMI
+      country: JK
+    - code: CSRA
+      country: JK
+    - code: CTBN
+      country: JK
+    - code: CTRA
+      country: JK
+    - code: CTTH
+      country: JK
+    - code: DADA
+      country: JK
+    - code: DART
+      country: JK
+    - code: DAYA
+      country: JK
+    - code: DCII
+      country: JK
+    - code: DEAL
+      country: JK
+    - code: DEFI
+      country: JK
+    - code: DEPO
+      country: JK
+    - code: DEWA
+      country: JK
+    - code: DEWI
+      country: JK
+    - code: DFAM
+      country: JK
+    - code: DGIK
+      country: JK
+    - code: DGNS
+      country: JK
+    - code: DIGI
+      country: JK
+    - code: DILD
+      country: JK
+    - code: DIVA
+      country: JK
+    - code: DKFT
+      country: JK
+    - code: DLTA
+      country: JK
+    - code: DMAS
+      country: JK
+    - code: DMMX
+      country: JK
+    - code: DMND
+      country: JK
+    - code: DNAR
+      country: JK
+    - code: DNET
+      country: JK
+    - code: DOID
+      country: JK
+    - code: DPNS
+      country: JK
+    - code: DPUM
+      country: JK
+    - code: DRMA
+      country: JK
+    - code: DSFI
+      country: JK
+    - code: DSNG
+      country: JK
+    - code: DSSA
+      country: JK
+    - code: DUCK
+      country: JK
+    - code: DUTI
+      country: JK
+    - code: DVLA
+      country: JK
+    - code: DWGL
+      country: JK
+    - code: DYAN
+      country: JK
+    - code: EAST
+      country: JK
+    - code: ECII
+      country: JK
+    - code: EDGE
+      country: JK
+    - code: EKAD
+      country: JK
+    - code: ELPI
+      country: JK
+    - code: ELSA
+      country: JK
+    - code: ELTY
+      country: JK
+    - code: EMDE
+      country: JK
+    - code: EMTK
+      country: JK
+    - code: ENAK
+      country: JK
+    - code: ENRG
+      country: JK
+    - code: ENVY
+      country: JK
+    - code: ENZO
+      country: JK
+    - code: EPAC
+      country: JK
+    - code: EPMT
+      country: JK
+    - code: ERAA
+      country: JK
+    - code: ERTX
+      country: JK
+    - code: ESIP
+      country: JK
+    - code: ESSA
+      country: JK
+    - code: ESTA
+      country: JK
+    - code: ESTI
+      country: JK
+    - code: ETWA
+      country: JK
+    - code: EURO
+      country: JK
+    - code: EXCL
+      country: JK
+    - code: FAPA
+      country: JK
+    - code: FAST
+      country: JK
+    - code: FASW
+      country: JK
+    - code: FILM
+      country: JK
+    - code: FIMP
+      country: JK
+    - code: FIRE
+      country: JK
+    - code: FISH
+      country: JK
+    - code: FITT
+      country: JK
+    - code: FLMC
+      country: JK
+    - code: FMII
+      country: JK
+    - code: FOOD
+      country: JK
+    - code: FORU
+      country: JK
+    - code: FORZ
+      country: JK
+    - code: FPNI
+      country: JK
+    - code: FREN
+      country: JK
+    - code: FUJI
+      country: JK
+    - code: GAMA
+      country: JK
+    - code: GDST
+      country: JK
+    - code: GDYR
+      country: JK
+    - code: GEMA
+      country: JK
+    - code: GEMS
+      country: JK
+    - code: GGRM
+      country: JK
+    - code: GGRP
+      country: JK
+    - code: GHON
+      country: JK
+    - code: GIAA
+      country: JK
+    - code: GJTL
+      country: JK
+    - code: GLOB
+      country: JK
+    - code: GLVA
+      country: JK
+    - code: GMFI
+      country: JK
+    - code: GMTD
+      country: JK
+    - code: GOLD
+      country: JK
+    - code: GOLL
+      country: JK
+    - code: GOOD
+      country: JK
+    - code: GOTO
+      country: JK
+    - code: GPRA
+      country: JK
+    - code: GPSO
+      country: JK
+    - code: GSMF
+      country: JK
+    - code: GTBO
+      country: JK
+    - code: GTSI
+      country: JK
+    - code: GULA
+      country: JK
+    - code: GWSA
+      country: JK
+    - code: GZCO
+      country: JK
+    - code: HADE
+      country: JK
+    - code: HAIS
+      country: JK
+    - code: HATM
+      country: JK
+    - code: HDFA
+      country: JK
+    - code: HDIT
+      country: JK
+    - code: HDTX
+      country: JK
+    - code: HEAL
+      country: JK
+    - code: HELI
+      country: JK
+    - code: HERO
+      country: JK
+    - code: HEXA
+      country: JK
+    - code: HITS
+      country: JK
+    - code: HKMU
+      country: JK
+    - code: HMSP
+      country: JK
+    - code: HOKI
+      country: JK
+    - code: HOME
+      country: JK
+    - code: HOMI
+      country: JK
+    - code: HOPE
+      country: JK
+    - code: HOTL
+      country: JK
+    - code: HRME
+      country: JK
+    - code: HRTA
+      country: JK
+    - code: HRUM
+      country: JK
+    - code: IATA
+      country: JK
+    - code: IBFN
+      country: JK
+    - code: IBOS
+      country: JK
+    - code: IBST
+      country: JK
+    - code: ICBP
+      country: JK
+    - code: ICON
+      country: JK
+    - code: IDEA
+      country: JK
+    - code: IDPR
+      country: JK
+    - code: IFII
+      country: JK
+    - code: IFSH
+      country: JK
+    - code: IGAR
+      country: JK
+    - code: IIKP
+      country: JK
+    - code: IKAI
+      country: JK
+    - code: IKAN
+      country: JK
+    - code: IKBI
+      country: JK
+    - code: IMAS
+      country: JK
+    - code: IMJS
+      country: JK
+    - code: IMPC
+      country: JK
+    - code: INAF
+      country: JK
+    - code: INAI
+      country: JK
+    - code: INCF
+      country: JK
+    - code: INCI
+      country: JK
+    - code: INCO
+      country: JK
+    - code: INDF
+      country: JK
+    - code: INDO
+      country: JK
+    - code: INDR
+      country: JK
+    - code: INDS
+      country: JK
+    - code: INDX
+      country: JK
+    - code: INDY
+      country: JK
+    - code: INKP
+      country: JK
+    - code: INOV
+      country: JK
+    - code: INPC
+      country: JK
+    - code: INPP
+      country: JK
+    - code: INPS
+      country: JK
+    - code: INRU
+      country: JK
+    - code: INTA
+      country: JK
+    - code: INTD
+      country: JK
+    - code: INTP
+      country: JK
+    - code: IPAC
+      country: JK
+    - code: IPCC
+      country: JK
+    - code: IPCM
+      country: JK
+    - code: IPOL
+      country: JK
+    - code: IPPE
+      country: JK
+    - code: IPTV
+      country: JK
+    - code: IRRA
+      country: JK
+    - code: ISAT
+      country: JK
+    - code: ISSP
+      country: JK
+    - code: ITIC
+      country: JK
+    - code: ITMA
+      country: JK
+    - code: ITMG
+      country: JK
+    - code: JARR
+      country: JK
+    - code: JAST
+      country: JK
+    - code: JAWA
+      country: JK
+    - code: JAYA
+      country: JK
+    - code: JECC
+      country: JK
+    - code: JGLE
+      country: JK
+    - code: JIHD
+      country: JK
+    - code: JKON
+      country: JK
+    - code: JKSW
+      country: JK
+    - code: JMAS
+      country: JK
+    - code: JPFA
+      country: JK
+    - code: JRPT
+      country: JK
+    - code: JSKY
+      country: JK
+    - code: JSMR
+      country: JK
+    - code: JSPT
+      country: JK
+    - code: JTPE
+      country: JK
+    - code: KAEF
+      country: JK
+    - code: KARW
+      country: JK
+    - code: KAYU
+      country: JK
+    - code: KBAG
+      country: JK
+    - code: KBLI
+      country: JK
+    - code: KBLM
+      country: JK
+    - code: KBLV
+      country: JK
+    - code: KBRI
+      country: JK
+    - code: KDSI
+      country: JK
+    - code: KEEN
+      country: JK
+    - code: KEJU
+      country: JK
+    - code: KIAS
+      country: JK
+    - code: KICI
+      country: JK
+    - code: KIJA
+      country: JK
+    - code: KINO
+      country: JK
+    - code: KIOS
+      country: JK
+    - code: KJEN
+      country: JK
+    - code: KKES
+      country: JK
+    - code: KKGI
+      country: JK
+    - code: KLBF
+      country: JK
+    - code: KLIN
+      country: JK
+    - code: KMDS
+      country: JK
+    - code: KMTR
+      country: JK
+    - code: KOBX
+      country: JK
+    - code: KOIN
+      country: JK
+    - code: KONI
+      country: JK
+    - code: KOPI
+      country: JK
+    - code: KOTA
+      country: JK
+    - code: KPAL
+      country: JK
+    - code: KPAS
+      country: JK
+    - code: KPIG
+      country: JK
+    - code: KRAH
+      country: JK
+    - code: KRAS
+      country: JK
+    - code: KREN
+      country: JK
+    - code: KRYA
+      country: JK
+    - code: KUAS
+      country: JK
+    - code: LABA
+      country: JK
+    - code: LAND
+      country: JK
+    - code: LAPD
+      country: JK
+    - code: LCGP
+      country: JK
+    - code: LCKM
+      country: JK
+    - code: LEAD
+      country: JK
+    - code: LFLO
+      country: JK
+    - code: LIFE
+      country: JK
+    - code: LINK
+      country: JK
+    - code: LION
+      country: JK
+    - code: LMAS
+      country: JK
+    - code: LMPI
+      country: JK
+    - code: LMSH
+      country: JK
+    - code: LPCK
+      country: JK
+    - code: LPGI
+      country: JK
+    - code: LPIN
+      country: JK
+    - code: LPKR
+      country: JK
+    - code: LPLI
+      country: JK
+    - code: LPPF
+      country: JK
+    - code: LPPS
+      country: JK
+    - code: LRNA
+      country: JK
+    - code: LSIP
+      country: JK
+    - code: LTLS
+      country: JK
+    - code: LUCK
+      country: JK
+    - code: LUCY
+      country: JK
+    - code: MABA
+      country: JK
+    - code: MAGP
+      country: JK
+    - code: MAIN
+      country: JK
+    - code: MAMI
+      country: JK
+    - code: MAPA
+      country: JK
+    - code: MAPB
+      country: JK
+    - code: MAPI
+      country: JK
+    - code: MARI
+      country: JK
+    - code: MARK
+      country: JK
+    - code: MASA
+      country: JK
+    - code: MASB
+      country: JK
+    - code: MAYA
+      country: JK
+    - code: MBAP
+      country: JK
+    - code: MBSS
+      country: JK
+    - code: MBTO
+      country: JK
+    - code: MCAS
+      country: JK
+    - code: MCOL
+      country: JK
+    - code: MCOR
+      country: JK
+    - code: MDIA
+      country: JK
+    - code: MDKA
+      country: JK
+    - code: MDKI
+      country: JK
+    - code: MDLN
+      country: JK
+    - code: MDRN
+      country: JK
+    - code: MEDC
+      country: JK
+    - code: MEDS
+      country: JK
+    - code: MEGA
+      country: JK
+    - code: MERK
+      country: JK
+    - code: META
+      country: JK
+    - code: MFIN
+      country: JK
+    - code: MFMI
+      country: JK
+    - code: MGLV
+      country: JK
+    - code: MGNA
+      country: JK
+    - code: MGRO
+      country: JK
+    - code: MICE
+      country: JK
+    - code: MIDI
+      country: JK
+    - code: MIKA
+      country: JK
+    - code: MINA
+      country: JK
+    - code: MIRA
+      country: JK
+    - code: MITI
+      country: JK
+    - code: MKNT
+      country: JK
+    - code: MKPI
+      country: JK
+    - code: MLBI
+      country: JK
+    - code: MLIA
+      country: JK
+    - code: MLPL
+      country: JK
+    - code: MLPT
+      country: JK
+    - code: MMLP
+      country: JK
+    - code: MNCN
+      country: JK
+    - code: MOLI
+      country: JK
+    - code: MORA
+      country: JK
+    - code: MPMX
+      country: JK
+    - code: MPOW
+      country: JK
+    - code: MPPA
+      country: JK
+    - code: MPRO
+      country: JK
+    - code: MRAT
+      country: JK
+    - code: MREI
+      country: JK
+    - code: MSIN
+      country: JK
+    - code: MSKY
+      country: JK
+    - code: MTDL
+      country: JK
+    - code: MTEL
+      country: JK
+    - code: MTFN
+      country: JK
+    - code: MTLA
+      country: JK
+    - code: MTMH
+      country: JK
+    - code: MTPS
+      country: JK
+    - code: MTRA
+      country: JK
+    - code: MTSM
+      country: JK
+    - code: MTWI
+      country: JK
+    - code: MYOH
+      country: JK
+    - code: MYOR
+      country: JK
+    - code: MYRX
+      country: JK
+    - code: MYTX
+      country: JK
+    - code: NANO
+      country: JK
+    - code: NASA
+      country: JK
+    - code: NASI
+      country: JK
+    - code: NATO
+      country: JK
+    - code: NELY
+      country: JK
+    - code: NETV
+      country: JK
+    - code: NFCX
+      country: JK
+    - code: NICK
+      country: JK
+    - code: NICL
+      country: JK
+    - code: NIKL
+      country: JK
+    - code: NIPS
+      country: JK
+    - code: NIRO
+      country: JK
+    - code: NISP
+      country: JK
+    - code: NOBU
+      country: JK
+    - code: NPGF
+      country: JK
+    - code: NRCA
+      country: JK
+    - code: NTBK
+      country: JK
+    - code: NUSA
+      country: JK
+    - code: NZIA
+      country: JK
+    - code: OASA
+      country: JK
+    - code: OBMD
+      country: JK
+    - code: OCAP
+      country: JK
+    - code: OILS
+      country: JK
+    - code: OKAS
+      country: JK
+    - code: OLIV
+      country: JK
+    - code: OMRE
+      country: JK
+    - code: OPMS
+      country: JK
+    - code: PADI
+      country: JK
+    - code: PALM
+      country: JK
+    - code: PAMG
+      country: JK
+    - code: PANI
+      country: JK
+    - code: PANR
+      country: JK
+    - code: PANS
+      country: JK
+    - code: PBID
+      country: JK
+    - code: PBRX
+      country: JK
+    - code: PBSA
+      country: JK
+    - code: PCAR
+      country: JK
+    - code: PDES
+      country: JK
+    - code: PEGE
+      country: JK
+    - code: PEHA
+      country: JK
+    - code: PGAS
+      country: JK
+    - code: PGJO
+      country: JK
+    - code: PGLI
+      country: JK
+    - code: PGUN
+      country: JK
+    - code: PICO
+      country: JK
+    - code: PJAA
+      country: JK
+    - code: PKPK
+      country: JK
+    - code: PLAN
+      country: JK
+    - code: PLAS
+      country: JK
+    - code: PLIN
+      country: JK
+    - code: PMJS
+      country: JK
+    - code: PMMP
+      country: JK
+    - code: PNBN
+      country: JK
+    - code: PNBS
+      country: JK
+    - code: PNGO
+      country: JK
+    - code: PNIN
+      country: JK
+    - code: PNLF
+      country: JK
+    - code: PNSE
+      country: JK
+    - code: POLA
+      country: JK
+    - code: POLI
+      country: JK
+    - code: POLL
+      country: JK
+    - code: POLU
+      country: JK
+    - code: POLY
+      country: JK
+    - code: POOL
+      country: JK
+    - code: PORT
+      country: JK
+    - code: POSA
+      country: JK
+    - code: POWR
+      country: JK
+    - code: PPGL
+      country: JK
+    - code: PPRE
+      country: JK
+    - code: PPRO
+      country: JK
+    - code: PRAS
+      country: JK
+    - code: PRDA
+      country: JK
+    - code: PRIM
+      country: JK
+    - code: PSAB
+      country: JK
+    - code: PSDN
+      country: JK
+    - code: PSGO
+      country: JK
+    - code: PSKT
+      country: JK
+    - code: PSSI
+      country: JK
+    - code: PTBA
+      country: JK
+    - code: PTDU
+      country: JK
+    - code: PTIS
+      country: JK
+    - code: PTPP
+      country: JK
+    - code: PTPW
+      country: JK
+    - code: PTRO
+      country: JK
+    - code: PTSN
+      country: JK
+    - code: PTSP
+      country: JK
+    - code: PUDP
+      country: JK
+    - code: PURA
+      country: JK
+    - code: PURE
+      country: JK
+    - code: PURI
+      country: JK
+    - code: PWON
+      country: JK
+    - code: PYFA
+      country: JK
+    - code: PZZA
+      country: JK
+    - code: RAFI
+      country: JK
+    - code: RAJA
+      country: JK
+    - code: RALS
+      country: JK
+    - code: RANC
+      country: JK
+    - code: RBMS
+      country: JK
+    - code: RCCC
+      country: JK
+    - code: RDTX
+      country: JK
+    - code: REAL
+      country: JK
+    - code: RELI
+      country: JK
+    - code: RICY
+      country: JK
+    - code: RIGS
+      country: JK
+    - code: RIMO
+      country: JK
+    - code: RISE
+      country: JK
+    - code: RMBA
+      country: JK
+    - code: RMKE
+      country: JK
+    - code: ROCK
+      country: JK
+    - code: RODA
+      country: JK
+    - code: RONY
+      country: JK
+    - code: ROTI
+      country: JK
+    - code: RSGK
+      country: JK
+    - code: RUIS
+      country: JK
+    - code: RUNS
+      country: JK
+    - code: SAFE
+      country: JK
+    - code: SAME
+      country: JK
+    - code: SAMF
+      country: JK
+    - code: SAPX
+      country: JK
+    - code: SATU
+      country: JK
+    - code: SBAT
+      country: JK
+    - code: SBMA
+      country: JK
+    - code: SCCO
+      country: JK
+    - code: SCMA
+      country: JK
+    - code: SCNP
+      country: JK
+    - code: SCPI
+      country: JK
+    - code: SDMU
+      country: JK
+    - code: SDPC
+      country: JK
+    - code: SDRA
+      country: JK
+    - code: SEMA
+      country: JK
+    - code: SFAN
+      country: JK
+    - code: SGER
+      country: JK
+    - code: SGRO
+      country: JK
+    - code: SHID
+      country: JK
+    - code: SHIP
+      country: JK
+    - code: SICO
+      country: JK
+    - code: SIDO
+      country: JK
+    - code: SILO
+      country: JK
+    - code: SIMA
+      country: JK
+    - code: SIMP
+      country: JK
+    - code: SINI
+      country: JK
+    - code: SIPD
+      country: JK
+    - code: SKBM
+      country: JK
+    - code: SKLT
+      country: JK
+    - code: SKRN
+      country: JK
+    - code: SKYB
+      country: JK
+    - code: SLIS
+      country: JK
+    - code: SMAR
+      country: JK
+    - code: SMBR
+      country: JK
+    - code: SMCB
+      country: JK
+    - code: SMDM
+      country: JK
+    - code: SMDR
+      country: JK
+    - code: SMGR
+      country: JK
+    - code: SMKL
+      country: JK
+    - code: SMKM
+      country: JK
+    - code: SMMA
+      country: JK
+    - code: SMMT
+      country: JK
+    - code: SMRA
+      country: JK
+    - code: SMRU
+      country: JK
+    - code: SMSM
+      country: JK
+    - code: SNLK
+      country: JK
+    - code: SOCI
+      country: JK
+    - code: SOFA
+      country: JK
+    - code: SOHO
+      country: JK
+    - code: SONA
+      country: JK
+    - code: SOSS
+      country: JK
+    - code: SOTS
+      country: JK
+    - code: SPMA
+      country: JK
+    - code: SPTO
+      country: JK
+    - code: SQMI
+      country: JK
+    - code: SRAJ
+      country: JK
+    - code: SRIL
+      country: JK
+    - code: SRSN
+      country: JK
+    - code: SRTG
+      country: JK
+    - code: SSIA
+      country: JK
+    - code: SSMS
+      country: JK
+    - code: SSTM
+      country: JK
+    - code: STAA
+      country: JK
+    - code: STAR
+      country: JK
+    - code: STTP
+      country: JK
+    - code: SUGI
+      country: JK
+    - code: SULI
+      country: JK
+    - code: SUPR
+      country: JK
+    - code: SURE
+      country: JK
+    - code: SWAT
+      country: JK
+    - code: SWID
+      country: JK
+    - code: TALF
+      country: JK
+    - code: TAMA
+      country: JK
+    - code: TAMU
+      country: JK
+    - code: TAPG
+      country: JK
+    - code: TARA
+      country: JK
+    - code: TAXI
+      country: JK
+    - code: TAYS
+      country: JK
+    - code: TBIG
+      country: JK
+    - code: TBLA
+      country: JK
+    - code: TBMS
+      country: JK
+    - code: TCID
+      country: JK
+    - code: TCPI
+      country: JK
+    - code: TDPM
+      country: JK
+    - code: TEBE
+      country: JK
+    - code: TECH
+      country: JK
+    - code: TELE
+      country: JK
+    - code: TFAS
+      country: JK
+    - code: TFCO
+      country: JK
+    - code: TGKA
+      country: JK
+    - code: TGRA
+      country: JK
+    - code: TIFA
+      country: JK
+    - code: TINS
+      country: JK
+    - code: TIRA
+      country: JK
+    - code: TIRT
+      country: JK
+    - code: TKIM
+      country: JK
+    - code: TLDN
+      country: JK
+    - code: TLKM
+      country: JK
+    - code: TMAS
+      country: JK
+    - code: TMPO
+      country: JK
+    - code: TNCA
+      country: JK
+    - code: TOBA
+      country: JK
+    - code: TOOL
+      country: JK
+    - code: TOPS
+      country: JK
+    - code: TOTL
+      country: JK
+    - code: TOTO
+      country: JK
+    - code: TOWR
+      country: JK
+    - code: TOYS
+      country: JK
+    - code: TPIA
+      country: JK
+    - code: TPMA
+      country: JK
+    - code: TRAM
+      country: JK
+    - code: TRGU
+      country: JK
+    - code: TRIL
+      country: JK
+    - code: TRIM
+      country: JK
+    - code: TRIN
+      country: JK
+    - code: TRIO
+      country: JK
+    - code: TRIS
+      country: JK
+    - code: TRJA
+      country: JK
+    - code: TRST
+      country: JK
+    - code: TRUE
+      country: JK
+    - code: TRUK
+      country: JK
+    - code: TRUS
+      country: JK
+    - code: TSPC
+      country: JK
+    - code: TUGU
+      country: JK
+    - code: TURI
+      country: JK
+    - code: UANG
+      country: JK
+    - code: UCID
+      country: JK
+    - code: UFOE
+      country: JK
+    - code: ULTJ
+      country: JK
+    - code: UNIC
+      country: JK
+    - code: UNIQ
+      country: JK
+    - code: UNIT
+      country: JK
+    - code: UNSP
+      country: JK
+    - code: UNTR
+      country: JK
+    - code: UNVR
+      country: JK
+    - code: URBN
+      country: JK
+    - code: UVCR
+      country: JK
+    - code: VICI
+      country: JK
+    - code: VICO
+      country: JK
+    - code: VINS
+      country: JK
+    - code: VIVA
+      country: JK
+    - code: VOKS
+      country: JK
+    - code: VRNA
+      country: JK
+    - code: WAPO
+      country: JK
+    - code: WEGE
+      country: JK
+    - code: WEHA
+      country: JK
+    - code: WGSH
+      country: JK
+    - code: WICO
+      country: JK
+    - code: WIFI
+      country: JK
+    - code: WIIM
+      country: JK
+    - code: WIKA
+      country: JK
+    - code: WINR
+      country: JK
+    - code: WINS
+      country: JK
+    - code: WIRG
+      country: JK
+    - code: WMPP
+      country: JK
+    - code: WMUU
+      country: JK
+    - code: WOMF
+      country: JK
+    - code: WOOD
+      country: JK
+    - code: WOWS
+      country: JK
+    - code: WSBP
+      country: JK
+    - code: WSKT
+      country: JK
+    - code: WTON
+      country: JK
+    - code: YELO
+      country: JK
+    - code: YPAS
+      country: JK
+    - code: YULE
+      country: JK
+    - code: ZBRA
+      country: JK
+    - code: ZINC
+      country: JK
+    - code: ZONE
+      country: JK
+    - code: ZYRX
+      country: JK

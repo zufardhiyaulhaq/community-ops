@@ -25,6 +25,8 @@ repositories:
   url: https://zufardhiyaulhaq.com/devopsweekly/charts/releases/
 - name: postgresweekly
   url: https://zufardhiyaulhaq.com/postgresweekly/charts/releases/
+- name: sma-alert
+  url: https://zufardhiyaulhaq.com/sma-alert/charts/releases/
 
 releases:
 - name: frp-operator
@@ -117,3 +119,10 @@ releases:
   chart: postgresweekly/postgresweekly
   values:
   - releases/community/postgresweekly.yaml
+
+- name: sma-alert
+  namespace: community
+  version: 1.2.0
+  chart: sma-alert/sma-alert
+  values:
+  - releases/community/sma-alert.yaml
