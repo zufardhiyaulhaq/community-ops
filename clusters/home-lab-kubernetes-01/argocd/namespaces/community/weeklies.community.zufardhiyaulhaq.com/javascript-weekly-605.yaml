@@ -1,0 +1,64 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-605
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 605
+    date: 09/13/2022
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: Ryan Dahl Asks Oracle to Release the 'JavaScript' Trademark
+      url: https://javascriptweekly.com/link/128590/web
+      type: News
+    - title: Make the Most of Testing in CI with Cypress Dashboard
+      url: https://javascriptweekly.com/link/128591/web
+      type: News
+    - title: An Overview of Node.js's Architecture, Event Loop, and Concurrency
+      url: https://javascriptweekly.com/link/128592/web
+      type: News
+    - title: 'Introducing Signals: A Reactive State Primitive That''s Fast By Default'
+      url: https://javascriptweekly.com/link/128664/web
+      type: News
+    - title: Porting Tests from Cypress to Playwright with AI
+      url: https://javascriptweekly.com/link/128598/web
+      type: News
+    - title: 'The Temporal API: A New Approach to Managing Date and Time?'
+      url: https://javascriptweekly.com/link/128599/web
+      type: News
+    - title: Unblock - A CI/CD Conference by Buildkite
+      url: https://javascriptweekly.com/link/128602/web
+      type: News
+    - title: Creating F1 Style Graphics with Remotion
+      url: https://javascriptweekly.com/link/128603/web
+      type: News
+    - title: 'GradeJS: Scan Production Webpack Bundles for Modules Used Within'
+      url: https://javascriptweekly.com/link/128608/web
+      type: News
+    - title: 'El: A Tiny Web Component-Based UI Framework'
+      url: https://javascriptweekly.com/link/128605/web
+      type: News
+    - title: Spend More Time Growing Your App and Leave the Rest to Stream
+      url: https://javascriptweekly.com/link/128607/web
+      type: News
+    - title: 'ZIPMonster: US ZIP Code Data and Functions'
+      url: https://javascriptweekly.com/link/128609/web
+      type: News
+    - title: 'Shumani: Fast Machine Learning Library using Bun + Flashlight'
+      url: https://javascriptweekly.com/link/128610/web
+      type: News
+    - title: 'JSON Hero: A Beautiful JSON Viewer'
+      url: https://javascriptweekly.com/link/128612/web
+      type: News
+    - title: Don’t Let Your Issue Tracker Be a Four-Letter Word. Use Shortcut
+      url: https://javascriptweekly.com/link/128613/web
+      type: News
+    - title: 'DgrmJS: A Library for Creating SVG Diagrams'
+      url: https://javascriptweekly.com/link/128614/web
+      type: News
