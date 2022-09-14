@@ -1,0 +1,53 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-470
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 470
+    date: 09/14/2022
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: How to Plot an ASCII Bar Chart with SQL
+      url: https://postgresweekly.com/link/128373/web
+      type: News
+    - title: Full SQL/JSON Support Deferred from Postgres 15
+      url: https://postgresweekly.com/link/128374/web
+      type: News
+    - title: The What, Why, and How of Time-Series Databases
+      url: https://postgresweekly.com/link/128378/web
+      type: News
+    - title: Working with Postgres Dump Manifests
+      url: https://postgresweekly.com/link/128379/web
+      type: News
+    - title: Parallel Vacuuming in Amazon RDS and Amazon Aurora
+      url: https://postgresweekly.com/link/128380/web
+      type: News
+    - title: The Diversity of Postgres's Configuration Parameters
+      url: https://postgresweekly.com/link/128381/web
+      type: News
+    - title: '"ERROR: nextval: reached maximum value of sequence"'
+      url: https://postgresweekly.com/link/128382/web
+      type: News
+    - title: How to Create an Audit Trail for an Aurora PostgreSQL Table
+      url: https://postgresweekly.com/link/128383/web
+      type: News
+    - title: Your Database, At The Edge
+      url: https://postgresweekly.com/link/128384/web
+      type: News
+    - title: Digging into Postgres and OS Memory Allocation
+      url: https://postgresweekly.com/link/128385/web
+      type: News
+    - title: Discussing Postgres and Ruby with Andrew Atkinson
+      url: https://postgresweekly.com/link/128386/web
+      type: News
+    - title: 'Kanel: Generate TypeScript Interfaces from Postgres'
+      url: https://postgresweekly.com/link/128429/web
+      type: News
