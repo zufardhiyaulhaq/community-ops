@@ -1,0 +1,22 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Announcement
+metadata:
+  name: kcd-oid-2022-sponsorship-01
+  namespace: community
+spec:
+  community:
+  - "kubernetes"
+  - "openstack"
+  spec:
+    subject: Kubernetes Community Days & OpenInfra Days Indonesia 2022 venue secured!
+    body: >-
+      We are glad that we already secure our venue at Smesco Convention Hall, SME Tower, South Jakarta, Indonesia!
+
+      We are still planning for registration, wait for more news about registration in the near future!
+
+      Sponsorship is still open, More information may be found at https://sponsor.kubernetesdays.id and https://sponsor.openinfra.id.
+    imageUrl: https://1.bp.blogspot.com/-crSgSBmgXew/XdO3N6AyrvI/AAAAAAAAAcI/nwTwVJlUMHo0IV_2dFMFzaOkzNbuhs_mQCEwYBhgL/w1200-h630-p-k-no-nu/gdg%2B%252801%2529.JPG
+    tags: 
+      - Conference
+      - KubernetesCommunityDays
+      - OpenInfraDays
