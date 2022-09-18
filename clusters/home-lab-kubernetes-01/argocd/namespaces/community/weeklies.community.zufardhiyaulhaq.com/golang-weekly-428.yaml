@@ -1,0 +1,59 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-428
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 428
+    date: 09/18/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: Let's Discuss Backward Compatibility in Go
+      url: https://golangweekly.com/link/128870/web
+      type: News
+    - title: Concurrency Isn’t Always Faster in Go
+      url: https://golangweekly.com/link/128871/web
+      type: News
+    - title: "\U0001F9C8 ButterCMS Melts into Your Go + Hugo App. #1 Rated Headless
+        CMS"
+      url: https://golangweekly.com/link/128872/web
+      type: News
+    - title: A Google Colab Notebook for Running Go Code?
+      url: https://golangweekly.com/link/128873/web
+      type: News
+    - title: Why a Google Cloud Director of Engineering Loves Go
+      url: https://golangweekly.com/link/128874/web
+      type: News
+    - title: Planning Go 1.20 Cryptography Work
+      url: https://golangweekly.com/link/128875/web
+      type: News
+    - title: Reducing Graph Complexity with Transitive Reduction
+      url: https://golangweekly.com/link/128876/web
+      type: News
+    - title: Cloud Spanner’s Go database/sql Driver Now GA
+      url: https://golangweekly.com/link/128885/web
+      type: News
+    - title: 'SeaweedFS: A Scalable Distributed Filesystem'
+      url: https://golangweekly.com/link/128887/web
+      type: News
+    - title: Don’t Let Your Issue Tracker Be a Four-Letter Word. Use Shortcut
+      url: https://golangweekly.com/link/128890/web
+      type: News
+    - title: 'dblab: Interactive Client for Postgres, MySQL, and SQLite3'
+      url: https://golangweekly.com/link/128891/web
+      type: News
+    - title: 'go-set: Sets Implemented with Generics'
+      url: https://golangweekly.com/link/128892/web
+      type: News
+    - title: 'Jackal: An XMPP Server Written in Go'
+      url: https://golangweekly.com/link/128894/web
+      type: News
+    - title: 'go-esi: ESI (Edge-Side-Include) Implementation in Go'
+      url: https://golangweekly.com/link/128897/web
+      type: News
