@@ -1,7 +1,7 @@
 apiVersion: community.zufardhiyaulhaq.com/v1alpha1
 kind: Announcement
 metadata:
-  name: kcd-oid-2022-sponsorship-01
+  name: kcd-oid-2022-venue-secured-01
   namespace: community
 spec:
   community:
