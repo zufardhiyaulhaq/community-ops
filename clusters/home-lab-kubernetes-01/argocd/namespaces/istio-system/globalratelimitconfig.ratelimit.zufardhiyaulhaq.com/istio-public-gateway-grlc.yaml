@@ -1,0 +1,23 @@
+apiVersion: ratelimit.zufardhiyaulhaq.com/v1alpha1
+kind: GlobalRateLimitConfig
+metadata:
+  name: istio-public-gateway-grlc
+  namespace: istio-system
+spec:
+  type: "gateway"
+  selector:
+    labels:
+      "app": "istio-public-gateway"
+      "istio": "ingressgateway"
+    istio_version:
+      - "1.13"
+      - "1.14"
+      - "1.15"
+  ratelimit:
+    spec:
+      domain: "istio-public-gateway"
+      failure_mode_deny: false
+      timeout: "10s"
+      service:
+        type: "service"
+        name: "istio-public-gateway-rls"

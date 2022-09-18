@@ -1,0 +1,22 @@
+apiVersion: ratelimit.zufardhiyaulhaq.com/v1alpha1
+kind: RateLimitService
+metadata:
+  name: istio-public-gateway-rls
+  namespace: istio-system
+spec:
+  kubernetes:
+    replica_count: 2
+    auto_scaling:
+      max_replicas: 3
+      min_replicas: 2
+    resources:
+      limits:
+        cpu: "128m"
+        memory: "128Mi"
+      requests:
+        cpu: "64m"
+        memory: "64Mi"     
+  backend:
+    redis:
+      type: "single"
+      url: "redis.istio-system.svc.cluster.local:6379"
