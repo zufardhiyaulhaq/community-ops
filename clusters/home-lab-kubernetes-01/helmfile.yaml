@@ -27,6 +27,8 @@ repositories:
   url: https://zufardhiyaulhaq.com/postgresweekly/charts/releases/
 - name: sma-alert
   url: https://zufardhiyaulhaq.com/sma-alert/charts/releases/
+- name: istio-ratelimit-operator
+  url: https://zufardhiyaulhaq.com/istio-ratelimit-operator/charts/releases/
 
 releases:
 - name: frp-operator
@@ -126,3 +128,10 @@ releases:
   chart: sma-alert/sma-alert
   values:
   - releases/community/sma-alert.yaml
+
+- name: istio-ratelimit-operator
+  namespace: infrastructure
+  version: 2.6.0
+  chart: istio-ratelimit-operator/istio-ratelimit-operator
+  values:
+  - releases/infrastructure/istio-ratelimit-operator.yaml

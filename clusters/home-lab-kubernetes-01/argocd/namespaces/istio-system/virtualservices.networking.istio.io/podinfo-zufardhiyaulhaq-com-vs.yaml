@@ -9,6 +9,17 @@ spec:
   gateways:
   - istio-system/podinfo-zufardhiyaulhaq-com-gateway
   http:
+  - name: "ratelimit-route"
+    match:
+    - uri:
+        prefix: /ratelimit
+    rewrite:
+      uri: "/"
+    route:
+      - destination:
+          port:
+            number: 9898
+          host: podinfo.default.svc.cluster.local
   - name: "podinfo-route"
     match:
     - uri:

@@ -1,0 +1,19 @@
+operator:
+  # image of istio-ratelimit-operator
+  image: "zufardhiyaulhaq/istio-ratelimit-operator"
+  # tag of istio-ratelimit-operator image
+  tag: "v2.6.0"
+  # number of replica for deployment
+  replica: 1
+
+resources:
+  limits:
+    cpu: 512m
+    memory: 512Mi
+  requests:
+    cpu: 256m
+    memory: 256Mi
+
+settings:
+  ratelimitservice:
+    image: envoyproxy/ratelimit:ea444b15
