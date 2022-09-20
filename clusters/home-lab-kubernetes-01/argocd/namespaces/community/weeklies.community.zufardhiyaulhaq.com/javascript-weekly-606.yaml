@@ -1,0 +1,63 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-606
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 606
+    date: 09/20/2022
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'MemLab: A Framework for Finding JavaScript Memory Leaks'
+      url: https://javascriptweekly.com/link/128983/web
+      type: News
+    - title: JavaScript APIs You Don’t Know About
+      url: https://javascriptweekly.com/link/128930/web
+      type: News
+    - title: Frontend Masters Community Sale
+      url: https://javascriptweekly.com/link/128927/web
+      type: News
+    - title: Best Practices for Creating a Modern npm Package
+      url: https://javascriptweekly.com/link/128928/web
+      type: News
+    - title: The Seventh Way to Call a Function Without Parentheses
+      url: https://javascriptweekly.com/link/128940/web
+      type: News
+    - title: What’s New with HTML Forms in 2022?
+      url: https://javascriptweekly.com/link/128941/web
+      type: News
+    - title: Snyk Finds PyPi Malware That Steals Discord & Roblox Credential and Payment
+        Info
+      url: https://javascriptweekly.com/link/128942/web
+      type: News
+    - title: The Secret of Successfully Using Multi Window WebGL Canvas
+      url: https://javascriptweekly.com/link/128943/web
+      type: News
+    - title: Why the type="number" Input is the Worst Input
+      url: https://javascriptweekly.com/link/128944/web
+      type: News
+    - title: 'useSyncExternalStore: The Underrated React Hook?'
+      url: https://javascriptweekly.com/link/128945/web
+      type: News
+    - title: 'npm-check-updates: Update package.json Dependencies to the Latest Versions'
+      url: https://javascriptweekly.com/link/128950/web
+      type: News
+    - title: "❤️ Loving console.log Is Easy, but hate \U0001F621 Losing Context to
+        View Messy Output"
+      url: https://javascriptweekly.com/link/128951/web
+      type: News
+    - title: 'SafeQL: An ESLint Plugin for Your SQL Queries'
+      url: https://javascriptweekly.com/link/128957/web
+      type: News
+    - title: 'Theatre.js 0.5: Hackable Motion Design for the Web'
+      url: https://javascriptweekly.com/link/128958/web
+      type: News
+    - title: 'Code Capsules: The Simplest Way to Deploy Your Code'
+      url: https://javascriptweekly.com/link/128963/web
+      type: News
