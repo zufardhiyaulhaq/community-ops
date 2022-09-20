@@ -54,6 +54,10 @@ spec:
             targetPort: 8080
             name: http2
   meshConfig:
+    tcpKeepalive:
+      time: 60s
+      probes: 3
+      interval: 60s
     accessLogFile: /dev/stdout
     accessLogEncoding: JSON
     defaultConfig:
