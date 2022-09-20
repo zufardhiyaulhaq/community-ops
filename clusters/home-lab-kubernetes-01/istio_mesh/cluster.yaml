@@ -1,6 +1,7 @@
 apiVersion: install.istio.io/v1alpha3
 kind: IstioOperator
 spec:
+  hub: ghcr.io/resf/istio
   components:
     pilot:
       enabled: true
