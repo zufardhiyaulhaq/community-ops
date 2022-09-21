@@ -1,0 +1,30 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Meetup
+metadata:
+  name: meetup-kubernetes-september-2022
+  namespace: community
+spec:
+  community:
+  - "kubernetes"
+  spec:
+    name: "Kubernetes Cloud Native Meetup Yogyakarta 2022"
+    date: "Sep 24, 2022"
+    time: "10.00"
+    place: "Block71 - Yogyakarta, Terban, Yogyakarta"
+    registrationUrl: "https://community.cncf.io/indonesia/"
+    imageUrl: "https://raw.githubusercontent.com/cloudnative-id/artwork/master/poster/yogyakarta/yoyakarta-september.png"
+    tags:
+      - meetup
+      - CNCF
+      - Yogyakarta
+    sponsors:
+    - name: "BLOCK71 Yogyakarta"
+    speakers:
+      - name: "Vinsen Muliadi"
+        position: "Sr. DevOps Engineer"
+        company: "PT. Astro Technologies Indonesia"
+        title: "Kubernetes Templating Engine"
+      - name: "Nashihun Amien"
+        position: "DevOps Engineer"
+        company: ""
+        title: "Building golden image as source of truth"
