@@ -1,0 +1,53 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-471
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 471
+    date: 09/21/2022
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: 'Choosing a Primary Key Identifier Format: The Options'
+      url: https://postgresweekly.com/link/128701/web
+      type: News
+    - title: 'pg_netstat: Monitor Your Database''s Network Traffic'
+      url: https://postgresweekly.com/link/128703/web
+      type: News
+    - title: 'PDF Download: Understanding Kubernetes'
+      url: https://postgresweekly.com/link/128704/web
+      type: News
+    - title: Working with Transaction Snapshots
+      url: https://postgresweekly.com/link/128705/web
+      type: News
+    - title: PostgreSQL 15 Beta 4 Released
+      url: https://postgresweekly.com/link/128706/web
+      type: News
+    - title: '''6 Useful Postgres Features I Wish I Knew When I Started'''
+      url: https://postgresweekly.com/link/128710/web
+      type: News
+    - title: What's an INNER JOIN or OUTER JOIN in SQL?
+      url: https://postgresweekly.com/link/128711/web
+      type: News
+    - title: What pgcrypto Does
+      url: https://postgresweekly.com/link/128712/web
+      type: News
+    - title: How and Why Citus Took Distributed Postgres Fully Open Source
+      url: https://postgresweekly.com/link/128714/web
+      type: News
+    - title: 'pg_idkit: An Extension for Generating IDs'
+      url: https://postgresweekly.com/link/128702/web
+      type: News
+    - title: Move Mission Critical Applications to the Cloud…Faster
+      url: https://postgresweekly.com/link/128715/web
+      type: News
+    - title: 'Apache AGE 1.1.0: Graph Extensions for Postgres'
+      url: https://postgresweekly.com/link/128716/web
+      type: News
