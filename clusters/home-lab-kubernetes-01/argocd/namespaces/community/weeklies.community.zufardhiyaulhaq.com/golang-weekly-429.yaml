@@ -1,0 +1,47 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-429
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 429
+    date: 09/25/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: 'Wails v2: Build Cross-Platform Desktop Apps with Go'
+      url: https://golangweekly.com/link/129201/web
+      type: News
+    - title: "\U0001F9C8 ButterCMS Melts into Your Go + Hugo App. #1 Rated Headless
+        CMS"
+      url: https://golangweekly.com/link/129202/web
+      type: News
+    - title: The GopherCon UK 2022 Videos
+      url: https://golangweekly.com/link/129203/web
+      type: News
+    - title: Test Scripts in Go
+      url: https://golangweekly.com/link/129205/web
+      type: News
+    - title: Engineering Interview Tips and Tricks
+      url: https://golangweekly.com/link/129208/web
+      type: News
+    - title: '35 Million Hot Dogs: Benchmarking Caddy vs. Nginx'
+      url: https://golangweekly.com/link/129209/web
+      type: News
+    - title: 'fgtrace: An Experimental Goroutine Profiler/Tracer'
+      url: https://golangweekly.com/link/129211/web
+      type: News
+    - title: Build Real Time Chat Messaging with Stream
+      url: https://golangweekly.com/link/129213/web
+      type: News
+    - title: 'NATS 2.9: The CNCF-Incubated Cloud Native Messaging System'
+      url: https://golangweekly.com/link/129214/web
+      type: News
+    - title: 'WunderBase: A Serverless GraphQL Database on Top of SQLite'
+      url: https://golangweekly.com/link/129217/web
+      type: News
