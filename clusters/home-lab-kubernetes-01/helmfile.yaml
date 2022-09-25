@@ -29,6 +29,8 @@ repositories:
   url: https://zufardhiyaulhaq.com/sma-alert/charts/releases/
 - name: istio-ratelimit-operator
   url: https://zufardhiyaulhaq.com/istio-ratelimit-operator/charts/releases/
+- name: prometheus-community
+  url: https://prometheus-community.github.io/helm-charts
 
 releases:
 - name: frp-operator
@@ -135,3 +137,10 @@ releases:
   chart: istio-ratelimit-operator/istio-ratelimit-operator
   values:
   - releases/infrastructure/istio-ratelimit-operator.yaml
+
+- name: statsd-exporter
+  namespace: observability-system
+  version: 0.6.0
+  chart: prometheus-community/prometheus-statsd-exporter
+  values:
+  - releases/observability-system/statsd-exporter.yaml
