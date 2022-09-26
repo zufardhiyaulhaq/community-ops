@@ -17,5 +17,8 @@ class ConfigurationParser:
     def get(self):
         return self.configuration
 
-    def get_istio(self):
-        return self.configuration["istio"]["config"]
+    def get_istio_control_plane(self):
+        return self.configuration["istio"]["control_plane"]
+
+    def get_istio_gateway(self):
+        return self.configuration["istio"]["gateway"]

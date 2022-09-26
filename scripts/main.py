@@ -39,10 +39,16 @@ def main(cluster_name):
     helm = HelmDeployer(shell, cluster_name)
     helm.deploy()
 
-    print_header("Deploying Istio")
-    istio_config_file = configuration.get_istio()
-    istio = IstioDeployer(shell, istio_config_file, cluster_name)
+    print_header("Deploying Istio Control Plane")
+    istio_control_plane = configuration.get_istio_control_plane()
+    istio = IstioDeployer(shell, istio_control_plane, cluster_name)
     istio.deploy()
+
+    print_header("Deploying Istio Gateway")
+    istio_gateways = configuration.get_istio_gateway()
+    for gateway in istio_gateways:
+        istio = IstioDeployer(shell, gateway, cluster_name)
+        istio.deploy()
 
 if __name__ == '__main__':
     main()

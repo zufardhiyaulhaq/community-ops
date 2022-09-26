@@ -1,2 +1,4 @@
 istio:
-  config: ./istio_mesh/cluster.yaml
+  control_plane: ./istio_mesh/control_plane.yaml
+  gateway:
+    - ./istio_mesh/gateway/istio-service-gateway.yaml
