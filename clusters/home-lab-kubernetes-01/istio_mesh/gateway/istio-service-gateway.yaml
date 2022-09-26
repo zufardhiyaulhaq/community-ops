@@ -1,5 +1,8 @@
 apiVersion: install.istio.io/v1alpha3
 kind: IstioOperator
+metadata:
+  name: istio-service-gateway
+  namespace: istio-system
 spec:
   hub: ghcr.io/resf/istio
   profile: empty
