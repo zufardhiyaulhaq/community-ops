@@ -1,0 +1,25 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Announcement
+metadata:
+  name: kcd-oid-2022-cfp-closing-01
+  namespace: community
+spec:
+  community:
+  - "kubernetes"
+  - "openstack"
+  spec:
+    subject: CFP Announcement Reschedule
+    body: >-
+      Thank you for submitting the CFP to Kubernetes Community Days & OpenInfra Days Indonesia 2022!
+
+
+      We are near the end process of reviewing all of the CFPs and still need time. We will reschedule the CFP announcement to 5 October 2022!
+      
+
+      Stay tune!
+    imageUrl: https://raw.githubusercontent.com/cloudnative-id/kubernetes-community-days/master/2022/cfp/cfp-closed-KCDxOID-2.jpg
+    tags: 
+      - CFP
+      - Conference
+      - KubernetesCommunityDays
+      - OpenInfraDays
