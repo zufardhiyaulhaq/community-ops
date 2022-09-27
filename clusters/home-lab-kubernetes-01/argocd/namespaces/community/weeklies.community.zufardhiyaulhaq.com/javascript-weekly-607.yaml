@@ -1,0 +1,73 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-607
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 607
+    date: 09/27/2022
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'Tesseract.js 3.0: Pure JS OCR for Over 100 Languages'
+      url: https://javascriptweekly.com/link/129269/web
+      type: News
+    - title: 'A Proposed JS Feature: Extractor Objects'
+      url: https://javascriptweekly.com/link/129233/web
+      type: News
+    - title: Hello World. Caching. Globally. Simplified.
+      url: https://javascriptweekly.com/link/129232/web
+      type: News
+    - title: '''React I Love You, but You’re Bringing Me Down'''
+      url: https://javascriptweekly.com/link/129272/web
+      type: News
+    - title: 'Type-Level TypeScript: The Basics'
+      url: https://javascriptweekly.com/link/129275/web
+      type: News
+    - title: Shell Scripting with Node.js
+      url: https://javascriptweekly.com/link/129236/web
+      type: News
+    - title: Send Email, Push and SMS with Smart Routing, with Just 8 Lines of Code
+      url: https://javascriptweekly.com/link/129238/web
+      type: News
+    - title: How to Build a Scrollable Text Gallery in Three.js
+      url: https://javascriptweekly.com/link/129276/web
+      type: News
+    - title: 'Rest vs Spread Syntax: ... vs ...'
+      url: https://javascriptweekly.com/link/129239/web
+      type: News
+    - title: What’s New in Gatsby in 2022?
+      url: https://javascriptweekly.com/link/129240/web
+      type: News
+    - title: 'Linkify 4.0: Link Up URLs, Email Addresses, and More in Plain Text'
+      url: https://javascriptweekly.com/link/129243/web
+      type: News
+    - title: 'TinyBase 2.0: A Library for Structuring App State'
+      url: https://javascriptweekly.com/link/129245/web
+      type: News
+    - title: Integrate eSignatures in Your App in Less Than a Week
+      url: https://javascriptweekly.com/link/129248/web
+      type: News
+    - title: 'DOCX 7.5: Generate Word .docx Files from Node or Browser'
+      url: https://javascriptweekly.com/link/129249/web
+      type: News
+    - title: 'pcl.js: Point Cloud Library (PCL) for Browser, Powered by WebAssembly'
+      url: https://javascriptweekly.com/link/129257/web
+      type: News
+    - title: 'Japa: An Alternative Testing Framework for Node'
+      url: https://javascriptweekly.com/link/129254/web
+      type: News
+    - title: 'Command Palette for Vue: A Ctrl/Cmd+K Style Interface for Vue.js'
+      url: https://javascriptweekly.com/link/129280/web
+      type: News
+    - title: Seamlessly Add Chat and Activity Feeds to Your Applications
+      url: https://javascriptweekly.com/link/129256/web
+      type: News
+    - title: 'Precessing (p8g): A General Purpose, Cross Language 2D Library'
+      url: https://javascriptweekly.com/link/129251/web
+      type: News
