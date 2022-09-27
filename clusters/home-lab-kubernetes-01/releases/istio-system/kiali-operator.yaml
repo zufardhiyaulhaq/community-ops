@@ -9,3 +9,40 @@ debug:
 
 clusterRoleCreator: true
 onlyViewOnlyMode: false
+
+cr:
+  create: true
+  name: kiali
+  namespace: ""
+  annotations: {}
+  spec:
+    server:
+      metrics_enabled: true
+      metrics_port: 9090
+      audit_log: true
+    auth:
+      strategy: anonymous
+    deployment:
+      logger:
+        log_level: error  
+        log_format: json  
+      ingress:
+        enabled: false
+      accessible_namespaces:
+        - '**'
+      view_only_mode: true
+      replicas: 2
+      hpa:
+        api_version: "autoscaling/v1"
+        spec:
+          minReplicas: 2
+          maxReplicas: 3
+          targetCPUUtilizationPercentage: 80
+      resources:
+        requests:
+          cpu: 64m
+          memory: 128Mi
+    external_services:
+      prometheus:
+        url: 'http://vmselect-victoria-metrics-victoria-metrics-k8s-stack.observability-system.svc.cluster.local:8481/select/0/prometheus'
+    istio_namespace: istio-system
