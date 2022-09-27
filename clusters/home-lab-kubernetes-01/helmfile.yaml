@@ -149,7 +149,7 @@ releases:
 
 - name: kiali-operator
   namespace: istio-system
-  version: 1.55.1
+  version: 1.50.0
   chart: kiali/kiali-operator
   values:
   - releases/istio-system/kiali-operator.yaml
