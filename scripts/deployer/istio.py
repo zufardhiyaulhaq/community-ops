@@ -8,7 +8,7 @@ class IstioDeployer():
     # https://github.com/istio/istio/pull/34634
     def deploy(self, dryrun=False):
         if dryrun == False:
-            command = ["istioctl", "upgrade", "-f", self.config_file, "--force", "--skip-confirmation", "--context", self.cluster]
+            command = ["istioctl", "install", "-f", self.config_file, "--force", "--skip-confirmation", "--context", self.cluster]
             self.shell.execute(command)
         
     # TODO add ability to diff the manifest

@@ -21,41 +21,6 @@ spec:
     ingressGateways:
     - enabled: false
       name: istio-ingressgateway
-    - enabled: true
-      name: istio-public-gateway
-      label:
-        app: istio-public-gateway
-      k8s:
-        resources:
-          requests:
-            cpu: 32m
-            memory: 32Mi
-        podDisruptionBudget:
-          minAvailable: 1
-        hpaSpec:
-          maxReplicas: 2
-          minReplicas: 1
-        overlays:
-          - kind: Deployment
-            name: istio-public-gateway
-            patches:
-              - path: spec.template.spec.containers.[name:istio-proxy].lifecycle
-                value:
-                  preStop:
-                    exec:
-                      command:
-                        - /bin/sh
-                        - -c
-                        - sleep 10
-        service:
-          type: ClusterIP
-          ports:
-          - port: 443
-            targetPort: 8443
-            name: https
-          - port: 80
-            targetPort: 8080
-            name: http2
   meshConfig:
     tcpKeepalive:
       time: 60s

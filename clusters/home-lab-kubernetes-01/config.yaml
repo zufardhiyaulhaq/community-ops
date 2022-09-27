@@ -1,3 +1,5 @@
 istio:
   control_plane: ./istio_mesh/control-plane.yaml
-  gateway: []
+  gateway:
+  - ./istio_mesh/gateway/istio-public-gateway.yaml
+  - ./istio_mesh/gateway/istio-service-gateway.yaml
