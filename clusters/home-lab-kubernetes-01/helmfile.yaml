@@ -31,6 +31,8 @@ repositories:
   url: https://zufardhiyaulhaq.com/istio-ratelimit-operator/charts/releases/
 - name: prometheus-community
   url: https://prometheus-community.github.io/helm-charts
+- name: kiali
+  url: https://kiali.org/helm-charts
 
 releases:
 - name: frp-operator
@@ -144,3 +146,10 @@ releases:
   chart: prometheus-community/prometheus-statsd-exporter
   values:
   - releases/observability-system/statsd-exporter.yaml
+
+- name: kiali-operator
+  namespace: istio-system
+  version: 1.55.1
+  chart: kiali/kiali-operator
+  values:
+  - releases/istio-system/kiali-operator.yaml

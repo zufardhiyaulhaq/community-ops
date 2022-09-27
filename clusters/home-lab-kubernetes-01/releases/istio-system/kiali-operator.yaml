@@ -1,0 +1,11 @@
+replicaCount: 1
+
+metrics:
+  enabled: true
+
+debug:
+  enabled: true
+  verbosity: "1"
+
+clusterRoleCreator: true
+onlyViewOnlyMode: false
