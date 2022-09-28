@@ -1,0 +1,47 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-472
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 472
+    date: 09/28/2022
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: 'pg_activity 3.0: htop-Like Activity Monitoring Tool'
+      url: https://postgresweekly.com/link/128997/web
+      type: News
+    - title: Migrating Postgres from Heroku to Crunchy Bridge
+      url: https://postgresweekly.com/link/128998/web
+      type: News
+    - title: PostgresML Moving to Rust For Its 2.0 Release
+      url: https://postgresweekly.com/link/128999/web
+      type: News
+    - title: Sequences vs. Invoice Numbers
+      url: https://postgresweekly.com/link/129001/web
+      type: News
+    - title: Using the Timescale Gem with Ruby
+      url: https://postgresweekly.com/link/129003/web
+      type: News
+    - title: '▶️ Webinar Tomorrow: Optimizing Postgres I/O Performance & Costs'
+      url: https://postgresweekly.com/link/129005/web
+      type: News
+    - title: An Overview of Postgres Data Flow
+      url: https://postgresweekly.com/link/129006/web
+      type: News
+    - title: 'pspg 5.5.7: A Unix Pager Designed for Postgres Tables'
+      url: https://postgresweekly.com/link/129010/web
+      type: News
+    - title: 'pgenv 1.3.2: A Postgres Virtual Environment Manager'
+      url: https://postgresweekly.com/link/129011/web
+      type: News
+    - title: 'dblab: An Interactive Client for Postgres, MySQL, and SQLite3'
+      url: https://postgresweekly.com/link/129013/web
+      type: News
