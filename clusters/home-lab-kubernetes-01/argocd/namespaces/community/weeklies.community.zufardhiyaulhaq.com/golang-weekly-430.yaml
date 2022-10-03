@@ -1,0 +1,61 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-430
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 430
+    date: 10/02/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: 'What''s New in Go''s Runtime: Four Years Later'
+      url: https://golangweekly.com/link/129530/web
+      type: News
+    - title: Automatically Detect and Track Flaky Tests in Go
+      url: https://golangweekly.com/link/129532/web
+      type: News
+    - title: 'Steampipe: Query Your Cloud Services with SQL'
+      url: https://golangweekly.com/link/129533/web
+      type: News
+    - title: Build a Tic-Tac-Toe Game in the a GitHub README.md File?
+      url: https://golangweekly.com/link/129536/web
+      type: News
+    - title: A Complete Guide to Working with Cookies in Go
+      url: https://golangweekly.com/link/129541/web
+      type: News
+    - title: Build a Custom Go Linter in Five Minutes
+      url: https://golangweekly.com/link/129542/web
+      type: News
+    - title: Buggy BLANK Identifiers in Go
+      url: https://golangweekly.com/link/129544/web
+      type: News
+    - title: go mod's Lesser Known Features
+      url: https://golangweekly.com/link/129545/web
+      type: News
+    - title: 'Fibratus: Windows Kernel Exploration and Observability Tool'
+      url: https://golangweekly.com/link/129546/web
+      type: News
+    - title: 'Neffos: A WebSocket-Based Real Time Framework'
+      url: https://golangweekly.com/link/129548/web
+      type: News
+    - title: 'Chrono: A Scheduler Library to Run Tasks Periodically'
+      url: https://golangweekly.com/link/129549/web
+      type: News
+    - title: 'Don’t DIY Your Notifications: Send SMS, Email, and Push with One Call'
+      url: https://golangweekly.com/link/129550/web
+      type: News
+    - title: 'fRPC: A Faster, More Flexible RPC Framework'
+      url: https://golangweekly.com/link/129551/web
+      type: News
+    - title: 'Mantil: Serverless Development Kit for Go and AWS Lambda'
+      url: https://golangweekly.com/link/129553/web
+      type: News
+    - title: 'Gaze: File/Directory Watcher Tool'
+      url: https://golangweekly.com/link/129554/web
+      type: News
