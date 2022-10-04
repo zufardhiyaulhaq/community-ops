@@ -1,0 +1,74 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-608
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 608
+    date: 10/04/2022
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: The Web Almanac 2022's Take on the State of JavaScript in the Real World
+      url: https://javascriptweekly.com/link/129631/web
+      type: News
+    - title: Build a Slack Integration in a Few Lines of JavaScript
+      url: https://javascriptweekly.com/link/129583/web
+      type: News
+    - title: Announcing TypeScript 4.9 Beta
+      url: https://javascriptweekly.com/link/129584/web
+      type: News
+    - title: The 'New Wave' of JavaScript Web Frameworks
+      url: https://javascriptweekly.com/link/129612/web
+      type: News
+    - title: Use .NET From Any JavaScript App in .NET 7
+      url: https://javascriptweekly.com/link/129620/web
+      type: News
+    - title: Writing Composable SQL using JavaScript
+      url: https://javascriptweekly.com/link/129588/web
+      type: News
+    - title: How to Monitor a Next.js Application
+      url: https://javascriptweekly.com/link/129587/web
+      type: News
+    - title: Building an Accessible Select Component in React
+      url: https://javascriptweekly.com/link/129591/web
+      type: News
+    - title: A Quick Guide to Phone Vibration with JavaScript
+      url: https://javascriptweekly.com/link/129593/web
+      type: News
+    - title: 'Billboard.js 3.6: D3.js-Based JavaScript Chart Library'
+      url: https://javascriptweekly.com/link/129595/web
+      type: News
+    - title: 'Liqe: Lightweight Lucene-like Parser and Search Engine'
+      url: https://javascriptweekly.com/link/129598/web
+      type: News
+    - title: 'Wallaby.js: 15x Faster JavaScript Testing, Now with Support for Vitest'
+      url: https://javascriptweekly.com/link/129600/web
+      type: News
+    - title: 'create-t3-app: Interactive CLI to Quickly Set Up an Opinionated, Full-Stack,
+        Type-Safe Next.js Project'
+      url: https://javascriptweekly.com/link/129601/web
+      type: News
+    - title: 'Glide.js 3.6: A Dependency-Free Slider and Carousel Control'
+      url: https://javascriptweekly.com/link/129625/web
+      type: News
+    - title: 'Preview.js: Fast Component Previews in Your IDE'
+      url: https://javascriptweekly.com/link/129603/web
+      type: News
+    - title: '''Photoshop Export Layers to Files Fast'''
+      url: https://javascriptweekly.com/link/129626/web
+      type: News
+    - title: 'Ezno: An Experimental JavaScript Compiler'
+      url: https://javascriptweekly.com/link/129635/web
+      type: News
+    - title: 'Code Capsules: The Simplest Way to Deploy Your Code'
+      url: https://javascriptweekly.com/link/129606/web
+      type: News
+    - title: 'textlint: A Pluggable Linting Tool for Text and Markdown'
+      url: https://javascriptweekly.com/link/129604/web
+      type: News
