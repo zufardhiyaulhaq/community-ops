@@ -1,0 +1,23 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Announcement
+metadata:
+  name: showwcase-space-01
+  namespace: community
+spec:
+  community:
+  - "kubernetes"
+  spec:
+    subject: Understanding Cloud For Begineer
+    body: >-
+      Malam ini! kita bakal ngobrol tentang #CloudComputing bersama @gofrendiasgard dan @zufardhiyaulhaq dari komunitas @CloudNativeID @kubernetes_days
+ 
+ 
+      Pantengin dan dapatkan hadiah Gopay dan Saldo Cloud VPS dari @Idcloudhostcom
+
+
+      Learn more: https://twitter.com/i/spaces/1OyKAVmgMdLGb
+    imageUrl: https://raw.githubusercontent.com/cloudnative-id/artwork/master/poster/online/showwcase-space-01.jpg
+    tags: 
+      - Space
+      - Cloud
+      - Community
