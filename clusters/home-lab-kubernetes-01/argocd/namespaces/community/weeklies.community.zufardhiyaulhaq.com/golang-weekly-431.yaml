@@ -1,0 +1,69 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-431
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 431
+    date: 10/09/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: How Do You Solve a Problem Like for Loop Variables?
+      url: https://golangweekly.com/link/129845/web
+      type: News
+    - title: How a Bank Migrated Its Monorepo Seamlessly from Dep to Modules
+      url: https://golangweekly.com/link/129848/web
+      type: News
+    - title: Best Practices for Secure Infrastructure Access
+      url: https://golangweekly.com/link/129849/web
+      type: News
+    - title: Go 1.19.2 and Go 1.18.7 Released
+      url: https://golangweekly.com/link/129850/web
+      type: News
+    - title: Implementing Map, Reduce, and Filter with Go Generics
+      url: https://golangweekly.com/link/129851/web
+      type: News
+    - title: Serving Static Files and Web Apps with Go
+      url: https://golangweekly.com/link/129852/web
+      type: News
+    - title: Writing Your Own Postgres Driver
+      url: https://golangweekly.com/link/129853/web
+      type: News
+    - title: How to Automatically Create Architecture Diagrams for Go Microservice
+        Architectures
+      url: https://golangweekly.com/link/129854/web
+      type: News
+    - title: Memory Layout and Mechanics of Arrays and Slices
+      url: https://golangweekly.com/link/129856/web
+      type: News
+    - title: 'Pion Opus: Pure Go Implementation of Opus'
+      url: https://golangweekly.com/link/129858/web
+      type: News
+    - title: Real-Time Database Events with pg_eventserv
+      url: https://golangweekly.com/link/129861/web
+      type: News
+    - title: New Golang API from a Google Ventures-Backed Notifications Infrastructure
+        Service
+      url: https://golangweekly.com/link/129863/web
+      type: News
+    - title: 'htmltable: Structured HTML Table Data Extraction'
+      url: https://golangweekly.com/link/129864/web
+      type: News
+    - title: 'Tacquito: A TACACS+ Server That Implements RFC8907'
+      url: https://golangweekly.com/link/129865/web
+      type: News
+    - title: Twilio Releases an Official 'Go Helper' Library
+      url: https://golangweekly.com/link/129867/web
+      type: News
+    - title: 'Broker-HA: MQTT Broker with Clustering Capabilities'
+      url: https://golangweekly.com/link/129868/web
+      type: News
+    - title: 'Simpex: A Simpler Alternative to Regexp'
+      url: https://golangweekly.com/link/129869/web
+      type: News
