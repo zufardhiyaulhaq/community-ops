@@ -1,0 +1,47 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-13
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 13
+    date: 10/12/2022
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: Real-Time Database Events with pg_eventserv
+      url: https://postgresweekly.com/link/129642/web
+      type: News
+    - title: PostgreSQL 15 Release Candidate 1 Released
+      url: https://postgresweekly.com/link/129644/web
+      type: News
+    - title: How TimescaleDB Expands PostgreSQL Performance
+      url: https://postgresweekly.com/link/129641/web
+      type: News
+    - title: Querying Postgres Tables Directly from DuckDB
+      url: https://postgresweekly.com/link/129646/web
+      type: News
+    - title: Are the Majority of Postgres Servers on the Internet Insecure?
+      url: https://postgresweekly.com/link/129656/web
+      type: News
+    - title: How to Get Into Understanding Postgres' Internals
+      url: https://postgresweekly.com/link/129657/web
+      type: News
+    - title: Why Didn't VACUUM Make Your Table Smaller?
+      url: https://postgresweekly.com/link/129658/web
+      type: News
+    - title: 'pg_stat_monitor 1.1.0: A Query Performance Monitoring Tool'
+      url: https://postgresweekly.com/link/129659/web
+      type: News
+    - title: 'Dynaboard: The Pro-Code Web App Builder Made for Developers'
+      url: https://postgresweekly.com/link/129661/web
+      type: News
+    - title: 'pgBackRest 2.41: Reliable Postgres Backup and Restore'
+      url: https://postgresweekly.com/link/129662/web
+      type: News
