@@ -1,0 +1,70 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-609
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 609
+    date: 10/11/2022
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'Axios 1: The Long Standing HTTP Client Library'
+      url: https://javascriptweekly.com/link/129898/web
+      type: News
+    - title: 'Free Course: The Last Algorithms Course You''ll Need'
+      url: https://javascriptweekly.com/link/129897/web
+      type: News
+    - title: '''I Turned JS Into a Compiled Language (for Fun and Wasm)'''
+      url: https://javascriptweekly.com/link/129903/web
+      type: News
+    - title: Ten Years of TypeScript
+      url: https://javascriptweekly.com/link/129906/web
+      type: News
+    - title: The js13kGames 2022 Winners
+      url: https://javascriptweekly.com/link/129907/web
+      type: News
+    - title: The Future of the Web is on the Edge (Says Deno)
+      url: https://javascriptweekly.com/link/129910/web
+      type: News
+    - title: A (Mostly) Complete Guide to React Rendering Behavior
+      url: https://javascriptweekly.com/link/129916/web
+      type: News
+    - title: '''I Changed My Mind About Writing New JavaScript Frameworks'''
+      url: https://javascriptweekly.com/link/129918/web
+      type: News
+    - title: How to Build URLs and Handle Redirects in Headless Architecture
+      url: https://javascriptweekly.com/link/129920/web
+      type: News
+    - title: Animating Triangles with Three.js
+      url: https://javascriptweekly.com/link/129921/web
+      type: News
+    - title: Using npm query and jq to Dig Into Dependencies
+      url: https://javascriptweekly.com/link/129922/web
+      type: News
+    - title: Increasing E2E Test Coverage from 10% to 95% in 12 weeks
+      url: https://javascriptweekly.com/link/129924/web
+      type: News
+    - title: 'μFuzzy: A Tiny, Efficient Fuzzy Search Library'
+      url: https://javascriptweekly.com/link/129928/web
+      type: News
+    - title: 'zx 7.1: Google''s Tool for Easier Shell Scripting'
+      url: https://javascriptweekly.com/link/129929/web
+      type: News
+    - title: Don’t Let Your Issue Tracker Be a Four-Letter Word. Use Shortcut
+      url: https://javascriptweekly.com/link/129931/web
+      type: News
+    - title: 'Radix UI: Unstyled Accessible Components to Build on Top Of'
+      url: https://javascriptweekly.com/link/129932/web
+      type: News
+    - title: 'Horizon UI: An Open Source Admin Template Atop Chakra UI'
+      url: https://javascriptweekly.com/link/129933/web
+      type: News
+    - title: 'SurveyJS: A Library for Making Survey Forms'
+      url: https://javascriptweekly.com/link/129935/web
+      type: News
