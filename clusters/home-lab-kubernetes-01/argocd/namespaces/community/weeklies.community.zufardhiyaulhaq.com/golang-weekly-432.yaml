@@ -1,0 +1,70 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-432
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 432
+    date: 10/16/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: 'Proposal: A try Statement for Error Handling?'
+      url: https://golangweekly.com/link/130185/web
+      type: News
+    - title: 'Autostrada: A Codebase Generator for Go Projects'
+      url: https://golangweekly.com/link/130186/web
+      type: News
+    - title: 'Memetria: Secure, Scalable, Full-Featured Redis 7 Hosting'
+      url: https://golangweekly.com/link/130184/web
+      type: News
+    - title: 'Go Aha! Moments: Generics'
+      url: https://golangweekly.com/link/130187/web
+      type: News
+    - title: '''Hacking'' with Go: Part 2'
+      url: https://golangweekly.com/link/130188/web
+      type: News
+    - title: 'Building a New ScyllaDB Go Driver: Faster Than GoCQL and Its Rust Counterpart'
+      url: https://golangweekly.com/link/130193/web
+      type: News
+    - title: 'How to Create a PDF in Go: A Step-By-Step Tutorial'
+      url: https://golangweekly.com/link/130195/web
+      type: News
+    - title: Akuity is the Argo CD as a Managed Service from the Creators of Argo
+      url: https://golangweekly.com/link/130199/web
+      type: News
+    - title: Building a CLI Kanban Board with Bubble Tea
+      url: https://golangweekly.com/link/130200/web
+      type: News
+    - title: 'Go Worker Pool: The Concurrency Powerhouse'
+      url: https://golangweekly.com/link/130202/web
+      type: News
+    - title: A Port of Tcl to Go
+      url: https://golangweekly.com/link/130203/web
+      type: News
+    - title: 'Pagoda: Rapid, Full-Stack ''Starter Kit'''
+      url: https://golangweekly.com/link/130206/web
+      type: News
+    - title: Forget Everything You Know About SSH
+      url: https://golangweekly.com/link/130209/web
+      type: News
+    - title: 'Expr: Expression Evaluation Within Go'
+      url: https://golangweekly.com/link/130210/web
+      type: News
+    - title: 'Cute Print: A Minimalist Beautiful Go Printing / fmt Alternative'
+      url: https://golangweekly.com/link/130211/web
+      type: News
+    - title: 'Circumflex: A Terminal Based Hacker News Client'
+      url: https://golangweekly.com/link/130212/web
+      type: News
+    - title: 'Tunny: A Goroutine Pool Library'
+      url: https://golangweekly.com/link/130213/web
+      type: News
+    - title: 'LearnGo: A Large Collection of Go Examples, Exercises, and Quizzes'
+      url: https://golangweekly.com/link/130222/web
+      type: News
