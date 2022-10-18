@@ -1,0 +1,84 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-610
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 610
+    date: 10/18/2022
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'Intl Explorer: A Way to Learn and Experiment with the ECMAScript Internationalization
+        API'
+      url: https://javascriptweekly.com/link/130307/web
+      type: News
+    - title: Creating Your Own JavaScript Runtime with V8
+      url: https://javascriptweekly.com/link/130242/web
+      type: News
+    - title: 'Event Driven Node.js Hackathon: +$3k in Prize Value'
+      url: https://javascriptweekly.com/link/130238/web
+      type: News
+    - title: Node v18.11.0 (Current) Released; Gains 'Watch Mode'
+      url: https://javascriptweekly.com/link/130239/web
+      type: News
+    - title: 'Lerna Reborn: What’s New in Version 6?'
+      url: https://javascriptweekly.com/link/130299/web
+      type: News
+    - title: The Future of Rendering in React
+      url: https://javascriptweekly.com/link/130254/web
+      type: News
+    - title: Choosing the Best Node.js Docker Image
+      url: https://javascriptweekly.com/link/130286/web
+      type: News
+    - title: Why We Use Babylon.js Instead of Three.js in 2022
+      url: https://javascriptweekly.com/link/130287/web
+      type: News
+    - title: Breakpoints and console.log Is the Past, Time Travel Is the Future
+      url: https://javascriptweekly.com/link/130253/web
+      type: News
+    - title: How I Created a GameBoy-Style Game in 13KB
+      url: https://javascriptweekly.com/link/130302/web
+      type: News
+    - title: 'Full Stack for Front-End Developers: Build Your First AWS Amplify and
+        React App'
+      url: https://javascriptweekly.com/link/130256/web
+      type: News
+    - title: How to Build SVG Line Charts with React, SSR and Tailwind CSS
+      url: https://javascriptweekly.com/link/130260/web
+      type: News
+    - title: 'Javet 2.0.0: Embed Node and V8 in Java Apps'
+      url: https://javascriptweekly.com/link/130290/web
+      type: News
+    - title: 'Knip: Find Unused Files, Dependencies and Exports in TypeScript Projects'
+      url: https://javascriptweekly.com/link/130262/web
+      type: News
+    - title: Don’t Let Your Issue Tracker Be a Four-Letter Word. Use Shortcut
+      url: https://javascriptweekly.com/link/130264/web
+      type: News
+    - title: 'Editly 0.14.0: Declarative Command Line Video Editing'
+      url: https://javascriptweekly.com/link/130292/web
+      type: News
+    - title: 'Sortable: Create and Reorder Lists with Drag-and-Drop'
+      url: https://javascriptweekly.com/link/130293/web
+      type: News
+    - title: 'React Table Library: The ''Almost Headless'' Table Library'
+      url: https://javascriptweekly.com/link/130265/web
+      type: News
+    - title: Offline Support for React Native Is Here! Try V5 of Stream's Chat SDK
+      url: https://javascriptweekly.com/link/130259/web
+      type: News
+    - title: 'melonJS 14.0: A Lightweight 2D Game Engine'
+      url: https://javascriptweekly.com/link/130294/web
+      type: News
+    - title: 'React Modern Audio Player: An Audio Player with Waveform Visualization'
+      url: https://javascriptweekly.com/link/130267/web
+      type: News
+    - title: 'Betafish: A Chess Engine and AI Move Finder'
+      url: https://javascriptweekly.com/link/130280/web
+      type: News
