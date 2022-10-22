@@ -2,13 +2,13 @@
 apiVersion: ratelimit.zufardhiyaulhaq.com/v1alpha1
 kind: GlobalRateLimit
 metadata:
-  name: podinfo-zufardhiyaulhaq-com-ratelimit-route
+  name: podinfo-zufardhiyaulhaq-com-limit-route
   namespace: istio-system
 spec:
   config: "istio-public-gateway-grlc"
   selector:
     vhost: "podinfo.zufardhiyaulhaq.com:443"
-    route: "ratelimit-route"
+    route: "limit-route"
   matcher:
   - request_headers:
       header_name: ":method"
@@ -16,8 +16,11 @@ spec:
   - request_headers:
       header_name: ":path"
       descriptor_key: "path"
+  - request_headers:
+      header_name: "X-Custom-Header"
+      descriptor_key: "x-custom-header"
   - generic_key:
-      descriptor_value: "ratelimit-route"
+      descriptor_value: "limit-route"
       descriptor_key: "route"
   - generic_key:
       descriptor_value: "podinfo.zufardhiyaulhaq.com:443"

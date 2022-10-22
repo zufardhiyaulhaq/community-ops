@@ -20,6 +20,17 @@ spec:
           port:
             number: 9898
           host: podinfo.default.svc.cluster.local
+  - name: "limit-route"
+    match:
+    - uri:
+        prefix: /limit
+    rewrite:
+      uri: "/"
+    route:
+      - destination:
+          port:
+            number: 9898
+          host: podinfo.default.svc.cluster.local
   - name: "podinfo-route"
     match:
     - uri:

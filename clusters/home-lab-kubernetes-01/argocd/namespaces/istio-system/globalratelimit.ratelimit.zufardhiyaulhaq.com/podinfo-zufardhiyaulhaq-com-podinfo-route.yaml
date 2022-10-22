@@ -19,6 +19,9 @@ spec:
   - generic_key:
       descriptor_value: "podinfo-route"
       descriptor_key: "route"
+  - generic_key:
+      descriptor_value: "podinfo.zufardhiyaulhaq.com:443"
+      descriptor_key: "domain"
   limit:
     unit: minute
     requests_per_unit: 60
