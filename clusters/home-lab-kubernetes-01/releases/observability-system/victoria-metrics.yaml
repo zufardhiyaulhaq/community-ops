@@ -3,7 +3,7 @@ vmsingle:
 vmcluster:
   enabled: true
   spec:
-    retentionPeriod: "7"
+    retentionPeriod: "2"
     replicationFactor: 2
     vmstorage:
       replicaCount: 2
