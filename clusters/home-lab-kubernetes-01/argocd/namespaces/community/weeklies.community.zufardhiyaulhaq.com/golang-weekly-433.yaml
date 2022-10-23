@@ -1,0 +1,58 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-433
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 433
+    date: 10/23/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: The Go WebAssembly ABI at a Low Level
+      url: https://golangweekly.com/link/130523/web
+      type: News
+    - title: 'Proposal: A Simple Way to Clear a Map'
+      url: https://golangweekly.com/link/130526/web
+      type: News
+    - title: Gophers - Opportunity is Knocking
+      url: https://golangweekly.com/link/130522/web
+      type: News
+    - title: Scaling Acceptance Tests
+      url: https://golangweekly.com/link/130527/web
+      type: News
+    - title: 'FrankenPHP: A Modern PHP App Server'
+      url: https://golangweekly.com/link/130529/web
+      type: News
+    - title: Some Go Performance Case Studies
+      url: https://golangweekly.com/link/130537/web
+      type: News
+    - title: Previewing the 'IDE of the Future' as a Go Dev
+      url: https://golangweekly.com/link/130538/web
+      type: News
+    - title: '[Early Release] O’Reilly: Identity-Native Infrastructure Access Management'
+      url: https://golangweekly.com/link/130541/web
+      type: News
+    - title: '''The HTTP Crash Course Nobody Asked for'''
+      url: https://golangweekly.com/link/130542/web
+      type: News
+    - title: 'pp: A ''Pretty Printer'' with Colors'
+      url: https://golangweekly.com/link/130543/web
+      type: News
+    - title: 'mirrord 3.0: Run a Local Service in a Cloud (Kubernetes) Context'
+      url: https://golangweekly.com/link/130544/web
+      type: News
+    - title: 'sqlite3vfshttp: Query SQLite DBs over HTTP with Range Headers'
+      url: https://golangweekly.com/link/130545/web
+      type: News
+    - title: Schedule Daily Tweets from Markdown Files in a GitHub Repo
+      url: https://golangweekly.com/link/130547/web
+      type: News
+    - title: 'Mob 4.0: Fast git Handover for Remote Pair/Mob Programming'
+      url: https://golangweekly.com/link/130556/web
+      type: News
