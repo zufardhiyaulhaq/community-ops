@@ -23,7 +23,7 @@ spec:
       descriptor_value: "limit-route"
       descriptor_key: "route"
   - generic_key:
-      descriptor_value: "podinfo.zufardhiyaulhaq.com:443"
+      descriptor_value: "podinfo-zufardhiyaulhaq-com"
       descriptor_key: "domain"
   limit:
     unit: minute
