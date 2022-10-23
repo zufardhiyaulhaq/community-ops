@@ -54,66 +54,66 @@ statsd:
       name: "ratelimit_service_rate_limit_near_limit"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
     - match: "ratelimit.service.rate_limit.*.*.over_limit"
       name: "ratelimit_service_rate_limit_over_limit"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
     - match: "ratelimit.service.rate_limit.*.*.total_hits"
       name: "ratelimit_service_rate_limit_total_hits"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
     - match: "ratelimit.service.rate_limit.*.*.within_limit"
       name: "ratelimit_service_rate_limit_within_limit"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
     - match: "ratelimit.service.rate_limit.*.*.shadow_mode"
       name: "ratelimit_service_rate_limit_shadow_mode"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
 
     - match: "ratelimit.service.rate_limit.*.*.*.near_limit"
       name: "ratelimit_service_rate_limit_near_limit"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
     - match: "ratelimit.service.rate_limit.*.*.*.over_limit"
       name: "ratelimit_service_rate_limit_over_limit"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
     - match: "ratelimit.service.rate_limit.*.*.*.total_hits"
       name: "ratelimit_service_rate_limit_total_hits"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
     - match: "ratelimit.service.rate_limit.*.*.*.within_limit"
       name: "ratelimit_service_rate_limit_within_limit"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
     - match: "ratelimit.service.rate_limit.*.*.*.shadow_mode"
       name: "ratelimit_service_rate_limit_shadow_mode"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
 
@@ -121,7 +121,7 @@ statsd:
       name: "ratelimit_service_rate_limit_near_limit"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
         key3: "$4"
@@ -129,7 +129,7 @@ statsd:
       name: "ratelimit_service_rate_limit_over_limit"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
         key3: "$4"
@@ -137,7 +137,7 @@ statsd:
       name: "ratelimit_service_rate_limit_total_hits"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
         key3: "$4"
@@ -145,7 +145,7 @@ statsd:
       name: "ratelimit_service_rate_limit_within_limit"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
         key3: "$4"
@@ -153,7 +153,7 @@ statsd:
       name: "ratelimit_service_rate_limit_shadow_mode"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
         key3: "$4"
@@ -162,7 +162,7 @@ statsd:
       name: "ratelimit_service_rate_limit_near_limit"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
         key3: "$4"
@@ -171,7 +171,7 @@ statsd:
       name: "ratelimit_service_rate_limit_over_limit"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
         key3: "$4"
@@ -180,7 +180,7 @@ statsd:
       name: "ratelimit_service_rate_limit_total_hits"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
         key3: "$4"
@@ -189,7 +189,7 @@ statsd:
       name: "ratelimit_service_rate_limit_within_limit"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
         key3: "$4"
@@ -198,7 +198,7 @@ statsd:
       name: "ratelimit_service_rate_limit_shadow_mode"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
         key3: "$4"
@@ -208,7 +208,7 @@ statsd:
       name: "ratelimit_service_rate_limit_near_limit"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
         key3: "$4"
@@ -218,7 +218,7 @@ statsd:
       name: "ratelimit_service_rate_limit_over_limit"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
         key3: "$4"
@@ -228,7 +228,7 @@ statsd:
       name: "ratelimit_service_rate_limit_total_hits"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
         key3: "$4"
@@ -238,7 +238,7 @@ statsd:
       name: "ratelimit_service_rate_limit_within_limit"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
         key3: "$4"
@@ -248,7 +248,7 @@ statsd:
       name: "ratelimit_service_rate_limit_shadow_mode"
       timer_type: "histogram"
       labels:
-        ratelimit_domain: "$1"
+        domain: "$1"
         key1: "$2"
         key2: "$3"
         key3: "$4"
