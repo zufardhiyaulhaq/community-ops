@@ -20,7 +20,7 @@ spec:
       header_name: "X-Custom-Header"
       descriptor_key: "x-custom-header"
   - header_value_match:
-      descriptor_value: X-Match-Header
+      descriptor_value: X-Match-Header-limit
       expect_match: true
       headers:
       - exact_match: limit
