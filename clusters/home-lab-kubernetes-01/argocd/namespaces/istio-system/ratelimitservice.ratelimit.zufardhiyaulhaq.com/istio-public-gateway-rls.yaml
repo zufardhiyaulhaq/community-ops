@@ -24,5 +24,5 @@ spec:
     statsd:
       enabled: true
       spec:
-        host: statsd-exporter-prometheus-statsd-exporter.observability-system.svc.cluster.local
+        host: statsd-exporter-prometheus-statsd-exporter.istio-system.svc.cluster.local
         port: 9125

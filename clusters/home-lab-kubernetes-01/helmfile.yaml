@@ -147,6 +147,14 @@ releases:
   values:
   - releases/observability-system/statsd-exporter.yaml
 
+- name: statsd-exporter
+  namespace: istio-system
+  version: 0.6.0
+  chart: prometheus-community/prometheus-statsd-exporter
+  values:
+  - releases/istio-system/statsd-exporter.yaml
+
+
 - name: kiali-operator
   namespace: istio-system
   version: 1.50.0
