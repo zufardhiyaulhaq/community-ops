@@ -34,3 +34,4 @@ spec:
   limit:
     unit: minute
     requests_per_unit: 0
+  identifier: "podinfo-limit-route"

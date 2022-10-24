@@ -25,3 +25,4 @@ spec:
   limit:
     unit: minute
     requests_per_unit: 60
+  identifier: "podinfo-default-route"
