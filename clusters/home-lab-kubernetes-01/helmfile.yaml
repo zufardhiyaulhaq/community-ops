@@ -135,7 +135,7 @@ releases:
 
 - name: istio-ratelimit-operator
   namespace: infrastructure
-  version: 2.7.0
+  version: 2.8.0
   chart: istio-ratelimit-operator/istio-ratelimit-operator
   values:
   - releases/infrastructure/istio-ratelimit-operator.yaml
