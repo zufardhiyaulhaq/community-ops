@@ -19,6 +19,12 @@ spec:
   - request_headers:
       header_name: "X-Custom-Header"
       descriptor_key: "x-custom-header"
+  - header_value_match:
+      descriptor_value: X-Match-Header
+      expect_match: true
+      headers:
+      - exact_match: limit
+        name: X-Match-Header
   - generic_key:
       descriptor_value: "limit-route"
       descriptor_key: "route"
