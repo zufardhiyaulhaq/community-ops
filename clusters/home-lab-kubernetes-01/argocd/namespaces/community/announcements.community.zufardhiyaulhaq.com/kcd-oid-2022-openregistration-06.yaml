@@ -1,0 +1,26 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Announcement
+metadata:
+  name: kcd-oid-2022-openregistration-06
+  namespace: community
+spec:
+  community:
+  - "kubernetes"
+  - "openstack"
+  spec:
+    subject: Open Registration Kubernetes Community Days and OpenInfra Days Indonesia 2022
+    body: >-
+      Join us at the biggest open source conference in Indonesia, get insight, and connect with all of the community experts!
+
+      
+      Get a total of free 5 CKA and 5 COA certifications and scale up your skill and career!
+
+
+      Grab the ticket at http://kubernetesdays.id or http://2022.openinfra.id!
+    imageUrl: https://raw.githubusercontent.com/cloudnative-id/kubernetes-community-days/master/2022/artworks/poster/giveaway.png
+    tags: 
+      - Conference
+      - KubernetesCommunityDays
+      - OpenInfraDays
+      - CKA
+      - COA
