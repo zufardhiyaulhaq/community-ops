@@ -1,0 +1,64 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-611
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 611
+    date: 10/25/2022
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: Metaprogramming with the 2022-03 Decorators API
+      url: https://javascriptweekly.com/link/130585/web
+      type: News
+    - title: Node.js 19 (Current) Released
+      url: https://javascriptweekly.com/link/130586/web
+      type: News
+    - title: Your Source for Candid Chats on Product, Business & Leadership
+      url: https://javascriptweekly.com/link/130588/web
+      type: News
+    - title: A Real World React to htmx Migration Story
+      url: https://javascriptweekly.com/link/130589/web
+      type: News
+    - title: 'p5.js 1.5: Creative JS Coding, Now with Animated GIF Exporting'
+      url: https://javascriptweekly.com/link/130637/web
+      type: News
+    - title: 'Live Event: Visual Workflow Automation, Now with Code'
+      url: https://javascriptweekly.com/link/130597/web
+      type: News
+    - title: Creating a World-Class Code Playground with Sandpack
+      url: https://javascriptweekly.com/link/130598/web
+      type: News
+    - title: Secure JavaScript URL Validation
+      url: https://javascriptweekly.com/link/130600/web
+      type: News
+    - title: '''What if the Team Hates My Functional Code?'''
+      url: https://javascriptweekly.com/link/130620/web
+      type: News
+    - title: Why Does JSON.parse 'Corrupt' Large Numbers?
+      url: https://javascriptweekly.com/link/130599/web
+      type: News
+    - title: 'Tutorial: Add SSO & Access Control to Your Node.js App'
+      url: https://javascriptweekly.com/link/130601/web
+      type: News
+    - title: Effortless End-to-End Type-Safety with Phero
+      url: https://javascriptweekly.com/link/130603/web
+      type: News
+    - title: 'route-list: CLI Tool to Display Express/Koa/Hapi/Fastify Routes'
+      url: https://javascriptweekly.com/link/130614/web
+      type: News
+    - title: 'TypeRunner: A High-Performance TypeScript Compiler'
+      url: https://javascriptweekly.com/link/130621/web
+      type: News
+    - title: 'Strong CAPTCHA: A Secure and Scalable Way to Fight Fraud'
+      url: https://javascriptweekly.com/link/130609/web
+      type: News
+    - title: 'Angular Starter: Angular 14 plus Storybook, Transloco, Jest, and More'
+      url: https://javascriptweekly.com/link/130610/web
+      type: News
