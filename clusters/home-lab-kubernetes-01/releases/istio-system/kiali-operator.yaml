@@ -45,4 +45,7 @@ cr:
     external_services:
       prometheus:
         url: 'http://vmselect-o11y.observability-system.svc.cluster.local:8481/select/0/prometheus'
+      tracing:
+        in_cluster_url: 'o11y-query.observability-system.svc.cluster.local:16685/jaeger'
+        use_grpc: true
     istio_namespace: istio-system

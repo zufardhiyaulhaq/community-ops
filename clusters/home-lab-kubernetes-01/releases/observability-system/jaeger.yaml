@@ -1,1 +1,6 @@
 fullnameOverride: "o11y"
+
+collector:
+  service:
+    zipkin:
+      port: 9411

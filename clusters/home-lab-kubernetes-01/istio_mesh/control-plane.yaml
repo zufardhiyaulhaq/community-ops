@@ -28,9 +28,44 @@ spec:
       interval: 60s
     accessLogFile: /dev/stdout
     accessLogEncoding: JSON
+    accessLogFormat: |
+      {
+        "protocol": "%PROTOCOL%",
+        "upstream_service_time": "%RESP(x-envoy-upstream-service-time)%",
+        "upstream_local_address": "%UPSTREAM_LOCAL_ADDRESS%",
+        "duration": "%DURATION%",
+        "upstream_transport_failure_reason": "%UPSTREAM_TRANSPORT_FAILURE_REASON%",
+        "route_name": "%ROUTE_NAME%",
+        "downstream_local_address": "%DOWNSTREAM_LOCAL_ADDRESS%",
+        "user_agent": "%REQ(USER-AGENT)%",
+        "response_code": "%RESPONSE_CODE%",
+        "response_flags": "%RESPONSE_FLAGS%",
+        "start_time": "%START_TIME%",
+        "method": "%REQ(:METHOD)%",
+        "request_id": "%REQ(X-REQUEST-ID)%",
+        "connection_id": "%CONNECTION_ID%",
+        "upstream_host": "%UPSTREAM_HOST%",
+        "x_forwarded_for": "%REQ(X-FORWARDED-FOR)%",
+        "client_ip": "%REQ(True-Client-Ip)%",
+        "requested_server_name": "%REQUESTED_SERVER_NAME%",
+        "bytes_received": "%BYTES_RECEIVED%",
+        "bytes_sent": "%BYTES_SENT%",
+        "upstream_cluster": "%UPSTREAM_CLUSTER%",
+        "downstream_remote_address": "%DOWNSTREAM_REMOTE_ADDRESS%",
+        "authority": "%REQ(:AUTHORITY)%",
+        "path": "%REQ(X-ENVOY-ORIGINAL-PATH?:PATH)%",
+        "response_code_details": "%RESPONSE_CODE_DETAILS%",
+        "connection_termination_details": "%CONNECTION_TERMINATION_DETAILS%",
+        "grpc_status_code": "%GRPC_STATUS_NUMBER%"
+      }
+    dnsRefreshRate: 30s
     defaultConfig:
       terminationDrainDuration: 10s
       holdApplicationUntilProxyStarts: true
+      tracing:
+        zipkin:
+          address: o11y-collector.observability-system.svc.cluster.local:9411
+        sampling: 1.0
       proxyMetadata:
         ISTIO_META_DNS_CAPTURE: "true"
       extraStatTags:
