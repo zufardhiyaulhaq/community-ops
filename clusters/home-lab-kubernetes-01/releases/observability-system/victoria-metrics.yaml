@@ -1,3 +1,5 @@
+fullnameOverride: "o11y"
+
 vmsingle:
   enabled: false
 vmcluster:
