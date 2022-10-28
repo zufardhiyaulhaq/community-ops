@@ -44,5 +44,5 @@ cr:
           memory: 128Mi
     external_services:
       prometheus:
-        url: 'http://vmselect-victoria-metrics-victoria-metrics-k8s-stack.observability-system.svc.cluster.local:8481/select/0/prometheus'
+        url: 'http://vmselect-o11y.observability-system.svc.cluster.local:8481/select/0/prometheus'
     istio_namespace: istio-system
