@@ -4,3 +4,7 @@ collector:
   service:
     zipkin:
       port: 9411
+
+cassandra:
+  persistence:
+    enabled: true
