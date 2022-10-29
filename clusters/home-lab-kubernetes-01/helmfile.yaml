@@ -33,8 +33,6 @@ repositories:
   url: https://prometheus-community.github.io/helm-charts
 - name: kiali
   url: https://kiali.org/helm-charts
-- name: jaegertracing
-  url: https://jaegertracing.github.io/helm-charts
 
 releases:
 - name: frp-operator
@@ -85,13 +83,6 @@ releases:
   chart: vm/victoria-metrics-k8s-stack
   values:
   - releases/observability-system/victoria-metrics.yaml
-
-- name: jaeger
-  namespace: observability-system
-  version: 0.62.1
-  chart: jaegertracing/jaeger
-  values:
-  - releases/observability-system/jaeger.yaml
 
 - name: cost-analyzer
   namespace: kubecost-system

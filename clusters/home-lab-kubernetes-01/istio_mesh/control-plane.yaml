@@ -64,7 +64,7 @@ spec:
       holdApplicationUntilProxyStarts: true
       tracing:
         zipkin:
-          address: o11y-collector.observability-system.svc.cluster.local:9411
+          address: jaeger-collector.observability-system.svc.cluster.local:9411
         sampling: 1.0
       proxyMetadata:
         ISTIO_META_DNS_CAPTURE: "true"
