@@ -1,0 +1,13 @@
+apiVersion: operator.victoriametrics.com/v1beta1
+kind: VMPodScrape
+metadata:
+  name: istio
+  namespace: observability-system
+spec:
+  podMetricsEndpoints:
+    - scheme: http
+      path: /stats/prometheus
+      targetPort: 15090
+  selector: {}
+  namespaceSelector:
+    any: true
