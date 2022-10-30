@@ -33,6 +33,8 @@ vmcluster:
                 storage: 2Gi
     vminsert:
       replicaCount: 2
+      extraArgs:
+          maxLabelsPerTimeseries: "65"
       resources:
         requests:
           cpu: 128m
