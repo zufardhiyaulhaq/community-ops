@@ -18,7 +18,7 @@ vmcluster:
           spec:
             resources:
               requests:
-                storage: 10Gi
+                storage: 15Gi
     vmselect:
       replicaCount: 2
       resources:
