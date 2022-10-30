@@ -1,0 +1,61 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-434
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 434
+    date: 10/30/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: 'VHS: A ''Home Video Recorder'' for Your CLI'
+      url: https://golangweekly.com/link/130890/web
+      type: News
+    - title: Incremental Parsing Explained in Go
+      url: https://golangweekly.com/link/130892/web
+      type: News
+    - title: Build Resilient Apps from the Word Go(lang)
+      url: https://golangweekly.com/link/130891/web
+      type: News
+    - title: 'rand: A Faster Alternative to math/rand and x/exp/rand'
+      url: https://golangweekly.com/link/130895/web
+      type: News
+    - title: Some Undocumented Changes in Go 1.18 and 1.19
+      url: https://golangweekly.com/link/130920/web
+      type: News
+    - title: Scaling WebRTC with a Globally Distributed Mesh Network
+      url: https://golangweekly.com/link/130899/web
+      type: News
+    - title: '''No Safe Efficient Ways to Do Three-Way String Comparisons'''
+      url: https://golangweekly.com/link/130921/web
+      type: News
+    - title: Building a Decentralized P2P Card Game
+      url: https://golangweekly.com/link/130901/web
+      type: News
+    - title: 'Carbon 2.2: Simple, Semantic Datetime Package'
+      url: https://golangweekly.com/link/130902/web
+      type: News
+    - title: Forget Everything You Know About SSH
+      url: https://golangweekly.com/link/130903/web
+      type: News
+    - title: 'Quill: Sign Mac Binaries from Any Platform'
+      url: https://golangweekly.com/link/130904/web
+      type: News
+    - title: 'aretext: Minimalist Text Editor with Vim-compatible Key Bindings'
+      url: https://golangweekly.com/link/130893/web
+      type: News
+    - title: 'Tart: A Gitlab CI Runner Backed by the Firecracker MicroVM'
+      url: https://golangweekly.com/link/130905/web
+      type: News
+    - title: 'FerretDB 0.6: A Go-Powered MongoDB Alternative'
+      url: https://golangweekly.com/link/130906/web
+      type: News
+    - title: Argo CD as a Managed Service from the Creators of Argo
+      url: https://golangweekly.com/link/130907/web
+      type: News
