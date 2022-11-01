@@ -1,0 +1,70 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-612
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 612
+    date: 11/01/2022
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'Turbopack: A Rust-Powered ''Successor'' to Webpack'
+      url: https://javascriptweekly.com/link/130980/web
+      type: News
+    - title: Implement JavaScript Developer Solutions for Every Project
+      url: https://javascriptweekly.com/link/130929/web
+      type: News
+    - title: Node 18 Becomes Active LTS with v18.12.0
+      url: https://javascriptweekly.com/link/130936/web
+      type: News
+    - title: Next.js 13 Unveiled at Next.js Conf
+      url: https://javascriptweekly.com/link/130930/web
+      type: News
+    - title: 'JetBrains JavaScript Day 2022: An Event You Won’t Want to Miss'
+      url: https://javascriptweekly.com/link/130937/web
+      type: News
+    - title: Which Serverless Edge Platform Has the Fastest Git Deployments?
+      url: https://javascriptweekly.com/link/130972/web
+      type: News
+    - title: How We Improved React Loading Times by 70% with Next.js
+      url: https://javascriptweekly.com/link/130941/web
+      type: News
+    - title: How to Build a Blog with Fresh and Deno
+      url: https://javascriptweekly.com/link/130973/web
+      type: News
+    - title: The Fastest Way to Learn JavaScript / TypeScript
+      url: https://javascriptweekly.com/link/130943/web
+      type: News
+    - title: How to Write Your First Unit Test in JavaScript
+      url: https://javascriptweekly.com/link/130944/web
+      type: News
+    - title: A Next.js Crash Course
+      url: https://javascriptweekly.com/link/130945/web
+      type: News
+    - title: Detect a System Theme Preference Change from JS
+      url: https://javascriptweekly.com/link/130946/web
+      type: News
+    - title: 'npoint: Simple JSON Storage Bins with Schema Validation'
+      url: https://javascriptweekly.com/link/130949/web
+      type: News
+    - title: 'Satori: Convert HTML and CSS to SVG'
+      url: https://javascriptweekly.com/link/130950/web
+      type: News
+    - title: 'Don’t DIY Your Notifications: Send SMS, Email, and Push with One Call'
+      url: https://javascriptweekly.com/link/130952/web
+      type: News
+    - title: 'Downshift 7.0: Primitives to Build Accessible React Components'
+      url: https://javascriptweekly.com/link/130953/web
+      type: News
+    - title: 'Canvas Confetti: An On-Demand Confetti Shower'
+      url: https://javascriptweekly.com/link/130954/web
+      type: News
+    - title: 'Creepyface: Makes Images of Faces ''Follow'' the Pointer'
+      url: https://javascriptweekly.com/link/130964/web
+      type: News
