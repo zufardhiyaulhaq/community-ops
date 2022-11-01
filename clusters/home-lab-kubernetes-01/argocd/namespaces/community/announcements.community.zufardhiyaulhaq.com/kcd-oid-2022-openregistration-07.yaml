@@ -1,0 +1,36 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Announcement
+metadata:
+  name: kcd-oid-2022-openregistration-06
+  namespace: community
+spec:
+  community:
+  - "javascript"
+  - "nodejs"
+  - "ruby"
+  - "sdx"
+  - "kubernetes"
+  - "openstack"
+  - "devops"
+  - "golang"
+  - "opennetworking"
+  spec:
+    subject: Open Registration Kubernetes Community Days and OpenInfra Days Indonesia 2022
+    body: >-
+      We reach 420 registrants today!
+
+
+      Join us at the biggest open source conference in Indonesia, get insight, and connect with all of the community experts!
+
+      
+      Get a total of free 5 CKA and 5 COA certifications and scale up your skill and career!
+
+
+      Registration will be closed on 4 November 2022! Grab the ticket now at http://kubernetesdays.id or http://2022.openinfra.id!
+    imageUrl: https://raw.githubusercontent.com/cloudnative-id/kubernetes-community-days/master/2022/artworks/poster/kcd-ioid-registration-1.12.jpg
+    tags: 
+      - Conference
+      - KubernetesCommunityDays
+      - OpenInfraDays
+      - CKA
+      - COA
