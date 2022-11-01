@@ -1,7 +1,7 @@
 apiVersion: community.zufardhiyaulhaq.com/v1alpha1
 kind: Announcement
 metadata:
-  name: kcd-oid-2022-openregistration-06
+  name: kcd-oid-2022-openregistration-07
   namespace: community
 spec:
   community:
