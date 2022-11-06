@@ -1,0 +1,70 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-435
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 435
+    date: 11/06/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: How Go Programs Keep Working (By Being Boring)
+      url: https://golangweekly.com/link/131195/web
+      type: News
+    - title: '''The Real Problem with Go'''
+      url: https://golangweekly.com/link/131196/web
+      type: News
+    - title: Gophers - Opportunity is Knocking
+      url: https://golangweekly.com/link/131194/web
+      type: News
+    - title: HTTP Resource Leak Mysteries in Go
+      url: https://golangweekly.com/link/131198/web
+      type: News
+    - title: 'Proposal: User-Defined Iteration using a Range over Func Values'
+      url: https://golangweekly.com/link/131199/web
+      type: News
+    - title: Go 1.19.3 and Go 1.18.8 Released
+      url: https://golangweekly.com/link/131200/web
+      type: News
+    - title: Build a Desktop App in Go Using Wails and React
+      url: https://golangweekly.com/link/131204/web
+      type: News
+    - title: '''Thread-Local State in Go, Huh?'''
+      url: https://golangweekly.com/link/131207/web
+      type: News
+    - title: Most Common Kubernetes Security Misconfigurations
+      url: https://golangweekly.com/link/131208/web
+      type: News
+    - title: Using cgo.Handle to Pass Values Between C and Go
+      url: https://golangweekly.com/link/131209/web
+      type: News
+    - title: Processing Large Files with Go
+      url: https://golangweekly.com/link/131211/web
+      type: News
+    - title: 'Box CLI Maker: Make Highly Customized Boxes for Your CLI'
+      url: https://golangweekly.com/link/131212/web
+      type: News
+    - title: 'Rueidis: Performance-Oriented Redis RESP3 Client'
+      url: https://golangweekly.com/link/131214/web
+      type: News
+    - title: 'Permify: Authorization Service Based on Google Zanzibar'
+      url: https://golangweekly.com/link/131215/web
+      type: News
+    - title: 'go-wiki: A Wikipedia API Wrapper for Go'
+      url: https://golangweekly.com/link/131218/web
+      type: News
+    - title: 'Wrapcheck: Linter to Check Errors from External Packages are Wrapped'
+      url: https://golangweekly.com/link/131219/web
+      type: News
+    - title: MariaDB Operator for Kubernetes
+      url: https://golangweekly.com/link/131222/web
+      type: News
+    - title: 'Alphavet: A Linter to Detect Functions Not in Alphabetical Order'
+      url: https://golangweekly.com/link/131223/web
+      type: News
