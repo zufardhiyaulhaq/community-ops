@@ -1,0 +1,76 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-613
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 613
+    date: 11/08/2022
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: What is a 'Realm' in JavaScript?
+      url: https://javascriptweekly.com/link/131318/web
+      type: News
+    - title: Is Turbopack Really 10x Faster Than Vite?
+      url: https://javascriptweekly.com/link/131262/web
+      type: News
+    - title: Open-Source Firebase Alternative for Web, Mobile & Flutter Devs
+      url: https://javascriptweekly.com/link/131261/web
+      type: News
+    - title: Shopify Acquires the Remix Project
+      url: https://javascriptweekly.com/link/131311/web
+      type: News
+    - title: Announcing TypeScript 4.9 RC
+      url: https://javascriptweekly.com/link/131264/web
+      type: News
+    - title: How to Build, Test, and Publish a TypeScript npm Package in 2022
+      url: https://javascriptweekly.com/link/131277/web
+      type: News
+    - title: '''Your Next.js Bundle Will Thank You'''
+      url: https://javascriptweekly.com/link/131278/web
+      type: News
+    - title: Creating Human-Readable Date/Time Differences
+      url: https://javascriptweekly.com/link/131279/web
+      type: News
+    - title: Build a Mobile-Responsive Telehealth Pager App Using Stream’s Chat API
+      url: https://javascriptweekly.com/link/131281/web
+      type: News
+    - title: Code Coverage with Storybook Test Runner
+      url: https://javascriptweekly.com/link/131282/web
+      type: News
+    - title: How to Package and Distribute a Vue.js 3 Plugin on npm
+      url: https://javascriptweekly.com/link/131283/web
+      type: News
+    - title: Building an Accessible Tooltip Component
+      url: https://javascriptweekly.com/link/131284/web
+      type: News
+    - title: 'Vuestic UI 1.5: A UI Library for Vue 3'
+      url: https://javascriptweekly.com/link/131288/web
+      type: News
+    - title: 'Joi 17.7: Object Schema and Data Validations'
+      url: https://javascriptweekly.com/link/131291/web
+      type: News
+    - title: 'Radar SDKs and APIs: Fastest Way to a Wide-Range of Location-Based Experiences'
+      url: https://javascriptweekly.com/link/131292/web
+      type: News
+    - title: 'directory-serve: Serve a Local Directory Over HTTP, Quickly'
+      url: https://javascriptweekly.com/link/131293/web
+      type: News
+    - title: 'relative-time: An Element to Format a Timestamp as a Localized Relative Time'
+      url: https://javascriptweekly.com/link/131280/web
+      type: News
+    - title: 'Pinceau: A CSS-in-TypeScript Framework Built for Vue'
+      url: https://javascriptweekly.com/link/131294/web
+      type: News
+    - title: 'Markdoc 0.2: A Flexible, Markdown-Based Authoring Framework'
+      url: https://javascriptweekly.com/link/131295/web
+      type: News
+    - title: Shortcut Brings Product and Engineering Together. Try It for Free
+      url: https://javascriptweekly.com/link/131297/web
+      type: News
