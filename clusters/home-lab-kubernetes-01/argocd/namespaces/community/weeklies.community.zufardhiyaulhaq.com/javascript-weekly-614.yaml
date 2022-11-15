@@ -1,0 +1,70 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-614
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 614
+    date: 11/15/2022
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'Rome v10: Rust-Powered JS Linting and Formatting'
+      url: https://javascriptweekly.com/link/131605/web
+      type: News
+    - title: A Complete TypeScript Learning Path
+      url: https://javascriptweekly.com/link/131604/web
+      type: News
+    - title: Why Would Anyone Need Generator Functions?
+      url: https://javascriptweekly.com/link/131608/web
+      type: News
+    - title: 'Gatsby 5.0: The Fastest Gatsby Yet'
+      url: https://javascriptweekly.com/link/131610/web
+      type: News
+    - title: Register for Unblock 2022 - A CI/CD Conference by Buildkite
+      url: https://javascriptweekly.com/link/131619/web
+      type: News
+    - title: 'The Temporal API: JavaScript Dates, but Better'
+      url: https://javascriptweekly.com/link/131620/web
+      type: News
+    - title: Creating 'Fluffy Trees' with Three.js
+      url: https://javascriptweekly.com/link/131623/web
+      type: News
+    - title: Node.js Security Best Practices
+      url: https://javascriptweekly.com/link/131624/web
+      type: News
+    - title: A Podcast for Candid Chats on Product, Business & Leadership
+      url: https://javascriptweekly.com/link/131625/web
+      type: News
+    - title: Migrating from Monaco Editor to CodeMirror
+      url: https://javascriptweekly.com/link/131626/web
+      type: News
+    - title: A Love Letter to React (from the Creator of Phoenix)
+      url: https://javascriptweekly.com/link/131627/web
+      type: News
+    - title: How to Dedupe 28 Million Strings with JavaScript?
+      url: https://javascriptweekly.com/link/131630/web
+      type: News
+    - title: 'Trix 2.0: A Rich WYSIWYG Editor for the Web'
+      url: https://javascriptweekly.com/link/131636/web
+      type: News
+    - title: 'Riot.js 7.1: A Simple and Elegant Component-Based UI Library'
+      url: https://javascriptweekly.com/link/131638/web
+      type: News
+    - title: Integrate a Scheduling Widget to Your App in Less Than a Day
+      url: https://javascriptweekly.com/link/131640/web
+      type: News
+    - title: 'React Calendar 4.0: The ''Ultimate'' Calendar for Your React App'
+      url: https://javascriptweekly.com/link/131641/web
+      type: News
+    - title: 'safe-json-value 1.9: For When JSON Serialization Should Never Fail'
+      url: https://javascriptweekly.com/link/131643/web
+      type: News
+    - title: 'Rockpack 3.0: An Alternative React App Builder'
+      url: https://javascriptweekly.com/link/131644/web
+      type: News
