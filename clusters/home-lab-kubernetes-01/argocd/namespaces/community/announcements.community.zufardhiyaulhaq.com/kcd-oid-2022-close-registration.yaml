@@ -1,0 +1,26 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Announcement
+metadata:
+  name: kcd-oid-2022-close-registration-01
+  namespace: community
+spec:
+  community:
+  - "kubernetes"
+  spec:
+    subject: Kubernetes Community Days and OpenInfra Days Indonesia 2022 In Person Registration Closed
+    body: >-
+      Hi Everyone,
+
+
+      Thank you for registering for Kubernetes Community Days and OpenInfra Days Indonesia 2022.
+
+
+      We are closing in-person registration. If you are interested, you can still join virtually!
+
+
+      See you next week!
+    imageUrl: https://raw.githubusercontent.com/cloudnative-id/kubernetes-community-days/master/2022/artworks/registration-closed.png
+    tags: 
+      - Conference
+      - KubernetesCommunityDays
+      - OpenInfraDays
