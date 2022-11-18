@@ -1,0 +1,47 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-480
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 480
+    date: 11/16/2022
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: Postgres 15, A Billion Transactions Later
+      url: https://postgresweekly.com/link/131321/web
+      type: News
+    - title: Postgres Insider Terminology
+      url: https://postgresweekly.com/link/131323/web
+      type: News
+    - title: 'Dynaboard: The Pro-Code Web App Builder Made for Developers'
+      url: https://postgresweekly.com/link/131325/web
+      type: News
+    - title: On Rewriting OR to UNION in Your Queries
+      url: https://postgresweekly.com/link/131326/web
+      type: News
+    - title: How LISTEN and NOTIFY Promote High Availability at the App Layer
+      url: https://postgresweekly.com/link/131334/web
+      type: News
+    - title: Using JSON Functions to Navigate Restaurant Reviews
+      url: https://postgresweekly.com/link/131336/web
+      type: News
+    - title: What is PostgreSQL Commitfest and How to Contribute
+      url: https://postgresweekly.com/link/131337/web
+      type: News
+    - title: 'Orafce 4.0: Oracle Compatibility Functions for Postgres'
+      url: https://postgresweekly.com/link/131338/web
+      type: News
+    - title: Monitor Custom PostgreSQL Metrics with Datadog’s OOTB Dashboards
+      url: https://postgresweekly.com/link/131340/web
+      type: News
+    - title: 'pg_builder 2.1.0: A Query Builder in PHP for Postgres'
+      url: https://postgresweekly.com/link/131341/web
+      type: News

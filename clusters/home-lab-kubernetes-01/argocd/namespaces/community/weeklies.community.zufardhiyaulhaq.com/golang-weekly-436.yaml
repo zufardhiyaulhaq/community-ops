@@ -1,0 +1,67 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-436
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 436
+    date: 11/13/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: Thirteen Years of Go
+      url: https://golangweekly.com/link/131539/web
+      type: News
+    - title: The Official Structured Logging Proposal
+      url: https://golangweekly.com/link/131543/web
+      type: News
+    - title: Troubleshoot and Optimize Golang App Performance with Datadog APM
+      url: https://golangweekly.com/link/131538/web
+      type: News
+    - title: Thoughts on the 'Guard' Proposal for Error Handling
+      url: https://golangweekly.com/link/131549/web
+      type: News
+    - title: 'A Case for Code Generation: Testify'
+      url: https://golangweekly.com/link/131550/web
+      type: News
+    - title: Building a BitTorrent Client from the Ground Up
+      url: https://golangweekly.com/link/131552/web
+      type: News
+    - title: Forget Everything You Know About SSH
+      url: https://golangweekly.com/link/131553/web
+      type: News
+    - title: Let's Talk About Debugging in Go
+      url: https://golangweekly.com/link/131554/web
+      type: News
+    - title: Thinking About Where to Deploy Your Go HTTP APIs
+      url: https://golangweekly.com/link/131555/web
+      type: News
+    - title: 'Canvas: Vectors to SVG, PDF, EPS or Rasterized Images'
+      url: https://golangweekly.com/link/131557/web
+      type: News
+    - title: 'GoToSocial: A Go-Powered ActivityPub Server'
+      url: https://golangweekly.com/link/131559/web
+      type: News
+    - title: Argo CD as a Managed Service from the Creators of Argo
+      url: https://golangweekly.com/link/131562/web
+      type: News
+    - title: 'Chroma: A General Purpose Syntax Highlighter in Pure Go'
+      url: https://golangweekly.com/link/131563/web
+      type: News
+    - title: 'Notify: Send Notifications to Various Messaging Services'
+      url: https://golangweekly.com/link/131565/web
+      type: News
+    - title: 'Katana: A New Crawling and Spidering Tool'
+      url: https://golangweekly.com/link/131567/web
+      type: News
+    - title: 'Slashbase 1.0: A Collaborative IDE for Your Databases'
+      url: https://golangweekly.com/link/131568/web
+      type: News
+    - title: 'Joker 1.1: A Small Interpreted Dialect of Clojure Written in Go'
+      url: https://golangweekly.com/link/131570/web
+      type: News

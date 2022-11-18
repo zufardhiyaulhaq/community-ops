@@ -1,0 +1,50 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-479
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 479
+    date: 11/09/2022
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: B-tree vs. BRIN Indexes in Postgres Data Warehouses
+      url: https://postgresweekly.com/link/130992/web
+      type: News
+    - title: Safely Renaming a Table with No Downtime Using Updatable Views
+      url: https://postgresweekly.com/link/130993/web
+      type: News
+    - title: Tips for Better Data Aggregation in PostgreSQL and TimescaleDB
+      url: https://postgresweekly.com/link/130994/web
+      type: News
+    - title: Data Loading in Postgres for Newbies
+      url: https://postgresweekly.com/link/130995/web
+      type: News
+    - title: Postgres Databases and Schemas
+      url: https://postgresweekly.com/link/131000/web
+      type: News
+    - title: Cross-Partition Uniqueness Guarantees with Global Unique Indexes
+      url: https://postgresweekly.com/link/131001/web
+      type: News
+    - title: 'pg_stat_kcache: Gather Statistics About Disk Access and CPU Consumption'
+      url: https://postgresweekly.com/link/131006/web
+      type: News
+    - title: Making Postgres More Affordable. Starting at $10/Month
+      url: https://postgresweekly.com/link/131007/web
+      type: News
+    - title: PostgreSQL 15 64-Bit FDWs for Windows
+      url: https://postgresweekly.com/link/131008/web
+      type: News
+    - title: 'pgdump-aws-lambda: Stream pg_dump Output to S3 via AWS Lambda'
+      url: https://postgresweekly.com/link/131009/web
+      type: News
+    - title: 'PGroonga: Extend Full Text Search Features to All Languages'
+      url: https://postgresweekly.com/link/131010/web
+      type: News
