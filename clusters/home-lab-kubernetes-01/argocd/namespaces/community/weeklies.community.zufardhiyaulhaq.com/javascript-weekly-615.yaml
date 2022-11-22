@@ -1,0 +1,76 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-615
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 615
+    date: 11/22/2022
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: What’s So Great About Functional Programming?
+      url: https://javascriptweekly.com/link/131928/web
+      type: News
+    - title: Deno 1.28 Released with (Better) npm Compatibility
+      url: https://javascriptweekly.com/link/131929/web
+      type: News
+    - title: "\U0001F9C8 Retire Your Legacy CMS with ButterCMS"
+      url: https://javascriptweekly.com/link/131927/web
+      type: News
+    - title: Angular v15 Released
+      url: https://javascriptweekly.com/link/131975/web
+      type: News
+    - title: 'Nuxt 3.0: The Vue.js-Based Webapp Framework'
+      url: https://javascriptweekly.com/link/131931/web
+      type: News
+    - title: Announcing TypeScript 4.9
+      url: https://javascriptweekly.com/link/131932/web
+      type: News
+    - title: The Magical World of Particles with React Three Fiber and Shaders
+      url: https://javascriptweekly.com/link/131945/web
+      type: News
+    - title: 'ECMAScript Proposal: RegExp''s /v Flag'
+      url: https://javascriptweekly.com/link/131978/web
+      type: News
+    - title: Quokka.js - The Fastest Way to Learn JavaScript / TypeScript
+      url: https://javascriptweekly.com/link/131944/web
+      type: News
+    - title: Styling Form States Without JS
+      url: https://javascriptweekly.com/link/131946/web
+      type: News
+    - title: A Crash Course for GitHub Codespaces
+      url: https://javascriptweekly.com/link/131948/web
+      type: News
+    - title: 'tslog 4.0: Expressive Logging with TypeScript Support'
+      url: https://javascriptweekly.com/link/131976/web
+      type: News
+    - title: 'TanStack Router: A Fully Type-Safe Router'
+      url: https://javascriptweekly.com/link/131950/web
+      type: News
+    - title: 'Zigi: Your Automated Workflow Assistant for All Things Non-Code'
+      url: https://javascriptweekly.com/link/131952/web
+      type: News
+    - title: 'Wireit: Upgrades Your npm Scripts to Make Them Smarter and More Efficient'
+      url: https://javascriptweekly.com/link/131953/web
+      type: News
+    - title: 'AEWC: Web Component to Add the Ace Code Editor to a Page'
+      url: https://javascriptweekly.com/link/131955/web
+      type: News
+    - title: 'Twix: Style React Components with Tailwind CSS'
+      url: https://javascriptweekly.com/link/131957/web
+      type: News
+    - title: 'OverlayScrollbars 2.0: JS Scrollbar Plugin to Replace Native Scrollbars'
+      url: https://javascriptweekly.com/link/131960/web
+      type: News
+    - title: Build Frictionless, Secure, High-Converting Onboarding Flows
+      url: https://javascriptweekly.com/link/131958/web
+      type: News
+    - title: 'DOjS: A DOS JavaScript Canvas with Sound'
+      url: https://javascriptweekly.com/link/131974/web
+      type: News
