@@ -1,0 +1,44 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-482
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 482
+    date: 11/30/2022
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: The Power of Variadic Unnesting
+      url: https://postgresweekly.com/link/132013/web
+      type: News
+    - title: Timescale's 'Bottomless' Object Storage Layer on Top of S3
+      url: https://postgresweekly.com/link/132014/web
+      type: News
+    - title: We’re All About Great Support
+      url: https://postgresweekly.com/link/132012/web
+      type: News
+    - title: A Serverless Architecture for Analyzing Postgres Logs with pgBadger
+      url: https://postgresweekly.com/link/132015/web
+      type: News
+    - title: A Query Boost by Using ANY Instead of IN?
+      url: https://postgresweekly.com/link/132018/web
+      type: News
+    - title: Do Different Equality Predicates Make a Difference?
+      url: https://postgresweekly.com/link/132024/web
+      type: News
+    - title: The Dalibo Postgres Execution Plan Visualizer
+      url: https://postgresweekly.com/link/132026/web
+      type: News
+    - title: 'Squeal: A ''Deep Embedding'' of SQL in Haskell'
+      url: https://postgresweekly.com/link/132028/web
+      type: News
+    - title: 'Dynaboard: The Pro-Code Web App Builder Made for Developers'
+      url: https://postgresweekly.com/link/132029/web
+      type: News
