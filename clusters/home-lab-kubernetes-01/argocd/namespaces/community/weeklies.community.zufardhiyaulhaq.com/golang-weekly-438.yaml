@@ -1,0 +1,53 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-438
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 438
+    date: 11/27/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: Fuzz Testing Made Easy
+      url: https://golangweekly.com/link/132197/web
+      type: News
+    - title: 'Awesome Go: Over 2000 Categorized Go Resources'
+      url: https://golangweekly.com/link/132198/web
+      type: News
+    - title: Argo CD as a Managed Service, from the Creators of Argo
+      url: https://golangweekly.com/link/132196/web
+      type: News
+    - title: Building a Custom Code Search Index in Go for searchcode.com
+      url: https://golangweekly.com/link/132200/web
+      type: News
+    - title: SSH Port Forwarding with Go
+      url: https://golangweekly.com/link/132202/web
+      type: News
+    - title: How Do Go Programs Keep Working?
+      url: https://golangweekly.com/link/132204/web
+      type: News
+    - title: How Pinterest Delivers Software at Scale
+      url: https://golangweekly.com/link/132205/web
+      type: News
+    - title: 'Script: Make It Easier to Write Shell-like Scripts in Go'
+      url: https://golangweekly.com/link/132207/web
+      type: News
+    - title: 'Introducing Finch: A Go-Powered Tool for Container Development'
+      url: https://golangweekly.com/link/132208/web
+      type: News
+    - title: Replace Your Notification Microservice with a Google Ventures Backed
+        SaaS
+      url: https://golangweekly.com/link/132209/web
+      type: News
+    - title: 'Lingua 1.1: A Natural Language Detection Library'
+      url: https://golangweekly.com/link/132210/web
+      type: News
+    - title: 'fq 0.1: Like jq But for Binary Formats'
+      url: https://golangweekly.com/link/132212/web
+      type: News

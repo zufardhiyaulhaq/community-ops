@@ -1,0 +1,76 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-616
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 616
+    date: 11/29/2022
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: The State of JavaScript 2022 Survey is Open
+      url: https://javascriptweekly.com/link/132243/web
+      type: News
+    - title: Building Apps in Deno with Frameworks
+      url: https://javascriptweekly.com/link/132224/web
+      type: News
+    - title: Advanced JavaScript Datagrid & Spreadsheet Components
+      url: https://javascriptweekly.com/link/132223/web
+      type: News
+    - title: 'Script Kit: JS-Based Workflow Scripting'
+      url: https://javascriptweekly.com/link/132270/web
+      type: News
+    - title: Machine Learning with Unix Pipes and JavaScript
+      url: https://javascriptweekly.com/link/132273/web
+      type: News
+    - title: A Guide to Keyboard Accessibility from JavaScript
+      url: https://javascriptweekly.com/link/132251/web
+      type: News
+    - title: Your Source for Candid Chats on Product, Business & Leadership
+      url: https://javascriptweekly.com/link/132226/web
+      type: News
+    - title: Optimizing a Vue.js App
+      url: https://javascriptweekly.com/link/132253/web
+      type: News
+    - title: Producing Native ES Modules on Node.js with TypeScript
+      url: https://javascriptweekly.com/link/132227/web
+      type: News
+    - title: React Native in 2022 and Beyond
+      url: https://javascriptweekly.com/link/132254/web
+      type: News
+    - title: How We Lost Our Slick New Package Name (And Then Got It Back)
+      url: https://javascriptweekly.com/link/132278/web
+      type: News
+    - title: 'TwClassed: Type-Safe Library for Reusable Tailwind Components'
+      url: https://javascriptweekly.com/link/132229/web
+      type: News
+    - title: JavaScript Scratchpad for VS Code (2m+ Downloads), Now Supports Vite
+      url: https://javascriptweekly.com/link/132232/web
+      type: News
+    - title: 'Eruda 2.6: A Console for Mobile Browsers'
+      url: https://javascriptweekly.com/link/132255/web
+      type: News
+    - title: 'Ant Design 5.0: Enterprise-Class Design Language and React UI Library'
+      url: https://javascriptweekly.com/link/132233/web
+      type: News
+    - title: 'Hyperstack: A New Rails-Inspired Node.js Web Framework'
+      url: https://javascriptweekly.com/link/132237/web
+      type: News
+    - title: React Authentication, Simplified
+      url: https://javascriptweekly.com/link/132236/web
+      type: News
+    - title: 'Slim Select 2.0: An Advanced Select Dropdown Control'
+      url: https://javascriptweekly.com/link/132256/web
+      type: News
+    - title: 'jxl.js: A WebAssembly-based JPEG XL Decoder'
+      url: https://javascriptweekly.com/link/132238/web
+      type: News
+    - title: 'Dittytoy: JavaScript-Based Generative Music Sandbox'
+      url: https://javascriptweekly.com/link/132263/web
+      type: News

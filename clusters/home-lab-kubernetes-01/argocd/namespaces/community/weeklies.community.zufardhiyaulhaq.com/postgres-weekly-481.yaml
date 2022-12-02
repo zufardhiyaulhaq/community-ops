@@ -1,0 +1,53 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-481
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 481
+    date: 11/23/2022
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: Reducing Replication Lag with I/O Concurrency in Postgres 15
+      url: https://postgresweekly.com/link/131671/web
+      type: News
+    - title: Using Postgres with Deno Deploy
+      url: https://postgresweekly.com/link/131670/web
+      type: News
+    - title: PostgreSQL 15.1, 14.6, 13.9, 12.13, 11.18, and 10.23 Released
+      url: https://postgresweekly.com/link/131672/web
+      type: News
+    - title: A Tribute to 2017's Postgres 10
+      url: https://postgresweekly.com/link/131673/web
+      type: News
+    - title: EXPLAIN That Parameterized Statement
+      url: https://postgresweekly.com/link/131678/web
+      type: News
+    - title: What is an 'Upsert' and When Should You Use One?
+      url: https://postgresweekly.com/link/131679/web
+      type: News
+    - title: 'Free eBook: How to Create the Best Postgres Index for Your Queries'
+      url: https://postgresweekly.com/link/131681/web
+      type: News
+    - title: 'Read Before You Upgrade: Best Practices for Choosing a Postgres Version'
+      url: https://postgresweekly.com/link/131682/web
+      type: News
+    - title: 'JSON in PostgreSQL: The Ultimate Guide'
+      url: https://postgresweekly.com/link/131683/web
+      type: News
+    - title: 'Postgres at Scale: Running Multiple PgBouncers'
+      url: https://postgresweekly.com/link/131684/web
+      type: News
+    - title: How to Recreate ROW CHANGE TIMESTAMP from IBM Db2 on Amazon RDS or Aurora
+      url: https://postgresweekly.com/link/131686/web
+      type: News
+    - title: Improved Aarch64 (arm64) Support Now Available in the Postgres RPM Repository
+      url: https://postgresweekly.com/link/131688/web
+      type: News

@@ -1,0 +1,61 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-437
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 437
+    date: 11/20/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: Making a Go Program 70% Faster with a One Character Change
+      url: https://golangweekly.com/link/131883/web
+      type: News
+    - title: Google's Go Style Guide
+      url: https://golangweekly.com/link/131885/web
+      type: News
+    - title: Gophers - Opportunity is Knocking
+      url: https://golangweekly.com/link/131882/web
+      type: News
+    - title: A Consistent Logging Format for Go
+      url: https://golangweekly.com/link/131888/web
+      type: News
+    - title: RPC in Go using Twitch's Twirp
+      url: https://golangweekly.com/link/131893/web
+      type: News
+    - title: How To Compose Interfaces
+      url: https://golangweekly.com/link/131896/web
+      type: News
+    - title: 'VarInt: Memory Efficient Arbitrary Bit Width Integers'
+      url: https://golangweekly.com/link/131900/web
+      type: News
+    - title: 'golang-lru: Fixed-Size Thread-Safe LRU Cache'
+      url: https://golangweekly.com/link/131901/web
+      type: News
+    - title: 'Pie: A Utility Library for Dealing with Slices'
+      url: https://golangweekly.com/link/131902/web
+      type: News
+    - title: Register for Unblock 22 - A CI/CD Conference by Buildkite
+      url: https://golangweekly.com/link/131903/web
+      type: News
+    - title: 'Tamarin: An Embeddable Scripting Language Written in Go'
+      url: https://golangweekly.com/link/131904/web
+      type: News
+    - title: 'Mockery: A Mock Code Generator for Go Interfaces'
+      url: https://golangweekly.com/link/131906/web
+      type: News
+    - title: 'Sablier: An API for Running Containers on Demand'
+      url: https://golangweekly.com/link/131907/web
+      type: News
+    - title: 'go-quartz: Simple, Zero-Dependency Scheduling Library'
+      url: https://golangweekly.com/link/131908/web
+      type: News
+    - title: 'Gorse: A Universal Open Source ''Recommender System'''
+      url: https://golangweekly.com/link/131910/web
+      type: News
