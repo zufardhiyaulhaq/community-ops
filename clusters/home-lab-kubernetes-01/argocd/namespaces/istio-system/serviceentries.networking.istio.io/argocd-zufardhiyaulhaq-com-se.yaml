@@ -1,0 +1,17 @@
+apiVersion: networking.istio.io/v1beta1
+kind: ServiceEntry
+metadata:
+  name: argocd-zufardhiyaulhaq-com-authz
+  namespace: istio-system
+spec:
+  hosts:  
+  - argocd.zufardhiyaulhaq.com
+  location: MESH_EXTERNAL
+  ports:
+  - name: http2
+    number: 80
+    protocol: HTTP2
+  - name: https
+    number: 443
+    protocol: HTTPS
+  resolution: DNS
