@@ -22,5 +22,6 @@ spec:
       number: 443
       protocol: HTTPS
     tls:
+      minProtocolVersion: TLSV1_3
       credentialName: argocd-zufardhiyaulhaq-com-cert
       mode: SIMPLE

@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: bookinfo-zufardhiyaulhaq-com-cert
+  namespace: istio-system
+spec:
+  secretName: bookinfo-zufardhiyaulhaq-com-cert
+  issuerRef:
+    name: zufardhiyaulhaq-com-cluster-issuer
+    kind: ClusterIssuer
+  commonName: "bookinfo.zufardhiyaulhaq.com"
+  dnsNames:
+  - "bookinfo.zufardhiyaulhaq.com"

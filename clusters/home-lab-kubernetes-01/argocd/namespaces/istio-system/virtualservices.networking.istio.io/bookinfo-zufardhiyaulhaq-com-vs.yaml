@@ -1,0 +1,22 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: bookinfo-zufardhiyaulhaq-com-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "bookinfo.zufardhiyaulhaq.com"
+  gateways:
+  - istio-system/bookinfo-zufardhiyaulhaq-com-gateway
+  http:
+  - name: "bookinfo-route"
+    match:
+    - uri:
+        prefix: /
+    route:
+      - destination:
+          port:
+            number: 9080
+          host: productpage.default.svc.cluster.local
+  exportTo:
+    - "."
