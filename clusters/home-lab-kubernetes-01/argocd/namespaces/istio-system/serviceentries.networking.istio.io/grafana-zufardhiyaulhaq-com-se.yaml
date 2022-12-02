@@ -6,7 +6,7 @@ metadata:
 spec:
   hosts:  
   - grafana.zufardhiyaulhaq.com
-  location: MESH_EXTERNAL
+  location: MESH_INTERNAL
   ports:
   - name: http2
     number: 80
