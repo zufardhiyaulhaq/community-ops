@@ -1,7 +1,7 @@
 apiVersion: networking.istio.io/v1beta1
 kind: ServiceEntry
 metadata:
-  name: argocd-zufardhiyaulhaq-com-authz
+  name: argocd-zufardhiyaulhaq-com-se
   namespace: istio-system
 spec:
   hosts:  

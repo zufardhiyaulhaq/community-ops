@@ -1,7 +1,7 @@
 apiVersion: networking.istio.io/v1beta1
 kind: ServiceEntry
 metadata:
-  name: podinfo-zufardhiyaulhaq-com-authz
+  name: podinfo-zufardhiyaulhaq-com-se
   namespace: istio-system
 spec:
   hosts:  

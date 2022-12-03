@@ -1,7 +1,7 @@
 apiVersion: networking.istio.io/v1beta1
 kind: ServiceEntry
 metadata:
-  name: grafana-zufardhiyaulhaq-com-authz
+  name: grafana-zufardhiyaulhaq-com-se
   namespace: istio-system
 spec:
   hosts:  

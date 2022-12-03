@@ -1,7 +1,7 @@
 apiVersion: networking.istio.io/v1beta1
 kind: ServiceEntry
 metadata:
-  name: bookinfo-zufardhiyaulhaq-com-authz
+  name: bookinfo-zufardhiyaulhaq-com-se
   namespace: istio-system
 spec:
   hosts:  
