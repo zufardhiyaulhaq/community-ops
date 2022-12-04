@@ -1,0 +1,61 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-439
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 439
+    date: 12/04/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: The Best Go Framework.. No Framework?
+      url: https://golangweekly.com/link/132500/web
+      type: News
+    - title: GoLand Turns 5; Releases v2022.3
+      url: https://golangweekly.com/link/132502/web
+      type: News
+    - title: Gophers - Opportunity is Knocking
+      url: https://golangweekly.com/link/132499/web
+      type: News
+    - title: On Multiple Error Wrapping Coming to Go 1.20
+      url: https://golangweekly.com/link/132535/web
+      type: News
+    - title: Using Server Sent Events to Simplify Real-Time Streaming at Scale
+      url: https://golangweekly.com/link/132510/web
+      type: News
+    - title: Fast Embedded Templates in Go with quicktemplate
+      url: https://golangweekly.com/link/132511/web
+      type: News
+    - title: Exploring Network Programming by Building a Toxiproxy Clone
+      url: https://golangweekly.com/link/132513/web
+      type: News
+    - title: To TDD or Not to TDD with Bill Kennedy and Chris James
+      url: https://golangweekly.com/link/132514/web
+      type: News
+    - title: Everything You Need To Know About Pointers in Go
+      url: https://golangweekly.com/link/132515/web
+      type: News
+    - title: 'ListMonk 2.3: Self-Hosted Newsletter and Mailing List Manager'
+      url: https://golangweekly.com/link/132517/web
+      type: News
+    - title: 'Air: Live Reloading for Go Apps'
+      url: https://golangweekly.com/link/132519/web
+      type: News
+    - title: Practical Guide to Secure SSH Access
+      url: https://golangweekly.com/link/132520/web
+      type: News
+    - title: 'Ecoji: Encodes (and Decodes) Data as Emojis'
+      url: https://golangweekly.com/link/132521/web
+      type: News
+    - title: 'Otto 0.2: A JavaScript Parser and Interpreter in Go'
+      url: https://golangweekly.com/link/132523/web
+      type: News
+    - title: 'Gophers Pack: A Collection of Gopher Pictures and Design Elements'
+      url: https://golangweekly.com/link/132534/web
+      type: News
