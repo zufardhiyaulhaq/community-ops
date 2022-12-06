@@ -1,0 +1,70 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-617
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 617
+    date: 12/06/2022
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: Speeding Up the JS Ecosystem, One Library at a Time
+      url: https://javascriptweekly.com/link/132610/web
+      type: News
+    - title: The 93rd Meeting of Ecma TC39
+      url: https://javascriptweekly.com/link/132619/web
+      type: News
+    - title: AppSignal for Node.js 3.0 Introduces OpenTelemetry Support
+      url: https://javascriptweekly.com/link/132558/web
+      type: News
+    - title: v22.0 Released, Bye Windows 7, and Hi Forge
+      url: https://javascriptweekly.com/link/132559/web
+      type: News
+    - title: Splitting Strings into Sentences, Words or Graphemes with Intl.Segmenter
+      url: https://javascriptweekly.com/link/132571/web
+      type: News
+    - title: Migrating from Vue 2 to Svelte
+      url: https://javascriptweekly.com/link/132573/web
+      type: News
+    - title: Breakpoints and console.log Is the Past, Time Travel Is the Future
+      url: https://javascriptweekly.com/link/132574/web
+      type: News
+    - title: Working with Zustand for Easier React State Management
+      url: https://javascriptweekly.com/link/132575/web
+      type: News
+    - title: An Introduction to the LibJS JavaScript Engine
+      url: https://javascriptweekly.com/link/132616/web
+      type: News
+    - title: Pointer Compression in Oilpan
+      url: https://javascriptweekly.com/link/132578/web
+      type: News
+    - title: Sketchy Pencil Effect with Three.js Post-Processing
+      url: https://javascriptweekly.com/link/132577/web
+      type: News
+    - title: The State of Notifications Report - User Preferences
+      url: https://javascriptweekly.com/link/132614/web
+      type: News
+    - title: 'Neutralino.js 4.9: Lightweight Cross Platform Desktop App Framework'
+      url: https://javascriptweekly.com/link/132580/web
+      type: News
+    - title: 'Mithril.js: Client-Side Framework for Single Page Apps'
+      url: https://javascriptweekly.com/link/132582/web
+      type: News
+    - title: A Professional Scheduling Component for React, Vue, Angular Apps
+      url: https://javascriptweekly.com/link/132584/web
+      type: News
+    - title: 'Vanilla Extract: Zero-Runtime Stylesheets in TypeScript'
+      url: https://javascriptweekly.com/link/132585/web
+      type: News
+    - title: 'Choices.js 10.2: A Configurable Select Box/Text Input Plugin'
+      url: https://javascriptweekly.com/link/132586/web
+      type: News
+    - title: 'Reapop 4.2: Customizable Notifications for React Apps'
+      url: https://javascriptweekly.com/link/132589/web
+      type: News
