@@ -1,0 +1,44 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-483
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 483
+    date: 12/07/2022
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: Index Merges vs Composite Indexes
+      url: https://postgresweekly.com/link/132300/web
+      type: News
+    - title: 'eBook: How to Create the Best Postgres Index for Your Queries'
+      url: https://postgresweekly.com/link/132299/web
+      type: News
+    - title: Percentage Calculations Using Window Functions
+      url: https://postgresweekly.com/link/132302/web
+      type: News
+    - title: How Fly.io Runs Its New Postgres Platform
+      url: https://postgresweekly.com/link/132304/web
+      type: News
+    - title: AWS Database Migration Service Adds Managed Schema Migration
+      url: https://postgresweekly.com/link/132308/web
+      type: News
+    - title: Register for Unblock - A CI/CD Conference by Buildkite
+      url: https://postgresweekly.com/link/132309/web
+      type: News
+    - title: Using Postgres as a Task Queue for Rowdy Gophers
+      url: https://postgresweekly.com/link/132310/web
+      type: News
+    - title: Create D2 ERD Diagrams from Postgres Schemas
+      url: https://postgresweekly.com/link/132312/web
+      type: News
+    - title: 'pgvector: Vector Similarity Search Extension'
+      url: https://postgresweekly.com/link/132315/web
+      type: News
