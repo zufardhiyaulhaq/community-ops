@@ -1,0 +1,55 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-440
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 440
+    date: 12/11/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: A Look Back at 2022 for Go Gamedev with Ebitengine™
+      url: https://golangweekly.com/link/132880/web
+      type: News
+    - title: 'New in Go 1.20: Wrapping Multiple Errors'
+      url: https://golangweekly.com/link/132882/web
+      type: News
+    - title: Gophers - Opportunity is Knocking
+      url: https://golangweekly.com/link/132879/web
+      type: News
+    - title: Some Useful Patterns for os/exec
+      url: https://golangweekly.com/link/132885/web
+      type: News
+    - title: 'New Language Issue: Runtime: Diagnostics Improvements'
+      url: https://golangweekly.com/link/132886/web
+      type: News
+    - title: Functional Table-Driven Tests in Go
+      url: https://golangweekly.com/link/132892/web
+      type: News
+    - title: Writing Apps More Securely with Go
+      url: https://golangweekly.com/link/132893/web
+      type: News
+    - title: Forget Everything You Know About SSH
+      url: https://golangweekly.com/link/132894/web
+      type: News
+    - title: When to Use gRPC vs GraphQL
+      url: https://golangweekly.com/link/132895/web
+      type: News
+    - title: Building a CLI Tool with Go that Calls Stripe's HTTP API
+      url: https://golangweekly.com/link/132896/web
+      type: News
+    - title: 'D2: Declarative Diagramming System'
+      url: https://golangweekly.com/link/132897/web
+      type: News
+    - title: 'Marmot: A Distributed SQLite Replicator atop NATS'
+      url: https://golangweekly.com/link/132900/web
+      type: News
+    - title: Argo CD Architectures, Solved!
+      url: https://golangweekly.com/link/132915/web
+      type: News
