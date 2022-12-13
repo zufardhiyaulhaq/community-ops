@@ -1,0 +1,70 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-618
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 618
+    date: 12/13/2022
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: Vite 4.0 Released
+      url: https://javascriptweekly.com/link/132960/web
+      type: News
+    - title: Anjana Vakil on the JavaScript Fundamentals
+      url: https://javascriptweekly.com/link/132917/web
+      type: News
+    - title: npm Gains New Security Features
+      url: https://javascriptweekly.com/link/132918/web
+      type: News
+    - title: 'Console Ninja: console.log Output Right Next to Your Code'
+      url: https://javascriptweekly.com/link/132969/web
+      type: News
+    - title: Sandboxing with Partytown
+      url: https://javascriptweekly.com/link/132974/web
+      type: News
+    - title: Build a Mobile-Responsive Telehealth Pager App Using Stream’s Chat API
+      url: https://javascriptweekly.com/link/132928/web
+      type: News
+    - title: Is Prisma Better Than Your 'Traditional' ORM?
+      url: https://javascriptweekly.com/link/132929/web
+      type: News
+    - title: When to Use gRPC vs GraphQL
+      url: https://javascriptweekly.com/link/132933/web
+      type: News
+    - title: Breakpoints and console.log is the Past, Time Travel is the Future
+      url: https://javascriptweekly.com/link/132932/web
+      type: News
+    - title: A Discussion on Optimizing Your JavaScript with Rust
+      url: https://javascriptweekly.com/link/132968/web
+      type: News
+    - title: 'Codux: A Visual IDE for React'
+      url: https://javascriptweekly.com/link/132934/web
+      type: News
+    - title: 'Harlem 3.0: Simple Extensible State Management for Vue 3'
+      url: https://javascriptweekly.com/link/132939/web
+      type: News
+    - title: Open Source Firebase Alternative for Web, Mobile, and Flutter Devs
+      url: https://javascriptweekly.com/link/132940/web
+      type: News
+    - title: 'JS Image Carver: Content-Aware Image Resizer and Object Remover'
+      url: https://javascriptweekly.com/link/132941/web
+      type: News
+    - title: 'Civet: The CoffeeScript of TypeScript?'
+      url: https://javascriptweekly.com/link/132943/web
+      type: News
+    - title: 'Maska 2.1: Zero-Dependency Input Mask'
+      url: https://javascriptweekly.com/link/132944/web
+      type: News
+    - title: 'node-calls-python: Call Python from Node'
+      url: https://javascriptweekly.com/link/132946/web
+      type: News
+    - title: 'reduced.to: Open Source URL Shortening App Built with Qwik'
+      url: https://javascriptweekly.com/link/132947/web
+      type: News
