@@ -1,0 +1,50 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-484
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 484
+    date: 12/14/2022
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: Amazon's Trusted Language Extensions for Postgres
+      url: https://postgresweekly.com/link/132635/web
+      type: News
+    - title: Faster, Cheaper Postgres on Amazon RDS
+      url: https://postgresweekly.com/link/132634/web
+      type: News
+    - title: Neon's Serverless Postgres Platform Now Live to All
+      url: https://postgresweekly.com/link/132637/web
+      type: News
+    - title: Instacart on Dropping Postgres for Amazon DynamoDB
+      url: https://postgresweekly.com/link/132640/web
+      type: News
+    - title: Picking a Random Element.. with Weights
+      url: https://postgresweekly.com/link/132646/web
+      type: News
+    - title: 'Better Range Types in Postgres 14+: Turning 100 Lines of SQL Into 3'
+      url: https://postgresweekly.com/link/132647/web
+      type: News
+    - title: 'Soft Deletion with Postgres: Writing the Logic in Postgres Itself'
+      url: https://postgresweekly.com/link/132648/web
+      type: News
+    - title: 'DB Fiddle: An SQL Database Playground'
+      url: https://postgresweekly.com/link/132650/web
+      type: News
+    - title: 'pg_stat_monitor 1.1.1: Query Performance Monitoring Tool'
+      url: https://postgresweekly.com/link/132651/web
+      type: News
+    - title: Identity-Native Infrastructure Access for PostgreSQL?
+      url: https://postgresweekly.com/link/132652/web
+      type: News
+    - title: 'pg_hint_plan: Manually Force Decisions in Execution Plans'
+      url: https://postgresweekly.com/link/132653/web
+      type: News
