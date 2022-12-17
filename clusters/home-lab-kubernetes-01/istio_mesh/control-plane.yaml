@@ -33,7 +33,9 @@ spec:
           rollingUpdate:
             maxSurge: 1
             maxUnavailable: 0
-    ingressGateways: []
+    ingressGateways:
+    - enabled: false
+      name: istio-ingressgateway
   meshConfig:
     tcpKeepalive:
       time: 60s
