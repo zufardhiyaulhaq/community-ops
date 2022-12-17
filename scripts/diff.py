@@ -27,28 +27,28 @@ def main(cluster_name):
 
     shell = ShellDeployer()
 
-    print_header("Diff Kustomize")
-    kustomize = KustomizeDeployer(shell, cluster_name)
-    kustomize.diff()
+    # print_header("Diff Kustomize")
+    # kustomize = KustomizeDeployer(shell, cluster_name)
+    # kustomize.diff()
 
-    print_header("Diff Manifest")
-    manifest = ManifestDeployer(shell, DEFAULT_CLUSTER_MANIFEST_DIR, cluster_name)
-    manifest.diff()
+    # print_header("Diff Manifest")
+    # manifest = ManifestDeployer(shell, DEFAULT_CLUSTER_MANIFEST_DIR, cluster_name)
+    # manifest.diff()
 
-    print_header("Diff Helm")
-    helm = HelmDeployer(shell, cluster_name)
-    helm.diff()
+    # print_header("Diff Helm")
+    # helm = HelmDeployer(shell, cluster_name)
+    # helm.diff()
 
     print_header("Diff Istio Control Plane")
     istio_control_plane = configuration.get_istio_control_plane()
     istio = IstioDeployer(shell, istio_control_plane, cluster_name)
     istio.diff()
 
-    print_header("Diff Istio Gateway")
-    istio_gateways = configuration.get_istio_gateway()
-    for gateway in istio_gateways:
-        istio = IstioDeployer(shell, gateway, cluster_name)
-        istio.diff()
+    # print_header("Diff Istio Gateway")
+    # istio_gateways = configuration.get_istio_gateway()
+    # for gateway in istio_gateways:
+    #     istio = IstioDeployer(shell, gateway, cluster_name)
+    #     istio.diff()
 
 if __name__ == '__main__':
     main()
