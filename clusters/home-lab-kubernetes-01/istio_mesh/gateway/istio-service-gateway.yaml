@@ -19,7 +19,7 @@ spec:
             - podAffinityTerm:
                 labelSelector:
                   matchLabels:
-                    app: istio-public-gateway
+                    app: istio-service-gateway
                 topologyKey: kubernetes.io/hostname
               weight: 100
         resources:
