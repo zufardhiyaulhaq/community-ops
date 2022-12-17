@@ -3,3 +3,4 @@ istio:
   gateway:
   - ./istio_mesh/gateway/istio-public-gateway.yaml
   - ./istio_mesh/gateway/istio-service-gateway.yaml
+  - ./istio_mesh/gateway/istio-test-gateway.yaml
