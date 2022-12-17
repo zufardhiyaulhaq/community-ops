@@ -24,8 +24,9 @@ jobs:
         with:
           path: "scripts/requirements.txt"
       - name: Setup kubectl
-        uses: marcofranssen/setup-kubectl@v0.3.0
+        uses: marcofranssen/setup-kubectl@v0.3.1
         with:
+          kubectl-version: v1.24.5
           enable-plugins: true
           plugins: slice
       - name: Setup kustomize
@@ -75,8 +76,9 @@ jobs:
         with:
           path: "scripts/requirements.txt"
       - name: Setup kubectl
-        uses: marcofranssen/setup-kubectl@v0.3.0
+        uses: marcofranssen/setup-kubectl@v0.3.1
         with:
+          kubectl-version: v1.24.5
           enable-plugins: true
           plugins: slice
       - name: Setup kustomize
