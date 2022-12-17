@@ -24,7 +24,7 @@ class IstioDeployer():
         create_dir_command = ["mkdir", self.config_file+".dir"]
         self.shell.execute(create_dir_command)
 
-        split_manifest_command = ["kubectl", "slice", "-f", self.config_file+".output.yaml", "-o", self.config_file+".dir", "--exclude-kind", "CustomResourceDefinition"]
+        split_manifest_command = ["kubectl-slice", "-f", self.config_file+".output.yaml", "-o", self.config_file+".dir", "--exclude-kind", "CustomResourceDefinition"]
         self.shell.execute(split_manifest_command)
 
         diff_command = ["kubectl", "diff", "-f", self.config_file+".dir", "--server-side=true", "--force-conflicts=true"]
