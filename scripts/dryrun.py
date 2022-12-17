@@ -49,6 +49,6 @@ def main(cluster_name):
     for gateway in istio_gateways:
         istio = IstioDeployer(shell, gateway, cluster_name)
         istio.deploy(dryrun=True)
-
+    
 if __name__ == '__main__':
     main()
