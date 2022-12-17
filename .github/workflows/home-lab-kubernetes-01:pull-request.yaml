@@ -33,7 +33,7 @@ jobs:
           tag: v1.2.4
           repo: patrickdappollonio/kubectl-slice
           platform: linux
-          arch: x86-64
+          arch: x86_64
       - name: Setup kustomize
         uses: yokawasa/action-setup-kube-tools@v0.7.1
         with:
@@ -90,7 +90,7 @@ jobs:
           tag: v1.2.4
           repo: patrickdappollonio/kubectl-slice
           platform: linux
-          arch: x86-64
+          arch: x86_64
       - name: Setup kustomize
         uses: yokawasa/action-setup-kube-tools@v0.7.1
         with:
