@@ -28,7 +28,6 @@ jobs:
       - name: Setup kubectl
         uses: marcofranssen/setup-kubectl@v0.3.0
         with:
-          kubectl-version: v1.23.6
           enable-plugins: true
           plugins: slice
       - name: Setup kustomize
