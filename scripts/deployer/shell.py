@@ -10,7 +10,8 @@ class ShellDeployer():
         try:
             process = subprocess.Popen(
                 command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-            print(process.stdout.read().strip().decode("utf-8"))
+            output = process.stdout.read().strip().decode("utf-8")
+            return output
         except subprocess.CalledProcessError as exc:
             print("[ERROR] Command \"{}\" failed with exit code {}: {}".format(
                 ' '.join(command), exc.returncode, exc.output.strip().decode("utf-8")))

@@ -10,7 +10,8 @@ class ManifestDeployer():
         if dryrun:
             command.extend(["--dry-run=server"])
 
-        self.shell.execute(command)
+        output = self.shell.execute(command)
+        print(output)
 
     # TODO add ability to diff the manifest
     def diff(self):

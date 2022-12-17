@@ -10,8 +10,11 @@ class KustomizeDeployer():
         if dryrun:
             apply_command.extend(["--dry-run=server"])
             
-        self.shell.execute(render_command)
-        self.shell.execute(apply_command)
+        output = self.shell.execute(render_command)
+        print(output)
+
+        output = self.shell.execute(apply_command)
+        print(output)
 
     # TODO add ability to diff the manifest
     def diff(self):

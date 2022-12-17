@@ -9,15 +9,30 @@ spec:
     pilot:
       enabled: true
       k8s:
+        affinity:
+          podAntiAffinity:
+            preferredDuringSchedulingIgnoredDuringExecution:
+            - podAffinityTerm:
+                labelSelector:
+                  matchLabels:
+                    app: istio-public-gateway
+                topologyKey: kubernetes.io/hostname
+              weight: 100
         resources:
           requests:
             cpu: 32m
             memory: 32Mi
+        priorityClassName: system-cluster-critical
         podDisruptionBudget:
           minAvailable: 1
         hpaSpec:
           maxReplicas: 2
           minReplicas: 1
+        strategy:
+          type: RollingUpdate
+          rollingUpdate:
+            maxSurge: 1
+            maxUnavailable: 0
     ingressGateways:
     - enabled: false
       name: istio-ingressgateway
@@ -68,6 +83,8 @@ spec:
         sampling: 1.0
       proxyMetadata:
         ISTIO_META_DNS_CAPTURE: "true"
+        ISTIO_META_DNS_AUTO_ALLOCATE: "true"
+        BOOTSTRAP_XDS_AGENT: "true"
       extraStatTags:
         - request_method
         - route_name

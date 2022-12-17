@@ -8,8 +8,10 @@ class HelmDeployer():
     def deploy(self, dryrun=False):
         if dryrun == False:
             command = ["helmfile", "--kube-context", self.cluster, "sync"]
-            self.shell.execute(command)
+            output = self.shell.execute(command)
+            print(output)
 
     def diff(self):
         command = ["helmfile", "--kube-context", self.cluster, "diff", "--suppress-secrets"]
-        self.shell.execute(command)
+        output = self.shell.execute(command)
+        print(output)
