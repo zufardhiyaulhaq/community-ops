@@ -1,0 +1,67 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-441
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 441
+    date: 12/18/2022
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: Effective Error Handling in Go
+      url: https://golangweekly.com/link/133163/web
+      type: News
+    - title: All You Need(ed) to Know About Go 1.18 (in a Giant Diagram)
+      url: https://golangweekly.com/link/133164/web
+      type: News
+    - title: Check Out GoLand 2022.3!
+      url: https://golangweekly.com/link/133162/web
+      type: News
+    - title: 'A Proposal: A try Statement for Error Handling'
+      url: https://golangweekly.com/link/133167/web
+      type: News
+    - title: An Official 'Getting Started with Generics' Tutorial
+      url: https://golangweekly.com/link/133168/web
+      type: News
+    - title: Getting Familiar with Workspaces
+      url: https://golangweekly.com/link/133169/web
+      type: News
+    - title: Making a Go Program 70% Faster with a One Character Change
+      url: https://golangweekly.com/link/133170/web
+      type: News
+    - title: Google's Internal Go Style Guide
+      url: https://golangweekly.com/link/133171/web
+      type: News
+    - title: '''Crimes'' with Go Generics'
+      url: https://golangweekly.com/link/133173/web
+      type: News
+    - title: Forget Everything You Know About SSH
+      url: https://golangweekly.com/link/133174/web
+      type: News
+    - title: 'Wails v2: Build Cross-Platform Desktop Apps with Go'
+      url: https://golangweekly.com/link/133180/web
+      type: News
+    - title: 'PocketBase: A Go-Powered Backend in One Binary'
+      url: https://golangweekly.com/link/133181/web
+      type: News
+    - title: 'GoPlay: A Better Go Playground?'
+      url: https://golangweekly.com/link/133184/web
+      type: News
+    - title: Argo CD as a Managed Service from the Creators of Argo
+      url: https://golangweekly.com/link/133186/web
+      type: News
+    - title: 'Bud: A Full-Stack Web Framework for Gophers'
+      url: https://golangweekly.com/link/133187/web
+      type: News
+    - title: 'Charm Gum: A Tool for ''Glamorous'' Shell Scripts'
+      url: https://golangweekly.com/link/133189/web
+      type: News
+    - title: 'Buffalo 1.0: Rapid Web Development in Go'
+      url: https://golangweekly.com/link/133193/web
+      type: News
