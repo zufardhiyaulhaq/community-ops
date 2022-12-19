@@ -13,6 +13,7 @@ class ManifestDeployer():
         output = self.shell.execute(command)
         print(output)
 
-    # TODO add ability to diff the manifest
     def diff(self):
-        return
+        command = ["kubectl", "diff", "-f", self.manifest_dir, "--recursive=true", "--context", self.cluster]
+        output = self.shell.execute(command)
+        print(output)

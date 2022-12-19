@@ -4,7 +4,7 @@ metadata:
   name: istio-service-gateway
   namespace: istio-system
 spec:
-  hub: ghcr.io/resf/istio
+  hub: gcr.io/istio-release
   profile: empty
   components:
     ingressGateways:

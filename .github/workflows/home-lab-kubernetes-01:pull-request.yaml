@@ -7,9 +7,11 @@ on:
   
 env:
   KUBECONFIG: /tmp/config
+  ISTIO-REVISION: 1-15-4
+  ISTIO-VERSION: 1.15.4
 
 jobs:
-  diff:
+  kustomize-diff:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
@@ -55,7 +57,7 @@ jobs:
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: '1.14.2'
+          version: $ISTIO-VERSION
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
@@ -64,9 +66,8 @@ jobs:
           HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
       - name: Diff applications
         run: |
-          make diff CLUSTER=home-lab-kubernetes-01
-
-  dryrun:
+          python3 scripts/deployer.py kustomize diff --cluster-name home-lab-kubernetes-01
+  helm-diff:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
@@ -105,20 +106,469 @@ jobs:
       - name: Setup helm
         uses: azure/setup-helm@v1
         with:
-          version: 'v3.3.1'
+          version: 'v3.9.0'
       - name: Setup helm diff plugin
         run: |
           helm plugin install https://github.com/databus23/helm-diff
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: '1.14.2'
+          version: $ISTIO-VERSION
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
         shell: bash
         env:
           HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
-      - name: Dryrun applications
+      - name: Diff applications
         run: |
-          make dryrun CLUSTER=home-lab-kubernetes-01
+          python3 scripts/deployer.py helm diff --cluster-name home-lab-kubernetes-01
+  manifests-diff:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+          architecture: x64
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v2
+        with:
+          path: "scripts/requirements.txt"
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v1
+        with:
+          version: 'v1.23.6'
+      - name: Install kubectl-slice
+        uses: jaxxstorm/action-install-gh-release@v1.9.0
+        with:
+          tag: v1.2.4
+          repo: patrickdappollonio/kubectl-slice
+          platform: linux
+          arch: x86_64
+      - name: Setup kustomize
+        uses: yokawasa/action-setup-kube-tools@v0.7.1
+        with:
+          kustomize: '3.8.3'
+      - name: Setup helmfile
+        uses: mamezou-tech/setup-helmfile@v0.8.0
+        with:
+          helmfile-version: "v0.140.0"
+          install-helm: no
+          install-helm-plugins: no
+          install-kubectl: no
+      - name: Setup helm
+        uses: azure/setup-helm@v1
+        with:
+          version: 'v3.9.0'
+      - name: Setup helm diff plugin
+        run: |
+          helm plugin install https://github.com/databus23/helm-diff
+      - name: Setup Istioctl
+        uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
+        with:
+          version: $ISTIO-VERSION
+      - name: Setup kubeconfig
+        run: |
+          echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
+        shell: bash
+        env:
+          HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
+      - name: Diff applications
+        run: |
+          python3 scripts/deployer.py manifests diff --cluster-name home-lab-kubernetes-01
+  istio-control-plane-diff:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+          architecture: x64
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v2
+        with:
+          path: "scripts/requirements.txt"
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v1
+        with:
+          version: 'v1.23.6'
+      - name: Install kubectl-slice
+        uses: jaxxstorm/action-install-gh-release@v1.9.0
+        with:
+          tag: v1.2.4
+          repo: patrickdappollonio/kubectl-slice
+          platform: linux
+          arch: x86_64
+      - name: Setup kustomize
+        uses: yokawasa/action-setup-kube-tools@v0.7.1
+        with:
+          kustomize: '3.8.3'
+      - name: Setup helmfile
+        uses: mamezou-tech/setup-helmfile@v0.8.0
+        with:
+          helmfile-version: "v0.140.0"
+          install-helm: no
+          install-helm-plugins: no
+          install-kubectl: no
+      - name: Setup helm
+        uses: azure/setup-helm@v1
+        with:
+          version: 'v3.9.0'
+      - name: Setup helm diff plugin
+        run: |
+          helm plugin install https://github.com/databus23/helm-diff
+      - name: Setup Istioctl
+        uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
+        with:
+          version: $ISTIO-VERSION
+      - name: Setup kubeconfig
+        run: |
+          echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
+        shell: bash
+        env:
+          HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
+      - name: Diff applications
+        run: |
+          python3 scripts/deployer.py istio control-plane diff --cluster-name home-lab-kubernetes-01 --revision $ISTIO-REVISION
+  istio-gateway-diff:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+          architecture: x64
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v2
+        with:
+          path: "scripts/requirements.txt"
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v1
+        with:
+          version: 'v1.23.6'
+      - name: Install kubectl-slice
+        uses: jaxxstorm/action-install-gh-release@v1.9.0
+        with:
+          tag: v1.2.4
+          repo: patrickdappollonio/kubectl-slice
+          platform: linux
+          arch: x86_64
+      - name: Setup kustomize
+        uses: yokawasa/action-setup-kube-tools@v0.7.1
+        with:
+          kustomize: '3.8.3'
+      - name: Setup helmfile
+        uses: mamezou-tech/setup-helmfile@v0.8.0
+        with:
+          helmfile-version: "v0.140.0"
+          install-helm: no
+          install-helm-plugins: no
+          install-kubectl: no
+      - name: Setup helm
+        uses: azure/setup-helm@v1
+        with:
+          version: 'v3.9.0'
+      - name: Setup helm diff plugin
+        run: |
+          helm plugin install https://github.com/databus23/helm-diff
+      - name: Setup Istioctl
+        uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
+        with:
+          version: $ISTIO-VERSION
+      - name: Setup kubeconfig
+        run: |
+          echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
+        shell: bash
+        env:
+          HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
+      - name: Diff applications
+        run: |
+          python3 scripts/deployer.py istio gateway diff --cluster-name home-lab-kubernetes-01 --revision $ISTIO-REVISION
+
+  kustomize-dryrun:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+          architecture: x64
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v2
+        with:
+          path: "scripts/requirements.txt"
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v1
+        with:
+          version: 'v1.23.6'
+      - name: Install kubectl-slice
+        uses: jaxxstorm/action-install-gh-release@v1.9.0
+        with:
+          tag: v1.2.4
+          repo: patrickdappollonio/kubectl-slice
+          platform: linux
+          arch: x86_64
+      - name: Setup kustomize
+        uses: yokawasa/action-setup-kube-tools@v0.7.1
+        with:
+          kustomize: '3.8.3'
+      - name: Setup helmfile
+        uses: mamezou-tech/setup-helmfile@v0.8.0
+        with:
+          helmfile-version: "v0.140.0"
+          install-helm: no
+          install-helm-plugins: no
+          install-kubectl: no
+      - name: Setup helm
+        uses: azure/setup-helm@v1
+        with:
+          version: 'v3.9.0'
+      - name: Setup helm diff plugin
+        run: |
+          helm plugin install https://github.com/databus23/helm-diff
+      - name: Setup Istioctl
+        uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
+        with:
+          version: $ISTIO-VERSION
+      - name: Setup kubeconfig
+        run: |
+          echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
+        shell: bash
+        env:
+          HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
+      - name: dryrun applications
+        run: |
+          python3 scripts/deployer.py kustomize dryrun --cluster-name home-lab-kubernetes-01
+  helm-dryrun:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+          architecture: x64
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v2
+        with:
+          path: "scripts/requirements.txt"
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v1
+        with:
+          version: 'v1.23.6'
+      - name: Install kubectl-slice
+        uses: jaxxstorm/action-install-gh-release@v1.9.0
+        with:
+          tag: v1.2.4
+          repo: patrickdappollonio/kubectl-slice
+          platform: linux
+          arch: x86_64
+      - name: Setup kustomize
+        uses: yokawasa/action-setup-kube-tools@v0.7.1
+        with:
+          kustomize: '3.8.3'
+      - name: Setup helmfile
+        uses: mamezou-tech/setup-helmfile@v0.8.0
+        with:
+          helmfile-version: "v0.140.0"
+          install-helm: no
+          install-helm-plugins: no
+          install-kubectl: no
+      - name: Setup helm
+        uses: azure/setup-helm@v1
+        with:
+          version: 'v3.9.0'
+      - name: Setup helm diff plugin
+        run: |
+          helm plugin install https://github.com/databus23/helm-diff
+      - name: Setup Istioctl
+        uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
+        with:
+          version: $ISTIO-VERSION
+      - name: Setup kubeconfig
+        run: |
+          echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
+        shell: bash
+        env:
+          HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
+      - name: dryrun applications
+        run: |
+          python3 scripts/deployer.py helm dryrun --cluster-name home-lab-kubernetes-01
+  manifests-dryrun:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+          architecture: x64
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v2
+        with:
+          path: "scripts/requirements.txt"
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v1
+        with:
+          version: 'v1.23.6'
+      - name: Install kubectl-slice
+        uses: jaxxstorm/action-install-gh-release@v1.9.0
+        with:
+          tag: v1.2.4
+          repo: patrickdappollonio/kubectl-slice
+          platform: linux
+          arch: x86_64
+      - name: Setup kustomize
+        uses: yokawasa/action-setup-kube-tools@v0.7.1
+        with:
+          kustomize: '3.8.3'
+      - name: Setup helmfile
+        uses: mamezou-tech/setup-helmfile@v0.8.0
+        with:
+          helmfile-version: "v0.140.0"
+          install-helm: no
+          install-helm-plugins: no
+          install-kubectl: no
+      - name: Setup helm
+        uses: azure/setup-helm@v1
+        with:
+          version: 'v3.9.0'
+      - name: Setup helm diff plugin
+        run: |
+          helm plugin install https://github.com/databus23/helm-diff
+      - name: Setup Istioctl
+        uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
+        with:
+          version: $ISTIO-VERSION
+      - name: Setup kubeconfig
+        run: |
+          echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
+        shell: bash
+        env:
+          HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
+      - name: dryrun applications
+        run: |
+          python3 scripts/deployer.py manifests dryrun --cluster-name home-lab-kubernetes-01
+  istio-control-plane-dryrun:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+          architecture: x64
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v2
+        with:
+          path: "scripts/requirements.txt"
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v1
+        with:
+          version: 'v1.23.6'
+      - name: Install kubectl-slice
+        uses: jaxxstorm/action-install-gh-release@v1.9.0
+        with:
+          tag: v1.2.4
+          repo: patrickdappollonio/kubectl-slice
+          platform: linux
+          arch: x86_64
+      - name: Setup kustomize
+        uses: yokawasa/action-setup-kube-tools@v0.7.1
+        with:
+          kustomize: '3.8.3'
+      - name: Setup helmfile
+        uses: mamezou-tech/setup-helmfile@v0.8.0
+        with:
+          helmfile-version: "v0.140.0"
+          install-helm: no
+          install-helm-plugins: no
+          install-kubectl: no
+      - name: Setup helm
+        uses: azure/setup-helm@v1
+        with:
+          version: 'v3.9.0'
+      - name: Setup helm diff plugin
+        run: |
+          helm plugin install https://github.com/databus23/helm-diff
+      - name: Setup Istioctl
+        uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
+        with:
+          version: $ISTIO-VERSION
+      - name: Setup kubeconfig
+        run: |
+          echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
+        shell: bash
+        env:
+          HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
+      - name: dryrun applications
+        run: |
+          python3 scripts/deployer.py istio control-plane dryrun --cluster-name home-lab-kubernetes-01 --revision $ISTIO-REVISION
+  istio-gateway-dryrun:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+          architecture: x64
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v2
+        with:
+          path: "scripts/requirements.txt"
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v1
+        with:
+          version: 'v1.23.6'
+      - name: Install kubectl-slice
+        uses: jaxxstorm/action-install-gh-release@v1.9.0
+        with:
+          tag: v1.2.4
+          repo: patrickdappollonio/kubectl-slice
+          platform: linux
+          arch: x86_64
+      - name: Setup kustomize
+        uses: yokawasa/action-setup-kube-tools@v0.7.1
+        with:
+          kustomize: '3.8.3'
+      - name: Setup helmfile
+        uses: mamezou-tech/setup-helmfile@v0.8.0
+        with:
+          helmfile-version: "v0.140.0"
+          install-helm: no
+          install-helm-plugins: no
+          install-kubectl: no
+      - name: Setup helm
+        uses: azure/setup-helm@v1
+        with:
+          version: 'v3.9.0'
+      - name: Setup helm diff plugin
+        run: |
+          helm plugin install https://github.com/databus23/helm-diff
+      - name: Setup Istioctl
+        uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
+        with:
+          version: $ISTIO-VERSION
+      - name: Setup kubeconfig
+        run: |
+          echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
+        shell: bash
+        env:
+          HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
+      - name: dryrun applications
+        run: |
+          python3 scripts/deployer.py istio gateway dryrun --cluster-name home-lab-kubernetes-01 --revision $ISTIO-REVISION

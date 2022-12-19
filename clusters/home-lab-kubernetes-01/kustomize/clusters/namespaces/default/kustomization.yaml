@@ -1,6 +1,6 @@
 commonLabels:
   owner: zufardhiyaulhaq
-  istio-injection: enabled
+  istio.io/rev: 1-15-4
 
 resources:
 - ../../../../../../bases/cluster-scope/namespace/default
