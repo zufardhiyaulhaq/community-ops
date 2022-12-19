@@ -50,3 +50,15 @@ it will rollout restart gateway
 istioctl install -f control-plane.yaml --force --skip-confirmation --dry-run
 istioctl install -f control-plane.yaml --force --skip-confirmation
 ````
+
+4. add profile: minimal in the control-plane file
+```
+spec:
+  hub: ghcr.io/resf/istio
+  profile: minimal
+```
+
+```
+istioctl install -f control-plane.yaml --force --skip-confirmation --dry-run
+istioctl install -f control-plane.yaml --force --skip-confirmation
+````

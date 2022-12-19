@@ -4,7 +4,8 @@ metadata:
   name: control-plane
   namespace: istio-system
 spec:
-  hub: ghcr.io/resf/istio
+  hub: gcr.io/istio-release
+  profile: minimal
   components:
     pilot:
       enabled: true
@@ -34,9 +35,6 @@ spec:
           rollingUpdate:
             maxSurge: 1
             maxUnavailable: 0
-    ingressGateways:
-    - enabled: false
-      name: istio-ingressgateway
   meshConfig:
     tcpKeepalive:
       time: 60s
