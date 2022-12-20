@@ -1,0 +1,74 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-619
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 619
+    date: 12/20/2022
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: Announcing SvelteKit 1.0
+      url: https://javascriptweekly.com/link/133267/web
+      type: News
+    - title: 'Dr. Axel Tackles Two Proposals: Iterator Helpers and Set Methods'
+      url: https://javascriptweekly.com/link/133270/web
+      type: News
+    - title: "\U0001F9C8 Retire your Legacy CMS with ButterCMS"
+      url: https://javascriptweekly.com/link/133215/web
+      type: News
+    - title: The Best of Node Weekly in 2022
+      url: https://javascriptweekly.com/link/133216/web
+      type: News
+    - title: jQuery 3.6.2 Released
+      url: https://javascriptweekly.com/link/133255/web
+      type: News
+    - title: Why Cypress v12 is a Big Deal
+      url: https://javascriptweekly.com/link/133260/web
+      type: News
+    - title: Five Challenges to Building an Isomorphic JS Library
+      url: https://javascriptweekly.com/link/133262/web
+      type: News
+    - title: A Podcast for Candid Chats on Product, Business & Leadership
+      url: https://javascriptweekly.com/link/133220/web
+      type: News
+    - title: Next, Nest, Nuxt… Nust?
+      url: https://javascriptweekly.com/link/133263/web
+      type: News
+    - title: Calculating the Maximum Diagonal Distance in a Given Collection of GeoJSON
+        Features using Turf.js
+      url: https://javascriptweekly.com/link/133264/web
+      type: News
+    - title: Optimize Interaction to Next Paint
+      url: https://javascriptweekly.com/link/133231/web
+      type: News
+    - title: Need to Upgrade to React 18.2? Don’t Have Time? Our Experts Can Help
+      url: https://javascriptweekly.com/link/133230/web
+      type: News
+    - title: 'Wretch 2.3: A Wrapper Around fetch with an Intuitive Syntax'
+      url: https://javascriptweekly.com/link/133234/web
+      type: News
+    - title: 'SWR 2.0: Improved React Hooks for Data Fetching'
+      url: https://javascriptweekly.com/link/133223/web
+      type: News
+    - title: Don’t Let Your Issue Tracker Be a Four-Letter Word. Use Shortcut
+      url: https://javascriptweekly.com/link/133236/web
+      type: News
+    - title: 'vanilla-tilt.js 1.8: A Smooth 3D Tilting Effect Library'
+      url: https://javascriptweekly.com/link/133237/web
+      type: News
+    - title: 'visx: Airbnb''s Low Level Visualization React Components'
+      url: https://javascriptweekly.com/link/133239/web
+      type: News
+    - title: 'Scene.js 1.7: A CSS Timeline-Based Animation Library'
+      url: https://javascriptweekly.com/link/133241/web
+      type: News
+    - title: 'Snow.js: Add a Snow Effect to a Web Page'
+      url: https://javascriptweekly.com/link/133252/web
+      type: News
