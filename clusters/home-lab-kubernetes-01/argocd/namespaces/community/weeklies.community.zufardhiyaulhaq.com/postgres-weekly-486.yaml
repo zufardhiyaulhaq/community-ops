@@ -1,0 +1,59 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-486
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 486
+    date: 12/21/2022
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: "\U0001F631 A Hairy Postgres Incident"
+      url: https://postgresweekly.com/link/133277/web
+      type: News
+    - title: Postgres 15, A Billion Transactions Later
+      url: https://postgresweekly.com/link/133278/web
+      type: News
+    - title: Visualize Key PostgreSQL Performance Metrics with Context in Datadog
+      url: https://postgresweekly.com/link/133276/web
+      type: News
+    - title: Postgres 15's MERGE Feature
+      url: https://postgresweekly.com/link/133280/web
+      type: News
+    - title: How Postgres Chooses Which Index to Use for a Query
+      url: https://postgresweekly.com/link/133281/web
+      type: News
+    - title: Getting a Query 'Progress Bar' in Postgres
+      url: https://postgresweekly.com/link/133283/web
+      type: News
+    - title: How Retool Upgraded Its 4TB Postgres Database to v13
+      url: https://postgresweekly.com/link/133284/web
+      type: News
+    - title: '''How We Optimized Our Postgres Queries 100x'''
+      url: https://postgresweekly.com/link/133285/web
+      type: News
+    - title: 'pg_activity 3.0: htop-Like Activity Monitoring Tool'
+      url: https://postgresweekly.com/link/133291/web
+      type: News
+    - title: 'RDS to Crunchy Bridge: A Customer Case Study on Migration'
+      url: https://postgresweekly.com/link/133292/web
+      type: News
+    - title: 'Pagila 3.0: A Sample Database for Postgres'
+      url: https://postgresweekly.com/link/133293/web
+      type: News
+    - title: 'OrioleDB: A New Cloud-Native Storage Engine for Postgres'
+      url: https://postgresweekly.com/link/133296/web
+      type: News
+    - title: Citus 11 for Postgres Went Fully Open Source
+      url: https://postgresweekly.com/link/133297/web
+      type: News
+    - title: 'Awesome Postgres: A Curated List of Libraries, Tools, and Resources'
+      url: https://postgresweekly.com/link/133298/web
+      type: News
