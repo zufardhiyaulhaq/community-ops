@@ -241,9 +241,12 @@ jobs:
         shell: bash
         env:
           HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
-      - name: deploy applications
+      - name: install istio control plane 1.16.1
         run: |
           python3 scripts/deployer.py istio control-plane deploy --cluster-name home-lab-kubernetes-01 --revision 1-16-1
+      - name: set default tag to newest version
+        run: |
+         istioctl tag set default --context home-lab-kubernetes-01 --revision 1-16-1 --overwrite
   istio-gateway-deploy:
     needs:
     - istio-control-plane-deploy
@@ -299,6 +302,6 @@ jobs:
         shell: bash
         env:
           HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
-      - name: deploy applications
+      - name: install gateway version 1.16.1
         run: |
           python3 scripts/deployer.py istio gateway deploy --cluster-name home-lab-kubernetes-01 --revision 1-16-1
