@@ -55,7 +55,7 @@ jobs:
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.15.4
+          version: 1.16.1
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
@@ -111,7 +111,7 @@ jobs:
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.15.4
+          version: 1.16.1
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
@@ -167,7 +167,7 @@ jobs:
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.15.4
+          version: 1.16.1
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
@@ -223,7 +223,7 @@ jobs:
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.15.4
+          version: 1.16.1
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
@@ -232,7 +232,7 @@ jobs:
           HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
       - name: Diff applications
         run: |
-          python3 scripts/deployer.py istio control-plane diff --cluster-name home-lab-kubernetes-01 --revision 1-15-4
+          python3 scripts/deployer.py istio control-plane diff --cluster-name home-lab-kubernetes-01 --revision 1-16-1
   istio-gateway-diff:
     runs-on: ubuntu-latest
     steps:
@@ -279,7 +279,7 @@ jobs:
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.15.4
+          version: 1.16.1
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
@@ -288,7 +288,7 @@ jobs:
           HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
       - name: Diff applications
         run: |
-          python3 scripts/deployer.py istio gateway diff --cluster-name home-lab-kubernetes-01 --revision 1-15-4
+          python3 scripts/deployer.py istio gateway diff --cluster-name home-lab-kubernetes-01 --revision 1-16-1
 
   kustomize-dryrun:
     runs-on: ubuntu-latest
@@ -336,7 +336,7 @@ jobs:
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.15.4
+          version: 1.16.1
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
@@ -392,7 +392,7 @@ jobs:
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.15.4
+          version: 1.16.1
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
@@ -448,7 +448,7 @@ jobs:
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.15.4
+          version: 1.16.1
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
@@ -504,7 +504,7 @@ jobs:
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.15.4
+          version: 1.16.1
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
@@ -513,7 +513,7 @@ jobs:
           HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
       - name: dryrun applications
         run: |
-          python3 scripts/deployer.py istio control-plane dryrun --cluster-name home-lab-kubernetes-01 --revision 1-15-4
+          python3 scripts/deployer.py istio control-plane dryrun --cluster-name home-lab-kubernetes-01 --revision 1-16-1
   istio-gateway-dryrun:
     runs-on: ubuntu-latest
     steps:
@@ -560,7 +560,7 @@ jobs:
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.15.4
+          version: 1.16.1
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
@@ -569,4 +569,4 @@ jobs:
           HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
       - name: dryrun applications
         run: |
-          python3 scripts/deployer.py istio gateway dryrun --cluster-name home-lab-kubernetes-01 --revision 1-15-4
+          python3 scripts/deployer.py istio gateway dryrun --cluster-name home-lab-kubernetes-01 --revision 1-16-1

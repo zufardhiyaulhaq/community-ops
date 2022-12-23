@@ -9,8 +9,8 @@ on:
 
 env:
   KUBECONFIG: /tmp/config
-  ISTIO-REVISION: 1-15-4
-  ISTIO-VERSION: 1.15.4
+  ISTIO-REVISION: 1-16-1
+  ISTIO-VERSION: 1.16.1
 
 jobs:
   kustomize-deploy:
@@ -59,7 +59,7 @@ jobs:
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.15.4
+          version: 1.16.1
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
@@ -117,7 +117,7 @@ jobs:
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.15.4
+          version: 1.16.1
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
@@ -175,7 +175,7 @@ jobs:
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.15.4
+          version: 1.16.1
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
@@ -234,7 +234,7 @@ jobs:
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.15.4
+          version: 1.16.1
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
@@ -243,7 +243,7 @@ jobs:
           HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
       - name: deploy applications
         run: |
-          python3 scripts/deployer.py istio control-plane deploy --cluster-name home-lab-kubernetes-01 --revision 1-15-4
+          python3 scripts/deployer.py istio control-plane deploy --cluster-name home-lab-kubernetes-01 --revision 1-16-1
   istio-gateway-deploy:
     needs:
     - istio-control-plane-deploy
@@ -292,7 +292,7 @@ jobs:
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.15.4
+          version: 1.16.1
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
@@ -301,4 +301,4 @@ jobs:
           HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
       - name: deploy applications
         run: |
-          python3 scripts/deployer.py istio gateway deploy --cluster-name home-lab-kubernetes-01 --revision 1-15-4
+          python3 scripts/deployer.py istio gateway deploy --cluster-name home-lab-kubernetes-01 --revision 1-16-1
