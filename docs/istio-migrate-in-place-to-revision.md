@@ -5,21 +5,21 @@ this scenario is when the current in-place upgrade doesn't have any `revision` t
 1. make sure you already split istio control plane and gateway into different istioOperator.
 2. install new revision of control plane
 ```
-istioctl install -f control-plane.yaml --force --skip-confirmation --dry-run --revision 1-15-4
-istioctl install -f control-plane.yaml --force --skip-confirmation --revision 1-15-4
+istioctl install -f control-plane.yaml --force --skip-confirmation --dry-run --revision 1-16-1
+istioctl install -f control-plane.yaml --force --skip-confirmation --revision 1-16-1
 ```
 
 3. upgrade in-place each gateway, also use --revision
 ```
-istioctl install -f control-plane.yaml --force --skip-confirmation --dry-run --revision 1-15-4
-istioctl install -f control-plane.yaml --force --skip-confirmation --revision 1-15-4
+istioctl install -f control-plane.yaml --force --skip-confirmation --dry-run --revision 1-16-1
+istioctl install -f control-plane.yaml --force --skip-confirmation --revision 1-16-1
 ```
 this will in-place upgrade the gateway rather than creating a new deployment
 
 4. upgrade each namespace with the new labels
 add label
 ```
-istio.io/rev: 1-15-4
+istio.io/rev: 1-16-1
 ```
 remove label
 ```
@@ -36,6 +36,6 @@ istioctl uninstall -f control-plane.yaml --force --skip-confirmation
 
 there is several clusterRole that get deleted, reapply the revision
 ```
-istioctl install -f control-plane.yaml --force --skip-confirmation --dry-run --revision 1-15-4
-istioctl install -f control-plane.yaml --force --skip-confirmation --revision 1-15-4
+istioctl install -f control-plane.yaml --force --skip-confirmation --dry-run --revision 1-16-1
+istioctl install -f control-plane.yaml --force --skip-confirmation --revision 1-16-1
 ```
