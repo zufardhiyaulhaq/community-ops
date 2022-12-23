@@ -10,11 +10,9 @@ spec:
       "app": "istio-public-gateway"
       "istio": "ingressgateway"
     istio_version:
-      - "1.11"
-      - "1.12"
-      - "1.13"
       - "1.14"
       - "1.15"
+      - "1.16"
   ratelimit:
     spec:
       domain: "istio-public-gateway"
