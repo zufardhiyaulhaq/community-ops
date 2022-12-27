@@ -12,4 +12,4 @@ spec:
   - to:
     - operation:
         hosts: 
-        - grafana.zufardhiyaulhaq.com*
+        - grafana.zufardhiyaulhaq.com

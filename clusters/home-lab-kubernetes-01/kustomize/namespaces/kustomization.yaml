@@ -6,3 +6,4 @@ resources:
 - kubecost-system
 - longhorn-system
 - observability-system
+- cilium-system

@@ -1,0 +1,6 @@
+
+namespace: cilium-system
+commonLabels:
+  namespace: cilium-system
+  owner: zufardhiyaulhaq
+

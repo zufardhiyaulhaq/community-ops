@@ -3,7 +3,7 @@ cronSchedule: "0 12 * * 1-5"
 
 image:
   repository: "zufardhiyaulhaq/sma-alert"
-  tag: "v1.2.0"
+  tag: "v1.3.0"
 
 secret: "sma"
 

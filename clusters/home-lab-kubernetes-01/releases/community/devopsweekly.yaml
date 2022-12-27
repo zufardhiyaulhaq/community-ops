@@ -2,7 +2,7 @@ cronSchedule: "0 8 * * 1"
 
 image:
   repository: "zufardhiyaulhaq/devopsweekly"
-  tag: "v2.0.0"
+  tag: "v2.1.0"
 
 secret: "weekly"
 

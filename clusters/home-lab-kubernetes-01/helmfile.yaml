@@ -33,8 +33,17 @@ repositories:
   url: https://prometheus-community.github.io/helm-charts
 - name: kiali
   url: https://kiali.org/helm-charts
+- name: cilium
+  url: https://helm.cilium.io/
 
 releases:
+- name: cilium
+  namespace: cilium-system
+  version: 1.12.5
+  chart: cilium/cilium
+  values:
+  - releases/cilium-system/cilium.yaml
+
 - name: frp-operator
   namespace: infrastructure
   version: 1.0.0
@@ -44,49 +53,50 @@ releases:
 
 - name: longhorn
   namespace: longhorn-system
-  version: 1.3.0
-  chart: longhorn/longhorn
+  # version: 1.3.0
+  # chart: longhorn/longhorn
+  chart: git::https://github.com/longhorn/longhorn.git@chart?ref=v1.4.0-rc2
   values:
   - releases/longhorn-system/longhorn.yaml
 
 - name: sealed-secrets
   namespace: infrastructure
-  version: 2.2.0
+  version: 2.7.2
   chart: sealed-secrets/sealed-secrets
   values:
   - releases/infrastructure/sealed-secret.yaml
 
 - name: cert-manager
   namespace: infrastructure
-  version: 1.9.0
+  version: 1.10.1
   chart: jetstack/cert-manager
   values:
   - releases/infrastructure/cert-manager.yaml
 
 - name: external-dns
   namespace: infrastructure
-  version: 6.7.5
+  version: 6.12.2
   chart: bitnami/external-dns
   values:
   - releases/infrastructure/external-dns.yaml
 
 - name: argocd
   namespace: argocd-system
-  version: 4.9.4
+  version: 5.16.9
   chart: argo/argo-cd
   values:
   - releases/argocd-system/argocd.yaml
 
 - name: victoria-metrics
   namespace: observability-system
-  version: 0.9.5
+  version: 0.13.5
   chart: vm/victoria-metrics-k8s-stack
   values:
   - releases/observability-system/victoria-metrics.yaml
 
 - name: cost-analyzer
   namespace: kubecost-system
-  version: 1.92.0
+  version: 1.99.0
   chart: kubecost/cost-analyzer
   values:
   - releases/kubecost-system/cost-analyzer.yaml
@@ -107,28 +117,28 @@ releases:
 
 - name: devopsweekly
   namespace: community
-  version: 2.0.0
+  version: 2.1.0
   chart: devopsweekly/devopsweekly
   values:
   - releases/community/devopsweekly.yaml
 
 - name: javascriptweekly
   namespace: community
-  version: 2.0.0
+  version: 2.1.0
   chart: javascriptweekly/javascriptweekly
   values:
   - releases/community/javascriptweekly.yaml
 
 - name: postgresweekly
   namespace: community
-  version: 1.0.0
+  version: 1.1.0
   chart: postgresweekly/postgresweekly
   values:
   - releases/community/postgresweekly.yaml
 
 - name: sma-alert
   namespace: community
-  version: 1.2.0
+  version: 1.3.0
   chart: sma-alert/sma-alert
   values:
   - releases/community/sma-alert.yaml
@@ -142,22 +152,21 @@ releases:
 
 - name: statsd-exporter
   namespace: observability-system
-  version: 0.6.0
+  version: 0.7.0
   chart: prometheus-community/prometheus-statsd-exporter
   values:
   - releases/observability-system/statsd-exporter.yaml
 
 - name: statsd-exporter
   namespace: istio-system
-  version: 0.6.0
+  version: 0.7.0
   chart: prometheus-community/prometheus-statsd-exporter
   values:
   - releases/istio-system/statsd-exporter.yaml
 
-
 - name: kiali-operator
   namespace: istio-system
-  version: 1.54.0
+  version: 1.59.1
   chart: kiali/kiali-operator
   values:
   - releases/istio-system/kiali-operator.yaml
