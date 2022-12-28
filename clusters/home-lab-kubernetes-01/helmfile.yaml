@@ -38,11 +38,11 @@ repositories:
 
 releases:
 - name: cilium
-  namespace: cilium-system
+  namespace: kube-system
   version: 1.12.5
   chart: cilium/cilium
   values:
-  - releases/cilium-system/cilium.yaml
+  - releases/kube-system/cilium.yaml
 
 - name: frp-operator
   namespace: infrastructure
@@ -87,12 +87,12 @@ releases:
   values:
   - releases/argocd-system/argocd.yaml
 
-- name: victoria-metrics
-  namespace: observability-system
-  version: 0.13.5
-  chart: vm/victoria-metrics-k8s-stack
-  values:
-  - releases/observability-system/victoria-metrics.yaml
+# - name: victoria-metrics
+#   namespace: observability-system
+#   version: 0.13.5
+#   chart: vm/victoria-metrics-k8s-stack
+#   values:
+#   - releases/observability-system/victoria-metrics.yaml
 
 - name: cost-analyzer
   namespace: kubecost-system
@@ -150,12 +150,12 @@ releases:
   values:
   - releases/infrastructure/istio-ratelimit-operator.yaml
 
-- name: statsd-exporter
-  namespace: observability-system
-  version: 0.7.0
-  chart: prometheus-community/prometheus-statsd-exporter
-  values:
-  - releases/observability-system/statsd-exporter.yaml
+# - name: statsd-exporter
+#   namespace: observability-system
+#   version: 0.7.0
+#   chart: prometheus-community/prometheus-statsd-exporter
+#   values:
+#   - releases/observability-system/statsd-exporter.yaml
 
 - name: statsd-exporter
   namespace: istio-system

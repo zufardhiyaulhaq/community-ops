@@ -1,0 +1,3 @@
+kubeProxyReplacement: strict
+k8sServiceHost: master-01.kubernetes-01.home.zufardhiyaulhaq.com
+k8sServicePort: 6443

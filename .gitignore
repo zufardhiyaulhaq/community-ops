@@ -141,3 +141,4 @@ cython_debug/
 # kustomize
 rendered.yml
 rendered.yaml
+.helmfile
