@@ -1,3 +1,12 @@
 kubeProxyReplacement: strict
 k8sServiceHost: master-01.kubernetes-01.home.zufardhiyaulhaq.com
 k8sServicePort: 6443
+
+hubble:
+  relay:
+    enabled: true
+  ui:
+    enabled: true
+
+socketLB:
+  hostNamespaceOnly: true
