@@ -11,8 +11,12 @@ istioctl install -f control-plane.yaml --force --skip-confirmation --revision 1-
 
 3. upgrade in-place each gateway, also use --revision
 ```
-istioctl install -f control-plane.yaml --force --skip-confirmation --dry-run --revision 1-16-1
-istioctl install -f control-plane.yaml --force --skip-confirmation --revision 1-16-1
+istioctl install -f gateway/istio-public-gateway.yaml --force --skip-confirmation --dry-run --revision 1-16-1
+istioctl install -f gateway/istio-public-gateway.yaml --force --skip-confirmation --revision 1-16-1
+istioctl install -f gateway/istio-service-gateway.yaml --force --skip-confirmation --dry-run --revision 1-16-1
+istioctl install -f gateway/istio-service-gateway.yaml --force --skip-confirmation --revision 1-16-1
+istioctl install -f gateway/istio-test-gateway.yaml --force --skip-confirmation --dry-run --revision 1-16-1
+istioctl install -f gateway/istio-test-gateway.yaml --force --skip-confirmation --revision 1-16-1
 ```
 this will in-place upgrade the gateway rather than creating a new deployment
 
@@ -55,8 +59,12 @@ istioctl install -f control-plane.yaml --force --skip-confirmation --revision 1-
 
 2. upgrade in-place each gateway, also use --revision
 ```
-istioctl install -f control-plane.yaml --force --skip-confirmation --dry-run --revision 1-16-2
-istioctl install -f control-plane.yaml --force --skip-confirmation --revision 1-16-2
+istioctl install -f gateway/istio-public-gateway.yaml --force --skip-confirmation --dry-run --revision 1-16-2
+istioctl install -f gateway/istio-public-gateway.yaml --force --skip-confirmation --revision 1-16-2
+istioctl install -f gateway/istio-service-gateway.yaml --force --skip-confirmation --dry-run --revision 1-16-2
+istioctl install -f gateway/istio-service-gateway.yaml --force --skip-confirmation --revision 1-16-2
+istioctl install -f gateway/istio-test-gateway.yaml --force --skip-confirmation --dry-run --revision 1-16-2
+istioctl install -f gateway/istio-test-gateway.yaml --force --skip-confirmation --revision 1-16-2
 ```
 this will in-place upgrade the gateway rather than creating a new deployment
 
