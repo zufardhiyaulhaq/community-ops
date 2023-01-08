@@ -1,0 +1,43 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-442
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 442
+    date: 01/08/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: 'Conc: Better Structured Concurrency for Go'
+      url: https://golangweekly.com/link/133705/web
+      type: News
+    - title: Go 1.20 Cryptography
+      url: https://golangweekly.com/link/133706/web
+      type: News
+    - title: Build Your Team’s Private Network with Tailscale
+      url: https://golangweekly.com/link/133704/web
+      type: News
+    - title: 'The Go Libraries That Never Failed Us: 22 Libraries You Need to Know'
+      url: https://golangweekly.com/link/133716/web
+      type: News
+    - title: Faster Go Code by Being Mindful of Memory
+      url: https://golangweekly.com/link/133720/web
+      type: News
+    - title: 'Wish 1.0: Makes Building SSH-Based Apps in Go Easier'
+      url: https://golangweekly.com/link/133722/web
+      type: News
+    - title: 'Pushup: A Page-Oriented Web Framework'
+      url: https://golangweekly.com/link/133728/web
+      type: News
+    - title: 'GopherLua 1.0: A VM and Compiler for Lua in Go'
+      url: https://golangweekly.com/link/133733/web
+      type: News
+    - title: 'graphql-go 1.5.0: A GraphQL Server with a Focus on Ease of Use'
+      url: https://golangweekly.com/link/133735/web
+      type: News
