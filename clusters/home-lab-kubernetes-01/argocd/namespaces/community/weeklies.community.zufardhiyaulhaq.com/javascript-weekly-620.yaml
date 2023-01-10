@@ -1,0 +1,86 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-620
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 620
+    date: 01/10/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: The 2022 JavaScript Rising Stars
+      url: https://javascriptweekly.com/link/133749/web
+      type: News
+    - title: Evan You Looks at 2022 and 2023
+      url: https://javascriptweekly.com/link/133751/web
+      type: News
+    - title: "\U0001F9C8 Retire your Legacy CMS with ButterCMS"
+      url: https://javascriptweekly.com/link/133748/web
+      type: News
+    - title: Six JavaScript Projects to Watch in 2023
+      url: https://javascriptweekly.com/link/133752/web
+      type: News
+    - title: 'Douglas Crockford: "The best thing we can do today to JavaScript is
+        to retire it."'
+      url: https://javascriptweekly.com/link/133771/web
+      type: News
+    - title: Ecma International Approved ECMAScript 2022
+      url: https://javascriptweekly.com/link/133772/web
+      type: News
+    - title: 'Whiskey Web and Whatnot: Your New Favorite JavaScript Podcast'
+      url: https://javascriptweekly.com/link/133774/web
+      type: News
+    - title: 'JS Function Composition: What’s The Big Deal?'
+      url: https://javascriptweekly.com/link/133775/web
+      type: News
+    - title: AbortController is Your Friend
+      url: https://javascriptweekly.com/link/133776/web
+      type: News
+    - title: Ten Common JavaScript Issues Developers Face
+      url: https://javascriptweekly.com/link/133778/web
+      type: News
+    - title: 'A Pipe Operator for JS: Introduction and Use Cases'
+      url: https://javascriptweekly.com/link/133779/web
+      type: News
+    - title: 'Patterns.dev: Modern Web App Design Patterns'
+      url: https://javascriptweekly.com/link/133781/web
+      type: News
+    - title: Decorators for ES6 Proposal Reached Stage 3 at TC39
+      url: https://javascriptweekly.com/link/133782/web
+      type: News
+    - title: 'Rome Formatter: Super Fast JavaScript Formatting'
+      url: https://javascriptweekly.com/link/133785/web
+      type: News
+    - title: TypeScript 4.6 Released
+      url: https://javascriptweekly.com/link/133788/web
+      type: News
+    - title: 'Dynaboard: The Pro-Code Web App Builder Made for Developers'
+      url: https://javascriptweekly.com/link/133790/web
+      type: News
+    - title: Vite 4.0 Released
+      url: https://javascriptweekly.com/link/133791/web
+      type: News
+    - title: 'Lexical: An Extensible Text Editor Library'
+      url: https://javascriptweekly.com/link/133792/web
+      type: News
+    - title: 'Bun: A (Still) Interesting New JavaScript Runtime'
+      url: https://javascriptweekly.com/link/133750/web
+      type: News
+    - title: 'JSON Crack: Visualize JSON Data in Graph Form'
+      url: https://javascriptweekly.com/link/133795/web
+      type: News
+    - title: "Stuck on Node 10? Need to Upgrade but Don’t Have Time? Contact Us \U0001F680"
+      url: https://javascriptweekly.com/link/133797/web
+      type: News
+    - title: 'Shader Park: Create Interactive 2D and 3D Shaders with JavaScript'
+      url: https://javascriptweekly.com/link/133798/web
+      type: News
+    - title: 'Axios 1.0: The Popular HTTP Client Library/API'
+      url: https://javascriptweekly.com/link/133800/web
+      type: News
