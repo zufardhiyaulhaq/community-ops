@@ -1,0 +1,53 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-487
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 487
+    date: 01/11/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: The Different Levels of Generating Lots of Test Data with Postgres
+      url: https://postgresweekly.com/link/133486/web
+      type: News
+    - title: PGCon 2023's Call for Papers
+      url: https://postgresweekly.com/link/133487/web
+      type: News
+    - title: A Definitive Guide to Cloud-Native, Distributed PostgreSQL
+      url: https://postgresweekly.com/link/133489/web
+      type: News
+    - title: Improving GROUP BY with CREATE STATISTICS
+      url: https://postgresweekly.com/link/133490/web
+      type: News
+    - title: Some Postgres 'Hidden Gems'
+      url: https://postgresweekly.com/link/133497/web
+      type: News
+    - title: When tsvector Was Working as Expected on Most Hosts.. But Not on One
+      url: https://postgresweekly.com/link/133498/web
+      type: News
+    - title: 'Don''t Do This: Creating Useless Indexes'
+      url: https://postgresweekly.com/link/133499/web
+      type: News
+    - title: 'Free eBook: How to Create the Best Postgres Index for Your Queries'
+      url: https://postgresweekly.com/link/133500/web
+      type: News
+    - title: JSON Logs in Postgres 15
+      url: https://postgresweekly.com/link/133501/web
+      type: News
+    - title: Diffing Postgres Schema Changes
+      url: https://postgresweekly.com/link/133502/web
+      type: News
+    - title: A Look at the Pre-Release of PostgREST 11
+      url: https://postgresweekly.com/link/133512/web
+      type: News
+    - title: 'external_file v1.1: Work with Files on the Server'
+      url: https://postgresweekly.com/link/133542/web
+      type: News
