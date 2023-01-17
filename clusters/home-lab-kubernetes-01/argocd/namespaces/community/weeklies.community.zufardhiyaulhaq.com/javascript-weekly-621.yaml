@@ -1,0 +1,73 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-621
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 621
+    date: 01/17/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: The State of JS 2022
+      url: https://javascriptweekly.com/link/134096/web
+      type: News
+    - title: "\U0001F9C8 Retire your Legacy CMS with ButterCMS"
+      url: https://javascriptweekly.com/link/134045/web
+      type: News
+    - title: Is TypeScript Worth It?
+      url: https://javascriptweekly.com/link/134046/web
+      type: News
+    - title: The Gotcha of Unhandled Promise Rejections
+      url: https://javascriptweekly.com/link/134054/web
+      type: News
+    - title: 'HTML with Superpowers: The Guidebook'
+      url: https://javascriptweekly.com/link/134055/web
+      type: News
+    - title: With Retool You Ship Apps Fast with 100+ Perfectly Crafted UI Components
+      url: https://javascriptweekly.com/link/134057/web
+      type: News
+    - title: Everything About React's 'Concurrent Mode' Features
+      url: https://javascriptweekly.com/link/134058/web
+      type: News
+    - title: Using GitHub Copilot for Unit Testing?
+      url: https://javascriptweekly.com/link/134060/web
+      type: News
+    - title: How to Destructure Props in Vue (Composition API)
+      url: https://javascriptweekly.com/link/134063/web
+      type: News
+    - title: 'Gluon: Framework for Creating Desktop Apps from Sites'
+      url: https://javascriptweekly.com/link/134065/web
+      type: News
+    - title: 'Structura.js: Lightweight Library for Immutable State Management'
+      url: https://javascriptweekly.com/link/134094/web
+      type: News
+    - title: Tuple, a Lightning-Fast Pairing Tool Built for Remote Developers
+      url: https://javascriptweekly.com/link/134067/web
+      type: News
+    - title: 'Bay.js: A Lightweight Library for Web Components'
+      url: https://javascriptweekly.com/link/134068/web
+      type: News
+    - title: 'Twify: Scaffold a Tailwind CSS Project with a Single Command'
+      url: https://javascriptweekly.com/link/134066/web
+      type: News
+    - title: 'Lazy Brush 2.0: A Library for Smooth Pointer Drawing'
+      url: https://javascriptweekly.com/link/134088/web
+      type: News
+    - title: 'Mafs: React Components for Interactive Math'
+      url: https://javascriptweekly.com/link/134069/web
+      type: News
+    - title: Are You Looking for a New Observability Tool?
+      url: https://javascriptweekly.com/link/134076/web
+      type: News
+    - title: 'Hyphenopoly 5.0: A Polyfill for Client-Side Hyphenation'
+      url: https://javascriptweekly.com/link/134075/web
+      type: News
+    - title: Oxygene Pt 4, as Performed by JavaScript
+      url: https://javascriptweekly.com/link/134048/web
+      type: News
