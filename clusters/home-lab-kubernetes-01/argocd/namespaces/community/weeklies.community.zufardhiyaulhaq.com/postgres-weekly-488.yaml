@@ -1,0 +1,50 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-488
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 488
+    date: 01/18/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: 'Supabase Wrappers: An FDW Framework Written in Rust'
+      url: https://postgresweekly.com/link/133810/web
+      type: News
+    - title: ❤️ Postgres
+      url: https://postgresweekly.com/link/133809/web
+      type: News
+    - title: Faster PostgreSQL to BigQuery Transfers
+      url: https://postgresweekly.com/link/133812/web
+      type: News
+    - title: A Short Summary of 2022 in the Postgres World
+      url: https://postgresweekly.com/link/133813/web
+      type: News
+    - title: Looking at Index Types in Postgres
+      url: https://postgresweekly.com/link/133818/web
+      type: News
+    - title: Generate Excel Workbooks from Postgres on AWS
+      url: https://postgresweekly.com/link/133819/web
+      type: News
+    - title: 'Free eBook Download: Understanding Kubernetes (Updated Edition)'
+      url: https://postgresweekly.com/link/133820/web
+      type: News
+    - title: SUBSTR Functionality Differences Between Oracle and Postgres
+      url: https://postgresweekly.com/link/133821/web
+      type: News
+    - title: 'pg_rowalesce: Coalescence for Rows'
+      url: https://postgresweekly.com/link/133824/web
+      type: News
+    - title: 'PL/Haskell 1.1: Use Haskell from within SQL Functions'
+      url: https://postgresweekly.com/link/133825/web
+      type: News
+    - title: 'sqld: A ''Server Mode'' for libSQL/SQLite'
+      url: https://postgresweekly.com/link/133826/web
+      type: News
