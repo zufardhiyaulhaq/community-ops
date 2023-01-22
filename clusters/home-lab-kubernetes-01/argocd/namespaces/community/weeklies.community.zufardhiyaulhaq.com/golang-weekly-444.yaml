@@ -1,0 +1,61 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-444
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 444
+    date: 01/22/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: Generating Diagrams Programmatically with D2
+      url: https://golangweekly.com/link/134317/web
+      type: News
+    - title: Time to Take the January 2023 Go Developer Survey
+      url: https://golangweekly.com/link/134319/web
+      type: News
+    - title: Add Secure Audit Logging to Your Go App with Pangea
+      url: https://golangweekly.com/link/134316/web
+      type: News
+    - title: More on What’s Coming in Go 1.20
+      url: https://golangweekly.com/link/134320/web
+      type: News
+    - title: 'The State of Go: JetBrains'' Developer Ecosystem Report'
+      url: https://golangweekly.com/link/134324/web
+      type: News
+    - title: Examples of Problems with Integers
+      url: https://golangweekly.com/link/134325/web
+      type: News
+    - title: Learn How to Use Temporal OSS Using Go
+      url: https://golangweekly.com/link/134326/web
+      type: News
+    - title: Executable Examples in Go
+      url: https://golangweekly.com/link/134327/web
+      type: News
+    - title: The Exasperated Engineer's Guide to IPs in Go
+      url: https://golangweekly.com/link/134328/web
+      type: News
+    - title: 'Graph: Library to Work with Generic Graph Data Structures'
+      url: https://golangweekly.com/link/134329/web
+      type: News
+    - title: Simplify Workflows with Tailscale SSH
+      url: https://golangweekly.com/link/134330/web
+      type: News
+    - title: 'pREST: Serve a RESTful API From a Postgres Database'
+      url: https://golangweekly.com/link/134331/web
+      type: News
+    - title: 'LiteFS: FUSE-Based SQLite Replication'
+      url: https://golangweekly.com/link/134333/web
+      type: News
+    - title: 'Garble: A Toolchain to Obfuscate Go Builds'
+      url: https://golangweekly.com/link/134335/web
+      type: News
+    - title: 'Cadet: Library for Creating Simple HTTP-RPC Servers'
+      url: https://golangweekly.com/link/134336/web
+      type: News
