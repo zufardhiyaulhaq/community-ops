@@ -1,0 +1,70 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-622
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 622
+    date: 01/24/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: Why Not document.write()?
+      url: https://javascriptweekly.com/link/134358/web
+      type: News
+    - title: The WebAssembly JavaScript Promise Integration API
+      url: https://javascriptweekly.com/link/134348/web
+      type: News
+    - title: Break the Programming Mold with Dependency Injection
+      url: https://javascriptweekly.com/link/134347/web
+      type: News
+    - title: Why Is My Jest Suite So Slow?
+      url: https://javascriptweekly.com/link/134349/web
+      type: News
+    - title: Bun v0.5 Released
+      url: https://javascriptweekly.com/link/134351/web
+      type: News
+    - title: Building an Accessible Theme Picker
+      url: https://javascriptweekly.com/link/134361/web
+      type: News
+    - title: Fixing a Memory Leak in a Production Node.js App
+      url: https://javascriptweekly.com/link/134359/web
+      type: News
+    - title: Build a Mobile-Responsive Telehealth Pager App Using Stream’s Chat API
+      url: https://javascriptweekly.com/link/134360/web
+      type: News
+    - title: A Beginner’s Guide to Chrome Tracing
+      url: https://javascriptweekly.com/link/134362/web
+      type: News
+    - title: Handling Errors Like a Pro in TypeScript
+      url: https://javascriptweekly.com/link/134363/web
+      type: News
+    - title: 'RoughNotation: Cute Animated ''Rough'' Text Annotations'
+      url: https://javascriptweekly.com/link/134366/web
+      type: News
+    - title: 'Free Website Speed Test: Does Your Site Meet Google''s Core Web Vitals?'
+      url: https://javascriptweekly.com/link/134368/web
+      type: News
+    - title: 'Modern Errors: Handle Errors in a Simple, Stable, Consistent Way'
+      url: https://javascriptweekly.com/link/134369/web
+      type: News
+    - title: 'Shifty: A Small, Fast Tweening Engine'
+      url: https://javascriptweekly.com/link/134370/web
+      type: News
+    - title: 'Barba.js: For Smooth Visual Transitions Between Pages'
+      url: https://javascriptweekly.com/link/134372/web
+      type: News
+    - title: 'Rete.js 1.5: A Framework for Visual Programming'
+      url: https://javascriptweekly.com/link/134374/web
+      type: News
+    - title: Don’t Let Your Issue Tracker Be a Four-Letter Word. Use Shortcut
+      url: https://javascriptweekly.com/link/134378/web
+      type: News
+    - title: 'gpu-io: GPU-Accelerated Computing Library'
+      url: https://javascriptweekly.com/link/134379/web
+      type: News
