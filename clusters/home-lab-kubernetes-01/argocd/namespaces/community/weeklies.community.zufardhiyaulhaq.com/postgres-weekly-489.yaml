@@ -1,0 +1,44 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-489
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 489
+    date: 01/25/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: PostgreSQL 16's random_normal() Function
+      url: https://postgresweekly.com/link/134142/web
+      type: News
+    - title: How to JSON in Postgres
+      url: https://postgresweekly.com/link/134143/web
+      type: News
+    - title: Struggling with High Availability on Postgres?
+      url: https://postgresweekly.com/link/134141/web
+      type: News
+    - title: 'usql: A ''Universal psql''?'
+      url: https://postgresweekly.com/link/134148/web
+      type: News
+    - title: Using RETURNING to Return Modified Rows
+      url: https://postgresweekly.com/link/134150/web
+      type: News
+    - title: Building a Postgres Wire Protocol Server
+      url: https://postgresweekly.com/link/134156/web
+      type: News
+    - title: SQLite-Based Databases on the Postgres Protocol? Yes We Can
+      url: https://postgresweekly.com/link/134160/web
+      type: News
+    - title: 'Bun 1.1.10: Simple, Performant ORM for Go'
+      url: https://postgresweekly.com/link/134161/web
+      type: News
+    - title: Tuple, a Lightning-Fast Pairing Tool Built for Remote Developers
+      url: https://postgresweekly.com/link/134163/web
+      type: News
