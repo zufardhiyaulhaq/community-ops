@@ -70,7 +70,9 @@ spec:
         "path": "%REQ(X-ENVOY-ORIGINAL-PATH?:PATH)%",
         "response_code_details": "%RESPONSE_CODE_DETAILS%",
         "connection_termination_details": "%CONNECTION_TERMINATION_DETAILS%",
-        "grpc_status_code": "%GRPC_STATUS_NUMBER%"
+        "grpc_status_code": "%GRPC_STATUS_NUMBER%",
+        "downstream_tls_version": "%DOWNSTREAM_TLS_VERSION%",
+        "upstream_tls_version": "%UPSTREAM_TLS_VERSION%"
       }
     dnsRefreshRate: 30s
     defaultConfig:

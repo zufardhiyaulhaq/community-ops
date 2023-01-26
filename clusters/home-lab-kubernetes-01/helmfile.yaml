@@ -53,9 +53,8 @@ releases:
 
 - name: longhorn
   namespace: longhorn-system
-  # version: 1.3.0
-  # chart: longhorn/longhorn
-  chart: git::https://github.com/longhorn/longhorn.git@chart?ref=v1.4.0-rc2
+  version: 1.4.0
+  chart: longhorn/longhorn
   values:
   - releases/longhorn-system/longhorn.yaml
 
@@ -89,7 +88,7 @@ releases:
 
 - name: victoria-metrics
   namespace: observability-system
-  version: 0.13.5
+  version: 0.14.5
   chart: vm/victoria-metrics-k8s-stack
   values:
   - releases/observability-system/victoria-metrics.yaml
