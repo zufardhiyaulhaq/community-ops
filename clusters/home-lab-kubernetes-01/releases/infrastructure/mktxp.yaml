@@ -33,6 +33,10 @@ deployment:
       memory: 64Mi
       cpu: 0.1
 
+  containerSecurityContext:
+    readOnlyRootFilesystem: true
+    runAsNonRoot: false
+
   ports:
   - containerPort: 49090
     name: http
