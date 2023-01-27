@@ -58,6 +58,9 @@ grafana:
     requests:
       cpu: 64m
       memory: 64Mi
+  persistence:
+    type: pvc
+    enabled: true
 
 prometheus-node-exporter:
   enabled: true
