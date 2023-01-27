@@ -1,0 +1,15 @@
+apiVersion: operator.victoriametrics.com/v1beta1
+kind: VMServiceScrape
+metadata:
+  name: mktxp
+  namespace: observability-system
+spec:
+  endpoints:
+  - honorLabels: true
+    port: http
+  namespaceSelector:
+    matchNames:
+    - infrastructure
+  selector:
+    matchLabels:
+      app: mktxp
