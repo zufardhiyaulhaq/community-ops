@@ -1,0 +1,48 @@
+applicationName: "mktxp"
+namespaceOverride: ""
+
+deployment:
+  enabled: true
+  replicas: 1
+
+  volumes:
+    mktxp-secret:
+      secret:
+        secretName: mktxp-secret
+
+  volumeMounts:
+    mktxp-secret:
+       mountPath: /home/mktxp/mktxp/
+
+  image: 
+    repository: ghcr.io/akpw/mktxp
+    tag: latest
+    pullPolicy: IfNotPresent
+
+  startupProbe:
+    enabled: false
+
+  readinessProbe:
+    enabled: false
+
+  livenessProbe:
+    enabled: false
+
+  resources:
+    requests:
+      memory: 64Mi
+      cpu: 0.1
+
+  ports:
+  - containerPort: 49090
+    name: http
+    protocol: TCP
+
+service:
+  enabled: true
+  ports:
+    - port: 49090
+      name: http
+      protocol: TCP
+      targetPort: 49090
+  type: ClusterIP
