@@ -46,3 +46,9 @@ service:
       protocol: TCP
       targetPort: 49090
   type: ClusterIP
+
+rbac:
+  enabled: true
+  serviceAccount:
+    enabled: true
+    name: "mktxp"
