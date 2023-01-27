@@ -35,6 +35,8 @@ repositories:
   url: https://kiali.org/helm-charts
 - name: cilium
   url: https://helm.cilium.io/
+- name: stakater
+  url: https://stakater.github.io/stakater-charts
 
 releases:
 - name: cilium
@@ -43,6 +45,13 @@ releases:
   chart: cilium/cilium
   values:
   - releases/kube-system/cilium.yaml
+
+- name: mktxp
+  namespace: infrastructure
+  version: 2.1.1
+  chart: stakater/application
+  values:
+  - releases/infrastructure/mktxp.yaml
 
 - name: frp-operator
   namespace: infrastructure
