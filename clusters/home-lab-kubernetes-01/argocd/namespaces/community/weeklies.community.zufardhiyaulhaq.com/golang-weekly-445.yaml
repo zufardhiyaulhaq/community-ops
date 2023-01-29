@@ -1,0 +1,55 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-445
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 445
+    date: 01/29/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: 'Mocktail: A Tasty, Strongly Typed Mock Generator'
+      url: https://golangweekly.com/link/134627/web
+      type: News
+    - title: Ten Things I Hate About Go
+      url: https://golangweekly.com/link/134628/web
+      type: News
+    - title: Gophers - Opportunity is Knocking
+      url: https://golangweekly.com/link/134626/web
+      type: News
+    - title: A Comprehensive Guide to Go's Generics
+      url: https://golangweekly.com/link/134629/web
+      type: News
+    - title: How to Use AVX512 in Go via the C Compiler
+      url: https://golangweekly.com/link/134632/web
+      type: News
+    - title: 'Free eBook Download: Understanding Kubernetes (Updated Edition)'
+      url: https://golangweekly.com/link/134634/web
+      type: News
+    - title: Using {Blocks} in Rust and Go for Fun and Profit
+      url: https://golangweekly.com/link/134633/web
+      type: News
+    - title: 'gotestsum 1.9: go test Runner with Optimized Output and Summaries'
+      url: https://golangweekly.com/link/134635/web
+      type: News
+    - title: 'Bob: SQL Query Builder and ORM/Factory Generator'
+      url: https://golangweekly.com/link/134636/web
+      type: News
+    - title: Tuple, a Lightning-Fast Pairing Tool Built for Remote Developers
+      url: https://golangweekly.com/link/134637/web
+      type: News
+    - title: 'Miniflux 2: Minimalist and Opinionated Feed Reader'
+      url: https://golangweekly.com/link/134638/web
+      type: News
+    - title: 'env 7.0: Parse Environment Variables to Structs'
+      url: https://golangweekly.com/link/134640/web
+      type: News
+    - title: 'Dex: A Federated OpenID Connect (OIDC) Provider'
+      url: https://golangweekly.com/link/134641/web
+      type: News
