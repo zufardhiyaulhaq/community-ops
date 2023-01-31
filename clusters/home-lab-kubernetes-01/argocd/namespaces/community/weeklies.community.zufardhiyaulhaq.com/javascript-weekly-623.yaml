@@ -1,0 +1,74 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-623
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 623
+    date: 01/31/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'Astro 2.0: The Next-Gen ''Islands''-Oriented Web Framework'
+      url: https://javascriptweekly.com/link/134707/web
+      type: News
+    - title: Deep Cloning Objects in JavaScript, The Modern Way
+      url: https://javascriptweekly.com/link/134659/web
+      type: News
+    - title: Go From Professional Web Developer to Lead Engineer
+      url: https://javascriptweekly.com/link/134658/web
+      type: News
+    - title: Announcing TypeScript 5.0 Beta
+      url: https://javascriptweekly.com/link/134660/web
+      type: News
+    - title: 'AlaSQL.js 3.0: Isomorphic JavaScript SQL Database'
+      url: https://javascriptweekly.com/link/134662/web
+      type: News
+    - title: Getting Started with SvelteKit
+      url: https://javascriptweekly.com/link/134670/web
+      type: News
+    - title: Using .NET Code from JavaScript using WebAssembly
+      url: https://javascriptweekly.com/link/134700/web
+      type: News
+    - title: JavaScript Scratchpad for VS Code (2m+ Downloads)
+      url: https://javascriptweekly.com/link/134671/web
+      type: News
+    - title: 'scrollend: A New JavaScript Event'
+      url: https://javascriptweekly.com/link/134701/web
+      type: News
+    - title: Packaging Rust Apps for the npm Registry
+      url: https://javascriptweekly.com/link/134672/web
+      type: News
+    - title: Making Sense of TypeScript using Set Theory
+      url: https://javascriptweekly.com/link/134703/web
+      type: News
+    - title: React Authentication, Simplified
+      url: https://javascriptweekly.com/link/134675/web
+      type: News
+    - title: Accessible Hamburger Buttons without JavaScript
+      url: https://javascriptweekly.com/link/134673/web
+      type: News
+    - title: 'Uppy 3.4: Powerful, Modular JavaScript File Uploader'
+      url: https://javascriptweekly.com/link/134676/web
+      type: News
+    - title: 'Nut.js 3.0: Desktop Automation from Node'
+      url: https://javascriptweekly.com/link/134678/web
+      type: News
+    - title: Optimize Your Systems' Performance With TelemetryHub - Real-Time Data
+        Monitoring & Analysis
+      url: https://javascriptweekly.com/link/134680/web
+      type: News
+    - title: 'Eleventy v2.0: First Beta of the Popular Site Generator'
+      url: https://javascriptweekly.com/link/134681/web
+      type: News
+    - title: 'Mock Service Worker 1.0: API Mocking Library for Browser and Node'
+      url: https://javascriptweekly.com/link/134684/web
+      type: News
+    - title: 'Drift: A Self-Hostable Gist-Like / Pastebin Service'
+      url: https://javascriptweekly.com/link/134686/web
+      type: News
