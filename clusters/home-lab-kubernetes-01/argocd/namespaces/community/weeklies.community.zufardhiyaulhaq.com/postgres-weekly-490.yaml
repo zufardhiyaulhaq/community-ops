@@ -1,0 +1,51 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-490
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 490
+    date: 02/01/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: 30+ Talks from PGConf NYC 2022
+      url: https://postgresweekly.com/link/134401/web
+      type: News
+    - title: A Unique Constraint Where NULL Conflicts with Everything
+      url: https://postgresweekly.com/link/134404/web
+      type: News
+    - title: Join Us for Season 2 of Our “5mins of Postgres” Video Series
+      url: https://postgresweekly.com/link/134405/web
+      type: News
+    - title: 'Puzzling Postgres: A Story of Solving An Unreproducible Performance
+        Issue'
+      url: https://postgresweekly.com/link/134448/web
+      type: News
+    - title: Walkthrough of Implementing a Simple Postgres Patch
+      url: https://postgresweekly.com/link/134406/web
+      type: News
+    - title: A Foreign Key Pathology to Avoid
+      url: https://postgresweekly.com/link/134411/web
+      type: News
+    - title: '[Free Download] Understanding Databases eBook'
+      url: https://postgresweekly.com/link/134414/web
+      type: News
+    - title: A Look into WAL Compression and Recent Improvements in Postgres 15
+      url: https://postgresweekly.com/link/134412/web
+      type: News
+    - title: Debugging Postgres CI Failures Faster
+      url: https://postgresweekly.com/link/134415/web
+      type: News
+    - title: 'pg_show_plans: Show Query Plans of All Currently Running Statements'
+      url: https://postgresweekly.com/link/134416/web
+      type: News
+    - title: 'pg_qualstats: Extension for Collecting Statistics About Predicates'
+      url: https://postgresweekly.com/link/134417/web
+      type: News
