@@ -1,0 +1,52 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-446
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 446
+    date: 02/05/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: Go 1.20 Released
+      url: https://golangweekly.com/link/134934/web
+      type: News
+    - title: Securely Access Internal Resources With Tailscale
+      url: https://golangweekly.com/link/134937/web
+      type: News
+    - title: Memory Arenas vs Traditional Memory Management
+      url: https://golangweekly.com/link/134938/web
+      type: News
+    - title: What’s New in Go 1.20, Part III
+      url: https://golangweekly.com/link/134940/web
+      type: News
+    - title: Improving the Observability of Go-Powered Services
+      url: https://golangweekly.com/link/134943/web
+      type: News
+    - title: Introducing The Linear Developer Experience
+      url: https://golangweekly.com/link/134944/web
+      type: News
+    - title: How to Ace That CFP (Call For Papers)
+      url: https://golangweekly.com/link/134945/web
+      type: News
+    - title: 'gofeed 1.2: A Parser for RSS, Atom, and JSON Feeds'
+      url: https://golangweekly.com/link/134947/web
+      type: News
+    - title: An Update on go-redis v9
+      url: https://golangweekly.com/link/134948/web
+      type: News
+    - title: Don’t Let Your Issue Tracker Be a Four-Letter Word. Use Shortcut
+      url: https://golangweekly.com/link/134950/web
+      type: News
+    - title: 'Goldmark 1.5: Markdown Parser Library'
+      url: https://golangweekly.com/link/134951/web
+      type: News
+    - title: 'tbls: CI-Friendly Tool for Documenting Databases'
+      url: https://golangweekly.com/link/134953/web
+      type: News
