@@ -1,0 +1,30 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Meetup
+metadata:
+  name: meetup-kubernetes-february-2023
+  namespace: community
+spec:
+  community:
+  - "kubernetes"
+  spec:
+    name: "Kubernetes Cloud Native Meetup 2023 X BukaMeetup"
+    date: "February 16, 2023"
+    time: "19.00"
+    place: "Bukalapak HQ | Metropolitan Tower 22nd floor, Cilandak, South Jakarta"
+    registrationUrl: "https://community.cncf.io/indonesia/"
+    imageUrl: "https://raw.githubusercontent.com/cloudnative-id/artwork/master/poster/indonesia/16-Februari-2023-updated.png"
+    tags:
+      - meetup
+      - CNCF
+      - Jakarta
+    sponsors:
+    - name: "Bukalapak"
+    speakers:
+      - name: "Dewangga Alam"
+        position: "Engineering Manager"
+        company: "PT. Bukalapak, Tbk"
+        title: "Kubernetes Component Election"
+      - name: "Nicolas Julian"
+        position: "DevOps Engineer"
+        company: "Jubelio"
+        title: "Management confidential data with Vault and ArgoCD"
