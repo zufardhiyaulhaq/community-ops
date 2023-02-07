@@ -1,0 +1,82 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-624
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 624
+    date: 02/07/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: You’ve Got Options for Removing Event Listeners
+      url: https://javascriptweekly.com/link/134972/web
+      type: News
+    - title: Updates from the 94th TC39 meeting
+      url: https://javascriptweekly.com/link/135003/web
+      type: News
+    - title: Fast and Flexible Gantt Chart Components for Your Web App
+      url: https://javascriptweekly.com/link/134965/web
+      type: News
+    - title: Netlify Acquires Gatsby
+      url: https://javascriptweekly.com/link/134967/web
+      type: News
+    - title: You May Not Need Lodash or Underscore
+      url: https://javascriptweekly.com/link/135012/web
+      type: News
+    - title: The Future of Create React App and Why It Exists
+      url: https://javascriptweekly.com/link/134966/web
+      type: News
+    - title: How To Lose Functional Programming at Work
+      url: https://javascriptweekly.com/link/135020/web
+      type: News
+    - title: How Node & SWC Can Make a Lightning Fast TypeScript Runtime
+      url: https://javascriptweekly.com/link/134974/web
+      type: News
+    - title: Tailwind CSS, Headless UI, and Powerlifting with Adam Wathan
+      url: https://javascriptweekly.com/link/134973/web
+      type: News
+    - title: The Road from Ember Classic to Glimmer Components
+      url: https://javascriptweekly.com/link/134975/web
+      type: News
+    - title: Using JavaScript in a Swift App
+      url: https://javascriptweekly.com/link/134976/web
+      type: News
+    - title: Cleaner Unit Tests with Custom Matchers
+      url: https://javascriptweekly.com/link/134977/web
+      type: News
+    - title: 'The Yaml Document from Hell: JS Edition'
+      url: https://javascriptweekly.com/link/134979/web
+      type: News
+    - title: Too Much Tech Debt and Outdated Packages? Don't Have Time to Upgrade?
+      url: https://javascriptweekly.com/link/134978/web
+      type: News
+    - title: 'FeedbackPlus: Add Screenshot Tools to Your Feedback Forms'
+      url: https://javascriptweekly.com/link/134981/web
+      type: News
+    - title: 'ScrollyVideo.js: Responsive ''Scrollable'' Videos'
+      url: https://javascriptweekly.com/link/134983/web
+      type: News
+    - title: Stop Sweating Over Supply Chain Security with Snyk
+      url: https://javascriptweekly.com/link/134984/web
+      type: News
+    - title: 'depngn: Find Out if Dependencies Support a Given Node Version'
+      url: https://javascriptweekly.com/link/134985/web
+      type: News
+    - title: 'Eta 2.0: Embedded JS Template Engine for Node, Deno, and Browser'
+      url: https://javascriptweekly.com/link/134986/web
+      type: News
+    - title: 'Swiper 9.0: Mobile Touch Slider with Accelerated Transitions'
+      url: https://javascriptweekly.com/link/134989/web
+      type: News
+    - title: 'UUID.js: RFC-Compliant UUID Generator'
+      url: https://javascriptweekly.com/link/135023/web
+      type: News
+    - title: 'Madge 6.0: Create Graphs From Your Module Dependencies'
+      url: https://javascriptweekly.com/link/135002/web
+      type: News
