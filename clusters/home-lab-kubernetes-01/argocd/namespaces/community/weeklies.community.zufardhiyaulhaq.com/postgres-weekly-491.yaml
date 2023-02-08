@@ -1,0 +1,50 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-491
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 491
+    date: 02/08/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: 'Transaction ID Wraparound: A Walk on the Wild Side'
+      url: https://postgresweekly.com/link/134714/web
+      type: News
+    - title: 'Ask HN: How Do You Test SQL?'
+      url: https://postgresweekly.com/link/134715/web
+      type: News
+    - title: Does Your PostgreSQL Ensure a HA Level of 99.9%?
+      url: https://postgresweekly.com/link/134716/web
+      type: News
+    - title: 'Coming to v16: Surviving Without a Superuser'
+      url: https://postgresweekly.com/link/134717/web
+      type: News
+    - title: Postgres's 'Supply Chain'
+      url: https://postgresweekly.com/link/134723/web
+      type: News
+    - title: 'tbls: A CI-Friendly Tool for Documenting Databases'
+      url: https://postgresweekly.com/link/134725/web
+      type: News
+    - title: 'pg-lock-tracer: A BPF-Based Lock Tracer'
+      url: https://postgresweekly.com/link/134727/web
+      type: News
+    - title: The Postgres Host You’ve Been Looking For
+      url: https://postgresweekly.com/link/134728/web
+      type: News
+    - title: 'Patroni 3.0: Template for Postgres High Availability'
+      url: https://postgresweekly.com/link/134729/web
+      type: News
+    - title: 'pgslice: Postgres Partitioning ''As Easy As Pie'''
+      url: https://postgresweekly.com/link/134732/web
+      type: News
+    - title: 'pg-mem: An Experimental In-Memory Postgres Instance for Tests'
+      url: https://postgresweekly.com/link/134733/web
+      type: News
