@@ -1,0 +1,79 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-625
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 625
+    date: 02/14/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'Speeding Up the JS Ecosystem: It''s ESLint''s Turn'
+      url: https://javascriptweekly.com/link/135310/web
+      type: News
+    - title: The Future (and the Past) of the Web is Server Side Rendering
+      url: https://javascriptweekly.com/link/135358/web
+      type: News
+    - title: Monitoring Your NestJS Application with AppSignal
+      url: https://javascriptweekly.com/link/135309/web
+      type: News
+    - title: Ten Web Development Trends in 2023
+      url: https://javascriptweekly.com/link/135313/web
+      type: News
+    - title: Bringing JavaScript to WebAssembly for Shopify Functions
+      url: https://javascriptweekly.com/link/135359/web
+      type: News
+    - title: Design Patterns in TypeScript
+      url: https://javascriptweekly.com/link/135326/web
+      type: News
+    - title: 'Resumable React: How To Use React Inside Qwik'
+      url: https://javascriptweekly.com/link/135327/web
+      type: News
+    - title: Did You Know That You're Already a Distributed Systems Developer?
+      url: https://javascriptweekly.com/link/135328/web
+      type: News
+    - title: Build a Hacker News Client using Alpine.js
+      url: https://javascriptweekly.com/link/135364/web
+      type: News
+    - title: 'TypeScript Speedrun: A Crash Course for Beginners'
+      url: https://javascriptweekly.com/link/135329/web
+      type: News
+    - title: 'Bookmarklet Editor: Easily Work on JavaScript Bookmarklets'
+      url: https://javascriptweekly.com/link/135333/web
+      type: News
+    - title: Breakpoints and console.log Is the Past, Time Travel Is the Future
+      url: https://javascriptweekly.com/link/135334/web
+      type: News
+    - title: 'Yup 1.0: Super Simple Object Schema Validation'
+      url: https://javascriptweekly.com/link/135335/web
+      type: News
+    - title: 'Material React Table: A Full-Featured React Table Component'
+      url: https://javascriptweekly.com/link/135336/web
+      type: News
+    - title: 'BlockNote: Notion-Style Block-Based Text Editor'
+      url: https://javascriptweekly.com/link/135338/web
+      type: News
+    - title: 'TresJS: Build 3D Experiences with Vue.js'
+      url: https://javascriptweekly.com/link/135340/web
+      type: News
+    - title: 'depngn: Find Out if Dependencies Support a Given Node.js Version'
+      url: https://javascriptweekly.com/link/135342/web
+      type: News
+    - title: Open-Source JS Form Libraries to Automate Your Form Workflow
+      url: https://javascriptweekly.com/link/135343/web
+      type: News
+    - title: 'Lawnmower: Build VR Scenes with Custom HTML Tags'
+      url: https://javascriptweekly.com/link/135344/web
+      type: News
+    - title: Electron 23.0 Released
+      url: https://javascriptweekly.com/link/135315/web
+      type: News
+    - title: 'Run: Run User-Provided Code in a Web Worker'
+      url: https://javascriptweekly.com/link/135345/web
+      type: News
