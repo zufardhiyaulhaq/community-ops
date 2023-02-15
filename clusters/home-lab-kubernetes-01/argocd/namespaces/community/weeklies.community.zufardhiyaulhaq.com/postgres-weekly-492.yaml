@@ -1,0 +1,53 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-492
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 492
+    date: 02/15/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: 'What Performs Better: FILTER or CASE?'
+      url: https://postgresweekly.com/link/135028/web
+      type: News
+    - title: 'Coming to Postgres 16: A New Way to Reserve Connection Slots'
+      url: https://postgresweekly.com/link/135030/web
+      type: News
+    - title: Database Caching, Without the Complexity
+      url: https://postgresweekly.com/link/135027/web
+      type: News
+    - title: Adventures in Embedding Postgres Schemas in GPT
+      url: https://postgresweekly.com/link/135037/web
+      type: News
+    - title: Simple SQL Tricks for More Effective CRUD
+      url: https://postgresweekly.com/link/135038/web
+      type: News
+    - title: How to Get a Row and All Of Its Dependencies?
+      url: https://postgresweekly.com/link/135039/web
+      type: News
+    - title: Will Postgres Use My Index? Hypothetical Indexing for Postgres
+      url: https://postgresweekly.com/link/135040/web
+      type: News
+    - title: 'pgModeler 1.0 Released: A Postgres Database Modeler'
+      url: https://postgresweekly.com/link/135046/web
+      type: News
+    - title: 'Free eBook: How to Create the Best Postgres Index for Your Queries'
+      url: https://postgresweekly.com/link/135052/web
+      type: News
+    - title: 'pg_ivm 1.5: Incremental View Maintenance Postgres Extension'
+      url: https://postgresweekly.com/link/135054/web
+      type: News
+    - title: 'pg_dumpbinary 2.9: Dump a Database in Binary Format'
+      url: https://postgresweekly.com/link/135058/web
+      type: News
+    - title: 'pgFormatter 5.5: SQL Syntax Beautifier'
+      url: https://postgresweekly.com/link/135062/web
+      type: News
