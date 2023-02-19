@@ -1,0 +1,55 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-448
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 448
+    date: 02/19/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: 'Purego: A Dynamic Way to Call C Functions from Go Without Cgo'
+      url: https://golangweekly.com/link/135581/web
+      type: News
+    - title: Go Quirks and Intermediate Tricks
+      url: https://golangweekly.com/link/135583/web
+      type: News
+    - title: 'Free from O’Reilly: Build Resilient Apps in Go'
+      url: https://golangweekly.com/link/135580/web
+      type: News
+    - title: Rust vs Go in 2023
+      url: https://golangweekly.com/link/135582/web
+      type: News
+    - title: Go May Add Telemetry Reporting That's On by Default
+      url: https://golangweekly.com/link/135584/web
+      type: News
+    - title: Structured Logging with slog
+      url: https://golangweekly.com/link/135590/web
+      type: News
+    - title: Building a URL Shortener using Go, SQLite and GORM
+      url: https://golangweekly.com/link/135594/web
+      type: News
+    - title: Debugging Concurrent Programs in Go
+      url: https://golangweekly.com/link/135596/web
+      type: News
+    - title: 'go-pretty: Pretty Print Tables, Lists and Text on the Terminal'
+      url: https://golangweekly.com/link/135597/web
+      type: News
+    - title: 'gofumpt: A Stricter gofmt'
+      url: https://golangweekly.com/link/135598/web
+      type: News
+    - title: Connect to Your Cloud Resources with Tailscale
+      url: https://golangweekly.com/link/135600/web
+      type: News
+    - title: Go-Redis Now an Official Redis Client
+      url: https://golangweekly.com/link/135601/web
+      type: News
+    - title: 'TinyGlobo: The TinyGo Powered Long Distance Balloon'
+      url: https://golangweekly.com/link/135610/web
+      type: News
