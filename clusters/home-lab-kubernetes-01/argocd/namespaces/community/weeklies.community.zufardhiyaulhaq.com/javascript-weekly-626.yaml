@@ -1,0 +1,73 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-626
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 626
+    date: 02/21/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: Writing JavaScript Without a Build System
+      url: https://javascriptweekly.com/link/135634/web
+      type: News
+    - title: Ryan Dahl, Node.js Creator, Wants to Rebuild the Runtime of the Web
+      url: https://javascriptweekly.com/link/135681/web
+      type: News
+    - title: Broadcasting a Live Stream With Nothing but JavaScript
+      url: https://javascriptweekly.com/link/135633/web
+      type: News
+    - title: core-js's Maintainer Complains Open Source Is 'Broken'
+      url: https://javascriptweekly.com/link/135684/web
+      type: News
+    - title: Use a MutationObserver to Handle DOM Nodes that Don’t Exist Yet
+      url: https://javascriptweekly.com/link/135649/web
+      type: News
+    - title: Well-Known Symbols in JavaScript
+      url: https://javascriptweekly.com/link/135650/web
+      type: News
+    - title: "\U0001F680 Monitor and Optimize Website Speed to Rank Higher in Google"
+      url: https://javascriptweekly.com/link/135652/web
+      type: News
+    - title: Why to Use Maps More and Objects Less
+      url: https://javascriptweekly.com/link/135694/web
+      type: News
+    - title: Adopting React in the Early Days
+      url: https://javascriptweekly.com/link/135653/web
+      type: News
+    - title: An Animated Flythrough with Theatre.js and React Three Fiber
+      url: https://javascriptweekly.com/link/135654/web
+      type: News
+    - title: 'Dependency Cruiser: Validate and Visualize JavaScript Dependencies'
+      url: https://javascriptweekly.com/link/135659/web
+      type: News
+    - title: 'Devalue: Like JSON.stringify, But..'
+      url: https://javascriptweekly.com/link/135661/web
+      type: News
+    - title: "\U0001F9E1 JavaScript Scratchpad for VS Code (2m+ Downloads)"
+      url: https://javascriptweekly.com/link/135662/web
+      type: News
+    - title: 'NodeGUI: Build Native Cross-Platform Desktop Apps with Node.js'
+      url: https://javascriptweekly.com/link/135663/web
+      type: News
+    - title: 'DOMPurify 3.0: Fast, Tolerant XSS Sanitizer for HTML and SVG'
+      url: https://javascriptweekly.com/link/135665/web
+      type: News
+    - title: 'Pythagora: Generate Express Integration Tests by Recording Activity'
+      url: https://javascriptweekly.com/link/135667/web
+      type: News
+    - title: Try Stream’s Free Trial of SDKs for In-App Chat
+      url: https://javascriptweekly.com/link/135669/web
+      type: News
+    - title: 'grep.app: Search Code Across a Half Million GitHub Repos'
+      url: https://javascriptweekly.com/link/135670/web
+      type: News
+    - title: 'tsParticles: Particles, Confetti and Fireworks for Your Pages'
+      url: https://javascriptweekly.com/link/135671/web
+      type: News
