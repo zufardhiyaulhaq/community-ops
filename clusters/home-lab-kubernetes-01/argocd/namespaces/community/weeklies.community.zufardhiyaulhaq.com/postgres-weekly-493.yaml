@@ -1,0 +1,50 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-493
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 493
+    date: 02/22/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: 'Waiting for Postgres 16: Cumulative I/O Statistics with pg_stat_io'
+      url: https://postgresweekly.com/link/135374/web
+      type: News
+    - title: Exposing Postgres Performance Secrets
+      url: https://postgresweekly.com/link/135399/web
+      type: News
+    - title: Download PostgreSQL High Availability Architectures
+      url: https://postgresweekly.com/link/135376/web
+      type: News
+    - title: Storing OpenAI Embeddings in Postgres with pgvector
+      url: https://postgresweekly.com/link/135377/web
+      type: News
+    - title: Working with Rankings with SQL Window Functions
+      url: https://postgresweekly.com/link/135401/web
+      type: News
+    - title: Finding the Current Timestamp
+      url: https://postgresweekly.com/link/135403/web
+      type: News
+    - title: Caching Postgres on the Edge with PolyScale.ai
+      url: https://postgresweekly.com/link/135382/web
+      type: News
+    - title: Debugging WAL Events with pg_walinspect
+      url: https://postgresweekly.com/link/135384/web
+      type: News
+    - title: 'pgpq: Stream Arrow / Parquet Data into Postgres'
+      url: https://postgresweekly.com/link/135389/web
+      type: News
+    - title: 'SQL Notebook: Casual Data Exploration in SQL'
+      url: https://postgresweekly.com/link/135390/web
+      type: News
+    - title: Postgres Message Queue (PGMQ)
+      url: https://postgresweekly.com/link/135391/web
+      type: News
