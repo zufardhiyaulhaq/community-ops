@@ -1,0 +1,64 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-449
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 449
+    date: 02/26/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: 'Log: A Minimal, Colorful Go Logging Library'
+      url: https://golangweekly.com/link/135935/web
+      type: News
+    - title: All Your Comparable Types
+      url: https://golangweekly.com/link/135938/web
+      type: News
+    - title: Go! Experts at Your Service
+      url: https://golangweekly.com/link/135934/web
+      type: News
+    - title: 'Type Embedding: Go''s Fake ''Inheritance'''
+      url: https://golangweekly.com/link/135939/web
+      type: News
+    - title: go test and Parallelism
+      url: https://golangweekly.com/link/135946/web
+      type: News
+    - title: How to Publish Go Binaries with Goreleaser
+      url: https://golangweekly.com/link/135947/web
+      type: News
+    - title: Partially-Implemented Interfaces
+      url: https://golangweekly.com/link/135949/web
+      type: News
+    - title: Securely Deploy Kubernetes Clusters with GitHub Actions
+      url: https://golangweekly.com/link/135950/web
+      type: News
+    - title: What's New in Go 1.20 with Carl Johnson
+      url: https://golangweekly.com/link/135951/web
+      type: News
+    - title: 'Opossum: A Basic Web Browser Written in Go'
+      url: https://golangweekly.com/link/135953/web
+      type: News
+    - title: 'Gin 1.9: A Fast HTTP Web Framework'
+      url: https://golangweekly.com/link/135956/web
+      type: News
+    - title: Don’t Let Your Issue Tracker Be a Four-Letter Word. Use Shortcut
+      url: https://golangweekly.com/link/135958/web
+      type: News
+    - title: 'Soft Serve: A Self-Hostable Git Server'
+      url: https://golangweekly.com/link/135959/web
+      type: News
+    - title: 'koanf: Configuration Management Library'
+      url: https://golangweekly.com/link/135960/web
+      type: News
+    - title: 'VHS 0.3: The ''Home Video Recorder'' for Your CLI'
+      url: https://golangweekly.com/link/135961/web
+      type: News
+    - title: 'Solitaire TUI: Klondike Solitaire on the Terminal'
+      url: https://golangweekly.com/link/135971/web
+      type: News
