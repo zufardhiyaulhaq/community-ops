@@ -46,12 +46,19 @@ releases:
   values:
   - releases/kube-system/cilium.yaml
 
-- name: mktxp
+- name: sakura
   namespace: infrastructure
   version: 2.1.1
   chart: stakater/application
   values:
   - releases/infrastructure/mktxp.yaml
+
+- name: sakura
+  namespace: community
+  version: 2.1.1
+  chart: stakater/application
+  values:
+  - releases/community/sakura.yaml
 
 - name: frp-operator
   namespace: infrastructure

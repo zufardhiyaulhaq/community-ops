@@ -1,0 +1,31 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: sakura-zufardhiyaulhaq-com-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "sakura.zufardhiyaulhaq.com"
+  gateways:
+  - istio-system/sakura-zufardhiyaulhaq-com-gateway
+  http:
+  - name: "v1-generate"
+    match:
+    - uri:
+        prefix: /v1/generate
+    route:
+      - destination:
+          port:
+            number: 3000
+          host: sakura.community.svc.cluster.local
+  - name: "api-docs"
+    match:
+    - uri:
+        prefix: /api-docs
+    route:
+      - destination:
+          port:
+            number: 3000
+          host: sakura.community.svc.cluster.local
+  exportTo:
+    - "."

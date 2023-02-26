@@ -1,0 +1,28 @@
+---
+apiVersion: ratelimit.zufardhiyaulhaq.com/v1alpha1
+kind: GlobalRateLimit
+metadata:
+  name: sakura-zufardhiyaulhaq-com-v1-generate
+  namespace: istio-system
+spec:
+  config: "istio-public-gateway-grlc"
+  selector:
+    vhost: "sakura.zufardhiyaulhaq.com:443"
+    route: "v1-generate"
+  matcher:
+  - request_headers:
+      header_name: ":method"
+      descriptor_key: "method"
+  - request_headers:
+      header_name: ":path"
+      descriptor_key: "path"
+  - generic_key:
+      descriptor_value: "v1-generate"
+      descriptor_key: "route"
+  - generic_key:
+      descriptor_value: "sakura-zufardhiyaulhaq-com"
+      descriptor_key: "domain"
+  limit:
+    unit: hour
+    requests_per_unit: 4
+  identifier: "sakura-v1-generate"

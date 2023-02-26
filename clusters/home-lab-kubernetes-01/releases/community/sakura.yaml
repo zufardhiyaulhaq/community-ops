@@ -1,0 +1,63 @@
+applicationName: "sakura"
+namespaceOverride: ""
+
+deployment:
+  enabled: true
+  replicas: 1
+
+  envFrom:
+    sakura-secret:
+      type: secret
+      name: sakura-secret
+
+  volumes:
+    sakura-secret:
+      secret:
+        secretName: sakura-secret
+
+  volumeMounts:
+    sakura-secret:
+       mountPath: /home/sakura/sakura/
+
+  image: 
+    repository: zufardhiyaulhaq/sakura
+    tag: latest
+    pullPolicy: IfNotPresent
+
+  startupProbe:
+    enabled: false
+
+  readinessProbe:
+    enabled: false
+
+  livenessProbe:
+    enabled: false
+
+  resources:
+    requests:
+      memory: 128Mi
+      cpu: 0.5
+
+  containerSecurityContext:
+    readOnlyRootFilesystem: true
+    runAsNonRoot: false
+
+  ports:
+  - containerPort: 3000
+    name: http
+    protocol: TCP
+
+service:
+  enabled: true
+  ports:
+    - port: 3000
+      name: http
+      protocol: TCP
+      targetPort: 3000
+  type: ClusterIP
+
+rbac:
+  enabled: true
+  serviceAccount:
+    enabled: true
+    name: "sakura"
