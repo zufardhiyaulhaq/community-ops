@@ -1,0 +1,70 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-627
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 627
+    date: 02/28/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'Strudel REPL: Live JavaScript Music in the Browser'
+      url: https://javascriptweekly.com/link/135977/web
+      type: News
+    - title: The ECMAScript 2023 Language Specification
+      url: https://javascriptweekly.com/link/135979/web
+      type: News
+    - title: Understand JavaScript in the Background
+      url: https://javascriptweekly.com/link/135976/web
+      type: News
+    - title: Let's Build a Chrome Extension That Steals Everything
+      url: https://javascriptweekly.com/link/135982/web
+      type: News
+    - title: What to Expect from Vue in 2023
+      url: https://javascriptweekly.com/link/135981/web
+      type: News
+    - title: Sandboxing JavaScript Code
+      url: https://javascriptweekly.com/link/135995/web
+      type: News
+    - title: An Intro to 'HTML-First' Frontend Frameworks
+      url: https://javascriptweekly.com/link/135997/web
+      type: News
+    - title: Astro 2.0, Island Architecture, and React with Fred K. Schott
+      url: https://javascriptweekly.com/link/135998/web
+      type: News
+    - title: NPM Library Speedrun - 90 Minutes to Build, CI & Publish
+      url: https://javascriptweekly.com/link/135999/web
+      type: News
+    - title: You Don't Need Ruby on Rails to Start Using Hotwire
+      url: https://javascriptweekly.com/link/136001/web
+      type: News
+    - title: Performance Analysis of Type-Driven Data Validation Libraries
+      url: https://javascriptweekly.com/link/136004/web
+      type: News
+    - title: Why 2023 is the Time to Migrate from AngularJS to Angular
+      url: https://javascriptweekly.com/link/136006/web
+      type: News
+    - title: 'Vuestic 1.6: An Open Source UI Library for Vue 3'
+      url: https://javascriptweekly.com/link/136010/web
+      type: News
+    - title: React Libraries for 2023
+      url: https://javascriptweekly.com/link/136013/web
+      type: News
+    - title: Build Business Software 10x Faster with Retool
+      url: https://javascriptweekly.com/link/136014/web
+      type: News
+    - title: 'Kobalte: A UI Toolkit for SolidJS'
+      url: https://javascriptweekly.com/link/136015/web
+      type: News
+    - title: 'Urban Bot 1.0: React-Based Universal Chatbot Library'
+      url: https://javascriptweekly.com/link/136017/web
+      type: News
+    - title: Don’t Let Your Issue Tracker Be a Four-Letter Word. Use Shortcut
+      url: https://javascriptweekly.com/link/136022/web
+      type: News
