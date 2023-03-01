@@ -1,0 +1,53 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-494
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 494
+    date: 03/01/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: Creating Entity Relatonship (ER) Diagrams with SQL and Mermaid
+      url: https://postgresweekly.com/link/135699/web
+      type: News
+    - title: Expert Support to Architect, Build and Deploy HA Postgres
+      url: https://postgresweekly.com/link/135698/web
+      type: News
+    - title: Type Constraints in 65 Lines of SQL
+      url: https://postgresweekly.com/link/135703/web
+      type: News
+    - title: 'Unlogged Tables: Faster, But Less Reliable, Tables'
+      url: https://postgresweekly.com/link/135704/web
+      type: News
+    - title: Object Ownership and Default Privileges
+      url: https://postgresweekly.com/link/135705/web
+      type: News
+    - title: The Ever-Growing Ecosystem of Postgres with Álvaro Hernandez
+      url: https://postgresweekly.com/link/135711/web
+      type: News
+    - title: Postgres System Columns Explained
+      url: https://postgresweekly.com/link/135712/web
+      type: News
+    - title: 'PgManage 1.0a: GUI Administration Tool for Postgres'
+      url: https://postgresweekly.com/link/135717/web
+      type: News
+    - title: 'TimescaleDB 2.10: The Time Series Database Extension'
+      url: https://postgresweekly.com/link/135719/web
+      type: News
+    - title: Beginner’s Guide to DevOps Tools (GitHub, Jenkins, Terraform, Ansible)
+      url: https://postgresweekly.com/link/135720/web
+      type: News
+    - title: SQLite Foreign Data Wrapper for Postgres
+      url: https://postgresweekly.com/link/135721/web
+      type: News
+    - title: 'pg-semver: A Semantic Version Data Type'
+      url: https://postgresweekly.com/link/135722/web
+      type: News
