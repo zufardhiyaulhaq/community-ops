@@ -1,0 +1,61 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-450
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 450
+    date: 03/05/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: Opting In to Transparent Telemetry in Go
+      url: https://golangweekly.com/link/136306/web
+      type: News
+    - title: 'Service Weaver: Google''s Framework for Writing Distributed Go Apps'
+      url: https://golangweekly.com/link/136308/web
+      type: News
+    - title: Review Changes Made to Your Tailscale Network
+      url: https://golangweekly.com/link/136305/web
+      type: News
+    - title: A Beginner's Guide to Creating a Webapp with Ent
+      url: https://golangweekly.com/link/136310/web
+      type: News
+    - title: Uber's Go Style Guide
+      url: https://golangweekly.com/link/136312/web
+      type: News
+    - title: 'From Go on EC2 to Fly.io: More Fun, Less Cost?'
+      url: https://golangweekly.com/link/136316/web
+      type: News
+    - title: Unlocking the Power of Zero Knowledge Proofs with Gnark
+      url: https://golangweekly.com/link/136318/web
+      type: News
+    - title: Try Temporal 101 in Go
+      url: https://golangweekly.com/link/136321/web
+      type: News
+    - title: Build Your Own Database From Scratch
+      url: https://golangweekly.com/link/136322/web
+      type: News
+    - title: 'Gluon: A High-Performance IMAP (Server-Side) Library'
+      url: https://golangweekly.com/link/136326/web
+      type: News
+    - title: 'algnhsa 1.0: AWS Lambda net/http Server Adapter'
+      url: https://golangweekly.com/link/136329/web
+      type: News
+    - title: Tuple, a Lightning-Fast Pairing Tool Built for Remote Developers
+      url: https://golangweekly.com/link/136330/web
+      type: News
+    - title: 'Graph 0.16: Generic Library for Creating Graph Data Structures'
+      url: https://golangweekly.com/link/136331/web
+      type: News
+    - title: 'PNGR: Dockerized (Postgres + Nginx + Go + React)'
+      url: https://golangweekly.com/link/136334/web
+      type: News
+    - title: Find Your Total Build Minutes with GitHub Actions and Go
+      url: https://golangweekly.com/link/136335/web
+      type: News
