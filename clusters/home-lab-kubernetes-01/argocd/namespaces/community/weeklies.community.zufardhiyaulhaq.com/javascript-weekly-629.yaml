@@ -1,0 +1,76 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-629
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 629
+    date: 03/14/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: JavaScript Features from the Past Few Years
+      url: https://javascriptweekly.com/link/136680/web
+      type: News
+    - title: Astro's 2023 Web Framework Performance Report
+      url: https://javascriptweekly.com/link/136736/web
+      type: News
+    - title: A Fresh Introduction to Next 13+
+      url: https://javascriptweekly.com/link/136679/web
+      type: News
+    - title: TypeScript's Migration to Modules
+      url: https://javascriptweekly.com/link/136682/web
+      type: News
+    - title: Common Beginner Mistakes with React
+      url: https://javascriptweekly.com/link/136697/web
+      type: News
+    - title: Coding Kenta Toshikura’s Glass Effect with Three.js
+      url: https://javascriptweekly.com/link/136698/web
+      type: News
+    - title: React Authentication, Simplified
+      url: https://javascriptweekly.com/link/136699/web
+      type: News
+    - title: How to Change the Favicon When Switching Browser Tabs
+      url: https://javascriptweekly.com/link/136700/web
+      type: News
+    - title: Progressive Web Apps (PWA) for Beginners
+      url: https://javascriptweekly.com/link/136702/web
+      type: News
+    - title: How to Make Slow React Native Apps Faster
+      url: https://javascriptweekly.com/link/136703/web
+      type: News
+    - title: Full-Stack TypeScript with tRPC and React
+      url: https://javascriptweekly.com/link/136704/web
+      type: News
+    - title: 'HuggingFace.js: Use Lots of ML Models from JavaScript'
+      url: https://javascriptweekly.com/link/136709/web
+      type: News
+    - title: 'Dynaboard: A Visual Web App IDE Made for Developers'
+      url: https://javascriptweekly.com/link/136711/web
+      type: News
+    - title: 'Chrono: A Natural Language Date Parser'
+      url: https://javascriptweekly.com/link/136712/web
+      type: News
+    - title: 'Embetty 4.0: A Privacy-Conscious Way to Show Third Party Embeds'
+      url: https://javascriptweekly.com/link/136713/web
+      type: News
+    - title: 'Finder 3.0: CSS Selector Generator'
+      url: https://javascriptweekly.com/link/136715/web
+      type: News
+    - title: Tuple, a Lightning-Fast Pairing Tool Built for Remote Developers
+      url: https://javascriptweekly.com/link/136716/web
+      type: News
+    - title: 'Feathers 5: Node.js API & Real-Time App Framework'
+      url: https://javascriptweekly.com/link/136717/web
+      type: News
+    - title: 'FormKit: The Open-Source Form Framework for Vue'
+      url: https://javascriptweekly.com/link/136720/web
+      type: News
+    - title: 'Ink 4.0: Use the React Approach for Building Interactive CLI Apps'
+      url: https://javascriptweekly.com/link/136734/web
+      type: News
