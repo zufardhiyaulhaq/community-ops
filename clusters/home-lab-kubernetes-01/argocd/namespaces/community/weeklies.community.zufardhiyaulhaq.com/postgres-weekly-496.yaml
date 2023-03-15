@@ -1,0 +1,47 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-496
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 496
+    date: 03/15/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: 'Mathesar: Spreadsheet Interface for a Postgres Database'
+      url: https://postgresweekly.com/link/136406/web
+      type: News
+    - title: Like Redis Caching, but in < 5 Minutes
+      url: https://postgresweekly.com/link/136408/web
+      type: News
+    - title: 'The Integer at the End of the Universe: Integer Overflow in Postgres'
+      url: https://postgresweekly.com/link/136409/web
+      type: News
+    - title: The Tale of the 11TB Write Ahead Log
+      url: https://postgresweekly.com/link/136410/web
+      type: News
+    - title: 'PostgREST: Get Started with Automated Postgres APIs'
+      url: https://postgresweekly.com/link/136416/web
+      type: News
+    - title: Geocoding with Web APIs in Postgres
+      url: https://postgresweekly.com/link/136418/web
+      type: News
+    - title: Five Interesting Patches From January’s Commitfest
+      url: https://postgresweekly.com/link/136420/web
+      type: News
+    - title: 'Free eBook: Declarative Cloud Infrastructure Management with Terraform'
+      url: https://postgresweekly.com/link/136421/web
+      type: News
+    - title: 'Pigsty 2.0: Postgres In Great STYle?'
+      url: https://postgresweekly.com/link/136424/web
+      type: News
+    - title: 'DBeaver 23: A Universal Database Tool'
+      url: https://postgresweekly.com/link/136426/web
+      type: News
