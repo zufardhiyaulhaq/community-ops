@@ -1,0 +1,58 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-452
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 452
+    date: 03/19/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: 'FlameScope: Visualize CPU Samples from Go Execution Traces'
+      url: https://golangweekly.com/link/136987/web
+      type: News
+    - title: The slog / Structured Logging Proposal is Accepted
+      url: https://golangweekly.com/link/136988/web
+      type: News
+    - title: Don’t Let Your Issue Tracker Be a Four-Letter Word. Use Shortcut
+      url: https://golangweekly.com/link/136986/web
+      type: News
+    - title: A Comprehensive Guide to Structured Logging in Go
+      url: https://golangweekly.com/link/136991/web
+      type: News
+    - title: The One-and-Only, Must-Have, Eternal Go Project Layout?
+      url: https://golangweekly.com/link/136992/web
+      type: News
+    - title: Real World Go Concurrency Examples
+      url: https://golangweekly.com/link/136995/web
+      type: News
+    - title: Reverse Proxy with Dynamic Backend Selection
+      url: https://golangweekly.com/link/136996/web
+      type: News
+    - title: Run Your First Temporal Application with the Go SDK
+      url: https://golangweekly.com/link/136997/web
+      type: News
+    - title: 'Task 3.22.0: Task Runner / code Alternative'
+      url: https://golangweekly.com/link/137001/web
+      type: News
+    - title: 'Scale: Write-Once, Run Anywhere Functions via WebAssembly'
+      url: https://golangweekly.com/link/137004/web
+      type: News
+    - title: 'Revive 1.3: A Fast(er), Configurable, Flexible Linter for Go'
+      url: https://golangweekly.com/link/137006/web
+      type: News
+    - title: 'New Trending Content: Try Knative (Free Course)'
+      url: https://golangweekly.com/link/137007/web
+      type: News
+    - title: 'Chi: Popular Composable Router for Go HTTP Services'
+      url: https://golangweekly.com/link/137008/web
+      type: News
+    - title: 'dynamodbav: Marshal/Unmarshal Utility Functions for DynamoDB'
+      url: https://golangweekly.com/link/137009/web
+      type: News
