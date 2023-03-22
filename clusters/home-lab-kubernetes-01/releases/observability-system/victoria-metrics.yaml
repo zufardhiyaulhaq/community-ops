@@ -18,7 +18,7 @@ vmcluster:
           spec:
             resources:
               requests:
-                storage: 24Gi
+                storage: 36Gi
     vmselect:
       replicaCount: 2
       resources:
@@ -30,7 +30,7 @@ vmcluster:
           spec:
             resources:
               requests:
-                storage: 4Gi
+                storage: 8Gi
     vminsert:
       replicaCount: 2
       extraArgs:
@@ -59,8 +59,9 @@ grafana:
       cpu: 64m
       memory: 64Mi
   persistence:
-    type: pvc
+    type: statefulset
     enabled: true
+    size: 8Gi
 
 prometheus-node-exporter:
   enabled: true
