@@ -5,10 +5,10 @@ vmsingle:
 vmcluster:
   enabled: true
   spec:
-    retentionPeriod: "2"
+    retentionPeriod: "1"
     replicationFactor: 2
     vmstorage:
-      replicaCount: 2
+      replicaCount: 6
       resources:
         requests:
           cpu: 128m
@@ -18,7 +18,7 @@ vmcluster:
           spec:
             resources:
               requests:
-                storage: 32Gi
+                storage: 16Gi
     vmselect:
       replicaCount: 2
       resources:
