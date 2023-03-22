@@ -1,0 +1,58 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-451
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 451
+    date: 03/12/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: Why Turborepo is Migrating From Go to Rust
+      url: https://golangweekly.com/link/136640/web
+      type: News
+    - title: Code Coverage for Go Integration Tests
+      url: https://golangweekly.com/link/136642/web
+      type: News
+    - title: Go! Experts at Your Service
+      url: https://golangweekly.com/link/136639/web
+      type: News
+    - title: A Journey to High-Perf JSON Parsing in Go
+      url: https://golangweekly.com/link/136643/web
+      type: News
+    - title: Getting Started with Multi-Module Workspaces
+      url: https://golangweekly.com/link/136644/web
+      type: News
+    - title: Things to Consider When Going with sqlc
+      url: https://golangweekly.com/link/136651/web
+      type: News
+    - title: Terraforming Kubernetes (Free Course)
+      url: https://golangweekly.com/link/136653/web
+      type: News
+    - title: errors.Join Loves defer?
+      url: https://golangweekly.com/link/136654/web
+      type: News
+    - title: 'ngrok-go: Ingress to Your Go Apps as a net.Listener'
+      url: https://golangweekly.com/link/136657/web
+      type: News
+    - title: 'Valgo: An Expressive Validator Library'
+      url: https://golangweekly.com/link/136659/web
+      type: News
+    - title: Don’t Let Your Issue Tracker Be a Four-Letter Word. Use Shortcut
+      url: https://golangweekly.com/link/136660/web
+      type: News
+    - title: 'Gool: A Generic Goroutine Pool'
+      url: https://golangweekly.com/link/136661/web
+      type: News
+    - title: 'go-ssaviz: SSA Visualization with Graphviz'
+      url: https://golangweekly.com/link/136662/web
+      type: News
+    - title: Convolutional Encoder and Viterbi Decoder for Go
+      url: https://golangweekly.com/link/136664/web
+      type: News

@@ -28,7 +28,7 @@ jobs:
         with:
           path: "scripts/requirements.txt"
       - name: Setup kubectl
-        uses: azure/setup-kubectl@v1
+        uses: azure/setup-kubectl@v3
         with:
           version: 'v1.23.6'
       - name: Install kubectl-slice
@@ -86,7 +86,7 @@ jobs:
         with:
           path: "scripts/requirements.txt"
       - name: Setup kubectl
-        uses: azure/setup-kubectl@v1
+        uses: azure/setup-kubectl@v3
         with:
           version: 'v1.23.6'
       - name: Install kubectl-slice
@@ -144,7 +144,7 @@ jobs:
         with:
           path: "scripts/requirements.txt"
       - name: Setup kubectl
-        uses: azure/setup-kubectl@v1
+        uses: azure/setup-kubectl@v3
         with:
           version: 'v1.23.6'
       - name: Install kubectl-slice
@@ -203,7 +203,7 @@ jobs:
         with:
           path: "scripts/requirements.txt"
       - name: Setup kubectl
-        uses: azure/setup-kubectl@v1
+        uses: azure/setup-kubectl@v3
         with:
           version: 'v1.23.6'
       - name: Install kubectl-slice
@@ -264,7 +264,7 @@ jobs:
         with:
           path: "scripts/requirements.txt"
       - name: Setup kubectl
-        uses: azure/setup-kubectl@v1
+        uses: azure/setup-kubectl@v3
         with:
           version: 'v1.23.6'
       - name: Install kubectl-slice

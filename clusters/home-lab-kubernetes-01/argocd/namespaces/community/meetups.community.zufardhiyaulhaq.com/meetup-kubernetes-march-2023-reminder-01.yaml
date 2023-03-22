@@ -1,0 +1,30 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Meetup
+metadata:
+  name: meetup-kubernetes-march-2023-reminder-01
+  namespace: community
+spec:
+  community:
+  - "kubernetes"
+  spec:
+    name: "Kubernetes Cloud Native Meetup 2023 X Yayasan Anak Bangsa Bisa"
+    date: "March 13, 2023"
+    time: "18.45"
+    place: "GoLearn @Gojek HQ | Pasaraya Blok M B Building 7 Floor. South Jakarta"
+    registrationUrl: "https://community.cncf.io/indonesia/"
+    imageUrl: "https://raw.githubusercontent.com/zufardhiyaulhaq/sakura-repository/17221ef77844f345b62d39e6fbbd929bba45892b/img/3501d7ea862bed2e288411f43544418483de4987.png"
+    tags:
+      - meetup
+      - CNCF
+      - Jakarta
+    sponsors:
+    - name: "Yayasan Anak Bangsa Bisa"
+    speakers:
+      - name: "Ardi"
+        position: "Principal System Engineer"
+        company: "Privy"
+        title: "Onpremise Network Load Balancing in Kubernetes with Cilium & Metalib"
+      - name: "Iqbal Farabi"
+        position: "Engineering Manager"
+        company: "Goto Financial"
+        title: "The Importance of Mentoring Culture in Growing Tech Ecosystem"

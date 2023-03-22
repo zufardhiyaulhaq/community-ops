@@ -1,0 +1,85 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-628
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 628
+    date: 03/07/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'Sandworm Audit: A New JS Auditing Tool'
+      url: https://javascriptweekly.com/link/136399/web
+      type: News
+    - title: Experiments with the JavaScript Garbage Collector
+      url: https://javascriptweekly.com/link/136349/web
+      type: News
+    - title: The Fastest JavaScript Data Grid Component
+      url: https://javascriptweekly.com/link/136348/web
+      type: News
+    - title: '''You Don''t Need a Build Step'''
+      url: https://javascriptweekly.com/link/136400/web
+      type: News
+    - title: Announcing TypeScript 5.0 RC
+      url: https://javascriptweekly.com/link/136351/web
+      type: News
+    - title: The 2023 JavaScript Site Generator Review
+      url: https://javascriptweekly.com/link/136350/web
+      type: News
+    - title: Crawling Weather Forecasts with Cypress
+      url: https://javascriptweekly.com/link/136360/web
+      type: News
+    - title: The JavaScript Era Happened Because 'We Were Fed a Line'
+      url: https://javascriptweekly.com/link/136362/web
+      type: News
+    - title: "Need to Upgrade to Node 18? Don’t Have Time? Our Experts Can Help \U0001F680"
+      url: https://javascriptweekly.com/link/136364/web
+      type: News
+    - title: Using Sourcegraph to Discover Non-NPM JS Projects
+      url: https://javascriptweekly.com/link/136365/web
+      type: News
+    - title: Building an Animated SVG Logo with Anime.js
+      url: https://javascriptweekly.com/link/136366/web
+      type: News
+    - title: Bootstrap Your React Journey with Tic-Tac-Toe
+      url: https://javascriptweekly.com/link/136368/web
+      type: News
+    - title: 'Text Highlighter: Highlight Search Results in Textareas'
+      url: https://javascriptweekly.com/link/136371/web
+      type: News
+    - title: 'Civet: It''s Like CoffeeScript.. for TypeScript!'
+      url: https://javascriptweekly.com/link/136373/web
+      type: News
+    - title: ✈️ Get Your Tests Flying with Wallaby.js
+      url: https://javascriptweekly.com/link/136375/web
+      type: News
+    - title: 'Remult: A CRUD Framework for Full-Stack TypeScript'
+      url: https://javascriptweekly.com/link/136376/web
+      type: News
+    - title: 'React Flow: Create Node-Based UIs'
+      url: https://javascriptweekly.com/link/136380/web
+      type: News
+    - title: 'ts-reset: A ''CSS Reset'' for TypeScript'
+      url: https://javascriptweekly.com/link/136378/web
+      type: News
+    - title: Full Stack Monitoring Made Affordable
+      url: https://javascriptweekly.com/link/136381/web
+      type: News
+    - title: 'Lenis: A Smooth Scroll Library'
+      url: https://javascriptweekly.com/link/136382/web
+      type: News
+    - title: 'iDraw.js: A Web Vector Graphics Drawing Framework'
+      url: https://javascriptweekly.com/link/136384/web
+      type: News
+    - title: 'Ezno: A (Now Open Source) Experimental JS Compiler'
+      url: https://javascriptweekly.com/link/136393/web
+      type: News
+    - title: 'Dak: A Lisp-Like Language That Transpiles to JS'
+      url: https://javascriptweekly.com/link/136396/web
+      type: News

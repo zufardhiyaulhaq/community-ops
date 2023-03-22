@@ -1,0 +1,80 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-630
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 630
+    date: 03/21/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'Transformers.js: Running ML Models in the Browser'
+      url: https://javascriptweekly.com/link/137026/web
+      type: News
+    - title: Celebrating 10 Years of Electron
+      url: https://javascriptweekly.com/link/137027/web
+      type: News
+    - title: 'Dynaboard: A Visual Web App IDE Made for Developers'
+      url: https://javascriptweekly.com/link/137025/web
+      type: News
+    - title: Announcing TypeScript 5.0
+      url: https://javascriptweekly.com/link/137028/web
+      type: News
+    - title: 'Turbowatch: File Change Detector and Task Orchestrator'
+      url: https://javascriptweekly.com/link/137029/web
+      type: News
+    - title: 'Developer Day: A Front-Row Seat to What''s New with Retool'
+      url: https://javascriptweekly.com/link/137035/web
+      type: News
+    - title: Chrome 111 Gains a 'View Transition' Feature for SPAs
+      url: https://javascriptweekly.com/link/137041/web
+      type: News
+    - title: Create and Download Text Files with JavaScript
+      url: https://javascriptweekly.com/link/137043/web
+      type: News
+    - title: Five Mistakes I Made When Starting My First React Project
+      url: https://javascriptweekly.com/link/137044/web
+      type: News
+    - title: Too Much Tech Debt in Your node_modules? Our Team of JS Devs Can Help
+      url: https://javascriptweekly.com/link/137045/web
+      type: News
+    - title: Progressively Enhancing a Table with a Web Component
+      url: https://javascriptweekly.com/link/137046/web
+      type: News
+    - title: Shell-Free Node.js Scripting with Execa 7.1
+      url: https://javascriptweekly.com/link/137047/web
+      type: News
+    - title: 'Template: A Simple Framework for Webapps'
+      url: https://javascriptweekly.com/link/137056/web
+      type: News
+    - title: 'React ProseMirror: Integrate the ProseMirror Editor with React'
+      url: https://javascriptweekly.com/link/137058/web
+      type: News
+    - title: Breakpoints and console.log Is the Past, Time Travel Is the Future
+      url: https://javascriptweekly.com/link/137060/web
+      type: News
+    - title: 'Fable 4.0: F# to JavaScript Compiler'
+      url: https://javascriptweekly.com/link/137061/web
+      type: News
+    - title: 'MiniSearch: Small In-Memory Fulltext Search Engine for Browser and Node'
+      url: https://javascriptweekly.com/link/137064/web
+      type: News
+    - title: 'css-variable: Tiny Treeshakable Library to Define CSS Custom Properties
+        in JS'
+      url: https://javascriptweekly.com/link/137066/web
+      type: News
+    - title: 'Tremor 2.0: The React Library to Build Dashboards Fast'
+      url: https://javascriptweekly.com/link/137067/web
+      type: News
+    - title: Stable Diffusion Plugin for Photoshop
+      url: https://javascriptweekly.com/link/137069/web
+      type: News
+    - title: 'Flexboard: A React Component Library for Resizable Sidebars'
+      url: https://javascriptweekly.com/link/137071/web
+      type: News

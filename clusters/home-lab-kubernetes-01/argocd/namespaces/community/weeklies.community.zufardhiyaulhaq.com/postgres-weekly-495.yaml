@@ -1,0 +1,50 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-495
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 495
+    date: 03/08/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: European Route Planning with Postgres
+      url: https://postgresweekly.com/link/136042/web
+      type: News
+    - title: Amazon RDS Now Supports Postgres 15
+      url: https://postgresweekly.com/link/136046/web
+      type: News
+    - title: The History of Databases at Netflix
+      url: https://postgresweekly.com/link/136040/web
+      type: News
+    - title: 152 psql Tips
+      url: https://postgresweekly.com/link/136052/web
+      type: News
+    - title: Getting Started with Stored Procedures
+      url: https://postgresweekly.com/link/136062/web
+      type: News
+    - title: Can We Make Permissions Management More User-Friendly?
+      url: https://postgresweekly.com/link/136064/web
+      type: News
+    - title: Storing Trees as Materialized Paths
+      url: https://postgresweekly.com/link/136066/web
+      type: News
+    - title: 'ALTER TABLE … SET WITHOUT OIDS: A Big Gotcha'
+      url: https://postgresweekly.com/link/136068/web
+      type: News
+    - title: Postgres Raster Query Basics
+      url: https://postgresweekly.com/link/136070/web
+      type: News
+    - title: 'pgtt 2.10: Manage and Use Oracle-Style Global Temporary Tables'
+      url: https://postgresweekly.com/link/136074/web
+      type: News
+    - title: Tuple, a Lightning-Fast Pairing Tool Built for Remote Developers
+      url: https://postgresweekly.com/link/136076/web
+      type: News

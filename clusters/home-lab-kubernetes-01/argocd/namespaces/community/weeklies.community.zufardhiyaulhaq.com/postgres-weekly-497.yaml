@@ -1,0 +1,51 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-497
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 497
+    date: 03/22/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: The PostgreSQL 14 Internals Book
+      url: https://postgresweekly.com/link/136747/web
+      type: News
+    - title: HA and DR Recipes for PostgreSQL on Kubernetes
+      url: https://postgresweekly.com/link/136746/web
+      type: News
+    - title: The Wonders of Logical Decoding Messages
+      url: https://postgresweekly.com/link/136749/web
+      type: News
+    - title: 'System Roles: What, Why, and How?'
+      url: https://postgresweekly.com/link/136750/web
+      type: News
+    - title: Introduction to Postgres Backups
+      url: https://postgresweekly.com/link/136755/web
+      type: News
+    - title: What's Postgres Got to Do with AI?
+      url: https://postgresweekly.com/link/136756/web
+      type: News
+    - title: 'Adopting PgCat: A Next-Gen Postgres Proxy'
+      url: https://postgresweekly.com/link/136757/web
+      type: News
+    - title: 'Webinar: How to Use the Postgres Query Planner to Debug Bad Plans and
+        Speed Up Queries'
+      url: https://postgresweekly.com/link/136759/web
+      type: News
+    - title: Using Rust, Axum, Postgres, and Tokio to Build a Blog
+      url: https://postgresweekly.com/link/136760/web
+      type: News
+    - title: 'pg_tiktoken: Postgres Extension for Fast BPE Tokenization'
+      url: https://postgresweekly.com/link/136763/web
+      type: News
+    - title: pg_timetable v5.3 Released
+      url: https://postgresweekly.com/link/136764/web
+      type: News
