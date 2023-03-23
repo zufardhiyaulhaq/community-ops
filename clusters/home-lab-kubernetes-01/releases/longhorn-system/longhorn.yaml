@@ -6,7 +6,5 @@ resources:
    cpu: 64m
    memory: 64Mi
 
-enablePSP: false
-
 persistence:
-  defaultClassReplicaCount: 2
+  defaultClassReplicaCount: 1
