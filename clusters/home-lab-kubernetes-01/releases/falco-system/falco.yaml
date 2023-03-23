@@ -1,0 +1,14 @@
+resources:
+  requests:
+    cpu: 64m
+    memory: 128Mi
+
+driver:
+  enabled: true
+  kind: ebpf
+
+falcosidekick:
+  enabled: true
+  webui:
+    enabled: true
+

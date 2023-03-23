@@ -1,6 +1,7 @@
 resources:
 - argocd-system
 - default
+- falco-system
 - infrastructure
 - istio-system
 - kubecost-system

@@ -95,6 +95,13 @@ releases:
   values:
   - releases/infrastructure/external-dns.yaml
 
+- name: falco
+  namespace: falco-system
+  version: 3.1.2
+  chart: falcosecurity/falco
+  values:
+  - releases/falco-system/falco.yaml
+
 - name: argocd
   namespace: argocd-system
   version: 5.16.9

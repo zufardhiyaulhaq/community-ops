@@ -1,6 +1,7 @@
 resources:
 # Namespace
 - namespaces/default
+- namespaces/falco-system
 - namespaces/infrastructure
 - namespaces/istio-system
 - namespaces/argocd-system
