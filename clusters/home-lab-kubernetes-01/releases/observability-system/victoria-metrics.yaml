@@ -58,6 +58,7 @@ grafana:
     requests:
       cpu: 64m
       memory: 64Mi
+  useStatefulSet: true
   persistence:
     type: statefulset
     enabled: true
