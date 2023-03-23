@@ -37,6 +37,8 @@ repositories:
   url: https://helm.cilium.io/
 - name: stakater
   url: https://stakater.github.io/stakater-charts
+- name: falcosecurity
+  url: https://falcosecurity.github.io/charts
 
 releases:
 - name: cilium
