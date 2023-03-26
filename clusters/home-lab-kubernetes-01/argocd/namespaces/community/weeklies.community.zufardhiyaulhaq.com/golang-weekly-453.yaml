@@ -1,0 +1,61 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-453
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 453
+    date: 03/26/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: Make Your Go Programs Use Less Memory.. Maybe
+      url: https://golangweekly.com/link/137329/web
+      type: News
+    - title: Implementing a Generic Set Type
+      url: https://golangweekly.com/link/137331/web
+      type: News
+    - title: Go! Experts at Your Service
+      url: https://golangweekly.com/link/137328/web
+      type: News
+    - title: The Power of Single-Method Interfaces
+      url: https://golangweekly.com/link/137332/web
+      type: News
+    - title: 'Ebitengine 2.5: The 2D Game Engine for Go'
+      url: https://golangweekly.com/link/137333/web
+      type: News
+    - title: a[low:high:max] — An Uncommon Slice Trick
+      url: https://golangweekly.com/link/137335/web
+      type: News
+    - title: 'Replay 2023: Call for Presenters Is Now Open!'
+      url: https://golangweekly.com/link/137341/web
+      type: News
+    - title: Synchronization Patterns in Go
+      url: https://golangweekly.com/link/137342/web
+      type: News
+    - title: How We Solved an OOM Issue in TiDB with GOMEMLIMIT
+      url: https://golangweekly.com/link/137343/web
+      type: News
+    - title: 'Participle 2.0: A Simple Parser Package'
+      url: https://golangweekly.com/link/137345/web
+      type: News
+    - title: 'v8go 0.9.0: Execute JavaScript from Go'
+      url: https://golangweekly.com/link/137346/web
+      type: News
+    - title: 'Go OpenAI: Use OpenAI''s APIs from Go'
+      url: https://golangweekly.com/link/137347/web
+      type: News
+    - title: O’Reilly’s Identity-Native Infrastructure Access for Kubernetes
+      url: https://golangweekly.com/link/137348/web
+      type: News
+    - title: 'hot-reload: Hot Reload Development for Go in Docker Containers'
+      url: https://golangweekly.com/link/137349/web
+      type: News
+    - title: 'Frenzy: Postgres Wire Protocol Aware Mirroring Proxy'
+      url: https://golangweekly.com/link/137350/web
+      type: News
