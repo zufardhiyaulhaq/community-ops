@@ -1,0 +1,82 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-631
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 631
+    date: 03/28/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'Speeding Up the JavaScript Ecosystem: npm Scripts'
+      url: https://javascriptweekly.com/link/137370/web
+      type: News
+    - title: Playwright v1.32 – Now with UI Mode
+      url: https://javascriptweekly.com/link/137372/web
+      type: News
+    - title: A Grid Component with All the Features & Great Performance
+      url: https://javascriptweekly.com/link/137369/web
+      type: News
+    - title: Why We Added package.json Support to Deno
+      url: https://javascriptweekly.com/link/137374/web
+      type: News
+    - title: How to Start a React Project in 2023
+      url: https://javascriptweekly.com/link/137376/web
+      type: News
+    - title: Buying a Hard-to-Get Bicycle using Playwright
+      url: https://javascriptweekly.com/link/137390/web
+      type: News
+    - title: 'Snyk Top 10: JavaScript OSS Vulnerabilities'
+      url: https://javascriptweekly.com/link/137391/web
+      type: News
+    - title: The 'End' of Front-End Development?
+      url: https://javascriptweekly.com/link/137392/web
+      type: News
+    - title: Migrating from ts-node to Bun
+      url: https://javascriptweekly.com/link/137394/web
+      type: News
+    - title: A Pinia Crash Course for Beginners
+      url: https://javascriptweekly.com/link/137396/web
+      type: News
+    - title: A Practical Guide to Getting Started with Astro
+      url: https://javascriptweekly.com/link/137398/web
+      type: News
+    - title: "\U0001F680 Test Website Speed Continuously and Rank Higher In Google"
+      url: https://javascriptweekly.com/link/137400/web
+      type: News
+    - title: 'trace.cafe: Easy Webperf Trace Sharing'
+      url: https://javascriptweekly.com/link/137405/web
+      type: News
+    - title: 'VueUse: A Collection of Vue Composition Utilities'
+      url: https://javascriptweekly.com/link/137407/web
+      type: News
+    - title: Don’t Let Your Issue Tracker Be a Four-Letter Word. Use Shortcut
+      url: https://javascriptweekly.com/link/137408/web
+      type: News
+    - title: 'OTPAuth: One Time Password (HOTP/TOTP) Library'
+      url: https://javascriptweekly.com/link/137409/web
+      type: News
+    - title: 'Recharts 2.5: Chart Library Built with React and D3'
+      url: https://javascriptweekly.com/link/137410/web
+      type: News
+    - title: 'DOCX 8.0: Generate Word .docx Files from JavaScript'
+      url: https://javascriptweekly.com/link/137412/web
+      type: News
+    - title: 'SvHighlight: Code Syntax Highlighter for Svelte'
+      url: https://javascriptweekly.com/link/137416/web
+      type: News
+    - title: 'eslint-formatter-pretty 5.0: Pretty ESLint Formatter'
+      url: https://javascriptweekly.com/link/137418/web
+      type: News
+    - title: 'AWS JWT Verify: Verify JWTs Signed by Amazon Cognito'
+      url: https://javascriptweekly.com/link/137419/web
+      type: News
+    - title: Make Bookmarklets
+      url: https://javascriptweekly.com/link/137430/web
+      type: News
