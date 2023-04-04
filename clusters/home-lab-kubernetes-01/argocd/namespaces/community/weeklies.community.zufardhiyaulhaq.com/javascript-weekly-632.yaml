@@ -1,0 +1,73 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-632
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 632
+    date: 04/04/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: JavaScript Import Maps Now Supported Cross-Browser
+      url: https://javascriptweekly.com/link/137742/web
+      type: News
+    - title: Updates from the 95th TC39 Meeting
+      url: https://javascriptweekly.com/link/137750/web
+      type: News
+    - title: React Authentication, Simplified
+      url: https://javascriptweekly.com/link/137696/web
+      type: News
+    - title: 'React Labs: What React Core Has Been Working On'
+      url: https://javascriptweekly.com/link/137697/web
+      type: News
+    - title: Janet for Mortals
+      url: https://javascriptweekly.com/link/137710/web
+      type: News
+    - title: In Praise of Vite
+      url: https://javascriptweekly.com/link/137712/web
+      type: News
+    - title: The Easiest Way to Add Chat to Your Application. Try Stream for Free
+      url: https://javascriptweekly.com/link/137713/web
+      type: News
+    - title: Building Framer Motion Animations Inside a Qwik Application
+      url: https://javascriptweekly.com/link/137714/web
+      type: News
+    - title: A Business Case for SvelteKit
+      url: https://javascriptweekly.com/link/137716/web
+      type: News
+    - title: How to Enable OpenTelemetry Traces in React Apps
+      url: https://javascriptweekly.com/link/137717/web
+      type: News
+    - title: Build Developer-First Automations with Retool Workflows
+      url: https://javascriptweekly.com/link/137698/web
+      type: News
+    - title: 'NPKILL 0.11.1: Delete node_modules Even Faster'
+      url: https://javascriptweekly.com/link/137719/web
+      type: News
+    - title: 'Inferno 8.1: A Fast, React-a-Like with a Different Approach'
+      url: https://javascriptweekly.com/link/137721/web
+      type: News
+    - title: Breakpoints and console.log Is the Past, Time Travel Is the Future
+      url: https://javascriptweekly.com/link/137722/web
+      type: News
+    - title: 'Nano JSX: A Lightweight SSR-First JSX Library'
+      url: https://javascriptweekly.com/link/137723/web
+      type: News
+    - title: 'Concurrent.js: Load Modules into Background Threads'
+      url: https://javascriptweekly.com/link/137724/web
+      type: News
+    - title: 'cron-schedule 4.0: Cron Parser and Scheduler'
+      url: https://javascriptweekly.com/link/137725/web
+      type: News
+    - title: 'Bright: A React Server Component for Syntax Highlighting'
+      url: https://javascriptweekly.com/link/137726/web
+      type: News
+    - title: typescript-json-serializer 6.0
+      url: https://javascriptweekly.com/link/137727/web
+      type: News
