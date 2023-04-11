@@ -1,0 +1,67 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-633
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 633
+    date: 04/11/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'Croner: Cron for JavaScript and TypeScript'
+      url: https://javascriptweekly.com/link/137993/web
+      type: News
+    - title: JSON vs XML with Douglas Crockford
+      url: https://javascriptweekly.com/link/138011/web
+      type: News
+    - title: Headless CMS with World-Class TypeScript Support
+      url: https://javascriptweekly.com/link/137978/web
+      type: News
+    - title: The Angular Signals RFC
+      url: https://javascriptweekly.com/link/138018/web
+      type: News
+    - title: Over 100 Algorithms and Data Structures Demonstrated in JS
+      url: https://javascriptweekly.com/link/138012/web
+      type: News
+    - title: 'JSDayIE 2023: The First JavaScript Conference in Ireland Is Back!'
+      url: https://javascriptweekly.com/link/137984/web
+      type: News
+    - title: Making a Big, Slow Vue/Alpine Page 'Blazingly' Fast
+      url: https://javascriptweekly.com/link/138021/web
+      type: News
+    - title: Watch Dan Abramov Explore React Server Components
+      url: https://javascriptweekly.com/link/137989/web
+      type: News
+    - title: Getting PWAs in App Stores with PWABuilder
+      url: https://javascriptweekly.com/link/137985/web
+      type: News
+    - title: Add a Full-Featured Notification Center to Your App in Minutes
+      url: https://javascriptweekly.com/link/137987/web
+      type: News
+    - title: What Are Source Maps?
+      url: https://javascriptweekly.com/link/137988/web
+      type: News
+    - title: Relaunching JSPM CLI for Import Map Package Management
+      url: https://javascriptweekly.com/link/138023/web
+      type: News
+    - title: 'Chrome Extension CLI 1.4: CLI for Building Chrome Extensions'
+      url: https://javascriptweekly.com/link/137996/web
+      type: News
+    - title: 'React Chrono 2: A Flexible Timeline Component'
+      url: https://javascriptweekly.com/link/137998/web
+      type: News
+    - title: 'Dynaboard: A Visual Web App IDE Made for Developers'
+      url: https://javascriptweekly.com/link/137997/web
+      type: News
+    - title: 'Jampack: A Post-Processing Tool to Optimize Static Websites'
+      url: https://javascriptweekly.com/link/137999/web
+      type: News
+    - title: 'imask.js 6.5.0: A Vanilla JavaScript Input Mask'
+      url: https://javascriptweekly.com/link/138000/web
+      type: News
