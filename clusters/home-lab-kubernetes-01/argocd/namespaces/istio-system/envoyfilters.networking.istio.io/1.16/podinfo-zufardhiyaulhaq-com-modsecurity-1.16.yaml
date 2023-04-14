@@ -31,17 +31,15 @@ spec:
               name: podinfo.zufardhiyaulhaq.com-modsecurity
               root_id: podinfo.zufardhiyaulhaq.com-modsecurity
               vm_config:
-                runtime: "envoy.wasm.runtime.v8"
                 vm_id: podinfo.zufardhiyaulhaq.com-modsecurity
                 code:
                   remote:
+                    sha256: "88689b8d4386dd686beb303a7d7d5e59978f21e15d04d68a59289728117a54d9"
                     http_uri:
                       uri: https://github.com/zufardhiyaulhaq/community-ops/raw/master/resources/modsecurity-filter.wasm
-                      timeout: "999999s"
+                      timeout: "10s"
                       cluster: "PassthroughCluster"
                 configuration:
                   "@type": "type.googleapis.com/google.protobuf.StringValue"
                   value: |
-                    {
-                        "rules":"SecRuleEngine On\nSecRule ARGS:param1 \"test\" \"id:1,phase:1,pass,status:200,msg:'Test rule'\"\nSecRule ARGS:param1 \"attack\" \"id:2,phase:1,deny,status:400,msg:'Test rule'\""
-                    }
+                      {"rules":"SecRuleEngine On"}
