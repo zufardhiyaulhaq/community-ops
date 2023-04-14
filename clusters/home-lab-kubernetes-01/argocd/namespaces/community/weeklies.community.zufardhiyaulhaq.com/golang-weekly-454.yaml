@@ -1,0 +1,61 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-454
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 454
+    date: 04/02/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: 'SwissMap: A Smaller, Faster Hash Table for Go'
+      url: https://golangweekly.com/link/137636/web
+      type: News
+    - title: Go 1 Released 11 Years Ago
+      url: https://golangweekly.com/link/137639/web
+      type: News
+    - title: Go! Experts at Your Service
+      url: https://golangweekly.com/link/137635/web
+      type: News
+    - title: The Adapter Pattern in Go
+      url: https://golangweekly.com/link/137640/web
+      type: News
+    - title: Go Integration Tests with Postgres
+      url: https://golangweekly.com/link/137644/web
+      type: News
+    - title: Cross-Platform Graphical User Interfaces with Go
+      url: https://golangweekly.com/link/137645/web
+      type: News
+    - title: Debugging Dockerized Go Apps with VS Code
+      url: https://golangweekly.com/link/137671/web
+      type: News
+    - title: What Is a Saga in Microservices?
+      url: https://golangweekly.com/link/137647/web
+      type: News
+    - title: 'AnyCable Off Rails: Connecting Twilio Streams with Go and Ruby''s Hanami'
+      url: https://golangweekly.com/link/137648/web
+      type: News
+    - title: 'gotraceui: A GUI App for Viewing Go Execution Traces'
+      url: https://golangweekly.com/link/137650/web
+      type: News
+    - title: 'go-nbd: Pure Go NBD Server and Client Library'
+      url: https://golangweekly.com/link/137652/web
+      type: News
+    - title: Tailscale Integrates with 60+ Solutions That Your Team Uses Every Day
+      url: https://golangweekly.com/link/137654/web
+      type: News
+    - title: 'gocodewalker: For Walking Directories of Code'
+      url: https://golangweekly.com/link/137655/web
+      type: News
+    - title: 'Tint: slog.Handler That Writes Tinted Logs'
+      url: https://golangweekly.com/link/137656/web
+      type: News
+    - title: 'pathfind: Path Finding on 2D Polygonal Maps'
+      url: https://golangweekly.com/link/137658/web
+      type: News

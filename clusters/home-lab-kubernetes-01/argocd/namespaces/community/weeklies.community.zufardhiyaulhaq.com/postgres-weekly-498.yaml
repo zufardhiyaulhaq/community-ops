@@ -1,0 +1,50 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-498
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 498
+    date: 03/29/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: Easy Postgres Time Bins
+      url: https://postgresweekly.com/link/137132/web
+      type: News
+    - title: Site Reliability Engineer And Software Engineer C++
+      url: https://postgresweekly.com/link/137131/web
+      type: News
+    - title: Announcing Postgres 15 on Heroku
+      url: https://postgresweekly.com/link/137133/web
+      type: News
+    - title: Table Maintenance after Bulk Modifications
+      url: https://postgresweekly.com/link/137141/web
+      type: News
+    - title: How Collation Works
+      url: https://postgresweekly.com/link/137142/web
+      type: News
+    - title: DELETE vs. TRUNCATE
+      url: https://postgresweekly.com/link/137140/web
+      type: News
+    - title: Basic Time-Series Data with Rails and Postgres
+      url: https://postgresweekly.com/link/137143/web
+      type: News
+    - title: 'pgwarehouse: Sync a Postgres Database to a Snowflake or Clickhouse Warehouse'
+      url: https://postgresweekly.com/link/137144/web
+      type: News
+    - title: Tuple, a Lightning-Fast Pairing Tool Built for Remote Developers
+      url: https://postgresweekly.com/link/137145/web
+      type: News
+    - title: 'PgLock 1.0: Use Advisory Locks to Isolate Code Execution Across Machines'
+      url: https://postgresweekly.com/link/137146/web
+      type: News
+    - title: 'Frenzy: Postgres Wire Protocol Aware Mirroring Proxy'
+      url: https://postgresweekly.com/link/137147/web
+      type: News

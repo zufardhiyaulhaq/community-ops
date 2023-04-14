@@ -1,0 +1,53 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-500
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 500
+    date: 04/12/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: 'PL/Rust 1.0: Write Postgres Functions in Rust'
+      url: https://postgresweekly.com/link/137764/web
+      type: News
+    - title: How to Get Up to Five 9s Uptime with Next Generation Postgres
+      url: https://postgresweekly.com/link/137766/web
+      type: News
+    - title: SQL:2023 is Done, But What's New?
+      url: https://postgresweekly.com/link/137767/web
+      type: News
+    - title: Google Offers Version of AlloyDB That Runs 'Anywhere'
+      url: https://postgresweekly.com/link/137768/web
+      type: News
+    - title: 'The Ultimate Guide to Citus Con: An Event for Postgres'
+      url: https://postgresweekly.com/link/137770/web
+      type: News
+    - title: 'Hydra: Introducing Updates and Deletes on Columnar Postgres'
+      url: https://postgresweekly.com/link/137784/web
+      type: News
+    - title: Row Locks in Postgres
+      url: https://postgresweekly.com/link/137777/web
+      type: News
+    - title: Representing Time Ranges without Overlapping
+      url: https://postgresweekly.com/link/137778/web
+      type: News
+    - title: A Special Illustrated Postgres Migration Story
+      url: https://postgresweekly.com/link/137779/web
+      type: News
+    - title: Assigning Blame for Postgres Errors
+      url: https://postgresweekly.com/link/137780/web
+      type: News
+    - title: Easy Mongo from Your Postgres
+      url: https://postgresweekly.com/link/137781/web
+      type: News
+    - title: Go Integration Tests with Postgres
+      url: https://postgresweekly.com/link/137782/web
+      type: News

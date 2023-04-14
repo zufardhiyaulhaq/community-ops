@@ -1,0 +1,53 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-499
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 499
+    date: 04/05/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: Is Your Postgres Ready for Production?
+      url: https://postgresweekly.com/link/137517/web
+      type: News
+    - title: The Importance of max_wal_size
+      url: https://postgresweekly.com/link/137518/web
+      type: News
+    - title: Learn How to Create the Best Postgres Index for Your Queries (eBook)
+      url: https://postgresweekly.com/link/137516/web
+      type: News
+    - title: 'Postgres: The Graph Database You Didn''t Know You Had?'
+      url: https://postgresweekly.com/link/137520/web
+      type: News
+    - title: Searching for Performance Regressions in Postgres 11–15
+      url: https://postgresweekly.com/link/137527/web
+      type: News
+    - title: Scaling Postgres with Amazon S3 (on Timescale Cloud)
+      url: https://postgresweekly.com/link/137528/web
+      type: News
+    - title: The New Old debug_parallel_query Setting in Postgres 16
+      url: https://postgresweekly.com/link/137529/web
+      type: News
+    - title: Ask Me Anything About High Availability for Postgres on Demand Webinar
+      url: https://postgresweekly.com/link/137530/web
+      type: News
+    - title: 'Postgres 16 Highlight: More Patterns for pg_ident.conf'
+      url: https://postgresweekly.com/link/137531/web
+      type: News
+    - title: 'PgCat 1.0: Modern Postgres Pooler and Proxy'
+      url: https://postgresweekly.com/link/137532/web
+      type: News
+    - title: 'pg_gpt: Experimental Extension for Making Queries with Natural Language'
+      url: https://postgresweekly.com/link/137533/web
+      type: News
+    - title: Neon's Edge-Compatible Serverless Driver for Postgres
+      url: https://postgresweekly.com/link/137535/web
+      type: News
