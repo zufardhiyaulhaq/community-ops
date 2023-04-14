@@ -38,6 +38,7 @@ spec:
                     http_uri:
                       uri: https://github.com/zufardhiyaulhaq/community-ops/raw/master/resources/modsecurity-filter.wasm
                       timeout: "999999s"
+                      cluster: "PassthroughCluster"
                 configuration:
                   "@type": "type.googleapis.com/google.protobuf.StringValue"
                   value: |
