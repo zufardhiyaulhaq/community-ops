@@ -36,7 +36,7 @@ spec:
                 code:
                   remote:
                     http_uri:
-                      uri: oci://registry.fi.intel.com/wujiayu/envoy-modsecurity-wasm-dynamic-plugin:latest
+                      uri: https://github.com/zufardhiyaulhaq/community-ops/raw/master/resources/modsecurity-filter.wasm
                       timeout: "999999s"
                 configuration:
                   "@type": "type.googleapis.com/google.protobuf.StringValue"
