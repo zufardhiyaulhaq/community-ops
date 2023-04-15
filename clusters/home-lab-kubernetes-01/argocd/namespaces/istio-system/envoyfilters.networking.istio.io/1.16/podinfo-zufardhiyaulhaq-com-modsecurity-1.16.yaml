@@ -1,7 +1,7 @@
 apiVersion: extensions.istio.io/v1alpha1
 kind: WasmPlugin
 metadata:
-  name: mod-example
+  name: istio-public-gateway-modsecurity-wasm
   namespace: istio-system
 spec:
   selector:
