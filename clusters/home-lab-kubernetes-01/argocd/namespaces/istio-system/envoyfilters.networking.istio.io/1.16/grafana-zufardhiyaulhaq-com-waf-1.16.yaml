@@ -36,7 +36,7 @@ spec:
                     "rules": [
                       "SecDebugLogLevel 3",
                       "SecRuleEngine On",
-                      "SecRule REQUEST_URI \"@streq /grafana\" \"id:101,phase:1,t:lowercase,deny\""
+                      "Include @owasp_crs/*.conf"
                     ]
                   }
     - applyTo: HTTP_FILTER
