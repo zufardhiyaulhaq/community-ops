@@ -1,0 +1,42 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: EnvoyFilter
+metadata:
+  name: global-histogram-buckets-settings-1.16-ef
+  namespace: istio-system
+spec:
+  configPatches:
+    - applyTo: BOOTSTRAP
+      match:
+        proxy:
+          proxyVersion: ^1\.16.*
+      patch:
+        operation: ADD
+        value:
+          stats_config:
+            histogram_bucket_settings:
+              - buckets:
+                  - 0.5
+                  - 1
+                  - 5
+                  - 10
+                  - 25
+                  - 50
+                  - 100
+                  - 250
+                  - 500
+                  - 1000
+                  - 1500
+                  - 2500
+                  - 5000
+                  - 10000
+                  - 11500
+                  - 30000
+                  - 60000
+                  - 300000
+                  - 600000
+                  - 1800000
+                  - 3600000
+                match:
+                  safe_regex:
+                    google_re2: {}
+                    regex: .*?

@@ -1,0 +1,22 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: EnvoyFilter
+metadata:
+  name: waf-stats-config-1.16-ef
+  namespace: istio-system
+spec:
+  configPatches:
+    - applyTo: BOOTSTRAP
+      match:
+        proxy:
+          proxyVersion: ^1\.16.*
+      patch:
+        operation: ADD
+        value:
+          stats_config:
+            stats_tags:
+              - tag_name: phase
+                regex: "(_phase=([a-z_]+))"
+              - tag_name: rule_id
+                regex: "(_ruleid=([0-9]+))"
+              - tag_name: authority
+                regex: "(_authority=([0-9a-z.]+))"
