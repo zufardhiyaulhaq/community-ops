@@ -10,7 +10,7 @@ spec:
         proxy:
           proxyVersion: ^1\.16.*
       patch:
-        operation: ADD
+        operation: MERGE
         value:
           stats_config:
             stats_tags:
