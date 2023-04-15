@@ -34,8 +34,7 @@ spec:
                 value: |
                   {
                     "rules": [
-                      "SecDebugLogLevel 3",
-                      "SecRuleEngine On",
+                      "Include @coraza-conf-recommended-conf",
                       "Include @owasp_crs/*.conf"
                     ]
                   }

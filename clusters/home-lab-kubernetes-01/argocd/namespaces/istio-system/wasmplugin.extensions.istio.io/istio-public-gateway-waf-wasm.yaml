@@ -11,6 +11,5 @@ spec:
   imagePullPolicy: Always
   pluginConfig:
     rules:
-      - "SecDebugLogLevel 3"
-      - "SecRuleEngine On"
-      - "SecRule REQUEST_URI \"@streq /admin\" \"id:102,phase:1,t:lowercase,deny\""
+      - "Include @coraza-conf-recommended-conf"
+      - "Include @owasp_crs/*.conf"
