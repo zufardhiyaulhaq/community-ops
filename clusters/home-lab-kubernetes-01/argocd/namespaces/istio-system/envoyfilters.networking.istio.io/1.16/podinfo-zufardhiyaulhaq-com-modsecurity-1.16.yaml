@@ -1,56 +1,16 @@
-apiVersion: networking.istio.io/v1alpha3
-kind: EnvoyFilter
+apiVersion: extensions.istio.io/v1alpha1
+kind: WasmPlugin
 metadata:
-  name: podinfo-zufardhiyaulhaq-com-modsecurity-1.16
+  name: mod-example
   namespace: istio-system
 spec:
-  workloadSelector:
-    labels:
+  selector:
+    matchLabels:
       app: istio-public-gateway
-      istio: ingressgateway
-  configPatches:
-  - applyTo: EXTENSION_CONFIG
-    match:
-      proxy:
-        proxyVersion: ^1\.16.*
-    patch:
-      operation: ADD
-      value:
-        name: podinfo-zufardhiyaulhaq-com-modsecurity
-        typed_config:
-          "@type": type.googleapis.com/envoy.extensions.filters.http.wasm.v3.Wasm
-          config:
-            root_id: podinfo-zufardhiyaulhaq-com-modsecurity-root-id
-            vm_config:
-              vm_id: podinfo-zufardhiyaulhaq-com-modsecurity-vm-id
-              runtime: envoy.wasm.runtime.v8
-              code:
-                remote:
-                  http_uri:
-                    uri: https://github.com/zufardhiyaulhaq/community-ops/raw/master/resources/modsecurity-filter.wasm
-            configuration:
-              "@type": "type.googleapis.com/google.protobuf.StringValue"
-              value: |
-                {
-                  "rules":"SecRuleEngine On\nSecRule ARGS:param1 \"test\" \"id:1,phase:1,pass,status:200,msg:'Test rule'\"\nSecRule ARGS:param1 \"attack\" \"id:2,phase:1,deny,status:400,msg:'Test rule'\""
-                }
-  - applyTo: HTTP_FILTER
-    match:
-      context: GATEWAY
-      listener:
-        filterChain:
-          sni: podinfo.zufardhiyaulhaq.com
-          filter:
-            name: envoy.filters.network.http_connection_manager
-            subFilter:
-              name: envoy.filters.http.router
-      proxy:
-        proxyVersion: ^1\.16.*
-    patch:
-      operation: INSERT_BEFORE
-      value:
-        name: podinfo-zufardhiyaulhaq-com-modsecurity
-        config_discovery:
-          config_source:
-            ads: {}
-          type_urls: ["type.googleapis.com/envoy.extensions.filters.http.wasm.v3.Wasm"]
+  url: oci://ghcr.io/corazawaf/coraza-proxy-wasm:main
+  imagePullPolicy: Always
+  pluginConfig:
+    rules:
+      - "SecDebugLogLevel 9"
+      - "SecRuleEngine On"
+      - "SecRule REQUEST_URI \"@streq /admin\" \"id:101,phase:1,t:lowercase,deny\""
