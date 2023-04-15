@@ -72,6 +72,7 @@ spec:
         "connection_termination_details": "%CONNECTION_TERMINATION_DETAILS%",
         "grpc_status_code": "%GRPC_STATUS_NUMBER%",
         "downstream_tls_version": "%DOWNSTREAM_TLS_VERSION%",
+        "downstream_peer_certificate_validity_end": "%DOWNSTREAM_PEER_CERT_V_END%",
         "upstream_tls_version": "%UPSTREAM_TLS_VERSION%"
       }
     dnsRefreshRate: 30s
@@ -87,8 +88,13 @@ spec:
         ISTIO_META_DNS_AUTO_ALLOCATE: "true"
         BOOTSTRAP_XDS_AGENT: "true"
       extraStatTags:
+        - request_host
         - request_method
         - route_name
+        - response_code_details
+        - proxy_type
+      inclusionPrefixes:
+        - istio_proxy_latency_milliseconds
   values:
     global:
       proxy:
@@ -102,26 +108,50 @@ spec:
           configOverride:
             inboundSidecar:
               debug: false
+              definitions:
+                - name: proxy_latency_milliseconds
+                  type: 'HISTOGRAM'
+                  value: "(request.duration - duration(response.headers['x-envoy-upstream-service-time']+'ms')).getMilliseconds()"
               stat_prefix: istio
               metrics:
+                - name: proxy_latency_milliseconds
+                  dimensions:
+                    proxy_type: "'inboundSidecar'"
                 - dimensions:
                     request_host: request.host
                     request_method: request.method
                     route_name: route_name
+                    response_code_details: '(response.code_details == "via_upstream") ? response.code_details : "other"'
             outboundSidecar:
               debug: false
+              definitions:
+                - name: proxy_latency_milliseconds
+                  type: 'HISTOGRAM'
+                  value: "(request.duration - duration(response.headers['x-envoy-upstream-service-time']+'ms')).getMilliseconds()"
               stat_prefix: istio
               metrics:
+                - name: proxy_latency_milliseconds
+                  dimensions:
+                    proxy_type: "'outboundSidecar'"
                 - dimensions:
                     request_host: request.host
                     request_method: request.method
                     route_name: route_name
+                    response_code_details: '(response.code_details == "via_upstream") ? response.code_details : "other"'
             gateway:
               debug: false
+              definitions:
+                - name: proxy_latency_milliseconds
+                  type: 'HISTOGRAM'
+                  value: "(request.duration - duration(response.headers['x-envoy-upstream-service-time']+'ms')).getMilliseconds()"
               stat_prefix: istio
               disable_host_header_fallback: true
               metrics:
+                - name: proxy_latency_milliseconds
+                  dimensions:
+                    proxy_type: "'gateway'"
                 - dimensions:
                     request_host: '(response.code == 403) ? "unknown" : request.host'
                     request_method: request.method
                     route_name: route_name
+                    response_code_details: '(response.code_details == "via_upstream") ? response.code_details : "other"'
