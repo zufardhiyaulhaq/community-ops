@@ -1,15 +1,15 @@
-apiVersion: extensions.istio.io/v1alpha1
-kind: WasmPlugin
-metadata:
-  name: istio-public-gateway-waf-wasm
-  namespace: istio-system
-spec:
-  selector:
-    matchLabels:
-      app: istio-public-gateway
-  url: oci://ghcr.io/corazawaf/coraza-proxy-wasm:main
-  imagePullPolicy: Always
-  pluginConfig:
-    rules:
-      - "Include @crs-setup-conf"
-      - "Include @owasp_crs/*.conf"
+# apiVersion: extensions.istio.io/v1alpha1
+# kind: WasmPlugin
+# metadata:
+#   name: istio-public-gateway-waf-wasm
+#   namespace: istio-system
+# spec:
+#   selector:
+#     matchLabels:
+#       app: istio-public-gateway
+#   url: oci://ghcr.io/corazawaf/coraza-proxy-wasm:main
+#   imagePullPolicy: Always
+#   pluginConfig:
+#     rules:
+#       - "Include @crs-setup-conf"
+#       - "Include @owasp_crs/*.conf"
