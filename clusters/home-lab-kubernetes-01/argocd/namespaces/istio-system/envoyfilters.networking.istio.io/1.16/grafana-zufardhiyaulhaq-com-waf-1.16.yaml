@@ -1,0 +1,62 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: EnvoyFilter
+metadata:
+  name: grafana-zufardhiyaulhaq-com-waf-1.16
+  namespace: istio-system
+spec:
+  workloadSelector:
+    labels:
+      app: istio-public-gateway
+      istio: ingressgateway
+  configPatches:
+    - applyTo: EXTENSION_CONFIG
+      match:
+        proxy:
+          proxyVersion: ^1\.16.*
+      patch:
+        operation: ADD
+        value:
+          name: grafana-zufardhiyaulhaq-com-waf
+          typed_config:
+            "@type": type.googleapis.com/envoy.extensions.filters.http.wasm.v3.Wasm
+            config:
+              root_id: grafana-zufardhiyaulhaq-com-waf-root-id
+              vm_config:
+                vm_id: grafana-zufardhiyaulhaq-com-waf-vm-id
+                runtime: envoy.wasm.runtime.v8
+                code:
+                  remote:
+                    http_uri:
+                      uri: https://github.com/zufardhiyaulhaq/community-ops/raw/master/resources/coraza.wasm
+                      timeout: "60s"
+              configuration:
+                "@type": "type.googleapis.com/google.protobuf.StringValue"
+                value: |
+                  {
+                    "rules": [
+                      "SecDebugLogLevel 3",
+                      "SecRuleEngine On",
+                      "SecRule REQUEST_URI \"@streq /grafana\" \"id:101,phase:1,t:lowercase,deny\""
+                    ]
+                  }
+    - applyTo: HTTP_FILTER
+      match:
+        context: GATEWAY
+        listener:
+          filterChain:
+            sni: grafana.zufardhiyaulhaq.com
+            filter:
+              name: envoy.filters.network.http_connection_manager
+              subFilter:
+                name: envoy.filters.http.router
+        proxy:
+          proxyVersion: ^1\.16.*
+      patch:
+        operation: INSERT_BEFORE
+        value:
+          name: grafana-zufardhiyaulhaq-com-waf
+          config_discovery:
+            config_source:
+              ads: {}
+            type_urls:
+              ["type.googleapis.com/envoy.extensions.filters.http.wasm.v3.Wasm"]

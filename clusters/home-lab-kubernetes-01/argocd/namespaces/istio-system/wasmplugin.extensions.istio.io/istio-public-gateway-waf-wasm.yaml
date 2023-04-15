@@ -1,7 +1,7 @@
 apiVersion: extensions.istio.io/v1alpha1
 kind: WasmPlugin
 metadata:
-  name: istio-public-gateway-modsecurity-wasm
+  name: istio-public-gateway-waf-wasm
   namespace: istio-system
 spec:
   selector:
@@ -11,6 +11,6 @@ spec:
   imagePullPolicy: Always
   pluginConfig:
     rules:
-      - "SecDebugLogLevel 9"
+      - "SecDebugLogLevel 3"
       - "SecRuleEngine On"
-      - "SecRule REQUEST_URI \"@streq /admin\" \"id:101,phase:1,t:lowercase,deny\""
+      - "SecRule REQUEST_URI \"@streq /admin\" \"id:102,phase:1,t:lowercase,deny\""
