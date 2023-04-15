@@ -13,6 +13,9 @@ spec:
       label:
         app: istio-test-gateway
       k8s:
+        env:
+        - name: BOOTSTRAP_XDS_AGENT
+          value: "true"
         affinity:
           podAntiAffinity:
             preferredDuringSchedulingIgnoredDuringExecution:
