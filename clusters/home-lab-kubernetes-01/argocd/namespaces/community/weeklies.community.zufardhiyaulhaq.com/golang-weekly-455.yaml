@@ -1,0 +1,55 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-455
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 455
+    date: 04/16/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: The Smallest Go Binary - 5KB?
+      url: https://golangweekly.com/link/138062/web
+      type: News
+    - title: Developing a RESTful API with Go and Gin
+      url: https://golangweekly.com/link/138064/web
+      type: News
+    - title: What's Next in Kubernetes Access?
+      url: https://golangweekly.com/link/138061/web
+      type: News
+    - title: 'FerretDB 1.0: An Open Source MongoDB Alternative'
+      url: https://golangweekly.com/link/138066/web
+      type: News
+    - title: What's New in GoLand 2023.1
+      url: https://golangweekly.com/link/138068/web
+      type: News
+    - title: How Do You Name Your Go Variables
+      url: https://golangweekly.com/link/138072/web
+      type: News
+    - title: Send Transactional Emails with Golang
+      url: https://golangweekly.com/link/138073/web
+      type: News
+    - title: How to Secure a Go App with JWT
+      url: https://golangweekly.com/link/138074/web
+      type: News
+    - title: 'Excelize: Library for Working with Excel Spreadsheets'
+      url: https://golangweekly.com/link/138075/web
+      type: News
+    - title: 'GoReleaser v1.17: Go Binary Build and Delivery Tool'
+      url: https://golangweekly.com/link/138077/web
+      type: News
+    - title: Authorization Simplified with an Open-Source Authorizer Written in Go
+      url: https://golangweekly.com/link/138079/web
+      type: News
+    - title: 'Tokenizer: Pure Go Implementation of OpenAI''s Tokenizer'
+      url: https://golangweekly.com/link/138080/web
+      type: News
+    - title: 'bearclaw: A Tiny Static Site Generator'
+      url: https://golangweekly.com/link/138081/web
+      type: News
