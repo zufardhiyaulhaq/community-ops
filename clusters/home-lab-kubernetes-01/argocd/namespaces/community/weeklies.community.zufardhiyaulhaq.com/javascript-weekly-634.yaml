@@ -1,0 +1,62 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-634
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 634
+    date: 04/18/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: The JavaScript Equality Table Game
+      url: https://javascriptweekly.com/link/138332/web
+      type: News
+    - title: htmx 1.9 Released
+      url: https://javascriptweekly.com/link/138334/web
+      type: News
+    - title: Supercharge AWS S3 Video Streaming with ImageKit's Video API
+      url: https://javascriptweekly.com/link/138285/web
+      type: News
+    - title: The ECMAScript® 2023 Language Spec Steps Forward
+      url: https://javascriptweekly.com/link/138337/web
+      type: News
+    - title: 'Ranger: Use a Range-Like Syntax for Anything?'
+      url: https://javascriptweekly.com/link/138293/web
+      type: News
+    - title: 'Build and Deploy ‘23: May 3rd - Save the Date!'
+      url: https://javascriptweekly.com/link/138296/web
+      type: News
+    - title: Trying Node's Built-In Test Runner
+      url: https://javascriptweekly.com/link/138297/web
+      type: News
+    - title: 'Reveal.js 4.5: An HTML Presentation Framework'
+      url: https://javascriptweekly.com/link/138303/web
+      type: News
+    - title: 'List.js: Add Search, Sort, Filters, and More to Tables and Lists'
+      url: https://javascriptweekly.com/link/138305/web
+      type: News
+    - title: "\U0001F998Quokka.js - #1 JavaScript Scratchpad for VS Code"
+      url: https://javascriptweekly.com/link/138309/web
+      type: News
+    - title: 'Queue: Async Function Queue with Adjustable Concurrency'
+      url: https://javascriptweekly.com/link/138310/web
+      type: News
+    - title: Yet Another React Lightbox
+      url: https://javascriptweekly.com/link/138311/web
+      type: News
+    - title: 'Sandpack 2.6: Component Toolkit for Creating Live Code Editing Experiences'
+      url: https://javascriptweekly.com/link/138315/web
+      type: News
+    - title: Easy to Use, Full-Stack Application Monitoring
+      url: https://javascriptweekly.com/link/138317/web
+      type: News
+    - title: 'TS Writer: A Template String Template Engine for Generating Code at
+        Runtime'
+      url: https://javascriptweekly.com/link/138331/web
+      type: News
