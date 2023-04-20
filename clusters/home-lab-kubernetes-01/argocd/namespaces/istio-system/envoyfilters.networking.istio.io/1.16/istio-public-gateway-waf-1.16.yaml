@@ -77,7 +77,6 @@ spec:
         context: GATEWAY
         listener:
           filterChain:
-            sni: podinfo.zufardhiyaulhaq.com
             filter:
               name: envoy.filters.network.http_connection_manager
               subFilter:
