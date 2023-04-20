@@ -1,0 +1,57 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-501
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 501
+    date: 04/19/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: A Postgres JSONB Functions and Operators Cheatsheet
+      url: https://postgresweekly.com/link/138103/web
+      type: News
+    - title: 'Supavisor: A Postgres Connection Pooler from Supabase'
+      url: https://postgresweekly.com/link/138105/web
+      type: News
+    - title: Three Must-Read Extreme High Availability Success Stories
+      url: https://postgresweekly.com/link/138102/web
+      type: News
+    - title: 'SQL Maxis: Why We Replaced RabbitMQ with a Postgres Queue'
+      url: https://postgresweekly.com/link/138106/web
+      type: News
+    - title: 'FerretDB 1.0: An Open Source MongoDB Alternative'
+      url: https://postgresweekly.com/link/138107/web
+      type: News
+    - title: Parallel Aggregates in Postgres 16
+      url: https://postgresweekly.com/link/138120/web
+      type: News
+    - title: Updating the Cost Limit on the Fly in Postgres 16+
+      url: https://postgresweekly.com/link/138121/web
+      type: News
+    - title: Setting Up Postgres Failover and Failback, the Right Way
+      url: https://postgresweekly.com/link/138122/web
+      type: News
+    - title: 'Watch: How to Use the Postgres Query Planner to Debug Bad Plans and
+        Speed Up Queries'
+      url: https://postgresweekly.com/link/138125/web
+      type: News
+    - title: 'Path to Citus Con: Working in Public'
+      url: https://postgresweekly.com/link/138134/web
+      type: News
+    - title: Pgpool-II Use Cases and Benefits
+      url: https://postgresweekly.com/link/138123/web
+      type: News
+    - title: 'PL/Rust Just Shipped: An Easy Way to Try It Out'
+      url: https://postgresweekly.com/link/138126/web
+      type: News
+    - title: 'credcheck v1.0: An Extension for Credential Checking'
+      url: https://postgresweekly.com/link/138127/web
+      type: News
