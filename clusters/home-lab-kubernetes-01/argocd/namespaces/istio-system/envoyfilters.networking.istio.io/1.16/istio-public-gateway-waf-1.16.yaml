@@ -68,6 +68,30 @@ spec:
                           "Include @owasp_crs/*.conf"
                         ],
                         "authority": "sakura.zufardhiyaulhaq.com"
+                      },
+                      {
+                        "rules": [
+                          "Include @demo-conf",
+                          "Include @crs-setup-demo-conf",
+                          "SecDefaultAction \"phase:3,log,auditlog,pass\"",
+                          "SecDefaultAction \"phase:4,log,auditlog,pass\"",
+                          "SecDefaultAction \"phase:5,log,auditlog,pass\"",
+                          "SecDebugLogLevel 3",
+                          "Include @owasp_crs/*.conf"
+                        ],
+                        "authority": "grafana.zufardhiyaulhaq.com"
+                      },
+                      {
+                        "rules": [
+                          "Include @demo-conf",
+                          "Include @crs-setup-demo-conf",
+                          "SecDefaultAction \"phase:3,log,auditlog,pass\"",
+                          "SecDefaultAction \"phase:4,log,auditlog,pass\"",
+                          "SecDefaultAction \"phase:5,log,auditlog,pass\"",
+                          "SecDebugLogLevel 3",
+                          "Include @owasp_crs/*.conf"
+                        ],
+                        "authority": "bookinfo.zufardhiyaulhaq.com"
                       }
                     ],
                     "identifier": "istio-public-gateway"
@@ -80,11 +104,11 @@ spec:
             filter:
               name: envoy.filters.network.http_connection_manager
               subFilter:
-                name: envoy.filters.http.router
+                name: envoy.filters.http.rbac
         proxy:
           proxyVersion: ^1\.16.*
       patch:
-        operation: INSERT_BEFORE
+        operation: INSERT_AFTER
         value:
           name: istio-public-gateway-waf
           config_discovery:

@@ -21,4 +21,4 @@ spec:
               - tag_name: authority
                 regex: "(_authority=([0-9a-z.]+))"
               - tag_name: identifier
-                regex: "(_identifier=([0-9a-z.]+))"
+                regex: "(_identifier=([0-9a-z.-]+))"
