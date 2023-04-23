@@ -1,0 +1,58 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-456
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 456
+    date: 04/23/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: Go's Error Handling is a Form of Storytelling
+      url: https://golangweekly.com/link/138355/web
+      type: News
+    - title: Try GoLand 2023.1!
+      url: https://golangweekly.com/link/138354/web
+      type: News
+    - title: Improving Tailscale via Apple’s Open Source
+      url: https://golangweekly.com/link/138357/web
+      type: News
+    - title: The Tao of Go
+      url: https://golangweekly.com/link/138359/web
+      type: News
+    - title: An Indepth Look at Go's Windows Calls
+      url: https://golangweekly.com/link/138366/web
+      type: News
+    - title: Six Best Practices for Kubernetes Audit Logging
+      url: https://golangweekly.com/link/138367/web
+      type: News
+    - title: Why Go is Great for Command-Line Tools
+      url: https://golangweekly.com/link/138368/web
+      type: News
+    - title: How Go Fixed Everything That Was Wrong with Programming
+      url: https://golangweekly.com/link/138369/web
+      type: News
+    - title: llama.go – It's Like llama.cpp in Pure Go
+      url: https://golangweekly.com/link/138370/web
+      type: News
+    - title: 'Queue 1.2: Generic, Thread-Safe Queue Implementations'
+      url: https://golangweekly.com/link/138373/web
+      type: News
+    - title: Domain Names for Go Programmers at Porkbun.com
+      url: https://golangweekly.com/link/138374/web
+      type: News
+    - title: 'Opengist: A Self-Hosted Pastebin'
+      url: https://golangweekly.com/link/138375/web
+      type: News
+    - title: 'go-mask: Library for Masking Sensitive Information'
+      url: https://golangweekly.com/link/138377/web
+      type: News
+    - title: 'µDiff: A Small Diffing Library'
+      url: https://golangweekly.com/link/138378/web
+      type: News
