@@ -1,0 +1,74 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-635
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 635
+    date: 04/25/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: Introducing npm Package Provenance
+      url: https://javascriptweekly.com/link/138597/web
+      type: News
+    - title: What's New in ECMAScript 2023, Briefly
+      url: https://javascriptweekly.com/link/138647/web
+      type: News
+    - title: 'New Course by Kyle Simpson: Practical Problem Solving with Algorithms'
+      url: https://javascriptweekly.com/link/138596/web
+      type: News
+    - title: Node.js v20 (Current) Released
+      url: https://javascriptweekly.com/link/138599/web
+      type: News
+    - title: 'Vite 4.3: Now It''s Even ''Faaaaster'''
+      url: https://javascriptweekly.com/link/138602/web
+      type: News
+    - title: Introducing the TERN Stack & How to Migrate from MERN to TERN
+      url: https://javascriptweekly.com/link/138618/web
+      type: News
+    - title: Richer Install UI for PWAs Available in Chrome
+      url: https://javascriptweekly.com/link/138650/web
+      type: News
+    - title: 'Passkeys: What and Why?'
+      url: https://javascriptweekly.com/link/138612/web
+      type: News
+    - title: Build Complex Automations 10x Faster, Without Fighting APIs
+      url: https://javascriptweekly.com/link/138615/web
+      type: News
+    - title: Integrating React Flow and the Web Audio API
+      url: https://javascriptweekly.com/link/138616/web
+      type: News
+    - title: Ways to Create an Enum in JavaScript
+      url: https://javascriptweekly.com/link/138651/web
+      type: News
+    - title: 'Deno vs. Node: No One is Ready for the Move'
+      url: https://javascriptweekly.com/link/138613/web
+      type: News
+    - title: 'Tachyon 2.0: A Bite-Sized Script to Make Page Navigation Faster'
+      url: https://javascriptweekly.com/link/138635/web
+      type: News
+    - title: 'Iconoir: 1300+ Open Source SVG Icons'
+      url: https://javascriptweekly.com/link/138620/web
+      type: News
+    - title: Tuple – One-Click Code Reviews for Remote Devs
+      url: https://javascriptweekly.com/link/138621/web
+      type: News
+    - title: 'Ark UI: A Headless Library of Customizable, Accessible, and Unstyled
+        UI Components'
+      url: https://javascriptweekly.com/link/138622/web
+      type: News
+    - title: 'next-route-visualizer: Visualize Next.js App Routes'
+      url: https://javascriptweekly.com/link/138623/web
+      type: News
+    - title: 'ohash: Super Fast Hashing Library in Plain JS'
+      url: https://javascriptweekly.com/link/138652/web
+      type: News
+    - title: 'DPaint JS: A Deluxe Paint-Inspired Image Editor'
+      url: https://javascriptweekly.com/link/138645/web
+      type: News
