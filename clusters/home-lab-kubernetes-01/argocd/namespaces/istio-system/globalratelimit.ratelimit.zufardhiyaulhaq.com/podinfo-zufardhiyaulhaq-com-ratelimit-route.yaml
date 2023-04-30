@@ -5,7 +5,7 @@ metadata:
   name: podinfo-zufardhiyaulhaq-com-ratelimit-route
   namespace: istio-system
 spec:
-  config: "istio-public-gateway-grlc"
+  config: "podinfo-zufardhiyaulhaq-com-grlc"
   selector:
     vhost: "podinfo.zufardhiyaulhaq.com:443"
     route: "ratelimit-route"

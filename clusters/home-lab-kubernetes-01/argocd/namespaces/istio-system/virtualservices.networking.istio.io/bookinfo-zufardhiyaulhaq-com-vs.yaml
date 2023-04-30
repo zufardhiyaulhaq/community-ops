@@ -18,5 +18,14 @@ spec:
           port:
             number: 9080
           host: productpage.default.svc.cluster.local
+  - name: "ratelimit-route"
+    match:
+    - uri:
+        prefix: /ratelimit
+    route:
+      - destination:
+          port:
+            number: 9080
+          host: productpage.default.svc.cluster.local
   exportTo:
     - "."

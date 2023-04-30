@@ -2,13 +2,13 @@
 apiVersion: ratelimit.zufardhiyaulhaq.com/v1alpha1
 kind: GlobalRateLimit
 metadata:
-  name: podinfo-zufardhiyaulhaq-com-podinfo-route
+  name: bookinfo-zufardhiyaulhaq-com-ratelimit-route
   namespace: istio-system
 spec:
-  config: "podinfo-zufardhiyaulhaq-com-grlc"
+  config: "bookinfo-zufardhiyaulhaq-com-grlc"
   selector:
-    vhost: "podinfo.zufardhiyaulhaq.com:443"
-    route: "podinfo-route"
+    vhost: "bookinfo.zufardhiyaulhaq.com:443"
+    route: "ratelimit-route"
   matcher:
   - request_headers:
       header_name: ":method"
@@ -17,12 +17,12 @@ spec:
       header_name: ":path"
       descriptor_key: "path"
   - generic_key:
-      descriptor_value: "podinfo-route"
+      descriptor_value: "ratelimit-route"
       descriptor_key: "route"
   - generic_key:
-      descriptor_value: "podinfo-zufardhiyaulhaq-com"
+      descriptor_value: "bookinfo-zufardhiyaulhaq-com"
       descriptor_key: "domain"
   limit:
     unit: minute
-    requests_per_unit: 60
-  identifier: "podinfo-default-route"
+    requests_per_unit: 5
+  identifier: "bookinfo-ratelimit-route"

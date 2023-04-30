@@ -1,0 +1,24 @@
+apiVersion: ratelimit.zufardhiyaulhaq.com/v1alpha1
+kind: GlobalRateLimitConfig
+metadata:
+  name: podinfo-zufardhiyaulhaq-com-grlc
+  namespace: istio-system
+spec:
+  type: "gateway"
+  selector:
+    labels:
+      "app": "istio-public-gateway"
+      "istio": "ingressgateway"
+    istio_version:
+      - "1.14"
+      - "1.15"
+      - "1.16"
+    sni: podinfo.zufardhiyaulhaq.com
+  ratelimit:
+    spec:
+      domain: "podinfo-zufardhiyaulhaq-com"
+      failure_mode_deny: false
+      timeout: "10s"
+      service:
+        type: "service"
+        name: "podinfo-zufardhiyaulhaq-com-rls"
