@@ -1,0 +1,38 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-502
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 502
+    date: 04/26/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: 'dbdev: A Postgres Package Manager'
+      url: https://postgresweekly.com/link/138502/web
+      type: News
+    - title: 'Postgres and SQL:2023: What''s Supported?'
+      url: https://postgresweekly.com/link/138505/web
+      type: News
+    - title: The Postgres Provider You Always Wanted
+      url: https://postgresweekly.com/link/138501/web
+      type: News
+    - title: Can There Be Too Many Partitions?
+      url: https://postgresweekly.com/link/138525/web
+      type: News
+    - title: Postgres 16 Array Sampling and Shuffling Functions
+      url: https://postgresweekly.com/link/138513/web
+      type: News
+    - title: Underscores in Numeric Constants in Postgres 16
+      url: https://postgresweekly.com/link/138514/web
+      type: News
+    - title: 'PostgREST 11.0: Serve a RESTful API from a Postgres Database'
+      url: https://postgresweekly.com/link/138517/web
+      type: News

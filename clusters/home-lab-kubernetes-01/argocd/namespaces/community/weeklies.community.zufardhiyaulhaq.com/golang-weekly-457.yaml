@@ -1,0 +1,55 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-457
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 457
+    date: 04/30/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: How to Troubleshoot Memory Leaks with Grafana Pyroscope
+      url: https://golangweekly.com/link/138701/web
+      type: News
+    - title: Go Integration Testing with Courage and Coverage
+      url: https://golangweekly.com/link/138694/web
+      type: News
+    - title: Add a Full-Featured Notification Center to Your Go App in Minutes
+      url: https://golangweekly.com/link/138696/web
+      type: News
+    - title: When To Use Generics
+      url: https://golangweekly.com/link/138705/web
+      type: News
+    - title: Getting Familiar with Workspaces
+      url: https://golangweekly.com/link/138706/web
+      type: News
+    - title: A Simple Overview of Authentication Methods for Kubernetes Clusters
+      url: https://golangweekly.com/link/138703/web
+      type: News
+    - title: 'Ooze: A Go Mutation Testing Tool'
+      url: https://golangweekly.com/link/138707/web
+      type: News
+    - title: 'gops: List and Diagnose Currently Running Go Processes'
+      url: https://golangweekly.com/link/138708/web
+      type: News
+    - title: “Our Backend Team Loves Encore!”
+      url: https://golangweekly.com/link/138709/web
+      type: News
+    - title: 'Jet 2.10: Type Safe SQL Builder with Code Generation'
+      url: https://golangweekly.com/link/138710/web
+      type: News
+    - title: 'Hermes: A Document Management System'
+      url: https://golangweekly.com/link/138711/web
+      type: News
+    - title: 'Cobra 1.7: A Framework for Building Modern CLI Apps'
+      url: https://golangweekly.com/link/138713/web
+      type: News
+    - title: 'Roboden: A Real Time Strategy Game'
+      url: https://golangweekly.com/link/138726/web
+      type: News
