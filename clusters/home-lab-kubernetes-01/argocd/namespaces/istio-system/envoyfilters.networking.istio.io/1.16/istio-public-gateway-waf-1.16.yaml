@@ -27,7 +27,7 @@ spec:
                 code:
                   remote:
                     http_uri:
-                      uri: https://github.com/zufardhiyaulhaq/coraza-proxy-wasm/raw/extension-v1/main.wasm
+                      uri: https://github.com/zufardhiyaulhaq/community-ops/raw/master/resources/coraza.wasm
                       timeout: "60s"
               configuration:
                 "@type": "type.googleapis.com/google.protobuf.StringValue"
