@@ -1,0 +1,47 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-503
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 503
+    date: 05/03/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: Nine Ways to Slip Up with Postgres
+      url: https://postgresweekly.com/link/138733/web
+      type: News
+    - title: Best Practices for Optimizing Postgres Query Performance (eBook)
+      url: https://postgresweekly.com/link/138732/web
+      type: News
+    - title: Build Postgres Extensions with Rust with PGRX
+      url: https://postgresweekly.com/link/138736/web
+      type: News
+    - title: Solving N+1 Postgres Queries for Ruby on Rails Apps
+      url: https://postgresweekly.com/link/138743/web
+      type: News
+    - title: 'Migrating Postgres from Heroku: A Customer Study on Crunchy Bridge'
+      url: https://postgresweekly.com/link/138744/web
+      type: News
+    - title: How Postgres Triggers Can Simplify Your Backend Development
+      url: https://postgresweekly.com/link/138745/web
+      type: News
+    - title: A Few Ways Indexes Could Hurt You
+      url: https://postgresweekly.com/link/138742/web
+      type: News
+    - title: Key Considerations While Migrating Bulk Operations from Oracle to Postgres
+      url: https://postgresweekly.com/link/138747/web
+      type: News
+    - title: 'pgddl: DDL EXtractor Functions (ddlx)'
+      url: https://postgresweekly.com/link/138749/web
+      type: News
+    - title: 'Ask HN: Is Postgres Better than MySQL?'
+      url: https://postgresweekly.com/link/138757/web
+      type: News

@@ -1,0 +1,70 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-636
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 636
+    date: 05/02/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'Babylon.js 6.0: The Powerful Web-Based 3D Framework'
+      url: https://javascriptweekly.com/link/138938/web
+      type: News
+    - title: 'Handsontable 12.3: What’s New in the Excel-Like Data Grid'
+      url: https://javascriptweekly.com/link/138913/web
+      type: News
+    - title: Oracle's Lawyers Stir Over JavaScript™ Trademark Use
+      url: https://javascriptweekly.com/link/138914/web
+      type: News
+    - title: Exploring the Potential of Web Workers for Multithreading on the Web
+      url: https://javascriptweekly.com/link/138946/web
+      type: News
+    - title: 'Dissecting npm Malware: Five Packages and Their ''Evil'' Install Scripts'
+      url: https://javascriptweekly.com/link/138926/web
+      type: News
+    - title: Automate Visual Tests with Chromatic—Powered by Storybook
+      url: https://javascriptweekly.com/link/138927/web
+      type: News
+    - title: Use Fuse.js for Quick and Easy Fuzzy Searching
+      url: https://javascriptweekly.com/link/138948/web
+      type: News
+    - title: Modern Alternatives to Create React App
+      url: https://javascriptweekly.com/link/138928/web
+      type: News
+    - title: Hot Takes on the Web
+      url: https://javascriptweekly.com/link/138950/web
+      type: News
+    - title: 'Vuetify 3.2: A Material Design Framework for Vue.js'
+      url: https://javascriptweekly.com/link/138951/web
+      type: News
+    - title: TestGPT | Generating Meaningful Tests for Busy Devs
+      url: https://javascriptweekly.com/link/138930/web
+      type: News
+    - title: 'Memize 2.0: Unabashedly-Barebones Memoization Library'
+      url: https://javascriptweekly.com/link/138955/web
+      type: News
+    - title: 'w2ui 2.0: A Framework Agnostic UI Library'
+      url: https://javascriptweekly.com/link/138957/web
+      type: News
+    - title: 'Alfaaz: The Fastest Multilingual Word Counter'
+      url: https://javascriptweekly.com/link/138960/web
+      type: News
+    - title: 'Satori: Convert HTML and CSS to SVG'
+      url: https://javascriptweekly.com/link/138931/web
+      type: News
+    - title: Add a Full-Featured Notification Center to Your App in Minutes
+      url: https://javascriptweekly.com/link/138933/web
+      type: News
+    - title: 'Linker.js: Access C, C++, Rust and Go Libraries from Node.js'
+      url: https://javascriptweekly.com/link/138932/web
+      type: News
+    - title: 'Editable: An Extensible Rich Text Editor Framework'
+      url: https://javascriptweekly.com/link/138934/web
+      type: News
