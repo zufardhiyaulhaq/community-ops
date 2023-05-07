@@ -1,0 +1,52 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-458
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 458
+    date: 05/07/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: 'Rueidis 1.0: A Fast Redis Client with Caching'
+      url: https://golangweekly.com/link/139019/web
+      type: News
+    - title: 'Writing an OS in Go: The Bootloader'
+      url: https://golangweekly.com/link/139010/web
+      type: News
+    - title: How to Add OpenTelemetry to Your Go Apps in Minutes
+      url: https://golangweekly.com/link/139009/web
+      type: News
+    - title: Self-Hosted Soft Serve for Git
+      url: https://golangweekly.com/link/139011/web
+      type: News
+    - title: '''Random'' Testing in Go'
+      url: https://golangweekly.com/link/139040/web
+      type: News
+    - title: Supercharging Your gRPC Workflow with Bob
+      url: https://golangweekly.com/link/139015/web
+      type: News
+    - title: Three Things to Never Build In Your Go App
+      url: https://golangweekly.com/link/139017/web
+      type: News
+    - title: The Power of the Decorator Pattern
+      url: https://golangweekly.com/link/139018/web
+      type: News
+    - title: 'wazero 1.1: Zero Dependency WebAssembly Runtime in Go'
+      url: https://golangweekly.com/link/139020/web
+      type: News
+    - title: 'rqlite 7.15.0: A Relational Database Atop SQLite'
+      url: https://golangweekly.com/link/139024/web
+      type: News
+    - title: Kubernetes API Access Security Hardening
+      url: https://golangweekly.com/link/139023/web
+      type: News
+    - title: 'Graph 0.20: Generic Library for Creating Graph Data Structures'
+      url: https://golangweekly.com/link/139027/web
+      type: News
