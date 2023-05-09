@@ -1,0 +1,74 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-637
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 637
+    date: 05/09/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: Angular v16 Released
+      url: https://javascriptweekly.com/link/139278/web
+      type: News
+    - title: Qwik Reaches v1.0
+      url: https://javascriptweekly.com/link/139280/web
+      type: News
+    - title: Bring Your Team from Zero to 100 Deploys a Day
+      url: https://javascriptweekly.com/link/139229/web
+      type: News
+    - title: The German Government Invests in JavaScript
+      url: https://javascriptweekly.com/link/139230/web
+      type: News
+    - title: A Practical Guide to Not Blocking the Event Loop
+      url: https://javascriptweekly.com/link/139245/web
+      type: News
+    - title: The Interactive Guide to Rendering in React
+      url: https://javascriptweekly.com/link/139246/web
+      type: News
+    - title: Breakpoints and console.log Is the Past, Time Travel Is the Future
+      url: https://javascriptweekly.com/link/139247/web
+      type: News
+    - title: The const 'Deception'
+      url: https://javascriptweekly.com/link/139282/web
+      type: News
+    - title: Write Better CSS by Borrowing Ideas from JS?
+      url: https://javascriptweekly.com/link/139248/web
+      type: News
+    - title: Crafting the Next.js Website
+      url: https://javascriptweekly.com/link/139249/web
+      type: News
+    - title: 'date-fns 2.30: A Modern Date Utility Library'
+      url: https://javascriptweekly.com/link/139252/web
+      type: News
+    - title: 'Chart.js 4.3: Canvas-Based Charts for the Web'
+      url: https://javascriptweekly.com/link/139255/web
+      type: News
+    - title: Beautiful Security and License Compliance Reports for Your App’s Dependencies
+      url: https://javascriptweekly.com/link/139258/web
+      type: News
+    - title: 'Axios 1.4: Promise-Based HTTP Client for Browser and Node'
+      url: https://javascriptweekly.com/link/139259/web
+      type: News
+    - title: 'Marked.js 5.0: A Fast Markdown Parser and Compiler'
+      url: https://javascriptweekly.com/link/139260/web
+      type: News
+    - title: 'Mock Service Worker 1.2: REST/GraphQL API Mocking Library'
+      url: https://javascriptweekly.com/link/139263/web
+      type: News
+    - title: The Fastest JavaScript Data Grid Component
+      url: https://javascriptweekly.com/link/139265/web
+      type: News
+    - title: 'Pretty TypeScript Errors: Make Errors Prettier and Human-Readable in
+        VS Code'
+      url: https://javascriptweekly.com/link/139283/web
+      type: News
+    - title: 'next-sitemap: Sitemap Generator for Next.js Apps'
+      url: https://javascriptweekly.com/link/139268/web
+      type: News
