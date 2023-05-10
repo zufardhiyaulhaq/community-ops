@@ -1,0 +1,38 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-504
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 504
+    date: 05/10/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: '''The Part of Postgres We Hate the Most'''
+      url: https://postgresweekly.com/link/139047/web
+      type: News
+    - title: LZ4 and ZSTD pg_dump compression in Postgres 16
+      url: https://postgresweekly.com/link/139049/web
+      type: News
+    - title: 'Hydra: An Open Source Alternative to AWS Redshift?'
+      url: https://postgresweekly.com/link/139046/web
+      type: News
+    - title: Understanding How Parallel Queries Run
+      url: https://postgresweekly.com/link/139053/web
+      type: News
+    - title: A Tale of Docker and 'Sudden Death' for Postgres
+      url: https://postgresweekly.com/link/139061/web
+      type: News
+    - title: Handy Introductory psql Tips and Tricks
+      url: https://postgresweekly.com/link/139062/web
+      type: News
+    - title: 'pREST 1.3: Instant RESTFul APIs for Postgres Data'
+      url: https://postgresweekly.com/link/139066/web
+      type: News
