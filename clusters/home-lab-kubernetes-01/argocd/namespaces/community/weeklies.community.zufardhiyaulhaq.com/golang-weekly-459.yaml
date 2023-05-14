@@ -1,0 +1,67 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-459
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 459
+    date: 05/14/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: 'go-callvis: Visualize the Call Graph of Go Programs'
+      url: https://golangweekly.com/link/139352/web
+      type: News
+    - title: .ʕ◔ϖ◔ʔ As an Alternative to .go?
+      url: https://golangweekly.com/link/139331/web
+      type: News
+    - title: Kubernetes API Access Security Hardening
+      url: https://golangweekly.com/link/139330/web
+      type: News
+    - title: Go 1.20.4 and Go 1.19.9 Released
+      url: https://golangweekly.com/link/139332/web
+      type: News
+    - title: A FAAS in Go with WASM, WASI and.. Rust?
+      url: https://golangweekly.com/link/139369/web
+      type: News
+    - title: 'Game Development in Go: Ebitengine Shaders'
+      url: https://golangweekly.com/link/139370/web
+      type: News
+    - title: Temporal 101 & 102 Courses in Go
+      url: https://golangweekly.com/link/139341/web
+      type: News
+    - title: Go's arm64 Function Call Assembly
+      url: https://golangweekly.com/link/139342/web
+      type: News
+    - title: Production Ready Concurrency
+      url: https://golangweekly.com/link/139372/web
+      type: News
+    - title: 'mimetype: Library for Detecting MIME Types and Extensions'
+      url: https://golangweekly.com/link/139373/web
+      type: News
+    - title: 'Dolt 1.0: It''s Like Git.. for Data'
+      url: https://golangweekly.com/link/139375/web
+      type: News
+    - title: Tuple – How Remote Devs Pair with Zero Friction
+      url: https://golangweekly.com/link/139344/web
+      type: News
+    - title: 'Gio: Immediate Mode GUI App Development in Go'
+      url: https://golangweekly.com/link/139343/web
+      type: News
+    - title: 'Milvus: Vector Database Built for Scalable Similarity Search'
+      url: https://golangweekly.com/link/139345/web
+      type: News
+    - title: 'Counterfeiter: Generate Self-Contained, Type-Safe Test Doubles'
+      url: https://golangweekly.com/link/139347/web
+      type: News
+    - title: 'spaGO: A Pure Go Machine Learning Library'
+      url: https://golangweekly.com/link/139348/web
+      type: News
+    - title: 'SFTPGo 2.5: A Full Featured SFTP Server Built in Go'
+      url: https://golangweekly.com/link/139350/web
+      type: News
