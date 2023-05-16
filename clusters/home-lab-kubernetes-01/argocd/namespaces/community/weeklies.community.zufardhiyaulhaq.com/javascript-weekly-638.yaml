@@ -1,0 +1,85 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-638
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 638
+    date: 05/16/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: The JavaScript Ecosystem is Delightfully Weird
+      url: https://javascriptweekly.com/link/139572/web
+      type: News
+    - title: The New JS Features Coming in ECMAScript 2023
+      url: https://javascriptweekly.com/link/139574/web
+      type: News
+    - title: Full Stack for Front-End Engineers with Jem Young (Netflix)
+      url: https://javascriptweekly.com/link/139571/web
+      type: News
+    - title: Vue 3.3 'Rurouni Kenshin' Released
+      url: https://javascriptweekly.com/link/139575/web
+      type: News
+    - title: Next.js 13.4 Released
+      url: https://javascriptweekly.com/link/139578/web
+      type: News
+    - title: ES2023's New Array Copying Methods
+      url: https://javascriptweekly.com/link/139587/web
+      type: News
+    - title: Private Class Fields Considered Harmful
+      url: https://javascriptweekly.com/link/139588/web
+      type: News
+    - title: I'm Done with React
+      url: https://javascriptweekly.com/link/139589/web
+      type: News
+    - title: Constraining Language Runtimes with Deterministic Execution
+      url: https://javascriptweekly.com/link/139590/web
+      type: News
+    - title: Running JavaScript in Rust with Deno
+      url: https://javascriptweekly.com/link/139591/web
+      type: News
+    - title: Regular Expressions in JavaScript
+      url: https://javascriptweekly.com/link/139592/web
+      type: News
+    - title: How to Measure Page Loading Time with the Performance API
+      url: https://javascriptweekly.com/link/139593/web
+      type: News
+    - title: How to Build a JS VST or Audio Unit Plugin on macOS
+      url: https://javascriptweekly.com/link/139595/web
+      type: News
+    - title: An Introduction to the Bun Runtime
+      url: https://javascriptweekly.com/link/139596/web
+      type: News
+    - title: 2023 State of the Java Ecosystem
+      url: https://javascriptweekly.com/link/139597/web
+      type: News
+    - title: 'file-type 18.4: Detect the File Type of a Buffer, Uint8Array or ArrayBuffer'
+      url: https://javascriptweekly.com/link/139601/web
+      type: News
+    - title: Learn How the Rising Trend of Malicious Packages Can Affect Your Apps
+      url: https://javascriptweekly.com/link/139602/web
+      type: News
+    - title: 'Livefir: Build Reactive HTML Apps with Go and Alpine.js'
+      url: https://javascriptweekly.com/link/139603/web
+      type: News
+    - title: 'JZZ.js: A Developer Friendly MIDI library'
+      url: https://javascriptweekly.com/link/139604/web
+      type: News
+    - title: 'htmlparser2 9.0: A ''Fast and Forgiving'' HTML and XML Parser'
+      url: https://javascriptweekly.com/link/139606/web
+      type: News
+    - title: 'cRonstrue: Library to Convert cron Expressions into Human-Readable Form'
+      url: https://javascriptweekly.com/link/139607/web
+      type: News
+    - title: 'Knip: Find Unused Files, Dependencies and Exports in TypeScript Projects'
+      url: https://javascriptweekly.com/link/139608/web
+      type: News
+    - title: Fake Windows 11 in Svelte
+      url: https://javascriptweekly.com/link/139613/web
+      type: News
