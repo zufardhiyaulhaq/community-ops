@@ -1,0 +1,56 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-505
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 505
+    date: 05/17/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: The Citus Con 2023 Talks
+      url: https://postgresweekly.com/link/139379/web
+      type: News
+    - title: How to Force a Join Order in Postgres
+      url: https://postgresweekly.com/link/139380/web
+      type: News
+    - title: Can Postgres Do That?
+      url: https://postgresweekly.com/link/139378/web
+      type: News
+    - title: How to Track Performance Differences with pg_stat_statements
+      url: https://postgresweekly.com/link/139382/web
+      type: News
+    - title: Building AI-Powered Search using Amazon SageMaker and pgvector
+      url: https://postgresweekly.com/link/139390/web
+      type: News
+    - title: Various Restoration Techniques Using Point-In-Time Recovery
+      url: https://postgresweekly.com/link/139392/web
+      type: News
+    - title: How to Submit a Patch by Email, 2023 Edition
+      url: https://postgresweekly.com/link/139393/web
+      type: News
+    - title: Best Practices for Optimizing Postgres Query Performance (eBook)
+      url: https://postgresweekly.com/link/139395/web
+      type: News
+    - title: Let’s Party and Upgrade Postgres and PostGIS Together
+      url: https://postgresweekly.com/link/139396/web
+      type: News
+    - title: Use DOMAIN Rules to Validate Columns of Data
+      url: https://postgresweekly.com/link/139397/web
+      type: News
+    - title: Running Postgres on Two Ports?
+      url: https://postgresweekly.com/link/139399/web
+      type: News
+    - title: What’s New in Citus 11.3 for Multi-Tenant SaaS Workloads
+      url: https://postgresweekly.com/link/139400/web
+      type: News
+    - title: 'HeidiSQL 12.5: A Native Windows App for Database Work'
+      url: https://postgresweekly.com/link/139402/web
+      type: News
