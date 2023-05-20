@@ -1,0 +1,35 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Meetup
+metadata:
+  name: meetup-kubernetes-may-2023
+  namespace: community
+spec:
+  community:
+  - "kubernetes"
+  spec:
+    name: "Kubernetes Cloud Native Meetup 2023 X NGINX-F5 X Microsoft"
+    date: "May 25, 2023"
+    time: "18.00"
+    place: "Multi-Purpose Room 1 @Microsoft Indonesia Office | Jakarta Stock Exchange Building Tower II, lantai 18 SCBD"
+    registrationUrl: "https://community.cncf.io/indonesia/"
+    imageUrl: "https://raw.githubusercontent.com/cloudnative-id/artwork/master/poster/indonesia/25-May-2023.jpg"
+    tags:
+      - meetup
+      - CNCF
+      - Jakarta
+    sponsors:
+    - name: "NGINX-F5 & Microsoft"
+    speakers:
+      - name: "Bobby Limitra"
+        position: "Solution Engineer"
+        company: "F5 Network"
+        title: "Building Flexible Modern Apps Infrastructure within Kubernetes using NGINX"
+      - name: "Didi Yudha Perwira"
+        position: "Senior Software Engineer"
+        company: "GoTo Financial"
+        title: "Understanding Istio Ambient Mesh, the Concept and the Implementation"
+      - name: "Ridi Ferdiana"
+        position: "Engineering Manager"
+        company: "MVP Microsoft & Lecturer, Universitas Gadjah Mada"
+        title: "Kubernetes on Azure"
+        
