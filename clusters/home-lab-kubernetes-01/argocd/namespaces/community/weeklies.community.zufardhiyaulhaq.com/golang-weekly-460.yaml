@@ -1,0 +1,61 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-460
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 460
+    date: 05/21/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: The Go Developer Survey 2023 Q1 Results
+      url: https://golangweekly.com/link/139697/web
+      type: News
+    - title: Go! Experts at Your Service
+      url: https://golangweekly.com/link/139660/web
+      type: News
+    - title: A Proposal for Less Error-Prone Loop Variable Scoping
+      url: https://golangweekly.com/link/139661/web
+      type: News
+    - title: Google's Gophers on Building More Secure Apps
+      url: https://golangweekly.com/link/139663/web
+      type: News
+    - title: How to Build a Serverless Discord Bot with OpenFaaS
+      url: https://golangweekly.com/link/139669/web
+      type: News
+    - title: Producing a Go Scanner in 1,219 Bytes of Code
+      url: https://golangweekly.com/link/139671/web
+      type: News
+    - title: 'Video: Securely Deploy K8s Clusters with Machine ID and GitHub Actions'
+      url: https://golangweekly.com/link/139673/web
+      type: News
+    - title: A 9-Hour Go Course for Beginners
+      url: https://golangweekly.com/link/139674/web
+      type: News
+    - title: Stepping up Your Go App Testing Game with Testify
+      url: https://golangweekly.com/link/139675/web
+      type: News
+    - title: 'Gobot 2.0: A Framework for Robot, Drone and IoT Development'
+      url: https://golangweekly.com/link/139677/web
+      type: News
+    - title: 'BARF 1.0: A Framework for Building JSON-Based Web APIs'
+      url: https://golangweekly.com/link/139679/web
+      type: News
+    - title: A Developer’s Guide to Getting Started with Temporal
+      url: https://golangweekly.com/link/139681/web
+      type: News
+    - title: 'wzprof: pprof-Based Profiling for Wazero'
+      url: https://golangweekly.com/link/139682/web
+      type: News
+    - title: 'dinero.go: A Port of dinero.js to Go'
+      url: https://golangweekly.com/link/139685/web
+      type: News
+    - title: 'Amaze: A Program to Create, Solve and Draw Mazes'
+      url: https://golangweekly.com/link/139694/web
+      type: News
