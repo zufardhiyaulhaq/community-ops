@@ -1,0 +1,76 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-639
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 639
+    date: 05/23/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'Bun''s New Bundler: 220x Faster than webpack?'
+      url: https://javascriptweekly.com/link/139912/web
+      type: News
+    - title: 'Deopt Explorer: A VS Code Extension to Inspect V8 Trace Log Info'
+      url: https://javascriptweekly.com/link/139864/web
+      type: News
+    - title: Supercharge Your Websites and Applications with Cloudflare
+      url: https://javascriptweekly.com/link/139863/web
+      type: News
+    - title: jQuery 3.7.0 Released
+      url: https://javascriptweekly.com/link/139866/web
+      type: News
+    - title: How to Get Full Type Support with Plain JavaScript
+      url: https://javascriptweekly.com/link/139880/web
+      type: News
+    - title: Coding a Working Game of Chess in Pure JavaScript
+      url: https://javascriptweekly.com/link/139882/web
+      type: News
+    - title: Automate Slack and MS Teams Notifications Using Node.js
+      url: https://javascriptweekly.com/link/139883/web
+      type: News
+    - title: Your Jest Tests Might Be Wrong
+      url: https://javascriptweekly.com/link/139884/web
+      type: News
+    - title: A Guide to Visual Regression Testing with Playwright
+      url: https://javascriptweekly.com/link/139885/web
+      type: News
+    - title: Create a Real Time Multi Host Video Chat in a Browser with Amazon IVS
+      url: https://javascriptweekly.com/link/139886/web
+      type: News
+    - title: React Server Components, Next.js App Router and Examples
+      url: https://javascriptweekly.com/link/139887/web
+      type: News
+    - title: 'VanJS: A 1.2KB Reactive UI Framework Without JSX'
+      url: https://javascriptweekly.com/link/139889/web
+      type: News
+    - title: JavaScript Scratchpad for VS Code (2m+ Downloads)
+      url: https://javascriptweekly.com/link/139892/web
+      type: News
+    - title: 'Introducing Legend-State 1.0: Faster State for React'
+      url: https://javascriptweekly.com/link/139893/web
+      type: News
+    - title: 'Starry Night: GitHub-Like Syntax Highlighting'
+      url: https://javascriptweekly.com/link/139896/web
+      type: News
+    - title: 'Garph 0.5: A Fullstack GraphQL Framework for TypeScript'
+      url: https://javascriptweekly.com/link/139897/web
+      type: News
+    - title: 'headless-qr: A Simple, Modern QR Code Library'
+      url: https://javascriptweekly.com/link/139899/web
+      type: News
+    - title: 'Scroll Btween: Use Scroll Position to Tween CSS Values on DOM Elements'
+      url: https://javascriptweekly.com/link/139901/web
+      type: News
+    - title: 'eslint-plugin-check-file: Rules for Consistent Filename and Folder Names'
+      url: https://javascriptweekly.com/link/139902/web
+      type: News
+    - title: js2flowchart.js
+      url: https://javascriptweekly.com/link/139911/web
+      type: News
