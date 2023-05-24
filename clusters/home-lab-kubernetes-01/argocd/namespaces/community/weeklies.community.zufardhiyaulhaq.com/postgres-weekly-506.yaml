@@ -1,0 +1,41 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-506
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 506
+    date: 05/24/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: Postgres 15.3, 14.8, 13.11, 12.15, and 11.20 Released
+      url: https://postgresweekly.com/link/139702/web
+      type: News
+    - title: PostgresML Raises $4.7M for Serverless AI Databases
+      url: https://postgresweekly.com/link/139703/web
+      type: News
+    - title: Best Practices for Optimizing Postgres Query Performance (eBook)
+      url: https://postgresweekly.com/link/139701/web
+      type: News
+    - title: Understanding ALTER DEFAULT PRIVILEGES Better
+      url: https://postgresweekly.com/link/139706/web
+      type: News
+    - title: Working with Time in Postgres
+      url: https://postgresweekly.com/link/139715/web
+      type: News
+    - title: Migration Steps from Redshift to Columnar Postgres (Docs)
+      url: https://postgresweekly.com/link/139716/web
+      type: News
+    - title: The Subtle Art of Code Conversion in Oracle to Postgres Migrations
+      url: https://postgresweekly.com/link/139717/web
+      type: News
+    - title: 'Bytebase 2.0: Collaborative Database DevOps System'
+      url: https://postgresweekly.com/link/139721/web
+      type: News
