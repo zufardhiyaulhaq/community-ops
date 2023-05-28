@@ -1,0 +1,61 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-461
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 461
+    date: 05/28/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: How to Start a Go Project in 2023
+      url: https://golangweekly.com/link/139955/web
+      type: News
+    - title: On Adding a Reverse Operation to slices
+      url: https://golangweekly.com/link/139956/web
+      type: News
+    - title: We Built a Custom User Notification Center for Go Apps
+      url: https://golangweekly.com/link/139998/web
+      type: News
+    - title: A Guide to Zap Logging in Go
+      url: https://golangweekly.com/link/139959/web
+      type: News
+    - title: Let's Enhance http.ServeMux's Routing?
+      url: https://golangweekly.com/link/139968/web
+      type: News
+    - title: C to WASM to Go
+      url: https://golangweekly.com/link/139969/web
+      type: News
+    - title: 'Video: Most Common Kubernetes Security Misconfigurations'
+      url: https://golangweekly.com/link/139970/web
+      type: News
+    - title: Using a Go Package in Python via Gopy
+      url: https://golangweekly.com/link/139971/web
+      type: News
+    - title: Steps to Build a 'Snake' Game in Go
+      url: https://golangweekly.com/link/139973/web
+      type: News
+    - title: 'Mods: Charm-ing AI for the Command Line?'
+      url: https://golangweekly.com/link/139977/web
+      type: News
+    - title: 'go-datastructures 1.1: Numerous Threadsafe Data Structures'
+      url: https://golangweekly.com/link/139979/web
+      type: News
+    - title: Auth. Built for Devs, by Devs
+      url: https://golangweekly.com/link/139980/web
+      type: News
+    - title: 'Simulated Hospital: Generate Realistic, Configurable Hospital Patient Data'
+      url: https://golangweekly.com/link/139981/web
+      type: News
+    - title: 'Gain: High-Perf io_uring Networking Framework in Pure Go'
+      url: https://golangweekly.com/link/139983/web
+      type: News
+    - title: 'Neotest: A Framework for Interacting with Tests from NeoVim'
+      url: https://golangweekly.com/link/139984/web
+      type: News
