@@ -1,0 +1,77 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-640
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 640
+    date: 05/30/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'DeviceScript: TypeScript for Tiny Thingamabobs'
+      url: https://javascriptweekly.com/link/140192/web
+      type: News
+    - title: The State of Node.js Performance in 2023
+      url: https://javascriptweekly.com/link/140195/web
+      type: News
+    - title: Lightning Fast JavaScript Data Grid Widget
+      url: https://javascriptweekly.com/link/140191/web
+      type: News
+    - title: 'Deno 1.34: Now deno compile Supports npm Packages'
+      url: https://javascriptweekly.com/link/140196/web
+      type: News
+    - title: Demystifying Tupper's Formula
+      url: https://javascriptweekly.com/link/140205/web
+      type: News
+    - title: An Introduction to Web Components
+      url: https://javascriptweekly.com/link/140207/web
+      type: News
+    - title: Creative Coding with p5.js in Visual Studio Code
+      url: https://javascriptweekly.com/link/140209/web
+      type: News
+    - title: Auth. Built for Devs, by Devs
+      url: https://javascriptweekly.com/link/140213/web
+      type: News
+    - title: Why React is Here to Stay
+      url: https://javascriptweekly.com/link/140214/web
+      type: News
+    - title: Comparing Three Ways of Processing Arrays Non-Destructively
+      url: https://javascriptweekly.com/link/140216/web
+      type: News
+    - title: Build Your First JavaScript ChatGPT Plugin
+      url: https://javascriptweekly.com/link/140217/web
+      type: News
+    - title: 'Javy 1.0: A JS to WebAssembly Toolchain'
+      url: https://javascriptweekly.com/link/140219/web
+      type: News
+    - title: 'Inkline 4.0: A Customizable Vue.js 3 UI/UX Library'
+      url: https://javascriptweekly.com/link/140221/web
+      type: News
+    - title: 'Dynaboard: A Visual Web App IDE Made for Developers'
+      url: https://javascriptweekly.com/link/140222/web
+      type: News
+    - title: 'BlockNote: A ''Notion-Like'' Block-Based Text Editor'
+      url: https://javascriptweekly.com/link/140223/web
+      type: News
+    - title: 'Windstatic: A Set of 170+ Components and Layouts Made with Tailwind
+        and Alpine.js'
+      url: https://javascriptweekly.com/link/140224/web
+      type: News
+    - title: 'ls-lint 2.0: A Fast File and Directory Name Linter'
+      url: https://javascriptweekly.com/link/140225/web
+      type: News
+    - title: 'Jest Puppeteer 9.0: Run Tests using Jest and Puppeteer'
+      url: https://javascriptweekly.com/link/140226/web
+      type: News
+    - title: 'ts-sql-query: Type-Safe SQL Query Builder'
+      url: https://javascriptweekly.com/link/140228/web
+      type: News
+    - title: React Authentication, Simplified
+      url: https://javascriptweekly.com/link/140229/web
+      type: News
