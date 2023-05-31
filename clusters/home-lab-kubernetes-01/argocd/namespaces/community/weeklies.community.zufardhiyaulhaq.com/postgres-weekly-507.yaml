@@ -1,0 +1,45 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-507
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 507
+    date: 05/31/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: Building High-Perf Functions in Rust on Amazon RDS
+      url: https://postgresweekly.com/link/140001/web
+      type: News
+    - title: The Draft Postgres 16 Release Notes
+      url: https://postgresweekly.com/link/140003/web
+      type: News
+    - title: Postgres Performance at Any Scale
+      url: https://postgresweekly.com/link/140005/web
+      type: News
+    - title: 'Tags and Arrays: A Purrrrfect Combination?'
+      url: https://postgresweekly.com/link/140006/web
+      type: News
+    - title: Tuning Postgres and the New Insert Benchmark
+      url: https://postgresweekly.com/link/140011/web
+      type: News
+    - title: Visualizing IoT Data at Scale with Hopara and TimescaleDB
+      url: https://postgresweekly.com/link/140012/web
+      type: News
+    - title: Five Ways to Get Table Creation Information
+      url: https://postgresweekly.com/link/140014/web
+      type: News
+    - title: Migrating Generated Columns to Postgres using AWS Database Migration
+        Service
+      url: https://postgresweekly.com/link/140015/web
+      type: News
+    - title: Postgres Query Lock Explainer
+      url: https://postgresweekly.com/link/140016/web
+      type: News
