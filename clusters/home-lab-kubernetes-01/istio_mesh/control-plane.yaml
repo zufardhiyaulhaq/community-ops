@@ -79,6 +79,8 @@ spec:
     defaultConfig:
       terminationDrainDuration: 10s
       holdApplicationUntilProxyStarts: true
+      gatewayTopology:
+        numTrustedProxies: 3
       tracing:
         zipkin:
           address: jaeger-collector.observability-system.svc.cluster.local:9411
