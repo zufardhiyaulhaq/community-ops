@@ -1,0 +1,55 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-462
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 462
+    date: 06/04/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: Implementing a Distributed Key-Value Store in Go
+      url: https://golangweekly.com/link/140284/web
+      type: News
+    - title: Finding the Best Go Project Structure
+      url: https://golangweekly.com/link/140286/web
+      type: News
+    - title: Go! Experts at Your Service
+      url: https://golangweekly.com/link/140283/web
+      type: News
+    - title: AWS SDK for Go to Align with Go Release Policy
+      url: https://golangweekly.com/link/140288/web
+      type: News
+    - title: How to Include Git Version Information in Go Apps
+      url: https://golangweekly.com/link/140293/web
+      type: News
+    - title: Companies Spend 4.5 Trillion Dollars on IT Annually
+      url: https://golangweekly.com/link/140295/web
+      type: News
+    - title: 'Requests: A Fluent HTTP Client Library'
+      url: https://golangweekly.com/link/140297/web
+      type: News
+    - title: 'ls-lint 2.0: A Fast File and Directory Name Linter'
+      url: https://golangweekly.com/link/140300/web
+      type: News
+    - title: 'html-to-markdown 1.4: Convert HTML to Markdown'
+      url: https://golangweekly.com/link/140301/web
+      type: News
+    - title: Simplify Access to Your Kubernetes Clusters with Teleport Team
+      url: https://golangweekly.com/link/140302/web
+      type: News
+    - title: 'Joker 1.1: A Small Interpreted Dialect of Clojure Written in Go'
+      url: https://golangweekly.com/link/140303/web
+      type: News
+    - title: 'Gut: Convert Go Structs to TypeScript Interfaces'
+      url: https://golangweekly.com/link/140304/web
+      type: News
+    - title: 'Dendy: An Expermimental NES Emulator Written in Go'
+      url: https://golangweekly.com/link/140314/web
+      type: News
