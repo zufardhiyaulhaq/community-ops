@@ -1,0 +1,76 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-641
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 641
+    date: 06/06/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: JavaScript Macros in Bun
+      url: https://javascriptweekly.com/link/140534/web
+      type: News
+    - title: Discussing the Future of React with Two Core Team Members
+      url: https://javascriptweekly.com/link/140537/web
+      type: News
+    - title: URL Validation 101 — with Snyk
+      url: https://javascriptweekly.com/link/140491/web
+      type: News
+    - title: 'Aimless.js: The ''Missing'' JavaScript Randomness Library'
+      url: https://javascriptweekly.com/link/140538/web
+      type: News
+    - title: 'SupportsCSS: Feature Detection for Modern CSS'
+      url: https://javascriptweekly.com/link/140492/web
+      type: News
+    - title: 'JSDayIE 2023: The First JavaScript Conference in Ireland Is Back!'
+      url: https://javascriptweekly.com/link/140499/web
+      type: News
+    - title: How to Draw Any Regular Shape with Just One JavaScript Function
+      url: https://javascriptweekly.com/link/140502/web
+      type: News
+    - title: Sharing WebSocket Connections between Tabs and Windows
+      url: https://javascriptweekly.com/link/140504/web
+      type: News
+    - title: 'How React Works Under The Hood: 2023 Edition'
+      url: https://javascriptweekly.com/link/140507/web
+      type: News
+    - title: Connected APM and Infrastructure Monitoring at Up to 1/3rd the Cost of Datadog
+      url: https://javascriptweekly.com/link/140508/web
+      type: News
+    - title: Why Does a Farmer Emoji Have a Length of 7 in JS?
+      url: https://javascriptweekly.com/link/140509/web
+      type: News
+    - title: The Evolution of React APIs and Code Reuse
+      url: https://javascriptweekly.com/link/140510/web
+      type: News
+    - title: '''I Tried 8 Different Postgres ORMs'''
+      url: https://javascriptweekly.com/link/140511/web
+      type: News
+    - title: 'Svelvet: A Svelte Component Library for Interactive Node-Based Diagrams'
+      url: https://javascriptweekly.com/link/140515/web
+      type: News
+    - title: 'Inkline 4.0: A Customizable Vue.js 3 UI/UX Library'
+      url: https://javascriptweekly.com/link/140516/web
+      type: News
+    - title: 'Handsontable: Data Editor for React'
+      url: https://javascriptweekly.com/link/140517/web
+      type: News
+    - title: 'JECS: An Entity Component System (ECS) for JS'
+      url: https://javascriptweekly.com/link/140518/web
+      type: News
+    - title: 'Color Names: A Gigantic List of Handpicked Color Names'
+      url: https://javascriptweekly.com/link/140520/web
+      type: News
+    - title: 'fastgron: High-Performance JSON to GRON Converter'
+      url: https://javascriptweekly.com/link/140544/web
+      type: News
+    - title: Did You Know You Can Stream on Twitch from JavaScript?
+      url: https://javascriptweekly.com/link/140533/web
+      type: News
