@@ -1,0 +1,41 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-508
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 508
+    date: 06/07/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: Generating SVG Images from Postgres
+      url: https://postgresweekly.com/link/140317/web
+      type: News
+    - title: Postgres 16 Beta 1 Released
+      url: https://postgresweekly.com/link/140320/web
+      type: News
+    - title: 'Materialized Views: Precompute with Postgres'
+      url: https://postgresweekly.com/link/140347/web
+      type: News
+    - title: How to Use Variables in psql
+      url: https://postgresweekly.com/link/140323/web
+      type: News
+    - title: '''I Tried 8 Different Postgres ORMs'' from Node.js / Deno'
+      url: https://postgresweekly.com/link/140330/web
+      type: News
+    - title: 'HypoPG 1.4.0: Hypothetical Indexes for Postgres'
+      url: https://postgresweekly.com/link/140334/web
+      type: News
+    - title: 'pg_dumpbinary v2.11: Dump a Database in Binary Format'
+      url: https://postgresweekly.com/link/140336/web
+      type: News
+    - title: 'Diesel 2.1: Extensible ORM and Query Builder for Rust'
+      url: https://postgresweekly.com/link/140339/web
+      type: News
