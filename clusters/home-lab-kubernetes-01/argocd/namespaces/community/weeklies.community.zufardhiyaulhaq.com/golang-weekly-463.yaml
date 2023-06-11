@@ -1,0 +1,55 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-463
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 463
+    date: 06/11/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: 'Goxygen 0.4: Quickly Generate a Go Backend for a JavaScript Project'
+      url: https://golangweekly.com/link/140582/web
+      type: News
+    - title: A Quick Crash Course on Go Generics
+      url: https://golangweekly.com/link/140583/web
+      type: News
+    - title: Better Automations & Template Design for Email APIs in Go
+      url: https://golangweekly.com/link/140581/web
+      type: News
+    - title: ChatGPT, Wardley Maps, and Go
+      url: https://golangweekly.com/link/140592/web
+      type: News
+    - title: Why Static Typing Came Back
+      url: https://golangweekly.com/link/140594/web
+      type: News
+    - title: Practical Tips for Organizing Kubernetes RBAC
+      url: https://golangweekly.com/link/140595/web
+      type: News
+    - title: 'When 1.0: Natural Language Date/Time Parser'
+      url: https://golangweekly.com/link/140597/web
+      type: News
+    - title: 'Pnutmux: Flexible Go Web Request Router'
+      url: https://golangweekly.com/link/140598/web
+      type: News
+    - title: Auth. Built for Devs, by Devs
+      url: https://golangweekly.com/link/140599/web
+      type: News
+    - title: 'email-verifier: Verify Email Addresses Without Sending Mail'
+      url: https://golangweekly.com/link/140600/web
+      type: News
+    - title: Local Git Contributions Visualizer
+      url: https://golangweekly.com/link/140601/web
+      type: News
+    - title: 'Miller 6.8: A Go-Powered Textual Data File Swiss Army Knife'
+      url: https://golangweekly.com/link/140602/web
+      type: News
+    - title: Template Based, Dynamic Image Batch Generation Tool
+      url: https://golangweekly.com/link/140611/web
+      type: News
