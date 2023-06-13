@@ -1,0 +1,70 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-642
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 642
+    date: 06/13/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'Polywasm: A Polyfill to Run WASM in JS Environments'
+      url: https://javascriptweekly.com/link/140802/web
+      type: News
+    - title: Announcing TypeScript 5.1
+      url: https://javascriptweekly.com/link/140864/web
+      type: News
+    - title: How to Send Password Resets via SMS and Email Using Node.js & Next.js
+      url: https://javascriptweekly.com/link/140801/web
+      type: News
+    - title: 'NakedJSX: Use JSX Without React'
+      url: https://javascriptweekly.com/link/140806/web
+      type: News
+    - title: Dan Abramov Rebuilds React Server Components from Scratch
+      url: https://javascriptweekly.com/link/140805/web
+      type: News
+    - title: Why (and How) You Should Write Your WebAssembly in TypeScript
+      url: https://javascriptweekly.com/link/140814/web
+      type: News
+    - title: Backtick Strings are Likely the Wrong Tool for Your Job
+      url: https://javascriptweekly.com/link/140816/web
+      type: News
+    - title: 'Dynaboard: AI Meets Low-Code to Get More Done, Faster'
+      url: https://javascriptweekly.com/link/140817/web
+      type: News
+    - title: Is React Having an 'Angular.js Moment'?
+      url: https://javascriptweekly.com/link/140818/web
+      type: News
+    - title: Painless WebGPU Programming with taichi.js
+      url: https://javascriptweekly.com/link/140819/web
+      type: News
+    - title: A Preview of Web Apps on macOS Sonoma 14 Beta
+      url: https://javascriptweekly.com/link/140870/web
+      type: News
+    - title: Live Streaming with Multiple Hosts in a Browser with Amazon IVS
+      url: https://javascriptweekly.com/link/140823/web
+      type: News
+    - title: 'Algolia AutoComplete: A Fast, Full-Featured Autocomplete Library'
+      url: https://javascriptweekly.com/link/140827/web
+      type: News
+    - title: 'Perfectionist 1.0: ESLint Plugin for Sorting Data'
+      url: https://javascriptweekly.com/link/140871/web
+      type: News
+    - title: Comprehensive Full-Stack Application Monitoring Solution
+      url: https://javascriptweekly.com/link/140833/web
+      type: News
+    - title: 'pgsql-ast-parser 11.1: A Simple SQL Parser'
+      url: https://javascriptweekly.com/link/140830/web
+      type: News
+    - title: 'Goxygen 0.4: Quickly Generate a Go(lang) Backend for a JS Project'
+      url: https://javascriptweekly.com/link/140834/web
+      type: News
+    - title: 'bundlejs: Online npm Package Bundle Size Checker'
+      url: https://javascriptweekly.com/link/140862/web
+      type: News
