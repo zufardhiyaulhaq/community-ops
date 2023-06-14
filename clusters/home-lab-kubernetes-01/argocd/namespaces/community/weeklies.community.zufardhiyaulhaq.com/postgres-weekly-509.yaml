@@ -1,0 +1,47 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-509
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 509
+    date: 06/14/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: High-Compression Metrics Storage with Hyperloglog
+      url: https://postgresweekly.com/link/140616/web
+      type: News
+    - title: What is a Postgres 'Schema'
+      url: https://postgresweekly.com/link/140619/web
+      type: News
+    - title: ❤️ Postgres
+      url: https://postgresweekly.com/link/140615/web
+      type: News
+    - title: A Guide to PgBouncer/Postgres Compatibility
+      url: https://postgresweekly.com/link/140620/web
+      type: News
+    - title: 'An SQL Recipe: Comparing with Neighbors'
+      url: https://postgresweekly.com/link/140628/web
+      type: News
+    - title: The Future of OpenAI for Postgres on Azure
+      url: https://postgresweekly.com/link/140630/web
+      type: News
+    - title: 'SchemaSpy: Database Documentation Built Easily'
+      url: https://postgresweekly.com/link/140633/web
+      type: News
+    - title: '[Open Source] Columnar, Vectorized Postgres'
+      url: https://postgresweekly.com/link/140634/web
+      type: News
+    - title: 'pgsql-ast-parser 11.1: A Simple Postgres SQL Parser'
+      url: https://postgresweekly.com/link/140635/web
+      type: News
+    - title: 'Goxygen 0.4: Go Backend Generator for JavaScript Projects'
+      url: https://postgresweekly.com/link/140637/web
+      type: News
