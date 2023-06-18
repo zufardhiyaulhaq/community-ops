@@ -1,0 +1,70 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-464
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 464
+    date: 06/18/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: An Update on Go Toolchains
+      url: https://golangweekly.com/link/140920/web
+      type: News
+    - title: Ebitengine's Game Jam to Celebrate Its 10th Birthday
+      url: https://golangweekly.com/link/140881/web
+      type: News
+    - title: Go! Experts at Your Service
+      url: https://golangweekly.com/link/140879/web
+      type: News
+    - title: Writing a Go Fuzz Target
+      url: https://golangweekly.com/link/140883/web
+      type: News
+    - title: Caching Go Tests in CI
+      url: https://golangweekly.com/link/140880/web
+      type: News
+    - title: Using Pointers to Reduce Copies is Premature Optimization?
+      url: https://golangweekly.com/link/140884/web
+      type: News
+    - title: Scrubbing Sensitive Data at 180MB/Sec/Core
+      url: https://golangweekly.com/link/140885/web
+      type: News
+    - title: 'Raspberry Pi Coding in Go: Traffic Lights'
+      url: https://golangweekly.com/link/140892/web
+      type: News
+    - title: Troubleshooting Kubernetes Networking Issues
+      url: https://golangweekly.com/link/140891/web
+      type: News
+    - title: Process Huge Log Files with Go vs Python
+      url: https://golangweekly.com/link/140894/web
+      type: News
+    - title: 'Geziyor: A Web Crawling and Scraping Framework'
+      url: https://golangweekly.com/link/140895/web
+      type: News
+    - title: 'Compress: Optimized Compression Packages'
+      url: https://golangweekly.com/link/140896/web
+      type: News
+    - title: 'gotestsum 1.10: go test Runner with Optimized Output and Summaries'
+      url: https://golangweekly.com/link/140897/web
+      type: News
+    - title: Temporal 101 & 102 Courses in Go
+      url: https://golangweekly.com/link/140898/web
+      type: News
+    - title: A Repo to Use for Go Interview Prep
+      url: https://golangweekly.com/link/140899/web
+      type: News
+    - title: 'Rapid 1.0: Property-Based Testing Library'
+      url: https://golangweekly.com/link/140900/web
+      type: News
+    - title: 'Spectagular: Spectacular Struct Tag Parsing'
+      url: https://golangweekly.com/link/140901/web
+      type: News
+    - title: A Fast Mandelbrot Set Renderer using Goroutines
+      url: https://golangweekly.com/link/140917/web
+      type: News
