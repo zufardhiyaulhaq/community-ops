@@ -1,0 +1,71 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-643
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 643
+    date: 06/20/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'Val Town: If GitHub Gists Could Run, and AWS Lambda Were Fun'
+      url: https://javascriptweekly.com/link/141198/web
+      type: News
+    - title: The Stack Overflow Developer Survey 2023 Results
+      url: https://javascriptweekly.com/link/141144/web
+      type: News
+    - title: 'Enterprise UI Development: Testing & Code Quality'
+      url: https://javascriptweekly.com/link/141141/web
+      type: News
+    - title: 'Melange 1.0: Compile OCaml / ReasonML to JavaScript'
+      url: https://javascriptweekly.com/link/141142/web
+      type: News
+    - title: An Introduction to Debugging Tools and Approaches for Node
+      url: https://javascriptweekly.com/link/141156/web
+      type: News
+    - title: Before Your Next Frontend Pull Request, Use This Checklist
+      url: https://javascriptweekly.com/link/141157/web
+      type: News
+    - title: Breakpoints and console.log Is the Past, Time Travel Is the Future
+      url: https://javascriptweekly.com/link/141158/web
+      type: News
+    - title: Nuxt Explained in 100 Seconds
+      url: https://javascriptweekly.com/link/141195/web
+      type: News
+    - title: How To Build Server-Side Rendered (SSR) Svelte Apps with SvelteKit
+      url: https://javascriptweekly.com/link/141159/web
+      type: News
+    - title: 'Motion Canvas: A TypeScript Library and Real-Time Preview Editor to
+        Program Animations'
+      url: https://javascriptweekly.com/link/141161/web
+      type: News
+    - title: Code Together Before You Work Together. Interview Devs in a Real IDE
+      url: https://javascriptweekly.com/link/141163/web
+      type: News
+    - title: 'Threlte: A Three.js Scene Renderer and Component Library for Svelte'
+      url: https://javascriptweekly.com/link/141164/web
+      type: News
+    - title: 'Million.js: A Performance-Focused VDOM Replacement for React'
+      url: https://javascriptweekly.com/link/141167/web
+      type: News
+    - title: 'jest-extended 4.0: Additional Matchers for Jest Users'
+      url: https://javascriptweekly.com/link/141169/web
+      type: News
+    - title: 'Rewind-UI: Customizable React + Tailwind CSS Component Library'
+      url: https://javascriptweekly.com/link/141172/web
+      type: News
+    - title: React Authentication — Without Complexity
+      url: https://javascriptweekly.com/link/141174/web
+      type: News
+    - title: 'tz-lookup 8.0: Fast Time Zone Estimations from Latitude and Longitude'
+      url: https://javascriptweekly.com/link/141175/web
+      type: News
+    - title: 'SVG.js v3.2: SVG Manipulation and Animation Library'
+      url: https://javascriptweekly.com/link/141176/web
+      type: News
