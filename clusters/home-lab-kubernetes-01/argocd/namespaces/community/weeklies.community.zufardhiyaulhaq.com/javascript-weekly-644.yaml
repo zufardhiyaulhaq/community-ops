@@ -1,0 +1,73 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-644
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 644
+    date: 06/27/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'UnsuckJS: Comparing Lightweight JavaScript Options'
+      url: https://javascriptweekly.com/link/141502/web
+      type: News
+    - title: Svelte 4 Released
+      url: https://javascriptweekly.com/link/141503/web
+      type: News
+    - title: The Complete UI Component Library For Enterprise Web Apps
+      url: https://javascriptweekly.com/link/141501/web
+      type: News
+    - title: 'A Look at TypeScript 5.2''s New Keyword: using'
+      url: https://javascriptweekly.com/link/141509/web
+      type: News
+    - title: The 'Getting Started with AI' Stack
+      url: https://javascriptweekly.com/link/141512/web
+      type: News
+    - title: Synchronizing Videos or 3D Model Rotations to Scroll Driven Animations
+      url: https://javascriptweekly.com/link/141519/web
+      type: News
+    - title: Recreating a JS Runtime to Understand Node's Magic
+      url: https://javascriptweekly.com/link/141520/web
+      type: News
+    - title: E-Commerce Simplified
+      url: https://javascriptweekly.com/link/141521/web
+      type: News
+    - title: Positioning Anchored Popovers
+      url: https://javascriptweekly.com/link/141522/web
+      type: News
+    - title: React Server Components in Under Seven Minutes
+      url: https://javascriptweekly.com/link/141523/web
+      type: News
+    - title: 'Selecto.js: Make Elements Selectable Within a Drag Area'
+      url: https://javascriptweekly.com/link/141526/web
+      type: News
+    - title: Tuple – The Fastest Way to Onboard New Devs
+      url: https://javascriptweekly.com/link/141528/web
+      type: News
+    - title: 'AutoAnimate: Add Motion to Your Apps with a Single Line of Code'
+      url: https://javascriptweekly.com/link/141529/web
+      type: News
+    - title: 'Toad Scheduler: In-Memory Node and Browser Job Scheduler'
+      url: https://javascriptweekly.com/link/141530/web
+      type: News
+    - title: 'Kysely: A Fluent, Type-Safe SQL Query Builder'
+      url: https://javascriptweekly.com/link/141531/web
+      type: News
+    - title: 'AI.JSX: A JSX-Powered AI App Framework'
+      url: https://javascriptweekly.com/link/141533/web
+      type: News
+    - title: Generate SBOMs Effortlessly with Snyk
+      url: https://javascriptweekly.com/link/141535/web
+      type: News
+    - title: 'Panda CSS: Modern, Build-Time, Type-Safe CSS-in-JS'
+      url: https://javascriptweekly.com/link/141536/web
+      type: News
+    - title: 'React Wrap Balancer 1.0: A Component for Better Displayed Title Text'
+      url: https://javascriptweekly.com/link/141537/web
+      type: News
