@@ -1,0 +1,56 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-511
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 511
+    date: 06/28/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: 'Postgres: The Most Popular, Desired and Admired Database'
+      url: https://postgresweekly.com/link/141281/web
+      type: News
+    - title: Making Postgres 30% Faster with Prepared Statements?
+      url: https://postgresweekly.com/link/141283/web
+      type: News
+    - title: '[Checklist] Zero to 100 Deploys a Day'
+      url: https://postgresweekly.com/link/141280/web
+      type: News
+    - title: Postgres Reconsiders Its Process-Based Model (Again)
+      url: https://postgresweekly.com/link/141287/web
+      type: News
+    - title: Postgres Documentation and the Limitations of Community
+      url: https://postgresweekly.com/link/141294/web
+      type: News
+    - title: Native Enums or CHECK Constraints?
+      url: https://postgresweekly.com/link/141295/web
+      type: News
+    - title: Data Skews in Postgres
+      url: https://postgresweekly.com/link/141296/web
+      type: News
+    - title: Five Tips for Fast Analytics with Postgres
+      url: https://postgresweekly.com/link/141298/web
+      type: News
+    - title: More Fun with Postgres Puzzles
+      url: https://postgresweekly.com/link/141297/web
+      type: News
+    - title: Unexpected Downsides of UUID Keys
+      url: https://postgresweekly.com/link/141299/web
+      type: News
+    - title: 'pgMagic: Chat to Postgres Using Natural Language'
+      url: https://postgresweekly.com/link/141301/web
+      type: News
+    - title: 'pg_easy_replicate: Switch Databases with Minimal Downtime'
+      url: https://postgresweekly.com/link/141302/web
+      type: News
+    - title: 'FerretDB v1.4.0: Feels Like MongoDB, Uses Postgres for Storage'
+      url: https://postgresweekly.com/link/141303/web
+      type: News
