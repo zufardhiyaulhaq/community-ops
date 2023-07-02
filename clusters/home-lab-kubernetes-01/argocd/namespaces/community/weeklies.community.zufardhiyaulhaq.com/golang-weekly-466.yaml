@@ -1,0 +1,58 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-466
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 466
+    date: 07/02/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: Go 1.21 Release Candidate
+      url: https://golangweekly.com/link/141555/web
+      type: News
+    - title: Built-in Functions in Go 1.21
+      url: https://golangweekly.com/link/141560/web
+      type: News
+    - title: Go! Experts at Your Service
+      url: https://golangweekly.com/link/141554/web
+      type: News
+    - title: Using htmx with Go to Make Full Stack Apps
+      url: https://golangweekly.com/link/141562/web
+      type: News
+    - title: Solving 'Two Sum' in C (and Go) with a Tiny Hash Table
+      url: https://golangweekly.com/link/141569/web
+      type: News
+    - title: 'Safe, Fast, and Easy: Building a Plugin System with WebAssembly'
+      url: https://golangweekly.com/link/141570/web
+      type: News
+    - title: Time is Not a Synchronization Primitive
+      url: https://golangweekly.com/link/141572/web
+      type: News
+    - title: How to Hack Kubernetes (and How to Protect It)
+      url: https://golangweekly.com/link/141573/web
+      type: News
+    - title: 'GoNB: A Go Notebook Kernel for Jupyter'
+      url: https://golangweekly.com/link/141576/web
+      type: News
+    - title: 'Create Go App CLI 4.0: Create a New Go Project in One'
+      url: https://golangweekly.com/link/141578/web
+      type: News
+    - title: FusionAuth + Go – You’re Welcome
+      url: https://golangweekly.com/link/141580/web
+      type: News
+    - title: 'Dkron: A Cloud Native Job Scheduling System'
+      url: https://golangweekly.com/link/141581/web
+      type: News
+    - title: 'tailer: CLI Tool to Insert Lines When Command Output Stops'
+      url: https://golangweekly.com/link/141583/web
+      type: News
+    - title: 'Lingua 1.3: A Natural Language Detection Library'
+      url: https://golangweekly.com/link/141585/web
+      type: News
