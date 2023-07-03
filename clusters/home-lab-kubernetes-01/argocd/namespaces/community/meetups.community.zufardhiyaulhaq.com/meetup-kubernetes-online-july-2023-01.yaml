@@ -1,0 +1,30 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Meetup
+metadata:
+  name: meetup-kubernetes-online-july-2023-01
+  namespace: community
+spec:
+  community:
+  - "kubernetes"
+  spec:
+    name: "Kubernetes Cloud Native Online Meetup July 2023"
+    date: "July 4, 2023"
+    time: "19.00"
+    place: "Youtube"
+    registrationUrl: "https://community.cncf.io/indonesia/"
+    imageUrl: "https://raw.githubusercontent.com/zufardhiyaulhaq/sakura-repository/main/img/b8b0004d56baa7700a3d536e44fb0c2c77dc0610.png"
+    tags:
+      - meetup
+      - CNCF
+      - Online
+    sponsors:
+    - name: "VIDA Digital Identity"
+    speakers:
+    - name: "Himalaya Gupta"
+      position: "Software Architect"
+      company: "VIDA Digital Identity"
+      title: "Transitioning from VM Environment to Containers"
+    - name: "Zufar Dhiyaulhaq"
+      position: "Engineering Manager"
+      company: "GoTo Financial"
+      title: "Optimizing Kubernetes Network Cost With Kubecost & Istio"
