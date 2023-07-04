@@ -1,0 +1,67 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-645
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 645
+    date: 07/04/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: A Massive Bug at the Heart of the npm Ecosystem
+      url: https://javascriptweekly.com/link/141826/web
+      type: News
+    - title: Useful DevTools Tips and Tricks
+      url: https://javascriptweekly.com/link/141827/web
+      type: News
+    - title: Secure Application PII with a Simple API Call
+      url: https://javascriptweekly.com/link/141825/web
+      type: News
+    - title: The Cost of JavaScript in 2023
+      url: https://javascriptweekly.com/link/141886/web
+      type: News
+    - title: Introducing the MDN Playground
+      url: https://javascriptweekly.com/link/141830/web
+      type: News
+    - title: Don't Write Console Logs Yourself Ever Again
+      url: https://javascriptweekly.com/link/141843/web
+      type: News
+    - title: An Introduction to Parser Combinators
+      url: https://javascriptweekly.com/link/141845/web
+      type: News
+    - title: "Too Much Tech Debt in Your node_modules? UpgradeJS.com Can Help \U0001F680"
+      url: https://javascriptweekly.com/link/141846/web
+      type: News
+    - title: An Update on Next.js's App Router Approach
+      url: https://javascriptweekly.com/link/141848/web
+      type: News
+    - title: 'React Server Components from Scratch: The Video'
+      url: https://javascriptweekly.com/link/141851/web
+      type: News
+    - title: Why Doesn't TypeScript Properly Type Object.keys?
+      url: https://javascriptweekly.com/link/141853/web
+      type: News
+    - title: Making Tiled Maps with Unity and JavaScript
+      url: https://javascriptweekly.com/link/141855/web
+      type: News
+    - title: 'Chalk.ist: Create Attractive Images of Source Code'
+      url: https://javascriptweekly.com/link/141858/web
+      type: News
+    - title: 'Radash 11: A Functional, Modern, Typed Utility Library'
+      url: https://javascriptweekly.com/link/141859/web
+      type: News
+    - title: 'Simple Statistics: Statistical Methods in Readable JS'
+      url: https://javascriptweekly.com/link/141861/web
+      type: News
+    - title: 'Shiki: A Syntax Highlighter That Uses VS Code Themes'
+      url: https://javascriptweekly.com/link/141863/web
+      type: News
+    - title: 'Typist: Tiptap-Based Rich Text Editor Component'
+      url: https://javascriptweekly.com/link/141865/web
+      type: News
