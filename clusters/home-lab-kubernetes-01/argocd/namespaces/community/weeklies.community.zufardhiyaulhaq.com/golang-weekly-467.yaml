@@ -1,0 +1,58 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-467
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 467
+    date: 07/09/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: Frequently Asked Questions About Go
+      url: https://golangweekly.com/link/141955/web
+      type: News
+    - title: How Grab Uses Its Own Go Module Proxy
+      url: https://golangweekly.com/link/141960/web
+      type: News
+    - title: Go! Experts at Your Service
+      url: https://golangweekly.com/link/141954/web
+      type: News
+    - title: 'Proposal: Let''s Change the pprof Mutex Profile in Go 1.22'
+      url: https://golangweekly.com/link/141962/web
+      type: News
+    - title: MIT 6.824 Distributed Systems
+      url: https://golangweekly.com/link/141971/web
+      type: News
+    - title: Creating a Simple Fixed-Window Rate Limiter in Redis
+      url: https://golangweekly.com/link/141973/web
+      type: News
+    - title: Rapidly Develop Golang Microservices In Kubernetes
+      url: https://golangweekly.com/link/141975/web
+      type: News
+    - title: About Structured Logging in Go 1.21
+      url: https://golangweekly.com/link/141976/web
+      type: News
+    - title: 'Chroma 2.8: Pure Go Syntax Highlighter'
+      url: https://golangweekly.com/link/141981/web
+      type: News
+    - title: 'Announcing GoReleaser v1.19: The Big Release'
+      url: https://golangweekly.com/link/141985/web
+      type: News
+    - title: 'Encore: Declarative Infrastructure for Go'
+      url: https://golangweekly.com/link/141987/web
+      type: News
+    - title: 'Mailpit 1.7: Email and SMTP Testing Tool'
+      url: https://golangweekly.com/link/141988/web
+      type: News
+    - title: 'Zygo: A Lisp Interpreter in 100% Go'
+      url: https://golangweekly.com/link/141989/web
+      type: News
+    - title: 'Watermill: Library for Building Event-Driven Apps'
+      url: https://golangweekly.com/link/141990/web
+      type: News
