@@ -1,0 +1,67 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-646
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 646
+    date: 07/11/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'What''s Next for JavaScript: New Features to Look Forward to'
+      url: https://javascriptweekly.com/link/142209/web
+      type: News
+    - title: 'Remotion v4.0: Create Videos Using React'
+      url: https://javascriptweekly.com/link/142211/web
+      type: News
+    - title: A Brief Primer to Engineering Efficiency
+      url: https://javascriptweekly.com/link/142208/web
+      type: News
+    - title: '''CommonJS is Hurting JavaScript'''
+      url: https://javascriptweekly.com/link/142213/web
+      type: News
+    - title: In Defence of DOMContentLoaded
+      url: https://javascriptweekly.com/link/142231/web
+      type: News
+    - title: Breaking Up with SVG-in-JS in 2023
+      url: https://javascriptweekly.com/link/142233/web
+      type: News
+    - title: Move from Datadog to Axiom with Our New Migration App
+      url: https://javascriptweekly.com/link/142234/web
+      type: News
+    - title: An Introduction to the View Transitions API
+      url: https://javascriptweekly.com/link/142235/web
+      type: News
+    - title: JavaScript Gom Jabbar
+      url: https://javascriptweekly.com/link/142237/web
+      type: News
+    - title: The JavaScript Hype Cycle and React Burnout
+      url: https://javascriptweekly.com/link/142238/web
+      type: News
+    - title: 'MathLive: A Web Component for Math Input'
+      url: https://javascriptweekly.com/link/142240/web
+      type: News
+    - title: 'Starlight: A Documentation Site Builder from Astro'
+      url: https://javascriptweekly.com/link/142242/web
+      type: News
+    - title: Monitor, Test and Debug your APIs with APIToolkit
+      url: https://javascriptweekly.com/link/142245/web
+      type: News
+    - title: 'mdsvex: A Markdown Preprocessor for Svelte'
+      url: https://javascriptweekly.com/link/142246/web
+      type: News
+    - title: 'rrule.js: Work with Recurrence Rules for Calendar Dates'
+      url: https://javascriptweekly.com/link/142248/web
+      type: News
+    - title: 'copy-text-to-clipboard: Copy Text to Clipboard in Modern Browsers'
+      url: https://javascriptweekly.com/link/142249/web
+      type: News
+    - title: 'Joplin: An Open Source Note Taking and To-Do App'
+      url: https://javascriptweekly.com/link/142256/web
+      type: News
