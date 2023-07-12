@@ -1,0 +1,51 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-513
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 513
+    date: 07/12/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: Thirteen Ways of Looking at a Join
+      url: https://postgresweekly.com/link/142004/web
+      type: News
+    - title: Postgres 16 Beta 2 Released
+      url: https://postgresweekly.com/link/142006/web
+      type: News
+    - title: 'Webinar: Advanced Autovacuum Tuning and the Upcoming pganalyze VACUUM
+        Advisor'
+      url: https://postgresweekly.com/link/142003/web
+      type: News
+    - title: Google Hops Aboard the (pg)Vector Train
+      url: https://postgresweekly.com/link/142008/web
+      type: News
+    - title: Heroku Introduces New Postgres Plans
+      url: https://postgresweekly.com/link/142011/web
+      type: News
+    - title: 'Nearest Neighbor Indexes: What are pgvector''s ''ivfflat'' Indexes?'
+      url: https://postgresweekly.com/link/142021/web
+      type: News
+    - title: 'Fun with Postgres Puzzles: Surface Area and 3D Slices'
+      url: https://postgresweekly.com/link/142022/web
+      type: News
+    - title: 'Goodbye etcd, Hello Postgres: Running Kubernetes with an SQL Database?'
+      url: https://postgresweekly.com/link/142024/web
+      type: News
+    - title: Epsio's PostgreSQL Incremental Materialized View
+      url: https://postgresweekly.com/link/142025/web
+      type: News
+    - title: Differential vs Incremental Backups in pgBackRest
+      url: https://postgresweekly.com/link/142026/web
+      type: News
+    - title: What Happens When a Postgres Data File Goes Missing
+      url: https://postgresweekly.com/link/142028/web
+      type: News
