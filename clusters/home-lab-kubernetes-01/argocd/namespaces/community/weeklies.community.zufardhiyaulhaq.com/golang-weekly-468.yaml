@@ -1,0 +1,58 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-468
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 468
+    date: 07/16/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: Finding Bugs with Fuzzing
+      url: https://golangweekly.com/link/142268/web
+      type: News
+    - title: Some First Impressions of Go 1.21
+      url: https://golangweekly.com/link/142270/web
+      type: News
+    - title: Certificate-Based MFA, RBAC, and SSO with Teleport
+      url: https://golangweekly.com/link/142267/web
+      type: News
+    - title: 'Wazero 1.3.0: WebAssembly Runtime for Go Developers'
+      url: https://golangweekly.com/link/142271/web
+      type: News
+    - title: 'Pygolo: Extend Python with Go and Vice Versa'
+      url: https://golangweekly.com/link/142273/web
+      type: News
+    - title: 'Go Sync or Go Home: WaitGroup'
+      url: https://golangweekly.com/link/142280/web
+      type: News
+    - title: 'Workflows as Actors: Is It Really Possible?'
+      url: https://golangweekly.com/link/142281/web
+      type: News
+    - title: 'Start Fast: Booting Go Programs Quickly'
+      url: https://golangweekly.com/link/142282/web
+      type: News
+    - title: 'ghw 0.12.0: Go Hardware Discovery and Inspection'
+      url: https://golangweekly.com/link/142284/web
+      type: News
+    - title: 'Act: Run Your GitHub Actions Locally'
+      url: https://golangweekly.com/link/142285/web
+      type: News
+    - title: 'eBPF Go 0.11.0: Pure Go Library to Work with eBPF Programs'
+      url: https://golangweekly.com/link/142286/web
+      type: News
+    - title: Add Fully-Featured Auth to Your Go App with Two Lines of Code
+      url: https://golangweekly.com/link/142289/web
+      type: News
+    - title: 'MacDriver 0.4: Native Mac API Access for Go'
+      url: https://golangweekly.com/link/142290/web
+      type: News
+    - title: The Ultimate Go Tour for Intermediate Developers
+      url: https://golangweekly.com/link/142297/web
+      type: News
