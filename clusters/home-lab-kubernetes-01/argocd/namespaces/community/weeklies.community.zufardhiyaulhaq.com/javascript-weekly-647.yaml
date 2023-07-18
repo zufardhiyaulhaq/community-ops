@@ -1,0 +1,70 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-647
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 647
+    date: 07/18/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'Driver.js: Create On-Page Tours, Highlights, and Contextual Help'
+      url: https://javascriptweekly.com/link/142518/web
+      type: News
+    - title: 'Component Party: A Rosetta Stone of UI Library Code Examples'
+      url: https://javascriptweekly.com/link/142520/web
+      type: News
+    - title: Test and Validate APIs Effectively and Efficiently
+      url: https://javascriptweekly.com/link/142521/web
+      type: News
+    - title: 'Prettier 3.0: Now Powered by ES Modules'
+      url: https://javascriptweekly.com/link/142522/web
+      type: News
+    - title: Crockford on Plain Old JavaScript and the DOM
+      url: https://javascriptweekly.com/link/142574/web
+      type: News
+    - title: Useful Functions for a (Deno) HTTP Server
+      url: https://javascriptweekly.com/link/142539/web
+      type: News
+    - title: Testing the Dark Scenarios of a Node.js App
+      url: https://javascriptweekly.com/link/142541/web
+      type: News
+    - title: The 2023 State of the API Report Is Here
+      url: https://javascriptweekly.com/link/142542/web
+      type: News
+    - title: 'Creating Randomized Zelda: Tears of the Kingdom Patterns'
+      url: https://javascriptweekly.com/link/142543/web
+      type: News
+    - title: 'MDX Editor: A Rich Markdown Editor React Component'
+      url: https://javascriptweekly.com/link/142547/web
+      type: News
+    - title: 'Meet Your New Favorite Teammate: Cody, the AI Coding Assistant'
+      url: https://javascriptweekly.com/link/142550/web
+      type: News
+    - title: 'electron-vite: Next Generation Electron Build Tooling'
+      url: https://javascriptweekly.com/link/142551/web
+      type: News
+    - title: 'Vizzu 0.8: A Library for Animated Data Visualizations'
+      url: https://javascriptweekly.com/link/142553/web
+      type: News
+    - title: 'Putout: A Configurable, Babel-Based Linter and Code Transformer'
+      url: https://javascriptweekly.com/link/142556/web
+      type: News
+    - title: 'Standardized Audio Context: Cross-Browser Web Audio API Wrapper'
+      url: https://javascriptweekly.com/link/142558/web
+      type: News
+    - title: 'Kanel: Generate TypeScript Types from Postgres'
+      url: https://javascriptweekly.com/link/142559/web
+      type: News
+    - title: React Authentication — Without Complexity
+      url: https://javascriptweekly.com/link/142562/web
+      type: News
+    - title: 'donut.js: donut.c, But in JavaScript'
+      url: https://javascriptweekly.com/link/142572/web
+      type: News
