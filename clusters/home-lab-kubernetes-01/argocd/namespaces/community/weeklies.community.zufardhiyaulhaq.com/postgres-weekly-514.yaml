@@ -1,0 +1,52 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-514
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 514
+    date: 07/19/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: Microsoft Benchmarks Distributed PostgreSQL-Like DBs
+      url: https://postgresweekly.com/link/142340/web
+      type: News
+    - title: Subqueries and Performance
+      url: https://postgresweekly.com/link/142343/web
+      type: News
+    - title: Plug & Play Postgres Caching
+      url: https://postgresweekly.com/link/142339/web
+      type: News
+    - title: Let's Workshop an Unplanned Postgres Outage
+      url: https://postgresweekly.com/link/142345/web
+      type: News
+    - title: Changing a Column's Data Type in a Live Database
+      url: https://postgresweekly.com/link/142347/web
+      type: News
+    - title: Migrate Postgres from Google Cloud Platform to Amazon RDS with Minimal
+        Downtime
+      url: https://postgresweekly.com/link/142354/web
+      type: News
+    - title: Securing Your PostgreSQL Database
+      url: https://postgresweekly.com/link/142355/web
+      type: News
+    - title: 'Kanel: Generate TypeScript Types from Postgres'
+      url: https://postgresweekly.com/link/142358/web
+      type: News
+    - title: 'Knex.js 2.5: A Query Builder for Multiple Databases'
+      url: https://postgresweekly.com/link/142361/web
+      type: News
+    - title: 'ZomboDB: Use Elasticsearch to Power Postgres Indexes'
+      url: https://postgresweekly.com/link/142362/web
+      type: News
+    - title: 'GoodJob: Multithreaded, Postgres-Based, ActiveJob Backend for Ruby on
+        Rails'
+      url: https://postgresweekly.com/link/142363/web
+      type: News
