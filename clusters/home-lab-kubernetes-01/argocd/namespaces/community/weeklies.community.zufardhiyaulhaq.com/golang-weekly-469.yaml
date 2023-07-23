@@ -1,0 +1,58 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-469
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 469
+    date: 07/23/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: A Rationale for Using Coroutines in Go
+      url: https://golangweekly.com/link/142583/web
+      type: News
+    - title: govulncheck 1.0 Released
+      url: https://golangweekly.com/link/142584/web
+      type: News
+    - title: Go! Experts at Your Service
+      url: https://golangweekly.com/link/142582/web
+      type: News
+    - title: The Gorilla (Project) Reawakens
+      url: https://golangweekly.com/link/142587/web
+      type: News
+    - title: Analyzing Go Build Times
+      url: https://golangweekly.com/link/142590/web
+      type: News
+    - title: Monitor, Test and Debug your APIs with APIToolkit
+      url: https://golangweekly.com/link/142596/web
+      type: News
+    - title: 'Event-Driven Architecture: What You Need to Know'
+      url: https://golangweekly.com/link/142597/web
+      type: News
+    - title: 5 Ways to Write a Go Database Model
+      url: https://golangweekly.com/link/142598/web
+      type: News
+    - title: 'Pop: Charm''s Latest Project Tackles Email'
+      url: https://golangweekly.com/link/142599/web
+      type: News
+    - title: 'ntp 1.2: A Simple NTP Client Package for Go'
+      url: https://golangweekly.com/link/142600/web
+      type: News
+    - title: So You’re Still Using Infrastructure as Code?
+      url: https://golangweekly.com/link/142601/web
+      type: News
+    - title: 'Sarama 1.40: A Go Library for Apache Kafka'
+      url: https://golangweekly.com/link/142602/web
+      type: News
+    - title: 'Go Rate Limiter 0.3: A Blocking ''Leaky-Bucket'' Rate Limit Implementation'
+      url: https://golangweekly.com/link/142605/web
+      type: News
+    - title: 'goread: A Terminal-Based RSS / Feed Reader'
+      url: https://golangweekly.com/link/142607/web
+      type: News
