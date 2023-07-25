@@ -1,0 +1,74 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: javascript-weekly-648
+  namespace: community
+spec:
+  community:
+  - javascript
+  spec:
+    name: Javascript Weekly 648
+    date: 07/25/2023
+    imageUrl: https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png
+    tags:
+    - weekly
+    - javascript
+    articles:
+    - title: 'pkg-size: Find the True, Current Size of an npm Package Without Leaving
+        Your Browser'
+      url: https://javascriptweekly.com/link/142908/web
+      type: News
+    - title: TypeScript and the Dawn of Gradual Types
+      url: https://javascriptweekly.com/link/142906/web
+      type: News
+    - title: Create a Real-Time Multi-Host Livestream with Amazon IVS
+      url: https://javascriptweekly.com/link/142852/web
+      type: News
+    - title: 'Storybook 7.1: The Workshop for Building UI Components'
+      url: https://javascriptweekly.com/link/142854/web
+      type: News
+    - title: Five Inconvenient Truths about TypeScript
+      url: https://javascriptweekly.com/link/142853/web
+      type: News
+    - title: '''How We Generate JS and Python SDKs from a Canonical Rust SDK'''
+      url: https://javascriptweekly.com/link/142862/web
+      type: News
+    - title: Updating Code with jscodeshift
+      url: https://javascriptweekly.com/link/142864/web
+      type: News
+    - title: 'AI-Proofing Your Career For Tomorrow: Free Session by Interview Kickstart'
+      url: https://javascriptweekly.com/link/142866/web
+      type: News
+    - title: How React 18 Improves App Performance
+      url: https://javascriptweekly.com/link/142867/web
+      type: News
+    - title: 'wavesurfer.js 7: Audio Waveform Player'
+      url: https://javascriptweekly.com/link/142870/web
+      type: News
+    - title: 'TOAST UI Grid: A Customizable Grid Control for the Web'
+      url: https://javascriptweekly.com/link/142872/web
+      type: News
+    - title: Breakpoints and console.log is the Past, Time Travel is the Future
+      url: https://javascriptweekly.com/link/142876/web
+      type: News
+    - title: 'Pines: A Library of UI Components for Alpine.js and Tailwind Projects'
+      url: https://javascriptweekly.com/link/142877/web
+      type: News
+    - title: 'YouTube.js 5.5: A Wrapper Around YouTube''s Private API'
+      url: https://javascriptweekly.com/link/142878/web
+      type: News
+    - title: 'Eruda 3.0: A Console for Mobile Browsers'
+      url: https://javascriptweekly.com/link/142901/web
+      type: News
+    - title: 'Reagraph 4.10: WebGL Graph Visualization Library for React'
+      url: https://javascriptweekly.com/link/142879/web
+      type: News
+    - title: 'brotli-wasm 2.0: A Brotli Compressor and Decompressor'
+      url: https://javascriptweekly.com/link/142882/web
+      type: News
+    - title: 'Pacquet: A New, Experimental Package Manager for Node'
+      url: https://javascriptweekly.com/link/142883/web
+      type: News
+    - title: 'Chip Player JS: Browser-Based MIDIs, MODs and Game Music'
+      url: https://javascriptweekly.com/link/142890/web
+      type: News
