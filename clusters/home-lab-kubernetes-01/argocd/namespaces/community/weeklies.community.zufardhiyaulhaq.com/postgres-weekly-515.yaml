@@ -1,0 +1,52 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: postgres-weekly-515
+  namespace: community
+spec:
+  community:
+  - kubernetes
+  - devops
+  spec:
+    name: Postgres Weekly 515
+    date: 07/26/2023
+    imageUrl: https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
+    tags:
+    - weekly
+    - postgres
+    articles:
+    - title: 'Citus 12: Schema-Based Sharding for Postgres'
+      url: https://postgresweekly.com/link/142723/web
+      type: News
+    - title: Instant Results for Complex Queries with Epsio's Incremental Materialized
+        Views
+      url: https://postgresweekly.com/link/142722/web
+      type: News
+    - title: No More VACUUM? No More Bloat?
+      url: https://postgresweekly.com/link/142725/web
+      type: News
+    - title: Working with Time Series in Postgres
+      url: https://postgresweekly.com/link/142726/web
+      type: News
+    - title: 'Path to Citus Con: A Postgres Podcast'
+      url: https://postgresweekly.com/link/142734/web
+      type: News
+    - title: Zero-Downtime Postgres Cutovers at Instacart
+      url: https://postgresweekly.com/link/142738/web
+      type: News
+    - title: How to Create and Run Postgres Regression and TAP Tests
+      url: https://postgresweekly.com/link/142739/web
+      type: News
+    - title: 'Ora2Pg 24.0: It''s No Longer Just for Oracle'
+      url: https://postgresweekly.com/link/142740/web
+      type: News
+    - title: An Open Source Alternative to PostgreSQL in the Cloud. Start for Free
+        With $300 in Credits.
+      url: https://postgresweekly.com/link/142742/web
+      type: News
+    - title: 'pg_cirrus Beta 1: Easy Postgres Cluster Setup'
+      url: https://postgresweekly.com/link/142743/web
+      type: News
+    - title: What's New in PostgREST v11.1?
+      url: https://postgresweekly.com/link/142745/web
+      type: News
