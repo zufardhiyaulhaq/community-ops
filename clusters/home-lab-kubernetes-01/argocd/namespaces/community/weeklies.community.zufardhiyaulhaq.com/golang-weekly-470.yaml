@@ -1,0 +1,64 @@
+apiVersion: community.zufardhiyaulhaq.com/v1alpha1
+kind: Weekly
+metadata:
+  name: golang-weekly-470
+  namespace: community
+spec:
+  community:
+  - golang
+  spec:
+    name: Golang Weekly 470
+    date: 07/30/2023
+    imageUrl: https://trungtq.com/wp-content/uploads/2018/12/GO-3.png
+    tags:
+    - weekly
+    - golang
+    articles:
+    - title: An Overhaul of Inlining for Go 1.22
+      url: https://golangweekly.com/link/142987/web
+      type: News
+    - title: A Preview of Ranging Over Functions
+      url: https://golangweekly.com/link/142988/web
+      type: News
+    - title: Pass SOC 2, FedRAMP, HIPAA, and Other Audits With Ease
+      url: https://golangweekly.com/link/142953/web
+      type: News
+    - title: How to Find and Fix Vulnerable Dependencies with govulncheck
+      url: https://golangweekly.com/link/142957/web
+      type: News
+    - title: 'Proposal: Let''s Make Go''s HTTP Request Multiplexer Better'
+      url: https://golangweekly.com/link/142954/web
+      type: News
+    - title: Common Pitfalls in Go Benchmarking
+      url: https://golangweekly.com/link/142964/web
+      type: News
+    - title: Getting Friendly with CPU Caches
+      url: https://golangweekly.com/link/142965/web
+      type: News
+    - title: Using Cobra to Build Go-Powered CLIs
+      url: https://golangweekly.com/link/142966/web
+      type: News
+    - title: “DevOps Workload Has Dropped by 90% for Services Migrated to Encore”
+      url: https://golangweekly.com/link/142968/web
+      type: News
+    - title: A Gentle Introduction to Pointers in Go
+      url: https://golangweekly.com/link/142969/web
+      type: News
+    - title: 'ff 3.4: A ''Flags-First'' Package for Configuration'
+      url: https://golangweekly.com/link/142971/web
+      type: News
+    - title: 'Vegeta: An HTTP Load Testing Tool and Library'
+      url: https://golangweekly.com/link/142972/web
+      type: News
+    - title: Get Started with Temporal and Go
+      url: https://golangweekly.com/link/142974/web
+      type: News
+    - title: 'ov: Feature-Rich Terminal-Based Text Viewer/Pager'
+      url: https://golangweekly.com/link/142975/web
+      type: News
+    - title: 'Risor: An Embeddable Scripting Language Written in Go'
+      url: https://golangweekly.com/link/142976/web
+      type: News
+    - title: 'go-sse 0.6: Spec-Compliant Server-Sent Events (SSE) Library'
+      url: https://golangweekly.com/link/142978/web
+      type: News
