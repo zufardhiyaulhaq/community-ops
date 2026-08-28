@@ -1,44 +1,21 @@
 fullnameOverride: "o11y"
 
+# single-node TSDB — was vmcluster (6 vmstorage + 3 vmselect + 2 vminsert). Pi-sized.
 vmsingle:
-  enabled: false
-vmcluster:
   enabled: true
   spec:
     retentionPeriod: "1"
-    replicationFactor: 2
-    vmstorage:
-      replicaCount: 6
+    storage:
+      accessModes: ["ReadWriteOnce"]
       resources:
         requests:
-          cpu: 128m
-          memory: 256Mi
-      storage:
-        volumeClaimTemplate:
-          spec:
-            resources:
-              requests:
-                storage: 16Gi
-    vmselect:
-      replicaCount: 3
-      resources:
-        requests:
-          cpu: 128m
-          memory: 256Mi
-      storage:
-        volumeClaimTemplate:
-          spec:
-            resources:
-              requests:
-                storage: 8Gi
-    vminsert:
-      replicaCount: 2
-      extraArgs:
-          maxLabelsPerTimeseries: "65"
-      resources:
-        requests:
-          cpu: 128m
-          memory: 256Mi
+          storage: 20Gi
+    resources:
+      requests:
+        cpu: 128m
+        memory: 512Mi
+vmcluster:
+  enabled: false
 
 vmalert:
   enabled: true
@@ -57,12 +34,12 @@ grafana:
   resources:
     requests:
       cpu: 64m
-      memory: 64Mi
+      memory: 128Mi
   useStatefulSet: true
   persistence:
     type: statefulset
     enabled: true
-    size: 4Gi
+    size: 2Gi
 
 prometheus-node-exporter:
   enabled: true
@@ -80,7 +57,6 @@ kube-state-metrics:
 
 coreDns:
   enabled: true
-
 kubelet:
   enabled: true
 kubeApiServer:

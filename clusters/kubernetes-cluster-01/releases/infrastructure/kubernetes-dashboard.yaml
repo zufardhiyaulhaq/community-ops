@@ -1,9 +1,0 @@
-extraArgs:
-  - --enable-skip-login
-  - --enable-insecure-login
-
-protocolHttp: true
-
-service:
-  type: ClusterIP
-  externalPort: 80

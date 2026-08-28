@@ -31,7 +31,7 @@ spec:
             memory: 32Mi
         priorityClassName: system-cluster-critical
         podDisruptionBudget:
-          minAvailable: 1
+          maxUnavailable: 1
         hpaSpec:
           maxReplicas: 2
           minReplicas: 1
@@ -61,6 +61,10 @@ spec:
           - port: 443
             targetPort: 8443
             name: https
+          - port: 443
+            targetPort: 8443
+            name: https-quic
+            protocol: UDP
           - port: 80
             targetPort: 8080
             name: http2

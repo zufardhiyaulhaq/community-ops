@@ -6,5 +6,3 @@ commonLabels:
 
 resources:
 
-# Service
-- ../../../../../bases/namespace-scope/service/podinfo

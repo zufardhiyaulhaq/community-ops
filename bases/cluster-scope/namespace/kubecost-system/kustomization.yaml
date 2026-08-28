@@ -1,5 +1,0 @@
-resources:
-- kubecost-system.yaml
-namespace: kubecost-system
-commonLabels:
-  namespace: kubecost-system

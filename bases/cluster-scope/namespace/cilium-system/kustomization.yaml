@@ -1,5 +1,0 @@
-resources:
-- cilium-system.yaml
-namespace: cilium-system
-commonLabels:
-  namespace: cilium-system
