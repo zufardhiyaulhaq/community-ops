@@ -39,16 +39,15 @@ jobs:
           platform: linux
           arch: x86_64
       - name: Setup kustomize
-        uses: yokawasa/action-setup-kube-tools@v0.7.1
-        with:
-          kustomize: '5.8.1'
+        run: |
+          curl -fsSL "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv5.8.1/kustomize_v5.8.1_linux_amd64.tar.gz" | tar -xz -C /tmp
+          sudo mv /tmp/kustomize /usr/local/bin/kustomize
+          kustomize version
       - name: Setup helmfile
-        uses: mamezou-tech/setup-helmfile@v0.8.0
-        with:
-          helmfile-version: "v1.7.4"
-          install-helm: no
-          install-helm-plugins: no
-          install-kubectl: no
+        run: |
+          curl -fsSL "https://github.com/helmfile/helmfile/releases/download/v1.7.4/helmfile_1.7.4_linux_amd64.tar.gz" | tar -xz -C /tmp helmfile
+          sudo mv /tmp/helmfile /usr/local/bin/helmfile
+          helmfile version
       - name: Setup helm
         uses: azure/setup-helm@v4
         with:
@@ -97,16 +96,15 @@ jobs:
           platform: linux
           arch: x86_64
       - name: Setup kustomize
-        uses: yokawasa/action-setup-kube-tools@v0.7.1
-        with:
-          kustomize: '5.8.1'
+        run: |
+          curl -fsSL "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv5.8.1/kustomize_v5.8.1_linux_amd64.tar.gz" | tar -xz -C /tmp
+          sudo mv /tmp/kustomize /usr/local/bin/kustomize
+          kustomize version
       - name: Setup helmfile
-        uses: mamezou-tech/setup-helmfile@v0.8.0
-        with:
-          helmfile-version: "v1.7.4"
-          install-helm: no
-          install-helm-plugins: no
-          install-kubectl: no
+        run: |
+          curl -fsSL "https://github.com/helmfile/helmfile/releases/download/v1.7.4/helmfile_1.7.4_linux_amd64.tar.gz" | tar -xz -C /tmp helmfile
+          sudo mv /tmp/helmfile /usr/local/bin/helmfile
+          helmfile version
       - name: Setup helm
         uses: azure/setup-helm@v4
         with:
@@ -155,16 +153,15 @@ jobs:
           platform: linux
           arch: x86_64
       - name: Setup kustomize
-        uses: yokawasa/action-setup-kube-tools@v0.7.1
-        with:
-          kustomize: '5.8.1'
+        run: |
+          curl -fsSL "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv5.8.1/kustomize_v5.8.1_linux_amd64.tar.gz" | tar -xz -C /tmp
+          sudo mv /tmp/kustomize /usr/local/bin/kustomize
+          kustomize version
       - name: Setup helmfile
-        uses: mamezou-tech/setup-helmfile@v0.8.0
-        with:
-          helmfile-version: "v1.7.4"
-          install-helm: no
-          install-helm-plugins: no
-          install-kubectl: no
+        run: |
+          curl -fsSL "https://github.com/helmfile/helmfile/releases/download/v1.7.4/helmfile_1.7.4_linux_amd64.tar.gz" | tar -xz -C /tmp helmfile
+          sudo mv /tmp/helmfile /usr/local/bin/helmfile
+          helmfile version
       - name: Setup helm
         uses: azure/setup-helm@v4
         with:
@@ -214,16 +211,15 @@ jobs:
           platform: linux
           arch: x86_64
       - name: Setup kustomize
-        uses: yokawasa/action-setup-kube-tools@v0.7.1
-        with:
-          kustomize: '5.8.1'
+        run: |
+          curl -fsSL "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv5.8.1/kustomize_v5.8.1_linux_amd64.tar.gz" | tar -xz -C /tmp
+          sudo mv /tmp/kustomize /usr/local/bin/kustomize
+          kustomize version
       - name: Setup helmfile
-        uses: mamezou-tech/setup-helmfile@v0.8.0
-        with:
-          helmfile-version: "v1.7.4"
-          install-helm: no
-          install-helm-plugins: no
-          install-kubectl: no
+        run: |
+          curl -fsSL "https://github.com/helmfile/helmfile/releases/download/v1.7.4/helmfile_1.7.4_linux_amd64.tar.gz" | tar -xz -C /tmp helmfile
+          sudo mv /tmp/helmfile /usr/local/bin/helmfile
+          helmfile version
       - name: Setup helm
         uses: azure/setup-helm@v4
         with:
@@ -275,16 +271,15 @@ jobs:
           platform: linux
           arch: x86_64
       - name: Setup kustomize
-        uses: yokawasa/action-setup-kube-tools@v0.7.1
-        with:
-          kustomize: '5.8.1'
+        run: |
+          curl -fsSL "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv5.8.1/kustomize_v5.8.1_linux_amd64.tar.gz" | tar -xz -C /tmp
+          sudo mv /tmp/kustomize /usr/local/bin/kustomize
+          kustomize version
       - name: Setup helmfile
-        uses: mamezou-tech/setup-helmfile@v0.8.0
-        with:
-          helmfile-version: "v1.7.4"
-          install-helm: no
-          install-helm-plugins: no
-          install-kubectl: no
+        run: |
+          curl -fsSL "https://github.com/helmfile/helmfile/releases/download/v1.7.4/helmfile_1.7.4_linux_amd64.tar.gz" | tar -xz -C /tmp helmfile
+          sudo mv /tmp/helmfile /usr/local/bin/helmfile
+          helmfile version
       - name: Setup helm
         uses: azure/setup-helm@v4
         with:
