@@ -131,7 +131,6 @@ spec:
         numTrustedProxies: 1
       proxyMetadata:
         ISTIO_META_DNS_CAPTURE: "true"
-        ISTIO_META_DNS_AUTO_ALLOCATE: "true"
         BOOTSTRAP_XDS_AGENT: "true"
     discoverySelectors:
       - matchExpressions:

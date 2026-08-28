@@ -2,7 +2,7 @@ repositories:
 - name: frp-operator
   url: https://zufardhiyaulhaq.com/frp-operator/charts/releases/
 - name: sealed-secrets
-  url: https://bitnami-labs.github.io/sealed-secrets
+  url: https://bitnami.github.io/sealed-secrets
 - name: jetstack
   url: https://charts.jetstack.io
 - name: external-dns
