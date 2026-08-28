@@ -4,7 +4,7 @@ class KustomizeDeployer():
         self.cluster = cluster
 
     def deploy(self, dryrun=False):
-        render_command = ["kustomize", "build", "kustomize", "--load_restrictor", "LoadRestrictionsNone", "-o", "kustomized-rendered.yaml"]
+        render_command = ["kustomize", "build", "kustomize", "--load-restrictor", "LoadRestrictionsNone", "-o", "kustomized-rendered.yaml"]
         apply_command = ["kubectl", "apply", "-f", "kustomized-rendered.yaml", "--context", self.cluster]
 
         if dryrun:
@@ -17,7 +17,7 @@ class KustomizeDeployer():
         print(output)
 
     def diff(self):
-        render_command = ["kustomize", "build", "kustomize", "--load_restrictor", "LoadRestrictionsNone", "-o", "kustomized-rendered.yaml"]
+        render_command = ["kustomize", "build", "kustomize", "--load-restrictor", "LoadRestrictionsNone", "-o", "kustomized-rendered.yaml"]
         output = self.shell.execute(render_command)
 
         create_dir_command = ["mkdir", "kustomized-rendered-dir"]
