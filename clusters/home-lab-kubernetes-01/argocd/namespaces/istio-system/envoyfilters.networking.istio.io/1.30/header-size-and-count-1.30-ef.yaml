@@ -1,0 +1,22 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: EnvoyFilter
+metadata:
+  name: header-size-and-count-1.30-ef
+  namespace: istio-system
+spec:
+  configPatches:
+    - applyTo: NETWORK_FILTER
+      match:
+        context: ANY
+        listener:
+          filterChain:
+            filter:
+              name: "envoy.filters.network.http_connection_manager"
+      patch:
+        operation: MERGE
+        value:
+          typed_config:
+            "@type": "type.googleapis.com/envoy.extensions.filters.network.http_connection_manager.v3.HttpConnectionManager"
+            max_request_headers_kb: 128
+            common_http_protocol_options:
+              max_headers_count: 200

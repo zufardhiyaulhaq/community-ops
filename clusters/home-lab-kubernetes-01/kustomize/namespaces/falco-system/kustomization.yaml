@@ -1,6 +1,0 @@
-
-namespace: falco-system
-commonLabels:
-  namespace: falco-system
-  owner: zufardhiyaulhaq
-

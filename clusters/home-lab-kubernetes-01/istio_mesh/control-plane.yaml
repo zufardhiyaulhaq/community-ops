@@ -4,12 +4,31 @@ metadata:
   name: control-plane
   namespace: istio-system
 spec:
-  hub: gcr.io/istio-release
+  hub: registry.istio.io/release
   profile: minimal
   components:
     pilot:
       enabled: true
       k8s:
+        env:
+          - name: METRIC_ROTATION_INTERVAL
+            value: "2m0s"
+          - name: METRIC_GRACEFUL_DELETION_INTERVAL
+            value: "5m0s"
+          - name: PILOT_DEBOUNCE_AFTER
+            value: "500ms"
+          - name: PILOT_DEBOUNCE_MAX
+            value: "2s"
+          - name: PILOT_ENABLE_EDS_DEBOUNCE
+            value: "true"
+          - name: ENABLE_NATIVE_SIDECARS
+            value: "true"
+          - name: PILOT_ENABLE_QUIC_LISTENERS
+            value: "true"
+          - name: PILOT_ENABLE_IP_AUTOALLOCATE
+            value: "true"
+        serviceAnnotations:
+          service.kubernetes.io/topology-aware-hints: auto
         affinity:
           podAntiAffinity:
             preferredDuringSchedulingIgnoredDuringExecution:
@@ -22,8 +41,11 @@ spec:
               weight: 100
         resources:
           requests:
-            cpu: 32m
-            memory: 32Mi
+            cpu: 70m
+            memory: 256Mi
+          limits:
+            cpu: 1000m
+            memory: 1024Mi
         priorityClassName: system-cluster-critical
         podDisruptionBudget:
           minAvailable: 1
@@ -36,6 +58,11 @@ spec:
             maxSurge: 1
             maxUnavailable: 0
   meshConfig:
+    tlsDefaults:
+      ecdhCurves:
+      - X25519MLKEM768
+      - X25519
+      - P-256
     tcpKeepalive:
       time: 60s
       probes: 3
@@ -45,12 +72,8 @@ spec:
     accessLogFormat: |
       {
         "protocol": "%PROTOCOL%",
-        "upstream_service_time": "%RESP(x-envoy-upstream-service-time)%",
-        "upstream_local_address": "%UPSTREAM_LOCAL_ADDRESS%",
         "duration": "%DURATION%",
-        "upstream_transport_failure_reason": "%UPSTREAM_TRANSPORT_FAILURE_REASON%",
         "route_name": "%ROUTE_NAME%",
-        "downstream_local_address": "%DOWNSTREAM_LOCAL_ADDRESS%",
         "user_agent": "%REQ(USER-AGENT)%",
         "response_code": "%RESPONSE_CODE%",
         "response_flags": "%RESPONSE_FLAGS%",
@@ -58,102 +81,70 @@ spec:
         "method": "%REQ(:METHOD)%",
         "request_id": "%REQ(X-REQUEST-ID)%",
         "connection_id": "%CONNECTION_ID%",
-        "upstream_host": "%UPSTREAM_HOST%",
         "x_forwarded_for": "%REQ(X-FORWARDED-FOR)%",
+        "x_forwarded_host": "%REQ(X-FORWARDED-HOST)%",
         "client_ip": "%REQ(True-Client-Ip)%",
         "requested_server_name": "%REQUESTED_SERVER_NAME%",
         "bytes_received": "%BYTES_RECEIVED%",
         "bytes_sent": "%BYTES_SENT%",
-        "upstream_cluster": "%UPSTREAM_CLUSTER%",
-        "downstream_remote_address": "%DOWNSTREAM_REMOTE_ADDRESS%",
         "authority": "%REQ(:AUTHORITY)%",
         "path": "%REQ(X-ENVOY-ORIGINAL-PATH?:PATH)%",
         "response_code_details": "%RESPONSE_CODE_DETAILS%",
         "connection_termination_details": "%CONNECTION_TERMINATION_DETAILS%",
         "grpc_status_code": "%GRPC_STATUS_NUMBER%",
         "downstream_tls_version": "%DOWNSTREAM_TLS_VERSION%",
+        "downstream_tls_session_id": "%DOWNSTREAM_TLS_SESSION_ID%",
+        "downstream_peer_certificate_validity_start": "%DOWNSTREAM_PEER_CERT_V_START%",
         "downstream_peer_certificate_validity_end": "%DOWNSTREAM_PEER_CERT_V_END%",
-        "upstream_tls_version": "%UPSTREAM_TLS_VERSION%"
+        "downstream_peer_uri_san": "%DOWNSTREAM_PEER_URI_SAN%",
+        "downstream_peer_issuer": "%DOWNSTREAM_PEER_ISSUER%",
+        "downstream_peer_subject": "%DOWNSTREAM_PEER_SUBJECT%",
+        "downstream_local_address": "%DOWNSTREAM_LOCAL_ADDRESS%",
+        "downstream_remote_address": "%DOWNSTREAM_REMOTE_ADDRESS%",
+        "downstream_remote_address_without_port": "%DOWNSTREAM_REMOTE_ADDRESS_WITHOUT_PORT%",
+        "upstream_service_time": "%RESP(x-envoy-upstream-service-time)%",
+        "upstream_local_address": "%UPSTREAM_LOCAL_ADDRESS%",
+        "upstream_remote_address": "%UPSTREAM_REMOTE_ADDRESS%",
+        "upstream_transport_failure_reason": "%UPSTREAM_TRANSPORT_FAILURE_REASON%",
+        "upstream_protocol": "%UPSTREAM_PROTOCOL%",
+        "upstream_peer_subject": "%UPSTREAM_PEER_SUBJECT%",
+        "upstream_peer_issuer": "%UPSTREAM_PEER_ISSUER%",
+        "upstream_tls_version": "%UPSTREAM_TLS_VERSION%",
+        "upstream_peer_certificate_validity_end": "%UPSTREAM_PEER_CERT_V_END%",
+        "upstream_host": "%UPSTREAM_HOST%",
+        "upstream_cluster": "%UPSTREAM_CLUSTER%",
+        "upstream_request_attempt_count": "%UPSTREAM_REQUEST_ATTEMPT_COUNT%",
+        "partner_id": "%REQ(PARTNER-ID)%",
+        "payment_methods": "%REQ(PAYMENT-METHODS)%",
+        "upstream_header_bytes_sent": "%UPSTREAM_HEADER_BYTES_SENT%",
+        "upstream_header_bytes_received": "%UPSTREAM_HEADER_BYTES_RECEIVED%",
+        "request_headers_bytes": "%REQUEST_HEADERS_BYTES%",
+        "response_headers_bytes": "%RESPONSE_HEADERS_BYTES%",
+        "downstream_header_bytes_received": "%DOWNSTREAM_HEADER_BYTES_RECEIVED%"
       }
-    dnsRefreshRate: 30s
+    dnsRefreshRate: 240s
     defaultConfig:
+      tracingServiceName: APP_LABEL_AND_NAMESPACE
       terminationDrainDuration: 10s
       holdApplicationUntilProxyStarts: true
       gatewayTopology:
-        numTrustedProxies: 3
-      tracing:
-        zipkin:
-          address: jaeger-collector.observability-system.svc.cluster.local:9411
-        sampling: 1.0
+        numTrustedProxies: 1
       proxyMetadata:
         ISTIO_META_DNS_CAPTURE: "true"
         ISTIO_META_DNS_AUTO_ALLOCATE: "true"
         BOOTSTRAP_XDS_AGENT: "true"
-      extraStatTags:
-        - request_host
-        - request_method
-        - route_name
-        - response_code_details
-        - proxy_type
-      inclusionPrefixes:
-        - istio_proxy_latency_milliseconds
+    discoverySelectors:
+      - matchExpressions:
+          - key: istio-discovery
+            operator: NotIn
+            values:
+              - disabled
   values:
     global:
       proxy:
         resources:
           requests:
-            memory: 32Mi
+            memory: 128Mi
             cpu: 32m
-    telemetry:
-      v2:
-        prometheus:
-          configOverride:
-            inboundSidecar:
-              debug: false
-              definitions:
-                - name: proxy_latency_milliseconds
-                  type: 'HISTOGRAM'
-                  value: "(request.duration - duration(response.headers['x-envoy-upstream-service-time']+'ms')).getMilliseconds()"
-              stat_prefix: istio
-              metrics:
-                - name: proxy_latency_milliseconds
-                  dimensions:
-                    proxy_type: "'inboundSidecar'"
-                - dimensions:
-                    request_host: request.host
-                    request_method: request.method
-                    route_name: route_name
-                    response_code_details: '(response.code_details == "via_upstream") ? response.code_details : "other"'
-            outboundSidecar:
-              debug: false
-              definitions:
-                - name: proxy_latency_milliseconds
-                  type: 'HISTOGRAM'
-                  value: "(request.duration - duration(response.headers['x-envoy-upstream-service-time']+'ms')).getMilliseconds()"
-              stat_prefix: istio
-              metrics:
-                - name: proxy_latency_milliseconds
-                  dimensions:
-                    proxy_type: "'outboundSidecar'"
-                - dimensions:
-                    request_host: request.host
-                    request_method: request.method
-                    route_name: route_name
-                    response_code_details: '(response.code_details == "via_upstream") ? response.code_details : "other"'
-            gateway:
-              debug: false
-              definitions:
-                - name: proxy_latency_milliseconds
-                  type: 'HISTOGRAM'
-                  value: "(request.duration - duration(response.headers['x-envoy-upstream-service-time']+'ms')).getMilliseconds()"
-              stat_prefix: istio
-              disable_host_header_fallback: true
-              metrics:
-                - name: proxy_latency_milliseconds
-                  dimensions:
-                    proxy_type: "'gateway'"
-                - dimensions:
-                    request_host: '(response.code == 403) ? "unknown" : request.host'
-                    request_method: request.method
-                    route_name: route_name
-                    response_code_details: '(response.code_details == "via_upstream") ? response.code_details : "other"'
+          limits:
+            memory: 512Mi

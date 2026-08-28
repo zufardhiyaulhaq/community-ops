@@ -1,6 +1,0 @@
-
-namespace: kubecost-system
-commonLabels:
-  namespace: kubecost-system
-  owner: zufardhiyaulhaq
-

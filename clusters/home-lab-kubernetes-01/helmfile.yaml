@@ -1,196 +1,56 @@
 repositories:
 - name: frp-operator
   url: https://zufardhiyaulhaq.com/frp-operator/charts/releases/
-- name: longhorn
-  url: https://charts.longhorn.io
 - name: sealed-secrets
   url: https://bitnami-labs.github.io/sealed-secrets
 - name: jetstack
   url: https://charts.jetstack.io
-- name: bitnami
-  url: https://charts.bitnami.com/bitnami
+- name: external-dns
+  url: https://kubernetes-sigs.github.io/external-dns/
 - name: argo
   url: https://argoproj.github.io/argo-helm
 - name: vm
   url: https://victoriametrics.github.io/helm-charts/
-- name: kubecost
-  url: https://kubecost.github.io/cost-analyzer/
-- name: community-operator-v2
-  url: https://zufardhiyaulhaq.com/community-operator-v2/charts/releases/
-- name: goweekly
-  url: https://zufardhiyaulhaq.com/goweekly/charts/releases/
-- name: javascriptweekly
-  url: https://zufardhiyaulhaq.com/javascriptweekly/charts/releases/
-- name: devopsweekly
-  url: https://zufardhiyaulhaq.com/devopsweekly/charts/releases/
-- name: postgresweekly
-  url: https://zufardhiyaulhaq.com/postgresweekly/charts/releases/
-- name: sma-alert
-  url: https://zufardhiyaulhaq.com/sma-alert/charts/releases/
-- name: istio-ratelimit-operator
-  url: https://zufardhiyaulhaq.com/istio-ratelimit-operator/charts/releases/
-- name: prometheus-community
-  url: https://prometheus-community.github.io/helm-charts
-- name: kiali
-  url: https://kiali.org/helm-charts
-- name: cilium
-  url: https://helm.cilium.io/
-- name: stakater
-  url: https://stakater.github.io/stakater-charts
-- name: falcosecurity
-  url: https://falcosecurity.github.io/charts
 
 releases:
-- name: cilium
-  namespace: kube-system
-  version: 1.12.5
-  chart: cilium/cilium
-  values:
-  - releases/kube-system/cilium.yaml
-
-- name: mktxp
-  namespace: infrastructure
-  version: 2.1.1
-  chart: stakater/application
-  values:
-  - releases/infrastructure/mktxp.yaml
-
-- name: sakura
-  namespace: community
-  version: 2.1.1
-  chart: stakater/application
-  values:
-  - releases/community/sakura.yaml
-
-- name: frp-operator
-  namespace: infrastructure
-  version: 1.0.0
-  chart: frp-operator/frp-operator
-  values:
-  - releases/infrastructure/frp-operator.yaml
-
-- name: longhorn
-  namespace: longhorn-system
-  version: 1.4.1
-  chart: longhorn/longhorn
-  values:
-  - releases/longhorn-system/longhorn.yaml
-
 - name: sealed-secrets
   namespace: infrastructure
-  version: 2.7.2
+  version: 2.18.6
   chart: sealed-secrets/sealed-secrets
   values:
   - releases/infrastructure/sealed-secret.yaml
 
 - name: cert-manager
   namespace: infrastructure
-  version: 1.10.1
+  version: v1.21.1
   chart: jetstack/cert-manager
   values:
   - releases/infrastructure/cert-manager.yaml
 
 - name: external-dns
   namespace: infrastructure
-  version: 6.12.2
-  chart: bitnami/external-dns
+  version: 1.21.1
+  chart: external-dns/external-dns
   values:
   - releases/infrastructure/external-dns.yaml
 
-- name: falco
-  namespace: falco-system
-  version: 3.1.2
-  chart: falcosecurity/falco
+- name: frp-operator
+  namespace: infrastructure
+  version: 1.5.0
+  chart: frp-operator/frp-operator
   values:
-  - releases/falco-system/falco.yaml
+  - releases/infrastructure/frp-operator.yaml
 
 - name: argocd
   namespace: argocd-system
-  version: 5.16.9
+  version: 10.4.1
   chart: argo/argo-cd
   values:
   - releases/argocd-system/argocd.yaml
 
 - name: victoria-metrics
   namespace: observability-system
-  version: 0.14.16
+  version: 0.91.2
   chart: vm/victoria-metrics-k8s-stack
   values:
   - releases/observability-system/victoria-metrics.yaml
-
-- name: cost-analyzer
-  namespace: kubecost-system
-  version: 1.99.0
-  chart: kubecost/cost-analyzer
-  values:
-  - releases/kubecost-system/cost-analyzer.yaml
-
-- name: community-operator-v2
-  namespace: community
-  version: 1.0.0
-  chart: community-operator-v2/community-operator-v2
-  values:
-  - releases/community/community-operator-v2.yaml
-
-- name: goweekly
-  namespace: community
-  version: 2.0.0
-  chart: goweekly/goweekly
-  values:
-  - releases/community/goweekly.yaml
-
-- name: devopsweekly
-  namespace: community
-  version: 2.1.0
-  chart: devopsweekly/devopsweekly
-  values:
-  - releases/community/devopsweekly.yaml
-
-- name: javascriptweekly
-  namespace: community
-  version: 2.1.0
-  chart: javascriptweekly/javascriptweekly
-  values:
-  - releases/community/javascriptweekly.yaml
-
-- name: postgresweekly
-  namespace: community
-  version: 1.1.0
-  chart: postgresweekly/postgresweekly
-  values:
-  - releases/community/postgresweekly.yaml
-
-- name: sma-alert
-  namespace: community
-  version: 1.3.0
-  chart: sma-alert/sma-alert
-  values:
-  - releases/community/sma-alert.yaml
-
-- name: istio-ratelimit-operator
-  namespace: infrastructure
-  version: v2.10.0-rc.2
-  chart: istio-ratelimit-operator/istio-ratelimit-operator
-  values:
-  - releases/infrastructure/istio-ratelimit-operator.yaml
-
-- name: statsd-exporter
-  namespace: observability-system
-  version: 0.7.0
-  chart: prometheus-community/prometheus-statsd-exporter
-  values:
-  - releases/observability-system/statsd-exporter.yaml
-
-- name: statsd-exporter
-  namespace: istio-system
-  version: 0.7.0
-  chart: prometheus-community/prometheus-statsd-exporter
-  values:
-  - releases/istio-system/statsd-exporter.yaml
-
-- name: kiali-operator
-  namespace: istio-system
-  version: 1.59.1
-  chart: kiali/kiali-operator
-  values:
-  - releases/istio-system/kiali-operator.yaml

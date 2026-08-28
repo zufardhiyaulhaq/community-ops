@@ -1,5 +1,0 @@
-resources:
-- falco-system.yml
-namespace: falco-system
-commonLabels:
-  namespace: falco-system

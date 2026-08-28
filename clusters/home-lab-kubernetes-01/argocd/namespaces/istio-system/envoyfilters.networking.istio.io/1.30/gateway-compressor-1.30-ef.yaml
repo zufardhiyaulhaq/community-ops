@@ -1,0 +1,28 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: EnvoyFilter
+metadata:
+  name: gateway-compressor-1.30-ef
+  namespace: istio-system
+spec:
+  configPatches:
+  - applyTo: HTTP_FILTER
+    match:
+      context: GATEWAY
+      listener:
+        filterChain:
+          filter:
+            name: "envoy.filters.network.http_connection_manager"
+            subFilter:
+              name: "envoy.filters.http.router"
+      proxy:
+        proxyVersion: ^1\.30.*
+    patch:
+      operation: INSERT_BEFORE
+      value:
+        name: envoy.filters.http.compressor
+        typed_config:
+          "@type": type.googleapis.com/envoy.extensions.filters.http.compressor.v3.Compressor
+          compressor_library:
+            name: text_optimized
+            typed_config:
+              "@type": type.googleapis.com/envoy.extensions.compression.gzip.compressor.v3.Gzip

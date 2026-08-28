@@ -1,6 +1,0 @@
-
-namespace: longhorn-system
-commonLabels:
-  namespace: longhorn-system
-  owner: zufardhiyaulhaq
-

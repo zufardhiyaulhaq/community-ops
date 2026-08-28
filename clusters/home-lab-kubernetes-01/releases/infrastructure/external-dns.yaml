@@ -1,23 +1,20 @@
-provider: cloudflare
+# kubernetes-sigs external-dns (migrated from bitnami). registry.k8s.io images.
+provider:
+  name: cloudflare
 
-image:
-  registry: k8s.gcr.io
-  repository: external-dns/external-dns
-  tag: v0.13.1
-
-cloudflare:
-  secretName: cloudflare-dns
-  proxied: false
-
-interval: "1m"
-policy: create-only
-logLevel: debug
+env:
+  - name: CF_API_TOKEN
+    valueFrom:
+      secretKeyRef:
+        name: cloudflare-dns
+        key: cloudflare_api_token
 
 sources:
-- crd
+  - crd
 
-crd:
-  create: true
+policy: create-only
+interval: "1m"
+logLevel: debug
 
 resources:
   requests:
