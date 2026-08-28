@@ -54,7 +54,7 @@ jobs:
           version: 'v4.2.4'
       - name: Setup helm diff plugin
         run: |
-          helm plugin install https://github.com/databus23/helm-diff
+          helm plugin install https://github.com/databus23/helm-diff --verify=false
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
@@ -111,7 +111,7 @@ jobs:
           version: 'v4.2.4'
       - name: Setup helm diff plugin
         run: |
-          helm plugin install https://github.com/databus23/helm-diff
+          helm plugin install https://github.com/databus23/helm-diff --verify=false
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
@@ -168,7 +168,7 @@ jobs:
           version: 'v4.2.4'
       - name: Setup helm diff plugin
         run: |
-          helm plugin install https://github.com/databus23/helm-diff
+          helm plugin install https://github.com/databus23/helm-diff --verify=false
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
@@ -226,7 +226,7 @@ jobs:
           version: 'v4.2.4'
       - name: Setup helm diff plugin
         run: |
-          helm plugin install https://github.com/databus23/helm-diff
+          helm plugin install https://github.com/databus23/helm-diff --verify=false
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
@@ -286,7 +286,7 @@ jobs:
           version: 'v4.2.4'
       - name: Setup helm diff plugin
         run: |
-          helm plugin install https://github.com/databus23/helm-diff
+          helm plugin install https://github.com/databus23/helm-diff --verify=false
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
