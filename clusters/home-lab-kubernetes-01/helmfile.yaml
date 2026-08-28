@@ -54,4 +54,3 @@ releases:
   chart: vm/victoria-metrics-k8s-stack
   values:
   - releases/observability-system/victoria-metrics.yaml
-#
