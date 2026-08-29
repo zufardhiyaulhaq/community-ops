@@ -1,0 +1,12 @@
+apiVersion: externaldns.k8s.io/v1alpha1
+kind: DNSEndpoint
+metadata:
+  name: pi-03.zufardhiyaulhaq.com
+  namespace: istio-system
+spec:
+  endpoints:
+  - dnsName: pi-03.zufardhiyaulhaq.com
+    recordType: A
+    recordTTL: 300
+    targets:
+    - 43.163.87.127

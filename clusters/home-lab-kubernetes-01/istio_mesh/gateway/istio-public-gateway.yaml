@@ -13,9 +13,6 @@ spec:
       label:
         app: istio-public-gateway
       k8s:
-        env:
-        - name: BOOTSTRAP_XDS_AGENT
-          value: "true"
         affinity:
           podAntiAffinity:
             preferredDuringSchedulingIgnoredDuringExecution:
@@ -55,16 +52,43 @@ spec:
         podAnnotations:
           proxy.istio.io/config: |
             terminationDrainDuration: 30s
+            gatewayTopology:
+              numTrustedProxies: 1
+              proxyProtocol: {}
+            proxyStatsMatcher:
+              inclusionPrefixes:
+              - istio_proxy_latency_milliseconds
+              inclusionRegexps:
+                # listeners
+                - "^listener.*"
+                # http connection manager
+                - "^http.*.downstream_cx.*"
+                - "^http.*.downstream_rq.*"
+                - "^http1.*"
+                - "^http2.*"
+                - "^http3.*"
+                # compressor
+                - ".*compressor.*"
+                # clusters
+                - "^cluster.PassthroughCluster.*upstream_rq.*"
+                - "^cluster.InboundPassthroughClusterIpv4.*upstream_rq.*"
+                - "^cluster.InboundPassthroughClusterIpv6.*upstream_rq.*"
+                - "^cluster.PassthroughCluster.*upstream_cx.*"
+                - "^cluster.InboundPassthroughClusterIpv4.*upstream_cx.*"
+                - "^cluster.InboundPassthroughClusterIpv6.*upstream_cx.*"
+                # control plane
+                - "^control_plane.*"
+                - "^listener_manager.*"
+                - "^cluster_manager.*"
+          sidecar.istio.io/statsCompression: "zstd"
+          sidecar.istio.io/statsHistogramBuckets: |
+            {"istiocustom":[0.5,1,5,10,25,50,100,250,500,1000,1500,2500,3000,5000,10000,11500,30000,60000,300000,600000,3600000]}
         service:
           type: ClusterIP
           ports:
           - port: 443
             targetPort: 8443
             name: https
-          - port: 443
-            targetPort: 8443
-            name: https-quic
-            protocol: UDP
           - port: 80
             targetPort: 8080
             name: http2

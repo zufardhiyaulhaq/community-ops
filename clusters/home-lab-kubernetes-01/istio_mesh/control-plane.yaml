@@ -23,8 +23,6 @@ spec:
             value: "true"
           - name: ENABLE_NATIVE_SIDECARS
             value: "true"
-          - name: PILOT_ENABLE_QUIC_LISTENERS
-            value: "true"
           - name: PILOT_ENABLE_IP_AUTOALLOCATE
             value: "true"
         serviceAnnotations:
@@ -127,8 +125,6 @@ spec:
       tracingServiceName: APP_LABEL_AND_NAMESPACE
       terminationDrainDuration: 10s
       holdApplicationUntilProxyStarts: true
-      gatewayTopology:
-        numTrustedProxies: 1
       proxyMetadata:
         ISTIO_META_DNS_CAPTURE: "true"
         BOOTSTRAP_XDS_AGENT: "true"

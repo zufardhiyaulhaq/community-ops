@@ -1,0 +1,12 @@
+apiVersion: externaldns.k8s.io/v1alpha1
+kind: DNSEndpoint
+metadata:
+  name: vm2.zufardhiyaulhaq.com
+  namespace: istio-system
+spec:
+  endpoints:
+  - dnsName: vm2.zufardhiyaulhaq.com
+    recordType: A
+    recordTTL: 300
+    targets:
+    - 43.134.68.205

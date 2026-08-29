@@ -1,0 +1,19 @@
+apiVersion: frp.zufardhiyaulhaq.com/v1alpha1
+kind: Client
+metadata:
+  name: istio-gateway
+  namespace: infrastructure
+spec:
+  server:
+    host: vm2.zufardhiyaulhaq.com
+    port: 7000
+    authentication:
+      token:
+        secret:
+          name: frp-token
+          key: token
+    tls:
+      enable: true
+    transport:
+      poolCount: 5
+      tcpMux: true

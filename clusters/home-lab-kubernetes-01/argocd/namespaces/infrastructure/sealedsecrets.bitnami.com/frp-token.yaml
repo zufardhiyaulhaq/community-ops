@@ -1,0 +1,13 @@
+---
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  name: frp-token
+  namespace: infrastructure
+spec:
+  encryptedData:
+    token: AgA3eZDqso2EUcdNUBDSV2C/Q0lnwlLiC1lw+aI2d1zLdcF95dZb2qzqjAYdQUBfG04j8oTCgmB7ekpFjvHlFodUZZPxmE+YseGeyRE0tObm7D4u0CeqPs1bVJBtSn0KB4QkFZHLm2/r8s7U5gESk38KPHaY+PORTGhYUhFWbfFRkRJokaNG7eworK37xIudVEGP+j5AYcT1SXT3fhEuaGKTFVk+YNXC4RNZECwa1j8pYePFiniTpD/UxILIS/jb/0CFH1hktqIyIyy5f63EkJEtyk8tX+JbNBgRQxwHglr98jy8D2HbaqmuI1seP2P2iOE1CJJm7grcighMPL26UDrElkYVN24bd+UhLVXyMVSF4K7D4pQdQ7s1jw5FI+oTr5iFee7Mqnyu+S6P5rAf2hhJOjH4MB3S7L1LoIt+/8Iz6AQLJyWiBI7JOVzpJW7DD/SDh4vqdM0L/GaAE9eYqsS9jncq3zMXz0lNH+Uk5nUSJopr0QsJy2t9bWlMZllsVyOAZ2teM+6r8RRozieKvm4ObQWFROFcGyhHll093uPMuNmC1WMMDUO8ATF3vP1WDwTmilFMYSuaGwPtnuYCb2vnfPGHKrEmeVn5rHR5sGXi0f1XD8lLGzQFYuoPRfMkImHK0ERYuHkk/GHr+kRha1d2KQ3l5bi7uoHunx4gDapHZX3TpuCHJ/5mIZZOGhLkpoG9weFTNOsm3nKtW7jzQxV2+W8SzSGD
+  template:
+    metadata:
+      name: frp-token
+      namespace: infrastructure
