@@ -1,5 +1,5 @@
 crds:
-  install: false
+  install: true
 
 server:
   extraArgs:
