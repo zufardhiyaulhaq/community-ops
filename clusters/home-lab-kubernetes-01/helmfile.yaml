@@ -11,8 +11,15 @@ repositories:
   url: https://argoproj.github.io/argo-helm
 - name: vm
   url: https://victoriametrics.github.io/helm-charts/
+- name: prometheus-community
+  url: https://prometheus-community.github.io/helm-charts
 
 releases:
+- name: prometheus-operator-crds
+  namespace: observability-system
+  version: 31.0.1
+  chart: prometheus-community/prometheus-operator-crds
+
 - name: sealed-secrets
   namespace: infrastructure
   version: 2.18.6
@@ -36,7 +43,7 @@ releases:
 
 - name: frp-operator
   namespace: infrastructure
-  version: 1.7.0
+  version: 1.8.0
   chart: frp-operator/frp-operator
   values:
   - releases/infrastructure/frp-operator.yaml

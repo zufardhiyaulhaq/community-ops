@@ -2,7 +2,7 @@ operator:
   # image of frp-operator
   image: "ghcr.io/zufardhiyaulhaq/frp-operator"
   # tag of frp-operator image
-  tag: "v0.9.0"
+  tag: "v0.10.0"
   # number of replica for deployment
   replica: 1
 
@@ -10,3 +10,8 @@ resources:
   requests:
     cpu: 16m
     memory: 64Mi
+
+metrics:
+  serviceMonitor:
+    enabled: true
+    interval: 30s
