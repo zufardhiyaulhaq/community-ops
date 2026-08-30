@@ -1,7 +1,7 @@
 apiVersion: frp.zufardhiyaulhaq.com/v1alpha1
 kind: Upstream
 metadata:
-  name: istio-gateway-vcluster-test-01
+  name: istio-gateway-vcluster
   namespace: infrastructure
 spec:
   client: istio-gateway
