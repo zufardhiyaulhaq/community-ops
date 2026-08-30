@@ -1,44 +1,44 @@
-apiVersion: argoproj.io/v1alpha1
-kind: Application
-metadata:
-  name: test-vcluster-01
-  namespace: argocd-system
-spec:
-  project: default
-  source:
-    repoURL: https://charts.loft.sh
-    chart: vcluster
-    targetRevision: 0.36.1
-    helm:
-      releaseName: test-vcluster-01
-      valuesObject:
-        controlPlane:
-          distro:
-            k8s:
-              enabled: true
-              version: v1.36.0
-        sync:
-          toHost:
-            services:
-              enabled: true
-            ingresses:
-              enabled: true
-            networkPolicies:
-              enabled: true
-            namespaces:
-              enabled: true
-        policies:
-          networkPolicy:
-            enabled: true
-        exportKubeConfig:
-          secret:
-            name: vc-kubeconfig
-  destination:
-    server: https://kubernetes.default.svc
-    namespace: test-vcluster-01
-  syncPolicy:
-    automated:
-      prune: true
-      selfHeal: true
-    syncOptions:
-    - CreateNamespace=true
+# apiVersion: argoproj.io/v1alpha1
+# kind: Application
+# metadata:
+#   name: test-vcluster-01
+#   namespace: argocd-system
+# spec:
+#   project: default
+#   source:
+#     repoURL: https://charts.loft.sh
+#     chart: vcluster
+#     targetRevision: 0.36.1
+#     helm:
+#       releaseName: test-vcluster-01
+#       valuesObject:
+#         controlPlane:
+#           distro:
+#             k8s:
+#               enabled: true
+#               version: v1.36.0
+#         sync:
+#           toHost:
+#             services:
+#               enabled: true
+#             ingresses:
+#               enabled: true
+#             networkPolicies:
+#               enabled: true
+#             namespaces:
+#               enabled: true
+#         policies:
+#           networkPolicy:
+#             enabled: true
+#         exportKubeConfig:
+#           secret:
+#             name: vc-kubeconfig
+#   destination:
+#     server: https://kubernetes.default.svc
+#     namespace: test-vcluster-01
+#   syncPolicy:
+#     automated:
+#       prune: true
+#       selfHeal: true
+#     syncOptions:
+#     - CreateNamespace=true
