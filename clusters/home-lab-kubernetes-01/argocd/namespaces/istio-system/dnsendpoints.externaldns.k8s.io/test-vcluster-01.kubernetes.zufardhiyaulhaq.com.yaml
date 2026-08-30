@@ -1,0 +1,13 @@
+apiVersion: externaldns.k8s.io/v1alpha1
+kind: DNSEndpoint
+metadata:
+  name: test-vcluster-01.kubernetes.zufardhiyaulhaq.com
+  namespace: istio-system
+spec:
+  endpoints:
+  # Routes through the istio public gateway, which is fronted by frp on VM2.
+  - dnsName: test-vcluster-01.kubernetes.zufardhiyaulhaq.com
+    recordType: A
+    recordTTL: 300
+    targets:
+    - 43.134.68.205

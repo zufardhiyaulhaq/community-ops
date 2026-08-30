@@ -1,0 +1,21 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: test-vcluster-01-kubernetes-zufardhiyaulhaq-com-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "test-vcluster-01.kubernetes.zufardhiyaulhaq.com"
+  gateways:
+  - istio-system/test-vcluster-01-kubernetes-zufardhiyaulhaq-com-gateway
+  tls:
+  - match:
+    - sniHosts:
+      - "test-vcluster-01.kubernetes.zufardhiyaulhaq.com"
+    route:
+    - destination:
+        host: test-vcluster-01.test-vcluster-01.svc.cluster.local
+        port:
+          number: 443
+  exportTo:
+    - "."

@@ -1,0 +1,16 @@
+apiVersion: frp.zufardhiyaulhaq.com/v1alpha1
+kind: Upstream
+metadata:
+  name: istio-gateway-vcluster-test-01
+  namespace: infrastructure
+spec:
+  client: istio-gateway
+  tcp:
+    host: istio-public-gateway.istio-system.svc.cluster.local
+    port: 20443
+    server:
+      port: 20443
+    proxyProtocol: v2
+    transport:
+      useEncryption: true
+      useCompression: true

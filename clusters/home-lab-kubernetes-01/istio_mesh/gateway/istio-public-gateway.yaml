@@ -92,3 +92,8 @@ spec:
           - port: 80
             targetPort: 8080
             name: http2
+          # TLS passthrough for vcluster API servers (SNI-routed by Gateway/VS).
+          # No targetPort remap: the envoy passthrough listener binds 20443 directly.
+          - port: 20443
+            targetPort: 20443
+            name: tls-vcluster

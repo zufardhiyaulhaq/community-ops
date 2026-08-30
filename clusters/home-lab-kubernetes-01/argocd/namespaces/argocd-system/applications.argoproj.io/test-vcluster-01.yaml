@@ -25,6 +25,9 @@ spec:
               limits:
                 cpu: "1"
                 memory: 1Gi
+          proxy:
+            extraSANs:
+            - test-vcluster-01.kubernetes.zufardhiyaulhaq.com
         sync:
           fromHost:
             nodes:
@@ -32,6 +35,7 @@ spec:
         exportKubeConfig:
           secret:
             name: vc-kubeconfig
+          server: https://test-vcluster-01.kubernetes.zufardhiyaulhaq.com:20443
   destination:
     server: https://kubernetes.default.svc
     namespace: test-vcluster-01
