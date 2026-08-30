@@ -1,0 +1,4 @@
+namespace: vcluster-system
+commonLabels:
+  namespace: vcluster-system
+  owner: zufardhiyaulhaq

@@ -4,3 +4,4 @@ resources:
 - infrastructure
 - istio-system
 - observability-system
+- vcluster-system

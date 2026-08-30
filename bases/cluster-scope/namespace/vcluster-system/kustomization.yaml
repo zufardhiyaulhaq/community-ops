@@ -1,0 +1,5 @@
+resources:
+- vcluster-system.yaml
+namespace: vcluster-system
+commonLabels:
+  namespace: vcluster-system

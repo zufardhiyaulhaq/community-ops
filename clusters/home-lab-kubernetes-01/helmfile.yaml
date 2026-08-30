@@ -45,6 +45,8 @@ releases:
   namespace: infrastructure
   version: 1.8.0
   chart: frp-operator/frp-operator
+  needs:
+  - observability-system/prometheus-operator-crds
   values:
   - releases/infrastructure/frp-operator.yaml
 
