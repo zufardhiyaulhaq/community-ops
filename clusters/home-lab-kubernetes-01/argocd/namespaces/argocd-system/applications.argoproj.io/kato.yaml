@@ -14,6 +14,10 @@ spec:
       valuesObject:
         # Kubernetes troubleshooting operator (read-only checks).
         # LLM summaries are off for now; checks return raw evidence.
+        image:
+          # Chart default tag is "0.8.0" but the published image is "v0.8.0"
+          # (ghcr.io/gopaytech/kato tags: main, v0.8.0, latest) -> pin it.
+          tag: v0.8.0
         modelConfig:
           enabled: false
   destination:
