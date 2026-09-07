@@ -1,0 +1,4 @@
+namespace: kato-system
+commonLabels:
+  namespace: kato-system
+  owner: zufardhiyaulhaq

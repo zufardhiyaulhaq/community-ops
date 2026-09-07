@@ -1,0 +1,13 @@
+---
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  name: kato-bot-telegram
+  namespace: kato-system
+spec:
+  encryptedData:
+    TELEGRAM_BOT_TOKEN: AgAiaHKmtF6VGWGuO9FIrgg3BrV7IENUPpXSTNQubz9+Yl/ZVwJ2nac6zRa44/99yqGtX8GuHYQ2Mg6gYYl/xiP3JPtWlPqhwrhrx1jCt42s1O74x0Q8Of4EwQieY+QFzmtnlShizzA0wKOqgL/jPUCak5s4QsROLP+0V1lglTfNPp7jEA8w1ttO8LV7NrwAGa6oGky8W4zpqLKqcVP5YnEAccmyqimPusGodyzHo5fUQsxhyu03fAfk2nUTq2eqUoD36VuKMSms//pjKWJZ7MFK3oCGJpV12+v2NTHoiHD1KPSGoyVGuya2SNjX/wuLD/bATmj9pHZS2nOJNAp5FbMfU92DMaWu8kBYdK6JtJn96j6zbgd+9d1PvPJ1pl/6aTa0ltlhn+MZA1Sx0YNt4tKjcRh1ReC1GX7zU55o3BXh9SzTSEN2zn6zYZeKLaZ2kcXBzGnB3LnDQHiwF4oe9wtiyuL9dyttCY4woOXZBq84l+kOfGlt4ZyrSUFtT5WpMURzhGflsWbUbhU4pl1YKONEL5pwkkVXBw5ERauPsWpz418ryYDhQrgZ66VgbzEzxokxzcU7RkAPowwCQH/N0hy5b7E3E1B+p3px8N36XkQw6SSJj6gPAjntB2cTEvPa/cCTsiJ5oiMHcO3fweVJd+2GxG9nFVPhiPw2+DoPDRS94SBNhT6f+b8LqvPbYIlYYSLlRLo/9dumiLPgdaKs7prjdJam1aswIiI+ZgDT4LoeSQmgxcIfrXs5ZBHoss72
+  template:
+    metadata:
+      name: kato-bot-telegram
+      namespace: kato-system

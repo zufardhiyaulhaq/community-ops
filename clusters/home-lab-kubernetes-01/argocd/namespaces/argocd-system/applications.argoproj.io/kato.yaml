@@ -1,0 +1,30 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: kato
+  namespace: argocd-system
+spec:
+  project: default
+  source:
+    repoURL: https://gopaytech.github.io/kato/charts/releases/
+    chart: kato
+    targetRevision: 0.8.0
+    helm:
+      releaseName: kato
+      valuesObject:
+        # Kubernetes troubleshooting operator (read-only checks).
+        # LLM summaries are off for now; checks return raw evidence.
+        modelConfig:
+          enabled: false
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: kato-system
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=true
+    # kato ships CRDs (UseCase/ModelConfig/Run); server-side apply avoids
+    # the client-side "annotations too long" error on large CRDs.
+    - ServerSideApply=true

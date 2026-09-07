@@ -1,0 +1,5 @@
+resources:
+- kato-system.yaml
+namespace: kato-system
+commonLabels:
+  namespace: kato-system

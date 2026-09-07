@@ -1,0 +1,35 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: kato-bot
+  namespace: argocd-system
+spec:
+  project: default
+  source:
+    repoURL: https://gopaytech.github.io/kato-bot/charts/releases/
+    chart: kato-bot
+    targetRevision: 0.5.1
+    helm:
+      releaseName: kato-bot
+      valuesObject:
+        # Telegram-only chat adapter. Long-poll getUpdates -> no ingress.
+        telegram:
+          enabled: true
+          # Secret kato-bot-telegram (SealedSecret) holds TELEGRAM_BOT_TOKEN.
+          existingSecret: kato-bot-telegram
+          # Only this Telegram user may trigger the bot.
+          allowedUsers:
+          - "360050991"
+        # In-cluster kato REST endpoint the bot submits runs to.
+        clusters:
+        - name: home-lab
+          url: http://kato.kato-system.svc:8080
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: kato-system
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=true
