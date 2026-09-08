@@ -1,0 +1,183 @@
+# General deployment troubleshooting: start at the Deployment, follow the failure down.
+# The deployment-level steps always run (rollout state, template, ReplicaSet errors,
+# autoscaling, events). Then the flow branches: if — and only if — the deployment has
+# pods that are actually crashing (CrashLoopBackOff / OOMKilled / ImagePullBackOff),
+# it drills into those pods (status, previous logs, pod events) and into the nodes
+# they landed on. A healthy deployment stops after the deployment-level evidence.
+#
+#   curl -s -X POST localhost:8080/api/v1/usecases/deployment-troubleshooting/run \
+#     -d '{"inputs":{"namespace":"payments","deployment":"payment-api"}}' | jq
+#
+apiVersion: kato.zufardhiyaulhaq.com/v1alpha1
+kind: UseCase
+metadata:
+  name: deployment-troubleshooting
+spec:
+  description: "Diagnose a deployment: rollout + HPA, then its crashing pods and the nodes they run on"
+  inputs:
+    - name: namespace
+      required: true
+    - name: deployment
+      required: true
+  steps:
+    # --- Deployment level ---
+
+    # Always: desired vs ready vs updated replicas, and whether the rollout is stuck
+    # (ProgressDeadlineExceeded) or the deployment is unavailable.
+    - name: status
+      method: check_deployment_status
+      with:
+        namespace: $(inputs.namespace)
+        name: $(inputs.deployment)
+
+    # Always: the pod template — images, requests/limits (the OOM story), probes (the
+    # not-ready story), rollout strategy/surge, and whether the rollout is paused.
+    - name: describe
+      method: describe_deployment
+      with:
+        namespace: $(inputs.namespace)
+        name: $(inputs.deployment)
+      summaryFilter: [replicas, images, resourceRequests, resourceLimits, probes, strategy, maxSurge, maxUnavailable, minReadySeconds, paused, selector, nodeSelector, tolerations]
+
+    # Always: pods that never even got created show up here, not in the pod list —
+    # ReplicaFailure/FailedCreate is quota, PSA/admission, or a missing service account.
+    - name: replicaset
+      method: check_replicaset
+      with:
+        namespace: $(inputs.namespace)
+        deployment: $(inputs.deployment)
+
+    # Always: autoscaling. A missing HPA is reported as exists=false (no autoscaling),
+    # not an error, so this step is safe on deployments that aren't autoscaled.
+    # NOTE: this assumes the HPA is named after the deployment — the common convention.
+    # If yours differs, point `name` at the real HPA name.
+    - name: hpa
+      method: check_hpa
+      with:
+        namespace: $(inputs.namespace)
+        name: $(inputs.deployment)
+
+    # Always: disruption budget. A PDB with disruptionsAllowed=0 (blocked) stops node
+    # drains and evictions — NOT rolling updates — so it is the usual reason a drain or
+    # node upgrade hangs. A missing PDB is exists=false (no protection), not an error.
+    # As with the HPA, this assumes the PDB is named after the deployment; point `name`
+    # at the real PDB name if yours differs.
+    - name: pdb
+      method: check_pdb
+      with:
+        namespace: $(inputs.namespace)
+        name: $(inputs.deployment)
+
+    # Always: deployment-scoped events — ScalingReplicaSet, FailedCreate, and the
+    # admission/quota rejections that never reach a pod.
+    - name: events
+      method: check_events
+      with:
+        namespace: $(inputs.namespace)
+        involvedObject: $(inputs.deployment)
+        limit: "10"
+        maxLineLength: "200"
+      summaryFilter: [events, warningCount]
+
+    # --- Branch: are any of this deployment's pods actually crashing? ---
+    # CrashLoopBackOff, OOMKilled, and image-pull failures (the defaults). anyFailing
+    # gates every step below, so a healthy deployment stops here.
+    - name: crashing
+      method: list_failing_pods
+      with:
+        namespace: $(inputs.namespace)
+        kind: Deployment
+        name: $(inputs.deployment)
+
+    # --- Pod level (only when pods are crashing) ---
+
+    # Phase, restarts, waiting reason, and the last termination reason/exit code —
+    # this is what separates OOMKilled (137) from a plain crash from an image pull.
+    - name: pod-status
+      when: $(steps.crashing.anyFailing)
+      forEach: $(steps.crashing.pods)
+      maxItems: 5
+      method: check_pod_status
+      with:
+        namespace: $(item.namespace)
+        name: $(item.name)
+
+    # The crash trace lives in the PREVIOUS instance's logs, not the current one.
+    # (A pod that never started — ImagePullBackOff — has no logs; that iteration is
+    # recorded as a failed step and the events above carry the story instead.)
+    - name: pod-previous-logs
+      when: $(steps.crashing.anyFailing)
+      forEach: $(steps.crashing.pods)
+      maxItems: 2
+      method: check_pod_logs
+      with:
+        namespace: $(item.namespace)
+        name: $(item.name)
+        previous: "true"
+        tailLines: "10"
+        maxLineLength: "200"
+      summaryFilter: [logs]
+
+    # Pod-scoped events: BackOff, Failed pulls, probe failures, evictions.
+    - name: pod-events
+      when: $(steps.crashing.anyFailing)
+      forEach: $(steps.crashing.pods)
+      maxItems: 2
+      method: check_events
+      with:
+        namespace: $(inputs.namespace)
+        involvedObject: $(item.name)
+        limit: "8"
+        maxLineLength: "100"
+      summaryFilter: [events, warningCount]
+
+    # --- Node level (only when pods are crashing) ---
+    # Straight from the crashing pod to the node it landed on, via $(item.node) on the
+    # same list. Is the node itself the reason? MemoryPressure explains an OOM,
+    # DiskPressure an image-pull failure, NotReady/cordoned a stuck rollout.
+    - name: node-status
+      when: $(steps.crashing.anyFailing)
+      forEach: $(steps.crashing.pods)
+      maxItems: 2
+      method: check_node_status
+      with:
+        name: $(item.node)
+
+    # Node capacity and taints, for the worst pod's node.
+    - name: node-describe
+      when: $(steps.crashing.anyFailing)
+      forEach: $(steps.crashing.pods)
+      maxItems: 2
+      method: describe_node
+      with:
+        name: $(item.node)
+      summaryFilter: [conditions, taints, unschedulable, allocatableCPU, allocatableMemory, capacityPods]
+  summary:
+    prompt: |
+      You are a Kubernetes SRE diagnosing Deployment $(inputs.deployment) in namespace
+      $(inputs.namespace). Work top-down.
+
+      Start at the deployment: does readyReplicas match desiredReplicas? Is it Available
+      and Progressing, or stuck (ProgressDeadlineExceeded)? Is the rollout paused? If the
+      ReplicaSet reports ReplicaFailure/FailedCreate, the pods were never created at all —
+      that is quota, an admission/PSA rejection, or a missing service account, and the
+      deployment events will name it; say so and stop there.
+
+      Then autoscaling: if the HPA exists, is it saturated (atMax) or scalingLimited, or
+      unable to scale (ableToScale=false)? An HPA pinned at maxReplicas with the pods still
+      unhealthy means scaling out will not fix this. If no HPA exists, note that the
+      deployment is not autoscaled and replica count is manual.
+
+      If pods are crashing, classify the failure mode from pod-status: OOMKilled (check it
+      against the container's memory limit in the deployment's resourceLimits), a plain
+      crash (read the previous logs for the panic/fatal line), or an image-pull failure
+      (read the pod events — wrong tag, missing pull secret, private registry). Quote the
+      specific log line or event line that proves it.
+
+      Finally, check the nodes the crashing pods landed on: MemoryPressure would explain an
+      OOM, DiskPressure an image-pull failure, NotReady or a taint a stuck rollout. If the
+      nodes are healthy, say so explicitly — that points the blame back at the app or its
+      resource limits.
+
+      Give the single most likely root cause with the evidence that proves it, and a
+      concrete fix. If the deployment is healthy, say so.

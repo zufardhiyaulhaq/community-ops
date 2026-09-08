@@ -1,0 +1,64 @@
+# TCP connectivity check: can this target:port be reached from inside the cluster?
+# Layered, from kato's own pod: DNS (does the name resolve?) -> TCP (is the port open?)
+# -> traceroute, run only when the port is NOT open, to tell "service down" apart from
+# "network path broken". A healthy target does one resolve + one connect and stops.
+#
+# target is an IP or a DNS name (Service, FQDN, or external host); port is the TCP port.
+#
+#   curl -s -X POST localhost:8080/api/v1/usecases/tcp-connectivity-check/run \
+#     -d '{"inputs":{"target":"postgres.data.svc.cluster.local","port":"5432"}}' | jq
+#
+apiVersion: kato.zufardhiyaulhaq.com/v1alpha1
+kind: UseCase
+metadata:
+  name: tcp-connectivity-check
+spec:
+  description: "Can target:port be reached (TCP) from kato's pod? DNS + TCP, traceroute if not"
+  inputs:
+    - name: target
+      required: true
+    - name: port
+      required: true
+  steps:
+    # L3 name resolution: does the target resolve at all? A failure here (NXDOMAIN/timeout)
+    # is a different root cause than a broken path, and it explains a TCP failure below.
+    # Uses the pod's own resolver (/etc/resolv.conf). An IP literal resolves to itself.
+    - name: dns
+      method: probe_dns
+      with:
+        name: $(inputs.target)
+      summaryFilter: [success, addresses, recordCount, latencyMs, error]
+
+    # L4: the ground-truth reachability signal. A refused/timed-out connect is a finding
+    # (success=false), not an error, so the traceroute below can gate on it.
+    - name: tcp
+      method: probe_tcp
+      with:
+        target: $(inputs.target)
+        port: $(inputs.port)
+
+    # L3 path: only when the port is NOT open — trace where replies stop. Reaching the
+    # target IP = path fine, port down/filtered at the host; stopping short = network path
+    # broken upstream. summaryFilter is left unset so the full `hops` list reaches the LLM
+    # (a scalar allowlist would drop it, and the path IS the evidence). maxHops capped and
+    # timeout short to bound worst-case wall time (~= maxHops * timeout when unreachable).
+    - name: traceroute
+      when: $(steps.tcp.success) == false
+      method: probe_traceroute
+      with:
+        target: $(inputs.target)
+        maxHops: "20"
+        timeout: "1s"
+  summary:
+    prompt: |
+      Is $(inputs.target):$(inputs.port) reachable (TCP) from the cluster? Check in order:
+
+      1. dns.success false -> name doesn't resolve. Root cause is DNS (missing record,
+         wrong namespace, CoreDNS). Stop here; it also explains any TCP failure.
+      2. tcp.success true -> port is open and reachable. Done (give latency).
+      3. tcp.success false -> port not reachable. Use traceroute: reached the target IP =
+         path is fine, port is down/filtered at the host (service not listening / host
+         firewall). Trace stops at an earlier hop = network path broken there (routing /
+         NetworkPolicy / firewall). tcp error: refused = rejected, timeout = no answer.
+
+      Give a one-line verdict + the evidence + the fix.

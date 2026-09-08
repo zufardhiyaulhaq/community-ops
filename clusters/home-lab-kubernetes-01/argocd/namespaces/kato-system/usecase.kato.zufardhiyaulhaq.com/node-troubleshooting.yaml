@@ -1,0 +1,100 @@
+# General node troubleshooting: assess a node's health and the pods running on it.
+# Combines node-level signals (Ready/pressure/cordon, taints, capacity, events) with
+# a pod-level view — both the overall blast radius (how many pods on the node are not
+# ready) and a deep drill-down into the critical per-node infrastructure (CNI, DNS,
+# kube-proxy, CSI). Pair it with list_nodes (which surfaces *which* nodes are
+# unhealthy) to feed a node name in here.
+#
+#   curl -s -X POST localhost:8080/api/v1/usecases/node-troubleshooting/run \
+#     -d '{"inputs":{"node":"ip-10-0-1-23.ec2.internal"}}' | jq
+#
+apiVersion: kato.zufardhiyaulhaq.com/v1alpha1
+kind: UseCase
+metadata:
+  name: node-troubleshooting
+spec:
+  description: "Diagnose a node: readiness/pressure/taints + its blast radius and core component pods"
+  inputs:
+    - name: node
+      required: true
+  steps:
+    # --- Node-level health ---
+    - name: status
+      method: check_node_status
+      with:
+        name: $(inputs.node)
+
+    - name: describe
+      method: describe_node
+      with:
+        name: $(inputs.node)
+      summaryFilter: [conditions, taints, unschedulable, allocatableCPU, allocatableMemory, capacityPods, kubeletVersion]
+
+    # Node-scoped events (default namespace): NodeNotReady, pressure/eviction, kubelet
+    # registration or runtime problems.
+    - name: events
+      method: check_events
+      with:
+        namespace: default
+        involvedObject: $(inputs.node)
+        limit: "10"
+        maxLineLength: "200"
+      summaryFilter: [events, warningCount]
+
+    # --- Blast radius: how unhealthy is the node, pod-wise? ---
+    # All pods on the node; the counts tell the story (e.g. "30 pods, 12 not ready" =
+    # a node-wide problem, not a single app). Scalars only — the per-component detail
+    # comes from the filtered drill-down below.
+    - name: all-pods
+      method: list_node_pods
+      with:
+        node: $(inputs.node)
+      summaryFilter: [count, notReadyCount, listTruncated]
+
+    # --- Critical per-node infrastructure ---
+    # The components whose failure breaks everything else on the node: CNI (terway /
+    # cilium / calico / aws-node / flannel), DNS (coredns / node-local-dns),
+    # kube-proxy, and CSI drivers. TUNE this regex for your cluster's stack.
+    - name: components
+      method: list_node_pods
+      with:
+        node: $(inputs.node)
+        namePattern: "coredns|node-local-dns|kube-proxy|terway|cilium|calico|aws-node|kube-flannel|csi"
+
+    # Status of each core component on the node (not-ready first, so the worst show
+    # first even if capped).
+    - name: component-status
+      forEach: $(steps.components.pods)
+      maxItems: 8
+      method: check_pod_status
+      with:
+        namespace: $(item.namespace)
+        name: $(item.name)
+
+    # Logs for the worst few components (forEach iterates not-ready-first), to catch
+    # CrashLoopBackOff/OOM traces on the critical infra.
+    - name: component-logs
+      forEach: $(steps.components.pods)
+      maxItems: 3
+      method: check_pod_logs
+      with:
+        namespace: $(item.namespace)
+        name: $(item.name)
+        tailLines: "15"
+        maxLineLength: "200"
+      summaryFilter: [logs]
+  summary:
+    prompt: |
+      You are a Kubernetes SRE diagnosing node $(inputs.node). Start with node health:
+      is it Ready? Under memory/disk/PID pressure? Cordoned (unschedulable)? Any taints
+      that would evict or repel pods? Is allocatable capacity exhausted? Cross-reference
+      the node events. Then judge the blast radius from all-pods: a high notReadyCount
+      relative to count means a node-wide problem (kubelet, runtime, pressure) rather
+      than a single bad app. Then inspect the critical per-node infrastructure
+      (component-status / component-logs): if CNI (terway/cilium/calico/aws-node),
+      DNS (coredns/node-local-dns), kube-proxy, or CSI pods are CrashLooping/OOMKilled
+      or not ready, that explains cascading failures of other pods on the node. Give the
+      most likely root cause with the specific evidence (a node condition, an event
+      line, a component log line) and a concrete fix (e.g. drain+reboot, free disk,
+      restart a component, fix a taint). If the node and its components are healthy,
+      say so.

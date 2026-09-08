@@ -1,0 +1,91 @@
+# gRPC connectivity check: can this gRPC endpoint be reached AND is it SERVING?
+# Layered, from kato's own pod: DNS (resolve) -> TCP (port open?) -> gRPC health
+# (grpc.health.v1.Health/Check) when the port is open -> traceroute when it is not,
+# to tell "service down" apart from "network path broken". Answers "is target:port
+# a healthy gRPC service?" and, when it isn't, localizes why.
+#
+# target: IP or DNS name.  port: gRPC port.  tls: "true" for TLS, "false" for
+# plaintext h2c (optional, default "false"). The check queries overall server
+# health (grpc.health.v1.Health/Check with an empty service name).
+#
+#   curl -s -X POST localhost:8080/api/v1/usecases/grpc-connectivity-check/run \
+#     -d '{"inputs":{"target":"cart.shop.svc.cluster.local","port":"50051"}}' | jq
+#
+apiVersion: kato.zufardhiyaulhaq.com/v1alpha1
+kind: UseCase
+metadata:
+  name: grpc-connectivity-check
+spec:
+  description: "Is target:port a healthy (SERVING) gRPC service? DNS + TCP + gRPC health, traceroute if unreachable"
+  inputs:
+    - name: target
+      required: true
+    - name: port
+      required: true
+    # "true" for TLS, "false" for plaintext h2c. Optional; omitted -> plaintext.
+    - name: tls
+      required: false
+      default: "false"
+  steps:
+    # L3 name resolution: does the target resolve at all? A failure here (NXDOMAIN/timeout)
+    # is a different root cause than a broken path, and it explains a TCP failure below.
+    # Uses the pod's own resolver (/etc/resolv.conf). An IP literal resolves to itself.
+    - name: dns
+      method: probe_dns
+      with:
+        name: $(inputs.target)
+      summaryFilter: [success, addresses, recordCount, latencyMs, error]
+
+    # L4: is the port even open? Ground truth for reachability, and it separates a network
+    # problem from an app problem: if TCP fails, the gRPC Check never had a chance.
+    - name: tcp
+      method: probe_tcp
+      with:
+        target: $(inputs.target)
+        port: $(inputs.port)
+
+    # L7: only when the port is open — is the gRPC server SERVING (overall health)? status
+    # tells a reachable-but-NOT_SERVING endpoint apart from a healthy one; an empty status
+    # means the RPC never completed (not a gRPC server, TLS mismatch, or no health service) —
+    # read the error. Set tls: "true" for a TLS endpoint (add insecureSkipVerify: "true" for
+    # a self-signed cert).
+    - name: grpc
+      when: $(steps.tcp.success)
+      method: probe_grpc
+      with:
+        target: $(inputs.target)
+        port: $(inputs.port)
+        tls: $(inputs.tls)
+      summaryFilter: [success, status, latencyMs, error]
+
+    # L3 path: only when the port is NOT open — trace where replies stop. Reaching the
+    # target IP = path fine, port down/filtered at the host; stopping short = network path
+    # broken upstream. summaryFilter is left unset so the full `hops` list reaches the LLM.
+    # maxHops capped and timeout short to bound worst-case wall time.
+    - name: traceroute
+      when: $(steps.tcp.success) == false
+      method: probe_traceroute
+      with:
+        target: $(inputs.target)
+        maxHops: "20"
+        timeout: "1s"
+  summary:
+    prompt: |
+      Is $(inputs.target):$(inputs.port) a healthy gRPC service, from inside the
+      cluster? Check in order:
+
+      1. dns.success false -> name doesn't resolve. Root cause is DNS (missing record,
+         wrong namespace, CoreDNS). Stop here; it also explains any TCP failure.
+      2. tcp.success true -> port is open (reachable). Then gRPC health:
+         - grpc.success true (status SERVING) -> healthy. Done (give latency).
+         - grpc.success false with status NOT_SERVING (or UNKNOWN) -> reachable, but the
+           app reports itself unhealthy. App-level problem; give the status.
+         - grpc.success false with status empty -> the health RPC never completed under an
+           open port: not a gRPC server, TLS mismatch (plaintext vs TLS), or no health
+           service (UNIMPLEMENTED). Say which from the grpc error. Still reachable at L4.
+      3. tcp.success false -> port not reachable, gRPC was skipped. Use traceroute: reached
+         the target IP = path fine, port down/filtered at the host (service not listening /
+         host firewall). Trace stops short = network path broken there (routing /
+         NetworkPolicy / firewall). tcp error: refused = rejected, timeout = no answer.
+
+      Give a one-line verdict + the evidence + the fix.

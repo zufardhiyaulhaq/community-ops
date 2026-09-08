@@ -1,0 +1,155 @@
+# Check whether the Kubernetes control plane is healthy, for a SELF-MANAGED
+# (kubeadm) cluster where the control plane runs as static pods in kube-system:
+# kube-apiserver, etcd, kube-scheduler, and kube-controller-manager. Unlike a
+# managed cluster, all four components are directly inspectable here (status +
+# logs) — kubeadm names each static pod "<component>-<node>", so the node input
+# builds those names.
+#
+# Run it against ONE control-plane node (re-run per master, or use a new Run name):
+#
+#   curl -s -X POST localhost:8080/api/v1/usecases/control-plane-health-kubeadm/run \
+#     -d '{"inputs":{"node":"cp-1"}}' | jq
+#
+#   kubectl apply -f - <<'EOF'
+#   apiVersion: kato.zufardhiyaulhaq.com/v1alpha1
+#   kind: Run
+#   metadata: { name: control-plane-check-cp1, namespace: infrastructure }
+#   spec:
+#     useCase: control-plane-health-kubeadm
+#     inputs: { node: cp-1 }
+#   EOF
+#
+# NOTE: this UseCase assumes kubeadm static-pod naming. On a managed/cloud cluster
+# those pods do not exist (the static-pod steps would error "not found") — use
+# control-plane-health-usecase.yaml there instead.
+apiVersion: kato.zufardhiyaulhaq.com/v1alpha1
+kind: UseCase
+metadata:
+  name: control-plane-health-kubeadm
+spec:
+  description: "Check kubeadm control-plane health: API server, etcd, scheduler, controller-manager static pods + the node"
+  inputs:
+    - name: node
+      required: true
+      description: "Control-plane (master) node name; also used to build the <component>-<node> static-pod names"
+  steps:
+    # --- API server (read through kato's authenticated REST client) ---
+    # summaryFilter left unset so the failedChecks list (names of failing checks)
+    # reaches the LLM. livez = liveness; healthz = broader set where etcd surfaces.
+    - name: apiserver-livez
+      method: check_apiserver
+      with:
+        endpoint: livez
+        timeout: 5s
+
+    - name: apiserver-healthz
+      method: check_apiserver
+      with:
+        endpoint: healthz
+        timeout: 5s
+
+    # --- Control-plane node ---
+    - name: node-status
+      method: check_node_status
+      with:
+        name: $(inputs.node)
+
+    - name: node-describe
+      method: describe_node
+      with:
+        name: $(inputs.node)
+      summaryFilter: [conditions, taints, unschedulable, allocatableCPU, allocatableMemory, capacityPods, kubeletVersion]
+
+    - name: node-events
+      method: check_events
+      with:
+        namespace: default
+        involvedObject: $(inputs.node)
+        limit: "10"
+        maxLineLength: "200"
+      summaryFilter: [events, warningCount]
+
+    # --- Static control-plane pods (kubeadm: <component>-<node> in kube-system) ---
+    # kube-apiserver
+    - name: kube-apiserver-pod
+      method: check_pod_status
+      with:
+        namespace: kube-system
+        name: kube-apiserver-$(inputs.node)
+
+    - name: kube-apiserver-logs
+      method: check_pod_logs
+      with:
+        namespace: kube-system
+        name: kube-apiserver-$(inputs.node)
+        container: kube-apiserver
+        tailLines: "10"
+        maxLineLength: "200"
+      summaryFilter: [logs]
+
+    # etcd — the keystore the whole API server depends on; CrashLoop/OOM or slow
+    # disk here shows up as etcd failures in apiserver-healthz too.
+    - name: etcd-pod
+      method: check_pod_status
+      with:
+        namespace: kube-system
+        name: etcd-$(inputs.node)
+
+    - name: etcd-logs
+      method: check_pod_logs
+      with:
+        namespace: kube-system
+        name: etcd-$(inputs.node)
+        container: etcd
+        tailLines: "10"
+        maxLineLength: "200"
+      summaryFilter: [logs]
+
+    # kube-scheduler — not reachable over the network (/healthz binds 127.0.0.1),
+    # so its static pod's status + logs are the only signal kato has.
+    - name: kube-scheduler-pod
+      method: check_pod_status
+      with:
+        namespace: kube-system
+        name: kube-scheduler-$(inputs.node)
+
+    - name: kube-scheduler-logs
+      method: check_pod_logs
+      with:
+        namespace: kube-system
+        name: kube-scheduler-$(inputs.node)
+        container: kube-scheduler
+        tailLines: "10"
+        maxLineLength: "200"
+      summaryFilter: [logs]
+
+    # kube-controller-manager — same as scheduler: status + logs only.
+    - name: kube-controller-manager-pod
+      method: check_pod_status
+      with:
+        namespace: kube-system
+        name: kube-controller-manager-$(inputs.node)
+
+    - name: kube-controller-manager-logs
+      method: check_pod_logs
+      with:
+        namespace: kube-system
+        name: kube-controller-manager-$(inputs.node)
+        container: kube-controller-manager
+        tailLines: "10"
+        maxLineLength: "200"
+      summaryFilter: [logs]
+  summary:
+    prompt: |
+      Assess the health of the kubeadm control plane on node $(inputs.node); if
+      everything is healthy, say so plainly. API server: treat apiserver-livez and
+      apiserver-healthz as source of truth — a failing livez means the API server is
+      unhealthy, while a healthz-only failure (etcd / etcd-readiness, a poststarthook)
+      points at a dependency; list the failing check NAMES verbatim. For each static
+      pod (kube-apiserver, etcd, kube-scheduler, kube-controller-manager), flag
+      CrashLoopBackOff/OOMKilled, high restart counts, waiting reasons, or error lines
+      in the logs; cross-check etcd's pod state against any etcd failures reported by
+      apiserver-healthz. For the node: flag NotReady, memory/disk/PID pressure,
+      cordoned (unschedulable), or warning events. Note that scheduler and
+      controller-manager have no network health endpoint, so judge them from pod
+      status and logs only.

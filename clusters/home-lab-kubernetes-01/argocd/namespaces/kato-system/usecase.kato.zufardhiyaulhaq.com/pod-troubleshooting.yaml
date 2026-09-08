@@ -1,0 +1,99 @@
+# General pod troubleshooting: one flow that adapts to whatever is wrong with a pod
+# — crash looping, stuck Pending/unschedulable, OOMKilled, ImagePullBackOff, or
+# Running-but-not-Ready. The first three steps always run (they work on any pod, even
+# an unscheduled one); the rest are activated by `when` conditions based on the pod's
+# actual state, so a Pending pod doesn't try to fetch logs and a healthy-scheduled pod
+# still gets its node checked.
+#
+#   curl -s -X POST localhost:8080/api/v1/usecases/pod-troubleshooting/run \
+#     -d '{"inputs":{"namespace":"payments","pod":"payment-api-xyz"}}' | jq
+#
+apiVersion: kato.zufardhiyaulhaq.com/v1alpha1
+kind: UseCase
+metadata:
+  name: pod-troubleshooting
+spec:
+  description: "Diagnose any unhealthy pod (crashloop, pending, OOM, image pull, not-ready)"
+  inputs:
+    - name: namespace
+      required: true
+    - name: pod
+      required: true
+  steps:
+    # Always: the pod's phase/readiness/restarts + the waiting/termination reasons
+    # that drive the conditional steps below.
+    - name: status
+      method: check_pod_status
+      with:
+        namespace: $(inputs.namespace)
+        name: $(inputs.pod)
+      summaryFilter: [phase, ready, restartCount, nodeName, waitingReason, waitingMessage, lastTerminationReason, lastTerminationExitCode, qosClass]
+
+    # Always: events are the single best signal for scheduling failures
+    # (FailedScheduling), image pulls (Failed/BackOff), and evictions.
+    - name: events
+      method: check_events
+      with:
+        namespace: $(inputs.namespace)
+        involvedObject: $(inputs.pod)
+        limit: "10"
+        maxLineLength: "200"
+      summaryFilter: [events, warningCount]
+
+    # Always: the spec/status fields that explain BOTH scheduling problems
+    # (nodeSelector/tolerations/requests/priority) and runtime problems (conditions,
+    # probes). Works on any pod, scheduled or not.
+    - name: describe
+      method: describe_pod
+      with:
+        namespace: $(inputs.namespace)
+        name: $(inputs.pod)
+      summaryFilter: [conditions, nodeName, nodeSelector, tolerations, resourceRequests, resourceLimits, priorityClassName, probes]
+
+    # Crashloop/OOM path: only when the pod has actually restarted — fetch the
+    # previous (crashed) instance's logs, where the panic/OOM trace lives.
+    - name: previous-logs
+      method: check_pod_logs
+      when: $(steps.status.restartCount) > 0
+      with:
+        namespace: $(inputs.namespace)
+        name: $(inputs.pod)
+        previous: "true"
+        tailLines: "20"
+        maxLineLength: "200"
+      summaryFilter: [logs]
+
+    # Running-but-unhealthy path: only when a container is actually running (scheduled
+    # AND not waiting) — so this never errors on an unscheduled/Pending or
+    # never-started (ImagePullBackOff) container. Catches readiness-probe failures and
+    # apps erroring without crashing.
+    - name: current-logs
+      method: check_pod_logs
+      when: $(steps.status.nodeName) != "" && $(steps.status.waitingReason) == ""
+      with:
+        namespace: $(inputs.namespace)
+        name: $(inputs.pod)
+        tailLines: "20"
+        maxLineLength: "200"
+      summaryFilter: [logs]
+
+    # Node path: only when scheduled — node pressure/taints/cordon can explain both a
+    # crashloop (e.g. memory pressure → OOM) and a not-ready pod.
+    - name: node
+      method: describe_node
+      when: $(steps.status.nodeName) != ""
+      with:
+        name: $(steps.status.nodeName)
+      summaryFilter: [conditions, allocatableCPU, allocatableMemory, taints, unschedulable]
+  summary:
+    prompt: |
+      You are a Kubernetes SRE. Using whichever evidence is present, identify what is
+      wrong with this pod and how to fix it. First classify the failure mode from the
+      status + events: crash looping (restarts > 0, CrashLoopBackOff, or OOMKilled in
+      lastTerminationReason), stuck Pending/unschedulable (no nodeName + FailedScheduling
+      events — check nodeSelector/tolerations/requests/priority and unbound PVCs), image
+      pull failure (ImagePullBackOff/ErrImagePull), or Running-but-not-Ready (ready=false
+      with no restarts — likely a failing readiness probe or an app error in the current
+      logs). Then explain the root cause with the specific evidence (event lines, log
+      lines, the relevant spec field, or node condition) and give a concrete fix. If the
+      pod looks healthy, say so.

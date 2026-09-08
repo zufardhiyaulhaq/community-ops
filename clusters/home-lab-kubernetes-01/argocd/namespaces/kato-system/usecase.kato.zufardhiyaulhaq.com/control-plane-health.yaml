@@ -1,0 +1,103 @@
+
+# Check whether the Kubernetes control plane is healthy, for a MANAGED / cloud
+# cluster (EKS/GKE/AKS) where the control plane is hidden: the API server is the
+# only reachable component, and etcd health surfaces through its health checks.
+# kube-scheduler and kube-controller-manager are not inspectable (no static pods,
+# and their /healthz binds to 127.0.0.1), so they are out of scope here.
+#
+# Node coverage scales to large fleets: list_nodes scans every node and returns
+# per-status COUNTS plus a worst-first list of only the not-fully-healthy nodes, so
+# a 400-node cluster never dumps 400 manifests — describe_node runs only on the few
+# surfaced problem nodes. Takes no inputs:
+#
+#   curl -s -X POST localhost:8080/api/v1/usecases/control-plane-health/run \
+#     -d '{}' | jq
+#
+# or by creating a Run CR (kubectl/GitOps). A Run is execute-once: re-applying the
+# same name is a no-op, so to re-run, `kubectl delete run <name>` first (or use a
+# new name):
+#
+#   kubectl apply -f - <<'EOF'
+#   apiVersion: kato.zufardhiyaulhaq.com/v1alpha1
+#   kind: Run
+#   metadata: { name: control-plane-check, namespace: infrastructure }
+#   spec: { useCase: control-plane-health }
+#   EOF
+#
+apiVersion: kato.zufardhiyaulhaq.com/v1alpha1
+kind: UseCase
+metadata:
+  name: control-plane-health
+spec:
+  description: "Check managed/cloud control-plane health: API server (+ etcd) and fleet node health"
+  steps:
+    # --- API server (the only reachable control-plane component on a managed cluster) ---
+    # check_apiserver reads through kato's authenticated REST client. livez is the
+    # liveness set; an unhealthy/unreachable API server is a finding (healthy:false),
+    # not a method error. summaryFilter is intentionally left unset so the failedChecks
+    # list (the NAMES of the failing checks) is recorded and sent to the LLM as evidence.
+    - name: apiserver-livez
+      method: check_apiserver
+      with:
+        endpoint: livez
+        timeout: 5s
+
+    # healthz is the broader readiness-ish set: this is where etcd / etcd-readiness and
+    # the poststarthooks surface. Pair with livez to tell "API server down" from
+    # "API server up but a dependency (etcd) is failing".
+    - name: apiserver-healthz
+      method: check_apiserver
+      with:
+        endpoint: healthz
+        timeout: 5s
+
+    # --- Fleet node health (scales to hundreds of nodes) ---
+    # One List call; the scalar counts bucket the whole fleet by status, and the
+    # `nodes` list carries ONLY the not-fully-healthy nodes (NotReady/pressured/
+    # cordoned), worst-first. summaryFilter is left unset so both the counts and that
+    # short problem-node list reach the LLM. Add a labelSelector to scope to a subset
+    # (e.g. a nodepool) on very large clusters.
+    - name: nodes-fleet
+      method: list_nodes
+
+    # describe_node ONLY the surfaced problem nodes (capped) — never the healthy
+    # majority. Gated so it runs only when there is a genuine problem.
+    - name: node-describe
+      forEach: $(steps.nodes-fleet.nodes)
+      maxItems: 2
+      when: $(steps.nodes-fleet.anyUnhealthy)
+      method: describe_node
+      with:
+        name: $(item.name)
+      summaryFilter: [conditions, taints, unschedulable, allocatableMemory, allocatableCPU, kubeletVersion]
+
+    # Node-scoped events (default namespace) for the same problem nodes: surfaces
+    # kubelet/pressure warnings (NodeNotReady, eviction, registration problems).
+    - name: node-events
+      forEach: $(steps.nodes-fleet.nodes)
+      maxItems: 2
+      when: $(steps.nodes-fleet.anyUnhealthy)
+      method: check_events
+      with:
+        namespace: default
+        involvedObject: $(item.name)
+        limit: "10"
+        maxLineLength: "200"
+      summaryFilter: [events, warningCount]
+  summary:
+    prompt: |
+      Assess the health of the managed Kubernetes control plane and the node fleet; if
+      everything is healthy, say so plainly. For the API server: treat apiserver-livez
+      and apiserver-healthz as the source of truth — if healthy=false or the endpoint
+      was unreachable (statusCode=0), the control plane is degraded; list the failing
+      check NAMES (failedChecks) verbatim and separate them — a failing livez means the
+      API server itself is unhealthy, while a healthz-only failure (e.g. etcd /
+      etcd-readiness, a poststarthook) points at a dependency rather than the API server
+      process. For the nodes: lead with the fleet counts from nodes-fleet (total, ready,
+      notReady, memoryPressure, diskPressure, pidPressure, unschedulable) — e.g.
+      "397/400 Ready, 2 NotReady, 1 MemoryPressure". Then drill into the listed problem
+      nodes using their describe/events: flag NotReady (with the Ready reason), memory/
+      disk/PID pressure, cordoned (unschedulable) nodes, and any warning events. If
+      listTruncated is true, say there are more problem nodes than shown. Do not comment
+      on kube-scheduler or kube-controller-manager — they are not observable on this
+      managed cluster and are out of scope.

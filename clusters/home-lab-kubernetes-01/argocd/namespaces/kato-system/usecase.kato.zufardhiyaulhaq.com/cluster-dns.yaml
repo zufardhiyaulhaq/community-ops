@@ -1,0 +1,296 @@
+# Troubleshoot cluster DNS in kube-system: the CoreDNS Deployment (+ its HPA and
+# Corefile), the node-local-dns DaemonSet (+ its Corefile), and the kube-dns
+# Service. This UseCase targets FIXED workloads, so it takes no inputs — run it
+# with an empty body:
+#
+#   curl -s -X POST localhost:8080/api/v1/usecases/cluster-dns/run -d '{}' | jq
+#
+# or by creating a Run CR (kubectl/GitOps). A Run is execute-once: re-applying the
+# same name is a no-op, so to re-run, `kubectl delete run <name>` first (or use a
+# new name):
+#
+#   kubectl apply -f - <<'EOF'
+#   apiVersion: kato.zufardhiyaulhaq.com/v1alpha1
+#   kind: Run
+#   metadata: { name: cluster-dns-check, namespace: infrastructure }
+#   spec: { useCase: cluster-dns }
+#   EOF
+#
+apiVersion: kato.zufardhiyaulhaq.com/v1alpha1
+kind: UseCase
+metadata:
+  name: cluster-dns
+spec:
+  description: "Troubleshoot cluster DNS (CoreDNS + node-local-dns + kube-dns) in kube-system"
+  steps:
+    # --- CoreDNS Deployment, its autoscaler, and its config ---
+    - name: coredns-deployment
+      method: check_deployment_status
+      with:
+        namespace: kube-system
+        name: coredns
+
+    # For CoreDNS pods Running-but-not-Ready, the readiness probe (the `ready`
+    # plugin on :8181) is the usual culprit.
+    - name: coredns-deployment-describe
+      method: describe_deployment
+      with:
+        namespace: kube-system
+        name: coredns
+      summaryFilter: [probes]
+
+    - name: coredns-hpa
+      method: check_hpa
+      with:
+        namespace: kube-system
+        name: coredns
+      summaryFilter: [exists, scaleTarget, minReplicas, maxReplicas, currentReplicas, desiredReplicas, atMax, scalingLimited, metrics, conditionReason]
+
+    - name: coredns-config
+      method: check_configmap
+      with:
+        namespace: kube-system
+        name: coredns
+        keys: Corefile
+      summaryFilter: [exists, keys, data]
+
+    - name: coredns-events
+      method: check_events
+      with:
+        namespace: kube-system
+        involvedObject: coredns
+        limit: "5"
+        maxLineLength: "200"
+      summaryFilter: [events, warningCount]
+
+    # --- node-local-dns DaemonSet and its config ---
+    - name: nodelocaldns-daemonset
+      method: check_daemonset_status
+      with:
+        namespace: kube-system
+        name: node-local-dns
+
+    # Per-node cache must run on every node: check tolerations/nodeSelector for
+    # gaps that leave some nodes without a local DNS cache.
+    - name: nodelocaldns-describe
+      method: describe_daemonset
+      with:
+        namespace: kube-system
+        name: node-local-dns
+      summaryFilter: [updateStrategy, maxUnavailable, nodeSelector, tolerations]
+
+    - name: nodelocaldns-config
+      method: check_configmap
+      with:
+        namespace: kube-system
+        name: node-local-dns
+        keys: Corefile
+      summaryFilter: [exists, keys, data]
+
+    - name: nodelocaldns-events
+      method: check_events
+      with:
+        namespace: kube-system
+        involvedObject: node-local-dns
+        limit: "5"
+        maxLineLength: "200"
+      summaryFilter: [events, warningCount]
+
+    # --- The kube-dns Service the rest of the cluster resolves against ---
+    - name: kube-dns-service
+      method: check_service_endpoints
+      with:
+        namespace: kube-system
+        name: kube-dns
+
+    # The whole cluster resolves against this Service: its clusterIP must match the
+    # kubelet --cluster-dns IP, it must expose 53 on UDP+TCP, and its selector must
+    # match the CoreDNS pods.
+    - name: kube-dns-service-describe
+      method: describe_service
+      with:
+        namespace: kube-system
+        name: kube-dns
+      summaryFilter: [clusterIP, ports, selector]
+
+    # --- Active DNS-path probes (run from kato's pod, end-to-end) ---
+    # The checks above inspect DNS *components*; these two exercise the live path a
+    # real workload takes. Reachability is governed by NetworkPolicy (no RBAC).
+
+    # "telnet 53": open a TCP connection to the kube-dns Service on 53. A refused/
+    # timed-out connect (success:false) means the Service has no endpoints, the
+    # NetworkPolicy blocks DNS, or CoreDNS isn't serving TCP — independent of whether
+    # any single name resolves.
+    - name: kube-dns-tcp-53
+      method: probe_tcp
+      with:
+        target: kube-dns.kube-system.svc.cluster.local
+        port: "53"
+        timeout: 5s
+      summaryFilter: [success, latencyMs, error]
+
+    # "nslookup google.com": resolve an external name through the pod's configured
+    # resolver (/etc/resolv.conf) — the full path node-local-dns -> kube-dns ->
+    # upstream. A failure (NXDOMAIN/timeout/unreachable -> success:false) points at a
+    # broken forward path even when the in-cluster components look healthy.
+    - name: resolve-google
+      method: probe_dns
+      with:
+        name: google.com
+        timeout: 5s
+      summaryFilter: [success, addresses, recordCount, latencyMs, error]
+
+    # --- CoreDNS failing-pod drill-down ---
+    - name: coredns-failing
+      method: list_failing_pods
+      with:
+        namespace: kube-system
+        kind: Deployment
+        name: coredns
+        includeNotReady: "true"
+
+    - name: coredns-pod-status
+      forEach: $(steps.coredns-failing.pods)
+      maxItems: 1
+      when: $(steps.coredns-failing.anyFailing)
+      method: check_pod_status
+      with:
+        namespace: $(item.namespace)
+        name: $(item.name)
+
+    - name: coredns-pod-events
+      forEach: $(steps.coredns-failing.pods)
+      maxItems: 1
+      when: $(steps.coredns-failing.anyFailing)
+      method: check_events
+      with:
+        namespace: $(item.namespace)
+        involvedObject: $(item.name)
+        limit: "5"
+        maxLineLength: "200"
+      summaryFilter: [events, warningCount]
+
+    - name: coredns-pod-logs
+      forEach: $(steps.coredns-failing.pods)
+      maxItems: 1
+      when: $(steps.coredns-failing.anyFailing)
+      method: check_pod_logs
+      with:
+        namespace: $(item.namespace)
+        name: $(item.name)
+        container: coredns
+        tailLines: "10"
+        maxLineLength: "200"
+      summaryFilter: [logs]
+
+    - name: coredns-pod-previous-logs
+      forEach: $(steps.coredns-failing.pods)
+      maxItems: 1
+      when: $(steps.coredns-failing.anyFailing)
+      method: check_pod_logs
+      with:
+        namespace: $(item.namespace)
+        name: $(item.name)
+        container: coredns
+        previous: "true"
+        tailLines: "10"
+        maxLineLength: "200"
+      summaryFilter: [logs]
+
+    # --- node-local-dns failing-pod drill-down ---
+    - name: nodelocaldns-failing
+      method: list_failing_pods
+      with:
+        namespace: kube-system
+        kind: DaemonSet
+        name: node-local-dns
+        includeNotReady: "true"
+
+    - name: nodelocaldns-pod-status
+      forEach: $(steps.nodelocaldns-failing.pods)
+      maxItems: 1
+      when: $(steps.nodelocaldns-failing.anyFailing)
+      method: check_pod_status
+      with:
+        namespace: $(item.namespace)
+        name: $(item.name)
+
+    - name: nodelocaldns-pod-logs
+      forEach: $(steps.nodelocaldns-failing.pods)
+      maxItems: 1
+      when: $(steps.nodelocaldns-failing.anyFailing)
+      method: check_pod_logs
+      with:
+        namespace: $(item.namespace)
+        name: $(item.name)
+        container: node-cache
+        tailLines: "10"
+        maxLineLength: "200"
+      summaryFilter: [logs]
+
+    # --- Resourcing (running pods): requests/limits vs live usage ---
+    - name: coredns-pods
+      method: list_pods
+      with:
+        namespace: kube-system
+        kind: Deployment
+        name: coredns
+
+    - name: coredns-pod-resources
+      forEach: $(steps.coredns-pods.pods)
+      maxItems: 1
+      method: check_pod_resources
+      with:
+        namespace: $(item.namespace)
+        name: $(item.name)
+
+    - name: coredns-pod-usage
+      forEach: $(steps.coredns-pods.pods)
+      maxItems: 2
+      method: check_pod_usage
+      with:
+        namespace: $(item.namespace)
+        name: $(item.name)
+      summaryFilter: [containers, metricsAvailable]
+
+    - name: nodelocaldns-pods
+      method: list_pods
+      with:
+        namespace: kube-system
+        kind: DaemonSet
+        name: node-local-dns
+
+    - name: nodelocaldns-pod-resources
+      forEach: $(steps.nodelocaldns-pods.pods)
+      maxItems: 1
+      method: check_pod_resources
+      with:
+        namespace: $(item.namespace)
+        name: $(item.name)
+
+    - name: nodelocaldns-pod-usage
+      forEach: $(steps.nodelocaldns-pods.pods)
+      maxItems: 2
+      method: check_pod_usage
+      with:
+        namespace: $(item.namespace)
+        name: $(item.name)
+      summaryFilter: [containers, metricsAvailable]
+  summary:
+    prompt: |
+      Root-cause and fix cluster DNS (kube-system), covering CoreDNS and
+      node-local-dns; if healthy, say so and summarize the counts. Watch for: CoreDNS
+      CrashLoopBackOff/OOMKilled or a failing readiness probe; an HPA pinned at
+      maxReplicas (atMax/scalingLimited); node-local-dns missing on some nodes
+      (tolerations/nodeSelector gaps); the kube-dns Service with no endpoints, wrong
+      clusterIP (must equal kubelet --cluster-dns), missing 53 UDP/TCP, or a
+      mismatched selector; a missing/malformed Corefile.
+      Use the active probes as ground truth for the live path: a failed TCP connect
+      to kube-dns:53 (kube-dns-tcp-53 success=false) means nothing can reach DNS over
+      TCP (no endpoints, NetworkPolicy block, or CoreDNS not serving TCP); a failed
+      external lookup (resolve-google success=false) means the forward path to
+      upstream is broken even if the in-cluster components look healthy. If the probes
+      succeed but components look degraded, prefer the probe evidence.
+      Also flag improper pod resources: no limits set, usage near the memory limit
+      (OOM risk), or limits far from actual usage; suggest a right-sized
+      request/limit.

@@ -1,0 +1,122 @@
+# HTTP connectivity check: can this endpoint be reached AND does it answer as expected?
+# Layered, from kato's own pod: DNS (resolve) -> TCP (port open?) -> HTTP (right status on
+# the path?) when the port is open, plus a TLS certificate check when the scheme is https
+# (chain valid? when does the cert expire?) -> traceroute when the port is not open, to tell
+# "service down" apart from "network path broken". Answers "is scheme://target:port/path
+# returning expectStatus?" and, when it isn't, localizes why.
+#
+# target: IP or DNS name.  port: TCP port.  scheme: http|https.
+# path: request path (e.g. /healthz).  expectStatus: expected HTTP code (e.g. 200).
+#
+#   curl -s -X POST localhost:8080/api/v1/usecases/http-connectivity-check/run \
+#     -d '{"inputs":{"target":"api.example.com","port":"443","scheme":"https","path":"/healthz","expectStatus":"200"}}' | jq
+#
+apiVersion: kato.zufardhiyaulhaq.com/v1alpha1
+kind: UseCase
+metadata:
+  name: http-connectivity-check
+spec:
+  description: "Does scheme://target:port/path return expectStatus? DNS + TCP + HTTP (+ TLS cert on https), traceroute if unreachable"
+  inputs:
+    - name: target
+      required: true
+    - name: port
+      required: true
+    # http or https for the request.
+    - name: scheme
+      required: true
+    # request path, e.g. "/" or "/healthz". Required (kato has no input defaults).
+    - name: path
+      required: true
+    # expected HTTP status code, e.g. "200". Optional; omitted -> "200".
+    - name: expectStatus
+      required: false
+      default: "200"
+  steps:
+    # L3 name resolution: does the target resolve at all? A failure here (NXDOMAIN/timeout)
+    # is a different root cause than a broken path, and it explains a TCP failure below.
+    # Uses the pod's own resolver (/etc/resolv.conf). An IP literal resolves to itself.
+    - name: dns
+      method: probe_dns
+      with:
+        name: $(inputs.target)
+      summaryFilter: [success, addresses, recordCount, latencyMs, error]
+
+    # L4: is the port even open? Ground truth for reachability, and it separates a network
+    # problem from an app problem: if TCP fails, HTTP never had a chance.
+    - name: tcp
+      method: probe_tcp
+      with:
+        target: $(inputs.target)
+        port: $(inputs.port)
+
+    # L7: only when the port is open — does the endpoint return expectStatus on path? The
+    # scheme/path/status all come from inputs; add insecureSkipVerify: "true" for a
+    # self-signed cert on https. statusMatched tells a reachable-but-wrong-status endpoint
+    # (e.g. 500/404) apart from a healthy one.
+    - name: http
+      when: $(steps.tcp.success)
+      method: probe_http
+      with:
+        target: $(inputs.target)
+        port: $(inputs.port)
+        scheme: $(inputs.scheme)
+        path: $(inputs.path)
+        expectStatus: $(inputs.expectStatus)
+      summaryFilter: [success, statusCode, statusMatched, latencyMs, error]
+
+    # L6 TLS: only for an https scheme with the port open. Capture-then-verify — reports the
+    # certificate's expiry/issuer/SANs and whether the chain verifies, even when it does not
+    # (expired / self-signed / name mismatch), so an endpoint that answers 200 while its cert
+    # is days from expiry is still caught. Add insecureSkipVerify: "true" for an internal-CA
+    # or self-signed cert (expiry still counts). Skipped entirely for plain http.
+    - name: tls
+      when: $(inputs.scheme) == "https" && $(steps.tcp.success)
+      method: probe_tls
+      with:
+        target: $(inputs.target)
+        port: $(inputs.port)
+      summaryFilter: [success, handshakeComplete, verified, expired, daysUntilExpiry, notAfter, issuer, verifyError, error]
+
+    # L3 path: only when the port is NOT open — trace where replies stop. Reaching the
+    # target IP = path fine, port down/filtered at the host; stopping short = network path
+    # broken upstream. summaryFilter is left unset so the full `hops` list reaches the LLM
+    # (a scalar allowlist would drop it, and the path IS the evidence). maxHops capped and
+    # timeout short to bound worst-case wall time (~= maxHops * timeout when unreachable).
+    - name: traceroute
+      when: $(steps.tcp.success) == false
+      method: probe_traceroute
+      with:
+        target: $(inputs.target)
+        maxHops: "20"
+        timeout: "1s"
+  summary:
+    prompt: |
+      Does $(inputs.scheme)://$(inputs.target):$(inputs.port)$(inputs.path) return
+      $(inputs.expectStatus), from inside the cluster? Check in order:
+
+      1. dns.success false -> name doesn't resolve. Root cause is DNS (missing record,
+         wrong namespace, CoreDNS). Stop here; it also explains any TCP failure.
+      2. tcp.success true -> port is open (reachable). Then HTTP:
+         - http.success true -> endpoint healthy: returned the expected status. Done
+           (give statusCode, latency).
+         - http.success false but statusMatched-adjacent: if statusCode is set, the server
+           answered with the WRONG status (e.g. 500/404/401) — reachable, app-level
+           problem on that path. If statusCode is 0, the transport failed under an open
+           port: wrong scheme (https endpoint probed as http or vice versa), TLS error, or
+           a non-HTTP service. Say which, from the http error/statusCode. Still reachable.
+         For an https scheme, also read the TLS step (skipped for plain http):
+         - tls.handshakeComplete false -> the port is open but no TLS handshake completed:
+           not a TLS endpoint, wrong port, or a scheme mismatch. Read tls.error.
+         - tls.verified false -> handshake OK but the certificate does not verify. Read
+           tls.verifyError (expired / unknown authority / name mismatch) and name the cert
+           presented (issuer, notAfter). This can fail even when http.success is true if the
+           HTTP client was lenient — surface it either way.
+         - tls.success true -> cert healthy; report daysUntilExpiry and warn if it is low
+           (e.g. < 30 days) — a renewal is due even though the endpoint answers today.
+      3. tcp.success false -> port not reachable, HTTP was skipped. Use traceroute: reached
+         the target IP = path fine, port down/filtered at the host (service not listening /
+         host firewall). Trace stops short = network path broken there (routing /
+         NetworkPolicy / firewall). tcp error: refused = rejected, timeout = no answer.
+
+      Give a one-line verdict + the evidence + the fix.

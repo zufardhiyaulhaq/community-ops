@@ -1,0 +1,207 @@
+# Troubleshoot the istio-ingressgateway Deployment (Istio ingress, Envoy) in
+# istio-system. This UseCase targets a FIXED workload, so it takes no inputs — run
+# it with an empty body:
+#
+#   curl -s -X POST localhost:8080/api/v1/usecases/istio-ingressgateway/run \
+#     -d '{}' | jq
+#
+# or by creating a Run CR (kubectl/GitOps). A Run is execute-once: re-applying the
+# same name is a no-op, so to re-run, `kubectl delete run <name>` first (or use a
+# new name; or generateName + `kubectl create` for a fresh run each time):
+#
+#   kubectl apply -f - <<'EOF'
+#   apiVersion: kato.zufardhiyaulhaq.com/v1alpha1
+#   kind: Run
+#   metadata: { name: istio-ingressgateway-check, namespace: infrastructure }
+#   spec: { useCase: istio-ingressgateway }
+#   EOF
+#
+# Scope: the *infrastructure* of the gateway (Deployment, Service/LoadBalancer,
+# endpoints, HPA, Envoy pods, and a live readiness probe). The Istio *config* layer
+# (Gateway/VirtualService CRDs, TLS secrets, istiod/xDS) is intentionally out of
+# scope — kato has no method that reads Istio CRDs yet.
+apiVersion: kato.zufardhiyaulhaq.com/v1alpha1
+kind: UseCase
+metadata:
+  name: istio-ingressgateway
+spec:
+  description: "Troubleshoot the istio-ingressgateway Deployment (Envoy) in istio-system"
+  steps:
+    - name: deployment
+      method: check_deployment_status
+      with:
+        namespace: istio-system
+        name: istio-ingressgateway
+
+    # The readiness probe is Envoy's /healthz/ready on :15021. For pods
+    # Running-but-not-Ready, that probe is the usual culprit.
+    - name: deployment-describe
+      method: describe_deployment
+      with:
+        namespace: istio-system
+        name: istio-ingressgateway
+      summaryFilter: [probes, strategy]
+
+    - name: hpa
+      method: check_hpa
+      with:
+        namespace: istio-system
+        name: istio-ingressgateway
+      summaryFilter: [exists, scaleTarget, minReplicas, maxReplicas, currentReplicas, desiredReplicas, atMax, scalingLimited, metrics, conditionReason]
+
+    - name: service-endpoints
+      method: check_service_endpoints
+      with:
+        namespace: istio-system
+        name: istio-ingressgateway
+
+    # The Service is the front door: it should be type LoadBalancer with an external
+    # IP/hostname assigned (loadBalancerIngress empty = pending/stuck cloud LB), must
+    # expose the status (15021) and data (80/443) ports, and its selector must match
+    # the Envoy pods.
+    - name: service-describe
+      method: describe_service
+      with:
+        namespace: istio-system
+        name: istio-ingressgateway
+      summaryFilter: [type, clusterIP, ports, selector, loadBalancerIngress]
+
+    - name: events
+      method: check_events
+      with:
+        namespace: istio-system
+        involvedObject: istio-ingressgateway
+        limit: "5"
+        maxLineLength: "200"
+      summaryFilter: [events, warningCount]
+
+    # Active readiness probe (run from kato's pod): "curl
+    # http://istio-ingressgateway.istio-system:15021/healthz/ready". Ground truth that
+    # Envoy is actually serving — a failure (success:false / statusCode:0) means the
+    # data plane is down regardless of what the pod status reports. Reachability is
+    # governed by NetworkPolicy (no RBAC needed).
+    - name: envoy-health
+      method: probe_http
+      with:
+        target: istio-ingressgateway.istio-system.svc.cluster.local
+        port: "15021"
+        scheme: http
+        path: /healthz/ready
+        expectStatus: "200"
+        timeout: 5s
+      summaryFilter: [success, statusCode, statusMatched, latencyMs, error]
+
+    # --- Failing-pod drill-down ---
+    - name: failing
+      method: list_failing_pods
+      with:
+        namespace: istio-system
+        kind: Deployment
+        name: istio-ingressgateway
+        includeNotReady: "true"
+
+    - name: pod-status
+      forEach: $(steps.failing.pods)
+      maxItems: 1
+      when: $(steps.failing.anyFailing)
+      method: check_pod_status
+      with:
+        namespace: $(item.namespace)
+        name: $(item.name)
+
+    - name: pod-events
+      forEach: $(steps.failing.pods)
+      maxItems: 1
+      when: $(steps.failing.anyFailing)
+      method: check_events
+      with:
+        namespace: $(item.namespace)
+        involvedObject: $(item.name)
+        limit: "5"
+        maxLineLength: "200"
+      summaryFilter: [events, warningCount]
+
+    - name: pod-logs
+      forEach: $(steps.failing.pods)
+      maxItems: 1
+      when: $(steps.failing.anyFailing)
+      method: check_pod_logs
+      with:
+        namespace: $(item.namespace)
+        name: $(item.name)
+        container: istio-proxy
+        tailLines: "10"
+        maxLineLength: "200"
+      summaryFilter: [logs]
+
+    - name: pod-previous-logs
+      forEach: $(steps.failing.pods)
+      maxItems: 1
+      when: $(steps.failing.anyFailing)
+      method: check_pod_logs
+      with:
+        namespace: $(item.namespace)
+        name: $(item.name)
+        container: istio-proxy
+        previous: "true"
+        tailLines: "10"
+        maxLineLength: "200"
+      summaryFilter: [logs]
+
+    # --- Resourcing (running pods): requests/limits vs live usage ---
+    - name: pods
+      method: list_pods
+      with:
+        namespace: istio-system
+        kind: Deployment
+        name: istio-ingressgateway
+
+    # Sample a healthy pod's normal Envoy logs (2 lines) so the LLM has a baseline of
+    # what "working" looks like, even when nothing is failing. list_pods orders
+    # not-ready-first, so on a healthy gateway maxItems:1 lands on a Ready pod. (The
+    # engine can't filter a forEach to ready-only — $(item.ready) is not allowed in
+    # when — so this samples the first listed pod.)
+    - name: pod-logs-sample
+      forEach: $(steps.pods.pods)
+      maxItems: 1
+      method: check_pod_logs
+      with:
+        namespace: $(item.namespace)
+        name: $(item.name)
+        container: istio-proxy
+        tailLines: "2"
+        maxLineLength: "200"
+      summaryFilter: [logs]
+
+    - name: pod-resources
+      forEach: $(steps.pods.pods)
+      maxItems: 1
+      method: check_pod_resources
+      with:
+        namespace: $(item.namespace)
+        name: $(item.name)
+
+    - name: pod-usage
+      forEach: $(steps.pods.pods)
+      maxItems: 2
+      method: check_pod_usage
+      with:
+        namespace: $(item.namespace)
+        name: $(item.name)
+      summaryFilter: [containers, metricsAvailable]
+  summary:
+    prompt: |
+      Root-cause and fix the istio-ingressgateway Deployment (istio-system); if
+      healthy, say so and summarize the counts. Treat the active readiness probe as
+      ground truth for the data plane: a failed GET to :15021/healthz/ready
+      (envoy-health success=false / statusCode=0) means Envoy is not serving traffic
+      regardless of pod status — call it out as a primary symptom. Watch for: a
+      LoadBalancer Service stuck without an external IP/hostname (loadBalancerIngress
+      empty), no ready endpoints, a selector that doesn't match the Envoy pods,
+      missing 15021/80/443 ports, an HPA pinned at maxReplicas (atMax/scalingLimited),
+      and istio-proxy CrashLoopBackOff/OOMKilled or a failing readiness probe.
+      Also flag improper pod resources: no limits set, usage near the memory limit
+      (OOM risk), or limits far from actual usage; suggest a right-sized request/limit.
+      Note: this flow does not inspect Istio Gateway/VirtualService config — if the
+      infrastructure is healthy but routing still fails, point to the config layer as
+      the next place to look.
