@@ -14,6 +14,7 @@ class ManifestDeployer():
         print(output)
 
     def diff(self):
+        # `kubectl diff` exits 1 when differences exist -> not an error.
         command = ["kubectl", "diff", "-f", self.manifest_dir, "--recursive=true", "--context", self.cluster]
-        output = self.shell.execute(command)
+        output = self.shell.execute(command, check=False)
         print(output)

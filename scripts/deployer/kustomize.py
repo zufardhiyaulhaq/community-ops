@@ -21,13 +21,14 @@ class KustomizeDeployer():
         output = self.shell.execute(render_command)
 
         create_dir_command = ["mkdir", "kustomized-rendered-dir"]
-        self.shell.execute(create_dir_command)
+        self.shell.execute(create_dir_command, check=False)
 
         split_manifest_command = ["kubectl-slice", "-f", "kustomized-rendered.yaml", "-o", "kustomized-rendered-dir"]
         self.shell.execute(split_manifest_command)
 
+        # `kubectl diff` exits 1 when differences exist -> not an error.
         diff_command = ["kubectl", "diff", "-f", "kustomized-rendered-dir", "--context", self.cluster]
-        output = self.shell.execute(diff_command)
+        output = self.shell.execute(diff_command, check=False)
         print(output)
 
         return

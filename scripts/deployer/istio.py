@@ -29,12 +29,13 @@ class IstioDeployer():
         text_file.close()
 
         create_dir_command = ["mkdir", self.config_file+".dir"]
-        self.shell.execute(create_dir_command)
+        self.shell.execute(create_dir_command, check=False)
 
         split_manifest_command = ["kubectl-slice", "-f", self.config_file+".output.yaml", "-o", self.config_file+".dir", "--exclude-kind", "CustomResourceDefinition"]
         self.shell.execute(split_manifest_command)
 
+        # `kubectl diff` exits 1 when differences exist -> not an error.
         diff_command = ["kubectl", "diff", "-f", self.config_file+".dir", "--context", self.cluster]
-        output = self.shell.execute(diff_command)
+        output = self.shell.execute(diff_command, check=False)
         print(output)
 
