@@ -9,8 +9,6 @@ on:
 
 env:
   KUBECONFIG: /tmp/config
-  ISTIO-REVISION: 1-30-4
-  ISTIO-VERSION: 1.30.4
 
 jobs:
   kustomize-deploy:
@@ -55,10 +53,15 @@ jobs:
       - name: Setup helm diff plugin
         run: |
           helm plugin install https://github.com/databus23/helm-diff --verify=false
+      - name: Resolve istio version and revision from config.yaml
+        id: istio
+        run: |
+          echo "version=$(python3 scripts/deployer.py istio version --cluster-name home-lab-kubernetes-01)" >> "$GITHUB_OUTPUT"
+          echo "revision=$(python3 scripts/deployer.py istio revision --cluster-name home-lab-kubernetes-01)" >> "$GITHUB_OUTPUT"
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.30.4
+          version: ${{ steps.istio.outputs.version }}
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
@@ -112,10 +115,15 @@ jobs:
       - name: Setup helm diff plugin
         run: |
           helm plugin install https://github.com/databus23/helm-diff --verify=false
+      - name: Resolve istio version and revision from config.yaml
+        id: istio
+        run: |
+          echo "version=$(python3 scripts/deployer.py istio version --cluster-name home-lab-kubernetes-01)" >> "$GITHUB_OUTPUT"
+          echo "revision=$(python3 scripts/deployer.py istio revision --cluster-name home-lab-kubernetes-01)" >> "$GITHUB_OUTPUT"
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.30.4
+          version: ${{ steps.istio.outputs.version }}
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
@@ -169,10 +177,15 @@ jobs:
       - name: Setup helm diff plugin
         run: |
           helm plugin install https://github.com/databus23/helm-diff --verify=false
+      - name: Resolve istio version and revision from config.yaml
+        id: istio
+        run: |
+          echo "version=$(python3 scripts/deployer.py istio version --cluster-name home-lab-kubernetes-01)" >> "$GITHUB_OUTPUT"
+          echo "revision=$(python3 scripts/deployer.py istio revision --cluster-name home-lab-kubernetes-01)" >> "$GITHUB_OUTPUT"
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.30.4
+          version: ${{ steps.istio.outputs.version }}
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
@@ -227,22 +240,27 @@ jobs:
       - name: Setup helm diff plugin
         run: |
           helm plugin install https://github.com/databus23/helm-diff --verify=false
+      - name: Resolve istio version and revision from config.yaml
+        id: istio
+        run: |
+          echo "version=$(python3 scripts/deployer.py istio version --cluster-name home-lab-kubernetes-01)" >> "$GITHUB_OUTPUT"
+          echo "revision=$(python3 scripts/deployer.py istio revision --cluster-name home-lab-kubernetes-01)" >> "$GITHUB_OUTPUT"
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.30.4
+          version: ${{ steps.istio.outputs.version }}
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
         shell: bash
         env:
           HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
-      - name: install istio control plane 1.30.4
+      - name: install istio control plane
         run: |
-          python3 scripts/deployer.py istio control-plane deploy --cluster-name home-lab-kubernetes-01 --revision 1-30-4
+          python3 scripts/deployer.py istio control-plane deploy --cluster-name home-lab-kubernetes-01 --revision ${{ steps.istio.outputs.revision }}
       - name: set default tag to newest version
         run: |
-         istioctl tag set default --context home-lab-kubernetes-01 --revision 1-30-4 --overwrite
+         istioctl tag set default --context home-lab-kubernetes-01 --revision ${{ steps.istio.outputs.revision }} --overwrite
   istio-gateway-deploy:
     needs:
     - istio-control-plane-deploy
@@ -287,16 +305,21 @@ jobs:
       - name: Setup helm diff plugin
         run: |
           helm plugin install https://github.com/databus23/helm-diff --verify=false
+      - name: Resolve istio version and revision from config.yaml
+        id: istio
+        run: |
+          echo "version=$(python3 scripts/deployer.py istio version --cluster-name home-lab-kubernetes-01)" >> "$GITHUB_OUTPUT"
+          echo "revision=$(python3 scripts/deployer.py istio revision --cluster-name home-lab-kubernetes-01)" >> "$GITHUB_OUTPUT"
       - name: Setup Istioctl
         uses: zufardhiyaulhaq/setup-istioctl@v1.0.0
         with:
-          version: 1.30.4
+          version: ${{ steps.istio.outputs.version }}
       - name: Setup kubeconfig
         run: |
           echo "$HOME_LAB_KUBERNETES_CONFIG" | base64 -d > $KUBECONFIG
         shell: bash
         env:
           HOME_LAB_KUBERNETES_CONFIG: ${{ secrets.HOME_LAB_KUBERNETES_CONFIG }}
-      - name: install gateway version 1.30.4
+      - name: install gateway
         run: |
-          python3 scripts/deployer.py istio gateway deploy --cluster-name home-lab-kubernetes-01 --revision 1-30-4
+          python3 scripts/deployer.py istio gateway deploy --cluster-name home-lab-kubernetes-01 --revision ${{ steps.istio.outputs.revision }}

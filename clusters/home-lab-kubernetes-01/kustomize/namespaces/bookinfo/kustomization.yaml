@@ -1,0 +1,4 @@
+namespace: bookinfo
+commonLabels:
+  namespace: bookinfo
+  owner: zufardhiyaulhaq

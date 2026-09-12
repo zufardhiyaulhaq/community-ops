@@ -7,3 +7,4 @@ resources:
 - namespaces/observability-system
 - namespaces/vcluster-system
 - namespaces/kato-system
+- namespaces/bookinfo

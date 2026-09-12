@@ -1,0 +1,5 @@
+resources:
+- bookinfo.yaml
+namespace: bookinfo
+commonLabels:
+  namespace: bookinfo

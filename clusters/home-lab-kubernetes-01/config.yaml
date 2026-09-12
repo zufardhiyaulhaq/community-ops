@@ -1,4 +1,11 @@
 istio:
+  # Single source of truth for the Istio version/revision. Upgrading Istio =
+  # change these two lines (version dots -> revision dashes) and let CI redeploy.
+  # The CI reads them via `deployer.py istio version|revision`.
+  version: 1.30.4
+  revision: 1-30-4
   control_plane: ./istio_mesh/control-plane.yaml
   gateway:
   - ./istio_mesh/gateway/istio-public-gateway.yaml
+  - ./istio_mesh/gateway/istio-egressgateway.yaml
+  - ./istio_mesh/gateway/istio-internal-gateway.yaml

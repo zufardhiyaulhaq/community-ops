@@ -1,0 +1,69 @@
+apiVersion: install.istio.io/v1alpha3
+kind: IstioOperator
+metadata:
+  name: istio-internal-gateway
+  namespace: istio-system
+spec:
+  hub: gcr.io/istio-release
+  profile: empty
+  components:
+    ingressGateways:
+    - enabled: true
+      name: istio-internal-gateway
+      label:
+        app: istio-internal-gateway
+      k8s:
+        affinity:
+          podAntiAffinity:
+            preferredDuringSchedulingIgnoredDuringExecution:
+            - podAffinityTerm:
+                labelSelector:
+                  matchLabels:
+                    app: istio-internal-gateway
+                topologyKey: kubernetes.io/hostname
+              weight: 100
+        resources:
+          requests:
+            cpu: 32m
+            memory: 32Mi
+        priorityClassName: system-cluster-critical
+        podDisruptionBudget:
+          maxUnavailable: 1
+        hpaSpec:
+          maxReplicas: 2
+          minReplicas: 1
+        strategy:
+          type: RollingUpdate
+          rollingUpdate:
+            maxSurge: 1
+            maxUnavailable: 0
+        overlays:
+        - kind: Deployment
+          name: istio-internal-gateway
+          patches:
+          - path: spec.template.spec.containers.[name:istio-proxy].lifecycle
+            value:
+              preStop:
+                exec:
+                  command:
+                  - /bin/sh
+                  - -c
+                  - sleep 10
+        podAnnotations:
+          proxy.istio.io/config: |
+            terminationDrainDuration: 30s
+          sidecar.istio.io/statsCompression: "zstd"
+        service:
+          # Internal ingress only: reachable in-cluster, no external LB/NodePort.
+          # (Unlike istio-public-gateway, no PROXY protocol / vcluster port.)
+          type: ClusterIP
+          ports:
+          - port: 443
+            targetPort: 8443
+            name: https
+          - port: 80
+            targetPort: 8080
+            name: http2
+          - port: 15021
+            targetPort: 15021
+            name: status-port

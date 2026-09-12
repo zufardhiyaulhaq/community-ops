@@ -6,3 +6,4 @@ resources:
 - observability-system
 - vcluster-system
 - kato-system
+- bookinfo

@@ -1,6 +1,8 @@
 commonLabels:
   owner: zufardhiyaulhaq
-  istio.io/rev: 1-30-4
+  # Injection via the "default" revision tag (CI keeps it on the newest
+  # revision), so this namespace needs no edit on Istio upgrades.
+  istio.io/rev: default
 
 resources:
 - ../../../../../../bases/cluster-scope/namespace/default

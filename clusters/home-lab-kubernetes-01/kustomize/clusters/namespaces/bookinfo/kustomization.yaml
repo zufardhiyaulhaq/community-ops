@@ -1,0 +1,9 @@
+commonLabels:
+  owner: zufardhiyaulhaq
+  # Enable Istio sidecar injection via the "default" revision tag (currently
+  # aliases revision 1-30-4). Using the tag instead of a pinned revision means
+  # this namespace follows the default control plane across upgrades.
+  istio.io/rev: default
+
+resources:
+- ../../../../../../bases/cluster-scope/namespace/bookinfo
