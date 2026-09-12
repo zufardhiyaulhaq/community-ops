@@ -8,16 +8,16 @@ spec:
   source:
     repoURL: https://gopaytech.github.io/kato/charts/releases/
     chart: kato
-    targetRevision: 0.8.0
+    targetRevision: 0.9.0
     helm:
       releaseName: kato
       valuesObject:
         # Kubernetes troubleshooting operator (read-only checks).
         # LLM summaries are off for now; checks return raw evidence.
         image:
-          # Chart default tag is "0.8.0" but the published image is "v0.8.0"
-          # (ghcr.io/gopaytech/kato tags: main, v0.8.0, latest) -> pin it.
-          tag: v0.8.0
+          # Chart default tag lacks the "v" prefix (e.g. "0.9.0") and 404s;
+          # the published image is "v0.9.0" (arm64+amd64) -> pin it.
+          tag: v0.9.0
         modelConfig:
           enabled: false
   destination:

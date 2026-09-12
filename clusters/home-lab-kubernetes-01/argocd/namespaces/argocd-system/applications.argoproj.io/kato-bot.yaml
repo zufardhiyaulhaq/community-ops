@@ -8,10 +8,14 @@ spec:
   source:
     repoURL: https://gopaytech.github.io/kato-bot/charts/releases/
     chart: kato-bot
-    targetRevision: 0.5.1
+    targetRevision: 0.6.0
     helm:
       releaseName: kato-bot
       valuesObject:
+        # Pin the v-prefixed image tag (chart default "0.6.0" 404s; the
+        # published image is "v0.6.0", arm64+amd64).
+        image:
+          tag: v0.6.0
         # Telegram-only chat adapter. Long-poll getUpdates -> no ingress.
         telegram:
           enabled: true
