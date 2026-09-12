@@ -1,0 +1,21 @@
+# CloudNativePG operator (chart cloudnative-pg 0.29.0 / appVersion 1.30.0).
+# Homelab: single replica (upstream default is 3).
+replicaCount: 1
+
+image:
+  repository: ghcr.io/cloudnative-pg/cloudnative-pg
+  # Pin the operator to 1.30.0 (matches chart 0.29.0's appVersion).
+  # On upgrade, bump the chart version in helmfile.yaml and this tag together.
+  tag: "1.30.0"
+  pullPolicy: IfNotPresent
+
+crds:
+  create: true
+
+monitoring:
+  podMonitorEnabled: true
+
+config:
+  data:
+    CLUSTERS_ROLLOUT_DELAY: '60'
+    INSTANCES_ROLLOUT_DELAY: '10'

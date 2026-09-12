@@ -1,6 +1,6 @@
 fullnameOverride: "o11y"
 
-# single-node TSDB — was vmcluster (6 vmstorage + 3 vmselect + 2 vminsert). Pi-sized.
+# single-node TSDB
 vmsingle:
   enabled: true
   spec:
@@ -21,6 +21,14 @@ vmalert:
   enabled: true
 vmagent:
   enabled: true
+  # Tag every scraped metric with the Kubernetes cluster name so dashboards/
+  # alerts can filter by cluster (the "Cluster" dropdown in Grafana).
+  # Uses cluster_name (not cluster) to avoid colliding with CloudNativePG's
+  # own `cluster` metric label (which names the Postgres cluster).
+  # Additive: existing queries that ignore the label are unaffected.
+  spec:
+    externalLabels:
+      cluster_name: home-lab-kubernetes-01
 
 alertmanager:
   enabled: true

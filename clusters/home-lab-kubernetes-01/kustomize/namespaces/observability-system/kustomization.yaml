@@ -1,6 +1,18 @@
-
 namespace: observability-system
 commonLabels:
   namespace: observability-system
   owner: zufardhiyaulhaq
 
+# Grafana dashboards as code. The grafana-sc-dashboard sidecar watches
+# ConfigMaps labeled grafana_dashboard=1 in this namespace and imports them,
+# so dashboards are restored from git after any Grafana/PVC loss.
+# Add a dashboard: drop its exported JSON in dashboards/ and list it below.
+generatorOptions:
+  disableNameSuffixHash: true
+  labels:
+    grafana_dashboard: "1"
+
+configMapGenerator:
+- name: grafana-dashboard-frp-operator
+  files:
+  - dashboards/frp-operator.json
