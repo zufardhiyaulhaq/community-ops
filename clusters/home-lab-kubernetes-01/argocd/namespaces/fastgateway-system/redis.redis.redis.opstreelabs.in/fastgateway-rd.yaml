@@ -21,8 +21,8 @@ spec:
       limits:
         cpu: 200m
         memory: 128Mi
-  redisExporter:
-    enabled: false
+  # redisExporter omitted on purpose: the CRD requires redisExporter.image when
+  # the block is present, so leaving it out keeps the exporter disabled cleanly.
   storage:
     volumeClaimTemplate:
       spec:
