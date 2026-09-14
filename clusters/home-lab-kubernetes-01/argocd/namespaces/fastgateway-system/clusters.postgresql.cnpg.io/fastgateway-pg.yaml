@@ -1,0 +1,44 @@
+apiVersion: postgresql.cnpg.io/v1
+kind: Cluster
+metadata:
+  name: fastgateway-pg
+  namespace: fastgateway-system
+spec:
+  # Master only (single primary, no replica -> no HA/failover).
+  # Set instances: 2 for 1 primary + 1 hot standby.
+  instances: 1
+
+  # Use the operator's default PostgreSQL image (multi-arch, arm64-safe) so we
+  # don't pin a tag that may not exist for this arch.
+
+  primaryUpdateStrategy: unsupervised
+  primaryUpdateMethod: switchover
+
+  storage:
+    size: 2Gi
+    storageClass: local-path
+
+  # Very low spec for the Raspberry Pi lab.
+  resources:
+    requests:
+      cpu: 100m
+      memory: 256Mi
+    limits:
+      cpu: "1"
+      memory: 512Mi
+
+  postgresql:
+    parameters:
+      # Keep Postgres within the 512Mi limit.
+      shared_buffers: "128MB"
+      max_connections: "50"
+
+  monitoring:
+    # DB instance metrics (:9187). PodMonitor CRD is present in the cluster.
+    enablePodMonitor: true
+
+  bootstrap:
+    initdb:
+      database: fastgateway
+      owner: fastgateway
+      # Password auto-generated into secret fastgateway-pg-fastgateway.

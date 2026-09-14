@@ -1,0 +1,5 @@
+resources:
+- fastgateway-system.yaml
+namespace: fastgateway-system
+commonLabels:
+  namespace: fastgateway-system

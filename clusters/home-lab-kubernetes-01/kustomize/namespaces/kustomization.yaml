@@ -7,3 +7,5 @@ resources:
 - vcluster-system
 - kato-system
 - bookinfo
+- fastgateway-system
+- redis-system

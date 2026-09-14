@@ -1,0 +1,24 @@
+# OT-Container-Kit redis-operator (chart 0.26.1 / appVersion 0.26.0).
+redisOperator:
+  imageName: quay.io/opstree/redis-operator
+  # Pin the v-prefixed tag: the chart default is the appVersion "0.26.0" (no v),
+  # which 404s on quay. v0.26.0 exists and is multi-arch (amd64 + arm64).
+  imageTag: "v0.26.0"
+  # Watch all namespaces (cluster-scoped operator).
+  watchNamespace: ""
+  webhook: false
+
+replicas: 1
+
+# Low spec for the Raspberry Pi lab (chart default is 500m/500Mi req+limit).
+resources:
+  requests:
+    cpu: 50m
+    memory: 128Mi
+  limits:
+    cpu: 500m
+    memory: 256Mi
+
+rbac:
+  enabled: true
+  scope: cluster

@@ -1,0 +1,4 @@
+namespace: fastgateway-system
+commonLabels:
+  namespace: fastgateway-system
+  owner: zufardhiyaulhaq

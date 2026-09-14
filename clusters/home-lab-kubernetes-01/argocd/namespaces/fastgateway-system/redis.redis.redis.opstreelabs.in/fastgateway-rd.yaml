@@ -1,0 +1,33 @@
+apiVersion: redis.redis.opstreelabs.in/v1beta2
+kind: Redis
+metadata:
+  name: fastgateway-rd
+  namespace: fastgateway-system
+spec:
+  # Standalone Redis = a single instance (no HA). Managed by the ot redis-operator
+  # in redis-system (it watches all namespaces).
+  podSecurityContext:
+    runAsUser: 1000
+    fsGroup: 1000
+  kubernetesConfig:
+    # Pinned multi-arch tag (amd64 + arm64). ":latest" and some v7.0.x tags are
+    # not arm64-safe on the Pi.
+    image: quay.io/opstree/redis:v7.2.16
+    imagePullPolicy: IfNotPresent
+    resources:
+      requests:
+        cpu: 50m
+        memory: 64Mi
+      limits:
+        cpu: 200m
+        memory: 128Mi
+  redisExporter:
+    enabled: false
+  storage:
+    volumeClaimTemplate:
+      spec:
+        storageClassName: local-path
+        accessModes: ["ReadWriteOnce"]
+        resources:
+          requests:
+            storage: 1Gi

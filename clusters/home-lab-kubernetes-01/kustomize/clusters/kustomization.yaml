@@ -8,3 +8,5 @@ resources:
 - namespaces/vcluster-system
 - namespaces/kato-system
 - namespaces/bookinfo
+- namespaces/fastgateway-system
+- namespaces/redis-system

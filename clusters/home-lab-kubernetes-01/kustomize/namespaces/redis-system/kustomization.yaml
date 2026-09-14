@@ -1,0 +1,4 @@
+namespace: redis-system
+commonLabels:
+  namespace: redis-system
+  owner: zufardhiyaulhaq

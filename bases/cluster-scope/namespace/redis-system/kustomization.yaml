@@ -1,0 +1,5 @@
+resources:
+- redis-system.yaml
+namespace: redis-system
+commonLabels:
+  namespace: redis-system
