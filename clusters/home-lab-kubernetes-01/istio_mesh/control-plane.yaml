@@ -4,7 +4,7 @@ metadata:
   name: control-plane
   namespace: istio-system
 spec:
-  hub: registry.istio.io/release
+  hub: ghcr.io/zufardhiyaulhaq/istio-mirror
   profile: minimal
   components:
     pilot:

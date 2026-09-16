@@ -4,7 +4,7 @@ metadata:
   name: istio-egressgateway
   namespace: istio-system
 spec:
-  hub: gcr.io/istio-release
+  hub: ghcr.io/zufardhiyaulhaq/istio-mirror
   profile: empty
   components:
     egressGateways:
