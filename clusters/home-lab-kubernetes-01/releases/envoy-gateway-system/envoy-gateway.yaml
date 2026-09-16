@@ -1,0 +1,29 @@
+# Envoy Gateway (gateway-helm) v1.8.4.
+# Controller images default to the chart appVersion (v1.8.4), which is multi-arch
+# (amd64 + arm64) and pulls fine on the Pi nodes.
+
+crds:
+  # CRDs are installed by the dedicated `gateway-crds` release (see helmfile).
+  # Keep this off so the two releases never fight over CRD ownership.
+  enabled: false
+
+config:
+  envoyGateway:
+    extensionApis:
+      # Required by FastGateway: it programs Envoy Gateway Backend resources, which
+      # are gated behind this extension API. Merges over the chart defaults
+      # (gateway.controllerName / provider / logging stay intact).
+      enableBackend: true
+
+deployment:
+  replicas: 1
+  envoyGateway:
+    # Low spec for the 5-node Pi lab (chart default is 100m/256Mi req,
+    # 500m/1024Mi limit).
+    resources:
+      requests:
+        cpu: 50m
+        memory: 128Mi
+      limits:
+        cpu: 500m
+        memory: 256Mi

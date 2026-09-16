@@ -17,6 +17,10 @@ repositories:
   url: https://cloudnative-pg.github.io/charts
 - name: ot
   url: https://ot-container-kit.github.io/helm-charts/
+- name: envoyproxy
+  # OCI registry. Charts pulled as oci://docker.io/envoyproxy/{gateway-helm,gateway-crds-helm}.
+  url: docker.io/envoyproxy
+  oci: true
 
 releases:
 - name: prometheus-operator-crds
@@ -70,6 +74,26 @@ releases:
   chart: ot/redis-operator
   values:
   - releases/redis-system/redis-operator.yaml
+
+# CRDs live in their own release so `helmfile sync` actually manages CRD
+# upgrades (the main gateway-helm chart ships CRDs under crds/, which Helm never
+# upgrades). v1.8.4 bundles Gateway API v1.5.1 (standard channel) + EG CRDs.
+- name: gateway-crds
+  namespace: envoy-gateway-system
+  version: v1.8.4
+  chart: envoyproxy/gateway-crds-helm
+  values:
+  - releases/envoy-gateway-system/gateway-crds.yaml
+
+- name: envoy-gateway
+  namespace: envoy-gateway-system
+  version: v1.8.4
+  chart: envoyproxy/gateway-helm
+  # CRDs are owned by the gateway-crds release above.
+  needs:
+  - envoy-gateway-system/gateway-crds
+  values:
+  - releases/envoy-gateway-system/envoy-gateway.yaml
 
 - name: argocd
   namespace: argocd-system

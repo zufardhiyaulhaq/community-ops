@@ -1,8 +1,8 @@
 apiVersion: redis.redis.opstreelabs.in/v1beta2
 kind: Redis
 metadata:
-  name: fastgateway-rd
-  namespace: fastgateway-system
+  name: envoy-gateway-rd
+  namespace: envoy-gateway-system
 spec:
   # Standalone Redis = a single instance (no HA). Managed by the ot redis-operator
   # in redis-system (it watches all namespaces).

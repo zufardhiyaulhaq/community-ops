@@ -1,0 +1,5 @@
+resources:
+- envoy-gateway-system.yaml
+namespace: envoy-gateway-system
+commonLabels:
+  namespace: envoy-gateway-system

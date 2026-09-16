@@ -1,0 +1,4 @@
+namespace: envoy-gateway-system
+commonLabels:
+  namespace: envoy-gateway-system
+  owner: zufardhiyaulhaq

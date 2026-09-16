@@ -9,3 +9,4 @@ resources:
 - bookinfo
 - fastgateway-system
 - redis-system
+- envoy-gateway-system

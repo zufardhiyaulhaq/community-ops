@@ -10,3 +10,4 @@ resources:
 - namespaces/bookinfo
 - namespaces/fastgateway-system
 - namespaces/redis-system
+- namespaces/envoy-gateway-system

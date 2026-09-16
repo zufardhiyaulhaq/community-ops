@@ -41,4 +41,18 @@ spec:
     initdb:
       database: fastgateway
       owner: fastgateway
-      # Password auto-generated into secret fastgateway-pg-fastgateway.
+      # Password initially auto-generated; overridden declaratively below.
+
+  # Approach A: the fastgateway role password is sourced from the sealed
+  # fastgateway-database secret, so the DB role and the app's DB secret share a
+  # single source of truth. CNPG reads only the `password` key here (and checks
+  # `username` matches the role name); the `database` key is for FastGateway.
+  # A re-sealed password is applied on the next reconcile / ArgoCD sync.
+  managed:
+    roles:
+    - name: fastgateway
+      ensure: present
+      login: true
+      superuser: false
+      passwordSecret:
+        name: fastgateway-database
