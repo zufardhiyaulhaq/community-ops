@@ -1,0 +1,44 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: fastgateway
+  namespace: argocd-system
+spec:
+  project: default
+  source:
+    repoURL: https://charts.fastgateway.dev/releases/
+    chart: fastgateway
+    targetRevision: 0.1.0
+    helm:
+      releaseName: fastgateway
+      valuesObject:
+        # Backend/frontend images are public multi-arch (amd64 + arm64) on ghcr,
+        # tag "main" (moving). Chart-default resources suit the Pi lab.
+        database:
+          type: external
+          external:
+            # CNPG primary (read-write) service in this namespace.
+            host: fastgateway-pg-rw.fastgateway-system.svc
+            port: 5432
+            # Sealed basic-auth secret (username/password/database). The password
+            # is the source of truth for the CNPG-managed fastgateway role.
+            existingSecret: fastgateway-database
+            # Encrypt in transit; CNPG serves TLS. "require" = no CA verification
+            # (CNPG uses its own self-signed CA).
+            sslmode: require
+        secrets:
+          # jwt-secret / encryption-key / admin-password.
+          existingSecret: fastgateway-secrets
+        config:
+          logLevel: info
+          adminUsername: admin
+          adminEmail: admin@fastgateway.local
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: fastgateway-system
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=false
