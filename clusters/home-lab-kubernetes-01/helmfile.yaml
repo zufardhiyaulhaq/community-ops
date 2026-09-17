@@ -75,23 +75,15 @@ releases:
   values:
   - releases/redis-system/redis-operator.yaml
 
-# CRDs live in their own release so `helmfile sync` actually manages CRD
-# upgrades (the main gateway-helm chart ships CRDs under crds/, which Helm never
-# upgrades). v1.8.4 bundles Gateway API v1.5.1 (standard channel) + EG CRDs.
-- name: gateway-crds
-  namespace: envoy-gateway-system
-  version: v1.8.4
-  chart: envoyproxy/gateway-crds-helm
-  values:
-  - releases/envoy-gateway-system/gateway-crds.yaml
-
+# Envoy Gateway CRDs are NOT installed here. The gateway-crds-helm chart renders
+# ~3.4MB of CRDs, which overflows Helm's 1MB release-record Secret. They are
+# installed by the `envoy-gateway-crds` ArgoCD Application instead (ArgoCD uses
+# `helm template` + server-side apply, so there is no release Secret and no size
+# limit). This release is only the controller (crds.enabled: false in values).
 - name: envoy-gateway
   namespace: envoy-gateway-system
   version: v1.8.4
   chart: envoyproxy/gateway-helm
-  # CRDs are owned by the gateway-crds release above.
-  needs:
-  - envoy-gateway-system/gateway-crds
   values:
   - releases/envoy-gateway-system/envoy-gateway.yaml
 

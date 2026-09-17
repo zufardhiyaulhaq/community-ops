@@ -44,3 +44,12 @@ configs:
     requests:
       cpu: 32m
       memory: 64Mi
+  # Register the Envoy Gateway OCI Helm registry so the envoy-gateway-crds
+  # Application can pull oci://docker.io/envoyproxy/gateway-crds-helm. Public,
+  # anonymous pull -> no credentials.
+  repositories:
+    envoyproxy:
+      url: docker.io/envoyproxy
+      name: envoyproxy
+      type: helm
+      enableOCI: "true"

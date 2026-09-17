@@ -1,0 +1,36 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: envoy-gateway-crds
+  namespace: argocd-system
+spec:
+  project: default
+  source:
+    # OCI Helm chart. ArgoCD renders it with `helm template` and applies the
+    # manifests directly (no Helm release Secret), so the ~3.4MB of CRDs that
+    # overflow Helm's 1MB release-record are not a problem here.
+    repoURL: docker.io/envoyproxy
+    chart: gateway-crds-helm
+    targetRevision: v1.8.4
+    helm:
+      releaseName: gateway-crds
+      valuesObject:
+        crds:
+          gatewayAPI:
+            enabled: true
+            # standard channel = Gateway API v1.5.1 GA/beta resources.
+            channel: standard
+          envoyGateway:
+            enabled: true
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: envoy-gateway-system
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=false
+    # The envoyproxies CRD alone is ~1.35MB; server-side apply avoids the
+    # client-side "metadata.annotations too long" (262144 bytes) error.
+    - ServerSideApply=true
