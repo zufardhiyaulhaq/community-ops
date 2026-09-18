@@ -1,0 +1,25 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: fastgateway-zufardhiyaulhaq-com-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "fastgateway.zufardhiyaulhaq.com"
+  gateways:
+  - istio-system/fastgateway-zufardhiyaulhaq-com-gateway
+  http:
+  - name: "default-route"
+    match:
+    - uri:
+        prefix: /
+    route:
+      # Frontend only: the Next.js frontend proxies API calls to the backend
+      # in-cluster (BACKEND_URL=http://fastgateway-backend:8081), so the public
+      # entrypoint is just the frontend.
+      - destination:
+          port:
+            number: 3001
+          host: fastgateway-frontend.fastgateway-system.svc.cluster.local
+  exportTo:
+    - "."
