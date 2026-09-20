@@ -14,6 +14,15 @@ spec:
       valuesObject:
         # Backend/frontend images are public multi-arch (amd64 + arm64) on ghcr,
         # tag "main" (moving). Chart-default resources suit the Pi lab.
+        # pullPolicy: Always because "main" is a moving tag -- IfNotPresent would
+        # reuse the node's cached image and never pick up a new "main" push. With
+        # Always, a `kubectl rollout restart` pulls the latest build.
+        backend:
+          image:
+            pullPolicy: Always
+        frontend:
+          image:
+            pullPolicy: Always
         database:
           type: external
           external:
