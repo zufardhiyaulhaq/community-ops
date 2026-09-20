@@ -1,0 +1,63 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: podinfo
+  namespace: bookinfo
+  labels:
+    app: podinfo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: podinfo
+  template:
+    metadata:
+      labels:
+        app: podinfo
+    spec:
+      containers:
+      - name: podinfo
+        # Multi-arch (amd64 + arm64), runs on the Pi nodes.
+        image: ghcr.io/stefanprodan/podinfo:6.8.0
+        imagePullPolicy: IfNotPresent
+        ports:
+        - name: http
+          containerPort: 9898
+          protocol: TCP
+        command:
+        - ./podinfo
+        - --port=9898
+        - --level=info
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: http
+        readinessProbe:
+          httpGet:
+            path: /readyz
+            port: http
+        resources:
+          requests:
+            cpu: 20m
+            memory: 32Mi
+          limits:
+            cpu: 200m
+            memory: 96Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: podinfo
+  namespace: bookinfo
+  labels:
+    app: podinfo
+spec:
+  selector:
+    app: podinfo
+  ports:
+  # Named "http" so istio detects the protocol for mesh routing / mTLS.
+  - name: http
+    port: 9898
+    targetPort: http
+    protocol: TCP

@@ -1,0 +1,22 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: istio-mtls-test-zufardhiyaulhaq-com-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "istio-mtls-test.zufardhiyaulhaq.com"
+  gateways:
+  - istio-system/istio-mtls-test-zufardhiyaulhaq-com-gateway
+  http:
+  - name: "default-route"
+    match:
+    - uri:
+        prefix: /
+    route:
+      - destination:
+          port:
+            number: 9898
+          host: podinfo.bookinfo.svc.cluster.local
+  exportTo:
+    - "."

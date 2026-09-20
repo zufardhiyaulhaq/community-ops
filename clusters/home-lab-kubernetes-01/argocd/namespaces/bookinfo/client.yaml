@@ -1,0 +1,34 @@
+---
+# In-mesh client to exec into for testing (podinfo calls + egress ports).
+# Gets a sidecar via bookinfo injection. Just sleeps; curl is not preinstalled
+# on ubuntu -- once exec'd in (sidecar up), run:
+#   apt-get update && apt-get install -y curl
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: client
+  namespace: bookinfo
+  labels:
+    app: client
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: client
+  template:
+    metadata:
+      labels:
+        app: client
+    spec:
+      containers:
+      - name: client
+        image: ubuntu:24.04
+        imagePullPolicy: IfNotPresent
+        command: ["sleep", "infinity"]
+        resources:
+          requests:
+            cpu: 10m
+            memory: 16Mi
+          limits:
+            cpu: 100m
+            memory: 64Mi
