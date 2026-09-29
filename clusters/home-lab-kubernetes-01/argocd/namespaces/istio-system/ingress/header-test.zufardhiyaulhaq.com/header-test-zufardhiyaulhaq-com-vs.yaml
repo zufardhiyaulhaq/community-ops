@@ -1,0 +1,40 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: header-test-zufardhiyaulhaq-com-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "header-test.zufardhiyaulhaq.com"
+  gateways:
+  - istio-system/header-test-zufardhiyaulhaq-com-gateway
+  http:
+  - name: "default-route"
+    match:
+    - uri:
+        prefix: /
+    # Envoy command operators are evaluated on the gateway's Envoy and injected
+    # as real headers (no EnvoyFilter needed). See:
+    # https://notes.zufardhiyaulhaq.com/til/istio-custom-requestresponse-header-values-with-envoys-operators/
+    headers:
+      request:
+        set:
+          # Sent to podinfo -> visible in GET /headers
+          x-real-client-ip: "%DOWNSTREAM_REMOTE_ADDRESS_WITHOUT_PORT%"
+          x-downstream-local-address: "%DOWNSTREAM_LOCAL_ADDRESS%"
+          x-request-protocol: "%PROTOCOL%"
+          x-client-cert-san: "%DOWNSTREAM_PEER_URI_SAN%"
+          x-request-start: "%START_TIME(%s)%"
+          x-copied-user-agent: "%REQ(USER-AGENT)%"
+      response:
+        set:
+          # Returned to the caller -> visible in curl -i
+          x-demo: "istio-envoy-operators"
+          x-response-protocol: "%PROTOCOL%"
+    route:
+      - destination:
+          port:
+            number: 9898
+          host: podinfo.bookinfo.svc.cluster.local
+  exportTo:
+    - "."
