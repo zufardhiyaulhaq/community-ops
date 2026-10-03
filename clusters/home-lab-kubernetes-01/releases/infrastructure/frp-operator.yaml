@@ -6,10 +6,18 @@ operator:
   # number of replica for deployment
   replica: 1
 
+# v0.11.0 does more work (client metrics, ServerPool) than the chart's default
+# limits (200m/100Mi) allow on an ARM Pi. Under that starvation the liveness
+# probe (/healthz, hardcoded 1s timeout) times out and the kubelet SIGKILLs the
+# manager every ~98s, so it never recreates the frpc tunnel pod. Raise the
+# limits so the health goroutine is always schedulable within 1s.
 resources:
   requests:
-    cpu: 16m
-    memory: 64Mi
+    cpu: 50m
+    memory: 128Mi
+  limits:
+    cpu: "1"
+    memory: 256Mi
 
 metrics:
   serviceMonitor:
