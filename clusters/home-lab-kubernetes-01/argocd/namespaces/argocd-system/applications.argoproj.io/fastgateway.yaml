@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://charts.fastgateway.dev/releases/
     chart: fastgateway
-    targetRevision: 1.0.5
+    targetRevision: 1.0.6
     helm:
       releaseName: fastgateway
       valuesObject:
@@ -22,7 +22,7 @@ spec:
             pullPolicy: IfNotPresent
         frontend:
           image:
-            tag: v0.1.5
+            tag: v0.1.6
             pullPolicy: IfNotPresent
         database:
           type: external
