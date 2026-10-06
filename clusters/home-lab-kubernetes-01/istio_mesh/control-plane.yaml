@@ -11,10 +11,11 @@ spec:
       enabled: true
       k8s:
         env:
-          - name: METRIC_ROTATION_INTERVAL
-            value: "2m0s"
-          - name: METRIC_GRACEFUL_DELETION_INTERVAL
-            value: "5m0s"
+          # METRIC_ROTATION_INTERVAL / METRIC_GRACEFUL_DELETION_INTERVAL were
+          # REMOVED in Istio 1.28 (PR #57571) -> dead no-ops on 1.30.x, which is
+          # why metrics stopped rotating. Replaced by the mesh-wide
+          # sidecar.istio.io/statsEvictionInterval injectedAnnotation (see
+          # values.sidecarInjectorWebhook below).
           - name: PILOT_DEBOUNCE_AFTER
             value: "500ms"
           - name: PILOT_DEBOUNCE_MAX
@@ -143,3 +144,12 @@ spec:
             cpu: 32m
           limits:
             memory: 512Mi
+    sidecarInjectorWebhook:
+      # Mesh-wide replacement for the removed metric rotation. Every sidecar
+      # injected by this revision gets this annotation, which the istio-agent
+      # reads at BOOTSTRAP from the pod metadata and uses to evict stale Envoy
+      # stats every 120s (matches the old 2m rotation). Value must be a multiple
+      # of the stats flush interval. Takes effect on pod (re)injection -> roll
+      # workloads to apply.
+      injectedAnnotations:
+        sidecar.istio.io/statsEvictionInterval: "120s"
