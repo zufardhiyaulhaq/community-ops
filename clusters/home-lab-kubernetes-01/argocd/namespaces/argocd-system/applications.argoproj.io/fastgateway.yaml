@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://charts.fastgateway.dev/releases/
     chart: fastgateway
-    targetRevision: 1.1.0
+    targetRevision: 1.1.1
     helm:
       releaseName: fastgateway
       valuesObject:
