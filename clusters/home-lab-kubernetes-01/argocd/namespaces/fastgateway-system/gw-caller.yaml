@@ -1,0 +1,43 @@
+---
+# In-cluster traffic generator: continuously calls a FastGateway/Envoy Gateway
+# route via the shared ClusterIP Envoy, using the Host header (Envoy routes by
+# host). dns-test.zufardhiyaulhaq.com is internal-only (no public DNS). Swap HOST
+# to default.zufardhiyaulhaq.com for a wired 200 route (podinfo).
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gw-caller
+  namespace: fastgateway-system
+  labels:
+    app: gw-caller
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gw-caller
+  template:
+    metadata:
+      labels:
+        app: gw-caller
+    spec:
+      containers:
+      - name: caller
+        image: curlimages/curl:8.11.1
+        imagePullPolicy: IfNotPresent
+        command: ["/bin/sh", "-c"]
+        args:
+        - |
+          HOST=dns-test.zufardhiyaulhaq.com
+          TARGET=envoy-shared-envoy-clusterip-9c471d9f.envoy-gateway-system.svc.cluster.local
+          while true; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 5 -H "Host: $HOST" "http://$TARGET/")
+            echo "$(date -u +%T) $HOST -> $code"
+            sleep 2
+          done
+        resources:
+          requests:
+            cpu: 10m
+            memory: 16Mi
+          limits:
+            cpu: 100m
+            memory: 32Mi
