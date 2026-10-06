@@ -1,0 +1,20 @@
+apiVersion: operator.victoriametrics.com/v1beta1
+kind: VMPodScrape
+metadata:
+  name: envoy-gateway-proxy
+  namespace: envoy-gateway-system
+spec:
+  # Envoy Gateway data-plane proxies expose Prometheus metrics on the "metrics"
+  # port (19001) at /stats/prometheus -- per-route request counts, response
+  # codes, latencies, upstream health. vmagent selectAllByDefault=true picks
+  # this up automatically.
+  selector:
+    matchLabels:
+      app.kubernetes.io/managed-by: envoy-gateway
+      app.kubernetes.io/component: proxy
+  namespaceSelector:
+    matchNames:
+    - envoy-gateway-system
+  podMetricsEndpoints:
+  - port: metrics
+    path: /stats/prometheus
