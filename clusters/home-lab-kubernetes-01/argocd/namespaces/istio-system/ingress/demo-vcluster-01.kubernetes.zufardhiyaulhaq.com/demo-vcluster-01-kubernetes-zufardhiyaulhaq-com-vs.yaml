@@ -1,0 +1,21 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: demo-vcluster-01-kubernetes-zufardhiyaulhaq-com-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "demo-vcluster-01.kubernetes.zufardhiyaulhaq.com"
+  gateways:
+  - istio-system/demo-vcluster-01-kubernetes-zufardhiyaulhaq-com-gateway
+  tls:
+  - match:
+    - sniHosts:
+      - "demo-vcluster-01.kubernetes.zufardhiyaulhaq.com"
+    route:
+    - destination:
+        host: demo-vcluster-01.demo-vcluster-01.svc.cluster.local
+        port:
+          number: 443
+  exportTo:
+    - "."

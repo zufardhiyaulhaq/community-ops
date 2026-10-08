@@ -1,0 +1,180 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: demo-vcluster-01
+  namespace: argocd-system
+spec:
+  project: default
+  source:
+    repoURL: https://charts.loft.sh
+    chart: vcluster
+    targetRevision: 0.36.1
+    helm:
+      releaseName: demo-vcluster-01
+      valuesObject:
+        controlPlane:
+          distro:
+            k8s:
+              enabled: true
+              version: v1.36.0
+          statefulSet:
+            resources:
+              requests:
+                cpu: 200m
+                memory: 512Mi
+              limits:
+                cpu: "1"
+                memory: 1Gi
+          proxy:
+            extraSANs:
+            - demo-vcluster-01.kubernetes.zufardhiyaulhaq.com
+        sync:
+          fromHost:
+            nodes:
+              enabled: false
+        exportKubeConfig:
+          secret:
+            name: vc-kubeconfig
+          server: https://demo-vcluster-01.kubernetes.zufardhiyaulhaq.com:20443
+        # Bootstrap the full FastGateway stack INSIDE the vcluster at startup.
+        # Everything a demo visitor touches (Gateway API CRDs, Envoy Gateway,
+        # Envoy data-plane replicas, Redis, Postgres, FastGateway) lives in here
+        # and is isolated from the host and from other sessions. Teardown is a
+        # single delete of this Application -> the demo-vcluster-01 namespace ->
+        # every pod above vanishes, which is what the 15-minute reaper (next MR)
+        # will do.
+        experimental:
+          deploy:
+            vcluster:
+              # Redis is the backend for Envoy Gateway's global rate-limit
+              # service. Ephemeral cache only (no persistence) so it stays tiny
+              # on the Pi nodes. redis:7-alpine is arm64-native.
+              manifests: |-
+                apiVersion: v1
+                kind: Namespace
+                metadata:
+                  name: redis-system
+                ---
+                apiVersion: apps/v1
+                kind: Deployment
+                metadata:
+                  name: redis
+                  namespace: redis-system
+                  labels:
+                    app: redis
+                spec:
+                  replicas: 1
+                  selector:
+                    matchLabels:
+                      app: redis
+                  template:
+                    metadata:
+                      labels:
+                        app: redis
+                    spec:
+                      containers:
+                      - name: redis
+                        image: redis:7-alpine
+                        args: ["--save", "", "--appendonly", "no"]
+                        ports:
+                        - containerPort: 6379
+                        resources:
+                          requests:
+                            cpu: 25m
+                            memory: 32Mi
+                          limits:
+                            cpu: 100m
+                            memory: 64Mi
+                ---
+                apiVersion: v1
+                kind: Service
+                metadata:
+                  name: redis
+                  namespace: redis-system
+                spec:
+                  selector:
+                    app: redis
+                  ports:
+                  - port: 6379
+                    targetPort: 6379
+                ---
+                apiVersion: v1
+                kind: Namespace
+                metadata:
+                  name: fastgateway-system
+                ---
+                # Pre-created so FastGateway uses a KNOWN admin login instead of
+                # the chart's random one. The chart needs all three keys together
+                # (it is all-or-nothing on secrets.existingSecret).
+                apiVersion: v1
+                kind: Secret
+                metadata:
+                  name: fastgateway-secrets
+                  namespace: fastgateway-system
+                type: Opaque
+                stringData:
+                  # Public demo login (admin / admin) - intentionally shared so
+                  # visitors can sign in.
+                  admin-password: "admin"
+                  # Throwaway per-demo keys: the vcluster is deleted and rebuilt
+                  # every 15 minutes and holds no real data, so these are not
+                  # sensitive even though the repo is public.
+                  jwt-secret: "n6D3IZRP4dqbxywDJeyhZGwAIqmQ173a123123"
+                  encryption-key: "Ky4O6xIQ16cLdW9MLjaUbJNUnaDIWhZe123123"
+              helm:
+              # Envoy Gateway v1.9.2 (latest stable) bundles Gateway API v1.6.1 +
+              # Envoy Gateway CRDs. enableBackend is required by FastGateway (it
+              # programs Envoy Gateway Backend resources). rateLimit wires the
+              # ratelimit service to the Redis above; enabling it makes Envoy
+              # Gateway deploy its own ratelimit workload automatically.
+              - chart:
+                  name: gateway-helm
+                  repo: oci://docker.io/envoyproxy
+                  version: v1.9.2
+                release:
+                  name: envoy-gateway
+                  namespace: envoy-gateway-system
+                values: |-
+                  config:
+                    envoyGateway:
+                      extensionApis:
+                        enableBackend: true
+                      rateLimit:
+                        backend:
+                          type: Redis
+                          redis:
+                            url: redis.redis-system.svc.cluster.local:6379
+                timeout: 10m
+              # FastGateway 1.2.0 (backend/frontend v0.3.0). database.type:
+              # internal deploys the chart's own single-replica postgres:16-alpine
+              # StatefulSet, so no external DB or CNPG operator per session.
+              # Secrets auto-generate on first install (ephemeral; no sealed
+              # secrets needed inside a throwaway vcluster).
+              - chart:
+                  name: fastgateway
+                  repo: https://charts.fastgateway.dev/releases/
+                  version: 1.2.0
+                release:
+                  name: fastgateway
+                  namespace: fastgateway-system
+                values: |-
+                  database:
+                    type: internal
+                  config:
+                    logLevel: info
+                    adminUsername: admin
+                    adminEmail: admin@fastgateway.local
+                  secrets:
+                    # Known admin login (admin / admin) from the Secret created
+                    # in the manifests block above, instead of a random password.
+                    existingSecret: fastgateway-secrets
+                timeout: 10m
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: demo-vcluster-01
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=true
