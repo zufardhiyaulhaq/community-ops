@@ -1,0 +1,85 @@
+# Demo vcluster reaper: deletes the demo-vcluster-01 namespace every 15 minutes.
+# ArgoCD selfHeal (the demo-vcluster-01 Application has automated prune+selfHeal)
+# then rebuilds the vcluster, and experimental.deploy re-bootstraps the whole
+# stack clean. Net effect: all visitor state (which lives INSIDE the vcluster,
+# untracked by Argo) is wiped on a fixed 15-minute wall-clock cycle.
+#
+# Lives in infrastructure (stable); it cannot live in demo-vcluster-01, which is
+# the namespace it deletes.
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: demo-vcluster-reaper
+  namespace: infrastructure
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: demo-vcluster-reaper
+rules:
+# Scoped to only the demo namespace: get (to check) + delete. Namespaces are
+# cluster-scoped, so this must be a ClusterRole; resourceNames limits the blast
+# radius to demo-vcluster-01 alone.
+- apiGroups: [""]
+  resources: ["namespaces"]
+  verbs: ["get", "delete"]
+  resourceNames: ["demo-vcluster-01"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: demo-vcluster-reaper
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: demo-vcluster-reaper
+subjects:
+- kind: ServiceAccount
+  name: demo-vcluster-reaper
+  namespace: infrastructure
+---
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: demo-vcluster-reaper
+  namespace: infrastructure
+spec:
+  schedule: "*/15 * * * *"
+  # Never overlap a reap with the previous one.
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      backoffLimit: 1
+      # The reap is a single fast API call; don't let a stuck run linger.
+      activeDeadlineSeconds: 120
+      template:
+        metadata:
+          annotations:
+            # No sidecar, or the Job pod never completes.
+            sidecar.istio.io/inject: "false"
+        spec:
+          serviceAccountName: demo-vcluster-reaper
+          restartPolicy: Never
+          containers:
+          - name: reaper
+            image: registry.k8s.io/kubectl:v1.33.4
+            # Distroless image (no shell): invoke kubectl directly. In-cluster
+            # config is picked up from the mounted ServiceAccount token.
+            # --wait=false so we don't block on namespace finalizers; the next
+            # cycle (and selfHeal) tolerates a slow terminate.
+            command: ["kubectl"]
+            args:
+            - delete
+            - namespace
+            - demo-vcluster-01
+            - --ignore-not-found
+            - --wait=false
+            resources:
+              requests:
+                cpu: 25m
+                memory: 32Mi
+              limits:
+                cpu: 100m
+                memory: 64Mi
