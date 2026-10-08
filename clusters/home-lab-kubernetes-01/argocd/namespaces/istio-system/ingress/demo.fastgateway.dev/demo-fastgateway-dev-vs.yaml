@@ -1,0 +1,26 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: demo-fastgateway-dev-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "demo.fastgateway.dev"
+  gateways:
+  - istio-system/demo-fastgateway-dev-gateway
+  http:
+  - name: "default-route"
+    match:
+    - uri:
+        prefix: /
+    route:
+      # The FastGateway frontend (UI) of the demo vcluster. vcluster syncs the
+      # in-vcluster Service fastgateway-frontend (ns fastgateway-system) to the
+      # host as this name, in the vcluster's host namespace demo-vcluster-01.
+      # The frontend proxies API calls to the backend inside the vcluster.
+      - destination:
+          port:
+            number: 3001
+          host: fastgateway-frontend-x-fastgateway-system-x-demo-vcluster-01.demo-vcluster-01.svc.cluster.local
+  exportTo:
+    - "."
