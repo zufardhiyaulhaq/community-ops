@@ -1,9 +1,10 @@
-# Demo vcluster reaper: deletes the demo-vcluster-01 namespace every hour.
-# ArgoCD selfHeal (the demo-vcluster-01 Application has automated prune+selfHeal)
-# then rebuilds the vcluster, and experimental.deploy re-bootstraps the whole
-# stack clean. Net effect: all visitor state (which lives INSIDE the vcluster,
-# untracked by Argo) is wiped on a fixed hourly wall-clock cycle. Boot +
-# bootstrap takes ~10-15 min, so an hourly cycle leaves ~45 min usable.
+# Demo vcluster reaper: deletes the demo-vcluster-01 namespace every hour, then
+# force-refreshes the demo-vcluster-01 ArgoCD Application so selfHeal rebuilds
+# the vcluster immediately instead of waiting up to ArgoCD's ~180s reconcile.
+# experimental.deploy then re-bootstraps the whole stack clean. Net effect: all
+# visitor state (which lives INSIDE the vcluster, untracked by Argo) is wiped on
+# a fixed hourly wall-clock cycle. Boot + bootstrap takes ~10-15 min, so an
+# hourly cycle leaves ~45 min usable.
 #
 # Lives in infrastructure (stable); it cannot live in demo-vcluster-01, which is
 # the namespace it deletes.
@@ -24,6 +25,13 @@ rules:
 - apiGroups: [""]
   resources: ["namespaces"]
   verbs: ["get", "delete"]
+  resourceNames: ["demo-vcluster-01"]
+# Force-refresh the one demo Application (annotate = get + patch) so Argo
+# reconciles it immediately after the namespace is gone. Scoped to the single
+# app name; no access to any other Application.
+- apiGroups: ["argoproj.io"]
+  resources: ["applications"]
+  verbs: ["get", "patch"]
   resourceNames: ["demo-vcluster-01"]
 ---
 apiVersion: rbac.authorization.k8s.io/v1
@@ -53,8 +61,9 @@ spec:
   jobTemplate:
     spec:
       backoffLimit: 1
-      # The reap is a single fast API call; don't let a stuck run linger.
-      activeDeadlineSeconds: 120
+      # Deleting the namespace waits for finalizers (~3-4 min), then the refresh
+      # runs; give the whole Job room before it is treated as stuck.
+      activeDeadlineSeconds: 420
       template:
         metadata:
           annotations:
@@ -63,20 +72,43 @@ spec:
         spec:
           serviceAccountName: demo-vcluster-reaper
           restartPolicy: Never
-          containers:
-          - name: reaper
+          # Two distroless kubectl steps (no shell needed). The init container
+          # deletes the namespace and WAITS for it to fully terminate; only then
+          # does the main container force-refresh the Application, so Argo
+          # rebuilds right away rather than waiting for its next reconcile. If the
+          # namespace is slow to finalize past the timeout, the Job fails and the
+          # next hourly run retries (Argo still rebuilds on its own meanwhile).
+          # In-cluster config comes from the mounted ServiceAccount token.
+          initContainers:
+          - name: delete-namespace
             image: registry.k8s.io/kubectl:v1.33.4
-            # Distroless image (no shell): invoke kubectl directly. In-cluster
-            # config is picked up from the mounted ServiceAccount token.
-            # --wait=false so we don't block on namespace finalizers; the next
-            # cycle (and selfHeal) tolerates a slow terminate.
             command: ["kubectl"]
             args:
             - delete
             - namespace
             - demo-vcluster-01
             - --ignore-not-found
-            - --wait=false
+            - --wait=true
+            - --timeout=360s
+            resources:
+              requests:
+                cpu: 25m
+                memory: 32Mi
+              limits:
+                cpu: 100m
+                memory: 64Mi
+          containers:
+          - name: force-refresh
+            image: registry.k8s.io/kubectl:v1.33.4
+            command: ["kubectl"]
+            args:
+            - annotate
+            - application
+            - demo-vcluster-01
+            - -n
+            - argocd-system
+            - argocd.argoproj.io/refresh=hard
+            - --overwrite
             resources:
               requests:
                 cpu: 25m
