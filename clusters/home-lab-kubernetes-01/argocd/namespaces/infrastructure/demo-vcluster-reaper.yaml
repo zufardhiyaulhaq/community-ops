@@ -1,8 +1,9 @@
-# Demo vcluster reaper: deletes the demo-vcluster-01 namespace every 30 minutes.
+# Demo vcluster reaper: deletes the demo-vcluster-01 namespace every hour.
 # ArgoCD selfHeal (the demo-vcluster-01 Application has automated prune+selfHeal)
 # then rebuilds the vcluster, and experimental.deploy re-bootstraps the whole
 # stack clean. Net effect: all visitor state (which lives INSIDE the vcluster,
-# untracked by Argo) is wiped on a fixed 30-minute wall-clock cycle.
+# untracked by Argo) is wiped on a fixed hourly wall-clock cycle. Boot +
+# bootstrap takes ~10-15 min, so an hourly cycle leaves ~45 min usable.
 #
 # Lives in infrastructure (stable); it cannot live in demo-vcluster-01, which is
 # the namespace it deletes.
@@ -44,7 +45,7 @@ metadata:
   name: demo-vcluster-reaper
   namespace: infrastructure
 spec:
-  schedule: "*/30 * * * *"
+  schedule: "0 * * * *"
   # Never overlap a reap with the previous one.
   concurrencyPolicy: Forbid
   successfulJobsHistoryLimit: 3
