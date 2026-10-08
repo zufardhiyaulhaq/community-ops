@@ -121,7 +121,69 @@ spec:
                   # sensitive even though the repo is public.
                   jwt-secret: "n6D3IZRP4dqbxywDJeyhZGwAIqmQ173a123123"
                   encryption-key: "Ky4O6xIQ16cLdW9MLjaUbJNUnaDIWhZe123123"
+                ---
+                # podinfo: the backend the seeded demo route points to.
+                apiVersion: v1
+                kind: Namespace
+                metadata:
+                  name: podinfo
+                ---
+                apiVersion: apps/v1
+                kind: Deployment
+                metadata:
+                  name: podinfo
+                  namespace: podinfo
+                  labels:
+                    app: podinfo
+                spec:
+                  replicas: 1
+                  selector:
+                    matchLabels:
+                      app: podinfo
+                  template:
+                    metadata:
+                      labels:
+                        app: podinfo
+                    spec:
+                      containers:
+                      - name: podinfo
+                        image: ghcr.io/stefanprodan/podinfo:6.15.0
+                        ports:
+                        - containerPort: 9898
+                        resources:
+                          requests:
+                            cpu: 25m
+                            memory: 32Mi
+                          limits:
+                            cpu: 100m
+                            memory: 64Mi
+                ---
+                apiVersion: v1
+                kind: Service
+                metadata:
+                  name: podinfo
+                  namespace: podinfo
+                spec:
+                  selector:
+                    app: podinfo
+                  ports:
+                  - port: 9898
+                    targetPort: 9898
               helm:
+              # cert-manager: the SelfSigned issuer + certificate for the seeded
+              # demo domain are added here with the seed, once the FastGateway
+              # domain model is wired.
+              - chart:
+                  name: cert-manager
+                  repo: https://charts.jetstack.io
+                  version: v1.21.2
+                release:
+                  name: cert-manager
+                  namespace: cert-manager
+                values: |-
+                  crds:
+                    enabled: true
+                timeout: 10m
               # Envoy Gateway v1.9.2 (latest stable) bundles Gateway API v1.6.1 +
               # Envoy Gateway CRDs. enableBackend is required by FastGateway (it
               # programs Envoy Gateway Backend resources). rateLimit wires the
