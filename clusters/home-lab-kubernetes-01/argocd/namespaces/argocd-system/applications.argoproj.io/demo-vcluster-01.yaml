@@ -36,6 +36,30 @@ spec:
           secret:
             name: vc-kubeconfig
           server: https://demo-vcluster-01.kubernetes.zufardhiyaulhaq.com:20443
+        # Cap the vcluster's footprint on the shared Pi nodes. The ResourceQuota
+        # lands in the demo-vcluster-01 host namespace and bounds the SUM of all
+        # synced-workload requests (steady-state stack is ~0.8 CPU / ~1.9Gi, so
+        # 1.5 CPU / 3Gi leaves room for a few visitor-created Envoys). It caps
+        # requests only. The LimitRange gives default requests to pods that set
+        # none (so they still fit the quota) and overrides vcluster's default
+        # ephemeral-storage request (3Gi/container) down to a Pi-sane value.
+        policies:
+          resourceQuota:
+            enabled: true
+            quota:
+              requests.cpu: "1500m"
+              requests.memory: 3Gi
+              count/pods: "30"
+          limitRange:
+            enabled: true
+            defaultRequest:
+              cpu: 25m
+              memory: 32Mi
+              ephemeral-storage: 256Mi
+            default:
+              cpu: "1"
+              memory: 1Gi
+              ephemeral-storage: 1Gi
         # Bootstrap the full FastGateway stack INSIDE the vcluster at startup.
         # Everything a demo visitor touches (Gateway API CRDs, Envoy Gateway,
         # Envoy data-plane replicas, Redis, Postgres, FastGateway) lives in here
