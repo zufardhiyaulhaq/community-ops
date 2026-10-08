@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: demo-fastgateway-dev-cert
+  namespace: istio-system
+spec:
+  secretName: demo-fastgateway-dev-cert
+  issuerRef:
+    name: fastgateway-dev-cluster-issuer
+    kind: ClusterIssuer
+  commonName: "demo.fastgateway.dev"
+  dnsNames:
+  - "demo.fastgateway.dev"

@@ -1,7 +1,7 @@
 apiVersion: security.istio.io/v1beta1
 kind: AuthorizationPolicy
 metadata:
-  name: test-vcluster-01-kubernetes-zufardhiyaulhaq-com-authz
+  name: demo-fastgateway-dev-authz
   namespace: istio-system
 spec:
   selector:
@@ -11,9 +11,5 @@ spec:
   rules:
   - to:
     - operation:
-        ports:
-        - "20443"
-    when:
-    - key: connection.sni
-      values:
-      - test-vcluster-01.kubernetes.zufardhiyaulhaq.com
+        hosts:
+        - demo.fastgateway.dev
