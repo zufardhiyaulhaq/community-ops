@@ -1,12 +1,10 @@
-# Demo vcluster reaper: deletes the demo-vcluster-01 namespace every hour, then
-# refreshes the demo-vcluster-01 ArgoCD Application so Argo re-checks it right
-# away (and, via selfHeal, starts rebuilding) instead of waiting on its ~180s
-# reconcile. The companion demo-vcluster-sync-nudge CronJob then triggers an
-# actual sync a few minutes later as the guaranteed apply. experimental.deploy
-# re-bootstraps the whole stack clean. Net effect: all visitor state (which
-# lives INSIDE the vcluster, untracked by Argo) is wiped on a fixed hourly
-# wall-clock cycle. Boot + bootstrap takes ~10-15 min, so an hourly cycle leaves
-# ~45 min usable.
+# Demo vcluster reaper: deletes the demo-vcluster-01 namespace every hour.
+# ArgoCD selfHeal (the demo-vcluster-01 Application has automated prune+selfHeal)
+# then rebuilds the vcluster, and the demo-vcluster-sync-nudge CronJob (:04-:08)
+# triggers an explicit sync to force the apply. experimental.deploy re-bootstraps
+# the whole stack clean. Net effect: all visitor state (which lives INSIDE the
+# vcluster, untracked by Argo) is wiped on a fixed hourly wall-clock cycle. Boot
+# + bootstrap takes ~10-15 min, so an hourly cycle leaves ~45 min usable.
 #
 # Lives in infrastructure (stable); it cannot live in demo-vcluster-01, which is
 # the namespace it deletes.
@@ -21,16 +19,17 @@ kind: ClusterRole
 metadata:
   name: demo-vcluster-reaper
 rules:
-# Scoped to only the demo namespace: get (to check) + delete. Namespaces are
-# cluster-scoped, so this must be a ClusterRole; resourceNames limits the blast
-# radius to demo-vcluster-01 alone.
+# Scoped to only the demo namespace: get + delete. Namespaces are cluster-scoped
+# so this must be a ClusterRole; resourceNames limits the blast radius to
+# demo-vcluster-01 alone. The delete uses --wait=false precisely because a
+# waiting delete needs list/watch on namespaces, which resourceNames cannot grant.
 - apiGroups: [""]
   resources: ["namespaces"]
   verbs: ["get", "delete"]
   resourceNames: ["demo-vcluster-01"]
-# Refresh (this reaper) and sync (the sync-nudge CronJob) the one demo
-# Application: both are patches on the resource. Scoped to the single app name;
-# no access to any other Application.
+# Used by the demo-vcluster-sync-nudge CronJob (same ServiceAccount) to patch the
+# one demo Application's .operation and trigger a sync. Scoped to the single app
+# name; no access to any other Application.
 - apiGroups: ["argoproj.io"]
   resources: ["applications"]
   verbs: ["get", "patch"]
@@ -63,9 +62,8 @@ spec:
   jobTemplate:
     spec:
       backoffLimit: 1
-      # Deleting the namespace waits for finalizers (~3-4 min), then the refresh
-      # runs; give the whole Job room before it is treated as stuck.
-      activeDeadlineSeconds: 420
+      # The reap is a single fast API call; don't let a stuck run linger.
+      activeDeadlineSeconds: 120
       template:
         metadata:
           annotations:
@@ -74,43 +72,21 @@ spec:
         spec:
           serviceAccountName: demo-vcluster-reaper
           restartPolicy: Never
-          # Two distroless kubectl steps (no shell needed). The init container
-          # deletes the namespace and WAITS for it to fully terminate; only then
-          # does the main container REFRESH the Application so Argo re-checks it
-          # immediately. The actual apply is left to selfHeal and, as the
-          # guarantee, to the sync-nudge CronJob at :04-:08. If the namespace is
-          # slow to finalize past the timeout, the Job fails and the next hourly
-          # run retries. In-cluster config comes from the mounted SA token.
-          initContainers:
-          - name: delete-namespace
+          containers:
+          - name: reaper
             image: registry.k8s.io/kubectl:v1.33.4
+            # Distroless image (no shell): invoke kubectl directly. In-cluster
+            # config from the mounted ServiceAccount token. --wait=false so we
+            # don't block on finalizers -- and a waiting delete would need
+            # list/watch on namespaces, which the resourceNames-scoped RBAC
+            # cannot grant. selfHeal + the sync-nudge CronJob rebuild afterwards.
             command: ["kubectl"]
             args:
             - delete
             - namespace
             - demo-vcluster-01
             - --ignore-not-found
-            - --wait=true
-            - --timeout=360s
-            resources:
-              requests:
-                cpu: 25m
-                memory: 32Mi
-              limits:
-                cpu: 100m
-                memory: 64Mi
-          containers:
-          - name: refresh
-            image: registry.k8s.io/kubectl:v1.33.4
-            command: ["kubectl"]
-            args:
-            - annotate
-            - application
-            - demo-vcluster-01
-            - -n
-            - argocd-system
-            - argocd.argoproj.io/refresh=hard
-            - --overwrite
+            - --wait=false
             resources:
               requests:
                 cpu: 25m
