@@ -2,11 +2,11 @@ operator:
   # image of frp-operator
   image: "ghcr.io/zufardhiyaulhaq/frp-operator"
   # tag of frp-operator image
-  tag: "v0.11.0"
+  tag: "v0.12.0"
   # number of replica for deployment
   replica: 1
 
-# v0.11.0 does more work (client metrics, ServerPool) than the chart's default
+# v0.12.0 does more work (client metrics, ServerPool) than the chart's default
 # limits (200m/100Mi) allow on an ARM Pi. Under that starvation the liveness
 # probe (/healthz, hardcoded 1s timeout) times out and the kubelet SIGKILLs the
 # manager every ~98s, so it never recreates the frpc tunnel pod. Raise the
