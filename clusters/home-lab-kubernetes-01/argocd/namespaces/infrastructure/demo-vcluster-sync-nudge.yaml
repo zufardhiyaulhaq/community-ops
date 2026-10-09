@@ -1,0 +1,55 @@
+# Sync nudge: a few minutes after the hourly reap (which runs at :00 and deletes
+# the demo-vcluster-01 namespace), re-trigger ArgoCD to refresh the
+# demo-vcluster-01 Application. This covers the cases the reaper's single
+# post-delete refresh can miss: the namespace was still terminating when it
+# fired, or selfHeal was in a backoff after failing to create into the
+# Terminating namespace. It is the automated equivalent of clicking "Sync" in
+# the ArgoCD UI, so the demo rebuilds without manual intervention.
+#
+# Reuses the demo-vcluster-reaper ServiceAccount, which already has get+patch on
+# the demo-vcluster-01 Application only (no new permissions).
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: demo-vcluster-sync-nudge
+  namespace: infrastructure
+spec:
+  # :04-:08 past each hour: a small window after the :00 reap, by which the
+  # namespace should have finished terminating. refresh=hard is idempotent and
+  # harmless once the app is already Synced, so repeating it is safe.
+  schedule: "4,5,6,7,8 * * * *"
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      backoffLimit: 1
+      activeDeadlineSeconds: 60
+      template:
+        metadata:
+          annotations:
+            # No sidecar, or the Job pod never completes.
+            sidecar.istio.io/inject: "false"
+        spec:
+          serviceAccountName: demo-vcluster-reaper
+          restartPolicy: Never
+          containers:
+          - name: sync-nudge
+            image: registry.k8s.io/kubectl:v1.33.4
+            # Distroless kubectl; in-cluster config from the mounted SA token.
+            command: ["kubectl"]
+            args:
+            - annotate
+            - application
+            - demo-vcluster-01
+            - -n
+            - argocd-system
+            - argocd.argoproj.io/refresh=hard
+            - --overwrite
+            resources:
+              requests:
+                cpu: 25m
+                memory: 32Mi
+              limits:
+                cpu: 100m
+                memory: 64Mi
