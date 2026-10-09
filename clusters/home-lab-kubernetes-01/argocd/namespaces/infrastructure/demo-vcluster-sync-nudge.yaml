@@ -1,10 +1,10 @@
 # Sync nudge: a few minutes after the hourly reap (which runs at :00 and deletes
-# the demo-vcluster-01 namespace), re-trigger ArgoCD to refresh the
-# demo-vcluster-01 Application. This covers the cases the reaper's single
-# post-delete refresh can miss: the namespace was still terminating when it
-# fired, or selfHeal was in a backoff after failing to create into the
-# Terminating namespace. It is the automated equivalent of clicking "Sync" in
-# the ArgoCD UI, so the demo rebuilds without manual intervention.
+# the demo-vcluster-01 namespace), re-trigger a SYNC of the demo-vcluster-01
+# Application. This covers the cases the reaper's single post-delete sync can
+# miss: the namespace was still terminating when it fired, or selfHeal was in a
+# backoff after failing to create into the Terminating namespace. A sync (not a
+# refresh) actually applies the manifests, like clicking "Sync" in the ArgoCD
+# UI, so the demo rebuilds without manual intervention.
 #
 # Reuses the demo-vcluster-reaper ServiceAccount, which already has get+patch on
 # the demo-vcluster-01 Application only (no new permissions).
@@ -15,8 +15,9 @@ metadata:
   namespace: infrastructure
 spec:
   # :04-:08 past each hour: a small window after the :00 reap, by which the
-  # namespace should have finished terminating. refresh=hard is idempotent and
-  # harmless once the app is already Synced, so repeating it is safe.
+  # namespace should have finished terminating. A normal sync (apply) is a no-op
+  # once the app is already Synced, so repeating it is safe (not --force, which
+  # could delete+recreate a healthy vcluster).
   schedule: "4,5,6,7,8 * * * *"
   concurrencyPolicy: Forbid
   successfulJobsHistoryLimit: 3
@@ -37,15 +38,18 @@ spec:
           - name: sync-nudge
             image: registry.k8s.io/kubectl:v1.33.4
             # Distroless kubectl; in-cluster config from the mounted SA token.
+            # Patch .operation to trigger a normal sync (apply + prune).
             command: ["kubectl"]
             args:
-            - annotate
+            - patch
             - application
             - demo-vcluster-01
             - -n
             - argocd-system
-            - argocd.argoproj.io/refresh=hard
-            - --overwrite
+            - --type
+            - merge
+            - -p
+            - '{"operation":{"initiatedBy":{"username":"demo-vcluster-sync-nudge"},"sync":{"prune":true}}}'
             resources:
               requests:
                 cpu: 25m
