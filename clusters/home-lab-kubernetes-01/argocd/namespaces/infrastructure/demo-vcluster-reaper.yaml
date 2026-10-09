@@ -1,12 +1,12 @@
 # Demo vcluster reaper: deletes the demo-vcluster-01 namespace every hour, then
-# triggers a SYNC of the demo-vcluster-01 ArgoCD Application so the vcluster
-# rebuilds immediately instead of waiting on ArgoCD's reconcile / selfHeal
-# backoff. A sync (not a refresh) actually applies the manifests, like the UI
-# Sync button, so it bypasses any selfHeal backoff.
-# experimental.deploy then re-bootstraps the whole stack clean. Net effect: all
-# visitor state (which lives INSIDE the vcluster, untracked by Argo) is wiped on
-# a fixed hourly wall-clock cycle. Boot + bootstrap takes ~10-15 min, so an
-# hourly cycle leaves ~45 min usable.
+# refreshes the demo-vcluster-01 ArgoCD Application so Argo re-checks it right
+# away (and, via selfHeal, starts rebuilding) instead of waiting on its ~180s
+# reconcile. The companion demo-vcluster-sync-nudge CronJob then triggers an
+# actual sync a few minutes later as the guaranteed apply. experimental.deploy
+# re-bootstraps the whole stack clean. Net effect: all visitor state (which
+# lives INSIDE the vcluster, untracked by Argo) is wiped on a fixed hourly
+# wall-clock cycle. Boot + bootstrap takes ~10-15 min, so an hourly cycle leaves
+# ~45 min usable.
 #
 # Lives in infrastructure (stable); it cannot live in demo-vcluster-01, which is
 # the namespace it deletes.
@@ -28,9 +28,9 @@ rules:
   resources: ["namespaces"]
   verbs: ["get", "delete"]
   resourceNames: ["demo-vcluster-01"]
-# Trigger a sync of the one demo Application (patch its .operation field) so it
-# rebuilds immediately after the namespace is gone. Scoped to the single app
-# name; no access to any other Application.
+# Refresh (this reaper) and sync (the sync-nudge CronJob) the one demo
+# Application: both are patches on the resource. Scoped to the single app name;
+# no access to any other Application.
 - apiGroups: ["argoproj.io"]
   resources: ["applications"]
   verbs: ["get", "patch"]
@@ -76,12 +76,11 @@ spec:
           restartPolicy: Never
           # Two distroless kubectl steps (no shell needed). The init container
           # deletes the namespace and WAITS for it to fully terminate; only then
-          # does the main container trigger a SYNC of the Application (patching
-          # its .operation), so the stack is re-applied right away instead of
-          # waiting on ArgoCD's reconcile or a selfHeal backoff. If the namespace
-          # is slow to finalize past the timeout, the Job fails and the next
-          # hourly run retries (Argo still rebuilds on its own meanwhile).
-          # In-cluster config comes from the mounted ServiceAccount token.
+          # does the main container REFRESH the Application so Argo re-checks it
+          # immediately. The actual apply is left to selfHeal and, as the
+          # guarantee, to the sync-nudge CronJob at :04-:08. If the namespace is
+          # slow to finalize past the timeout, the Job fails and the next hourly
+          # run retries. In-cluster config comes from the mounted SA token.
           initContainers:
           - name: delete-namespace
             image: registry.k8s.io/kubectl:v1.33.4
@@ -101,23 +100,17 @@ spec:
                 cpu: 100m
                 memory: 64Mi
           containers:
-          - name: force-sync
+          - name: refresh
             image: registry.k8s.io/kubectl:v1.33.4
             command: ["kubectl"]
-            # Set .operation to trigger a normal sync (apply + prune), the
-            # kubectl equivalent of the Sync button. Not --force: a forced apply
-            # could delete+recreate a healthy vcluster; a normal sync is a no-op
-            # when nothing changed and recreates everything after a wipe.
             args:
-            - patch
+            - annotate
             - application
             - demo-vcluster-01
             - -n
             - argocd-system
-            - --type
-            - merge
-            - -p
-            - '{"operation":{"initiatedBy":{"username":"demo-vcluster-reaper"},"sync":{"prune":true}}}'
+            - argocd.argoproj.io/refresh=hard
+            - --overwrite
             resources:
               requests:
                 cpu: 25m
