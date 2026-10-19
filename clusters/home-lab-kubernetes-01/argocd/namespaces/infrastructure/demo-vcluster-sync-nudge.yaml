@@ -27,7 +27,9 @@ spec:
   jobTemplate:
     spec:
       backoffLimit: 0
-      activeDeadlineSeconds: 50
+      # Room for the first alpine/k8s image pull on a node (50s was not enough
+      # on a Pi). Forbid means a slow run only delays the next one.
+      activeDeadlineSeconds: 300
       ttlSecondsAfterFinished: 300
       template:
         metadata:
