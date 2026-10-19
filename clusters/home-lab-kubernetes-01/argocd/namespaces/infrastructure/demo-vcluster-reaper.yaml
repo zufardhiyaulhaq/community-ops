@@ -1,7 +1,7 @@
 # Demo vcluster reaper: deletes the demo-vcluster-01 namespace every hour.
-# ArgoCD selfHeal (the demo-vcluster-01 Application has automated prune+selfHeal)
-# then rebuilds the vcluster, and the demo-vcluster-sync-nudge CronJob (:04-:08)
-# triggers an explicit sync to force the apply. experimental.deploy re-bootstraps
+# The demo-vcluster-sync-nudge CronJob (every minute) then syncs the Application
+# until it is Synced again; CreateNamespace=true re-creates the namespace.
+# experimental.deploy re-bootstraps
 # the whole stack clean. Net effect: all visitor state (which lives INSIDE the
 # vcluster, untracked by Argo) is wiped on a fixed hourly wall-clock cycle. Boot
 # + bootstrap takes ~10-15 min, so an hourly cycle leaves ~45 min usable.
@@ -79,7 +79,7 @@ spec:
             # config from the mounted ServiceAccount token. --wait=false so we
             # don't block on finalizers -- and a waiting delete would need
             # list/watch on namespaces, which the resourceNames-scoped RBAC
-            # cannot grant. selfHeal + the sync-nudge CronJob rebuild afterwards.
+            # cannot grant. The sync-nudge CronJob rebuilds afterwards.
             command: ["kubectl"]
             args:
             - delete

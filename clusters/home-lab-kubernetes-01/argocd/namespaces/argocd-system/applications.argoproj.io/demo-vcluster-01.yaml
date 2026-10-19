@@ -264,3 +264,12 @@ spec:
       selfHeal: true
     syncOptions:
     - CreateNamespace=true
+    # Without retry, one failed sync (e.g. into a Terminating namespace) stops
+    # auto-sync for this revision. The sync-nudge CronJob is the main safety net;
+    # this retries inside ArgoCD between its runs.
+    retry:
+      limit: 10
+      backoff:
+        duration: 30s
+        factor: 2
+        maxDuration: 3m

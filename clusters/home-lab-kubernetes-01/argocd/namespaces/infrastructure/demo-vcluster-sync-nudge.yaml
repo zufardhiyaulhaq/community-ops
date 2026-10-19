@@ -1,31 +1,34 @@
-# Sync nudge: a few minutes after the hourly reap (which runs at :00 and deletes
-# the demo-vcluster-01 namespace), re-trigger a SYNC of the demo-vcluster-01
-# Application. This covers the cases the reaper's single post-delete sync can
-# miss: the namespace was still terminating when it fired, or selfHeal was in a
-# backoff after failing to create into the Terminating namespace. A sync (not a
-# refresh) actually applies the manifests, like clicking "Sync" in the ArgoCD
-# UI, so the demo rebuilds without manual intervention.
+# Sync nudge: keeps the demo-vcluster-01 Application synced, checked every minute.
 #
-# Reuses the demo-vcluster-reaper ServiceAccount, which already has get+patch on
-# the demo-vcluster-01 Application only (no new permissions).
+# The hourly reaper deletes the demo namespace at :00. A sync that runs while the
+# namespace is still Terminating fails, and ArgoCD auto-sync never retries a
+# failed sync on the same revision ("will not retry for [0.36.1]"). With the old
+# :04-:08 window, one bad window meant the demo stayed down for the whole hour.
+#
+# So each minute this job:
+#   - namespace Terminating      -> wait for the next run
+#   - app Synced or sync Running -> nothing to do
+#   - otherwise                  -> trigger a normal sync (like the UI Sync button;
+#                                   not --force, which would recreate a healthy vcluster)
+#
+# The namespace itself is created by the Application's CreateNamespace=true.
+# Reuses the demo-vcluster-reaper ServiceAccount: get on the namespace, get+patch
+# on this one Application (see demo-vcluster-reaper.yaml). No new permissions.
 apiVersion: batch/v1
 kind: CronJob
 metadata:
   name: demo-vcluster-sync-nudge
   namespace: infrastructure
 spec:
-  # :04-:08 past each hour: a small window after the :00 reap, by which the
-  # namespace should have finished terminating. A normal sync (apply) is a no-op
-  # once the app is already Synced, so repeating it is safe (not --force, which
-  # could delete+recreate a healthy vcluster).
-  schedule: "4,5,6,7,8 * * * *"
+  schedule: "* * * * *"
   concurrencyPolicy: Forbid
-  successfulJobsHistoryLimit: 3
+  successfulJobsHistoryLimit: 1
   failedJobsHistoryLimit: 3
   jobTemplate:
     spec:
-      backoffLimit: 1
-      activeDeadlineSeconds: 60
+      backoffLimit: 0
+      activeDeadlineSeconds: 50
+      ttlSecondsAfterFinished: 300
       template:
         metadata:
           annotations:
@@ -36,24 +39,30 @@ spec:
           restartPolicy: Never
           containers:
           - name: sync-nudge
-            image: registry.k8s.io/kubectl:v1.33.4
-            # Distroless kubectl; in-cluster config from the mounted SA token.
-            # Patch .operation to trigger a normal sync (apply + prune).
-            command: ["kubectl"]
+            # Needs a shell for the checks (registry.k8s.io/kubectl is distroless).
+            image: alpine/k8s:1.33.4
+            command: ["/bin/sh", "-c"]
             args:
-            - patch
-            - application
-            - demo-vcluster-01
-            - -n
-            - argocd-system
-            - --type
-            - merge
-            - -p
-            - '{"operation":{"initiatedBy":{"username":"demo-vcluster-sync-nudge"},"sync":{"prune":true}}}'
+            - |
+              set -u
+              NS=demo-vcluster-01
+              phase=$(kubectl get namespace "$NS" -o jsonpath='{.status.phase}' 2>/dev/null || true)
+              if [ "$phase" = "Terminating" ]; then
+                echo "namespace $NS is Terminating, waiting for the next run"; exit 0
+              fi
+              state=$(kubectl -n argocd-system get application "$NS" \
+                -o jsonpath='{.status.sync.status}/{.status.operationState.phase}')
+              case "$state" in
+                Synced/*)  echo "app is $state, nothing to do"; exit 0 ;;
+                */Running) echo "sync already running ($state)"; exit 0 ;;
+              esac
+              echo "namespace=${phase:-missing} app=$state, triggering a sync"
+              kubectl -n argocd-system patch application "$NS" --type merge \
+                -p '{"operation":{"initiatedBy":{"username":"demo-vcluster-sync-nudge"},"sync":{"prune":true}}}'
             resources:
               requests:
                 cpu: 25m
                 memory: 32Mi
               limits:
-                cpu: 100m
-                memory: 64Mi
+                cpu: 200m
+                memory: 128Mi
