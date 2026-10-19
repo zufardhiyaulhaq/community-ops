@@ -17,6 +17,56 @@ vmsingle:
 vmcluster:
   enabled: false
 
+# Logs: single-node VictoriaLogs. The chart also provisions the
+# "VictoriaLogs (DS)" Grafana datasource pointing at it.
+# Pod logs are ~300 MB/day raw across the cluster, so 7 days fits easily in
+# 10Gi. local-path does not enforce the PVC size, so the disk cap below is the
+# real limit.
+vlsingle:
+  enabled: true
+  spec:
+    retentionPeriod: "7d"
+    retentionMaxDiskSpaceUsageBytes: "8GiB"
+    storage:
+      accessModes: ["ReadWriteOnce"]
+      resources:
+        requests:
+          storage: 10Gi
+    resources:
+      requests:
+        cpu: 100m
+        memory: 256Mi
+      limits:
+        memory: 768Mi
+    # pi-01: lowest memory use and not the vmsingle node (pi-04). Never pi-05
+    # (4 GB control plane).
+    affinity:
+      nodeAffinity:
+        requiredDuringSchedulingIgnoredDuringExecution:
+          nodeSelectorTerms:
+          - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values: ["zufar-pi-01"]
+
+# Log collector: DaemonSet that tails /var/log/containers on each node, adds the
+# k8s metadata and ships to vlsingle. No control-plane toleration, so it skips
+# pi-05 (only coredns/local-path/metrics-server logs there; not worth the RAM).
+vlagent:
+  enabled: true
+  spec:
+    k8sCollector:
+      enabled: true
+    remoteWriteSettings:
+      # On-disk buffer while vlsingle is unreachable; oldest logs drop past this.
+      maxDiskUsagePerURL: 512MiB
+    resources:
+      requests:
+        cpu: 20m
+        memory: 64Mi
+      limits:
+        memory: 192Mi
+
 vmalert:
   enabled: true
 vmagent:
@@ -48,6 +98,12 @@ grafana:
     type: statefulset
     enabled: true
     size: 2Gi
+  # Datasource plugins for the chart-provisioned datasources. Both are signed.
+  # victoriametrics-metrics-datasource was missing, so "VictoriaMetrics (DS)"
+  # had no plugin behind it.
+  plugins:
+  - victoriametrics-logs-datasource
+  - victoriametrics-metrics-datasource
 
 prometheus-node-exporter:
   enabled: true
