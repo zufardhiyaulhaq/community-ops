@@ -1,9 +1,9 @@
 # Sync nudge: keeps the demo-vcluster-01 Application synced, checked every minute.
 #
-# The hourly reaper deletes the demo namespace at :00. A sync that runs while the
-# namespace is still Terminating fails, and ArgoCD auto-sync never retries a
-# failed sync on the same revision ("will not retry for [0.36.1]"). With the old
-# :04-:08 window, one bad window meant the demo stayed down for the whole hour.
+# Safety net. The hourly reaper no longer deletes the namespace (it only resets
+# the vcluster's PVC and pod), so ArgoCD normally stays Synced and this job does
+# nothing. It still catches drift: a failed sync is never retried by ArgoCD
+# auto-sync on the same revision ("will not retry for [0.36.1]").
 #
 # So each minute this job:
 #   - namespace Terminating      -> wait for the next run

@@ -1,16 +1,52 @@
-# Demo vcluster reaper: deletes the demo-vcluster-01 namespace every hour.
-# The demo-vcluster-sync-nudge CronJob (every minute) then syncs the Application
-# until it is Synced again; CreateNamespace=true re-creates the namespace.
-# experimental.deploy re-bootstraps
-# the whole stack clean. Net effect: all visitor state (which lives INSIDE the
-# vcluster, untracked by Argo) is wiped on a fixed hourly wall-clock cycle. Boot
-# + bootstrap takes ~10-15 min, so an hourly cycle leaves ~45 min usable.
+# Demo vcluster reaper: wipes the demo-vcluster-01 vcluster every hour.
 #
-# Lives in infrastructure (stable); it cannot live in demo-vcluster-01, which is
-# the namespace it deletes.
+# It does NOT delete the namespace. Re-creating a deleted namespace depended on
+# ArgoCD's CreateNamespace, and ArgoCD's cluster cache kept missing the delete,
+# so the demo stayed down for hours or days. Now the namespace, the StatefulSet
+# and every ArgoCD-managed object stay in place, and only the vcluster's data is
+# reset:
+#   1. delete the PVC data-demo-vcluster-01-0 (the vcluster's whole database)
+#   2. delete the pod demo-vcluster-01-0, repeating until the old PVC is gone
+#      (the PVC cannot finish deleting while a pod still uses it)
+#   3. the StatefulSet controller (not ArgoCD) recreates the pod with a fresh,
+#      empty PVC; the vcluster boots empty, removes the old synced host objects,
+#      and experimental.deploy installs the demo stack again.
+# Net effect: all visitor state inside the vcluster is wiped on a fixed hourly
+# cycle. Boot + bootstrap takes ~10-15 min, so ~45 min per hour is usable.
 apiVersion: v1
 kind: ServiceAccount
 metadata:
+  name: demo-vcluster-reaper
+  namespace: infrastructure
+---
+# Reset permissions, only inside demo-vcluster-01 and only for the vcluster's
+# own pod and PVC.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: demo-vcluster-reaper
+  namespace: demo-vcluster-01
+rules:
+- apiGroups: [""]
+  resources: ["pods"]
+  verbs: ["get", "delete"]
+  resourceNames: ["demo-vcluster-01-0"]
+- apiGroups: [""]
+  resources: ["persistentvolumeclaims"]
+  verbs: ["get", "delete"]
+  resourceNames: ["data-demo-vcluster-01-0"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: demo-vcluster-reaper
+  namespace: demo-vcluster-01
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: demo-vcluster-reaper
+subjects:
+- kind: ServiceAccount
   name: demo-vcluster-reaper
   namespace: infrastructure
 ---
@@ -19,17 +55,13 @@ kind: ClusterRole
 metadata:
   name: demo-vcluster-reaper
 rules:
-# Scoped to only the demo namespace: get + delete. Namespaces are cluster-scoped
-# so this must be a ClusterRole; resourceNames limits the blast radius to
-# demo-vcluster-01 alone. The delete uses --wait=false precisely because a
-# waiting delete needs list/watch on namespaces, which resourceNames cannot grant.
+# Used by the demo-vcluster-sync-nudge CronJob (same ServiceAccount): read the
+# demo namespace, and patch the one demo Application's .operation to trigger a
+# sync. Both scoped to the single name.
 - apiGroups: [""]
   resources: ["namespaces"]
-  verbs: ["get", "delete"]
+  verbs: ["get"]
   resourceNames: ["demo-vcluster-01"]
-# Used by the demo-vcluster-sync-nudge CronJob (same ServiceAccount) to patch the
-# one demo Application's .operation and trigger a sync. Scoped to the single app
-# name; no access to any other Application.
 - apiGroups: ["argoproj.io"]
   resources: ["applications"]
   verbs: ["get", "patch"]
@@ -55,15 +87,14 @@ metadata:
   namespace: infrastructure
 spec:
   schedule: "0 * * * *"
-  # Never overlap a reap with the previous one.
+  # Never overlap a reset with the previous one.
   concurrencyPolicy: Forbid
   successfulJobsHistoryLimit: 3
   failedJobsHistoryLimit: 3
   jobTemplate:
     spec:
       backoffLimit: 1
-      # The reap is a single fast API call; don't let a stuck run linger.
-      activeDeadlineSeconds: 120
+      activeDeadlineSeconds: 300
       template:
         metadata:
           annotations:
@@ -74,23 +105,46 @@ spec:
           restartPolicy: Never
           containers:
           - name: reaper
-            image: registry.k8s.io/kubectl:v1.33.4
-            # Distroless image (no shell): invoke kubectl directly. In-cluster
-            # config from the mounted ServiceAccount token. --wait=false so we
-            # don't block on finalizers -- and a waiting delete would need
-            # list/watch on namespaces, which the resourceNames-scoped RBAC
-            # cannot grant. The sync-nudge CronJob rebuilds afterwards.
-            command: ["kubectl"]
+            # Needs a shell for the loop (registry.k8s.io/kubectl is distroless).
+            image: alpine/k8s:1.33.4
+            command: ["/bin/sh", "-c"]
             args:
-            - delete
-            - namespace
-            - demo-vcluster-01
-            - --ignore-not-found
-            - --wait=false
+            - |
+              set -u
+              NS=demo-vcluster-01
+              PVC=data-demo-vcluster-01-0
+              POD=demo-vcluster-01-0
+              old=$(kubectl -n "$NS" get pvc "$PVC" -o jsonpath='{.metadata.uid}' 2>/dev/null || true)
+              if [ -z "$old" ]; then
+                echo "no PVC $PVC, nothing to reset"; exit 0
+              fi
+              echo "resetting vcluster: deleting PVC $PVC ($old)"
+              kubectl -n "$NS" delete pvc "$PVC" --wait=false
+              # The StatefulSet recreates the pod at once, which would keep the old
+              # PVC in use. Keep deleting the pod until the old PVC is gone (the
+              # StatefulSet then creates a new PVC under the same name, new UID).
+              i=0
+              while [ $i -lt 60 ]; do
+                i=$((i+1))
+                kubectl -n "$NS" delete pod "$POD" --wait=false --ignore-not-found >/dev/null
+                cur=$(kubectl -n "$NS" get pvc "$PVC" -o jsonpath='{.metadata.uid}' 2>/dev/null || true)
+                if [ "$cur" != "$old" ]; then
+                  echo "old PVC gone after $i round(s)"; break
+                fi
+                sleep 3
+              done
+              if [ "$cur" = "$old" ]; then
+                echo "old PVC still present after $i rounds"; exit 1
+              fi
+              # A pod created while the old PVC was terminating cannot start;
+              # replace it once more so it binds the fresh PVC.
+              sleep 3
+              kubectl -n "$NS" delete pod "$POD" --wait=false --ignore-not-found
+              echo "reset done"
             resources:
               requests:
                 cpu: 25m
                 memory: 32Mi
               limits:
-                cpu: 100m
-                memory: 64Mi
+                cpu: 200m
+                memory: 128Mi
