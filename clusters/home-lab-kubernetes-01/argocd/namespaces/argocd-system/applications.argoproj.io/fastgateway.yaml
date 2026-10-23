@@ -8,24 +8,22 @@ spec:
   source:
     repoURL: https://charts.fastgateway.dev/releases/
     chart: fastgateway
-    targetRevision: 1.4.0
+    targetRevision: 1.5.0
     helm:
       releaseName: fastgateway
       valuesObject:
         # Backend/frontend images are public multi-arch (amd64 + arm64) on ghcr.
-        # On the mutable `main` tag for testing unreleased code, so pullPolicy
-        # Always. ArgoCD cannot see a new build under the same tag: after a new
-        # main image, `kubectl -n fastgateway-system rollout restart deploy/<name>`.
-        # Go back to a release tag + IfNotPresent once testing is done.
+        # Pinned to immutable release tags (backend v0.6.0, frontend v0.6.0), so
+        # pullPolicy IfNotPresent is correct (reproducible; no re-pull churn).
         # Chart-default resources suit the Pi lab.
         backend:
           image:
-            tag: main
-            pullPolicy: Always
+            tag: v0.6.0
+            pullPolicy: IfNotPresent
         frontend:
           image:
-            tag: main
-            pullPolicy: Always
+            tag: v0.6.0
+            pullPolicy: IfNotPresent
         database:
           type: external
           external:
