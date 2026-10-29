@@ -89,14 +89,14 @@ releases:
 
 - name: argocd
   namespace: argocd-system
-  version: 10.4.1
+  version: 10.11.6
   chart: argo/argo-cd
   values:
   - releases/argocd-system/argocd.yaml
 
 - name: victoria-metrics
   namespace: observability-system
-  version: 0.91.2
+  version: 0.97.0
   chart: vm/victoria-metrics-k8s-stack
   values:
   - releases/observability-system/victoria-metrics.yaml
