@@ -123,6 +123,11 @@ coreDns:
   enabled: true
 kubelet:
   enabled: true
+  vmScrapes:
+    # Chart 0.97.0 turned the kubelet /metrics/resource scrape off by default;
+    # keep it on so the upgrade does not drop metrics collected before.
+    resources:
+      enabled: true
 kubeApiServer:
   enabled: true
 kubeControllerManager:
