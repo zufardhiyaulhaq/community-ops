@@ -1,0 +1,5 @@
+resources:
+- pergent-sh.yaml
+namespace: pergent-sh
+commonLabels:
+  namespace: pergent-sh

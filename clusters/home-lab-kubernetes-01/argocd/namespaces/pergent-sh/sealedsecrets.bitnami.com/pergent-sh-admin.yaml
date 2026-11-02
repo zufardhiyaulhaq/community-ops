@@ -1,0 +1,13 @@
+---
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  name: pergent-sh-admin
+  namespace: pergent-sh
+spec:
+  encryptedData:
+    password: AgDB9N6J1keU3+pIVTcKztU4mmTJnlV5oTiccJqb5QrB2u0PyoCV8LFeuIbrk3LH9ZpzmOKyiOSxDkk9WwJBKEpvKfONYCgiS2kdQ3AxsPmKQzCn1M3XSa41DwVbxFn9z0yVB7pqZFzw9TLEcpyy8FJ+pJPRjE9rtPbXEM5Lgwj5JZAuZBoZPQ/itU35Zv6xE96/V+NDxXBHTIdzO85nnDxHOFrAfUMXY2YkbI2yBw6fmurJTPj33jKXTA9sM1VziT+uueaxxxaf00gHEZ17CPBAS1NEL9wNnxGQVn55WJEyWEf3tXeKSfXvgYK0kZ8The8kCojRWgw/h7D5w6/z43N84bNvjO1pAkiocnTZ0AdE/3fZ8ZfP/1XDnuSOS4DK52EVj5In3xVxf14CIgKC7AiTIsA/k8UzV1vaptLI5dqn5VOE9ckKPt+VPpYdl2imrbHYHYITI3q5x1ezP/g62SmXRyaVIalFTCTgWr3yVnCDaoSpfsRWFZZAXpnBZH+Su6n+lPSgIC7MkiQXyNnzI8hPQWSEJbBShQ5wYJZ3lEhupcRJlrwHFAGHqAxdPtUsKfrBzCxu6R1HzVWVB+QiL0qkiuAcy+ha4te599hd0DynP/4vRp2i/mYDXgfd+LmVYW1FSv2I32kjAgOw5YXI8FH1HcE9YhnAQJBxBlTwlftY3qOEAKSUaJTWKfcOwxeLYfdmdhoUvgZw10DLqiZvK412iaYUqGjtuTDJLHGW7OGP2YOTpu5Pvr62qXM=
+  template:
+    metadata:
+      name: pergent-sh-admin
+      namespace: pergent-sh

@@ -1,0 +1,59 @@
+apiVersion: postgresql.cnpg.io/v1
+kind: Cluster
+metadata:
+  name: pergent-pg
+  namespace: pergent-sh
+spec:
+  # Master only (single primary, no replica -> no HA/failover).
+  # Set instances: 2 for 1 primary + 1 hot standby.
+  instances: 1
+
+  # Use the operator's default PostgreSQL image (multi-arch, arm64-safe) so we
+  # don't pin a tag that may not exist for this arch. pergent.sh needs
+  # PostgreSQL 13 or newer.
+
+  primaryUpdateStrategy: unsupervised
+  primaryUpdateMethod: switchover
+
+  storage:
+    size: 2Gi
+    storageClass: local-path
+
+  # Very low spec for the Raspberry Pi lab.
+  resources:
+    requests:
+      cpu: 100m
+      memory: 256Mi
+    limits:
+      cpu: "1"
+      memory: 512Mi
+
+  postgresql:
+    parameters:
+      # Keep Postgres within the 512Mi limit. pergent.sh runs one replica.
+      shared_buffers: "128MB"
+      max_connections: "50"
+
+  monitoring:
+    # DB instance metrics (:9187). PodMonitor CRD is present in the cluster.
+    enablePodMonitor: true
+
+  bootstrap:
+    initdb:
+      database: pergent
+      owner: pergent
+      # Password initially auto-generated; overridden declaratively below.
+
+  # The pergent role password comes from the sealed pergent-sh-secrets Secret,
+  # the same Secret the pergent.sh chart mounts (existingSecret). The chart
+  # only reads a full DATABASE_URL, so that Secret holds username, password
+  # (read here; CNPG checks username matches the role) and a DATABASE_URL with
+  # the same password, plus PERGENT_SH_SECRET_KEY. One Secret, one password.
+  managed:
+    roles:
+    - name: pergent
+      ensure: present
+      login: true
+      superuser: false
+      passwordSecret:
+        name: pergent-sh-secrets

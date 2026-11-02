@@ -1,0 +1,4 @@
+namespace: pergent-sh
+commonLabels:
+  namespace: pergent-sh
+  owner: zufardhiyaulhaq

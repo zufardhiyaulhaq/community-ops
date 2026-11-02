@@ -11,3 +11,5 @@ resources:
 - namespaces/fastgateway-system
 - namespaces/redis-system
 - namespaces/envoy-gateway-system
+- namespaces/pergent-sh
+- namespaces/pergent
