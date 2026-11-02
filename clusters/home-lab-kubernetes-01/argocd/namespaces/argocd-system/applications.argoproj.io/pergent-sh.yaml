@@ -20,6 +20,14 @@ spec:
         # pergent role (see clusters.postgresql.cnpg.io/pergent-pg.yaml).
         existingSecret: pergent-sh-secrets
 
+        # First dashboard admin password, from a sealed Secret instead of a
+        # generated one printed in the pod log. pergent.sh reads it only on the
+        # first start (it creates the `admin` account) and forces a change at
+        # the first sign-in. Passed as config.dashboard.admin_password_env.
+        adminPassword:
+          existingSecret: pergent-sh-admin
+          key: password
+
         # Review Jobs run here; the chart creates the Role, RoleBinding and
         # NetworkPolicy. The namespace is created by kustomize.
         jobsNamespace: pergent
@@ -49,10 +57,11 @@ spec:
             namespace: pergent
           # Turning the dashboard on lets pergent.sh start with no GitLab or
           # GitHub instance in this file; instances and the LLM key are added
-          # in the dashboard later. Without adminPassword.existingSecret the
-          # first admin password is generated and logged once at first start.
+          # in the dashboard later.
           dashboard:
             url: https://pergent-dashboard.zufardhiyaulhaq.com
+            # Env var the chart fills from adminPassword.existingSecret.
+            admin_password_env: PERGENT_SH_ADMIN_PASSWORD
   destination:
     server: https://kubernetes.default.svc
     namespace: pergent-sh
