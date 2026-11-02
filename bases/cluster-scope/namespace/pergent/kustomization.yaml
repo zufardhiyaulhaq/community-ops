@@ -1,0 +1,5 @@
+resources:
+- pergent.yaml
+namespace: pergent
+commonLabels:
+  namespace: pergent

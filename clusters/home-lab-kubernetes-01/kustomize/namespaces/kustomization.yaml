@@ -10,3 +10,5 @@ resources:
 - fastgateway-system
 - redis-system
 - envoy-gateway-system
+- pergent-sh
+- pergent

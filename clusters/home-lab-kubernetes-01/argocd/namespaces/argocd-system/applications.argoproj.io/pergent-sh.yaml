@@ -1,0 +1,64 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: pergent-sh-app
+  namespace: argocd-system
+spec:
+  project: default
+  source:
+    repoURL: https://gopaytech.github.io/pergent.sh/charts/releases
+    chart: pergent-sh
+    targetRevision: 0.4.0
+    helm:
+      releaseName: pergent-sh
+      valuesObject:
+        # Chart 0.4.0 runs pergent.sh v0.4.0 and review Jobs default to the
+        # pergent v0.1.2 image; both images are multi-arch (amd64 + arm64).
+
+        # Sealed Secret in pergent-sh, mounted with envFrom: DATABASE_URL,
+        # PERGENT_SH_SECRET_KEY, plus username/password read by CNPG for the
+        # pergent role (see clusters.postgresql.cnpg.io/pergent-pg.yaml).
+        existingSecret: pergent-sh-secrets
+
+        # Review Jobs run here; the chart creates the Role, RoleBinding and
+        # NetworkPolicy. The namespace is created by kustomize.
+        jobsNamespace: pergent
+
+        # Jobs may reach GitHub/GitLab and the LLM provider on 80/443, but not
+        # the pod network, the Service network, the home LAN or link-local
+        # metadata. The in-cluster callback on 8080 is allowed by the chart.
+        jobEgress:
+          cidrs:
+          - 0.0.0.0/0
+          except:
+          - 10.42.0.0/16      # k3s pod CIDR
+          - 10.43.0.0/16      # k3s Service CIDR
+          - 192.168.18.0/24   # home LAN (Raspberry Pis)
+          - 169.254.0.0/16    # link-local / metadata
+
+        config:
+          listen: ":8080"
+          # Not exposed yet: no Gateway, VirtualService, DNS or Certificate
+          # routes these hosts. They must be https and are only used once
+          # pergent.sh is published.
+          public_url: https://pergent.zufardhiyaulhaq.com
+          # Jobs post results in-cluster, so they never need the public host.
+          callback_url: http://pergent-sh.pergent-sh.svc:8080
+          repositories: []
+          jobs:
+            namespace: pergent
+          # Turning the dashboard on lets pergent.sh start with no GitLab or
+          # GitHub instance in this file; instances and the LLM key are added
+          # in the dashboard later. Without adminPassword.existingSecret the
+          # first admin password is generated and logged once at first start.
+          dashboard:
+            url: https://pergent-dashboard.zufardhiyaulhaq.com
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: pergent-sh
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=false
