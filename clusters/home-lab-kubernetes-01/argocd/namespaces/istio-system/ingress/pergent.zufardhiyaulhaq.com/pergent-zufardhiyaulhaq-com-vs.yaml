@@ -1,0 +1,25 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: pergent-zufardhiyaulhaq-com-vs
+  namespace: istio-system
+spec:
+  hosts:
+  - "pergent.zufardhiyaulhaq.com"
+  gateways:
+  - istio-system/pergent-zufardhiyaulhaq-com-gateway
+  http:
+  # Only the GitHub App webhook is public. The dashboard stays on
+  # port-forward, and review / scan Jobs report back in-cluster through
+  # callback_url, so /runs/ and /readiness-scans/ are not routed here.
+  - name: "github-webhooks"
+    match:
+    - uri:
+        prefix: /webhooks/github/
+    route:
+      - destination:
+          port:
+            number: 8080
+          host: pergent-sh.pergent-sh.svc.cluster.local
+  exportTo:
+    - "."

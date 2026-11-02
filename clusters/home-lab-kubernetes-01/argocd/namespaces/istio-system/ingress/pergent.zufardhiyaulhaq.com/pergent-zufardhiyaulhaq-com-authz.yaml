@@ -1,0 +1,37 @@
+apiVersion: security.istio.io/v1beta1
+kind: AuthorizationPolicy
+metadata:
+  name: pergent-zufardhiyaulhaq-com-authz
+  namespace: istio-system
+spec:
+  selector:
+    matchLabels:
+      app: istio-public-gateway
+  action: ALLOW
+  rules:
+  # Only GitHub's webhook senders may POST to the webhook path. Anything else
+  # on this host gets 403 at the gateway. pergent.sh still checks every body
+  # against the webhook secret (X-Hub-Signature-256).
+  # remoteIpBlocks is the real client: frp sends PROXY protocol v2 to the
+  # gateway. Ranges are the "hooks" list of https://api.github.com/meta;
+  # if GitHub adds one, deliveries from it get 403 until it is added here.
+  - from:
+    - source:
+        remoteIpBlocks:
+        - 192.30.252.0/22
+        - 185.199.108.0/22
+        - 140.82.112.0/20
+        - 143.55.64.0/20
+        - 9.234.106.48/28
+        - 9.234.98.160/28
+        - 9.234.98.176/28
+        - 2a0a:a440::/29
+        - 2606:50c0::/32
+    to:
+    - operation:
+        hosts:
+        - pergent.zufardhiyaulhaq.com
+        methods:
+        - POST
+        paths:
+        - /webhooks/github/*
