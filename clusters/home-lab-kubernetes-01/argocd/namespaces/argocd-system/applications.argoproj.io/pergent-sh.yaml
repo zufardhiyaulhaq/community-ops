@@ -8,12 +8,12 @@ spec:
   source:
     repoURL: https://gopaytech.github.io/pergent.sh/charts/releases
     chart: pergent-sh
-    targetRevision: 0.5.1
+    targetRevision: 0.5.2
     helm:
       releaseName: pergent-sh
       valuesObject:
-        # Chart 0.5.1 runs pergent.sh v0.5.1 and review Jobs default to the
-        # pergent v0.1.3 image (ships ripgrep); both are multi-arch (amd64 + arm64).
+        # Chart 0.5.2 runs pergent.sh v0.5.2 and review Jobs default to the
+        # pergent v0.2.0 image; both are multi-arch (amd64 + arm64).
 
         # Sealed Secret in pergent-sh, mounted with envFrom: DATABASE_URL,
         # PERGENT_SH_SECRET_KEY, plus username/password read by CNPG for the
