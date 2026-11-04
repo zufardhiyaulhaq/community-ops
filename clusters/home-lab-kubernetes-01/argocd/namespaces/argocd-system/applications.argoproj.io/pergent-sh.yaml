@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://gopaytech.github.io/pergent.sh/charts/releases
     chart: pergent-sh
-    targetRevision: 0.5.3
+    targetRevision: 0.5.4
     helm:
       releaseName: pergent-sh
       valuesObject:
