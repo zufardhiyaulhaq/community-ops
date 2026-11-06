@@ -12,8 +12,8 @@ spec:
     helm:
       releaseName: pergent-sh
       valuesObject:
-        # Chart 0.5.2 runs pergent.sh v0.5.2 and review Jobs default to the
-        # pergent v0.2.0 image; both are multi-arch (amd64 + arm64).
+        # Chart 0.8.0 runs pergent.sh v0.8.0 and review Jobs default to the
+        # pergent v0.5.3 image; both are multi-arch (amd64 + arm64).
 
         # Sealed Secret in pergent-sh, mounted with envFrom: DATABASE_URL,
         # PERGENT_SH_SECRET_KEY, plus username/password read by CNPG for the
