@@ -12,10 +12,14 @@ spec:
   # Only the GitHub App webhook is public. The dashboard stays on
   # port-forward, and review / scan Jobs report back in-cluster through
   # callback_url, so /runs/ and /readiness-scans/ are not routed here.
+  # Exact paths, one per pergent.sh instance: any other path has no route
+  # (404). A new instance needs its path added here.
   - name: "github-webhooks"
     match:
     - uri:
-        prefix: /webhooks/github/
+        exact: /webhooks/github/github-gopaytech
+    - uri:
+        exact: /webhooks/github/github-zufardhiyaulhaq
     route:
       - destination:
           port:
