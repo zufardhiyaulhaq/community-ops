@@ -44,6 +44,13 @@ spec:
           - 192.168.18.0/24   # home LAN (Raspberry Pis)
           - 169.254.0.0/16    # link-local / metadata
 
+        # Prometheus metrics on their own port and ClusterIP Service. The
+        # VictoriaMetrics operator converts the ServiceMonitor to a scrape.
+        metrics:
+          enabled: true
+          serviceMonitor:
+            enabled: true
+
         config:
           listen: ":8080"
           # Not exposed yet: no Gateway, VirtualService, DNS or Certificate
