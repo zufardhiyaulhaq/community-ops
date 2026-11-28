@@ -8,12 +8,12 @@ spec:
   source:
     repoURL: https://gopaytech.github.io/pergent.sh/charts/releases
     chart: pergent-sh
-    targetRevision: 0.25.0
+    targetRevision: 0.27.0
     helm:
       releaseName: pergent-sh
       valuesObject:
-        # Chart 0.25.0 runs pergent.sh v0.25.0 and review Jobs default to the
-        # pergent v0.12.0 image; both are multi-arch (amd64 + arm64).
+        # Chart 0.27.0 runs pergent.sh v0.27.0 and review Jobs default to the
+        # pergent v0.14.0 image; both are multi-arch (amd64 + arm64).
 
         # Sealed Secret in pergent-sh, mounted with envFrom: DATABASE_URL,
         # PERGENT_SH_SECRET_KEY, plus username/password read by CNPG for the
@@ -36,6 +36,21 @@ spec:
         # the pod network, the Service network, the home LAN or link-local
         # metadata. The in-cluster callback on 8080 is allowed by the chart.
         jobEgress:
+          cidrs:
+          - 0.0.0.0/0
+          except:
+          - 10.42.0.0/16      # k3s pod CIDR
+          - 10.43.0.0/16      # k3s Service CIDR
+          - 192.168.18.0/24   # home LAN (Raspberry Pis)
+          - 169.254.0.0/16    # link-local / metadata
+
+        # Security scan Jobs have their own NetworkPolicy, and jobEgress does
+        # not apply to them. Chart 0.27.0 defaults these cidrs to 0.0.0.0/0
+        # with no except, which turns scans on and lets a scan Job reach the
+        # pod network and the home LAN on 80/443. Keep the same except list
+        # as jobEgress. A scan gets its source from pergent.sh in-cluster
+        # through callback_url, so it never needs GitHub or GitLab.
+        securityJobEgress:
           cidrs:
           - 0.0.0.0/0
           except:
